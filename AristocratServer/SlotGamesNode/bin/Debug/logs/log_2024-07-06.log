@@ -1,0 +1,7 @@
+[2024-07-06 15:21:49.3940] [INFO] [SlotGamesNode.SlotGamesService] Starting SlotGamesNode Service... 
+[2024-07-06 15:21:49.9807] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-07-06 15:21:50.2920] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8091] 
+[2024-07-06 15:21:50.2920] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8091] 
+[2024-07-06 15:21:50.3130] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Starting up... 
+[2024-07-06 15:21:50.3319] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Started up successfully 
+[2024-07-06 15:21:50.3928] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - No seed-nodes configured, manual cluster join required 

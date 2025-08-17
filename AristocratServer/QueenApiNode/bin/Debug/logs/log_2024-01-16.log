@@ -1,0 +1,58 @@
+[2024-01-16 21:11:02.2267] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-01-16 21:11:02.6185] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-01-16 21:11:02.8044] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-01-16 21:11:02.8044] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-01-16 21:11:02.8234] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2024-01-16 21:11:02.8374] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2024-01-16 21:11:02.8443] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2024-01-16 21:11:03.3932] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-01-16 21:11:04.7185] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-01-16 21:11:04.8897] [ERROR] [Akka.Actor.OneForOneStrategy] Exception has been thrown by the target of an invocation. System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Net.HttpListenerException: Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at Microsoft.Owin.Host.HttpListener.OwinHttpListener.Start(HttpListener listener, Func`2 appFunc, IList`1 addresses, IDictionary`2 capabilities, Func`2 loggerFactory) in /_/src/Microsoft.Owin.Host.HttpListener/OwinHttpListener.cs:line 187
+   at Microsoft.Owin.Host.HttpListener.OwinServerFactory.Create(Func`2 app, IDictionary`2 properties) in /_/src/Microsoft.Owin.Host.HttpListener/OwinServerFactory.cs:line 100
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Owin.Hosting.ServerFactory.ServerFactoryAdapter.Create(IAppBuilder builder) in /_/src/Microsoft.Owin.Hosting/ServerFactory/ServerFactoryAdapter.cs:line 133
+   at Microsoft.Owin.Hosting.Engine.HostingEngine.StartServer(StartContext context) in /_/src/Microsoft.Owin.Hosting/Engine/HostingEngine.cs:line 420
+   at Microsoft.Owin.Hosting.Engine.HostingEngine.Start(StartContext context) in /_/src/Microsoft.Owin.Hosting/Engine/HostingEngine.cs:line 98
+   at Microsoft.Owin.Hosting.Starter.DirectHostingStarter.Start(StartOptions options) in /_/src/Microsoft.Owin.Hosting/Starter/DirectHostingStarter.cs:line 32
+   at Microsoft.Owin.Hosting.Starter.HostingStarter.Start(StartOptions options) in /_/src/Microsoft.Owin.Hosting/Starter/HostingStarter.cs:line 42
+   at Microsoft.Owin.Hosting.WebApp.StartImplementation(IServiceProvider services, StartOptions options) in /_/src/Microsoft.Owin.Hosting/WebApp.cs:line 121
+   at Microsoft.Owin.Hosting.WebApp.Start(StartOptions options) in /_/src/Microsoft.Owin.Hosting/WebApp.cs:line 84
+   at Microsoft.Owin.Hosting.WebApp.Start[TStartup](StartOptions options) in /_/src/Microsoft.Owin.Hosting/WebApp.cs:line 60
+   at Microsoft.Owin.Hosting.WebApp.Start[TStartup](String url) in /_/src/Microsoft.Owin.Hosting/WebApp.cs:line 47
+   at QueenApiNode.BootstrapActor.<.ctor>b__5_1(ReadyDBProxy dbActors) in F:\Jobs\MYCasino\SlotCityCasinoServer\QueenApiNode\BootstrapActor.cs:line 55
+   at lambda_method(Closure , Object , Action`1 , Action`1 , Action`1 )
+   at Akka.Tools.MatchHandler.PartialHandlerArgumentsCapture`4.Handle(T value)
+   at Akka.Actor.ReceiveActor.ExecutePartialMessageHandler(Object message, PartialAction`1 partialAction)
+   at Akka.Actor.ReceiveActor.OnReceive(Object message)
+   at Akka.Actor.UntypedActor.Receive(Object message)
+   at Akka.Actor.ActorBase.AroundReceive(Receive receive, Object message)
+   at Akka.Actor.ActorCell.ReceiveMessage(Object message)
+   at Akka.Actor.ActorCell.Invoke(Envelope envelope)
+[2024-01-16 21:11:55.5754] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-01-16 21:11:55.9383] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-01-16 21:11:56.2256] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-01-16 21:11:56.2256] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-01-16 21:11:56.2465] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2024-01-16 21:11:56.2854] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2024-01-16 21:11:56.3133] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2024-01-16 21:11:58.3825] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-01-16 21:12:07.5113] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-01-16 21:12:17.1475] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-01-16 21:12:17.4791] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-01-16 21:13:38.7049] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-01-16 21:13:38.9104] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-01-16 21:13:39.0490] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-01-16 21:13:39.0490] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-01-16 21:13:39.0679] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2024-01-16 21:13:39.0809] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2024-01-16 21:13:39.0809] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2024-01-16 21:13:39.2764] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-01-16 21:13:40.8763] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-01-16 21:21:45.5357] [INFO] [Akka.Remote.Transport.DotNetty.TcpServerHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:8094->[::ffff:127.0.0.1]:64730](Id=65a30641) 
+[2024-01-16 21:21:45.5597] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8094]->[akka.tcp://godgaming@127.0.0.1:8091] 

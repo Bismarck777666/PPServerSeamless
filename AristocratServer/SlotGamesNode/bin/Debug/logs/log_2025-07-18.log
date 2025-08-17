@@ -1,0 +1,289 @@
+[2025-07-18 00:10:23.9586] [INFO] [SlotGamesNode.SlotGamesService] Starting SlotGamesNode Service... 
+[2025-07-18 00:10:24.8121] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2025-07-18 00:10:25.2861] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:18091] 
+[2025-07-18 00:10:25.2881] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:18091] 
+[2025-07-18 00:10:25.3101] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:18091] - Starting up... 
+[2025-07-18 00:10:25.3271] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:18091] - Started up successfully 
+[2025-07-18 00:10:25.3501] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:18091] - No seed-nodes configured, manual cluster join required 
+[2025-07-18 00:10:25.5351] [INFO] [SlotGamesNode.BootstrapActor] Start Single Game Server(id:)... 
+[2025-07-18 00:10:25.5351] [INFO] [SlotGamesNode.BootstrapActor] Initializing database proxy... 
+[2025-07-18 00:10:25.7371] [INFO] [SlotGamesNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2025-07-18 00:10:25.7411] [INFO] [SlotGamesNode.BootstrapActor] started loading game database.... 
+[2025-07-18 00:10:27.8932] [ERROR] [SlotGamesNode.GameLogics.AristoGames.LuckyCountGameLogic] couldn't load spin odds information of game LuckyCount 
+[2025-07-18 00:10:27.8932] [ERROR] [SlotGamesNode.BootstrapActor] failed in  loading of game database. 
+[2025-07-18 00:11:25.8651] [INFO] [SlotGamesNode.SlotGamesService] Stop SlotGamesNode Service Started... 
+[2025-07-18 00:11:25.8651] [INFO] [SlotGamesNode.BootstrapActor] Shutting down server.... 
+[2025-07-18 00:11:25.8651] [INFO] [SlotGamesNode.BootstrapActor] Waiting for 20 seconds until all the users connected to this server can connect to other servers 
+[2025-07-18 00:11:45.8785] [INFO] [SlotGamesNode.BootstrapActor] Terminating game logic actors.... 
+[2025-07-18 00:11:45.9095] [INFO] [SlotGamesNode.BootstrapActor] Terminating redis write actors.... 
+[2025-07-18 00:11:45.9095] [INFO] [SlotGamesNode.BootstrapActor] Terminating database proxy actors.... 
+[2025-07-18 00:11:45.9125] [INFO] [SlotGamesNode.SlotGamesService] Leaving from cluster.... 
+[2025-07-18 00:11:46.8097] [INFO] [Akka.Actor.LocalActorRef] Message [String] without sender to akka://godgaming/user/dbproxy/writer/writeWorker was not delivered. [1] dead letters encountered. If this is not an expected behavior then akka://godgaming/user/dbproxy/writer/writeWorker may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2025-07-18 00:13:11.2125] [INFO] [SlotGamesNode.SlotGamesService] Starting SlotGamesNode Service... 
+[2025-07-18 00:13:11.6773] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2025-07-18 00:13:11.9573] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:18091] 
+[2025-07-18 00:13:11.9573] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:18091] 
+[2025-07-18 00:13:11.9773] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:18091] - Starting up... 
+[2025-07-18 00:13:11.9983] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:18091] - Started up successfully 
+[2025-07-18 00:13:12.0732] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:18091] - No seed-nodes configured, manual cluster join required 
+[2025-07-18 00:13:12.1889] [INFO] [SlotGamesNode.BootstrapActor] Start Single Game Server(id:)... 
+[2025-07-18 00:13:12.1939] [INFO] [SlotGamesNode.BootstrapActor] Initializing database proxy... 
+[2025-07-18 00:13:12.4759] [INFO] [SlotGamesNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2025-07-18 00:13:12.4989] [INFO] [SlotGamesNode.BootstrapActor] started loading game database.... 
+[2025-07-18 00:13:17.0674] [INFO] [SlotGamesNode.BootstrapActor] completed loading of game database successfully. 
+[2025-07-18 00:13:17.0684] [INFO] [SlotGamesNode.BootstrapActor] cluster joining... 
+[2025-07-18 00:13:17.3854] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:18091] - Welcome from [akka.tcp://godgaming@127.0.0.1:14055] 
+[2025-07-18 00:20:48.3606] [ERROR] [SlotGamesNode.GameLogics.AristoGames.WerewolfWildGameLogic] Exception has been occurred in BasePPSlotGame::calculateResult System.InvalidOperationException: Cannot access child value on Newtonsoft.Json.Linq.JValue.
+   at Newtonsoft.Json.Linq.JToken.get_Item(Object key)
+   at SlotGamesNode.GameLogics.BasePPSlotGame.calculateResult(BasePPSlotBetInfo betInfo, String strSpinResponse, Boolean isFirst, PPFreeSpinInfo freeSpinInfo) in E:\WORK\Allen\Aristocrat\SlotCityCasinoServer\SlotGamesNode\GameLogics\BaseClasses\BasePPSlotGame.cs:line 1320 
+[2025-07-18 00:21:13.0061] [ERROR] [SlotGamesNode.GameLogics.AristoGames.WerewolfWildGameLogic] Exception has been occurred in BasePPSlotGame::spinGame System.NullReferenceException: Object reference not set to an instance of an object.
+   at SlotGamesNode.GameLogics.BasePPSlotGame.<spinGame>d__116.MoveNext() in E:\WORK\Allen\Aristocrat\SlotCityCasinoServer\SlotGamesNode\GameLogics\BaseClasses\BasePPSlotGame.cs:line 1638 
+[2025-07-18 00:21:13.2981] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:18091] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [24721.0793] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2025-07-18 00:21:13.2981] [WARN] [Akka.Cluster.ClusterCoreDaemon] Cluster Node [akka.tcp://godgaming@127.0.0.1:18091] - Marking node(s) as UNREACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:14055, Uid=1714697517 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://godgaming@127.0.0.1:18083, Uid=262604349 status = Up, role=[comm], upNumber=2, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:18094, Uid=1377358915 status = Up, role=[queenapi], upNumber=3, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:18095, Uid=298390046 status = Up, role=[seamlessapi], upNumber=4, version=1.0.0)]. Node roles [slotgame] 
+[2025-07-18 00:21:13.3181] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:18091] - is the new leader among reachable nodes (more leaders may exist) 
+[2025-07-18 00:21:13.3511] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:18091] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:14055, 1714697517)] 
+[2025-07-18 00:21:13.3511] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:18091] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:14055, 1714697517)] 
+[2025-07-18 00:21:13.4675] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:18091] - Ignoring received gossip from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:14055, 1714697517)] 
+[2025-07-18 00:21:13.5517] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:18091] - Marking node(s) as REACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:18083, Uid=262604349 status = Up, role=[comm], upNumber=2, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:18095, Uid=298390046 status = Up, role=[seamlessapi], upNumber=4, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:18094, Uid=1377358915 status = Up, role=[queenapi], upNumber=3, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:14055, Uid=1714697517 status = Up, role=[lighthouse], upNumber=1, version=1.4.0)]. Node roles [slotgame] 
+[2025-07-18 00:21:13.5557] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:18091] - is no longer leader 
+[2025-07-18 00:23:10.9493] [INFO] [SlotGamesNode.GameLogics.AristoGames.WerewolfWildGameLogic] generateSpinResult: null 
+[2025-07-18 00:33:21.2029] [INFO] [SlotGamesNode.GameLogics.AristoGames.FireLightGameLogic] generateSpinResult: null 
+[2025-07-18 00:37:10.3128] [INFO] [SlotGamesNode.GameLogics.AristoGames.DolphinsTreasureGameLogic] generateSpinResult: null 
+[2025-07-18 00:39:07.7540] [INFO] [SlotGamesNode.GameLogics.AristoGames.DolphinsTreasureGameLogic] generateSpinResult: null 
+[2025-07-18 00:44:38.0747] [INFO] [SlotGamesNode.GameLogics.AristoGames.JaguarMistGameLogic] generateSpinResult: null 
+[2025-07-18 00:52:03.7934] [INFO] [SlotGamesNode.GameLogics.AristoGames.BuffaloGameLogic] generateSpinResult: null 
+[2025-07-18 00:54:38.2171] [INFO] [SlotGamesNode.GameLogics.AristoGames.BigBenGameLogic] generateSpinResult: null 
+[2025-07-18 00:59:41.9151] [INFO] [SlotGamesNode.GameLogics.AristoGames.Lions50GameLogic] generateSpinResult: null 
+[2025-07-18 08:45:03.5928] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:18091] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [25297517.9223] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2025-07-18 08:45:05.6079] [WARN] [Akka.Cluster.ClusterCoreDaemon] Cluster Node [akka.tcp://godgaming@127.0.0.1:18091] - Marking node(s) as UNREACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:14055, Uid=1714697517 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://godgaming@127.0.0.1:18083, Uid=262604349 status = Up, role=[comm], upNumber=2, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:18094, Uid=1377358915 status = Up, role=[queenapi], upNumber=3, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:18095, Uid=298390046 status = Up, role=[seamlessapi], upNumber=4, version=1.0.0)]. Node roles [slotgame] 
+[2025-07-18 08:45:05.9490] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:18091] - is the new leader among reachable nodes (more leaders may exist) 
+[2025-07-18 08:45:05.9980] [ERROR] [Akka.Remote.Transport.ProtocolStateActor] No response from remote. Handshake timed out or transport failure detector triggered. (internal state was Open) 
+[2025-07-18 08:45:06.0385] [ERROR] [Akka.Remote.Transport.ProtocolStateActor] No response from remote. Handshake timed out or transport failure detector triggered. (internal state was Open) 
+[2025-07-18 08:45:06.0545] [ERROR] [Akka.Remote.Transport.ProtocolStateActor] No response from remote. Handshake timed out or transport failure detector triggered. (internal state was Open) 
+[2025-07-18 08:45:06.1055] [ERROR] [Akka.Remote.Transport.ProtocolStateActor] No response from remote. Handshake timed out or transport failure detector triggered. (internal state was Open) 
+[2025-07-18 08:45:06.1055] [INFO] [Akka.Actor.LocalActorRef] Message [InboundPayload] without sender to akka://godgaming/system/transports/akkaprotocolmanager.tcp.0/akkaProtocol-tcp%3A%2F%2Fgodgaming%40127.0.0.1%3A14055-1 was not delivered. [1] dead letters encountered. If this is not an expected behavior then akka://godgaming/system/transports/akkaprotocolmanager.tcp.0/akkaProtocol-tcp%3A%2F%2Fgodgaming%40127.0.0.1%3A14055-1 may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2025-07-18 08:45:06.1055] [INFO] [Akka.Actor.LocalActorRef] Message [InboundPayload] without sender to akka://godgaming/system/transports/akkaprotocolmanager.tcp.0/akkaProtocol-tcp%3A%2F%2Fgodgaming%40127.0.0.1%3A18095-3 was not delivered. [2] dead letters encountered. If this is not an expected behavior then akka://godgaming/system/transports/akkaprotocolmanager.tcp.0/akkaProtocol-tcp%3A%2F%2Fgodgaming%40127.0.0.1%3A18095-3 may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2025-07-18 08:45:06.1055] [INFO] [Akka.Actor.LocalActorRef] Message [InboundPayload] without sender to akka://godgaming/system/transports/akkaprotocolmanager.tcp.0/akkaProtocol-tcp%3A%2F%2Fgodgaming%40127.0.0.1%3A18095-3 was not delivered. [3] dead letters encountered. If this is not an expected behavior then akka://godgaming/system/transports/akkaprotocolmanager.tcp.0/akkaProtocol-tcp%3A%2F%2Fgodgaming%40127.0.0.1%3A18095-3 may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2025-07-18 08:45:06.1055] [WARN] [Akka.Remote.ReliableDeliverySupervisor] Association with remote system akka.tcp://godgaming@127.0.0.1:18095 has failed; address is now gated for 5000 ms. Reason is: [Akka.Remote.EndpointDisassociatedException: Disassociated
+   at Akka.Remote.EndpointWriter.PublishAndThrow(Exception reason, LogLevel level, Boolean needToThrow)
+   at Akka.Remote.EndpointWriter.Unhandled(Object message)
+   at Akka.Actor.ReceiveActor.ExecutePartialMessageHandler(Object message, PartialAction`1 partialAction)
+   at Akka.Actor.ReceiveActor.<>c__DisplayClass11_0.<Become>b__0(Object m)
+   at Akka.Actor.ActorCell.<>c__DisplayClass114_0.<Akka.Actor.IUntypedActorContext.Become>b__0(Object m)
+   at Akka.Actor.ActorBase.AroundReceive(Receive receive, Object message)
+   at Akka.Actor.ActorCell.ReceiveMessage(Object message)
+   at Akka.Actor.ActorCell.ReceivedTerminated(Terminated t)
+   at Akka.Actor.ActorCell.AutoReceiveMessage(Envelope envelope)
+   at Akka.Actor.ActorCell.Invoke(Envelope envelope)] 
+[2025-07-18 08:45:06.1055] [WARN] [Akka.Remote.ReliableDeliverySupervisor] Association with remote system akka.tcp://godgaming@127.0.0.1:14055 has failed; address is now gated for 5000 ms. Reason is: [Akka.Remote.EndpointDisassociatedException: Disassociated
+   at Akka.Remote.EndpointWriter.PublishAndThrow(Exception reason, LogLevel level, Boolean needToThrow)
+   at Akka.Remote.EndpointWriter.Unhandled(Object message)
+   at Akka.Actor.ReceiveActor.ExecutePartialMessageHandler(Object message, PartialAction`1 partialAction)
+   at Akka.Actor.ReceiveActor.<>c__DisplayClass11_0.<Become>b__0(Object m)
+   at Akka.Actor.ActorCell.<>c__DisplayClass114_0.<Akka.Actor.IUntypedActorContext.Become>b__0(Object m)
+   at Akka.Actor.ActorBase.AroundReceive(Receive receive, Object message)
+   at Akka.Actor.ActorCell.ReceiveMessage(Object message)
+   at Akka.Actor.ActorCell.ReceivedTerminated(Terminated t)
+   at Akka.Actor.ActorCell.AutoReceiveMessage(Envelope envelope)
+   at Akka.Actor.ActorCell.Invoke(Envelope envelope)] 
+[2025-07-18 08:45:06.1195] [WARN] [Akka.Remote.ReliableDeliverySupervisor] Association with remote system akka.tcp://godgaming@127.0.0.1:18094 has failed; address is now gated for 5000 ms. Reason is: [Akka.Remote.EndpointDisassociatedException: Disassociated
+   at Akka.Remote.EndpointWriter.PublishAndThrow(Exception reason, LogLevel level, Boolean needToThrow)
+   at Akka.Remote.EndpointWriter.Unhandled(Object message)
+   at Akka.Actor.ReceiveActor.ExecutePartialMessageHandler(Object message, PartialAction`1 partialAction)
+   at Akka.Actor.ReceiveActor.<>c__DisplayClass11_0.<Become>b__0(Object m)
+   at Akka.Actor.ActorCell.<>c__DisplayClass114_0.<Akka.Actor.IUntypedActorContext.Become>b__0(Object m)
+   at Akka.Actor.ActorBase.AroundReceive(Receive receive, Object message)
+   at Akka.Actor.ActorCell.ReceiveMessage(Object message)
+   at Akka.Actor.ActorCell.ReceivedTerminated(Terminated t)
+   at Akka.Actor.ActorCell.AutoReceiveMessage(Envelope envelope)
+   at Akka.Actor.ActorCell.Invoke(Envelope envelope)] 
+[2025-07-18 08:45:06.1195] [WARN] [Akka.Remote.ReliableDeliverySupervisor] Association with remote system akka.tcp://godgaming@127.0.0.1:18083 has failed; address is now gated for 5000 ms. Reason is: [Akka.Remote.EndpointDisassociatedException: Disassociated
+   at Akka.Remote.EndpointWriter.PublishAndThrow(Exception reason, LogLevel level, Boolean needToThrow)
+   at Akka.Remote.EndpointWriter.Unhandled(Object message)
+   at Akka.Actor.ReceiveActor.ExecutePartialMessageHandler(Object message, PartialAction`1 partialAction)
+   at Akka.Actor.ReceiveActor.<>c__DisplayClass11_0.<Become>b__0(Object m)
+   at Akka.Actor.ActorCell.<>c__DisplayClass114_0.<Akka.Actor.IUntypedActorContext.Become>b__0(Object m)
+   at Akka.Actor.ActorBase.AroundReceive(Receive receive, Object message)
+   at Akka.Actor.ActorCell.ReceiveMessage(Object message)
+   at Akka.Actor.ActorCell.ReceivedTerminated(Terminated t)
+   at Akka.Actor.ActorCell.AutoReceiveMessage(Envelope envelope)
+   at Akka.Actor.ActorCell.Invoke(Envelope envelope)] 
+[2025-07-18 08:45:06.1195] [ERROR] [Akka.Actor.OneForOneStrategy] Disassociated Akka.Remote.EndpointDisassociatedException: Disassociated
+   at Akka.Remote.EndpointWriter.PublishAndThrow(Exception reason, LogLevel level, Boolean needToThrow)
+   at Akka.Remote.EndpointWriter.Unhandled(Object message)
+   at Akka.Actor.ReceiveActor.ExecutePartialMessageHandler(Object message, PartialAction`1 partialAction)
+   at Akka.Actor.ReceiveActor.<>c__DisplayClass11_0.<Become>b__0(Object m)
+   at Akka.Actor.ActorCell.<>c__DisplayClass114_0.<Akka.Actor.IUntypedActorContext.Become>b__0(Object m)
+   at Akka.Actor.ActorBase.AroundReceive(Receive receive, Object message)
+   at Akka.Actor.ActorCell.ReceiveMessage(Object message)
+   at Akka.Actor.ActorCell.ReceivedTerminated(Terminated t)
+   at Akka.Actor.ActorCell.AutoReceiveMessage(Envelope envelope)
+   at Akka.Actor.ActorCell.Invoke(Envelope envelope)
+[2025-07-18 08:45:06.1354] [ERROR] [Akka.Actor.OneForOneStrategy] Disassociated Akka.Remote.EndpointDisassociatedException: Disassociated
+   at Akka.Remote.EndpointWriter.PublishAndThrow(Exception reason, LogLevel level, Boolean needToThrow)
+   at Akka.Remote.EndpointWriter.Unhandled(Object message)
+   at Akka.Actor.ReceiveActor.ExecutePartialMessageHandler(Object message, PartialAction`1 partialAction)
+   at Akka.Actor.ReceiveActor.<>c__DisplayClass11_0.<Become>b__0(Object m)
+   at Akka.Actor.ActorCell.<>c__DisplayClass114_0.<Akka.Actor.IUntypedActorContext.Become>b__0(Object m)
+   at Akka.Actor.ActorBase.AroundReceive(Receive receive, Object message)
+   at Akka.Actor.ActorCell.ReceiveMessage(Object message)
+   at Akka.Actor.ActorCell.ReceivedTerminated(Terminated t)
+   at Akka.Actor.ActorCell.AutoReceiveMessage(Envelope envelope)
+   at Akka.Actor.ActorCell.Invoke(Envelope envelope)
+[2025-07-18 08:45:06.1354] [ERROR] [Akka.Actor.OneForOneStrategy] Disassociated Akka.Remote.EndpointDisassociatedException: Disassociated
+   at Akka.Remote.EndpointWriter.PublishAndThrow(Exception reason, LogLevel level, Boolean needToThrow)
+   at Akka.Remote.EndpointWriter.Unhandled(Object message)
+   at Akka.Actor.ReceiveActor.ExecutePartialMessageHandler(Object message, PartialAction`1 partialAction)
+   at Akka.Actor.ReceiveActor.<>c__DisplayClass11_0.<Become>b__0(Object m)
+   at Akka.Actor.ActorCell.<>c__DisplayClass114_0.<Akka.Actor.IUntypedActorContext.Become>b__0(Object m)
+   at Akka.Actor.ActorBase.AroundReceive(Receive receive, Object message)
+   at Akka.Actor.ActorCell.ReceiveMessage(Object message)
+   at Akka.Actor.ActorCell.ReceivedTerminated(Terminated t)
+   at Akka.Actor.ActorCell.AutoReceiveMessage(Envelope envelope)
+   at Akka.Actor.ActorCell.Invoke(Envelope envelope)
+[2025-07-18 08:45:06.1354] [ERROR] [Akka.Actor.OneForOneStrategy] Disassociated Akka.Remote.EndpointDisassociatedException: Disassociated
+   at Akka.Remote.EndpointWriter.PublishAndThrow(Exception reason, LogLevel level, Boolean needToThrow)
+   at Akka.Remote.EndpointWriter.Unhandled(Object message)
+   at Akka.Actor.ReceiveActor.ExecutePartialMessageHandler(Object message, PartialAction`1 partialAction)
+   at Akka.Actor.ReceiveActor.<>c__DisplayClass11_0.<Become>b__0(Object m)
+   at Akka.Actor.ActorCell.<>c__DisplayClass114_0.<Akka.Actor.IUntypedActorContext.Become>b__0(Object m)
+   at Akka.Actor.ActorBase.AroundReceive(Receive receive, Object message)
+   at Akka.Actor.ActorCell.ReceiveMessage(Object message)
+   at Akka.Actor.ActorCell.ReceivedTerminated(Terminated t)
+   at Akka.Actor.ActorCell.AutoReceiveMessage(Envelope envelope)
+   at Akka.Actor.ActorCell.Invoke(Envelope envelope)
+[2025-07-18 08:45:06.1464] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [4] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2025-07-18 08:45:06.1464] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [5] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2025-07-18 08:45:06.1464] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [6] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2025-07-18 08:45:06.1464] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [7] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2025-07-18 08:45:06.1464] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [GossipStatus] from akka://godgaming/system/cluster/core/daemon to akka://godgaming/deadLetters was not delivered. [8] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2025-07-18 08:45:06.1464] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [9] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2025-07-18 08:45:06.1464] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [10] dead letters encountered, no more dead letters will be logged in next [00:05:00]. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2025-07-18 08:45:10.0278] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:18091] - Ignoring received gossip from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:18083, 262604349)] 
+[2025-07-18 08:45:10.3501] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:18091] - Ignoring received gossip from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:18083, 262604349)] 
+[2025-07-18 08:45:10.6760] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:18091] - Marking node(s) as REACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:18083, Uid=262604349 status = Up, role=[comm], upNumber=2, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:18095, Uid=298390046 status = Up, role=[seamlessapi], upNumber=4, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:18094, Uid=1377358915 status = Up, role=[queenapi], upNumber=3, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:14055, Uid=1714697517 status = Up, role=[lighthouse], upNumber=1, version=1.4.0)]. Node roles [slotgame] 
+[2025-07-18 08:45:10.6790] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:18091] - is no longer leader 
+[2025-07-18 16:57:26.5095] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:18091] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [10307550.3737] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2025-07-18 16:57:28.7105] [WARN] [Akka.Cluster.ClusterCoreDaemon] Cluster Node [akka.tcp://godgaming@127.0.0.1:18091] - Marking node(s) as UNREACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:14055, Uid=1714697517 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://godgaming@127.0.0.1:18083, Uid=262604349 status = Up, role=[comm], upNumber=2, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:18094, Uid=1377358915 status = Up, role=[queenapi], upNumber=3, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:18095, Uid=298390046 status = Up, role=[seamlessapi], upNumber=4, version=1.0.0)]. Node roles [slotgame] 
+[2025-07-18 16:57:28.7776] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:18091] - is the new leader among reachable nodes (more leaders may exist) 
+[2025-07-18 16:57:28.8147] [ERROR] [Akka.Remote.Transport.ProtocolStateActor] No response from remote. Handshake timed out or transport failure detector triggered. (internal state was Open) 
+[2025-07-18 16:57:28.8407] [ERROR] [Akka.Remote.Transport.ProtocolStateActor] No response from remote. Handshake timed out or transport failure detector triggered. (internal state was Open) 
+[2025-07-18 16:57:28.8708] [ERROR] [Akka.Remote.Transport.ProtocolStateActor] No response from remote. Handshake timed out or transport failure detector triggered. (internal state was Open) 
+[2025-07-18 16:57:28.8888] [ERROR] [Akka.Remote.Transport.ProtocolStateActor] No response from remote. Handshake timed out or transport failure detector triggered. (internal state was Open) 
+[2025-07-18 16:57:28.8888] [ERROR] [Akka.Remote.Transport.ProtocolStateActor] No response from remote. Handshake timed out or transport failure detector triggered. (internal state was Open) 
+[2025-07-18 16:57:28.9322] [INFO] [Akka.Actor.LocalActorRef] Message [InboundPayload] without sender to akka://godgaming/system/transports/akkaprotocolmanager.tcp.0/akkaProtocol-tcp%3A%2F%2Fgodgaming%40127.0.0.1%3A14055-7 was not delivered. [31] dead letters encountered, of which 20 were not logged. The counter will be reset now. If this is not an expected behavior then akka://godgaming/system/transports/akkaprotocolmanager.tcp.0/akkaProtocol-tcp%3A%2F%2Fgodgaming%40127.0.0.1%3A14055-7 may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2025-07-18 16:57:28.9523] [INFO] [Akka.Actor.LocalActorRef] Message [InboundPayload] without sender to akka://godgaming/system/transports/akkaprotocolmanager.tcp.0/akkaProtocol-tcp%3A%2F%2Fgodgaming%40%5B%3A%3Affff%3A127.0.0.1%5D%3A3718-10 was not delivered. [1] dead letters encountered. If this is not an expected behavior then akka://godgaming/system/transports/akkaprotocolmanager.tcp.0/akkaProtocol-tcp%3A%2F%2Fgodgaming%40%5B%3A%3Affff%3A127.0.0.1%5D%3A3718-10 may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2025-07-18 16:57:28.9913] [INFO] [Akka.Actor.LocalActorRef] Message [InboundPayload] without sender to akka://godgaming/system/transports/akkaprotocolmanager.tcp.0/akkaProtocol-tcp%3A%2F%2Fgodgaming%40%5B%3A%3Affff%3A127.0.0.1%5D%3A3729-12 was not delivered. [2] dead letters encountered. If this is not an expected behavior then akka://godgaming/system/transports/akkaprotocolmanager.tcp.0/akkaProtocol-tcp%3A%2F%2Fgodgaming%40%5B%3A%3Affff%3A127.0.0.1%5D%3A3729-12 may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2025-07-18 16:57:29.0283] [ERROR] [Akka.Remote.Transport.ProtocolStateActor] No response from remote. Handshake timed out or transport failure detector triggered. (internal state was Open) 
+[2025-07-18 16:57:29.0283] [ERROR] [Akka.Remote.Transport.ProtocolStateActor] No response from remote. Handshake timed out or transport failure detector triggered. (internal state was Open) 
+[2025-07-18 16:57:29.0463] [INFO] [Akka.Actor.LocalActorRef] Message [InboundPayload] without sender to akka://godgaming/system/transports/akkaprotocolmanager.tcp.0/akkaProtocol-tcp%3A%2F%2Fgodgaming%40127.0.0.1%3A18095-8 was not delivered. [3] dead letters encountered. If this is not an expected behavior then akka://godgaming/system/transports/akkaprotocolmanager.tcp.0/akkaProtocol-tcp%3A%2F%2Fgodgaming%40127.0.0.1%3A18095-8 may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2025-07-18 16:57:29.0593] [WARN] [Akka.Remote.ReliableDeliverySupervisor] Association with remote system akka.tcp://godgaming@127.0.0.1:18083 has failed; address is now gated for 5000 ms. Reason is: [Akka.Remote.EndpointDisassociatedException: Disassociated
+   at Akka.Remote.EndpointWriter.PublishAndThrow(Exception reason, LogLevel level, Boolean needToThrow)
+   at Akka.Remote.EndpointWriter.Unhandled(Object message)
+   at Akka.Actor.ReceiveActor.ExecutePartialMessageHandler(Object message, PartialAction`1 partialAction)
+   at Akka.Actor.ReceiveActor.<>c__DisplayClass11_0.<Become>b__0(Object m)
+   at Akka.Actor.ActorCell.<>c__DisplayClass114_0.<Akka.Actor.IUntypedActorContext.Become>b__0(Object m)
+   at Akka.Actor.ActorBase.AroundReceive(Receive receive, Object message)
+   at Akka.Actor.ActorCell.ReceiveMessage(Object message)
+   at Akka.Actor.ActorCell.ReceivedTerminated(Terminated t)
+   at Akka.Actor.ActorCell.AutoReceiveMessage(Envelope envelope)
+   at Akka.Actor.ActorCell.Invoke(Envelope envelope)] 
+[2025-07-18 16:57:29.1763] [ERROR] [Akka.Actor.OneForOneStrategy] Disassociated Akka.Remote.EndpointDisassociatedException: Disassociated
+   at Akka.Remote.EndpointWriter.PublishAndThrow(Exception reason, LogLevel level, Boolean needToThrow)
+   at Akka.Remote.EndpointWriter.Unhandled(Object message)
+   at Akka.Actor.ReceiveActor.ExecutePartialMessageHandler(Object message, PartialAction`1 partialAction)
+   at Akka.Actor.ReceiveActor.<>c__DisplayClass11_0.<Become>b__0(Object m)
+   at Akka.Actor.ActorCell.<>c__DisplayClass114_0.<Akka.Actor.IUntypedActorContext.Become>b__0(Object m)
+   at Akka.Actor.ActorBase.AroundReceive(Receive receive, Object message)
+   at Akka.Actor.ActorCell.ReceiveMessage(Object message)
+   at Akka.Actor.ActorCell.ReceivedTerminated(Terminated t)
+   at Akka.Actor.ActorCell.AutoReceiveMessage(Envelope envelope)
+   at Akka.Actor.ActorCell.Invoke(Envelope envelope)
+[2025-07-18 16:57:29.2533] [WARN] [Akka.Remote.ReliableDeliverySupervisor] Association with remote system akka.tcp://godgaming@127.0.0.1:18095 has failed; address is now gated for 5000 ms. Reason is: [Akka.Remote.EndpointDisassociatedException: Disassociated
+   at Akka.Remote.EndpointWriter.PublishAndThrow(Exception reason, LogLevel level, Boolean needToThrow)
+   at Akka.Remote.EndpointWriter.Unhandled(Object message)
+   at Akka.Actor.ReceiveActor.ExecutePartialMessageHandler(Object message, PartialAction`1 partialAction)
+   at Akka.Actor.ReceiveActor.<>c__DisplayClass11_0.<Become>b__0(Object m)
+   at Akka.Actor.ActorCell.<>c__DisplayClass114_0.<Akka.Actor.IUntypedActorContext.Become>b__0(Object m)
+   at Akka.Actor.ActorBase.AroundReceive(Receive receive, Object message)
+   at Akka.Actor.ActorCell.ReceiveMessage(Object message)
+   at Akka.Actor.ActorCell.ReceivedTerminated(Terminated t)
+   at Akka.Actor.ActorCell.AutoReceiveMessage(Envelope envelope)
+   at Akka.Actor.ActorCell.Invoke(Envelope envelope)] 
+[2025-07-18 16:57:29.3283] [ERROR] [Akka.Actor.OneForOneStrategy] Disassociated Akka.Remote.EndpointDisassociatedException: Disassociated
+   at Akka.Remote.EndpointWriter.PublishAndThrow(Exception reason, LogLevel level, Boolean needToThrow)
+   at Akka.Remote.EndpointWriter.Unhandled(Object message)
+   at Akka.Actor.ReceiveActor.ExecutePartialMessageHandler(Object message, PartialAction`1 partialAction)
+   at Akka.Actor.ReceiveActor.<>c__DisplayClass11_0.<Become>b__0(Object m)
+   at Akka.Actor.ActorCell.<>c__DisplayClass114_0.<Akka.Actor.IUntypedActorContext.Become>b__0(Object m)
+   at Akka.Actor.ActorBase.AroundReceive(Receive receive, Object message)
+   at Akka.Actor.ActorCell.ReceiveMessage(Object message)
+   at Akka.Actor.ActorCell.ReceivedTerminated(Terminated t)
+   at Akka.Actor.ActorCell.AutoReceiveMessage(Envelope envelope)
+   at Akka.Actor.ActorCell.Invoke(Envelope envelope)
+[2025-07-18 16:57:29.4083] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [4] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2025-07-18 16:57:29.4293] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [5] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2025-07-18 16:57:29.4473] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [6] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2025-07-18 16:57:29.4633] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [7] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2025-07-18 16:57:29.4863] [WARN] [Akka.Remote.ReliableDeliverySupervisor] Association with remote system akka.tcp://godgaming@127.0.0.1:14055 has failed; address is now gated for 5000 ms. Reason is: [Akka.Remote.EndpointDisassociatedException: Disassociated
+   at Akka.Remote.EndpointWriter.PublishAndThrow(Exception reason, LogLevel level, Boolean needToThrow)
+   at Akka.Remote.EndpointWriter.Unhandled(Object message)
+   at Akka.Actor.ReceiveActor.ExecutePartialMessageHandler(Object message, PartialAction`1 partialAction)
+   at Akka.Actor.ReceiveActor.<>c__DisplayClass11_0.<Become>b__0(Object m)
+   at Akka.Actor.ActorCell.<>c__DisplayClass114_0.<Akka.Actor.IUntypedActorContext.Become>b__0(Object m)
+   at Akka.Actor.ActorBase.AroundReceive(Receive receive, Object message)
+   at Akka.Actor.ActorCell.ReceiveMessage(Object message)
+   at Akka.Actor.ActorCell.ReceivedTerminated(Terminated t)
+   at Akka.Actor.ActorCell.AutoReceiveMessage(Envelope envelope)
+   at Akka.Actor.ActorCell.Invoke(Envelope envelope)] 
+[2025-07-18 16:57:29.5323] [ERROR] [Akka.Actor.OneForOneStrategy] Disassociated Akka.Remote.EndpointDisassociatedException: Disassociated
+   at Akka.Remote.EndpointWriter.PublishAndThrow(Exception reason, LogLevel level, Boolean needToThrow)
+   at Akka.Remote.EndpointWriter.Unhandled(Object message)
+   at Akka.Actor.ReceiveActor.ExecutePartialMessageHandler(Object message, PartialAction`1 partialAction)
+   at Akka.Actor.ReceiveActor.<>c__DisplayClass11_0.<Become>b__0(Object m)
+   at Akka.Actor.ActorCell.<>c__DisplayClass114_0.<Akka.Actor.IUntypedActorContext.Become>b__0(Object m)
+   at Akka.Actor.ActorBase.AroundReceive(Receive receive, Object message)
+   at Akka.Actor.ActorCell.ReceiveMessage(Object message)
+   at Akka.Actor.ActorCell.ReceivedTerminated(Terminated t)
+   at Akka.Actor.ActorCell.AutoReceiveMessage(Envelope envelope)
+   at Akka.Actor.ActorCell.Invoke(Envelope envelope)
+[2025-07-18 16:57:29.6190] [ERROR] [Akka.Remote.Transport.ProtocolStateActor] No response from remote. Handshake timed out or transport failure detector triggered. (internal state was Open) 
+[2025-07-18 16:57:29.6281] [WARN] [Akka.Remote.ReliableDeliverySupervisor] Association with remote system akka.tcp://godgaming@127.0.0.1:18094 has failed; address is now gated for 5000 ms. Reason is: [Akka.Remote.EndpointDisassociatedException: Disassociated
+   at Akka.Remote.EndpointWriter.PublishAndThrow(Exception reason, LogLevel level, Boolean needToThrow)
+   at Akka.Remote.EndpointWriter.Unhandled(Object message)
+   at Akka.Actor.ReceiveActor.ExecutePartialMessageHandler(Object message, PartialAction`1 partialAction)
+   at Akka.Actor.ReceiveActor.<>c__DisplayClass11_0.<Become>b__0(Object m)
+   at Akka.Actor.ActorCell.<>c__DisplayClass114_0.<Akka.Actor.IUntypedActorContext.Become>b__0(Object m)
+   at Akka.Actor.ActorBase.AroundReceive(Receive receive, Object message)
+   at Akka.Actor.ActorCell.ReceiveMessage(Object message)
+   at Akka.Actor.ActorCell.ReceivedTerminated(Terminated t)
+   at Akka.Actor.ActorCell.AutoReceiveMessage(Envelope envelope)
+   at Akka.Actor.ActorCell.Invoke(Envelope envelope)] 
+[2025-07-18 16:57:29.6831] [ERROR] [Akka.Actor.OneForOneStrategy] Disassociated Akka.Remote.EndpointDisassociatedException: Disassociated
+   at Akka.Remote.EndpointWriter.PublishAndThrow(Exception reason, LogLevel level, Boolean needToThrow)
+   at Akka.Remote.EndpointWriter.Unhandled(Object message)
+   at Akka.Actor.ReceiveActor.ExecutePartialMessageHandler(Object message, PartialAction`1 partialAction)
+   at Akka.Actor.ReceiveActor.<>c__DisplayClass11_0.<Become>b__0(Object m)
+   at Akka.Actor.ActorCell.<>c__DisplayClass114_0.<Akka.Actor.IUntypedActorContext.Become>b__0(Object m)
+   at Akka.Actor.ActorBase.AroundReceive(Receive receive, Object message)
+   at Akka.Actor.ActorCell.ReceiveMessage(Object message)
+   at Akka.Actor.ActorCell.ReceivedTerminated(Terminated t)
+   at Akka.Actor.ActorCell.AutoReceiveMessage(Envelope envelope)
+   at Akka.Actor.ActorCell.Invoke(Envelope envelope)
+[2025-07-18 16:57:29.7331] [INFO] [Akka.Remote.Transport.DotNetty.TcpClientHandler] Socket read operation aborted. Connection is about to be closed. Channel [[::ffff:127.0.0.1]:3689->[::ffff:127.0.0.1]:18094](Id=2d7766e2) 
+[2025-07-18 16:57:29.7331] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [8] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2025-07-18 16:57:29.7461] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [9] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2025-07-18 16:57:29.7461] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [GossipStatus] from akka://godgaming/system/cluster/core/daemon to akka://godgaming/deadLetters was not delivered. [10] dead letters encountered, no more dead letters will be logged in next [00:05:00]. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2025-07-18 16:57:29.7461] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:18091] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [2317.1253] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2025-07-18 16:57:33.8713] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:18091] - Marking node(s) as REACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:14055, Uid=1714697517 status = Up, role=[lighthouse], upNumber=1, version=1.4.0)]. Node roles [slotgame] 
+[2025-07-18 16:57:33.8713] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:18091] - is no longer leader 
+[2025-07-18 16:57:34.8750] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:18091] - Marking node(s) as REACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:18095, Uid=298390046 status = Up, role=[seamlessapi], upNumber=4, version=1.0.0)]. Node roles [slotgame] 
+[2025-07-18 16:57:35.8943] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:18091] - Marking node(s) as REACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:18083, Uid=262604349 status = Up, role=[comm], upNumber=2, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:18094, Uid=1377358915 status = Up, role=[queenapi], upNumber=3, version=1.0.0)]. Node roles [slotgame] 
+[2025-07-18 21:10:36.1691] [INFO] [Akka.Remote.Transport.DotNetty.TcpServerHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:18091->[::ffff:127.0.0.1]:10079](Id=28ea2316) 
+[2025-07-18 21:10:36.1691] [INFO] [Akka.Remote.Transport.DotNetty.TcpClientHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:10082->[::ffff:127.0.0.1]:18094](Id=0b078d3d) 
+[2025-07-18 21:10:36.1952] [INFO] [Akka.Remote.Transport.DotNetty.TcpServerHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:18091->[::ffff:127.0.0.1]:10095](Id=4c2523de) 
+[2025-07-18 21:10:36.2021] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [32] dead letters encountered, of which 21 were not logged. The counter will be reset now. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2025-07-18 21:10:36.2021] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:18091]->[akka.tcp://godgaming@127.0.0.1:18094] 
+[2025-07-18 21:10:36.2021] [INFO] [Akka.Remote.Transport.DotNetty.TcpClientHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:10083->[::ffff:127.0.0.1]:18083](Id=6fb57429) 
+[2025-07-18 21:10:36.2021] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:18091]->[akka.tcp://godgaming@127.0.0.1:18083] 
+[2025-07-18 21:10:36.2142] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [1] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 

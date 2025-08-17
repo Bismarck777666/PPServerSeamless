@@ -1,0 +1,42 @@
+[2025-01-13 01:14:08.2566] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2025-01-13 01:14:09.0586] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2025-01-13 01:14:09.4676] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8093] 
+[2025-01-13 01:14:09.4696] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8093] 
+[2025-01-13 01:14:09.4866] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Starting up... 
+[2025-01-13 01:14:09.5016] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Started up successfully 
+[2025-01-13 01:14:09.5666] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2025-01-13 01:14:09.5666] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2025-01-13 01:14:09.7176] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2025-01-13 01:14:09.7756] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2025-01-13 01:14:09.7936] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2025-01-13 01:14:09.7936] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2025-01-13 01:14:09.7976] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2025-01-13 01:14:09.9226] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2025-01-13 01:14:19.7921] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2025-01-13 01:14:19.8151] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2025-01-13 01:14:19.8151] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2025-01-13 01:14:29.8002] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2025-01-13 01:14:29.8322] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2025-01-13 01:14:29.8322] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2025-01-13 01:14:39.8142] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2025-01-13 01:14:39.8434] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2025-01-13 01:14:39.8444] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2025-01-13 01:14:49.8206] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2025-01-13 01:14:49.8496] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2025-01-13 01:14:49.8496] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2025-01-13 01:14:59.8290] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2025-01-13 01:14:59.8620] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2025-01-13 01:14:59.8620] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2025-01-13 01:15:09.8084] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2025-01-13 01:15:09.8370] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2025-01-13 01:15:09.8700] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2025-01-13 01:15:09.8700] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2025-01-13 01:15:19.8512] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2025-01-13 01:15:19.8912] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2025-01-13 01:15:19.8912] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2025-01-13 01:15:29.8640] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2025-01-13 01:15:29.9110] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2025-01-13 01:15:29.9110] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2025-01-13 01:15:39.8777] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2025-01-13 01:15:39.9237] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2025-01-13 01:15:39.9237] [INFO] [PromoNode.PromoFetchActor] Race Received 

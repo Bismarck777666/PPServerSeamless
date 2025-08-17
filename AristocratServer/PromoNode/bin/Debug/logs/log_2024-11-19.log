@@ -1,0 +1,702 @@
+[2024-11-19 23:10:43.9188] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2024-11-19 23:10:45.0348] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-11-19 23:10:45.4678] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-11-19 23:10:45.4678] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-11-19 23:10:45.4868] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Starting up... 
+[2024-11-19 23:10:45.5068] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Started up successfully 
+[2024-11-19 23:10:45.5938] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2024-11-19 23:10:45.5938] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2024-11-19 23:10:45.8038] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-11-19 23:10:45.9288] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:10:45.9288] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-11-19 23:10:45.9418] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:10:46.1138] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:10:46.4168] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-11-19 23:10:46.5168] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip from unknown [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:8083, 1593229790)] 
+[2024-11-19 23:10:47.4188] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip from unknown [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:8094, 42180087)] 
+[2024-11-19 23:10:55.9383] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:10:55.9553] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:10:56.1281] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:11:03.0449] [INFO] [Akka.Remote.Transport.DotNetty.TcpServerHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:8093->[::ffff:127.0.0.1]:1725](Id=59403c4d) 
+[2024-11-19 23:11:03.0629] [INFO] [Akka.Remote.Transport.DotNetty.TcpServerHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:8093->[::ffff:127.0.0.1]:1720](Id=4aef502d) 
+[2024-11-19 23:14:40.3941] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2024-11-19 23:14:41.1461] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-11-19 23:14:41.4681] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-11-19 23:14:41.4681] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-11-19 23:14:41.4971] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Starting up... 
+[2024-11-19 23:14:41.5261] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Started up successfully 
+[2024-11-19 23:14:41.5651] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2024-11-19 23:14:41.5661] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2024-11-19 23:14:41.9131] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-11-19 23:14:42.0201] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:14:42.0201] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:14:42.0201] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-11-19 23:14:42.1661] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:14:52.0424] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:14:52.0424] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:14:52.1814] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:14:52.7767] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-11-19 23:15:02.0635] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:15:02.0665] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:15:02.2045] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:15:12.0721] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:15:12.0721] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:15:12.2161] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:15:22.0864] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:15:22.0864] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:15:22.2268] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:15:32.0916] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:15:32.1056] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:15:32.2449] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:15:42.0515] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-11-19 23:15:42.1096] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:15:42.1136] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:15:42.2517] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:15:52.1250] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:15:52.1250] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:15:52.2659] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:16:02.1395] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:16:02.1395] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:16:02.2817] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:16:12.1597] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:16:12.1597] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:16:12.3000] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:16:22.1740] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:16:22.1940] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:16:22.3155] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:16:32.1859] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:16:32.2019] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:16:32.3239] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:16:42.0678] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-11-19 23:16:42.1898] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:16:42.2228] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:16:42.3311] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:16:52.2039] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:16:52.2349] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:16:52.3429] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:17:02.2255] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:17:02.2385] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:17:02.3616] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:17:12.2385] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:17:12.2535] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:17:12.3816] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:17:22.2552] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:17:22.2742] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:17:22.3992] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:17:27.3932] [INFO] [Akka.Remote.Transport.DotNetty.TcpClientHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:2217->[::ffff:127.0.0.1]:8094](Id=2cb23f3e) 
+[2024-11-19 23:17:27.4222] [INFO] [Akka.Remote.Transport.DotNetty.TcpServerHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:8093->[::ffff:127.0.0.1]:2453](Id=782f5a5f) 
+[2024-11-19 23:17:27.4262] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8093]->[akka.tcp://godgaming@127.0.0.1:8091] 
+[2024-11-19 23:17:30.5235] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2024-11-19 23:17:31.0685] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-11-19 23:17:31.3685] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-11-19 23:17:31.3685] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-11-19 23:17:31.3855] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Starting up... 
+[2024-11-19 23:17:31.4025] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Started up successfully 
+[2024-11-19 23:17:31.4325] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2024-11-19 23:17:31.4325] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2024-11-19 23:17:31.6445] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-11-19 23:17:31.7225] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:17:31.7225] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:17:31.7225] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-11-19 23:17:31.8445] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:17:41.7342] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:17:41.7497] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:17:41.8565] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:17:42.6066] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-11-19 23:17:51.7508] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:17:51.7658] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:17:51.8616] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:18:01.7626] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:18:01.7806] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:18:01.8703] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:18:11.7740] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:18:11.7910] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:18:11.8830] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:18:21.7787] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:18:21.8097] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:18:21.9049] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:18:31.7623] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-11-19 23:18:31.8013] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:18:31.8333] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:18:31.9263] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:18:41.1573] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [5822.2932] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-11-19 23:18:41.1713] [WARN] [Akka.Cluster.ClusterCoreDaemon] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Marking node(s) as UNREACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:4055, Uid=633346396 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://godgaming@127.0.0.1:8083, Uid=2141974687 status = Up, role=[comm], upNumber=2, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8091, Uid=1214744069 status = Up, role=[slotgame], upNumber=5, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8094, Uid=1874348851 status = Up, role=[queenapi], upNumber=3, version=1.0.0)]. Node roles [promo] 
+[2024-11-19 23:18:41.1843] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - is the new leader among reachable nodes (more leaders may exist) 
+[2024-11-19 23:18:41.1843] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:4055, 633346396)] 
+[2024-11-19 23:18:41.1843] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:4055, 633346396)] 
+[2024-11-19 23:18:41.2073] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:8083, 2141974687)] 
+[2024-11-19 23:18:43.1362] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:18:43.1362] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:18:43.1362] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:18:43.1442] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Marking node(s) as REACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:4055, Uid=633346396 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://godgaming@127.0.0.1:8091, Uid=1214744069 status = Up, role=[slotgame], upNumber=5, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8094, Uid=1874348851 status = Up, role=[queenapi], upNumber=3, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8083, Uid=2141974687 status = Up, role=[comm], upNumber=2, version=1.0.0)]. Node roles [promo] 
+[2024-11-19 23:18:43.1442] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - is no longer leader 
+[2024-11-19 23:18:56.7306] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [8127.0832] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-11-19 23:18:56.7636] [WARN] [Akka.Cluster.ClusterCoreDaemon] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Marking node(s) as UNREACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:4055, Uid=633346396 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://godgaming@127.0.0.1:8083, Uid=2141974687 status = Up, role=[comm], upNumber=2, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8091, Uid=1214744069 status = Up, role=[slotgame], upNumber=5, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8094, Uid=1874348851 status = Up, role=[queenapi], upNumber=3, version=1.0.0)]. Node roles [promo] 
+[2024-11-19 23:18:56.7756] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - is the new leader among reachable nodes (more leaders may exist) 
+[2024-11-19 23:18:56.7756] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:18:56.7756] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:8083, 2141974687)] 
+[2024-11-19 23:18:56.7866] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:8083, 2141974687)] 
+[2024-11-19 23:18:56.7866] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:4055, 633346396)] 
+[2024-11-19 23:18:56.7866] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:18:56.7866] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:8094, 1874348851)] 
+[2024-11-19 23:18:56.7866] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:18:56.8016] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:8083, 2141974687)] 
+[2024-11-19 23:18:56.8016] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:8083, 2141974687)] 
+[2024-11-19 23:18:56.8016] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:8083, 2141974687)] 
+[2024-11-19 23:18:56.8016] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:8083, 2141974687)] 
+[2024-11-19 23:18:56.8016] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:8083, 2141974687)] 
+[2024-11-19 23:18:57.7447] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Marking node(s) as REACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:4055, Uid=633346396 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://godgaming@127.0.0.1:8091, Uid=1214744069 status = Up, role=[slotgame], upNumber=5, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8094, Uid=1874348851 status = Up, role=[queenapi], upNumber=3, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8083, Uid=2141974687 status = Up, role=[comm], upNumber=2, version=1.0.0)]. Node roles [promo] 
+[2024-11-19 23:18:57.7587] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - is no longer leader 
+[2024-11-19 23:19:06.7739] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:19:06.7869] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:19:06.8039] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:19:16.7827] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:19:16.7997] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:19:16.8157] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:19:26.8035] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:19:26.8205] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:19:26.8205] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:19:31.7767] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-11-19 23:19:36.8214] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:19:36.8385] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:19:36.8385] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:19:46.8386] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:19:46.8556] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:19:46.8556] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:19:56.8584] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:19:56.8584] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:19:56.8634] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:20:06.8755] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:20:06.8755] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:20:06.8755] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:20:16.8914] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:20:16.8944] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:20:16.8944] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:20:26.9009] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:20:26.9009] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:20:26.9009] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:20:31.8015] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-11-19 23:20:36.9172] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:20:36.9172] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:20:36.9172] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:20:46.9311] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:20:46.9311] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:20:46.9311] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:20:56.9503] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:20:56.9503] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:20:56.9503] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:21:06.9721] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:21:06.9721] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:21:06.9721] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:21:16.9923] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:21:16.9923] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:21:16.9923] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:21:26.9977] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:21:26.9977] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:21:27.0037] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:21:31.8224] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-11-19 23:21:37.0189] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:21:37.0261] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:21:37.0261] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:21:47.0304] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:21:47.0374] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:21:47.0374] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:21:57.0424] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:21:57.0574] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:21:57.0574] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:22:07.0496] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:22:07.0816] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:22:07.0816] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:22:17.0587] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:22:17.0897] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:22:17.0897] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:22:27.0762] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:22:27.1065] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:22:27.1065] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:22:31.8365] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-11-19 23:22:37.0907] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:22:37.1227] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:22:37.1227] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:22:47.1062] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:22:47.1402] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:22:47.1402] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:22:57.1276] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:22:57.1606] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:22:57.1606] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:23:07.1465] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:23:07.1785] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:23:07.1785] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:23:17.1620] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:23:17.1976] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:23:17.2076] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:23:27.9168] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [2319.2389] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-11-19 23:23:27.9168] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:23:27.9258] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:23:27.9258] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:23:31.9645] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-11-19 23:23:34.5976] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [2641.0256] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-11-19 23:23:42.0817] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [4309.6308] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-11-19 23:23:42.0817] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:23:42.0817] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:23:42.0817] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:23:46.7710] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [3550.2969] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-11-19 23:23:51.9703] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [5199.2701] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-11-19 23:23:52.1043] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:23:52.1043] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:23:52.1043] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:24:02.1241] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:24:02.1581] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:24:02.1771] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:24:19.9578] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [17845.7364] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-11-19 23:24:19.9578] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:24:20.2038] [WARN] [Akka.Cluster.ClusterCoreDaemon] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Marking node(s) as UNREACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:4055, Uid=633346396 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://godgaming@127.0.0.1:8083, Uid=2141974687 status = Up, role=[comm], upNumber=2, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8091, Uid=1214744069 status = Up, role=[slotgame], upNumber=5, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8094, Uid=1874348851 status = Up, role=[queenapi], upNumber=3, version=1.0.0)]. Node roles [promo] 
+[2024-11-19 23:24:20.2318] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - is the new leader among reachable nodes (more leaders may exist) 
+[2024-11-19 23:24:20.2318] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:24:20.2318] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:24:20.2378] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:4055, 633346396)] 
+[2024-11-19 23:24:20.2718] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:8091, 1214744069)] 
+[2024-11-19 23:24:20.9665] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Marking node(s) as REACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:4055, Uid=633346396 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://godgaming@127.0.0.1:8091, Uid=1214744069 status = Up, role=[slotgame], upNumber=5, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8094, Uid=1874348851 status = Up, role=[queenapi], upNumber=3, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8083, Uid=2141974687 status = Up, role=[comm], upNumber=2, version=1.0.0)]. Node roles [promo] 
+[2024-11-19 23:24:20.9755] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - is no longer leader 
+[2024-11-19 23:24:29.9674] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:24:30.2307] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:24:30.2307] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:24:31.9779] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-11-19 23:24:39.9840] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:24:40.2450] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:24:40.2450] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:24:49.9905] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:24:50.2547] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:24:50.2547] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:25:00.0070] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:25:00.2710] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:25:00.2710] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:25:10.0238] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:25:10.2868] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:25:10.2868] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:25:20.0351] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:25:20.2997] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:25:20.3017] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:25:30.0517] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:25:30.3150] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:25:30.3190] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:25:32.0057] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-11-19 23:25:40.0636] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:25:40.3291] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:25:40.3291] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:25:50.0828] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:25:50.3460] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:25:50.3500] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:26:00.0926] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:26:00.3580] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:26:00.3580] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:26:10.1078] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:26:10.3760] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:26:10.3790] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:26:20.1195] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:26:20.3817] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:26:20.3967] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:26:30.1380] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:26:30.3996] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:26:30.4156] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:26:32.0223] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-11-19 23:26:40.1523] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:26:40.4133] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:26:40.4273] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:26:50.1597] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:26:50.4234] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:26:50.4394] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:27:38.2227] [WARN] [Akka.Cluster.ClusterCoreDaemon] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Marking node(s) as UNREACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:4055, Uid=633346396 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://godgaming@127.0.0.1:8083, Uid=2141974687 status = Up, role=[comm], upNumber=2, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8091, Uid=1214744069 status = Up, role=[slotgame], upNumber=5, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8094, Uid=1874348851 status = Up, role=[queenapi], upNumber=3, version=1.0.0)]. Node roles [promo] 
+[2024-11-19 23:27:38.5079] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - is the new leader among reachable nodes (more leaders may exist) 
+[2024-11-19 23:27:38.5079] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [41366.6372] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-11-19 23:27:38.5269] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:27:38.8246] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:27:38.8246] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:27:38.8566] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-11-19 23:27:39.3081] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Marking node(s) as REACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:4055, Uid=633346396 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://godgaming@127.0.0.1:8091, Uid=1214744069 status = Up, role=[slotgame], upNumber=5, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8094, Uid=1874348851 status = Up, role=[queenapi], upNumber=3, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8083, Uid=2141974687 status = Up, role=[comm], upNumber=2, version=1.0.0)]. Node roles [promo] 
+[2024-11-19 23:27:39.3081] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - is no longer leader 
+[2024-11-19 23:27:48.5483] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:27:48.8429] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:27:48.8429] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:27:58.5606] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:27:58.8500] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:27:58.8500] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:28:08.5692] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:28:08.8613] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:28:08.8633] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:28:18.5935] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:28:18.8704] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:28:18.8704] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:28:28.6106] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:28:28.8885] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:28:28.8885] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:28:38.6257] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:28:38.8793] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-11-19 23:28:38.9043] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:28:38.9043] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:28:48.6294] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:28:48.9077] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:28:48.9077] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:28:58.6470] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:28:58.9258] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:28:58.9258] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:29:08.6604] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:29:08.9440] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:29:08.9440] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:29:18.6913] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:29:18.9584] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:29:18.9584] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:29:28.7053] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:29:28.9801] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:29:28.9801] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:29:38.7223] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:29:38.8945] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-11-19 23:29:38.9985] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:29:38.9985] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:29:48.7423] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:29:49.0166] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:29:49.0166] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:29:58.7620] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:29:59.0383] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:29:59.0383] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:30:08.7787] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:30:09.0537] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:30:09.0537] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:30:18.7949] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:30:19.0594] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:30:19.0594] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:30:28.8074] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:30:29.0812] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:30:29.0862] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:30:38.8204] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:30:38.9007] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-11-19 23:30:39.0992] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:30:39.0992] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:30:48.8343] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:30:49.1158] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:30:49.1158] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:30:58.8380] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:30:59.1302] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:30:59.1302] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:31:08.8562] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:31:09.1526] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:31:09.1526] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:31:18.8772] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:31:19.1684] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:31:19.1684] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:31:28.8943] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:31:29.1862] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:31:29.1862] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:31:38.9021] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:31:38.9166] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-11-19 23:31:39.2081] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:31:39.2081] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:31:48.9115] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:31:49.2225] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:31:49.2225] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:31:58.9288] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:31:59.2358] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:31:59.2378] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:32:08.9396] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:32:09.2468] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:32:09.2618] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:32:18.9631] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:32:19.2688] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:32:19.2728] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:32:28.9706] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:32:29.2823] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:32:29.2823] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:32:38.9441] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-11-19 23:32:38.9903] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:32:39.3003] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:32:39.3003] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:32:49.0206] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:32:49.3226] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:32:49.3316] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:32:59.0395] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:32:59.3293] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:32:59.3444] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:33:09.0495] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:33:09.3424] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:33:09.3584] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:33:19.0604] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:33:19.3494] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:33:19.3807] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:33:29.0825] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:33:29.3615] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:33:29.3925] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:33:38.9529] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-11-19 23:33:39.0899] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:33:39.3690] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:33:39.4000] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:33:49.1073] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:33:49.3805] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:33:49.4135] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:33:59.1237] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:33:59.4016] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:33:59.4310] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:34:09.1337] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:34:09.4249] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:34:09.4379] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:34:19.1395] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:34:19.4316] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:34:19.4673] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:34:29.1576] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:34:29.4498] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:34:29.4808] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:34:38.9853] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-11-19 23:34:39.1768] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:34:39.4754] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:34:39.4964] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:34:49.1970] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:34:49.4886] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:34:49.5216] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:34:59.2253] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:34:59.4994] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:34:59.5334] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:35:09.2370] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:35:09.5118] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:35:09.5438] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:35:19.2553] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:35:19.5192] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:35:19.5502] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:35:29.2594] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:35:29.5354] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:35:29.5667] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:35:38.9959] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-11-19 23:35:39.2720] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:35:39.5490] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:35:39.5810] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:35:49.2831] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:35:49.5611] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:35:49.5931] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:35:59.3029] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:35:59.5768] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:35:59.6113] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:36:09.3140] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:36:09.6025] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:36:09.6195] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:36:19.3203] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:36:19.6124] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:36:19.6284] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:36:29.3343] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:36:29.6267] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:36:29.6504] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:36:39.0128] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-11-19 23:36:39.3520] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:36:39.6405] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:36:39.6728] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:36:49.3623] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:36:49.6565] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:36:49.6908] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:36:59.3820] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:36:59.6701] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:36:59.7054] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:37:09.3937] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:37:09.6840] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:37:09.7230] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:37:19.4054] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:37:19.6941] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:37:19.7398] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:37:29.4126] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:37:29.7018] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:37:29.7481] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:37:39.0299] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-11-19 23:37:39.4309] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:37:39.7199] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:37:39.7674] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:37:49.4463] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:37:49.7416] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:37:49.7876] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:37:59.4591] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:37:59.7545] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:37:59.8013] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:38:09.4836] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:38:09.7699] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:38:09.8158] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:38:19.4909] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:38:19.7838] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:38:19.8339] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:38:29.4987] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:38:29.7887] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:38:29.8507] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:38:39.0546] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-11-19 23:38:39.5127] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:38:39.8052] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:38:39.8662] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:38:49.5238] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:38:49.8147] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:38:49.8918] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:38:59.5297] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:38:59.8177] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:38:59.9107] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:39:09.5489] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:39:09.8430] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:39:09.9230] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:39:19.5750] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:39:19.8510] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:39:19.9320] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:39:29.5899] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:39:29.8647] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:39:29.9441] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:39:40.1387] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2024-11-19 23:39:40.7067] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-11-19 23:39:41.0437] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-11-19 23:39:41.0437] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-11-19 23:39:41.0637] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Starting up... 
+[2024-11-19 23:39:41.0817] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Started up successfully 
+[2024-11-19 23:39:41.1097] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2024-11-19 23:39:41.1097] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2024-11-19 23:39:41.3143] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-11-19 23:39:41.3983] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:39:41.3983] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-11-19 23:39:41.3983] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:39:41.5193] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:39:51.4148] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:39:51.4148] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:39:51.5452] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:39:52.3211] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-11-19 23:40:01.4263] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:40:01.4263] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:40:01.5653] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:40:11.4490] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:40:11.4490] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:40:11.5873] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:40:21.4693] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:40:21.4693] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:40:21.6235] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:40:31.4802] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:40:31.4802] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:40:31.6349] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:40:41.4223] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-11-19 23:40:41.4922] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:40:41.4922] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:40:41.6473] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:40:51.5052] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:40:51.5052] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:40:51.6602] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:41:01.5244] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:41:01.5244] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:41:01.6764] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:41:11.5437] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:41:11.5437] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:41:11.6957] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:41:21.5469] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:41:21.5619] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:41:21.7189] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:41:31.5722] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:41:31.5722] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:41:31.7452] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:41:41.4374] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-11-19 23:41:41.5881] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:41:41.5881] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:41:41.7574] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:41:51.5989] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:41:51.5989] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:41:51.7740] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:42:01.6172] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:42:01.6172] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:42:01.7871] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:42:11.6371] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:42:11.6371] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:42:11.8056] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:42:21.6567] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:42:21.6607] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:42:21.8264] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:42:31.6797] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:42:31.6797] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:42:31.8562] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:42:41.4555] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-11-19 23:42:41.6925] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:42:41.6925] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:42:41.8825] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:42:51.7006] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:42:51.7166] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:42:51.9003] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:43:01.7207] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:43:01.7367] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:43:01.9197] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:43:11.7394] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:43:11.7564] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:43:11.9277] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:43:21.7590] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:43:21.7745] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:43:21.9474] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:43:31.7777] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:43:31.7947] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:43:31.9637] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:43:41.4804] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-11-19 23:43:41.7964] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:43:41.8154] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:43:41.9724] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:43:51.8074] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:43:51.8394] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:43:51.9794] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:44:01.8202] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:44:01.8512] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:44:01.9925] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:44:11.8267] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:44:11.8588] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:44:11.9963] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:44:21.8384] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:44:21.8704] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:44:22.0074] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:44:31.8525] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:44:31.8835] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:44:32.0216] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:44:41.4986] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-11-19 23:44:41.8689] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:44:41.9069] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:44:42.0400] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:44:51.8803] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:44:51.9279] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:44:52.0524] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:45:01.8994] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:45:01.9474] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:45:02.0684] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:45:11.9179] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:45:11.9649] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:45:12.0869] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:45:21.9343] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:45:21.9833] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:45:22.1053] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:45:31.9462] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:45:31.9912] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:45:32.1167] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:45:41.5162] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-11-19 23:45:41.9606] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:45:42.0066] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:45:42.1306] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:45:51.9689] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:45:52.0359] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:45:52.1399] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:46:01.9791] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:46:02.0551] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:46:02.1484] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:46:11.9939] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:46:12.0722] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:46:12.1649] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:46:21.9947] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:46:22.0907] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:46:22.1804] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:46:32.0155] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:46:32.1084] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:46:32.2015] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:46:41.5474] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-11-19 23:46:42.0326] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:46:42.1276] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:46:42.2216] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:46:52.0355] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:46:52.1446] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:46:52.2386] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:47:02.0487] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:47:02.1592] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:47:02.2586] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:47:12.0691] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:47:12.1771] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:47:12.2691] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:47:22.0830] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:47:22.1910] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:47:22.2850] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-11-19 23:47:32.0947] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-11-19 23:47:32.2037] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-11-19 23:47:32.2957] [INFO] [PromoNode.PromoFetchActor] Cashback Received 

@@ -1,0 +1,39 @@
+[2024-12-22 03:39:31.4909] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-12-22 03:39:32.6141] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-12-22 03:39:33.0806] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-12-22 03:39:33.0806] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-12-22 03:39:33.1005] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2024-12-22 03:39:33.1164] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2024-12-22 03:39:33.1304] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2024-12-22 03:39:33.5978] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-12-22 03:39:33.5978] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-12-22 03:39:45.0558] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [10444.003] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-12-22 03:39:45.5529] [ERROR] [Akka.Actor.OneForOneStrategy] Exception has been thrown by the target of an invocation. System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Net.HttpListenerException: Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at Microsoft.Owin.Host.HttpListener.OwinHttpListener.Start(HttpListener listener, Func`2 appFunc, IList`1 addresses, IDictionary`2 capabilities, Func`2 loggerFactory) in /_/src/Microsoft.Owin.Host.HttpListener/OwinHttpListener.cs:line 187
+   at Microsoft.Owin.Host.HttpListener.OwinServerFactory.Create(Func`2 app, IDictionary`2 properties) in /_/src/Microsoft.Owin.Host.HttpListener/OwinServerFactory.cs:line 100
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Owin.Hosting.ServerFactory.ServerFactoryAdapter.Create(IAppBuilder builder) in /_/src/Microsoft.Owin.Hosting/ServerFactory/ServerFactoryAdapter.cs:line 133
+   at Microsoft.Owin.Hosting.Engine.HostingEngine.StartServer(StartContext context) in /_/src/Microsoft.Owin.Hosting/Engine/HostingEngine.cs:line 420
+   at Microsoft.Owin.Hosting.Engine.HostingEngine.Start(StartContext context) in /_/src/Microsoft.Owin.Hosting/Engine/HostingEngine.cs:line 98
+   at Microsoft.Owin.Hosting.Starter.DirectHostingStarter.Start(StartOptions options) in /_/src/Microsoft.Owin.Hosting/Starter/DirectHostingStarter.cs:line 32
+   at Microsoft.Owin.Hosting.Starter.HostingStarter.Start(StartOptions options) in /_/src/Microsoft.Owin.Hosting/Starter/HostingStarter.cs:line 42
+   at Microsoft.Owin.Hosting.WebApp.StartImplementation(IServiceProvider services, StartOptions options) in /_/src/Microsoft.Owin.Hosting/WebApp.cs:line 121
+   at Microsoft.Owin.Hosting.WebApp.Start(StartOptions options) in /_/src/Microsoft.Owin.Hosting/WebApp.cs:line 84
+   at Microsoft.Owin.Hosting.WebApp.Start[TStartup](StartOptions options) in /_/src/Microsoft.Owin.Hosting/WebApp.cs:line 60
+   at Microsoft.Owin.Hosting.WebApp.Start[TStartup](String url) in /_/src/Microsoft.Owin.Hosting/WebApp.cs:line 47
+   at QueenApiNode.BootstrapActor.<.ctor>b__5_1(ReadyDBProxy dbActors) in E:\WORK\PROMISS\Slot\SlotCityCasinoServer\QueenApiNode\BootstrapActor.cs:line 54
+   at lambda_method(Closure , Object , Action`1 , Action`1 , Action`1 )
+   at Akka.Tools.MatchHandler.PartialHandlerArgumentsCapture`4.Handle(T value)
+   at Akka.Actor.ReceiveActor.ExecutePartialMessageHandler(Object message, PartialAction`1 partialAction)
+   at Akka.Actor.ReceiveActor.OnReceive(Object message)
+   at Akka.Actor.UntypedActor.Receive(Object message)
+   at Akka.Actor.ActorBase.AroundReceive(Receive receive, Object message)
+   at Akka.Actor.ActorCell.ReceiveMessage(Object message)
+   at Akka.Actor.ActorCell.Invoke(Envelope envelope)
+[2024-12-22 03:40:08.0599] [INFO] [Akka.Remote.Transport.DotNetty.TcpClientHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:6490->[::ffff:127.0.0.1]:8091](Id=24d7789c) 
+[2024-12-22 03:40:08.0759] [INFO] [Akka.Remote.Transport.DotNetty.TcpServerHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:8094->[::ffff:127.0.0.1]:6488](Id=67b64dc7) 

@@ -1,0 +1,143 @@
+[2024-12-28 01:26:26.8143] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-12-28 01:26:27.6346] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-12-28 01:26:27.9577] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-12-28 01:26:27.9577] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-12-28 01:26:27.9777] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2024-12-28 01:26:27.9937] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2024-12-28 01:26:27.9937] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2024-12-28 01:26:28.3087] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-12-28 01:26:28.3377] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-12-28 10:03:07.9474] [INFO] [Akka.Remote.Transport.DotNetty.TcpClientHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:2628->[::ffff:127.0.0.1]:4055](Id=7c359d00) 
+[2024-12-28 10:03:07.9864] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8094]->[akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-12-28 10:03:10.8658] [INFO] [Akka.Remote.Transport.DotNetty.TcpServerHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:8094->[::ffff:127.0.0.1]:2636](Id=7677f2a9) 
+[2024-12-28 10:03:10.8803] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8094]->[akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-12-28 10:03:11.1627] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [GossipStatus] from [akka://godgaming/system/cluster/core/daemon#475399174] to [akka://godgaming/deadLetters] was not delivered. [1] dead letters encountered. If this is not an expected behavior then [akka://godgaming/deadLetters] may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2024-12-28 10:04:52.8327] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-12-28 10:04:53.7937] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-12-28 10:04:54.1280] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-12-28 10:04:54.1280] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-12-28 10:04:54.1510] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2024-12-28 10:04:54.1650] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2024-12-28 10:04:54.1730] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2024-12-28 10:04:54.5040] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-12-28 10:04:54.6263] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-12-28 10:18:57.6164] [ERROR] [QueenApiNode.Agent.AgentActor] Exception has been occurred in AgentActor::onUserGetGameURL System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote server returned an error: (503) Server Unavailable.
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at QueenApiNode.Agent.AgentActor.<onUserGetGameURL>d__23.MoveNext() in E:\WORK\PROMISS\Slot\SlotCityCasinoServer\QueenApiNode\Agent\AgentActor.cs:line 345 
+[2024-12-28 10:18:57.8846] [ERROR] [QueenApiNode.Agent.AgentActor] Exception has been occurred in AgentActor::onUserGetGameURL System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote server returned an error: (503) Server Unavailable.
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at QueenApiNode.Agent.AgentActor.<onUserGetGameURL>d__23.MoveNext() in E:\WORK\PROMISS\Slot\SlotCityCasinoServer\QueenApiNode\Agent\AgentActor.cs:line 345 
+[2024-12-28 10:20:28.7492] [ERROR] [QueenApiNode.Agent.AgentActor] Exception has been occurred in AgentActor::onUserGetGameURL System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote server returned an error: (503) Server Unavailable.
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at QueenApiNode.Agent.AgentActor.<onUserGetGameURL>d__23.MoveNext() in E:\WORK\PROMISS\Slot\SlotCityCasinoServer\QueenApiNode\Agent\AgentActor.cs:line 345 
+[2024-12-28 10:20:29.0313] [ERROR] [QueenApiNode.Agent.AgentActor] Exception has been occurred in AgentActor::onUserGetGameURL System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote server returned an error: (503) Server Unavailable.
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at QueenApiNode.Agent.AgentActor.<onUserGetGameURL>d__23.MoveNext() in E:\WORK\PROMISS\Slot\SlotCityCasinoServer\QueenApiNode\Agent\AgentActor.cs:line 345 
+[2024-12-28 10:30:46.3923] [ERROR] [QueenApiNode.Agent.AgentActor] Exception has been occurred in AgentActor::onUserGetGameURL System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote server returned an error: (503) Server Unavailable.
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at QueenApiNode.Agent.AgentActor.<onUserGetGameURL>d__23.MoveNext() in E:\WORK\PROMISS\Slot\SlotCityCasinoServer\QueenApiNode\Agent\AgentActor.cs:line 345 
+[2024-12-28 10:30:46.6633] [ERROR] [QueenApiNode.Agent.AgentActor] Exception has been occurred in AgentActor::onUserGetGameURL System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote server returned an error: (503) Server Unavailable.
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at QueenApiNode.Agent.AgentActor.<onUserGetGameURL>d__23.MoveNext() in E:\WORK\PROMISS\Slot\SlotCityCasinoServer\QueenApiNode\Agent\AgentActor.cs:line 345 
+[2024-12-28 14:53:41.8685] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-12-28 14:53:42.2745] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-12-28 14:53:42.8085] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-12-28 14:53:42.8085] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-12-28 14:53:42.8355] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2024-12-28 14:53:42.8965] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2024-12-28 14:53:43.0415] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2024-12-28 14:53:43.4535] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-12-28 14:53:43.4845] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-12-28 15:33:36.4316] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-12-28 15:33:36.6446] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-12-28 15:33:36.7456] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-12-28 15:33:36.7456] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-12-28 15:33:36.7636] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2024-12-28 15:33:36.7766] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2024-12-28 15:33:36.7846] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2024-12-28 15:33:37.0065] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-12-28 15:33:37.1455] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-12-28 15:33:42.7255] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Ignoring received gossip from unknown [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:8091, 600070445)] 
+[2024-12-28 15:49:27.7749] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-12-28 15:49:28.6286] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-12-28 15:49:28.9947] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-12-28 15:49:28.9947] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-12-28 15:49:29.0197] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2024-12-28 15:49:29.0327] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2024-12-28 15:49:29.0327] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2024-12-28 15:49:29.3537] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-12-28 15:49:29.4874] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-12-28 15:50:58.0332] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-12-28 15:50:58.2575] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-12-28 15:50:58.3685] [ERROR] [Akka.Remote.Transport.DotNetty.TcpTransport] Failed to bind to 127.0.0.1:8094; shutting down DotNetty transport. Akka.Remote.RemoteTransportException: Failed to bind to [127.0.0.1:8094]. See InnerException for details. ---> System.Net.Sockets.SocketException: Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at DotNetty.Transport.Channels.Sockets.TcpServerSocketChannel.DoBind(EndPoint localAddress)
+   at DotNetty.Transport.Channels.AbstractChannel.AbstractUnsafe.BindAsync(EndPoint localAddress)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at DotNetty.Transport.Bootstrapping.AbstractBootstrap`2.<DoBindAsync>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<NewServer>d__20.MoveNext()
+   --- End of inner exception stack trace ---
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<NewServer>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Listen>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Listen>d__21.MoveNext()
+[2024-12-28 15:50:58.3775] [ERROR] [remoting (akka://godgaming)] Remoting error: [Startup failed] [] 
+[2024-12-28 15:50:58.4085] [INFO] [remoting-terminator] Shutting down remote daemon. 
+[2024-12-28 15:51:11.3702] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-12-28 15:51:11.5872] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-12-28 15:51:11.7240] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-12-28 15:51:11.7240] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-12-28 15:51:11.7440] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2024-12-28 15:51:11.7560] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2024-12-28 15:51:11.7560] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2024-12-28 15:51:12.0070] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-12-28 15:51:12.0370] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-12-28 16:08:20.7247] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-12-28 16:08:20.9438] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-12-28 16:08:21.0618] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-12-28 16:08:21.0618] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-12-28 16:08:21.0798] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2024-12-28 16:08:21.0798] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2024-12-28 16:08:21.1018] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2024-12-28 16:08:21.3168] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-12-28 16:08:21.4748] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 

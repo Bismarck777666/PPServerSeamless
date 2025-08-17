@@ -1,0 +1,9 @@
+[2025-01-03 13:32:24.5374] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2025-01-03 13:32:25.4344] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2025-01-03 13:32:25.7994] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2025-01-03 13:32:25.7994] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2025-01-03 13:32:25.8204] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2025-01-03 13:32:25.8364] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2025-01-03 13:32:25.8364] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2025-01-03 13:32:26.2264] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2025-01-03 13:32:26.3424] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 

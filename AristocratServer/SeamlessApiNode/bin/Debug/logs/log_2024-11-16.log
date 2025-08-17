@@ -1,0 +1,10 @@
+[2024-11-16 18:04:13.3804] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-11-16 18:04:14.1561] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-11-16 18:04:14.5731] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-11-16 18:04:14.5731] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-11-16 18:04:14.6051] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2024-11-16 18:04:14.7351] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2024-11-16 18:04:14.7511] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2024-11-16 18:04:15.0331] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-11-16 18:05:49.8875] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-11-16 18:21:28.9736] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [String] from [akka://godgaming/temp/n] to [akka://godgaming/deadLetters] was not delivered. [1] dead letters encountered. If this is not an expected behavior then [akka://godgaming/deadLetters] may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 

@@ -1,0 +1,14 @@
+[2025-07-30 00:11:20.9691] [INFO] [Akka.Remote.Transport.DotNetty.TcpClientHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:11312->[::ffff:127.0.0.1]:18095](Id=0886f70b) 
+[2025-07-30 00:11:20.9861] [INFO] [Akka.Remote.Transport.DotNetty.TcpServerHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:18094->[::ffff:127.0.0.1]:11311](Id=67e1436e) 
+[2025-07-30 00:11:21.0031] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:18094]->[akka.tcp://godgaming@127.0.0.1:18095] 
+[2025-07-30 00:11:21.0031] [INFO] [Akka.Remote.Transport.DotNetty.TcpServerHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:18094->[::ffff:127.0.0.1]:11328](Id=2e15b4ce) 
+[2025-07-30 00:11:21.0121] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:18094]->[akka.tcp://godgaming@127.0.0.1:18091] 
+[2025-07-30 14:59:53.3285] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2025-07-30 14:59:54.7725] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2025-07-30 14:59:55.4255] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:18094] 
+[2025-07-30 14:59:55.4255] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:18094] 
+[2025-07-30 14:59:55.4575] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:18094] - Starting up... 
+[2025-07-30 14:59:55.5555] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:18094] - Started up successfully 
+[2025-07-30 14:59:55.5835] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2025-07-30 14:59:56.0245] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2025-07-30 14:59:56.0565] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:18094] - Welcome from [akka.tcp://godgaming@127.0.0.1:14055] 

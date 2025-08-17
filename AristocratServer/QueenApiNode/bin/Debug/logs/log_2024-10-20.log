@@ -1,0 +1,6 @@
+[2024-10-20 02:01:28.7382] [INFO] [Akka.Remote.Transport.DotNetty.TcpClientHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:8218->[::ffff:127.0.0.1]:8091](Id=686ba9cb) 
+[2024-10-20 02:01:28.7552] [INFO] [Akka.Remote.Transport.DotNetty.TcpServerHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:8094->[::ffff:127.0.0.1]:8179](Id=52a5a0fb) 
+[2024-10-20 02:01:28.7552] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8094]->[akka.tcp://godgaming@127.0.0.1:8091] 
+[2024-10-20 02:01:28.7552] [INFO] [Akka.Remote.Transport.DotNetty.TcpClientHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:8167->[::ffff:127.0.0.1]:8093](Id=24355e9c) 
+[2024-10-20 02:01:28.7792] [INFO] [Akka.Remote.Transport.DotNetty.TcpServerHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:8094->[::ffff:127.0.0.1]:8147](Id=528c6fd3) 
+[2024-10-20 02:01:28.7792] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8094]->[akka.tcp://godgaming@127.0.0.1:8093] 

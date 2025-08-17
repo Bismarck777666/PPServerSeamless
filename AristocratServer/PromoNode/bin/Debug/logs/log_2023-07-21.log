@@ -1,0 +1,242 @@
+[2023-07-21 14:52:56.1977] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2023-07-21 14:52:57.2924] [INFO] [remoting (akka://gitigaming)] Starting remoting 
+[2023-07-21 14:52:57.7519] [INFO] [remoting (akka://gitigaming)] Remoting started; listening on addresses : [akka.tcp://gitigaming@127.0.0.1:8093] 
+[2023-07-21 14:52:57.7532] [INFO] [remoting (akka://gitigaming)] Remoting now listens on addresses: [akka.tcp://gitigaming@127.0.0.1:8093] 
+[2023-07-21 14:52:57.7712] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Starting up... 
+[2023-07-21 14:52:57.7920] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Started up successfully 
+[2023-07-21 14:52:57.8499] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2023-07-21 14:52:57.8499] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2023-07-21 14:52:59.4865] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2023-07-21 14:53:00.1216] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://gitigaming@127.0.0.1:8093] -> akka.tcp://gitigaming@127.0.0.1:4055: Error [Association failed with akka.tcp://gitigaming@127.0.0.1:4055] [] 
+[2023-07-21 14:53:00.1346] [WARN] [remoting (akka://gitigaming)] Tried to associate with unreachable remote address [akka.tcp://gitigaming@127.0.0.1:4055]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://gitigaming@127.0.0.1:4055] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://gitigaming@127.0.0.1:4055
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://gitigaming@127.0.0.1:4055
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-07-21 14:53:00.1476] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [InitJoin] from akka://gitigaming/system/cluster/core/daemon/joinSeedNodeProcess-1 to akka://gitigaming/deadLetters was not delivered. [1] dead letters encountered. If this is not an expected behavior then akka://gitigaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-07-21 14:53:00.1476] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://gitigaming@127.0.0.1:8093]->[akka.tcp://gitigaming@127.0.0.1:4055] 
+[2023-07-21 14:53:02.8354] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [InitJoin] from akka://gitigaming/system/cluster/core/daemon/joinSeedNodeProcess-1 to akka://gitigaming/deadLetters was not delivered. [2] dead letters encountered. If this is not an expected behavior then akka://gitigaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-07-21 19:00:51.5883] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2023-07-21 19:00:51.8875] [INFO] [remoting (akka://gitigaming)] Starting remoting 
+[2023-07-21 19:00:52.1139] [INFO] [remoting (akka://gitigaming)] Remoting started; listening on addresses : [akka.tcp://gitigaming@127.0.0.1:8093] 
+[2023-07-21 19:00:52.1139] [INFO] [remoting (akka://gitigaming)] Remoting now listens on addresses: [akka.tcp://gitigaming@127.0.0.1:8093] 
+[2023-07-21 19:00:52.1339] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Starting up... 
+[2023-07-21 19:00:52.1518] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Started up successfully 
+[2023-07-21 19:00:52.1907] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2023-07-21 19:00:52.1907] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2023-07-21 19:00:52.9884] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Welcome from [akka.tcp://gitigaming@127.0.0.1:4055] 
+[2023-07-21 19:01:21.1489] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2023-07-21 19:01:21.4772] [INFO] [remoting (akka://gitigaming)] Starting remoting 
+[2023-07-21 19:01:21.6657] [INFO] [remoting (akka://gitigaming)] Remoting started; listening on addresses : [akka.tcp://gitigaming@127.0.0.1:8093] 
+[2023-07-21 19:01:21.6657] [INFO] [remoting (akka://gitigaming)] Remoting now listens on addresses: [akka.tcp://gitigaming@127.0.0.1:8093] 
+[2023-07-21 19:01:21.6866] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Starting up... 
+[2023-07-21 19:01:21.7135] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Started up successfully 
+[2023-07-21 19:01:21.7500] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2023-07-21 19:01:21.7510] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2023-07-21 19:01:22.2436] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Welcome from [akka.tcp://gitigaming@127.0.0.1:4055] 
+[2023-07-21 19:01:23.3435] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2023-07-21 19:01:23.7185] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Ignoring received gossip from unknown [UniqueAddress: (akka.tcp://gitigaming@127.0.0.1:8083, 1893541073)] 
+[2023-07-21 19:03:20.7206] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2023-07-21 19:03:21.4610] [INFO] [remoting (akka://gitigaming)] Starting remoting 
+[2023-07-21 19:03:21.7660] [INFO] [remoting (akka://gitigaming)] Remoting started; listening on addresses : [akka.tcp://gitigaming@127.0.0.1:8093] 
+[2023-07-21 19:03:21.7660] [INFO] [remoting (akka://gitigaming)] Remoting now listens on addresses: [akka.tcp://gitigaming@127.0.0.1:8093] 
+[2023-07-21 19:03:21.7910] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Starting up... 
+[2023-07-21 19:03:21.8120] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Started up successfully 
+[2023-07-21 19:03:21.8390] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2023-07-21 19:03:21.8390] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2023-07-21 19:03:22.0787] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Welcome from [akka.tcp://gitigaming@127.0.0.1:4055] 
+[2023-07-21 19:03:23.4019] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2023-07-21 19:09:46.7274] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [27288.5974] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2023-07-21 19:09:47.1991] [WARN] [Akka.Cluster.ClusterCoreDaemon] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Marking node(s) as UNREACHABLE [Member(address = akka.tcp://gitigaming@127.0.0.1:4055, Uid=151346140 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://gitigaming@127.0.0.1:8082, Uid=355801138 status = Up, role=[slotgame], upNumber=5, version=1.0.0), Member(address = akka.tcp://gitigaming@127.0.0.1:8083, Uid=1291497281 status = Up, role=[comm], upNumber=2, version=1.0.0), Member(address = akka.tcp://gitigaming@127.0.0.1:8094, Uid=517928511 status = Up, role=[apiserver], upNumber=4, version=1.0.0)]. Node roles [promo] 
+[2023-07-21 19:09:47.3378] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - is the new leader among reachable nodes (more leaders may exist) 
+[2023-07-21 19:09:47.3378] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://gitigaming@127.0.0.1:8082, 355801138)] 
+[2023-07-21 19:09:47.3378] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Ignoring received gossip from unreachable [UniqueAddress: (akka.tcp://gitigaming@127.0.0.1:8094, 517928511)] 
+[2023-07-21 19:09:47.3799] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Marking node(s) as REACHABLE [Member(address = akka.tcp://gitigaming@127.0.0.1:4055, Uid=151346140 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://gitigaming@127.0.0.1:8082, Uid=355801138 status = Up, role=[slotgame], upNumber=5, version=1.0.0), Member(address = akka.tcp://gitigaming@127.0.0.1:8094, Uid=517928511 status = Up, role=[apiserver], upNumber=4, version=1.0.0), Member(address = akka.tcp://gitigaming@127.0.0.1:8083, Uid=1291497281 status = Up, role=[comm], upNumber=2, version=1.0.0)]. Node roles [promo] 
+[2023-07-21 19:09:47.3799] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - is no longer leader 
+[2023-07-21 19:09:54.2290] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [5851.8822] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2023-07-21 19:09:54.2409] [WARN] [Akka.Cluster.ClusterCoreDaemon] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Marking node(s) as UNREACHABLE [Member(address = akka.tcp://gitigaming@127.0.0.1:4055, Uid=151346140 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://gitigaming@127.0.0.1:8082, Uid=355801138 status = Up, role=[slotgame], upNumber=5, version=1.0.0), Member(address = akka.tcp://gitigaming@127.0.0.1:8083, Uid=1291497281 status = Up, role=[comm], upNumber=2, version=1.0.0), Member(address = akka.tcp://gitigaming@127.0.0.1:8094, Uid=517928511 status = Up, role=[apiserver], upNumber=4, version=1.0.0)]. Node roles [promo] 
+[2023-07-21 19:09:54.2529] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - is the new leader among reachable nodes (more leaders may exist) 
+[2023-07-21 19:09:55.2454] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Marking node(s) as REACHABLE [Member(address = akka.tcp://gitigaming@127.0.0.1:4055, Uid=151346140 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://gitigaming@127.0.0.1:8082, Uid=355801138 status = Up, role=[slotgame], upNumber=5, version=1.0.0), Member(address = akka.tcp://gitigaming@127.0.0.1:8094, Uid=517928511 status = Up, role=[apiserver], upNumber=4, version=1.0.0), Member(address = akka.tcp://gitigaming@127.0.0.1:8083, Uid=1291497281 status = Up, role=[comm], upNumber=2, version=1.0.0)]. Node roles [promo] 
+[2023-07-21 19:09:55.2454] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - is no longer leader 
+[2023-07-21 19:11:39.7442] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2023-07-21 19:11:40.1884] [INFO] [remoting (akka://gitigaming)] Starting remoting 
+[2023-07-21 19:11:40.5502] [INFO] [remoting (akka://gitigaming)] Remoting started; listening on addresses : [akka.tcp://gitigaming@127.0.0.1:8093] 
+[2023-07-21 19:11:40.5502] [INFO] [remoting (akka://gitigaming)] Remoting now listens on addresses: [akka.tcp://gitigaming@127.0.0.1:8093] 
+[2023-07-21 19:11:40.5712] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Starting up... 
+[2023-07-21 19:11:40.5941] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Started up successfully 
+[2023-07-21 19:11:40.6345] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2023-07-21 19:11:40.6345] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2023-07-21 19:11:40.8599] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Welcome from [akka.tcp://gitigaming@127.0.0.1:4055] 
+[2023-07-21 19:11:42.2157] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2023-07-21 19:14:16.7313] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [7805.8477] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2023-07-21 19:14:16.7482] [WARN] [Akka.Cluster.ClusterCoreDaemon] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Marking node(s) as UNREACHABLE [Member(address = akka.tcp://gitigaming@127.0.0.1:4055, Uid=780297390 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://gitigaming@127.0.0.1:8082, Uid=1448367697 status = Up, role=[slotgame], upNumber=5, version=1.0.0), Member(address = akka.tcp://gitigaming@127.0.0.1:8083, Uid=1172276336 status = Up, role=[comm], upNumber=2, version=1.0.0), Member(address = akka.tcp://gitigaming@127.0.0.1:8094, Uid=628559139 status = Up, role=[apiserver], upNumber=4, version=1.0.0)]. Node roles [promo] 
+[2023-07-21 19:14:16.7482] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - is the new leader among reachable nodes (more leaders may exist) 
+[2023-07-21 19:14:16.7502] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://gitigaming@127.0.0.1:8094, 628559139)] 
+[2023-07-21 19:14:16.7502] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://gitigaming@127.0.0.1:8082, 1448367697)] 
+[2023-07-21 19:45:18.8230] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2023-07-21 19:45:19.2743] [INFO] [remoting (akka://gitigaming)] Starting remoting 
+[2023-07-21 19:45:19.6383] [INFO] [remoting (akka://gitigaming)] Remoting started; listening on addresses : [akka.tcp://gitigaming@127.0.0.1:8093] 
+[2023-07-21 19:45:19.6383] [INFO] [remoting (akka://gitigaming)] Remoting now listens on addresses: [akka.tcp://gitigaming@127.0.0.1:8093] 
+[2023-07-21 19:45:19.6592] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Starting up... 
+[2023-07-21 19:45:19.6782] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Started up successfully 
+[2023-07-21 19:45:19.7460] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2023-07-21 19:45:19.7460] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2023-07-21 19:45:19.9574] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Welcome from [akka.tcp://gitigaming@127.0.0.1:4055] 
+[2023-07-21 19:45:22.0517] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2023-07-21 19:46:52.9467] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2023-07-21 19:46:53.4933] [INFO] [remoting (akka://gitigaming)] Starting remoting 
+[2023-07-21 19:46:53.9100] [INFO] [remoting (akka://gitigaming)] Remoting started; listening on addresses : [akka.tcp://gitigaming@127.0.0.1:8093] 
+[2023-07-21 19:46:53.9479] [INFO] [remoting (akka://gitigaming)] Remoting now listens on addresses: [akka.tcp://gitigaming@127.0.0.1:8093] 
+[2023-07-21 19:46:53.9588] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Starting up... 
+[2023-07-21 19:46:53.9828] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Started up successfully 
+[2023-07-21 19:46:54.0476] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2023-07-21 19:46:54.0476] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2023-07-21 19:46:54.2590] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Welcome from [akka.tcp://gitigaming@127.0.0.1:4055] 
+[2023-07-21 19:46:55.9224] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2023-07-21 19:46:57.2732] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Ignoring received gossip from unknown [UniqueAddress: (akka.tcp://gitigaming@127.0.0.1:8082, 1971282978)] 
+[2023-07-21 19:49:26.2008] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2023-07-21 19:49:26.7254] [INFO] [remoting (akka://gitigaming)] Starting remoting 
+[2023-07-21 19:49:27.0372] [INFO] [remoting (akka://gitigaming)] Remoting started; listening on addresses : [akka.tcp://gitigaming@127.0.0.1:8093] 
+[2023-07-21 19:49:27.0372] [INFO] [remoting (akka://gitigaming)] Remoting now listens on addresses: [akka.tcp://gitigaming@127.0.0.1:8093] 
+[2023-07-21 19:49:27.0582] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Starting up... 
+[2023-07-21 19:49:27.0771] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Started up successfully 
+[2023-07-21 19:49:27.0961] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2023-07-21 19:49:27.0961] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2023-07-21 19:49:27.3081] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Welcome from [akka.tcp://gitigaming@127.0.0.1:4055] 
+[2023-07-21 19:49:28.6581] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2023-07-21 19:50:36.4263] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2023-07-21 19:50:37.0124] [INFO] [remoting (akka://gitigaming)] Starting remoting 
+[2023-07-21 19:50:37.1992] [INFO] [remoting (akka://gitigaming)] Remoting started; listening on addresses : [akka.tcp://gitigaming@127.0.0.1:8093] 
+[2023-07-21 19:50:37.1992] [INFO] [remoting (akka://gitigaming)] Remoting now listens on addresses: [akka.tcp://gitigaming@127.0.0.1:8093] 
+[2023-07-21 19:50:37.2202] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Starting up... 
+[2023-07-21 19:50:37.2411] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Started up successfully 
+[2023-07-21 19:50:37.2860] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2023-07-21 19:50:37.2860] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2023-07-21 19:50:37.5061] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Welcome from [akka.tcp://gitigaming@127.0.0.1:4055] 
+[2023-07-21 19:50:38.8565] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2023-07-21 19:56:50.8782] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2023-07-21 19:56:51.3454] [INFO] [remoting (akka://gitigaming)] Starting remoting 
+[2023-07-21 19:56:51.8042] [INFO] [remoting (akka://gitigaming)] Remoting started; listening on addresses : [akka.tcp://gitigaming@127.0.0.1:8093] 
+[2023-07-21 19:56:51.8042] [INFO] [remoting (akka://gitigaming)] Remoting now listens on addresses: [akka.tcp://gitigaming@127.0.0.1:8093] 
+[2023-07-21 19:56:51.8261] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Starting up... 
+[2023-07-21 19:56:51.8441] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Started up successfully 
+[2023-07-21 19:56:51.8441] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2023-07-21 19:56:51.8441] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2023-07-21 19:56:52.1099] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Welcome from [akka.tcp://gitigaming@127.0.0.1:4055] 
+[2023-07-21 19:56:53.4510] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2023-07-21 19:57:08.7816] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [3490.201] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2023-07-21 19:57:10.8412] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [2059.5753] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2023-07-21 20:01:56.7282] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2023-07-21 20:01:57.2063] [INFO] [remoting (akka://gitigaming)] Starting remoting 
+[2023-07-21 20:01:57.5041] [INFO] [remoting (akka://gitigaming)] Remoting started; listening on addresses : [akka.tcp://gitigaming@127.0.0.1:8093] 
+[2023-07-21 20:01:57.5041] [INFO] [remoting (akka://gitigaming)] Remoting now listens on addresses: [akka.tcp://gitigaming@127.0.0.1:8093] 
+[2023-07-21 20:01:57.5260] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Starting up... 
+[2023-07-21 20:01:57.5550] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Started up successfully 
+[2023-07-21 20:01:57.6128] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2023-07-21 20:01:57.6128] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2023-07-21 20:01:57.8542] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Welcome from [akka.tcp://gitigaming@127.0.0.1:4055] 
+[2023-07-21 20:01:59.2033] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2023-07-21 20:03:00.8584] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [2196.0757] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2023-07-21 20:03:03.4157] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [2559.2968] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2023-07-21 20:03:09.0904] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [4001.78] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2023-07-21 20:05:34.3687] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2023-07-21 20:05:34.8331] [INFO] [remoting (akka://gitigaming)] Starting remoting 
+[2023-07-21 20:05:35.1612] [INFO] [remoting (akka://gitigaming)] Remoting started; listening on addresses : [akka.tcp://gitigaming@127.0.0.1:8093] 
+[2023-07-21 20:05:35.1612] [INFO] [remoting (akka://gitigaming)] Remoting now listens on addresses: [akka.tcp://gitigaming@127.0.0.1:8093] 
+[2023-07-21 20:05:35.1891] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Starting up... 
+[2023-07-21 20:05:35.2250] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Started up successfully 
+[2023-07-21 20:05:35.2530] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2023-07-21 20:05:35.2530] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2023-07-21 20:05:35.4649] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Welcome from [akka.tcp://gitigaming@127.0.0.1:4055] 
+[2023-07-21 20:05:36.8279] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2023-07-21 20:06:49.9248] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2023-07-21 20:06:50.5128] [INFO] [remoting (akka://gitigaming)] Starting remoting 
+[2023-07-21 20:06:50.7866] [INFO] [remoting (akka://gitigaming)] Remoting started; listening on addresses : [akka.tcp://gitigaming@127.0.0.1:8093] 
+[2023-07-21 20:06:50.7866] [INFO] [remoting (akka://gitigaming)] Remoting now listens on addresses: [akka.tcp://gitigaming@127.0.0.1:8093] 
+[2023-07-21 20:06:50.8075] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Starting up... 
+[2023-07-21 20:06:50.8215] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Started up successfully 
+[2023-07-21 20:06:50.8512] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2023-07-21 20:06:50.8512] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2023-07-21 20:06:51.0840] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Welcome from [akka.tcp://gitigaming@127.0.0.1:4055] 
+[2023-07-21 20:06:52.4259] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2023-07-21 20:06:57.6395] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [3523.6407] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2023-07-21 20:07:15.4433] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [2579.0613] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2023-07-21 20:07:38.7138] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [8043.5687] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2023-07-21 20:07:38.7328] [WARN] [Akka.Cluster.ClusterCoreDaemon] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Marking node(s) as UNREACHABLE [Member(address = akka.tcp://gitigaming@127.0.0.1:4055, Uid=1559632448 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://gitigaming@127.0.0.1:8082, Uid=1479530560 status = Up, role=[slotgame], upNumber=5, version=1.0.0), Member(address = akka.tcp://gitigaming@127.0.0.1:8083, Uid=276208581 status = Up, role=[comm], upNumber=2, version=1.0.0), Member(address = akka.tcp://gitigaming@127.0.0.1:8094, Uid=446801479 status = Up, role=[apiserver], upNumber=4, version=1.0.0)]. Node roles [promo] 
+[2023-07-21 20:07:38.7328] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - is the new leader among reachable nodes (more leaders may exist) 
+[2023-07-21 20:07:38.7348] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://gitigaming@127.0.0.1:8094, 446801479)] 
+[2023-07-21 20:07:45.3292] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [6614.3805] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2023-07-21 20:07:45.3292] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Marking node(s) as REACHABLE [Member(address = akka.tcp://gitigaming@127.0.0.1:8083, Uid=276208581 status = Up, role=[comm], upNumber=2, version=1.0.0), Member(address = akka.tcp://gitigaming@127.0.0.1:8094, Uid=446801479 status = Up, role=[apiserver], upNumber=4, version=1.0.0), Member(address = akka.tcp://gitigaming@127.0.0.1:4055, Uid=1559632448 status = Up, role=[lighthouse], upNumber=1, version=1.4.0)]. Node roles [promo] 
+[2023-07-21 20:07:45.4678] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - is no longer leader 
+[2023-07-21 20:07:46.3421] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Marking node(s) as REACHABLE [Member(address = akka.tcp://gitigaming@127.0.0.1:8082, Uid=1479530560 status = Up, role=[slotgame], upNumber=5, version=1.0.0)]. Node roles [promo] 
+[2023-07-21 21:44:01.1787] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2023-07-21 21:44:01.6285] [INFO] [remoting (akka://gitigaming)] Starting remoting 
+[2023-07-21 21:44:01.9936] [INFO] [remoting (akka://gitigaming)] Remoting started; listening on addresses : [akka.tcp://gitigaming@127.0.0.1:8093] 
+[2023-07-21 21:44:01.9936] [INFO] [remoting (akka://gitigaming)] Remoting now listens on addresses: [akka.tcp://gitigaming@127.0.0.1:8093] 
+[2023-07-21 21:44:02.0125] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Starting up... 
+[2023-07-21 21:44:02.0454] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Started up successfully 
+[2023-07-21 21:44:02.0614] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2023-07-21 21:44:02.0614] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2023-07-21 21:44:02.2790] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Welcome from [akka.tcp://gitigaming@127.0.0.1:4055] 
+[2023-07-21 21:44:03.6195] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2023-07-21 21:44:09.2746] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [3941.1372] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2023-07-21 21:44:12.9848] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [3711.248] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2023-07-21 21:44:45.3599] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [2966.2066] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2023-07-21 22:27:40.3106] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2023-07-21 22:27:40.8185] [INFO] [remoting (akka://gitigaming)] Starting remoting 
+[2023-07-21 22:27:41.0975] [INFO] [remoting (akka://gitigaming)] Remoting started; listening on addresses : [akka.tcp://gitigaming@127.0.0.1:8093] 
+[2023-07-21 22:27:41.0975] [INFO] [remoting (akka://gitigaming)] Remoting now listens on addresses: [akka.tcp://gitigaming@127.0.0.1:8093] 
+[2023-07-21 22:27:41.1195] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Starting up... 
+[2023-07-21 22:27:41.1633] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Started up successfully 
+[2023-07-21 22:27:41.2307] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2023-07-21 22:27:41.2307] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2023-07-21 22:27:41.4222] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Welcome from [akka.tcp://gitigaming@127.0.0.1:4055] 
+[2023-07-21 22:27:42.8380] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2023-07-21 22:30:43.3597] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2023-07-21 22:30:44.0050] [INFO] [remoting (akka://gitigaming)] Starting remoting 
+[2023-07-21 22:30:44.3735] [INFO] [remoting (akka://gitigaming)] Remoting started; listening on addresses : [akka.tcp://gitigaming@127.0.0.1:8093] 
+[2023-07-21 22:30:44.3775] [INFO] [remoting (akka://gitigaming)] Remoting now listens on addresses: [akka.tcp://gitigaming@127.0.0.1:8093] 
+[2023-07-21 22:30:44.3945] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Starting up... 
+[2023-07-21 22:30:44.4294] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Started up successfully 
+[2023-07-21 22:30:44.5032] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2023-07-21 22:30:44.5032] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2023-07-21 22:30:44.7819] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Welcome from [akka.tcp://gitigaming@127.0.0.1:4055] 
+[2023-07-21 22:30:46.1358] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2023-07-21 22:38:16.5047] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2023-07-21 22:38:16.9161] [INFO] [remoting (akka://gitigaming)] Starting remoting 
+[2023-07-21 22:38:17.3207] [INFO] [remoting (akka://gitigaming)] Remoting started; listening on addresses : [akka.tcp://gitigaming@127.0.0.1:8093] 
+[2023-07-21 22:38:17.3207] [INFO] [remoting (akka://gitigaming)] Remoting now listens on addresses: [akka.tcp://gitigaming@127.0.0.1:8093] 
+[2023-07-21 22:38:17.3407] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Starting up... 
+[2023-07-21 22:38:17.3587] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Started up successfully 
+[2023-07-21 22:38:17.3966] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2023-07-21 22:38:17.3966] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2023-07-21 22:38:17.6224] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Welcome from [akka.tcp://gitigaming@127.0.0.1:4055] 
+[2023-07-21 22:38:18.9665] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2023-07-21 22:39:10.4560] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Ignoring received gossip from unknown [UniqueAddress: (akka.tcp://gitigaming@127.0.0.1:8082, 650684106)] 
+[2023-07-21 22:47:17.6866] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2023-07-21 22:47:18.2593] [INFO] [remoting (akka://gitigaming)] Starting remoting 
+[2023-07-21 22:47:18.5802] [INFO] [remoting (akka://gitigaming)] Remoting started; listening on addresses : [akka.tcp://gitigaming@127.0.0.1:8093] 
+[2023-07-21 22:47:18.5802] [INFO] [remoting (akka://gitigaming)] Remoting now listens on addresses: [akka.tcp://gitigaming@127.0.0.1:8093] 
+[2023-07-21 22:47:18.5991] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Starting up... 
+[2023-07-21 22:47:18.6191] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Started up successfully 
+[2023-07-21 22:47:18.6340] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2023-07-21 22:47:18.6340] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2023-07-21 22:47:18.8574] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Welcome from [akka.tcp://gitigaming@127.0.0.1:4055] 
+[2023-07-21 22:47:20.2173] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2023-07-21 22:48:10.5928] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Ignoring received gossip from unknown [UniqueAddress: (akka.tcp://gitigaming@127.0.0.1:8082, 1125128911)] 
+[2023-07-21 22:49:18.1702] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [2737.0721] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 

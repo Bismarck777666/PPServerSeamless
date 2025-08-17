@@ -1,0 +1,306 @@
+[2024-10-04 22:55:15.6122] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2024-10-04 22:55:16.8666] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-10-04 22:55:17.5236] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-10-04 22:55:17.5236] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-10-04 22:55:17.5418] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Starting up... 
+[2024-10-04 22:55:17.5578] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Started up successfully 
+[2024-10-04 22:55:17.6349] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2024-10-04 22:55:17.6349] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2024-10-04 22:55:17.8759] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-10-04 22:55:18.0209] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-10-04 22:55:41.2920] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2024-10-04 22:55:41.9517] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-10-04 22:55:42.1557] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-10-04 22:55:42.1557] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-10-04 22:55:42.1797] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Starting up... 
+[2024-10-04 22:55:42.2037] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Started up successfully 
+[2024-10-04 22:55:42.2267] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2024-10-04 22:55:42.2267] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2024-10-04 22:55:42.4684] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-10-04 22:55:53.4152] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-10-04 23:03:37.4467] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [2537.8819] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-10-04 23:05:48.0654] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [3276.0627] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-10-04 23:13:24.4766] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [2761.052] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-10-04 23:23:44.9555] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [3080.6259] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-10-04 23:23:56.5010] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [2364.0828] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-10-04 23:23:59.2036] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [2702.5439] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-10-04 23:31:04.2850] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [14834.4877] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-10-04 23:31:04.3300] [WARN] [Akka.Cluster.ClusterCoreDaemon] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Marking node(s) as UNREACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:4055, Uid=520398235 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://godgaming@127.0.0.1:8083, Uid=1800031386 status = Up, role=[comm], upNumber=3, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8091, Uid=2076122747 status = Up, role=[slotgame], upNumber=2, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8094, Uid=579778357 status = Up, role=[queenapi], upNumber=5, version=1.0.0)]. Node roles [promo] 
+[2024-10-04 23:31:04.3416] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - is the new leader among reachable nodes (more leaders may exist) 
+[2024-10-04 23:31:04.3416] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:4055, 520398235)] 
+[2024-10-04 23:31:10.0569] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [5771.9613] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-10-04 23:31:10.0739] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:4055, 520398235)] 
+[2024-10-04 23:31:10.0739] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:4055, 520398235)] 
+[2024-10-04 23:31:10.0739] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:4055, 520398235)] 
+[2024-10-04 23:31:10.0739] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:4055, 520398235)] 
+[2024-10-04 23:31:10.0739] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:4055, 520398235)] 
+[2024-10-04 23:31:14.2385] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [4181.5364] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-10-04 23:31:14.2445] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:4055, 520398235)] 
+[2024-10-04 23:31:14.2445] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:4055, 520398235)] 
+[2024-10-04 23:31:14.2445] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Marking node(s) as REACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:4055, Uid=520398235 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://godgaming@127.0.0.1:8094, Uid=579778357 status = Up, role=[queenapi], upNumber=5, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8083, Uid=1800031386 status = Up, role=[comm], upNumber=3, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8091, Uid=2076122747 status = Up, role=[slotgame], upNumber=2, version=1.0.0)]. Node roles [promo] 
+[2024-10-04 23:31:14.2675] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - is no longer leader 
+[2024-10-04 23:31:18.4844] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [2766.5053] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-10-04 23:31:28.7050] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [2242.6024] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-10-04 23:31:52.1115] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [4325.0005] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-10-04 23:32:03.9577] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [7834.2403] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-10-04 23:32:03.9577] [WARN] [Akka.Cluster.ClusterCoreDaemon] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Marking node(s) as UNREACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:4055, Uid=520398235 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://godgaming@127.0.0.1:8083, Uid=1800031386 status = Up, role=[comm], upNumber=3, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8091, Uid=2076122747 status = Up, role=[slotgame], upNumber=2, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8094, Uid=579778357 status = Up, role=[queenapi], upNumber=5, version=1.0.0)]. Node roles [promo] 
+[2024-10-04 23:32:03.9638] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - is the new leader among reachable nodes (more leaders may exist) 
+[2024-10-04 23:32:03.9638] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:4055, 520398235)] 
+[2024-10-04 23:32:03.9638] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:4055, 520398235)] 
+[2024-10-04 23:32:05.0124] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Marking node(s) as REACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:4055, Uid=520398235 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://godgaming@127.0.0.1:8094, Uid=579778357 status = Up, role=[queenapi], upNumber=5, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8083, Uid=1800031386 status = Up, role=[comm], upNumber=3, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8091, Uid=2076122747 status = Up, role=[slotgame], upNumber=2, version=1.0.0)]. Node roles [promo] 
+[2024-10-04 23:32:05.0124] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - is no longer leader 
+[2024-10-04 23:33:55.2305] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2024-10-04 23:33:56.0151] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-10-04 23:33:56.3788] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-10-04 23:33:56.3788] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-10-04 23:33:56.4038] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Starting up... 
+[2024-10-04 23:33:56.4358] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Started up successfully 
+[2024-10-04 23:33:56.5258] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2024-10-04 23:33:56.5258] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2024-10-04 23:33:56.7458] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-10-04 23:34:07.7339] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-10-04 23:34:27.8414] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [2861.8059] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-10-04 23:34:59.8839] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [5780.0939] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-10-04 23:35:00.7077] [WARN] [Akka.Cluster.ClusterCoreDaemon] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Marking node(s) as UNREACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:4055, Uid=520398235 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://godgaming@127.0.0.1:8083, Uid=1455313592 status = Up, role=[comm], upNumber=2, version=1.0.0)]. Node roles [promo] 
+[2024-10-04 23:35:00.7077] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:4055, 520398235)] 
+[2024-10-04 23:35:00.7077] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:4055, 520398235)] 
+[2024-10-04 23:35:00.8537] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:4055, 520398235)] 
+[2024-10-04 23:35:00.9047] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Marking node(s) as REACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:4055, Uid=520398235 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://godgaming@127.0.0.1:8083, Uid=1455313592 status = Up, role=[comm], upNumber=2, version=1.0.0)]. Node roles [promo] 
+[2024-10-04 23:36:38.8266] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2024-10-04 23:36:39.5066] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-10-04 23:36:39.6877] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-10-04 23:36:39.6877] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-10-04 23:36:39.7177] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Starting up... 
+[2024-10-04 23:36:39.7357] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Started up successfully 
+[2024-10-04 23:36:39.7507] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2024-10-04 23:36:39.7507] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2024-10-04 23:36:39.9657] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-10-04 23:36:40.0287] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:36:40.0287] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-10-04 23:36:40.1177] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-04 23:36:50.0368] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:36:50.9670] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-10-04 23:37:00.0479] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:37:10.0675] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:37:20.0798] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:37:22.5010] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [2156.147] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-10-04 23:37:30.0875] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:37:43.3798] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [13265.3388] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-10-04 23:37:43.4798] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-04 23:37:43.4798] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:37:43.4938] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-10-04 23:37:43.4938] [WARN] [Akka.Cluster.ClusterCoreDaemon] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Marking node(s) as UNREACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:4055, Uid=520398235 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://godgaming@127.0.0.1:8083, Uid=1280189846 status = Up, role=[comm], upNumber=2, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8091, Uid=352959228 status = Up, role=[slotgame], upNumber=4, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8094, Uid=1004098485 status = Up, role=[queenapi], upNumber=3, version=1.0.0)]. Node roles [promo] 
+[2024-10-04 23:37:43.5188] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - is the new leader among reachable nodes (more leaders may exist) 
+[2024-10-04 23:37:43.5188] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:4055, 520398235)] 
+[2024-10-04 23:37:45.1548] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:4055, 520398235)] 
+[2024-10-04 23:37:45.2158] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Marking node(s) as REACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:8091, Uid=352959228 status = Up, role=[slotgame], upNumber=4, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:4055, Uid=520398235 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://godgaming@127.0.0.1:8094, Uid=1004098485 status = Up, role=[queenapi], upNumber=3, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8083, Uid=1280189846 status = Up, role=[comm], upNumber=2, version=1.0.0)]. Node roles [promo] 
+[2024-10-04 23:37:45.2363] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - is no longer leader 
+[2024-10-04 23:37:54.1868] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:38:04.2012] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:38:18.2935] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [5468.0642] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-10-04 23:38:18.2935] [WARN] [Akka.Cluster.ClusterCoreDaemon] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Marking node(s) as UNREACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:4055, Uid=520398235 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://godgaming@127.0.0.1:8083, Uid=1280189846 status = Up, role=[comm], upNumber=2, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8091, Uid=352959228 status = Up, role=[slotgame], upNumber=4, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8094, Uid=1004098485 status = Up, role=[queenapi], upNumber=3, version=1.0.0)]. Node roles [promo] 
+[2024-10-04 23:38:18.2935] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - is the new leader among reachable nodes (more leaders may exist) 
+[2024-10-04 23:38:18.3075] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:38:21.9680] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [3675.5292] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-10-04 23:38:21.9680] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Marking node(s) as REACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:8091, Uid=352959228 status = Up, role=[slotgame], upNumber=4, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:4055, Uid=520398235 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://godgaming@127.0.0.1:8094, Uid=1004098485 status = Up, role=[queenapi], upNumber=3, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8083, Uid=1280189846 status = Up, role=[comm], upNumber=2, version=1.0.0)]. Node roles [promo] 
+[2024-10-04 23:38:22.0235] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - is no longer leader 
+[2024-10-04 23:38:24.8878] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [2919.8028] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-10-04 23:38:28.3277] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:38:32.2128] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [2252.0488] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-10-04 23:38:38.3464] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:38:41.6144] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [2697.2626] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-10-04 23:38:43.4622] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-04 23:38:43.4984] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-10-04 23:38:48.3674] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:38:55.9665] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [2204.099] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-10-04 23:39:02.4564] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [5069.8163] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-10-04 23:39:02.4564] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:39:10.5789] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [2060.0026] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-10-04 23:39:14.1968] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [3617.861] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-10-04 23:39:14.1988] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:39:24.2044] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:39:34.2233] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:39:43.4843] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-04 23:39:43.5163] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-10-04 23:39:44.2406] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:39:54.2754] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:40:04.2854] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:40:14.3027] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:40:24.3176] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:40:34.3224] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:40:43.5077] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-04 23:40:43.5397] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-10-04 23:40:44.3323] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:40:54.3478] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:41:04.3619] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:41:14.3773] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:41:24.3889] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:41:34.4057] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:41:43.5243] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-04 23:41:43.5573] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-10-04 23:41:44.4273] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:41:54.4358] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:42:04.4509] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:42:14.4646] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:43:01.2931] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2024-10-04 23:43:01.9374] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-10-04 23:43:02.1944] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-10-04 23:43:02.1944] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-10-04 23:43:02.2104] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Starting up... 
+[2024-10-04 23:43:02.2274] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Started up successfully 
+[2024-10-04 23:43:02.2415] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2024-10-04 23:43:02.2415] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2024-10-04 23:43:02.4875] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-10-04 23:43:02.5565] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-10-04 23:43:02.5565] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:43:02.6485] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-04 23:43:12.5922] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:43:13.4353] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-10-04 23:43:22.6080] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:43:32.6201] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:43:42.6466] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:43:52.6621] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:44:02.5808] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-10-04 23:44:02.6722] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-04 23:44:02.6722] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:44:12.6857] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:44:22.6964] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:44:32.7017] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:44:43.7843] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [2189.4299] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-10-04 23:44:43.7843] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:44:53.7909] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:46:05.1049] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [65108.9176] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-10-04 23:46:05.2579] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-04 23:46:05.3839] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:46:05.3909] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-10-04 23:46:05.4189] [WARN] [Akka.Cluster.ClusterCoreDaemon] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Marking node(s) as UNREACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:4055, Uid=520398235 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://godgaming@127.0.0.1:8083, Uid=1940082550 status = Up, role=[comm], upNumber=2, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8091, Uid=532305573 status = Up, role=[slotgame], upNumber=4, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8094, Uid=1183444830 status = Up, role=[queenapi], upNumber=3, version=1.0.0)]. Node roles [promo] 
+[2024-10-04 23:46:05.4189] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - is the new leader among reachable nodes (more leaders may exist) 
+[2024-10-04 23:46:05.4189] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:4055, 520398235)] 
+[2024-10-04 23:46:05.4369] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:8083, 1940082550)] 
+[2024-10-04 23:46:05.4369] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:4055, 520398235)] 
+[2024-10-04 23:46:05.4369] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:4055, 520398235)] 
+[2024-10-04 23:46:07.5145] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [2409.5723] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-10-04 23:46:07.5145] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Marking node(s) as REACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:4055, Uid=520398235 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://godgaming@127.0.0.1:8091, Uid=532305573 status = Up, role=[slotgame], upNumber=4, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8094, Uid=1183444830 status = Up, role=[queenapi], upNumber=3, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8083, Uid=1940082550 status = Up, role=[comm], upNumber=2, version=1.0.0)]. Node roles [promo] 
+[2024-10-04 23:46:07.5555] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - is no longer leader 
+[2024-10-04 23:46:13.7679] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [2195.2481] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-10-04 23:46:15.4055] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:46:25.4366] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:46:35.4482] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:46:45.4690] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:46:55.4910] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:47:05.2834] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-04 23:47:05.3971] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-10-04 23:47:05.5061] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:47:15.5194] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:47:25.5373] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:47:37.5356] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2024-10-04 23:47:38.2113] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-10-04 23:47:38.4363] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-10-04 23:47:38.4363] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-10-04 23:47:38.4653] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Starting up... 
+[2024-10-04 23:47:38.5053] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Started up successfully 
+[2024-10-04 23:47:38.5253] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2024-10-04 23:47:38.5253] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2024-10-04 23:47:38.7523] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-10-04 23:47:38.8413] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-10-04 23:47:38.8413] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:47:38.9304] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-04 23:47:48.8523] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:47:49.7483] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-10-04 23:47:58.8640] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:48:08.8771] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:48:18.8906] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:48:28.9286] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:48:38.8578] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-10-04 23:48:38.9470] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-04 23:48:38.9470] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:48:48.9746] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:48:58.9831] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:49:08.9906] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:49:19.0041] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:49:29.0171] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:49:38.8865] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-10-04 23:49:38.9625] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-04 23:49:39.0285] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:49:49.0451] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:49:59.0646] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:50:09.0769] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:50:19.0850] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:50:29.0957] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:50:38.8946] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-10-04 23:50:38.9846] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-04 23:50:39.1145] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:50:49.1281] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:50:59.1516] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:51:09.1746] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:51:19.1906] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:51:29.2083] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:51:38.9146] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-10-04 23:51:39.0101] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-04 23:51:39.2281] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:51:49.2453] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:51:59.2573] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:52:09.2698] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:52:19.2872] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:52:29.3046] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:52:38.9346] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-10-04 23:52:39.0342] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-04 23:52:39.3156] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:52:49.3248] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:52:59.3352] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:53:09.3561] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:53:19.3628] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:53:29.3714] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:53:38.9531] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-10-04 23:53:39.0441] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-04 23:53:39.3861] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:53:49.4032] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:53:59.4274] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:54:09.4327] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:54:19.4423] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:54:29.4650] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:54:38.9760] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-10-04 23:54:39.0661] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-04 23:54:39.4711] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:54:49.4884] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:54:59.5021] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:55:09.5272] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:55:19.5297] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:55:29.5462] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:55:38.9964] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-10-04 23:55:39.0710] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-04 23:55:39.5533] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:55:49.5700] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:55:59.5914] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:56:09.6145] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:56:19.6280] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:56:29.6525] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:56:39.0140] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-10-04 23:56:39.0930] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-04 23:56:39.6689] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:56:49.6807] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:56:59.6932] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:57:09.7145] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:57:19.7385] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:57:29.7666] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:57:39.0299] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-10-04 23:57:39.1030] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-04 23:57:39.7751] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:57:49.7934] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:57:59.8023] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:58:09.8244] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:58:19.8371] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:58:29.8551] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:58:39.0461] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-10-04 23:58:39.1231] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-04 23:58:39.8660] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:58:49.8849] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:58:59.8973] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:59:09.9043] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:59:19.9120] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:59:29.9231] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:59:39.0579] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-10-04 23:59:39.1334] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-04 23:59:39.9430] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:59:49.9587] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-04 23:59:59.9695] [INFO] [PromoNode.PromoFetchActor] Race Received 

@@ -1,0 +1,73 @@
+[2024-08-13 11:09:03.6942] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-08-13 11:09:11.4333] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-08-13 11:09:12.9638] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-08-13 11:09:14.8283] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-08-13 11:09:14.8372] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-08-13 11:09:14.8372] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2024-08-13 11:09:15.0133] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2024-08-13 11:09:15.0811] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2024-08-13 11:09:15.4925] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-08-13 11:09:15.9540] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-08-13 11:10:11.9894] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [3352.7739] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-08-13 11:10:12.0064] [WARN] [Akka.Remote.PhiAccrualFailureDetector] heartbeat interval is growing too large for address akka.tcp://godgaming@127.0.0.1:4055: 3371 millis 
+[2024-08-13 11:10:12.0064] [WARN] [Akka.Remote.PhiAccrualFailureDetector] heartbeat interval is growing too large for address akka.tcp://godgaming@127.0.0.1:8093: 3371 millis 
+[2024-08-13 11:10:12.0064] [WARN] [Akka.Remote.PhiAccrualFailureDetector] heartbeat interval is growing too large for address akka.tcp://godgaming@127.0.0.1:8091: 3371 millis 
+[2024-08-13 11:10:12.0393] [WARN] [Akka.Remote.PhiAccrualFailureDetector] heartbeat interval is growing too large for address akka.tcp://godgaming@127.0.0.1:8083: 3404 millis 
+[2024-08-13 11:10:50.3605] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-08-13 11:10:51.6460] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-08-13 11:10:52.4938] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-08-13 11:10:52.4938] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-08-13 11:10:52.5237] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2024-08-13 11:10:52.5576] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2024-08-13 11:10:52.6354] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2024-08-13 11:10:53.2288] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-08-13 11:10:53.9878] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-08-13 11:10:55.5025] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Ignoring received gossip from unknown [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:8091, 800974026)] 
+[2024-08-13 11:34:04.0882] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-08-13 11:34:05.8828] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-08-13 11:34:06.5051] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-08-13 11:34:06.5071] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-08-13 11:34:06.5281] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2024-08-13 11:34:06.5630] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2024-08-13 11:34:06.5829] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2024-08-13 11:34:07.0846] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-08-13 11:34:07.4300] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-08-13 11:34:08.0446] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Ignoring received gossip from unknown [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:8091, 117158321)] 
+[2024-08-13 11:34:17.8437] [INFO] [Akka.Remote.Transport.DotNetty.TcpClientHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:9340->[::ffff:127.0.0.1]:8093](Id=02496195) 
+[2024-08-13 11:34:17.8686] [INFO] [Akka.Remote.Transport.DotNetty.TcpServerHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:8094->[::ffff:127.0.0.1]:9338](Id=3f6a8c69) 
+[2024-08-13 11:34:40.0808] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-08-13 11:34:41.4205] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-08-13 11:34:42.1071] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-08-13 11:34:42.1241] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-08-13 11:34:42.1391] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2024-08-13 11:34:42.2321] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2024-08-13 11:34:42.3770] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2024-08-13 11:34:43.1436] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-08-13 11:34:43.6368] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-08-13 11:40:06.0920] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-08-13 11:40:06.7697] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-08-13 11:40:07.3522] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-08-13 11:40:07.3522] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-08-13 11:40:07.3761] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2024-08-13 11:40:07.4888] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2024-08-13 11:40:07.5427] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2024-08-13 11:40:07.8249] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-08-13 11:40:08.3446] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-08-13 11:40:59.2312] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-08-13 11:41:00.2696] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-08-13 11:41:00.6014] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-08-13 11:41:00.6014] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-08-13 11:41:00.6214] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2024-08-13 11:41:00.6523] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2024-08-13 11:41:00.6852] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2024-08-13 11:41:00.8947] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-08-13 11:41:01.4569] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-08-13 11:43:41.5827] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-08-13 11:43:42.5660] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-08-13 11:43:42.9812] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-08-13 11:43:42.9812] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-08-13 11:43:43.0062] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2024-08-13 11:43:43.0701] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2024-08-13 11:43:43.1101] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2024-08-13 11:43:43.3009] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-08-13 11:43:44.1250] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 

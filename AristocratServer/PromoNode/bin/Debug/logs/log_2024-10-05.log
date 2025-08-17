@@ -1,0 +1,106 @@
+[2024-10-05 00:00:09.9832] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:00:20.0060] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:00:30.0190] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:00:39.0677] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-10-05 00:00:39.1524] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-05 00:00:40.0384] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:00:50.0620] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:01:00.0831] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:01:10.1038] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:01:20.1182] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:01:30.1431] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:01:39.0769] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-10-05 00:01:39.1694] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-05 00:01:40.1594] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:01:50.1835] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:02:00.1941] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:02:10.2091] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:02:20.2359] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:02:30.2623] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:02:39.0928] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-10-05 00:02:39.1872] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-05 00:02:40.2810] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:02:50.3062] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:03:00.3174] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:03:10.3289] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:03:20.3504] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:03:30.3719] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:03:39.1124] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-10-05 00:03:39.2025] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-05 00:03:40.3807] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:03:50.3945] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:04:00.4116] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:04:10.4276] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:04:20.4309] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:04:30.4428] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:04:39.1347] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-10-05 00:04:39.2112] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-05 00:04:40.4608] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:04:50.4826] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:05:00.4957] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:05:10.5110] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:05:20.5353] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:05:30.5410] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:05:39.1596] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-10-05 00:05:39.2318] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-05 00:05:40.5668] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:05:50.5733] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:06:01.9382] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2024-10-05 00:06:02.5724] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-10-05 00:06:02.7913] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-10-05 00:06:02.7913] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-10-05 00:06:02.8133] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Starting up... 
+[2024-10-05 00:06:02.8423] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Started up successfully 
+[2024-10-05 00:06:02.8613] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2024-10-05 00:06:02.8613] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2024-10-05 00:06:03.1293] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-10-05 00:06:03.2158] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-10-05 00:06:03.2158] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:06:03.3098] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-05 00:06:13.2372] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:06:13.3147] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-05 00:06:14.0635] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-10-05 00:06:23.2462] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:06:23.3212] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-05 00:06:33.2593] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:06:33.3403] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-05 00:06:43.2727] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:06:43.3527] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-05 00:06:53.2940] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:06:53.3691] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-05 00:08:19.9027] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2024-10-05 00:08:20.5654] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-10-05 00:08:20.8540] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-10-05 00:08:20.8540] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-10-05 00:08:20.8790] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Starting up... 
+[2024-10-05 00:08:20.9160] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Started up successfully 
+[2024-10-05 00:08:20.9420] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2024-10-05 00:08:20.9420] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2024-10-05 00:08:21.1758] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-10-05 00:08:21.2618] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-10-05 00:08:21.2618] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:08:21.3548] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-05 00:08:31.2718] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:08:31.3798] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-05 00:08:32.1148] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-10-05 00:08:41.2799] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:08:41.3899] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-05 00:08:44.0314] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [2782.5535] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-10-05 00:08:51.2996] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:08:51.4044] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-05 00:09:01.3211] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:09:01.4269] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-05 00:09:11.3277] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:09:11.4392] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-05 00:09:19.9304] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [3059.5283] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-10-05 00:09:21.2721] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-10-05 00:09:21.3461] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:09:21.4557] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-05 00:09:31.3749] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:09:31.4673] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-05 00:09:41.3998] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:09:41.4770] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-05 00:09:51.4206] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:09:51.4958] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-10-05 00:10:01.4269] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-10-05 00:10:01.5208] [INFO] [PromoNode.PromoFetchActor] Freespin Received 

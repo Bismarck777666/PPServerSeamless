@@ -1,0 +1,69 @@
+﻿slotgames{
+  actorsystem: "godgaming" #POPULATE NAME OF YOUR ACTOR SYSTEM HERE
+  database {
+		ip			= "127.0.0.1"
+		port		= 1433
+		user		= "sa"
+		pass		= "tmdflwk123$%^"
+		dbname		= "aristocrat"
+		poolcount	= 10
+  }
+  redis {
+		ip			= "127.0.0.1"
+		port		= 6379
+		password	= ""
+		database	= 3
+  }
+  seednodes = ["akka.tcp://godgaming@127.0.0.1:14055"]
+  cq9 {
+		historyurl		= "http://localhost:56180/cq9/platform/" 
+  }
+}
+
+akka {
+	loggers = ["Akka.Logger.NLog.NLogLogger, Akka.Logger.NLog"]
+	actor {
+		provider = cluster
+		deployment {            								
+			
+			/gameManager {
+				router			= round-robin-pool
+				nr-of-instances = 1
+			}
+			/commServers {
+				router        = broadcast-group
+				routees.paths = ["/user/bootstrapper"]
+				cluster {
+					enabled = on
+					allow-local-routees = off
+					use-role = comm
+				}
+			}
+			/promoRouter {
+				router = round-robin-group
+				routees.paths = ["/user/promofetcher"]
+				cluster {
+					enabled = on
+					allow-local-routees = off
+					use-role = promo
+				}
+			}
+			/redisWriter {
+				router 			= consistent-hashing-pool
+				nr-of-instances = 5
+			}
+		}
+	}
+						
+	remote {
+		dot-netty.tcp {
+				hostname = "127.0.0.1"
+				port     = 18091
+				maximum-frame-size = 2048000b
+			}
+	}			
+
+	cluster {
+		roles = ["slotgame"]
+	}
+}

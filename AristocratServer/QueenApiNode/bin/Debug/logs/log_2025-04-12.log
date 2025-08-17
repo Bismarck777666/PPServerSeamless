@@ -1,0 +1,59 @@
+[2025-04-12 01:46:21.3003] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2025-04-12 01:46:21.5174] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2025-04-12 01:46:21.6578] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2025-04-12 01:46:21.6578] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2025-04-12 01:46:21.6758] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2025-04-12 01:46:21.6758] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2025-04-12 01:46:21.6938] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2025-04-12 01:46:21.9105] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2025-04-12 01:46:21.9285] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2025-04-12 13:28:20.8104] [ERROR] [QueenApiNode.Agent.AgentActor] Exception has been occurred in AgentActor::onUserGetGameURL System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'demoadvent.evo888h5.com'
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at QueenApiNode.Agent.AgentActor.<onUserGetGameURL>d__23.MoveNext() in E:\WORK\PROMISS\Slot\SlotCityCasinoServer\QueenApiNode\Agent\AgentActor.cs:line 345 
+[2025-04-12 13:28:20.8244] [ERROR] [QueenApiNode.Agent.AgentActor] Exception has been occurred in AgentActor::onUserGetGameURL System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'demoadvent.evo888h5.com'
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at QueenApiNode.Agent.AgentActor.<onUserGetGameURL>d__23.MoveNext() in E:\WORK\PROMISS\Slot\SlotCityCasinoServer\QueenApiNode\Agent\AgentActor.cs:line 345 
+[2025-04-12 16:58:26.8576] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2025-04-12 16:58:27.0666] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2025-04-12 16:58:27.2026] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2025-04-12 16:58:27.2026] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2025-04-12 16:58:27.2256] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2025-04-12 16:58:27.2406] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2025-04-12 16:58:27.2406] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2025-04-12 16:58:27.4606] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2025-04-12 16:58:27.5126] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2025-04-12 16:59:29.9681] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Ignoring received gossip from unknown [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:8091, 1635913406)] 
+[2025-04-12 17:02:39.1671] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2025-04-12 17:02:39.3826] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2025-04-12 17:02:39.5326] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2025-04-12 17:02:39.5326] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2025-04-12 17:02:39.5536] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2025-04-12 17:02:39.5696] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2025-04-12 17:02:39.5776] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2025-04-12 17:02:39.8280] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2025-04-12 17:02:39.8480] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2025-04-12 17:13:48.6421] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2025-04-12 17:13:49.1716] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2025-04-12 17:13:49.5576] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2025-04-12 17:13:49.5576] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2025-04-12 17:13:49.5836] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2025-04-12 17:13:49.6046] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2025-04-12 17:13:49.6226] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2025-04-12 17:13:50.0972] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2025-04-12 17:13:50.1283] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2025-04-12 17:14:17.9882] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [4589.8892] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2025-04-12 17:14:18.0152] [WARN] [Akka.Cluster.ClusterCoreDaemon] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Marking node(s) as UNREACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:4055, Uid=1566993905 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://godgaming@127.0.0.1:8083, Uid=1309757191 status = Up, role=[comm], upNumber=2, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8093, Uid=2085249558 status = Up, role=[promo], upNumber=4, version=1.0.0)]. Node roles [queenapi] 
+[2025-04-12 17:14:18.0152] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - is the new leader among reachable nodes (more leaders may exist) 
+[2025-04-12 17:14:18.0152] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:4055, 1566993905)] 
+[2025-04-12 17:14:19.0258] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Marking node(s) as REACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:8083, Uid=1309757191 status = Up, role=[comm], upNumber=2, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:4055, Uid=1566993905 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://godgaming@127.0.0.1:8093, Uid=2085249558 status = Up, role=[promo], upNumber=4, version=1.0.0)]. Node roles [queenapi] 
+[2025-04-12 17:14:19.0558] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - is no longer leader 

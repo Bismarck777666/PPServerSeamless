@@ -1,0 +1,32 @@
+[2025-07-04 00:35:16.6460] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:18095] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [5894.9071] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2025-07-04 00:35:16.6551] [WARN] [Akka.Cluster.ClusterCoreDaemon] Cluster Node [akka.tcp://godgaming@127.0.0.1:18095] - Marking node(s) as UNREACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:14055, Uid=373495102 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://godgaming@127.0.0.1:18083, Uid=1222547429 status = Up, role=[comm], upNumber=2, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:18091, Uid=1051954531 status = Up, role=[slotgame], upNumber=4, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:18094, Uid=1606060850 status = Up, role=[queenapi], upNumber=3, version=1.0.0)]. Node roles [seamlessapi] 
+[2025-07-04 00:35:16.6551] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:18095] - is the new leader among reachable nodes (more leaders may exist) 
+[2025-07-04 00:35:16.6921] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:18095] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:18083, 1222547429)] 
+[2025-07-04 00:35:17.6607] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:18095] - Marking node(s) as REACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:14055, Uid=373495102 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://godgaming@127.0.0.1:18091, Uid=1051954531 status = Up, role=[slotgame], upNumber=4, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:18083, Uid=1222547429 status = Up, role=[comm], upNumber=2, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:18094, Uid=1606060850 status = Up, role=[queenapi], upNumber=3, version=1.0.0)]. Node roles [seamlessapi] 
+[2025-07-04 00:35:17.6787] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:18095] - is no longer leader 
+[2025-07-04 02:28:29.6278] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2025-07-04 02:28:30.9050] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2025-07-04 02:28:31.5426] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:18095] 
+[2025-07-04 02:28:31.5426] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:18095] 
+[2025-07-04 02:28:31.5676] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:18095] - Starting up... 
+[2025-07-04 02:28:31.5936] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:18095] - Started up successfully 
+[2025-07-04 02:28:31.6226] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2025-07-04 02:28:32.0006] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2025-07-04 02:28:32.0216] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:18095] - Welcome from [akka.tcp://godgaming@127.0.0.1:14055] 
+[2025-07-04 12:54:40.7400] [INFO] [Akka.Remote.Transport.DotNetty.TcpClientHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:14870->[::ffff:127.0.0.1]:18094](Id=3aa12b89) 
+[2025-07-04 12:54:40.7741] [INFO] [Akka.Remote.Transport.DotNetty.TcpClientHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:14872->[::ffff:127.0.0.1]:18083](Id=13c31db3) 
+[2025-07-04 12:54:40.7911] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:18095]->[akka.tcp://godgaming@127.0.0.1:18094] 
+[2025-07-04 12:54:40.7911] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:18095]->[akka.tcp://godgaming@127.0.0.1:18083] 
+[2025-07-04 12:54:40.7911] [INFO] [Akka.Remote.Transport.DotNetty.TcpServerHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:18095->[::ffff:127.0.0.1]:14876](Id=77c2565d) 
+[2025-07-04 12:54:40.8051] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:18095]->[akka.tcp://godgaming@127.0.0.1:18091] 
+[2025-07-04 13:58:47.3603] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2025-07-04 13:58:48.1766] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2025-07-04 13:58:48.5623] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:18095] 
+[2025-07-04 13:58:48.5623] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:18095] 
+[2025-07-04 13:58:48.5903] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:18095] - Starting up... 
+[2025-07-04 13:58:48.6123] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:18095] - Started up successfully 
+[2025-07-04 13:58:48.6293] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2025-07-04 13:58:48.9053] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:18095] - Welcome from [akka.tcp://godgaming@127.0.0.1:14055] 
+[2025-07-04 13:58:48.9353] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2025-07-04 13:58:49.9530] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:18095] - Ignoring received gossip from unknown [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:18091, 1185107142)] 
+[2025-07-04 14:11:25.9857] [INFO] [Akka.Remote.Transport.DotNetty.TcpClientHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:9220->[::ffff:127.0.0.1]:18083](Id=421c7105) 

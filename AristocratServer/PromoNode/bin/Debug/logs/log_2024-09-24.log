@@ -1,0 +1,76 @@
+[2024-09-24 14:00:35.6668] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2024-09-24 14:00:36.6168] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-09-24 14:00:37.1158] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-09-24 14:00:37.1158] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-09-24 14:00:37.1428] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Starting up... 
+[2024-09-24 14:00:37.1768] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Started up successfully 
+[2024-09-24 14:00:37.2518] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2024-09-24 14:00:37.2518] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2024-09-24 14:00:37.6488] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-09-24 14:00:37.8068] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-09-24 14:01:43.1119] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [5487.5641] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-09-24 14:01:43.1496] [WARN] [Akka.Cluster.ClusterCoreDaemon] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Marking node(s) as UNREACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:4055, Uid=524029060 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://godgaming@127.0.0.1:8083, Uid=409034059 status = Up, role=[comm], upNumber=2, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8094, Uid=132942698 status = Up, role=[queenapi], upNumber=4, version=1.0.0)]. Node roles [promo] 
+[2024-09-24 14:01:43.1586] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - is the new leader among reachable nodes (more leaders may exist) 
+[2024-09-24 14:01:43.1586] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:8083, 409034059)] 
+[2024-09-24 14:01:44.1273] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Marking node(s) as REACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:8094, Uid=132942698 status = Up, role=[queenapi], upNumber=4, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8083, Uid=409034059 status = Up, role=[comm], upNumber=2, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:4055, Uid=524029060 status = Up, role=[lighthouse], upNumber=1, version=1.4.0)]. Node roles [promo] 
+[2024-09-24 14:01:44.1273] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - is no longer leader 
+[2024-09-24 14:01:56.2968] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip from unknown [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:8091, 1960083762)] 
+[2024-09-24 14:04:41.1150] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2024-09-24 14:04:41.6060] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-09-24 14:04:41.9146] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-09-24 14:04:41.9146] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-09-24 14:04:41.9336] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Starting up... 
+[2024-09-24 14:04:41.9556] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Started up successfully 
+[2024-09-24 14:04:41.9766] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2024-09-24 14:04:41.9766] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2024-09-24 14:04:42.1808] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-09-24 14:05:33.7336] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-09-24 14:07:54.1451] [INFO] [Akka.Remote.Transport.DotNetty.TcpClientHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:14379->[::ffff:127.0.0.1]:8091](Id=55e23079) 
+[2024-09-24 14:07:54.1691] [INFO] [Akka.Remote.Transport.DotNetty.TcpServerHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:8093->[::ffff:127.0.0.1]:14369](Id=6ef738e7) 
+[2024-09-24 14:07:54.1781] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8093]->[akka.tcp://godgaming@127.0.0.1:8091] 
+[2024-09-24 14:07:54.1781] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8093]->[akka.tcp://godgaming@127.0.0.1:8083] 
+[2024-09-24 14:07:56.0773] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2024-09-24 14:07:56.4130] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-09-24 14:07:56.7000] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-09-24 14:07:56.7000] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-09-24 14:07:56.7230] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Starting up... 
+[2024-09-24 14:07:56.7390] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Started up successfully 
+[2024-09-24 14:07:56.7570] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2024-09-24 14:07:56.7570] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2024-09-24 14:07:56.9820] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-09-24 14:08:48.5165] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-09-24 16:05:09.3241] [INFO] [Akka.Remote.Transport.DotNetty.TcpClientHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:14559->[::ffff:127.0.0.1]:8091](Id=272ecf80) 
+[2024-09-24 16:05:12.3019] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2024-09-24 16:05:12.7779] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-09-24 16:05:13.1655] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-09-24 16:05:13.1655] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-09-24 16:05:13.1935] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Starting up... 
+[2024-09-24 16:05:13.2135] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Started up successfully 
+[2024-09-24 16:05:13.2335] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2024-09-24 16:05:13.2335] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2024-09-24 16:05:13.5425] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-09-24 16:05:44.5023] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2024-09-24 16:05:45.0553] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-09-24 16:05:45.4300] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-09-24 16:05:45.4300] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-09-24 16:05:45.4520] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Starting up... 
+[2024-09-24 16:05:45.4810] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Started up successfully 
+[2024-09-24 16:05:45.4980] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2024-09-24 16:05:45.4980] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2024-09-24 16:05:45.7510] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-09-24 16:05:56.7084] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-09-24 16:06:39.2279] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [8052.2065] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-09-24 16:06:39.2589] [WARN] [Akka.Cluster.ClusterCoreDaemon] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Marking node(s) as UNREACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:4055, Uid=524029060 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://godgaming@127.0.0.1:8083, Uid=1917647812 status = Up, role=[comm], upNumber=2, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8091, Uid=1479429078 status = Up, role=[slotgame], upNumber=5, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8094, Uid=2139033860 status = Up, role=[queenapi], upNumber=3, version=1.0.0)]. Node roles [promo] 
+[2024-09-24 16:06:39.2589] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - is the new leader among reachable nodes (more leaders may exist) 
+[2024-09-24 16:06:39.2589] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:8091, 1479429078)] 
+[2024-09-24 16:06:39.2689] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:4055, 524029060)] 
+[2024-09-24 16:06:39.2689] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:4055, 524029060)] 
+[2024-09-24 16:06:40.2202] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Marking node(s) as REACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:4055, Uid=524029060 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://godgaming@127.0.0.1:8091, Uid=1479429078 status = Up, role=[slotgame], upNumber=5, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8083, Uid=1917647812 status = Up, role=[comm], upNumber=2, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8094, Uid=2139033860 status = Up, role=[queenapi], upNumber=3, version=1.0.0)]. Node roles [promo] 
+[2024-09-24 16:06:40.2202] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - is no longer leader 
+[2024-09-24 16:09:53.2272] [INFO] [Akka.Remote.Transport.DotNetty.TcpServerHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:8093->[::ffff:127.0.0.1]:6111](Id=66b06a91) 
+[2024-09-24 16:09:53.2542] [INFO] [Akka.Remote.Transport.DotNetty.TcpClientHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:6121->[::ffff:127.0.0.1]:8091](Id=23d19566) 
+[2024-09-24 16:09:53.2542] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8093]->[akka.tcp://godgaming@127.0.0.1:8083] 
+[2024-09-24 16:09:53.2682] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8093]->[akka.tcp://godgaming@127.0.0.1:8091] 
+[2024-09-24 16:09:53.2682] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [1] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2024-09-24 16:09:53.2682] [INFO] [Akka.Remote.Transport.DotNetty.TcpServerHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:8093->[::ffff:127.0.0.1]:6117](Id=4880702f) 
+[2024-09-24 16:09:53.2682] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8093]->[akka.tcp://godgaming@127.0.0.1:8094] 

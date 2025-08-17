@@ -1,0 +1,137 @@
+[2024-11-15 23:42:24.1541] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-11-15 23:42:25.3501] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-11-15 23:42:25.7011] [ERROR] [Akka.Remote.Transport.DotNetty.TcpTransport] Failed to bind to 127.0.0.1:8094; shutting down DotNetty transport. Akka.Remote.RemoteTransportException: Failed to bind to [127.0.0.1:8094]. See InnerException for details. ---> System.Net.Sockets.SocketException: Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at DotNetty.Transport.Channels.Sockets.TcpServerSocketChannel.DoBind(EndPoint localAddress)
+   at DotNetty.Transport.Channels.AbstractChannel.AbstractUnsafe.BindAsync(EndPoint localAddress)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at DotNetty.Transport.Bootstrapping.AbstractBootstrap`2.<DoBindAsync>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<NewServer>d__20.MoveNext()
+   --- End of inner exception stack trace ---
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<NewServer>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Listen>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Listen>d__21.MoveNext()
+[2024-11-15 23:42:25.7131] [ERROR] [remoting (akka://godgaming)] Remoting error: [Startup failed] [] 
+[2024-11-15 23:44:02.7490] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-11-15 23:44:03.5020] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-11-15 23:44:03.7390] [ERROR] [Akka.Remote.Transport.DotNetty.TcpTransport] Failed to bind to 127.0.0.1:8094; shutting down DotNetty transport. Akka.Remote.RemoteTransportException: Failed to bind to [127.0.0.1:8094]. See InnerException for details. ---> System.Net.Sockets.SocketException: Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at DotNetty.Transport.Channels.Sockets.TcpServerSocketChannel.DoBind(EndPoint localAddress)
+   at DotNetty.Transport.Channels.AbstractChannel.AbstractUnsafe.BindAsync(EndPoint localAddress)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at DotNetty.Transport.Bootstrapping.AbstractBootstrap`2.<DoBindAsync>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<NewServer>d__20.MoveNext()
+   --- End of inner exception stack trace ---
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<NewServer>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Listen>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Listen>d__21.MoveNext()
+[2024-11-15 23:44:03.7390] [ERROR] [remoting (akka://godgaming)] Remoting error: [Startup failed] [] 
+[2024-11-15 23:44:15.3544] [INFO] [remoting-terminator] Shutting down remote daemon. 
+[2024-11-15 23:44:31.7940] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-11-15 23:44:43.9835] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-11-15 23:44:44.3145] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-11-15 23:44:44.3145] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-11-15 23:44:44.3425] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2024-11-15 23:44:44.3845] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2024-11-15 23:44:44.4115] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2024-11-15 23:47:13.4838] [INFO] [Akka.Actor.LocalActorRef] Message [HandleListenerRegistered] to [akka://godgaming/system/transports/akkaprotocolmanager.tcp.0/akkaProtocol-tcp%3A%2F%2Fgodgaming%40%5B%3A%3Affff%3A127.0.0.1%5D%3A2285-8#989259320] was not delivered. [1] dead letters encountered. If this is not an expected behavior then [akka://godgaming/system/transports/akkaprotocolmanager.tcp.0/akkaProtocol-tcp%3A%2F%2Fgodgaming%40%5B%3A%3Affff%3A127.0.0.1%5D%3A2285-8#989259320] may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2024-11-15 23:47:13.6418] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-11-15 23:47:20.1767] [WARN] [Akka.Cluster.JoinSeedNodeProcess] Couldn't join seed nodes after [2] attempts, will try again. seed-nodes=[akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-11-15 23:47:31.0359] [WARN] [Akka.Cluster.JoinSeedNodeProcess] Couldn't join seed nodes after [3] attempts, will try again. seed-nodes=[akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-11-15 23:47:55.7653] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-11-15 23:47:56.3732] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-11-15 23:47:56.9112] [ERROR] [Akka.Remote.Transport.DotNetty.TcpTransport] Failed to bind to 127.0.0.1:8094; shutting down DotNetty transport. Akka.Remote.RemoteTransportException: Failed to bind to [127.0.0.1:8094]. See InnerException for details. ---> System.Net.Sockets.SocketException: Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at DotNetty.Transport.Channels.Sockets.TcpServerSocketChannel.DoBind(EndPoint localAddress)
+   at DotNetty.Transport.Channels.AbstractChannel.AbstractUnsafe.BindAsync(EndPoint localAddress)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at DotNetty.Transport.Bootstrapping.AbstractBootstrap`2.<DoBindAsync>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<NewServer>d__20.MoveNext()
+   --- End of inner exception stack trace ---
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<NewServer>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Listen>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Listen>d__21.MoveNext()
+[2024-11-15 23:47:56.9252] [ERROR] [remoting (akka://godgaming)] Remoting error: [Startup failed] [] 
+[2024-11-15 23:49:03.3266] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-11-15 23:49:04.2152] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-11-15 23:49:04.9082] [ERROR] [Akka.Remote.Transport.DotNetty.TcpTransport] Failed to bind to 127.0.0.1:8094; shutting down DotNetty transport. Akka.Remote.RemoteTransportException: Failed to bind to [127.0.0.1:8094]. See InnerException for details. ---> System.Net.Sockets.SocketException: Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at DotNetty.Transport.Channels.Sockets.TcpServerSocketChannel.DoBind(EndPoint localAddress)
+   at DotNetty.Transport.Channels.AbstractChannel.AbstractUnsafe.BindAsync(EndPoint localAddress)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at DotNetty.Transport.Bootstrapping.AbstractBootstrap`2.<DoBindAsync>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<NewServer>d__20.MoveNext()
+   --- End of inner exception stack trace ---
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<NewServer>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Listen>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Listen>d__21.MoveNext()
+[2024-11-15 23:49:04.9372] [ERROR] [remoting (akka://godgaming)] Remoting error: [Startup failed] [] 
+[2024-11-15 23:49:42.8931] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-11-15 23:49:43.6881] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-11-15 23:49:44.0731] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-11-15 23:49:44.0731] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-11-15 23:49:44.1041] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2024-11-15 23:49:44.1821] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2024-11-15 23:49:44.3761] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2024-11-15 23:49:44.8001] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-11-15 23:50:47.9270] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-11-15 23:50:48.8282] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-11-15 23:50:49.3340] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-11-15 23:50:49.3340] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-11-15 23:50:49.3770] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2024-11-15 23:50:49.4210] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2024-11-15 23:50:49.4450] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2024-11-15 23:50:49.8345] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-11-15 23:50:56.0675] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-11-15 23:50:56.8169] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-11-15 23:50:57.4070] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-11-15 23:50:57.4080] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-11-15 23:50:57.4470] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2024-11-15 23:50:57.5621] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2024-11-15 23:50:57.6532] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2024-11-15 23:50:58.2206] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-11-15 23:52:29.4723] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 

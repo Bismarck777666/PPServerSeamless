@@ -1,0 +1,81 @@
+[2025-06-03 09:27:15.2648] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2025-06-03 09:27:16.7748] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2025-06-03 09:27:17.7518] [ERROR] [Akka.Remote.Transport.DotNetty.TcpTransport] Failed to bind to 127.0.0.1:8094; shutting down DotNetty transport. Akka.Remote.RemoteTransportException: Failed to bind to [127.0.0.1:8094]. See InnerException for details. ---> System.Net.Sockets.SocketException: Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at DotNetty.Transport.Channels.Sockets.TcpServerSocketChannel.DoBind(EndPoint localAddress)
+   at DotNetty.Transport.Channels.AbstractChannel.AbstractUnsafe.BindAsync(EndPoint localAddress)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at DotNetty.Transport.Bootstrapping.AbstractBootstrap`2.<DoBindAsync>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<NewServer>d__20.MoveNext()
+   --- End of inner exception stack trace ---
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<NewServer>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Listen>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Listen>d__21.MoveNext()
+[2025-06-03 09:27:17.7828] [ERROR] [remoting (akka://godgaming)] Remoting error: [Startup failed] [] 
+[2025-06-03 09:27:39.7515] [INFO] [remoting-terminator] Shutting down remote daemon. 
+[2025-06-03 09:27:39.9925] [INFO] [remoting-terminator] Remote daemon shut down; proceeding with flushing remote transports. 
+[2025-06-03 09:27:39.9925] [INFO] [remoting (akka://godgaming)] Remoting shut down 
+[2025-06-03 09:27:39.9925] [ERROR] [remoting (akka://godgaming)] Remoting system has been terminated abruptly. Attempting to shut down transports 
+[2025-06-03 09:37:05.8156] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2025-06-03 09:37:06.4876] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2025-06-03 09:37:06.9996] [ERROR] [Akka.Remote.Transport.DotNetty.TcpTransport] Failed to bind to 127.0.0.1:8094; shutting down DotNetty transport. Akka.Remote.RemoteTransportException: Failed to bind to [127.0.0.1:8094]. See InnerException for details. ---> System.Net.Sockets.SocketException: Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at DotNetty.Transport.Channels.Sockets.TcpServerSocketChannel.DoBind(EndPoint localAddress)
+   at DotNetty.Transport.Channels.AbstractChannel.AbstractUnsafe.BindAsync(EndPoint localAddress)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at DotNetty.Transport.Bootstrapping.AbstractBootstrap`2.<DoBindAsync>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<NewServer>d__20.MoveNext()
+   --- End of inner exception stack trace ---
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<NewServer>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Listen>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Listen>d__21.MoveNext()
+[2025-06-03 09:37:07.0186] [ERROR] [remoting (akka://godgaming)] Remoting error: [Startup failed] [] 
+[2025-06-03 09:37:12.1495] [INFO] [remoting-terminator] Shutting down remote daemon. 
+[2025-06-03 11:15:08.5301] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2025-06-03 11:15:09.2082] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2025-06-03 11:15:09.8762] [ERROR] [Akka.Remote.Transport.DotNetty.TcpTransport] Failed to bind to 127.0.0.1:8094; shutting down DotNetty transport. Akka.Remote.RemoteTransportException: Failed to bind to [127.0.0.1:8094]. See InnerException for details. ---> System.Net.Sockets.SocketException: Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at DotNetty.Transport.Channels.Sockets.TcpServerSocketChannel.DoBind(EndPoint localAddress)
+   at DotNetty.Transport.Channels.AbstractChannel.AbstractUnsafe.BindAsync(EndPoint localAddress)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at DotNetty.Transport.Bootstrapping.AbstractBootstrap`2.<DoBindAsync>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<NewServer>d__20.MoveNext()
+   --- End of inner exception stack trace ---
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<NewServer>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Listen>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Listen>d__21.MoveNext()
+[2025-06-03 11:15:09.9091] [ERROR] [remoting (akka://godgaming)] Remoting error: [Startup failed] [] 
+[2025-06-03 11:15:22.6065] [INFO] [remoting-terminator] Shutting down remote daemon. 

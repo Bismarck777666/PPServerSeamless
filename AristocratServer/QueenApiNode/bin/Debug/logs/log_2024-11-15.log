@@ -1,0 +1,77 @@
+[2024-11-15 23:27:58.1945] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-11-15 23:27:59.4815] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-11-15 23:27:59.9595] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-11-15 23:27:59.9595] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-11-15 23:27:59.9895] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2024-11-15 23:28:00.0295] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2024-11-15 23:28:00.0645] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2024-11-15 23:28:00.5865] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-11-15 23:28:01.1276] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-11-15 23:41:48.7300] [INFO] [Akka.Remote.Transport.DotNetty.TcpServerHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:8094->[::ffff:127.0.0.1]:2026](Id=74e80993) 
+[2024-11-15 23:41:51.5628] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-11-15 23:41:51.9264] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-11-15 23:41:52.3422] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-11-15 23:41:52.3422] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-11-15 23:41:52.3662] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2024-11-15 23:41:52.3902] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2024-11-15 23:41:52.4102] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2024-11-15 23:41:52.8652] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-11-15 23:42:23.1857] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-11-15 23:42:23.6391] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-11-15 23:42:23.9901] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-11-15 23:42:23.9901] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-11-15 23:42:24.0161] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2024-11-15 23:42:24.0471] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2024-11-15 23:42:24.1751] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2024-11-15 23:42:24.6561] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-11-15 23:44:02.1627] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-11-15 23:44:02.6293] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-11-15 23:44:02.9220] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-11-15 23:44:02.9230] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-11-15 23:44:02.9420] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2024-11-15 23:44:02.9620] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2024-11-15 23:44:02.9790] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2024-11-15 23:44:03.5670] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-11-15 23:44:25.7302] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-11-15 23:44:44.1305] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-11-15 23:44:44.4285] [ERROR] [Akka.Remote.Transport.DotNetty.TcpTransport] Failed to bind to 127.0.0.1:8094; shutting down DotNetty transport. Akka.Remote.RemoteTransportException: Failed to bind to [127.0.0.1:8094]. See InnerException for details. ---> System.Net.Sockets.SocketException: Only one usage of each socket address (protocol/network address/port) is normally permitted
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at DotNetty.Transport.Channels.Sockets.TcpServerSocketChannel.DoBind(EndPoint localAddress)
+   at DotNetty.Transport.Channels.AbstractChannel.AbstractUnsafe.BindAsync(EndPoint localAddress)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at DotNetty.Transport.Bootstrapping.AbstractBootstrap`2.<DoBindAsync>d__26.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<NewServer>d__20.MoveNext()
+   --- End of inner exception stack trace ---
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<NewServer>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Listen>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Listen>d__21.MoveNext()
+[2024-11-15 23:47:12.6082] [ERROR] [remoting (akka://godgaming)] Remoting error: [Startup failed] [] 
+[2024-11-15 23:47:12.6862] [INFO] [remoting-terminator] Shutting down remote daemon. 
+[2024-11-15 23:47:12.7312] [INFO] [remoting-terminator] Remote daemon shut down; proceeding with flushing remote transports. 
+[2024-11-15 23:47:12.8442] [INFO] [remoting (akka://godgaming)] Remoting shut down 
+[2024-11-15 23:47:55.5793] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-11-15 23:47:56.0540] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-11-15 23:47:56.4862] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-11-15 23:47:56.4862] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-11-15 23:47:56.5132] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2024-11-15 23:47:56.6282] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2024-11-15 23:47:56.6462] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2024-11-15 23:49:02.6976] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-11-15 23:49:03.3396] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-11-15 23:49:04.0342] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-11-15 23:49:04.0342] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-11-15 23:49:04.0602] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2024-11-15 23:49:04.0902] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2024-11-15 23:49:04.1402] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2024-11-15 23:49:04.8552] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 

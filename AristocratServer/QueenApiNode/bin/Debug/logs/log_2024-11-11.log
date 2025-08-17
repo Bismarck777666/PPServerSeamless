@@ -1,0 +1,141 @@
+[2024-11-11 15:07:42.4416] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-11-11 15:07:43.7006] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-11-11 15:07:44.1966] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-11-11 15:07:44.1966] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-11-11 15:07:44.2186] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2024-11-11 15:07:44.2426] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2024-11-11 15:07:44.2846] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2024-11-11 15:07:44.8846] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-11-11 15:07:44.8846] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-11-11 23:30:32.7286] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-11-11 23:30:33.9756] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-11-11 23:30:34.5826] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-11-11 23:30:34.5826] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-11-11 23:30:34.6026] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2024-11-11 23:30:34.6196] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2024-11-11 23:30:34.6346] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2024-11-11 23:30:35.1006] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-11-11 23:31:04.1138] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-11-11 23:31:04.4969] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-11-11 23:31:04.7759] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-11-11 23:31:04.7759] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-11-11 23:31:04.7949] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2024-11-11 23:31:04.8129] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2024-11-11 23:31:04.8309] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2024-11-11 23:31:05.3166] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-11-11 23:32:27.0072] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-11-11 23:45:51.7111] [INFO] [Akka.Remote.Transport.DotNetty.TcpServerHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:8094->[::ffff:127.0.0.1]:6126](Id=2f1092c4) 
+[2024-11-11 23:45:51.7411] [INFO] [Akka.Remote.Transport.DotNetty.TcpServerHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:8094->[::ffff:127.0.0.1]:6130](Id=1661735a) 
+[2024-11-11 23:51:48.0905] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-11-11 23:51:49.2705] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-11-11 23:51:50.0015] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-11-11 23:51:50.0035] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-11-11 23:51:50.0225] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2024-11-11 23:51:50.0405] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2024-11-11 23:51:50.0685] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2024-11-11 23:51:50.5665] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-11-11 23:52:08.3711] [ERROR] [QueenApiNode.Database.DBProxyReader] Exception has been occured in DBProxyReader::onGetUserGameLogRequest System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near '0'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at QueenApiNode.Database.DBProxyReader.<onGetUserGameLogRequest>d__11.MoveNext() in E:\CurrentProjects\slot\EVO888\SlotCityCasinoServer\QueenApiNode\Database\DBProxyReader.cs:line 316
+ClientConnectionId:5e730366-3c9c-437e-86fd-91e7c8ed77aa
+Error Number:102,State:1,Class:15 
+[2024-11-11 23:52:49.5475] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-11-11 23:52:49.9730] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-11-11 23:52:50.2497] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-11-11 23:52:50.2537] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-11-11 23:52:50.2757] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2024-11-11 23:52:50.3006] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2024-11-11 23:52:50.3196] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2024-11-11 23:52:50.7867] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-11-11 23:53:01.0060] [ERROR] [QueenApiNode.Agent.AgentActor] Exception has been occured in AgentActor::onUserGameLogRequest Akka.Actor.AskTimeoutException: Timeout after 00:00:05 seconds
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at QueenApiNode.Agent.AgentActor.<onUserGameLogRequest>d__25.MoveNext() in E:\CurrentProjects\slot\EVO888\SlotCityCasinoServer\QueenApiNode\Agent\AgentActor.cs:line 401 
+[2024-11-11 23:53:02.4467] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [String] from [akka://godgaming/temp/P] to [akka://godgaming/deadLetters] was not delivered. [1] dead letters encountered. If this is not an expected behavior then [akka://godgaming/deadLetters] may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2024-11-11 23:53:02.4467] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [String] from [akka://godgaming/temp/P] to [akka://godgaming/deadLetters] was not delivered. [2] dead letters encountered. If this is not an expected behavior then [akka://godgaming/deadLetters] may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2024-11-11 23:53:13.9319] [ERROR] [QueenApiNode.Agent.AgentActor] Exception has been occured in AgentActor::onUserGameLogRequest Akka.Actor.AskTimeoutException: Timeout after 00:00:05 seconds
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at QueenApiNode.Agent.AgentActor.<onUserGameLogRequest>d__25.MoveNext() in E:\CurrentProjects\slot\EVO888\SlotCityCasinoServer\QueenApiNode\Agent\AgentActor.cs:line 401 
+[2024-11-11 23:53:15.4015] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [String] from [akka://godgaming/temp/rb] to [akka://godgaming/deadLetters] was not delivered. [3] dead letters encountered. If this is not an expected behavior then [akka://godgaming/deadLetters] may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2024-11-11 23:53:15.4015] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [String] from [akka://godgaming/temp/rb] to [akka://godgaming/deadLetters] was not delivered. [4] dead letters encountered. If this is not an expected behavior then [akka://godgaming/deadLetters] may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2024-11-11 23:53:33.1759] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [String] from [akka://godgaming/temp/1c] to [akka://godgaming/deadLetters] was not delivered. [5] dead letters encountered. If this is not an expected behavior then [akka://godgaming/deadLetters] may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2024-11-11 23:53:53.7682] [ERROR] [QueenApiNode.Database.DBProxyReader] Exception has been occured in DBProxyReader::onGetUserGameLogRequest System.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near '0'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.CompleteAsyncExecuteReader(Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.InternalEndExecuteReader(IAsyncResult asyncResult, String endMethod, Boolean isInternal)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderInternal(IAsyncResult asyncResult)
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at QueenApiNode.Database.DBProxyReader.<onGetUserGameLogRequest>d__11.MoveNext() in E:\CurrentProjects\slot\EVO888\SlotCityCasinoServer\QueenApiNode\Database\DBProxyReader.cs:line 316
+ClientConnectionId:08752776-6083-48a1-8679-be9293c2fec8
+Error Number:102,State:1,Class:15 
+[2024-11-11 23:56:48.3739] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-11-11 23:56:48.7249] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-11-11 23:56:49.1141] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-11-11 23:56:49.1141] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-11-11 23:56:49.1431] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2024-11-11 23:56:49.1721] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2024-11-11 23:56:49.1851] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2024-11-11 23:56:49.7931] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-11-11 23:56:56.5381] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [String] from [akka://godgaming/temp/S] to [akka://godgaming/deadLetters] was not delivered. [1] dead letters encountered. If this is not an expected behavior then [akka://godgaming/deadLetters] may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2024-11-11 23:57:18.9835] [ERROR] [QueenApiNode.Agent.AgentActor] Exception has been occured in AgentActor::onUserGameLogRequest Akka.Actor.AskTimeoutException: Timeout after 00:00:05 seconds
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at QueenApiNode.Agent.AgentActor.<onUserGameLogRequest>d__25.MoveNext() in E:\CurrentProjects\slot\EVO888\SlotCityCasinoServer\QueenApiNode\Agent\AgentActor.cs:line 401 
+[2024-11-11 23:57:19.0039] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [String] from [akka://godgaming/temp/Mb] to [akka://godgaming/deadLetters] was not delivered. [2] dead letters encountered. If this is not an expected behavior then [akka://godgaming/deadLetters] may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2024-11-11 23:57:19.0039] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [String] from [akka://godgaming/temp/Pb] to [akka://godgaming/deadLetters] was not delivered. [3] dead letters encountered. If this is not an expected behavior then [akka://godgaming/deadLetters] may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2024-11-11 23:57:19.0039] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [String] from [akka://godgaming/temp/Pb] to [akka://godgaming/deadLetters] was not delivered. [4] dead letters encountered. If this is not an expected behavior then [akka://godgaming/deadLetters] may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2024-11-11 23:57:25.4094] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [String] from [akka://godgaming/temp/xc] to [akka://godgaming/deadLetters] was not delivered. [5] dead letters encountered. If this is not an expected behavior then [akka://godgaming/deadLetters] may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2024-11-11 23:57:37.0482] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [String] from [akka://godgaming/temp/Gd] to [akka://godgaming/deadLetters] was not delivered. [6] dead letters encountered. If this is not an expected behavior then [akka://godgaming/deadLetters] may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2024-11-11 23:58:03.0210] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [String] from [akka://godgaming/temp/6f] to [akka://godgaming/deadLetters] was not delivered. [7] dead letters encountered. If this is not an expected behavior then [akka://godgaming/deadLetters] may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2024-11-11 23:58:12.8359] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-11-11 23:58:25.4629] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [String] from [akka://godgaming/temp/ci] to [akka://godgaming/deadLetters] was not delivered. [8] dead letters encountered. If this is not an expected behavior then [akka://godgaming/deadLetters] may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2024-11-11 23:58:44.9845] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [String] from [akka://godgaming/temp/4j] to [akka://godgaming/deadLetters] was not delivered. [9] dead letters encountered. If this is not an expected behavior then [akka://godgaming/deadLetters] may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2024-11-11 23:58:47.7602] [INFO] [Akka.Remote.Transport.DotNetty.TcpClientHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:7211->[::ffff:127.0.0.1]:8083](Id=0c186019) 
+[2024-11-11 23:58:47.7702] [INFO] [Akka.Remote.Transport.DotNetty.TcpServerHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:8094->[::ffff:127.0.0.1]:7212](Id=77a2780a) 
+[2024-11-11 23:58:47.7702] [INFO] [Akka.Remote.Transport.DotNetty.TcpServerHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:8094->[::ffff:127.0.0.1]:7210](Id=5c1e1f2c) 
+[2024-11-11 23:58:53.5046] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-11-11 23:58:54.0344] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-11-11 23:58:54.5034] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-11-11 23:58:54.5034] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-11-11 23:58:54.5274] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2024-11-11 23:58:54.5514] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2024-11-11 23:58:54.5834] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2024-11-11 23:58:55.3064] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-11-11 23:59:40.7919] [ERROR] [QueenApiNode.Agent.AgentActor] Exception has been occured in AgentActor::onUserGameLogRequest Akka.Actor.AskTimeoutException: Timeout after 00:00:05 seconds
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at QueenApiNode.Agent.AgentActor.<onUserGameLogRequest>d__25.MoveNext() in E:\CurrentProjects\slot\EVO888\SlotCityCasinoServer\QueenApiNode\Agent\AgentActor.cs:line 401 
+[2024-11-11 23:59:40.8309] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [String] from [akka://godgaming/temp/s] to [akka://godgaming/deadLetters] was not delivered. [1] dead letters encountered. If this is not an expected behavior then [akka://godgaming/deadLetters] may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2024-11-11 23:59:40.8309] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [String] from [akka://godgaming/temp/x] to [akka://godgaming/deadLetters] was not delivered. [2] dead letters encountered. If this is not an expected behavior then [akka://godgaming/deadLetters] may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2024-11-11 23:59:40.8309] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [String] from [akka://godgaming/temp/x] to [akka://godgaming/deadLetters] was not delivered. [3] dead letters encountered. If this is not an expected behavior then [akka://godgaming/deadLetters] may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 

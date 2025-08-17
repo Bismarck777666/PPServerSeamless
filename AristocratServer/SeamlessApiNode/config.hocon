@@ -1,0 +1,41 @@
+﻿apinode{
+  actorsystem: "godgaming" #POPULATE NAME OF YOUR ACTOR SYSTEM HERE
+  http {
+		baseurl = "http://*:19889"
+  }
+  database {
+		ip			= "127.0.0.1"
+		port		= 1433
+		user		= "sa"
+		pass		= "tmdflwk123$%^"
+		dbname		= "aristocrat"
+		poolcount	= 10
+  }
+  domain = "goldslotpalace"
+}
+
+akka {
+	loggers = ["Akka.Logger.NLog.NLogLogger, Akka.Logger.NLog"]
+	actor {
+		provider = cluster
+		deployment {            											
+			/httpWorkers {
+				router 			= consistent-hashing-pool
+				nr-of-instances = 20
+			}
+		}
+	}
+						
+	remote {
+		dot-netty.tcp {
+				hostname = "127.0.0.1"
+				port     = 18095
+				maximum-frame-size = 2048000b
+			}
+	}			
+
+	cluster {
+		seed-nodes = ["akka.tcp://godgaming@127.0.0.1:14055"]
+		roles = ["seamlessapi"]
+	}
+}

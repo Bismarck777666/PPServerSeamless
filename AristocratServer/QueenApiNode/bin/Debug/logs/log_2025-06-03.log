@@ -1,0 +1,254 @@
+[2025-06-03 09:27:14.9028] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2025-06-03 09:27:16.4298] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2025-06-03 09:27:17.2008] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2025-06-03 09:27:17.2008] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2025-06-03 09:27:17.2328] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2025-06-03 09:27:17.3218] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2025-06-03 09:27:17.4448] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2025-06-03 09:27:40.0215] [ERROR] [Akka.Remote.Transport.ProtocolStateActor] No response from remote for outbound association. Associate timed out after [15000 ms]. 
+[2025-06-03 09:27:40.0355] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8094] -> akka.tcp://godgaming@127.0.0.1:4055: Error [Association failed with akka.tcp://godgaming@127.0.0.1:4055] [] 
+[2025-06-03 09:27:40.1545] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:4055]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:4055] Caused by: [System.TimeoutException: No response from remote for outbound association. Associate timed out after [15000 ms].
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.AkkaProtocolTransport.<Associate>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.EndpointWriter.<AssociateAsync>d__23.MoveNext()] 
+[2025-06-03 09:27:40.3415] [INFO] [Akka.Actor.LocalActorRef] Message [HandleMsg] to [akka://godgaming/system/transports/akkaprotocolmanager.tcp.0/akkaProtocol-tcp%3A%2F%2Fgodgaming%40127.0.0.1%3A4055-1#148083774] was not delivered. [1] dead letters encountered. If this is not an expected behavior then [akka://godgaming/system/transports/akkaprotocolmanager.tcp.0/akkaProtocol-tcp%3A%2F%2Fgodgaming%40127.0.0.1%3A4055-1#148083774] may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2025-06-03 09:27:40.3995] [INFO] [Akka.Actor.LocalActorRef] Message [AckIdleCheckTimer] from [akka://godgaming/system/endpointManager/reliableEndpointWriter-akka.tcp%3A%2F%2Fgodgaming%40127.0.0.1%3A4055-1/endpointWriter#51767783] to [akka://godgaming/system/endpointManager/reliableEndpointWriter-akka.tcp%3A%2F%2Fgodgaming%40127.0.0.1%3A4055-1/endpointWriter#51767783] was not delivered. [2] dead letters encountered. If this is not an expected behavior then [akka://godgaming/system/endpointManager/reliableEndpointWriter-akka.tcp%3A%2F%2Fgodgaming%40127.0.0.1%3A4055-1/endpointWriter#51767783] may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2025-06-03 09:27:40.4525] [INFO] [Akka.Actor.LocalActorRef] Message [AckIdleCheckTimer] from [akka://godgaming/system/endpointManager/reliableEndpointWriter-akka.tcp%3A%2F%2Fgodgaming%40127.0.0.1%3A4055-1/endpointWriter#51767783] to [akka://godgaming/system/endpointManager/reliableEndpointWriter-akka.tcp%3A%2F%2Fgodgaming%40127.0.0.1%3A4055-1/endpointWriter#51767783] was not delivered. [3] dead letters encountered. If this is not an expected behavior then [akka://godgaming/system/endpointManager/reliableEndpointWriter-akka.tcp%3A%2F%2Fgodgaming%40127.0.0.1%3A4055-1/endpointWriter#51767783] may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2025-06-03 09:27:40.4525] [INFO] [Akka.Actor.LocalActorRef] Message [AckIdleCheckTimer] from [akka://godgaming/system/endpointManager/reliableEndpointWriter-akka.tcp%3A%2F%2Fgodgaming%40127.0.0.1%3A4055-1/endpointWriter#51767783] to [akka://godgaming/system/endpointManager/reliableEndpointWriter-akka.tcp%3A%2F%2Fgodgaming%40127.0.0.1%3A4055-1/endpointWriter#51767783] was not delivered. [4] dead letters encountered. If this is not an expected behavior then [akka://godgaming/system/endpointManager/reliableEndpointWriter-akka.tcp%3A%2F%2Fgodgaming%40127.0.0.1%3A4055-1/endpointWriter#51767783] may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2025-06-03 09:27:40.4525] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8094]->[akka.tcp://godgaming@127.0.0.1:4055] 
+[2025-06-03 09:27:40.5115] [ERROR] [QueenApiNode.Database.DBProxy] Can not connect to database. Please check if database is correctly configured. 
+[2025-06-03 09:27:40.5305] [ERROR] [QueenApiNode.Database.DBProxyWriteWorker] Exception has been occured in DBProxyWriteWorker::processCommand System.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=22058; handshake=49;  ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at QueenApiNode.Database.DBProxyWriteWorker.<processCommand>d__6.MoveNext() in E:\WORK\PROMISS\Slot\SlotCityCasinoServer\QueenApiNode\Database\DBProxyWriteWorker.cs:line 43
+ClientConnectionId:29635e0d-454c-4cfe-b872-336bfe6faa9b
+Error Number:-2,State:0,Class:11 
+[2025-06-03 09:27:41.0600] [ERROR] [QueenApiNode.Database.DBProxyWriteWorker] Exception has been occured in DBProxyWriteWorker::processCommand System.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=22058; handshake=49;  ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at QueenApiNode.Database.DBProxyWriteWorker.<processCommand>d__6.MoveNext() in E:\WORK\PROMISS\Slot\SlotCityCasinoServer\QueenApiNode\Database\DBProxyWriteWorker.cs:line 43
+ClientConnectionId:29635e0d-454c-4cfe-b872-336bfe6faa9b
+Error Number:-2,State:0,Class:11 
+[2025-06-03 09:27:41.5823] [ERROR] [QueenApiNode.Database.DBProxyWriteWorker] Exception has been occured in DBProxyWriteWorker::processCommand System.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=22058; handshake=49;  ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at QueenApiNode.Database.DBProxyWriteWorker.<processCommand>d__6.MoveNext() in E:\WORK\PROMISS\Slot\SlotCityCasinoServer\QueenApiNode\Database\DBProxyWriteWorker.cs:line 43
+ClientConnectionId:29635e0d-454c-4cfe-b872-336bfe6faa9b
+Error Number:-2,State:0,Class:11 
+[2025-06-03 09:27:42.1053] [ERROR] [QueenApiNode.Database.DBProxyWriteWorker] Exception has been occured in DBProxyWriteWorker::processCommand System.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=22058; handshake=49;  ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at QueenApiNode.Database.DBProxyWriteWorker.<processCommand>d__6.MoveNext() in E:\WORK\PROMISS\Slot\SlotCityCasinoServer\QueenApiNode\Database\DBProxyWriteWorker.cs:line 43
+ClientConnectionId:29635e0d-454c-4cfe-b872-336bfe6faa9b
+Error Number:-2,State:0,Class:11 
+[2025-06-03 09:27:42.6587] [ERROR] [QueenApiNode.Database.DBProxyWriteWorker] Exception has been occured in DBProxyWriteWorker::processCommand System.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=22058; handshake=49;  ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at QueenApiNode.Database.DBProxyWriteWorker.<processCommand>d__6.MoveNext() in E:\WORK\PROMISS\Slot\SlotCityCasinoServer\QueenApiNode\Database\DBProxyWriteWorker.cs:line 43
+ClientConnectionId:29635e0d-454c-4cfe-b872-336bfe6faa9b
+Error Number:-2,State:0,Class:11 
+[2025-06-03 09:27:43.2021] [ERROR] [QueenApiNode.Database.DBProxyWriteWorker] Exception has been occured in DBProxyWriteWorker::processCommand System.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=22058; handshake=49;  ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at QueenApiNode.Database.DBProxyWriteWorker.<processCommand>d__6.MoveNext() in E:\WORK\PROMISS\Slot\SlotCityCasinoServer\QueenApiNode\Database\DBProxyWriteWorker.cs:line 43
+ClientConnectionId:29635e0d-454c-4cfe-b872-336bfe6faa9b
+Error Number:-2,State:0,Class:11 
+[2025-06-03 09:27:43.7268] [ERROR] [QueenApiNode.Database.DBProxyWriteWorker] Exception has been occured in DBProxyWriteWorker::processCommand System.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=22058; handshake=49;  ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at QueenApiNode.Database.DBProxyWriteWorker.<processCommand>d__6.MoveNext() in E:\WORK\PROMISS\Slot\SlotCityCasinoServer\QueenApiNode\Database\DBProxyWriteWorker.cs:line 43
+ClientConnectionId:29635e0d-454c-4cfe-b872-336bfe6faa9b
+Error Number:-2,State:0,Class:11 
+[2025-06-03 09:27:44.2619] [ERROR] [QueenApiNode.Database.DBProxyWriteWorker] Exception has been occured in DBProxyWriteWorker::processCommand System.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=22058; handshake=49;  ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at QueenApiNode.Database.DBProxyWriteWorker.<processCommand>d__6.MoveNext() in E:\WORK\PROMISS\Slot\SlotCityCasinoServer\QueenApiNode\Database\DBProxyWriteWorker.cs:line 43
+ClientConnectionId:29635e0d-454c-4cfe-b872-336bfe6faa9b
+Error Number:-2,State:0,Class:11 
+[2025-06-03 09:27:44.6661] [WARN] [Akka.Cluster.JoinSeedNodeProcess] Couldn't join seed nodes after [2] attempts, will try again. seed-nodes=[akka.tcp://godgaming@127.0.0.1:4055] 
+[2025-06-03 09:27:44.8025] [ERROR] [QueenApiNode.Database.DBProxyWriteWorker] Exception has been occured in DBProxyWriteWorker::processCommand System.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=22058; handshake=49;  ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.OpenAsync(CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at QueenApiNode.Database.DBProxyWriteWorker.<processCommand>d__6.MoveNext() in E:\WORK\PROMISS\Slot\SlotCityCasinoServer\QueenApiNode\Database\DBProxyWriteWorker.cs:line 43
+ClientConnectionId:29635e0d-454c-4cfe-b872-336bfe6faa9b
+Error Number:-2,State:0,Class:11 
+[2025-06-03 09:27:49.6862] [WARN] [Akka.Cluster.JoinSeedNodeProcess] Couldn't join seed nodes after [3] attempts, will try again. seed-nodes=[akka.tcp://godgaming@127.0.0.1:4055] 
+[2025-06-03 09:27:49.8002] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2025-06-03 09:28:42.2959] [INFO] [QueenApiNode.APIService] Stop QueenApiNode Service Started... 
+[2025-06-03 09:28:42.2959] [INFO] [QueenApiNode.BootstrapActor] Shutting down tcp and web socket server... 
+[2025-06-03 09:29:26.1223] [INFO] [QueenApiNode.APIService] Leaving from cluster.... 
+[2025-06-03 09:29:26.3945] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [44782.9982] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2025-06-03 09:29:26.4015] [INFO] [Akka.Actor.LocalActorRef] Message [Timer] from [akka://godgaming/system/transports/akkaprotocolmanager.tcp.0/akkaProtocol-tcp%3A%2F%2Fgodgaming%40127.0.0.1%3A4055-2#779621058] to [akka://godgaming/system/transports/akkaprotocolmanager.tcp.0/akkaProtocol-tcp%3A%2F%2Fgodgaming%40127.0.0.1%3A4055-2#779621058] was not delivered. [5] dead letters encountered. If this is not an expected behavior then [akka://godgaming/system/transports/akkaprotocolmanager.tcp.0/akkaProtocol-tcp%3A%2F%2Fgodgaming%40127.0.0.1%3A4055-2#779621058] may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2025-06-03 09:29:26.4015] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8094]->[akka.tcp://godgaming@127.0.0.1:4055] 
+[2025-06-03 09:29:26.4015] [INFO] [Akka.Actor.LocalActorRef] Message [AckIdleCheckTimer] from [akka://godgaming/system/endpointManager/reliableEndpointWriter-akka.tcp%3A%2F%2Fgodgaming%40127.0.0.1%3A4055-2/endpointWriter#584634406] to [akka://godgaming/system/endpointManager/reliableEndpointWriter-akka.tcp%3A%2F%2Fgodgaming%40127.0.0.1%3A4055-2/endpointWriter#584634406] was not delivered. [6] dead letters encountered. If this is not an expected behavior then [akka://godgaming/system/endpointManager/reliableEndpointWriter-akka.tcp%3A%2F%2Fgodgaming%40127.0.0.1%3A4055-2/endpointWriter#584634406] may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2025-06-03 09:29:26.4195] [WARN] [Akka.Cluster.ClusterCoreDaemon] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Marking node(s) as UNREACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:4055, Uid=755515782 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://godgaming@127.0.0.1:8083, Uid=2030409155 status = Up, role=[comm], upNumber=2, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8093, Uid=649952350 status = Leaving, role=[promo], upNumber=3, version=1.0.0)]. Node roles [queenapi] 
+[2025-06-03 09:29:26.4195] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - is the new leader among reachable nodes (more leaders may exist) 
+[2025-06-03 09:29:26.4195] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:4055, 755515782)] 
+[2025-06-03 09:29:26.4195] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Ignoring received gossip from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:4055, 755515782)] 
+[2025-06-03 09:29:26.4195] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Ignoring received gossip from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:4055, 755515782)] 
+[2025-06-03 09:29:26.4315] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Ignoring received gossip from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:4055, 755515782)] 
+[2025-06-03 09:29:26.4315] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Ignoring received gossip from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:4055, 755515782)] 
+[2025-06-03 09:29:26.4315] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Marked address [akka.tcp://godgaming@127.0.0.1:8094] as [Leaving] 
+[2025-06-03 09:29:26.4315] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Ignoring received gossip from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:8093, 649952350)] 
+[2025-06-03 09:29:26.4315] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Ignoring received gossip from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:8093, 649952350)] 
+[2025-06-03 09:29:26.4315] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Ignoring received gossip from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:8083, 2030409155)] 
+[2025-06-03 09:29:26.5135] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8094]->[akka.tcp://godgaming@127.0.0.1:8093] 
+[2025-06-03 09:29:26.9822] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Marking node(s) as REACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:8083, Uid=2030409155 status = Up, role=[comm], upNumber=2, version=1.0.0)]. Node roles [queenapi] 
+[2025-06-03 09:29:26.9822] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - is no longer leader 
+[2025-06-03 09:29:34.0743] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8094] -> akka.tcp://godgaming@127.0.0.1:8093: Error [No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8093] [] 
+[2025-06-03 09:29:34.0743] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8094] -> akka.tcp://godgaming@127.0.0.1:4055: Error [No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:4055] [] 
+[2025-06-03 09:29:34.0743] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:4055]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:4055]  
+[2025-06-03 09:29:34.0743] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8093]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8093]  
+[2025-06-03 09:29:34.0743] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8094]->[akka.tcp://godgaming@127.0.0.1:4055] 
+[2025-06-03 09:29:34.0743] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8094]->[akka.tcp://godgaming@127.0.0.1:8093] 
+[2025-06-03 09:29:41.1662] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8094] -> akka.tcp://godgaming@127.0.0.1:8093: Error [No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8093] [] 
+[2025-06-03 09:29:41.1662] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8094] -> akka.tcp://godgaming@127.0.0.1:4055: Error [No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:4055] [] 
+[2025-06-03 09:29:41.1662] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8093]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8093]  
+[2025-06-03 09:29:41.1662] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:4055]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:4055]  
+[2025-06-03 09:29:41.1662] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8094]->[akka.tcp://godgaming@127.0.0.1:4055] 
+[2025-06-03 09:29:41.1812] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8094]->[akka.tcp://godgaming@127.0.0.1:8093] 
+[2025-06-03 09:29:41.4084] [INFO] [Akka.Remote.Transport.DotNetty.TcpServerHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:8094->[::ffff:127.0.0.1]:3628](Id=055eecd2) 
+[2025-06-03 09:29:41.4264] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8094]->[akka.tcp://godgaming@127.0.0.1:8083] 
+[2025-06-03 09:37:05.4377] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2025-06-03 09:37:06.0126] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2025-06-03 09:37:06.5136] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2025-06-03 09:37:06.5136] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2025-06-03 09:37:06.5396] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2025-06-03 09:37:06.6516] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2025-06-03 09:37:06.7516] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2025-06-03 09:37:12.1935] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2025-06-03 09:37:12.4431] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2025-06-03 09:48:28.5879] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8094]->[akka.tcp://godgaming@127.0.0.1:8093] 
+[2025-06-03 09:48:30.5842] [INFO] [QueenApiNode.APIService] Stop QueenApiNode Service Started... 
+[2025-06-03 09:48:30.5872] [INFO] [QueenApiNode.BootstrapActor] Shutting down tcp and web socket server... 
+[2025-06-03 09:48:30.6302] [INFO] [QueenApiNode.BootstrapActor] Terminating database proxy actors.... 
+[2025-06-03 09:48:30.6382] [INFO] [QueenApiNode.BootstrapActor] Leaving from cluster.... 
+[2025-06-03 09:48:30.6382] [INFO] [Akka.Actor.LocalActorRef] Message [String] from [akka://godgaming/temp/G+] to [akka://godgaming/user/dbproxy/writer#41398044] was not delivered. [1] dead letters encountered. If this is not an expected behavior then [akka://godgaming/user/dbproxy/writer#41398044] may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2025-06-03 09:48:30.6382] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Marked address [akka.tcp://godgaming@127.0.0.1:8094] as [Leaving] 
+[2025-06-03 09:48:30.6382] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [GossipEnvelope] from [akka://godgaming/system/cluster/core/daemon#496142743] to [akka://godgaming/deadLetters] was not delivered. [2] dead letters encountered. If this is not an expected behavior then [akka://godgaming/deadLetters] may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2025-06-03 09:48:31.2557] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [GossipEnvelope] from [akka://godgaming/system/cluster/core/daemon#496142743] to [akka://godgaming/deadLetters] was not delivered. [3] dead letters encountered. If this is not an expected behavior then [akka://godgaming/deadLetters] may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2025-06-03 09:48:33.5616] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Exiting, starting coordinated shutdown. 
+[2025-06-03 09:48:33.5825] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Exiting completed. 
+[2025-06-03 09:48:33.5825] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Shutting down... 
+[2025-06-03 09:48:33.5825] [INFO] [QueenApiNode.APIService] Leaving from cluster.... 
+[2025-06-03 09:48:33.5915] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Successfully shut down 
+[2025-06-03 09:48:33.6045] [INFO] [Akka.Actor.LocalActorRef] Message [GossipEnvelope] from [akka.tcp://godgaming@127.0.0.1:8083/system/cluster/core/daemon#1919315128] to [akka://godgaming/system/cluster/core/daemon#496142743] was not delivered. [4] dead letters encountered. If this is not an expected behavior then [akka://godgaming/system/cluster/core/daemon#496142743] may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2025-06-03 09:48:33.6045] [INFO] [remoting-terminator] Shutting down remote daemon. 
+[2025-06-03 09:48:33.6215] [INFO] [remoting-terminator] Remote daemon shut down; proceeding with flushing remote transports. 
+[2025-06-03 09:48:33.6335] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8094]->[akka.tcp://godgaming@127.0.0.1:4055] 
+[2025-06-03 09:48:33.6335] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8094]->[akka.tcp://godgaming@127.0.0.1:8083] 
+[2025-06-03 11:15:08.0973] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2025-06-03 11:15:08.6681] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2025-06-03 11:15:09.1691] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2025-06-03 11:15:09.1691] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2025-06-03 11:15:09.1962] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2025-06-03 11:15:09.2232] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2025-06-03 11:15:09.2631] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2025-06-03 11:15:09.9512] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2025-06-03 11:15:10.0961] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2025-06-03 11:15:22.5945] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [11584.3249] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2025-06-03 23:58:51.9502] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8094]->[akka.tcp://godgaming@127.0.0.1:8093] 
+[2025-06-03 23:58:53.5608] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [GossipStatus] from [akka://godgaming/system/cluster/core/daemon#909656041] to [akka://godgaming/deadLetters] was not delivered. [1] dead letters encountered. If this is not an expected behavior then [akka://godgaming/deadLetters] may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2025-06-03 23:59:00.3672] [INFO] [QueenApiNode.APIService] Stop QueenApiNode Service Started... 
+[2025-06-03 23:59:00.3672] [INFO] [QueenApiNode.BootstrapActor] Shutting down tcp and web socket server... 
+[2025-06-03 23:59:00.4392] [INFO] [QueenApiNode.BootstrapActor] Terminating database proxy actors.... 
+[2025-06-03 23:59:00.4682] [INFO] [Akka.Actor.LocalActorRef] Message [String] from [akka://godgaming/user/dbproxy/writer#1541860411] to [akka://godgaming/user/dbproxy/writer/writeWorker#192106276] was not delivered. [2] dead letters encountered. If this is not an expected behavior then [akka://godgaming/user/dbproxy/writer/writeWorker#192106276] may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2025-06-03 23:59:00.5032] [INFO] [QueenApiNode.BootstrapActor] Leaving from cluster.... 
+[2025-06-03 23:59:00.5262] [INFO] [Akka.Actor.LocalActorRef] Message [String] from [akka://godgaming/temp/nvbb] to [akka://godgaming/user/dbproxy/writer#1541860411] was not delivered. [3] dead letters encountered. If this is not an expected behavior then [akka://godgaming/user/dbproxy/writer#1541860411] may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2025-06-03 23:59:00.5262] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Marked address [akka.tcp://godgaming@127.0.0.1:8094] as [Leaving] 
+[2025-06-03 23:59:01.8632] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Exiting, starting coordinated shutdown. 
+[2025-06-03 23:59:01.8795] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Exiting completed. 
+[2025-06-03 23:59:01.8875] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Shutting down... 
+[2025-06-03 23:59:01.8875] [INFO] [QueenApiNode.APIService] Leaving from cluster.... 
+[2025-06-03 23:59:01.8875] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Successfully shut down 
+[2025-06-03 23:59:01.9155] [INFO] [remoting-terminator] Shutting down remote daemon. 
+[2025-06-03 23:59:01.9155] [INFO] [remoting-terminator] Remote daemon shut down; proceeding with flushing remote transports. 
+[2025-06-03 23:59:01.9445] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8094]->[akka.tcp://godgaming@127.0.0.1:8083] 

@@ -1,0 +1,1102 @@
+[2023-02-13 11:08:46.5558] [INFO] [SlotGamesNode.SlotGamesService] Starting SlotGamesNode Service... 
+[2023-02-13 11:08:47.4839] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2023-02-13 11:08:47.8422] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8091] 
+[2023-02-13 11:08:47.8422] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8091] 
+[2023-02-13 11:08:47.8607] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Starting up... 
+[2023-02-13 11:08:47.8722] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Started up successfully 
+[2023-02-13 11:08:47.8882] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - No seed-nodes configured, manual cluster join required 
+[2023-02-13 11:08:47.9048] [INFO] [SlotGamesNode.BootstrapActor] Start Single Game Server(id:)... 
+[2023-02-13 11:08:47.9048] [INFO] [SlotGamesNode.BootstrapActor] Initializing database proxy... 
+[2023-02-13 11:08:49.2061] [INFO] [SlotGamesNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2023-02-13 11:08:49.2061] [INFO] [SlotGamesNode.BootstrapActor] started loading game database.... 
+[2023-02-13 11:08:57.1176] [INFO] [SlotGamesNode.BootstrapActor] completed loading of game database successfully. 
+[2023-02-13 11:08:57.1176] [INFO] [SlotGamesNode.BootstrapActor] cluster joining... 
+[2023-02-13 11:08:57.3798] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2023-02-13 11:37:23.9379] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Exiting confirmed [akka.tcp://godgaming@127.0.0.1:8083] 
+[2023-02-13 11:37:23.9660] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8083] 
+[2023-02-13 11:37:24.2800] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [GossipStatus] from akka://godgaming/system/cluster/core/daemon to akka://godgaming/deadLetters was not delivered. [1] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 11:37:24.8209] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [2] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 11:37:25.2889] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [GossipStatus] from akka://godgaming/system/cluster/core/daemon to akka://godgaming/deadLetters was not delivered. [3] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 11:37:25.8340] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [4] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 15:15:43.3310] [INFO] [Akka.Remote.Transport.DotNetty.TcpClientHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:55378->[::ffff:127.0.0.1]:4055](Id=59d0f9c9) 
+[2023-02-13 15:15:43.3310] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:4055] 
+[2023-02-13 15:15:44.1547] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [5] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 15:15:44.1547] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [GossipStatus] from akka://godgaming/system/cluster/core/daemon to akka://godgaming/deadLetters was not delivered. [6] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 15:15:45.1785] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [GossipStatus] from akka://godgaming/system/cluster/core/daemon to akka://godgaming/deadLetters was not delivered. [7] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 15:15:45.1785] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [8] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 15:15:46.1893] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [GossipStatus] from akka://godgaming/system/cluster/core/daemon to akka://godgaming/deadLetters was not delivered. [9] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 15:15:46.1893] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [10] dead letters encountered, no more dead letters will be logged in next [00:05:00]. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 15:15:54.4788] [INFO] [SlotGamesNode.SlotGamesService] Starting SlotGamesNode Service... 
+[2023-02-13 15:15:55.4761] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2023-02-13 15:15:55.8287] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8091] 
+[2023-02-13 15:15:55.8287] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8091] 
+[2023-02-13 15:15:55.8457] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Starting up... 
+[2023-02-13 15:15:55.8583] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Started up successfully 
+[2023-02-13 15:15:55.8583] [INFO] [SlotGamesNode.BootstrapActor] Start Single Game Server(id:)... 
+[2023-02-13 15:15:55.8583] [INFO] [SlotGamesNode.BootstrapActor] Initializing database proxy... 
+[2023-02-13 15:15:55.8758] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - No seed-nodes configured, manual cluster join required 
+[2023-02-13 15:15:57.0901] [INFO] [SlotGamesNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2023-02-13 15:15:57.0901] [INFO] [SlotGamesNode.BootstrapActor] started loading game database.... 
+[2023-02-13 15:16:05.3174] [INFO] [SlotGamesNode.BootstrapActor] completed loading of game database successfully. 
+[2023-02-13 15:16:05.3174] [INFO] [SlotGamesNode.BootstrapActor] cluster joining... 
+[2023-02-13 15:16:05.6126] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2023-02-13 15:17:02.9064] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 15:17:03.3002] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [1] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 15:17:04.3134] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [2] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 15:17:04.7052] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [GossipStatus] from akka://godgaming/system/cluster/core/daemon to akka://godgaming/deadLetters was not delivered. [3] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 15:17:05.3262] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [4] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 15:28:29.2444] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 15:28:29.2444] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [5] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 15:28:29.5166] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [6] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 15:28:30.5304] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [7] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 15:28:31.5437] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [8] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 15:29:39.0302] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 15:29:39.3784] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [9] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 15:29:39.7978] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [GossipStatus] from akka://godgaming/system/cluster/core/daemon to akka://godgaming/deadLetters was not delivered. [10] dead letters encountered, no more dead letters will be logged in next [00:05:00]. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 15:33:06.5931] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 15:35:29.2825] [WARN] [Akka.Remote.ReliableDeliverySupervisor] Association with remote system akka.tcp://godgaming@127.0.0.1:8094 has failed; address is now gated for 5000 ms. Reason is: [Akka.Remote.EndpointDisassociatedException: Disassociated
+   at Akka.Remote.EndpointWriter.PublishAndThrow(Exception reason, LogLevel level, Boolean needToThrow)
+   at Akka.Remote.EndpointWriter.Unhandled(Object message)
+   at Akka.Actor.ReceiveActor.ExecutePartialMessageHandler(Object message, PartialAction`1 partialAction)
+   at Akka.Actor.ReceiveActor.OnReceive(Object message)
+   at Akka.Actor.UntypedActor.Receive(Object message)
+   at Akka.Actor.ActorBase.AroundReceive(Receive receive, Object message)
+   at Akka.Actor.ActorCell.ReceiveMessage(Object message)
+   at Akka.Actor.ActorCell.ReceivedTerminated(Terminated t)
+   at Akka.Actor.ActorCell.AutoReceiveMessage(Envelope envelope)
+   at Akka.Actor.ActorCell.Invoke(Envelope envelope)] 
+[2023-02-13 15:35:29.3205] [ERROR] [Akka.Actor.OneForOneStrategy] Disassociated Akka.Remote.EndpointDisassociatedException: Disassociated
+   at Akka.Remote.EndpointWriter.PublishAndThrow(Exception reason, LogLevel level, Boolean needToThrow)
+   at Akka.Remote.EndpointWriter.Unhandled(Object message)
+   at Akka.Actor.ReceiveActor.ExecutePartialMessageHandler(Object message, PartialAction`1 partialAction)
+   at Akka.Actor.ReceiveActor.OnReceive(Object message)
+   at Akka.Actor.UntypedActor.Receive(Object message)
+   at Akka.Actor.ActorBase.AroundReceive(Receive receive, Object message)
+   at Akka.Actor.ActorCell.ReceiveMessage(Object message)
+   at Akka.Actor.ActorCell.ReceivedTerminated(Terminated t)
+   at Akka.Actor.ActorCell.AutoReceiveMessage(Envelope envelope)
+   at Akka.Actor.ActorCell.Invoke(Envelope envelope)
+[2023-02-13 15:35:29.6413] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [19] dead letters encountered, of which 8 were not logged. The counter will be reset now. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 15:35:30.1390] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [GossipStatus] from akka://godgaming/system/cluster/core/daemon to akka://godgaming/deadLetters was not delivered. [1] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 15:35:30.6513] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [2] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 15:35:31.6633] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [3] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 15:35:32.1610] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [GossipStatus] from akka://godgaming/system/cluster/core/daemon to akka://godgaming/deadLetters was not delivered. [4] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 15:35:32.6758] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [5] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 15:37:48.7121] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 15:37:48.7121] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Ignoring received gossip from unknown [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:8094, 259991163)] 
+[2023-02-13 15:38:49.7456] [INFO] [remoting (akka://godgaming)] Quarantined address [akka.tcp://godgaming@127.0.0.1:8094] is still unreachable or has not been restarted. Keeping it quarantined. 
+[2023-02-13 15:38:49.7456] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 15:38:52.0390] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8094: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8094] [] 
+[2023-02-13 15:38:52.0400] [INFO] [remoting (akka://godgaming)] Quarantined address [akka.tcp://godgaming@127.0.0.1:8094] is still unreachable or has not been restarted. Keeping it quarantined. 
+[2023-02-13 15:38:52.0400] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 15:38:52.0400] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [6] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 15:38:52.0400] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [7] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 15:38:52.0400] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [8] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 15:38:52.0400] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [GossipStatus] from akka://godgaming/system/cluster/core/daemon to akka://godgaming/deadLetters was not delivered. [9] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 15:42:59.8568] [INFO] [remoting (akka://godgaming)] Quarantined address [akka.tcp://godgaming@127.0.0.1:8094] is still unreachable or has not been restarted. Keeping it quarantined. 
+[2023-02-13 15:42:59.8568] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 15:43:02.1129] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8094: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8094] [] 
+[2023-02-13 15:43:02.1129] [INFO] [remoting (akka://godgaming)] Quarantined address [akka.tcp://godgaming@127.0.0.1:8094] is still unreachable or has not been restarted. Keeping it quarantined. 
+[2023-02-13 15:43:02.1129] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 15:43:02.1129] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [10] dead letters encountered, no more dead letters will be logged in next [00:05:00]. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 15:59:10.6144] [INFO] [remoting (akka://godgaming)] Quarantined address [akka.tcp://godgaming@127.0.0.1:8094] is still unreachable or has not been restarted. Keeping it quarantined. 
+[2023-02-13 15:59:10.6194] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 15:59:13.6381] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8094: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8094] [] 
+[2023-02-13 15:59:13.6381] [INFO] [remoting (akka://godgaming)] Quarantined address [akka.tcp://godgaming@127.0.0.1:8094] is still unreachable or has not been restarted. Keeping it quarantined. 
+[2023-02-13 15:59:13.6381] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 15:59:13.6381] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [14] dead letters encountered, of which 3 were not logged. The counter will be reset now. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 15:59:13.6381] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [1] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 15:59:13.6381] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [2] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 16:01:07.4184] [INFO] [SlotGamesNode.SlotGamesService] Stop SlotGamesNode Service Started... 
+[2023-02-13 16:01:07.4184] [INFO] [SlotGamesNode.BootstrapActor] Shutting down server.... 
+[2023-02-13 16:01:07.4184] [INFO] [SlotGamesNode.BootstrapActor] Waiting for 20 seconds until all the users connected to this server can connect to other servers 
+[2023-02-13 16:01:13.1186] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Exiting confirmed [akka.tcp://godgaming@127.0.0.1:8083] 
+[2023-02-13 16:01:13.1186] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8083] 
+[2023-02-13 16:01:13.5640] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [GossipStatus] from akka://godgaming/system/cluster/core/daemon to akka://godgaming/deadLetters was not delivered. [3] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 16:01:14.0464] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [4] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 16:01:14.5776] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [GossipStatus] from akka://godgaming/system/cluster/core/daemon to akka://godgaming/deadLetters was not delivered. [5] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 16:01:15.0594] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [6] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 16:01:27.4354] [INFO] [SlotGamesNode.BootstrapActor] Terminating game logic actors.... 
+[2023-02-13 16:01:27.4354] [INFO] [SlotGamesNode.BootstrapActor] Terminating redis write actors.... 
+[2023-02-13 16:01:27.4354] [INFO] [SlotGamesNode.BootstrapActor] Terminating database proxy actors.... 
+[2023-02-13 16:01:27.4354] [INFO] [SlotGamesNode.SlotGamesService] Leaving from cluster.... 
+[2023-02-13 16:01:27.4464] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Marked address [akka.tcp://godgaming@127.0.0.1:8091] as [Leaving] 
+[2023-02-13 16:01:28.1043] [INFO] [Akka.Actor.LocalActorRef] Message [String] without sender to akka://godgaming/user/dbproxy/writer/writeWorker was not delivered. [7] dead letters encountered. If this is not an expected behavior then akka://godgaming/user/dbproxy/writer/writeWorker may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 16:01:28.3064] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Exiting, starting coordinated shutdown. 
+[2023-02-13 16:01:28.3216] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Exiting completed. 
+[2023-02-13 16:01:28.3216] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Shutting down... 
+[2023-02-13 16:01:56.2863] [INFO] [SlotGamesNode.SlotGamesService] Starting SlotGamesNode Service... 
+[2023-02-13 16:01:56.5577] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2023-02-13 16:01:56.7021] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8091] 
+[2023-02-13 16:01:56.7021] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8091] 
+[2023-02-13 16:01:56.7221] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Starting up... 
+[2023-02-13 16:01:56.7387] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Started up successfully 
+[2023-02-13 16:01:56.7482] [INFO] [SlotGamesNode.BootstrapActor] Start Single Game Server(id:)... 
+[2023-02-13 16:01:56.7482] [INFO] [SlotGamesNode.BootstrapActor] Initializing database proxy... 
+[2023-02-13 16:01:56.7598] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - No seed-nodes configured, manual cluster join required 
+[2023-02-13 16:01:58.0819] [INFO] [SlotGamesNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2023-02-13 16:01:58.0864] [INFO] [SlotGamesNode.BootstrapActor] started loading game database.... 
+[2023-02-13 16:02:05.9722] [INFO] [SlotGamesNode.BootstrapActor] completed loading of game database successfully. 
+[2023-02-13 16:02:05.9722] [INFO] [SlotGamesNode.BootstrapActor] cluster joining... 
+[2023-02-13 16:02:06.1541] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2023-02-13 16:05:36.2907] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 16:05:36.2907] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [1] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 16:05:36.6555] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [2] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 16:05:37.6626] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [3] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 16:05:38.6793] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [4] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 16:05:41.2773] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Exiting confirmed [akka.tcp://godgaming@127.0.0.1:8083] 
+[2023-02-13 16:05:41.2773] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8083] 
+[2023-02-13 16:05:41.7106] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [5] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 16:05:42.4406] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [GossipStatus] from akka://godgaming/system/cluster/core/daemon to akka://godgaming/deadLetters was not delivered. [6] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 16:05:42.7202] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [7] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 16:05:43.4528] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [GossipStatus] from akka://godgaming/system/cluster/core/daemon to akka://godgaming/deadLetters was not delivered. [8] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 16:05:43.7355] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [9] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 16:06:44.2691] [INFO] [SlotGamesNode.SlotGamesService] Stop SlotGamesNode Service Started... 
+[2023-02-13 16:06:44.2691] [INFO] [SlotGamesNode.BootstrapActor] Shutting down server.... 
+[2023-02-13 16:06:44.2691] [INFO] [SlotGamesNode.BootstrapActor] Waiting for 20 seconds until all the users connected to this server can connect to other servers 
+[2023-02-13 16:07:04.2746] [INFO] [SlotGamesNode.BootstrapActor] Terminating game logic actors.... 
+[2023-02-13 16:07:04.2746] [INFO] [SlotGamesNode.BootstrapActor] Terminating redis write actors.... 
+[2023-02-13 16:07:04.2746] [INFO] [SlotGamesNode.BootstrapActor] Terminating database proxy actors.... 
+[2023-02-13 16:07:04.2746] [INFO] [SlotGamesNode.SlotGamesService] Leaving from cluster.... 
+[2023-02-13 16:07:04.2746] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Marked address [akka.tcp://godgaming@127.0.0.1:8091] as [Leaving] 
+[2023-02-13 16:07:04.9433] [INFO] [Akka.Actor.LocalActorRef] Message [String] without sender to akka://godgaming/user/dbproxy/writer/writeWorker was not delivered. [10] dead letters encountered, no more dead letters will be logged in next [00:05:00]. If this is not an expected behavior then akka://godgaming/user/dbproxy/writer/writeWorker may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 16:07:05.2246] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Exiting, starting coordinated shutdown. 
+[2023-02-13 16:07:05.2371] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Exiting completed. 
+[2023-02-13 16:07:05.2371] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Shutting down... 
+[2023-02-13 16:07:05.2371] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Successfully shut down 
+[2023-02-13 16:07:05.2371] [INFO] [remoting-terminator] Shutting down remote daemon. 
+[2023-02-13 16:07:50.3127] [INFO] [SlotGamesNode.SlotGamesService] Starting SlotGamesNode Service... 
+[2023-02-13 16:07:50.5409] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2023-02-13 16:07:50.6835] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8091] 
+[2023-02-13 16:07:50.6835] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8091] 
+[2023-02-13 16:07:50.7016] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Starting up... 
+[2023-02-13 16:07:50.7157] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Started up successfully 
+[2023-02-13 16:07:50.7157] [INFO] [SlotGamesNode.BootstrapActor] Start Single Game Server(id:)... 
+[2023-02-13 16:07:50.7157] [INFO] [SlotGamesNode.BootstrapActor] Initializing database proxy... 
+[2023-02-13 16:07:50.7352] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - No seed-nodes configured, manual cluster join required 
+[2023-02-13 16:07:51.9555] [INFO] [SlotGamesNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2023-02-13 16:07:51.9555] [INFO] [SlotGamesNode.BootstrapActor] started loading game database.... 
+[2023-02-13 16:07:59.6635] [INFO] [SlotGamesNode.BootstrapActor] completed loading of game database successfully. 
+[2023-02-13 16:07:59.6648] [INFO] [SlotGamesNode.BootstrapActor] cluster joining... 
+[2023-02-13 16:07:59.8414] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2023-02-13 16:14:00.2012] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 16:14:01.0917] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [GossipStatus] from akka://godgaming/system/cluster/core/daemon to akka://godgaming/deadLetters was not delivered. [1] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 16:14:01.0917] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [2] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 16:14:02.1125] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [3] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 16:14:03.1227] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [4] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 16:20:47.2562] [INFO] [Akka.Remote.Transport.DotNetty.TcpServerHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:8091->[::ffff:127.0.0.1]:58589](Id=1bff3153) 
+[2023-02-13 16:20:47.2667] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 16:20:47.8020] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [5] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 16:20:48.8108] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [GossipStatus] from akka://godgaming/system/cluster/core/daemon to akka://godgaming/deadLetters was not delivered. [6] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 16:20:48.8108] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [7] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 16:20:49.8359] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [8] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 16:20:50.8499] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [9] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 16:20:51.8618] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [10] dead letters encountered, no more dead letters will be logged in next [00:05:00]. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 16:20:51.8703] [WARN] [Akka.Cluster.ClusterCoreDaemon] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Marking node(s) as UNREACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:8094, Uid=215764256 status = Up, role=[queenapi], upNumber=5, version=1.0.0)]. Node roles [slotgame] 
+[2023-02-13 16:20:52.8218] [INFO] [SlotGamesNode.SlotGamesService] Stop SlotGamesNode Service Started... 
+[2023-02-13 16:20:52.8218] [INFO] [SlotGamesNode.BootstrapActor] Shutting down server.... 
+[2023-02-13 16:20:52.8218] [INFO] [SlotGamesNode.BootstrapActor] Waiting for 20 seconds until all the users connected to this server can connect to other servers 
+[2023-02-13 16:20:54.9368] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8094: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8094] [] 
+[2023-02-13 16:20:54.9368] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8094]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8094] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:20:54.9501] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 16:21:02.0112] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8094: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8094] [] 
+[2023-02-13 16:21:02.0112] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8094]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8094] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:21:02.0263] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 16:21:09.0754] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8094: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8094] [] 
+[2023-02-13 16:21:09.0754] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8094]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8094] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:21:09.0936] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 16:21:12.8351] [INFO] [SlotGamesNode.BootstrapActor] Terminating game logic actors.... 
+[2023-02-13 16:21:12.8624] [INFO] [SlotGamesNode.BootstrapActor] Terminating redis write actors.... 
+[2023-02-13 16:21:12.8624] [INFO] [SlotGamesNode.BootstrapActor] Terminating database proxy actors.... 
+[2023-02-13 16:21:12.8624] [INFO] [SlotGamesNode.SlotGamesService] Leaving from cluster.... 
+[2023-02-13 16:21:12.8748] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Marked address [akka.tcp://godgaming@127.0.0.1:8091] as [Leaving] 
+[2023-02-13 16:21:16.1716] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8094: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8094] [] 
+[2023-02-13 16:21:16.1716] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8094]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8094] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:21:16.2016] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 16:21:23.2608] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8094: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8094] [] 
+[2023-02-13 16:21:23.2608] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8094]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8094] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:21:23.2965] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 16:21:30.3693] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8094: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8094] [] 
+[2023-02-13 16:21:30.3693] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8094]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8094] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:21:30.3901] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 16:21:37.4509] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8094: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8094] [] 
+[2023-02-13 16:21:37.4509] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8094]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8094] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:21:37.4509] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 16:21:44.5268] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8094: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8094] [] 
+[2023-02-13 16:21:44.5268] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8094]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8094] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:21:44.5268] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 16:21:51.6105] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8094: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8094] [] 
+[2023-02-13 16:21:51.6105] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8094]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8094] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:21:51.6208] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 16:21:58.7190] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8094: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8094] [] 
+[2023-02-13 16:21:58.7190] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8094]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8094] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:21:58.7486] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 16:22:05.2867] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Exiting confirmed [akka.tcp://godgaming@127.0.0.1:8083] 
+[2023-02-13 16:22:05.2953] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8083] 
+[2023-02-13 16:22:05.7956] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8094: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8094] [] 
+[2023-02-13 16:22:05.7956] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8094]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8094] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:22:05.8129] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 16:22:09.8088] [WARN] [Akka.Cluster.ClusterCoreDaemon] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Marking node(s) as UNREACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:8083, Uid=19421892 status = Leaving, role=[comm], upNumber=2, version=1.0.0)]. Node roles [slotgame] 
+[2023-02-13 16:22:12.8566] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8083: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8083] [] 
+[2023-02-13 16:22:12.8566] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8094: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8094] [] 
+[2023-02-13 16:22:12.8566] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8094]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8094] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:22:12.8566] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 16:22:12.8566] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8083]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8083] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8083
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8083
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:22:12.8803] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8083] 
+[2023-02-13 16:22:19.9801] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8094: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8094] [] 
+[2023-02-13 16:22:19.9801] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8083: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8083] [] 
+[2023-02-13 16:22:19.9801] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8094]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8094] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:22:20.0010] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 16:22:20.0010] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8083]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8083] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8083
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8083
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:22:20.0136] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8083] 
+[2023-02-13 16:22:27.0648] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8094: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8094] [] 
+[2023-02-13 16:22:27.0648] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8083: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8083] [] 
+[2023-02-13 16:22:27.0648] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8083]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8083] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8083
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8083
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:22:27.0836] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8094]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8094] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:22:27.0917] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8083] 
+[2023-02-13 16:22:27.0917] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 16:22:34.1508] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8083: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8083] [] 
+[2023-02-13 16:22:34.1508] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8094: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8094] [] 
+[2023-02-13 16:22:34.1508] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8094]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8094] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:22:34.1508] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 16:22:34.1508] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8083]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8083] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8083
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8083
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:22:34.1760] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8083] 
+[2023-02-13 16:22:41.2021] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8083: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8083] [] 
+[2023-02-13 16:22:41.2021] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8094: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8094] [] 
+[2023-02-13 16:22:41.2021] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8094]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8094] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:22:41.2161] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 16:22:41.2161] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8083]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8083] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8083
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8083
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:22:41.2161] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8083] 
+[2023-02-13 16:22:48.2915] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8083: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8083] [] 
+[2023-02-13 16:22:48.2915] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8094: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8094] [] 
+[2023-02-13 16:22:48.2915] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8094]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8094] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:22:48.2915] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 16:22:48.2915] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8083]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8083] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8083
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8083
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:22:48.3116] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8083] 
+[2023-02-13 16:22:55.3690] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8083: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8083] [] 
+[2023-02-13 16:22:55.3690] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8083]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8083] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8083
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8083
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:22:55.3690] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8083] 
+[2023-02-13 16:22:55.3848] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8094: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8094] [] 
+[2023-02-13 16:22:55.3848] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8094]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8094] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:22:55.3848] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 16:23:02.4469] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8083: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8083] [] 
+[2023-02-13 16:23:02.4469] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8083]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8083] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8083
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8083
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:23:02.4742] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8083] 
+[2023-02-13 16:23:02.4742] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8094: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8094] [] 
+[2023-02-13 16:23:02.4742] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8094]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8094] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:23:02.5069] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 16:23:09.5913] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8083: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8083] [] 
+[2023-02-13 16:23:09.5913] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8094: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8094] [] 
+[2023-02-13 16:23:09.5913] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8083]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8083] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8083
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8083
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:23:09.6119] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8083] 
+[2023-02-13 16:23:09.6119] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8094]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8094] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:23:09.6195] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 16:23:16.7237] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8083: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8083] [] 
+[2023-02-13 16:23:16.7296] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8094: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8094] [] 
+[2023-02-13 16:23:16.7296] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8094]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8094] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:23:16.7487] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8083]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8083] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8083
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8083
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:23:16.7602] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 16:23:16.7602] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8083] 
+[2023-02-13 16:23:23.8141] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8083: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8083] [] 
+[2023-02-13 16:23:23.8141] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8094: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8094] [] 
+[2023-02-13 16:23:23.8141] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8083]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8083] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8083
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8083
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:23:23.8237] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8094]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8094] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:23:23.8437] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8083] 
+[2023-02-13 16:23:23.8437] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 16:23:30.9157] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8083: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8083] [] 
+[2023-02-13 16:23:30.9157] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8094: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8094] [] 
+[2023-02-13 16:23:30.9157] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8083]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8083] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8083
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8083
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:23:30.9157] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8094]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8094] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:23:30.9328] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8083] 
+[2023-02-13 16:23:30.9328] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 16:23:37.9919] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8094: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8094] [] 
+[2023-02-13 16:23:37.9939] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8083: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8083] [] 
+[2023-02-13 16:23:37.9939] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8083]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8083] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8083
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8083
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:23:38.0282] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8094]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8094] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:23:38.0580] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8083] 
+[2023-02-13 16:23:38.0580] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 16:23:45.0723] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8094: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8094] [] 
+[2023-02-13 16:23:45.0723] [WARN] [Akka.Remote.EndpointWriter] AssociationError [akka.tcp://godgaming@127.0.0.1:8091] -> akka.tcp://godgaming@127.0.0.1:8083: Error [Association failed with akka.tcp://godgaming@127.0.0.1:8083] [] 
+[2023-02-13 16:23:45.0723] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8094]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8094] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8094
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:23:45.0723] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 16:23:45.0723] [WARN] [remoting (akka://godgaming)] Tried to associate with unreachable remote address [akka.tcp://godgaming@127.0.0.1:8083]. Address is now gated for 5000 ms, all messages to this address will be delivered to dead letters. Reason: [Association failed with akka.tcp://godgaming@127.0.0.1:8083] Caused by: [System.AggregateException: One or more errors occurred. ---> Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8083
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Akka.Remote.Transport.ProtocolStateActor.<>c.<InitializeFSM>b__12_18(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+---> (Inner Exception #0) Akka.Remote.Transport.InvalidAssociationException: No connection could be made because the target machine actively refused it tcp://godgaming@127.0.0.1:8083
+   at Akka.Remote.Transport.DotNetty.TcpTransport.<AssociateInternal>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Remote.Transport.DotNetty.DotNettyTransport.<Associate>d__22.MoveNext()<---
+] 
+[2023-02-13 16:23:45.0930] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8083] 
+[2023-02-13 16:28:13.2966] [INFO] [SlotGamesNode.SlotGamesService] Starting SlotGamesNode Service... 
+[2023-02-13 16:28:14.1897] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2023-02-13 16:28:14.5392] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8091] 
+[2023-02-13 16:28:14.5402] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8091] 
+[2023-02-13 16:28:14.5564] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Starting up... 
+[2023-02-13 16:28:14.5564] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Started up successfully 
+[2023-02-13 16:28:14.5844] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - No seed-nodes configured, manual cluster join required 
+[2023-02-13 16:28:14.6126] [INFO] [SlotGamesNode.BootstrapActor] Start Single Game Server(id:)... 
+[2023-02-13 16:28:14.6126] [INFO] [SlotGamesNode.BootstrapActor] Initializing database proxy... 
+[2023-02-13 16:28:15.9758] [INFO] [SlotGamesNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2023-02-13 16:28:15.9798] [INFO] [SlotGamesNode.BootstrapActor] started loading game database.... 
+[2023-02-13 16:28:24.5875] [INFO] [SlotGamesNode.BootstrapActor] completed loading of game database successfully. 
+[2023-02-13 16:28:24.5875] [INFO] [SlotGamesNode.BootstrapActor] cluster joining... 
+[2023-02-13 16:28:24.8519] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2023-02-13 16:40:12.9252] [ERROR] [SlotGamesNode.Database.DBProxyMonitor] Exception has been occurred in DBProxyMonitor::monitorTables System.Data.SqlClient.SqlException (0x80131904): A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.) ---> System.ComponentModel.Win32Exception (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SlotGamesNode.Database.DBProxyMonitor.<monitorTables>d__10.MoveNext() in F:\Jobs\MYCasino\SlotCityCasinoServer\SlotGamesNode\Database\DBProxyMonitor.cs:line 126
+ClientConnectionId:9560a3b5-8ad3-4521-ad5f-6464aa20e500
+Error Number:10054,State:0,Class:20 
+[2023-02-13 17:33:07.3021] [INFO] [Akka.Remote.Transport.DotNetty.TcpServerHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:8091->[::ffff:127.0.0.1]:59184](Id=64b73725) 
+[2023-02-13 17:33:07.3182] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2023-02-13 17:33:07.6834] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [1] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 17:33:08.6993] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [2] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 17:33:08.6993] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [GossipStatus] from akka://godgaming/system/cluster/core/daemon to akka://godgaming/deadLetters was not delivered. [3] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 17:33:08.7277] [INFO] [SlotGamesNode.SlotGamesService] Stop SlotGamesNode Service Started... 
+[2023-02-13 17:33:08.7277] [INFO] [SlotGamesNode.BootstrapActor] Shutting down server.... 
+[2023-02-13 17:33:08.7277] [INFO] [SlotGamesNode.BootstrapActor] Waiting for 20 seconds until all the users connected to this server can connect to other servers 
+[2023-02-13 17:33:09.7123] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [4] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 17:33:12.3620] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Exiting confirmed [akka.tcp://godgaming@127.0.0.1:8083] 
+[2023-02-13 17:33:12.3705] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8083] 
+[2023-02-13 17:33:12.7501] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [5] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 17:33:13.7630] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [6] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2023-02-13 17:33:13.7630] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [GossipStatus] from akka://godgaming/system/cluster/core/daemon to akka://godgaming/deadLetters was not delivered. [7] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 

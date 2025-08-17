@@ -1,0 +1,46 @@
+[2024-10-05 00:05:58.0954] [INFO] [Akka.Remote.Transport.DotNetty.TcpClientHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:5615->[::ffff:127.0.0.1]:8093](Id=45ea01a2) 
+[2024-10-05 00:06:00.8590] [INFO] [SlotGamesNode.SlotGamesService] Starting SlotGamesNode Service... 
+[2024-10-05 00:06:01.2504] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-10-05 00:06:01.4514] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8091] 
+[2024-10-05 00:06:01.4514] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8091] 
+[2024-10-05 00:06:01.4764] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Starting up... 
+[2024-10-05 00:06:01.5020] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Started up successfully 
+[2024-10-05 00:06:01.5940] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - No seed-nodes configured, manual cluster join required 
+[2024-10-05 00:06:01.6712] [INFO] [SlotGamesNode.BootstrapActor] Start Single Game Server(id:)... 
+[2024-10-05 00:06:01.6712] [INFO] [SlotGamesNode.BootstrapActor] Initializing database proxy... 
+[2024-10-05 00:06:01.9652] [INFO] [SlotGamesNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-10-05 00:06:01.9652] [INFO] [SlotGamesNode.BootstrapActor] started loading game database.... 
+[2024-10-05 00:06:04.9809] [INFO] [SlotGamesNode.BootstrapActor] completed loading of game database successfully. 
+[2024-10-05 00:06:04.9809] [INFO] [SlotGamesNode.BootstrapActor] cluster joining... 
+[2024-10-05 00:06:15.8059] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-10-05 00:08:19.1425] [INFO] [SlotGamesNode.SlotGamesService] Starting SlotGamesNode Service... 
+[2024-10-05 00:08:19.5100] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-10-05 00:08:19.7150] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8091] 
+[2024-10-05 00:08:19.7150] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8091] 
+[2024-10-05 00:08:19.7357] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Starting up... 
+[2024-10-05 00:08:19.7537] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Started up successfully 
+[2024-10-05 00:08:19.7877] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - No seed-nodes configured, manual cluster join required 
+[2024-10-05 00:08:19.8657] [INFO] [SlotGamesNode.BootstrapActor] Start Single Game Server(id:)... 
+[2024-10-05 00:08:19.8697] [INFO] [SlotGamesNode.BootstrapActor] Initializing database proxy... 
+[2024-10-05 00:08:20.1544] [INFO] [SlotGamesNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-10-05 00:08:20.1544] [INFO] [SlotGamesNode.BootstrapActor] started loading game database.... 
+[2024-10-05 00:08:23.1031] [INFO] [SlotGamesNode.BootstrapActor] completed loading of game database successfully. 
+[2024-10-05 00:08:23.1031] [INFO] [SlotGamesNode.BootstrapActor] cluster joining... 
+[2024-10-05 00:08:33.9971] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-10-05 00:08:44.0774] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [2963.4544] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-10-05 00:08:53.0690] [INFO] [SlotGamesNode.GameLogics.SugarRushGameLogic] sendGameResult BetMoney: 1,0, 1012322.95 
+[2024-10-05 00:08:56.4328] [INFO] [SlotGamesNode.GameLogics.SugarRushGameLogic] sendGameResult BetMoney: 1,0, 1012322.95 
+[2024-10-05 00:08:59.6011] [INFO] [SlotGamesNode.GameLogics.SugarRushGameLogic] sendGameResult BetMoney: 1,0, 1012322.95 
+[2024-10-05 00:09:03.8505] [INFO] [SlotGamesNode.GameLogics.SugarRushGameLogic] sendGameResult BetMoney: 0,0.2, 1012322.95 
+[2024-10-05 00:09:05.7800] [INFO] [SlotGamesNode.GameLogics.SugarRushGameLogic] sendGameResult BetMoney: 1,0, 1012323.15 
+[2024-10-05 00:09:10.0186] [INFO] [SlotGamesNode.GameLogics.SugarRushGameLogic] sendGameResult BetMoney: 0,0, 1012323.15 
+[2024-10-05 00:09:12.9440] [INFO] [SlotGamesNode.GameLogics.SugarRushGameLogic] sendGameResult BetMoney: 0,1.05, 1012323.15 
+[2024-10-05 00:09:17.6937] [INFO] [SlotGamesNode.GameLogics.SugarRushGameLogic] sendGameResult BetMoney: 1,0, 1012324.2 
+[2024-10-05 00:09:19.9524] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [3044.0825] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-10-05 00:10:01.9852] [INFO] [Akka.Remote.Transport.DotNetty.TcpClientHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:7017->[::ffff:127.0.0.1]:8093](Id=515b49d8) 
+[2024-10-05 00:10:02.0152] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-10-05 00:10:02.0272] [INFO] [Akka.Remote.Transport.DotNetty.TcpServerHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:8091->[::ffff:127.0.0.1]:7016](Id=2bcc8c15) 
+[2024-10-05 00:10:02.0272] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-10-05 00:10:02.0552] [INFO] [Akka.Remote.Transport.DotNetty.TcpClientHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:7018->[::ffff:127.0.0.1]:8083](Id=021b52c8) 
+[2024-10-05 00:10:02.0602] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8083] 
+[2024-10-05 00:10:02.0602] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [1] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 

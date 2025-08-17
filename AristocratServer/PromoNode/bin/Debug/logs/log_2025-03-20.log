@@ -1,0 +1,50 @@
+[2025-03-20 15:06:29.4959] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2025-03-20 15:06:30.5217] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2025-03-20 15:06:31.0108] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8093] 
+[2025-03-20 15:06:31.0127] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8093] 
+[2025-03-20 15:06:31.0437] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Starting up... 
+[2025-03-20 15:06:31.0817] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Started up successfully 
+[2025-03-20 15:06:31.1177] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2025-03-20 15:06:31.1177] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2025-03-20 15:06:31.3886] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2025-03-20 15:06:31.5203] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2025-03-20 15:06:31.5203] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2025-03-20 15:06:31.5291] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2025-03-20 15:06:31.5291] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2025-03-20 15:06:31.5291] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2025-03-20 15:06:41.5336] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2025-03-20 15:06:41.5336] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2025-03-20 15:06:41.5336] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2025-03-20 15:06:51.5568] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2025-03-20 15:06:51.5568] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2025-03-20 15:06:51.5588] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2025-03-20 15:07:01.5765] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2025-03-20 15:07:01.5765] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2025-03-20 15:07:01.5765] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2025-03-20 15:07:11.5877] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2025-03-20 15:07:11.5907] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2025-03-20 15:07:11.5907] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2025-03-20 15:07:21.5989] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2025-03-20 15:07:21.5989] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2025-03-20 15:07:21.6059] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2025-03-20 15:07:31.5670] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2025-03-20 15:07:31.6190] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2025-03-20 15:07:31.6290] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2025-03-20 15:07:31.6290] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2025-03-20 15:07:41.6225] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2025-03-20 15:07:41.6385] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2025-03-20 15:07:41.6385] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2025-03-20 15:07:51.6389] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2025-03-20 15:07:51.6559] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2025-03-20 15:07:51.6559] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2025-03-20 15:07:58.2241] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [3432.9048] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2025-03-20 15:08:01.6515] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2025-03-20 15:08:01.6673] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2025-03-20 15:08:01.6683] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2025-03-20 15:08:05.1444] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [2873.7367] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2025-03-20 15:08:11.6765] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2025-03-20 15:08:11.6765] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2025-03-20 15:08:11.6765] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2025-03-20 15:08:21.6835] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2025-03-20 15:08:21.6865] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2025-03-20 15:08:21.6865] [INFO] [PromoNode.PromoFetchActor] Cashback Received 

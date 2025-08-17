@@ -1,0 +1,43 @@
+[2024-09-09 02:35:15.6066] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2024-09-09 02:35:16.7676] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-09-09 02:35:17.4236] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-09-09 02:35:17.4246] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-09-09 02:35:17.4446] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Starting up... 
+[2024-09-09 02:35:17.4686] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Started up successfully 
+[2024-09-09 02:35:20.7890] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2024-09-09 02:35:20.7890] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2024-09-09 02:35:21.0579] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-09-09 02:35:21.1619] [ERROR] [PromoNode.Database.DBProxyReader] Exception has been occurred in DBProxyReader::onGetActiveTournaments System.InvalidCastException: Specified cast is not valid.
+   at PromoNode.Database.DBProxyReader.readTournament(DbDataReader reader, PPTournament tournament) in E:\work\MYCasino\MYCasino\SlotCityCasinoServer\PromoNode\Database\DBProxyReader.cs:line 54
+   at PromoNode.Database.DBProxyReader.<onGetActiveTournaments>d__6.MoveNext() in E:\work\MYCasino\MYCasino\SlotCityCasinoServer\PromoNode\Database\DBProxyReader.cs:line 90 
+[2024-09-09 02:35:21.2239] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-09-09 02:36:21.1934] [ERROR] [PromoNode.Database.DBProxyReader] Exception has been occurred in DBProxyReader::onGetActiveTournaments System.InvalidCastException: Specified cast is not valid.
+   at PromoNode.Database.DBProxyReader.readTournament(DbDataReader reader, PPTournament tournament) in E:\work\MYCasino\MYCasino\SlotCityCasinoServer\PromoNode\Database\DBProxyReader.cs:line 54
+   at PromoNode.Database.DBProxyReader.<onGetActiveTournaments>d__6.MoveNext() in E:\work\MYCasino\MYCasino\SlotCityCasinoServer\PromoNode\Database\DBProxyReader.cs:line 90 
+[2024-09-09 02:41:19.8906] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2024-09-09 02:41:20.4996] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-09-09 02:41:20.8465] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-09-09 02:41:20.8465] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-09-09 02:41:20.8635] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Starting up... 
+[2024-09-09 02:41:20.8865] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Started up successfully 
+[2024-09-09 02:41:20.9165] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2024-09-09 02:41:20.9165] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2024-09-09 02:41:21.1515] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-09-09 02:41:21.2857] [ERROR] [PromoNode.Database.DBProxyReader] Exception has been occurred in DBProxyReader::onGetActiveTournaments System.InvalidCastException: Specified cast is not valid.
+   at PromoNode.Database.DBProxyReader.readTournament(DbDataReader reader, PPTournament tournament) in E:\work\MYCasino\MYCasino\SlotCityCasinoServer\PromoNode\Database\DBProxyReader.cs:line 54
+   at PromoNode.Database.DBProxyReader.<onGetActiveTournaments>d__6.MoveNext() in E:\work\MYCasino\MYCasino\SlotCityCasinoServer\PromoNode\Database\DBProxyReader.cs:line 90 
+[2024-09-09 02:41:21.2857] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-09-09 02:41:59.8483] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2024-09-09 02:42:00.4583] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-09-09 02:42:00.8393] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-09-09 02:42:00.8393] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-09-09 02:42:00.8673] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Starting up... 
+[2024-09-09 02:42:00.8943] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Started up successfully 
+[2024-09-09 02:42:00.9163] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2024-09-09 02:42:00.9163] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2024-09-09 02:42:29.2446] [WARN] [Akka.Cluster.JoinSeedNodeProcess] Couldn't join seed nodes after [2] attempts, will try again. seed-nodes=[akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-09-09 02:42:29.8908] [INFO] [Akka.Actor.LocalActorRef] Message [HandleListenerRegistered] without sender to akka://godgaming/system/transports/akkaprotocolmanager.tcp.0/akkaProtocol-tcp%3A%2F%2Fgodgaming%40%5B%3A%3Affff%3A127.0.0.1%5D%3A2812-2 was not delivered. [1] dead letters encountered. If this is not an expected behavior then akka://godgaming/system/transports/akkaprotocolmanager.tcp.0/akkaProtocol-tcp%3A%2F%2Fgodgaming%40%5B%3A%3Affff%3A127.0.0.1%5D%3A2812-2 may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2024-09-09 02:42:29.9068] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-09-09 02:42:32.6504] [ERROR] [PromoNode.Database.DBProxyReader] Exception has been occurred in DBProxyReader::onGetActiveTournaments System.InvalidCastException: Specified cast is not valid.
+   at PromoNode.Database.DBProxyReader.readTournament(DbDataReader reader, PPTournament tournament) in E:\work\MYCasino\MYCasino\SlotCityCasinoServer\PromoNode\Database\DBProxyReader.cs:line 54
+   at PromoNode.Database.DBProxyReader.<onGetActiveTournaments>d__6.MoveNext() in E:\work\MYCasino\MYCasino\SlotCityCasinoServer\PromoNode\Database\DBProxyReader.cs:line 90 

@@ -1,0 +1,344 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{619F5EF1-1674-4E98-B168-CA201383EBC9}|SlotGamesNode\\SlotGamesNode.csproj|E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\slotgamesnode\\gamelogics\\gamecollectionactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619F5EF1-1674-4E98-B168-CA201383EBC9}|SlotGamesNode\\SlotGamesNode.csproj|solutionrelative:slotgamesnode\\gamelogics\\gamecollectionactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2677ECA-AA39-49D3-9F00-544DC842DA65}|GITProtocol\\GITProtocol.csproj|E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\gitprotocol\\messagecodes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2677ECA-AA39-49D3-9F00-544DC842DA65}|GITProtocol\\GITProtocol.csproj|solutionrelative:gitprotocol\\messagecodes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619F5EF1-1674-4E98-B168-CA201383EBC9}|SlotGamesNode\\SlotGamesNode.csproj|E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\slotgamesnode\\gamelogics\\aristogames\\pompeiigamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619F5EF1-1674-4E98-B168-CA201383EBC9}|SlotGamesNode\\SlotGamesNode.csproj|solutionrelative:slotgamesnode\\gamelogics\\aristogames\\pompeiigamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619F5EF1-1674-4E98-B168-CA201383EBC9}|SlotGamesNode\\SlotGamesNode.csproj|e:\\work\\allen\\aristocrat\\slotcitycasinoserver\\slotgamesnode\\gamelogics\\baseclasses\\baseppslotgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619F5EF1-1674-4E98-B168-CA201383EBC9}|SlotGamesNode\\SlotGamesNode.csproj|solutionrelative:slotgamesnode\\gamelogics\\baseclasses\\baseppslotgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C93090C8-9017-4D26-8A69-B7C129A25618}|QueenApiNode\\QueenApiNode.csproj|E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\queenapinode\\agent\\agentactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C93090C8-9017-4D26-8A69-B7C129A25618}|QueenApiNode\\QueenApiNode.csproj|solutionrelative:queenapinode\\agent\\agentactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A3EF92-E2E1-4EA8-B9D1-A56AA3479420}|SeamlessApiNode\\SeamlessApiNode.csproj|E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\seamlessapinode\\agent\\agentactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A3EF92-E2E1-4EA8-B9D1-A56AA3479420}|SeamlessApiNode\\SeamlessApiNode.csproj|solutionrelative:seamlessapinode\\agent\\agentactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619F5EF1-1674-4E98-B168-CA201383EBC9}|SlotGamesNode\\SlotGamesNode.csproj|E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\slotgamesnode\\gamelogics\\baseclasses\\baseselfreeppslotgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619F5EF1-1674-4E98-B168-CA201383EBC9}|SlotGamesNode\\SlotGamesNode.csproj|solutionrelative:slotgamesnode\\gamelogics\\baseclasses\\baseselfreeppslotgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A84F825-2D14-46C7-84F0-6FC94A5B050B}|CommNode\\CommNode.csproj|E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\commnode\\database\\writersnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A84F825-2D14-46C7-84F0-6FC94A5B050B}|CommNode\\CommNode.csproj|solutionrelative:commnode\\database\\writersnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A84F825-2D14-46C7-84F0-6FC94A5B050B}|CommNode\\CommNode.csproj|E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\commnode\\user\\useractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A84F825-2D14-46C7-84F0-6FC94A5B050B}|CommNode\\CommNode.csproj|solutionrelative:commnode\\user\\useractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A84F825-2D14-46C7-84F0-6FC94A5B050B}|CommNode\\CommNode.csproj|E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\commnode\\httpservice\\ppservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A84F825-2D14-46C7-84F0-6FC94A5B050B}|CommNode\\CommNode.csproj|solutionrelative:commnode\\httpservice\\ppservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A84F825-2D14-46C7-84F0-6FC94A5B050B}|CommNode\\CommNode.csproj|E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\commnode\\httpservice\\httpworkactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A84F825-2D14-46C7-84F0-6FC94A5B050B}|CommNode\\CommNode.csproj|solutionrelative:commnode\\httpservice\\httpworkactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A84F825-2D14-46C7-84F0-6FC94A5B050B}|CommNode\\CommNode.csproj|E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\commnode\\httpservice\\httpauthworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A84F825-2D14-46C7-84F0-6FC94A5B050B}|CommNode\\CommNode.csproj|solutionrelative:commnode\\httpservice\\httpauthworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A84F825-2D14-46C7-84F0-6FC94A5B050B}|CommNode\\CommNode.csproj|E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\commnode\\database\\dbproxyreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A84F825-2D14-46C7-84F0-6FC94A5B050B}|CommNode\\CommNode.csproj|solutionrelative:commnode\\database\\dbproxyreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C93090C8-9017-4D26-8A69-B7C129A25618}|QueenApiNode\\QueenApiNode.csproj|E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\queenapinode\\database\\dbproxyreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C93090C8-9017-4D26-8A69-B7C129A25618}|QueenApiNode\\QueenApiNode.csproj|solutionrelative:queenapinode\\database\\dbproxyreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A84F825-2D14-46C7-84F0-6FC94A5B050B}|CommNode\\CommNode.csproj|E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\commnode\\database\\dbgamelogwriteworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A84F825-2D14-46C7-84F0-6FC94A5B050B}|CommNode\\CommNode.csproj|solutionrelative:commnode\\database\\dbgamelogwriteworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A84F825-2D14-46C7-84F0-6FC94A5B050B}|CommNode\\CommNode.csproj|E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\commnode\\database\\dbproxywriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A84F825-2D14-46C7-84F0-6FC94A5B050B}|CommNode\\CommNode.csproj|solutionrelative:commnode\\database\\dbproxywriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A84F825-2D14-46C7-84F0-6FC94A5B050B}|CommNode\\CommNode.csproj|E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\commnode\\database\\dbwriteworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A84F825-2D14-46C7-84F0-6FC94A5B050B}|CommNode\\CommNode.csproj|solutionrelative:commnode\\database\\dbwriteworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619F5EF1-1674-4E98-B168-CA201383EBC9}|SlotGamesNode\\SlotGamesNode.csproj|E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\slotgamesnode\\gamelogics\\baseclasses\\baseppslotclasses.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{619F5EF1-1674-4E98-B168-CA201383EBC9}|SlotGamesNode\\SlotGamesNode.csproj|solutionrelative:slotgamesnode\\gamelogics\\baseclasses\\baseppslotclasses.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619F5EF1-1674-4E98-B168-CA201383EBC9}|SlotGamesNode\\SlotGamesNode.csproj|E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\slotgamesnode\\gamelogics\\igamelogicactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619F5EF1-1674-4E98-B168-CA201383EBC9}|SlotGamesNode\\SlotGamesNode.csproj|solutionrelative:slotgamesnode\\gamelogics\\igamelogicactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A84F825-2D14-46C7-84F0-6FC94A5B050B}|CommNode\\CommNode.csproj|E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\commnode\\database\\dbreportwriteworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A84F825-2D14-46C7-84F0-6FC94A5B050B}|CommNode\\CommNode.csproj|solutionrelative:commnode\\database\\dbreportwriteworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 186,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PompeiiGameLogic.cs",
+              "DocumentMoniker": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\SlotGamesNode\\GameLogics\\AristoGames\\PompeiiGameLogic.cs",
+              "RelativeDocumentMoniker": "SlotGamesNode\\GameLogics\\AristoGames\\PompeiiGameLogic.cs",
+              "ToolTip": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\SlotGamesNode\\GameLogics\\AristoGames\\PompeiiGameLogic.cs",
+              "RelativeToolTip": "SlotGamesNode\\GameLogics\\AristoGames\\PompeiiGameLogic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T14:56:59.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MessageCodes.cs",
+              "DocumentMoniker": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\GITProtocol\\MessageCodes.cs",
+              "RelativeDocumentMoniker": "GITProtocol\\MessageCodes.cs",
+              "ToolTip": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\GITProtocol\\MessageCodes.cs",
+              "RelativeToolTip": "GITProtocol\\MessageCodes.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwDQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T13:59:25.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameCollectionActor.cs",
+              "DocumentMoniker": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\SlotGamesNode\\GameLogics\\GameCollectionActor.cs",
+              "RelativeDocumentMoniker": "SlotGamesNode\\GameLogics\\GameCollectionActor.cs",
+              "ToolTip": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\SlotGamesNode\\GameLogics\\GameCollectionActor.cs",
+              "RelativeToolTip": "SlotGamesNode\\GameLogics\\GameCollectionActor.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAswEsAAACOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T20:54:26.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AgentActor.cs",
+              "DocumentMoniker": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\SeamlessApiNode\\Agent\\AgentActor.cs",
+              "RelativeDocumentMoniker": "SeamlessApiNode\\Agent\\AgentActor.cs",
+              "ToolTip": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\SeamlessApiNode\\Agent\\AgentActor.cs",
+              "RelativeToolTip": "SeamlessApiNode\\Agent\\AgentActor.cs",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAAwKIAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T06:53:08.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PPServiceController.cs",
+              "DocumentMoniker": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\CommNode\\HTTPService\\PPServiceController.cs",
+              "RelativeDocumentMoniker": "CommNode\\HTTPService\\PPServiceController.cs",
+              "ToolTip": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\CommNode\\HTTPService\\PPServiceController.cs",
+              "RelativeToolTip": "CommNode\\HTTPService\\PPServiceController.cs",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAcwEUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T06:27:13.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BasePPSlotGame.cs",
+              "DocumentMoniker": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\SlotGamesNode\\GameLogics\\BaseClasses\\BasePPSlotGame.cs",
+              "RelativeDocumentMoniker": "SlotGamesNode\\GameLogics\\BaseClasses\\BasePPSlotGame.cs",
+              "ToolTip": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\SlotGamesNode\\GameLogics\\BaseClasses\\BasePPSlotGame.cs",
+              "RelativeToolTip": "SlotGamesNode\\GameLogics\\BaseClasses\\BasePPSlotGame.cs",
+              "ViewState": "AgIAAAYGAAAAAAAAAAAAAAUGAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T18:17:41.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HTTPAuthWorker.cs",
+              "DocumentMoniker": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\CommNode\\HTTPService\\HTTPAuthWorker.cs",
+              "RelativeDocumentMoniker": "CommNode\\HTTPService\\HTTPAuthWorker.cs",
+              "ToolTip": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\CommNode\\HTTPService\\HTTPAuthWorker.cs",
+              "RelativeToolTip": "CommNode\\HTTPService\\HTTPAuthWorker.cs",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAhwJ4AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T22:44:06.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WriterSnapshot.cs",
+              "DocumentMoniker": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\CommNode\\Database\\WriterSnapshot.cs",
+              "RelativeDocumentMoniker": "CommNode\\Database\\WriterSnapshot.cs",
+              "ToolTip": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\CommNode\\Database\\WriterSnapshot.cs",
+              "RelativeToolTip": "CommNode\\Database\\WriterSnapshot.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAYwCMAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T07:45:00.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DBWriteWorker.cs",
+              "DocumentMoniker": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\CommNode\\Database\\DBWriteWorker.cs",
+              "RelativeDocumentMoniker": "CommNode\\Database\\DBWriteWorker.cs",
+              "ToolTip": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\CommNode\\Database\\DBWriteWorker.cs",
+              "RelativeToolTip": "CommNode\\Database\\DBWriteWorker.cs",
+              "ViewState": "AgIAADsBAAAAAAAAAAAWwEoBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T19:50:19.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DBProxyWriter.cs",
+              "DocumentMoniker": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\CommNode\\Database\\DBProxyWriter.cs",
+              "RelativeDocumentMoniker": "CommNode\\Database\\DBProxyWriter.cs",
+              "ToolTip": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\CommNode\\Database\\DBProxyWriter.cs",
+              "RelativeToolTip": "CommNode\\Database\\DBProxyWriter.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAkwBgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T11:40:57.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DBGameLogWriteWorker.cs",
+              "DocumentMoniker": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\CommNode\\Database\\DBGameLogWriteWorker.cs",
+              "RelativeDocumentMoniker": "CommNode\\Database\\DBGameLogWriteWorker.cs",
+              "ToolTip": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\CommNode\\Database\\DBGameLogWriteWorker.cs",
+              "RelativeToolTip": "CommNode\\Database\\DBGameLogWriteWorker.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAkwFAAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T10:28:02.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DBReportWriteWorker.cs",
+              "DocumentMoniker": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\CommNode\\Database\\DBReportWriteWorker.cs",
+              "RelativeDocumentMoniker": "CommNode\\Database\\DBReportWriteWorker.cs",
+              "ToolTip": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\CommNode\\Database\\DBReportWriteWorker.cs",
+              "RelativeToolTip": "CommNode\\Database\\DBReportWriteWorker.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAIwH8AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T10:26:47.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AgentActor.cs",
+              "DocumentMoniker": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\QueenApiNode\\Agent\\AgentActor.cs",
+              "RelativeDocumentMoniker": "QueenApiNode\\Agent\\AgentActor.cs",
+              "ToolTip": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\QueenApiNode\\Agent\\AgentActor.cs",
+              "RelativeToolTip": "QueenApiNode\\Agent\\AgentActor.cs",
+              "ViewState": "AgIAADABAAAAAAAAAAAmwFkBAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T07:30:25.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DBProxyReader.cs",
+              "DocumentMoniker": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\QueenApiNode\\Database\\DBProxyReader.cs",
+              "RelativeDocumentMoniker": "QueenApiNode\\Database\\DBProxyReader.cs",
+              "ToolTip": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\QueenApiNode\\Database\\DBProxyReader.cs",
+              "RelativeToolTip": "QueenApiNode\\Database\\DBProxyReader.cs",
+              "ViewState": "AgIAAP8AAAAAAAAAAAAWwA0BAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T07:29:59.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DBProxyReader.cs",
+              "DocumentMoniker": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\CommNode\\Database\\DBProxyReader.cs",
+              "RelativeDocumentMoniker": "CommNode\\Database\\DBProxyReader.cs",
+              "ToolTip": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\CommNode\\Database\\DBProxyReader.cs",
+              "RelativeToolTip": "CommNode\\Database\\DBProxyReader.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAD4v4sAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T22:12:28.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BaseSelFreePPSlotGame.cs",
+              "DocumentMoniker": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\SlotGamesNode\\GameLogics\\BaseClasses\\BaseSelFreePPSlotGame.cs",
+              "RelativeDocumentMoniker": "SlotGamesNode\\GameLogics\\BaseClasses\\BaseSelFreePPSlotGame.cs",
+              "ToolTip": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\SlotGamesNode\\GameLogics\\BaseClasses\\BaseSelFreePPSlotGame.cs",
+              "RelativeToolTip": "SlotGamesNode\\GameLogics\\BaseClasses\\BaseSelFreePPSlotGame.cs",
+              "ViewState": "AgIAALYAAAAAAAAAAAAjwM4AAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T22:12:28.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BasePPSlotClasses.cs",
+              "DocumentMoniker": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\SlotGamesNode\\GameLogics\\BaseClasses\\BasePPSlotClasses.cs",
+              "RelativeDocumentMoniker": "SlotGamesNode\\GameLogics\\BaseClasses\\BasePPSlotClasses.cs",
+              "ToolTip": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\SlotGamesNode\\GameLogics\\BaseClasses\\BasePPSlotClasses.cs",
+              "RelativeToolTip": "SlotGamesNode\\GameLogics\\BaseClasses\\BasePPSlotClasses.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAUwDcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-22T19:26:09.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HTTPWorkActor.cs",
+              "DocumentMoniker": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\CommNode\\HTTPService\\HTTPWorkActor.cs",
+              "RelativeDocumentMoniker": "CommNode\\HTTPService\\HTTPWorkActor.cs",
+              "ToolTip": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\CommNode\\HTTPService\\HTTPWorkActor.cs",
+              "RelativeToolTip": "CommNode\\HTTPService\\HTTPWorkActor.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA9wC4AAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T11:45:23.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserActor.cs",
+              "DocumentMoniker": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\CommNode\\User\\UserActor.cs",
+              "RelativeDocumentMoniker": "CommNode\\User\\UserActor.cs",
+              "ToolTip": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\CommNode\\User\\UserActor.cs",
+              "RelativeToolTip": "CommNode\\User\\UserActor.cs",
+              "ViewState": "AgIAACQFAAAAAAAAAAAswDoFAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T08:00:58.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IGameLogicActor.cs",
+              "DocumentMoniker": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\SlotGamesNode\\GameLogics\\IGameLogicActor.cs",
+              "RelativeDocumentMoniker": "SlotGamesNode\\GameLogics\\IGameLogicActor.cs",
+              "ToolTip": "E:\\WORK\\Allen\\Aristocrat\\SlotCityCasinoServer\\SlotGamesNode\\GameLogics\\IGameLogicActor.cs",
+              "RelativeToolTip": "SlotGamesNode\\GameLogics\\IGameLogicActor.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAApwHMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T07:05:51.11Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

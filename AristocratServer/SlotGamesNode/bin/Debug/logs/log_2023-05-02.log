@@ -1,0 +1,67 @@
+[2023-05-02 19:12:40.4685] [INFO] [SlotGamesNode.SlotGamesService] Starting SlotGamesNode Service... 
+[2023-05-02 19:12:41.7064] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2023-05-02 19:12:42.2676] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8091] 
+[2023-05-02 19:12:42.2696] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8091] 
+[2023-05-02 19:12:42.2988] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Starting up... 
+[2023-05-02 19:12:42.3340] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Started up successfully 
+[2023-05-02 19:12:42.3862] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - No seed-nodes configured, manual cluster join required 
+[2023-05-02 19:12:42.4138] [INFO] [SlotGamesNode.BootstrapActor] Start Single Game Server(id:)... 
+[2023-05-02 19:12:42.4138] [INFO] [SlotGamesNode.BootstrapActor] Initializing database proxy... 
+[2023-05-02 19:12:43.9816] [INFO] [SlotGamesNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2023-05-02 19:12:44.0142] [INFO] [SlotGamesNode.BootstrapActor] started loading game database.... 
+[2023-05-02 19:29:49.9926] [INFO] [SlotGamesNode.SlotGamesService] Starting SlotGamesNode Service... 
+[2023-05-02 19:29:50.3232] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2023-05-02 19:29:50.8305] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8091] 
+[2023-05-02 19:29:50.8345] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8091] 
+[2023-05-02 19:29:50.8546] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Starting up... 
+[2023-05-02 19:29:50.8877] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Started up successfully 
+[2023-05-02 19:29:50.9208] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - No seed-nodes configured, manual cluster join required 
+[2023-05-02 19:29:50.9208] [INFO] [SlotGamesNode.BootstrapActor] Start Single Game Server(id:)... 
+[2023-05-02 19:29:50.9208] [INFO] [SlotGamesNode.BootstrapActor] Initializing database proxy... 
+[2023-05-02 19:29:52.4117] [INFO] [SlotGamesNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2023-05-02 19:29:52.4117] [INFO] [SlotGamesNode.BootstrapActor] started loading game database.... 
+[2023-05-02 19:41:22.0407] [ERROR] [SlotGamesNode.Database.DBProxyMonitor] Exception has been occurred in DBProxyMonitor::monitorTables System.Data.SqlClient.SqlException (0x80131904): A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - An existing connection was forcibly closed by the remote host.) ---> System.ComponentModel.Win32Exception (0x80004005): An existing connection was forcibly closed by the remote host
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SlotGamesNode.Database.DBProxyMonitor.<monitorTables>d__10.MoveNext() in F:\Jobs\MYCasino\SlotCityCasinoServer\SlotGamesNode\Database\DBProxyMonitor.cs:line 126
+ClientConnectionId:e404242e-b1f0-4378-882d-971e1da3241b
+Error Number:10054,State:0,Class:20 
+[2023-05-02 19:41:24.3659] [ERROR] [SlotGamesNode.Database.DBProxyMonitor] Exception has been occurred in DBProxyMonitor::monitorTables System.Data.SqlClient.SqlException (0x80131904): A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - An established connection was aborted by the software in your host machine.) ---> System.ComponentModel.Win32Exception (0x80004005): An established connection was aborted by the software in your host machine
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SlotGamesNode.Database.DBProxyMonitor.<monitorTables>d__10.MoveNext() in F:\Jobs\MYCasino\SlotCityCasinoServer\SlotGamesNode\Database\DBProxyMonitor.cs:line 126
+ClientConnectionId:b1aec314-b8e1-4540-9bc4-854f6fea48d9
+Error Number:10053,State:0,Class:20 
+[2023-05-02 19:48:02.0981] [ERROR] [SlotGamesNode.GameLogics.SugarRushGameLogic] Exception has been occured in loading spin data of game SugarRush Akka.Actor.AskTimeoutException: Timeout after 00:00:05 seconds
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Actor.Futures.<Ask>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Akka.Actor.Futures.<Ask>d__6`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SlotGamesNode.GameLogics.BasePPSlotGame.<loadSpinData>d__62.MoveNext() in F:\Jobs\MYCasino\SlotCityCasinoServer\SlotGamesNode\GameLogics\BaseClasses\BasePPSlotGame.cs:line 298 
+[2023-05-02 19:48:08.0718] [ERROR] [SlotGamesNode.BootstrapActor] failed in  loading of game database. 
+[2023-05-02 22:59:27.4459] [INFO] [SlotGamesNode.SlotGamesService] Starting SlotGamesNode Service... 
+[2023-05-02 22:59:27.7527] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2023-05-02 22:59:28.2184] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8091] 
+[2023-05-02 22:59:28.2184] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8091] 
+[2023-05-02 22:59:28.2385] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Starting up... 
+[2023-05-02 22:59:28.2573] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Started up successfully 
+[2023-05-02 22:59:28.3105] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - No seed-nodes configured, manual cluster join required 
+[2023-05-02 22:59:28.3105] [INFO] [SlotGamesNode.BootstrapActor] Start Single Game Server(id:)... 
+[2023-05-02 22:59:28.3105] [INFO] [SlotGamesNode.BootstrapActor] Initializing database proxy... 
+[2023-05-02 22:59:30.0805] [INFO] [SlotGamesNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2023-05-02 22:59:30.0850] [INFO] [SlotGamesNode.BootstrapActor] started loading game database.... 

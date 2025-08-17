@@ -1,0 +1,33 @@
+[2024-12-22 03:39:31.6244] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2024-12-22 03:39:32.5404] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-12-22 03:39:33.0257] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-12-22 03:39:33.0257] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-12-22 03:39:33.0427] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Starting up... 
+[2024-12-22 03:39:33.0576] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Started up successfully 
+[2024-12-22 03:39:33.1264] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2024-12-22 03:39:33.1274] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2024-12-22 03:39:33.4055] [INFO] [PromoNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-12-22 03:39:33.5002] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-12-22 03:39:33.5041] [INFO] [PromoNode.PromoFetchActor] Tour Received 
+[2024-12-22 03:39:33.5041] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-12-22 03:39:33.5639] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-12-22 03:39:33.6357] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-12-22 03:39:45.0458] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [10477.8861] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-12-22 03:39:45.5429] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-12-22 03:39:45.5738] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-12-22 03:39:45.6147] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-12-22 03:39:55.5579] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-12-22 03:39:55.5878] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-12-22 03:39:55.6328] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-12-22 03:40:05.5661] [INFO] [PromoNode.PromoFetchActor] Race Received 
+[2024-12-22 03:40:05.5970] [INFO] [PromoNode.PromoFetchActor] Cashback Received 
+[2024-12-22 03:40:05.6428] [INFO] [PromoNode.PromoFetchActor] Freespin Received 
+[2024-12-22 03:40:08.0589] [INFO] [Akka.Remote.Transport.DotNetty.TcpServerHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:8093->[::ffff:127.0.0.1]:6489](Id=2f91c1ae) 
+[2024-12-22 03:40:08.0699] [INFO] [Akka.Remote.Transport.DotNetty.TcpClientHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:6479->[::ffff:127.0.0.1]:8091](Id=6cb2ec82) 
+[2024-12-22 03:40:08.0908] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8093]->[akka.tcp://godgaming@127.0.0.1:8091] 
+[2024-12-22 03:40:08.0908] [INFO] [Akka.Remote.Transport.DotNetty.TcpClientHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:6492->[::ffff:127.0.0.1]:8094](Id=4a146451) 
+[2024-12-22 03:40:08.0968] [INFO] [Akka.Remote.Transport.DotNetty.TcpServerHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:8093->[::ffff:127.0.0.1]:6491](Id=6fa32214) 
+[2024-12-22 03:40:08.1128] [INFO] [Akka.Actor.LocalActorRef] Message [AckIdleCheckTimer] from akka://godgaming/system/endpointManager/endpointWriter-akka.tcp%3A%2F%2Fgodgaming%40127.0.0.1%3A8091-5 to akka://godgaming/system/endpointManager/endpointWriter-akka.tcp%3A%2F%2Fgodgaming%40127.0.0.1%3A8091-5 was not delivered. [1] dead letters encountered. If this is not an expected behavior then akka://godgaming/system/endpointManager/endpointWriter-akka.tcp%3A%2F%2Fgodgaming%40127.0.0.1%3A8091-5 may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2024-12-22 03:40:08.1128] [INFO] [Akka.Actor.LocalActorRef] Message [AckIdleCheckTimer] from akka://godgaming/system/endpointManager/reliableEndpointWriter-akka.tcp%3A%2F%2Fgodgaming%40127.0.0.1%3A8091-2/endpointWriter to akka://godgaming/system/endpointManager/reliableEndpointWriter-akka.tcp%3A%2F%2Fgodgaming%40127.0.0.1%3A8091-2/endpointWriter was not delivered. [2] dead letters encountered. If this is not an expected behavior then akka://godgaming/system/endpointManager/reliableEndpointWriter-akka.tcp%3A%2F%2Fgodgaming%40127.0.0.1%3A8091-2/endpointWriter may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2024-12-22 03:40:08.1128] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8093]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-12-22 03:40:08.1128] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [3] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 

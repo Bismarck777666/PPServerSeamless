@@ -1,0 +1,62 @@
+[2024-12-27 02:51:44.0797] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [61543.3352] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-12-27 02:51:44.6067] [WARN] [Akka.Cluster.ClusterCoreDaemon] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Marking node(s) as UNREACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:4055, Uid=471732994 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://godgaming@127.0.0.1:8083, Uid=810930224 status = Up, role=[comm], upNumber=4, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8091, Uid=18506807 status = Up, role=[slotgame], upNumber=5, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8093, Uid=891032112 status = Up, role=[promo], upNumber=2, version=1.0.0)]. Node roles [queenapi] 
+[2024-12-27 02:51:44.6307] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - is the new leader among reachable nodes (more leaders may exist) 
+[2024-12-27 02:51:44.6307] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:4055, 471732994)] 
+[2024-12-27 02:51:44.6307] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Marking node(s) as REACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:8091, Uid=18506807 status = Up, role=[slotgame], upNumber=5, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:4055, Uid=471732994 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://godgaming@127.0.0.1:8083, Uid=810930224 status = Up, role=[comm], upNumber=4, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8093, Uid=891032112 status = Up, role=[promo], upNumber=2, version=1.0.0)]. Node roles [queenapi] 
+[2024-12-27 02:51:44.6307] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - is no longer leader 
+[2024-12-27 03:08:04.5345] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [89738.6678] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-12-27 03:08:04.5485] [WARN] [Akka.Cluster.ClusterCoreDaemon] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Marking node(s) as UNREACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:4055, Uid=471732994 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://godgaming@127.0.0.1:8083, Uid=810930224 status = Up, role=[comm], upNumber=4, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8091, Uid=18506807 status = Up, role=[slotgame], upNumber=5, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8093, Uid=891032112 status = Up, role=[promo], upNumber=2, version=1.0.0)]. Node roles [queenapi] 
+[2024-12-27 03:08:04.5865] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - is the new leader among reachable nodes (more leaders may exist) 
+[2024-12-27 03:08:04.5865] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://godgaming@127.0.0.1:8091, 18506807)] 
+[2024-12-27 03:08:05.5429] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Marking node(s) as REACHABLE [Member(address = akka.tcp://godgaming@127.0.0.1:8091, Uid=18506807 status = Up, role=[slotgame], upNumber=5, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:4055, Uid=471732994 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://godgaming@127.0.0.1:8083, Uid=810930224 status = Up, role=[comm], upNumber=4, version=1.0.0), Member(address = akka.tcp://godgaming@127.0.0.1:8093, Uid=891032112 status = Up, role=[promo], upNumber=2, version=1.0.0)]. Node roles [queenapi] 
+[2024-12-27 03:08:05.5459] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - is no longer leader 
+[2024-12-27 03:08:06.6456] [INFO] [Akka.Remote.Transport.DotNetty.TcpClientHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:5154->[::ffff:127.0.0.1]:8093](Id=214724b9) 
+[2024-12-27 03:08:06.7476] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8094]->[akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-12-27 17:12:16.0686] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-12-27 17:12:17.1392] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-12-27 17:12:17.5832] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-12-27 17:12:17.5832] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-12-27 17:12:17.6002] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2024-12-27 17:12:17.6212] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2024-12-27 17:12:17.6492] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2024-12-27 17:12:18.0384] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-12-27 17:12:18.2504] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-12-27 17:24:56.8444] [INFO] [QueenApiNode.APIService] Starting API Backend Service... 
+[2024-12-27 17:24:57.0356] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-12-27 17:24:57.1426] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-12-27 17:24:57.1426] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-12-27 17:24:57.1616] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Starting up... 
+[2024-12-27 17:24:57.1616] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Started up successfully 
+[2024-12-27 17:24:57.1806] [INFO] [QueenApiNode.BootstrapActor] Initializing database proxy... 
+[2024-12-27 17:24:57.3893] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8094] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-12-27 17:24:57.4023] [INFO] [QueenApiNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2024-12-27 17:24:57.4703] [ERROR] [Akka.Actor.OneForOneStrategy] Exception has been thrown by the target of an invocation. System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Net.HttpListenerException: Access is denied
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at Microsoft.Owin.Host.HttpListener.OwinHttpListener.Start(HttpListener listener, Func`2 appFunc, IList`1 addresses, IDictionary`2 capabilities, Func`2 loggerFactory) in /_/src/Microsoft.Owin.Host.HttpListener/OwinHttpListener.cs:line 187
+   at Microsoft.Owin.Host.HttpListener.OwinServerFactory.Create(Func`2 app, IDictionary`2 properties) in /_/src/Microsoft.Owin.Host.HttpListener/OwinServerFactory.cs:line 100
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Owin.Hosting.ServerFactory.ServerFactoryAdapter.Create(IAppBuilder builder) in /_/src/Microsoft.Owin.Hosting/ServerFactory/ServerFactoryAdapter.cs:line 133
+   at Microsoft.Owin.Hosting.Engine.HostingEngine.StartServer(StartContext context) in /_/src/Microsoft.Owin.Hosting/Engine/HostingEngine.cs:line 420
+   at Microsoft.Owin.Hosting.Engine.HostingEngine.Start(StartContext context) in /_/src/Microsoft.Owin.Hosting/Engine/HostingEngine.cs:line 98
+   at Microsoft.Owin.Hosting.Starter.DirectHostingStarter.Start(StartOptions options) in /_/src/Microsoft.Owin.Hosting/Starter/DirectHostingStarter.cs:line 32
+   at Microsoft.Owin.Hosting.Starter.HostingStarter.Start(StartOptions options) in /_/src/Microsoft.Owin.Hosting/Starter/HostingStarter.cs:line 42
+   at Microsoft.Owin.Hosting.WebApp.StartImplementation(IServiceProvider services, StartOptions options) in /_/src/Microsoft.Owin.Hosting/WebApp.cs:line 121
+   at Microsoft.Owin.Hosting.WebApp.Start(StartOptions options) in /_/src/Microsoft.Owin.Hosting/WebApp.cs:line 84
+   at Microsoft.Owin.Hosting.WebApp.Start[TStartup](StartOptions options) in /_/src/Microsoft.Owin.Hosting/WebApp.cs:line 60
+   at Microsoft.Owin.Hosting.WebApp.Start[TStartup](String url) in /_/src/Microsoft.Owin.Hosting/WebApp.cs:line 47
+   at QueenApiNode.BootstrapActor.<.ctor>b__5_1(ReadyDBProxy dbActors) in E:\WORK\PROMISS\Slot\SlotCityCasinoServer\QueenApiNode\BootstrapActor.cs:line 54
+   at lambda_method(Closure , Object , Action`1 , Action`1 , Action`1 )
+   at Akka.Tools.MatchHandler.PartialHandlerArgumentsCapture`4.Handle(T value)
+   at Akka.Actor.ReceiveActor.ExecutePartialMessageHandler(Object message, PartialAction`1 partialAction)
+   at Akka.Actor.ReceiveActor.OnReceive(Object message)
+   at Akka.Actor.UntypedActor.Receive(Object message)
+   at Akka.Actor.ActorBase.AroundReceive(Receive receive, Object message)
+   at Akka.Actor.ActorCell.ReceiveMessage(Object message)
+   at Akka.Actor.ActorCell.Invoke(Envelope envelope)
+[2024-12-27 17:25:11.7256] [INFO] [Akka.Remote.Transport.DotNetty.TcpClientHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:6513->[::ffff:127.0.0.1]:8093](Id=18d359db) 
+[2024-12-27 17:25:11.7716] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8094]->[akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-12-27 17:25:12.4101] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [GossipStatus] from [akka://godgaming/system/cluster/core/daemon#147187058] to [akka://godgaming/deadLetters] was not delivered. [1] dead letters encountered. If this is not an expected behavior then [akka://godgaming/deadLetters] may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 

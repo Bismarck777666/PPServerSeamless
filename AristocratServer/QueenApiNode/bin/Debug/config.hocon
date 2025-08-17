@@ -1,0 +1,74 @@
+﻿apinode{
+  actorsystem: "godgaming" #POPULATE NAME OF YOUR ACTOR SYSTEM HERE
+  http {
+		baseurl = "http://*:19888"
+  }
+  database {
+		ip			= "127.0.0.1"
+		port		= 1433
+		user		= "sa"
+		pass		= "tmdflwk123$%^"
+		dbname		= "aristocrat"
+		poolcount	= 10
+  }
+  domaininfo {
+		domain	= "needforspeedau"
+		advent	= "demoadvent"
+		clientb = "evoback"
+		game	= "evo888"
+		local	= "https://evoclient.needforspeedau.com"
+  }
+}
+
+akka {
+	loggers = ["Akka.Logger.NLog.NLogLogger, Akka.Logger.NLog"]
+	actor {
+		provider = cluster
+		deployment {            								
+			/commWorkers {
+				router = broadcast-group
+				routees.paths = ["/user/apiWorkers"]
+				cluster {
+					enabled = on
+					allow-local-routees = off
+					use-role = comm
+				}
+			}
+			/commServers {
+				router        = broadcast-group
+				routees.paths = ["/user/userManager"]
+				cluster {
+					enabled = on
+					allow-local-routees = off
+					use-role = comm
+				}
+			}
+			/commAuthWorkers {
+				router	      = broadcast-group
+				routees.paths = ["/user/httpAuthWorkers"]
+				cluster {
+					enabled = on
+					allow-local-routees = off
+					use-role = comm
+				}
+			}
+			/httpWorkers {
+				router 			= consistent-hashing-pool
+				nr-of-instances = 20
+			}
+		}
+	}
+						
+	remote {
+		dot-netty.tcp {
+				hostname = "127.0.0.1"
+				port     = 18094
+				maximum-frame-size = 2048000b
+			}
+	}			
+
+	cluster {
+		seed-nodes = ["akka.tcp://godgaming@127.0.0.1:14055"]
+		roles = ["queenapi"]
+	}
+}

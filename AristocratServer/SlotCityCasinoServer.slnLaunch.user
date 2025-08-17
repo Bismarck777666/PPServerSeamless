@@ -1,0 +1,27 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "Lighthouse\\Lighthouse.csproj",
+        "Action": "StartWithoutDebugging"
+      },
+      {
+        "Path": "SlotGamesNode\\SlotGamesNode.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "CommNode\\CommNode.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "QueenApiNode\\QueenApiNode.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "SeamlessApiNode\\SeamlessApiNode.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

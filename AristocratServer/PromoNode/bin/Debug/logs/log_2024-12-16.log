@@ -1,0 +1,57 @@
+[2024-12-16 10:53:22.2727] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2024-12-16 10:53:23.5823] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-12-16 10:53:24.2994] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-12-16 10:53:24.2994] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-12-16 10:53:24.3214] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Starting up... 
+[2024-12-16 10:53:24.3458] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Started up successfully 
+[2024-12-16 10:53:24.5019] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2024-12-16 10:53:24.5019] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2024-12-16 10:53:24.5917] [ERROR] [PromoNode.Database.DBProxy] Can not connect to database. Please check if database is correctly configured. 
+[2024-12-16 10:53:25.1911] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-12-16 10:53:37.2647] [INFO] [Akka.Remote.Transport.DotNetty.TcpClientHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:4790->[::ffff:127.0.0.1]:8083](Id=38273355) 
+[2024-12-16 10:53:37.2936] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8093]->[akka.tcp://godgaming@127.0.0.1:8083] 
+[2024-12-16 10:53:37.3556] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [1] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2024-12-16 10:53:38.3662] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [2] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2024-12-16 10:57:54.1359] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2024-12-16 10:57:54.7163] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-12-16 10:57:55.1238] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-12-16 10:57:55.1238] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-12-16 10:57:55.1487] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Starting up... 
+[2024-12-16 10:57:55.2116] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Started up successfully 
+[2024-12-16 10:57:55.2340] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2024-12-16 10:57:55.2340] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2024-12-16 10:57:55.4845] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-12-16 10:57:55.5314] [ERROR] [PromoNode.Database.DBProxy] Can not connect to database. Please check if database is correctly configured. 
+[2024-12-16 11:25:28.2881] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2024-12-16 11:25:32.6502] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-12-16 11:26:14.8837] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-12-16 11:26:14.8837] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-12-16 11:26:14.9036] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Starting up... 
+[2024-12-16 11:26:14.9266] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Started up successfully 
+[2024-12-16 11:26:14.9416] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2024-12-16 11:26:14.9416] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2024-12-16 11:26:15.0050] [ERROR] [PromoNode.Database.DBProxy] Can not connect to database. Please check if database is correctly configured. 
+[2024-12-16 11:26:15.2855] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-12-16 11:26:20.9144] [INFO] [Akka.Remote.Transport.DotNetty.TcpClientHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:6206->[::ffff:127.0.0.1]:8083](Id=398b9511) 
+[2024-12-16 11:26:20.9353] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8093]->[akka.tcp://godgaming@127.0.0.1:8083] 
+[2024-12-16 11:26:21.3717] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [1] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2024-12-16 11:26:22.3783] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [2] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2024-12-16 11:26:22.9815] [INFO] [Akka.Remote.Transport.DotNetty.TcpClientHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:6207->[::ffff:127.0.0.1]:8094](Id=4347eb15) 
+[2024-12-16 11:26:22.9815] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8093]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-12-16 11:26:22.9815] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [3] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2024-12-16 11:26:23.0438] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [GossipStatus] from akka://godgaming/system/cluster/core/daemon to akka://godgaming/deadLetters was not delivered. [4] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2024-12-16 11:26:23.3838] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [5] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2024-12-16 11:26:23.3838] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [6] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2024-12-16 11:26:24.0666] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [GossipStatus] from akka://godgaming/system/cluster/core/daemon to akka://godgaming/deadLetters was not delivered. [7] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2024-12-16 11:29:47.8057] [INFO] [PromoNode.PromoNodeService] Starting PromoNode Service... 
+[2024-12-16 11:29:48.5706] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2024-12-16 11:29:58.3777] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-12-16 11:29:58.3777] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-12-16 11:29:58.3986] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Starting up... 
+[2024-12-16 11:29:58.4186] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Started up successfully 
+[2024-12-16 11:29:58.4415] [INFO] [PromoNode.BootstrapActor] Start Single Game Server(id:)... 
+[2024-12-16 11:29:58.4415] [INFO] [PromoNode.BootstrapActor] Initializing database proxy... 
+[2024-12-16 11:29:58.5223] [ERROR] [PromoNode.Database.DBProxy] Can not connect to database. Please check if database is correctly configured. 
+[2024-12-16 11:29:58.7071] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Welcome from [akka.tcp://godgaming@127.0.0.1:4055] 
+[2024-12-16 11:31:57.8468] [INFO] [Akka.Remote.Transport.DotNetty.TcpServerHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:8093->[::ffff:127.0.0.1]:6372](Id=27ab66ca) 
+[2024-12-16 11:31:57.8787] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8093]->[akka.tcp://godgaming@127.0.0.1:8094] 

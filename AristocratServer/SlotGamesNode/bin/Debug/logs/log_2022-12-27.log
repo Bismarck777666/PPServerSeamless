@@ -1,0 +1,474 @@
+[2022-12-27 16:26:15.7447] [INFO] [SlotGamesNode.SlotGamesService] Starting SlotGamesNode Service... 
+[2022-12-27 16:26:17.0620] [INFO] [remoting (akka://gitigaming)] Starting remoting 
+[2022-12-27 16:26:17.5071] [INFO] [remoting (akka://gitigaming)] Remoting started; listening on addresses : [akka.tcp://gitigaming@127.0.0.1:8091] 
+[2022-12-27 16:26:17.5071] [INFO] [remoting (akka://gitigaming)] Remoting now listens on addresses: [akka.tcp://gitigaming@127.0.0.1:8091] 
+[2022-12-27 16:26:17.5261] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Starting up... 
+[2022-12-27 16:26:17.5451] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Started up successfully 
+[2022-12-27 16:26:17.5682] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - No seed-nodes configured, manual cluster join required 
+[2022-12-27 16:26:17.5976] [INFO] [SlotGamesNode.BootstrapActor] Start Single Game Server(id:)... 
+[2022-12-27 16:26:17.5976] [INFO] [SlotGamesNode.BootstrapActor] Initializing database proxy... 
+[2022-12-27 16:26:20.1631] [INFO] [SlotGamesNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2022-12-27 16:26:20.1631] [INFO] [SlotGamesNode.BootstrapActor] started loading game database.... 
+[2022-12-27 16:27:14.3287] [INFO] [SlotGamesNode.SlotGamesService] Starting SlotGamesNode Service... 
+[2022-12-27 16:27:14.8068] [INFO] [remoting (akka://gitigaming)] Starting remoting 
+[2022-12-27 16:27:15.3579] [INFO] [remoting (akka://gitigaming)] Remoting started; listening on addresses : [akka.tcp://gitigaming@127.0.0.1:8091] 
+[2022-12-27 16:27:15.3579] [INFO] [remoting (akka://gitigaming)] Remoting now listens on addresses: [akka.tcp://gitigaming@127.0.0.1:8091] 
+[2022-12-27 16:27:15.3799] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Starting up... 
+[2022-12-27 16:27:15.4069] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Started up successfully 
+[2022-12-27 16:27:15.4655] [INFO] [SlotGamesNode.BootstrapActor] Start Single Game Server(id:)... 
+[2022-12-27 16:27:15.4655] [INFO] [SlotGamesNode.BootstrapActor] Initializing database proxy... 
+[2022-12-27 16:27:15.4795] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - No seed-nodes configured, manual cluster join required 
+[2022-12-27 16:27:18.0947] [INFO] [SlotGamesNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2022-12-27 16:27:18.0947] [INFO] [SlotGamesNode.BootstrapActor] started loading game database.... 
+[2022-12-27 16:28:50.3672] [INFO] [SlotGamesNode.SlotGamesService] Starting SlotGamesNode Service... 
+[2022-12-27 16:28:50.8948] [INFO] [remoting (akka://gitigaming)] Starting remoting 
+[2022-12-27 16:28:51.5245] [INFO] [remoting (akka://gitigaming)] Remoting started; listening on addresses : [akka.tcp://gitigaming@127.0.0.1:8091] 
+[2022-12-27 16:28:51.5245] [INFO] [remoting (akka://gitigaming)] Remoting now listens on addresses: [akka.tcp://gitigaming@127.0.0.1:8091] 
+[2022-12-27 16:28:51.5485] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Starting up... 
+[2022-12-27 16:28:51.5675] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Started up successfully 
+[2022-12-27 16:28:51.5885] [INFO] [SlotGamesNode.BootstrapActor] Start Single Game Server(id:)... 
+[2022-12-27 16:28:51.5885] [INFO] [SlotGamesNode.BootstrapActor] Initializing database proxy... 
+[2022-12-27 16:28:51.5975] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - No seed-nodes configured, manual cluster join required 
+[2022-12-27 16:28:54.7516] [INFO] [SlotGamesNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2022-12-27 16:28:54.7516] [INFO] [SlotGamesNode.BootstrapActor] started loading game database.... 
+[2022-12-27 16:29:24.0580] [INFO] [SlotGamesNode.SlotGamesService] Starting SlotGamesNode Service... 
+[2022-12-27 16:29:24.5671] [INFO] [remoting (akka://gitigaming)] Starting remoting 
+[2022-12-27 16:29:25.2448] [INFO] [remoting (akka://gitigaming)] Remoting started; listening on addresses : [akka.tcp://gitigaming@127.0.0.1:8091] 
+[2022-12-27 16:29:25.2538] [INFO] [remoting (akka://gitigaming)] Remoting now listens on addresses: [akka.tcp://gitigaming@127.0.0.1:8091] 
+[2022-12-27 16:29:25.2718] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Starting up... 
+[2022-12-27 16:29:25.2958] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Started up successfully 
+[2022-12-27 16:29:25.3258] [INFO] [SlotGamesNode.BootstrapActor] Start Single Game Server(id:)... 
+[2022-12-27 16:29:25.3258] [INFO] [SlotGamesNode.BootstrapActor] Initializing database proxy... 
+[2022-12-27 16:29:25.3513] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - No seed-nodes configured, manual cluster join required 
+[2022-12-27 16:29:27.8768] [INFO] [SlotGamesNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2022-12-27 16:29:27.8768] [INFO] [SlotGamesNode.BootstrapActor] started loading game database.... 
+[2022-12-27 16:29:33.6182] [INFO] [SlotGamesNode.BootstrapActor] completed loading of game database successfully. 
+[2022-12-27 16:29:33.6182] [INFO] [SlotGamesNode.BootstrapActor] cluster joining... 
+[2022-12-27 16:29:34.3931] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Welcome from [akka.tcp://gitigaming@127.0.0.1:4055] 
+[2022-12-27 16:36:42.5358] [INFO] [SlotGamesNode.SlotGamesService] Starting SlotGamesNode Service... 
+[2022-12-27 16:36:43.0869] [INFO] [remoting (akka://gitigaming)] Starting remoting 
+[2022-12-27 16:36:43.5420] [INFO] [remoting (akka://gitigaming)] Remoting started; listening on addresses : [akka.tcp://gitigaming@127.0.0.1:8091] 
+[2022-12-27 16:36:43.5420] [INFO] [remoting (akka://gitigaming)] Remoting now listens on addresses: [akka.tcp://gitigaming@127.0.0.1:8091] 
+[2022-12-27 16:36:43.5630] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Starting up... 
+[2022-12-27 16:36:43.5821] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Started up successfully 
+[2022-12-27 16:36:43.6071] [INFO] [SlotGamesNode.BootstrapActor] Start Single Game Server(id:)... 
+[2022-12-27 16:36:43.6081] [INFO] [SlotGamesNode.BootstrapActor] Initializing database proxy... 
+[2022-12-27 16:36:43.6081] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - No seed-nodes configured, manual cluster join required 
+[2022-12-27 16:36:46.2003] [INFO] [SlotGamesNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2022-12-27 16:36:46.2113] [INFO] [SlotGamesNode.BootstrapActor] started loading game database.... 
+[2022-12-27 16:36:51.8924] [INFO] [SlotGamesNode.BootstrapActor] completed loading of game database successfully. 
+[2022-12-27 16:36:51.8924] [INFO] [SlotGamesNode.BootstrapActor] cluster joining... 
+[2022-12-27 16:36:52.1314] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Welcome from [akka.tcp://gitigaming@127.0.0.1:4055] 
+[2022-12-27 16:57:27.1317] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Exiting confirmed [akka.tcp://gitigaming@127.0.0.1:8083] 
+[2022-12-27 16:57:27.1774] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://gitigaming@127.0.0.1:8091]->[akka.tcp://gitigaming@127.0.0.1:8083] 
+[2022-12-27 16:57:27.5795] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [GossipStatus] from akka://gitigaming/system/cluster/core/daemon to akka://gitigaming/deadLetters was not delivered. [1] dead letters encountered. If this is not an expected behavior then akka://gitigaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2022-12-27 16:57:27.5795] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://gitigaming/system/cluster/core/daemon/heartbeatSender to akka://gitigaming/deadLetters was not delivered. [2] dead letters encountered. If this is not an expected behavior then akka://gitigaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2022-12-27 16:57:28.5876] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [GossipStatus] from akka://gitigaming/system/cluster/core/daemon to akka://gitigaming/deadLetters was not delivered. [3] dead letters encountered. If this is not an expected behavior then akka://gitigaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2022-12-27 16:57:28.5917] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://gitigaming/system/cluster/core/daemon/heartbeatSender to akka://gitigaming/deadLetters was not delivered. [4] dead letters encountered. If this is not an expected behavior then akka://gitigaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2022-12-27 16:57:29.6037] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://gitigaming/system/cluster/core/daemon/heartbeatSender to akka://gitigaming/deadLetters was not delivered. [5] dead letters encountered. If this is not an expected behavior then akka://gitigaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2022-12-27 16:57:36.3994] [INFO] [SlotGamesNode.SlotGamesService] Stop SlotGamesNode Service Started... 
+[2022-12-27 16:57:36.3994] [INFO] [SlotGamesNode.BootstrapActor] Shutting down server.... 
+[2022-12-27 16:57:36.3994] [INFO] [SlotGamesNode.BootstrapActor] Inform connect servers to remove this server from router.... 
+[2022-12-27 16:57:36.3994] [INFO] [SlotGamesNode.BootstrapActor] Waiting for 20 seconds until all the users connected to this server can connect to other servers 
+[2022-12-27 16:57:56.4166] [INFO] [SlotGamesNode.BootstrapActor] Terminating game logic actors.... 
+[2022-12-27 16:57:56.4283] [INFO] [SlotGamesNode.BootstrapActor] Terminating redis write actors.... 
+[2022-12-27 16:57:56.4354] [INFO] [SlotGamesNode.BootstrapActor] Terminating database proxy actors.... 
+[2022-12-27 16:57:56.4354] [INFO] [SlotGamesNode.SlotGamesService] Leaving from cluster.... 
+[2022-12-27 16:57:56.4354] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Marked address [akka.tcp://gitigaming@127.0.0.1:8091] as [Leaving] 
+[2022-12-27 16:57:56.4778] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Exiting, starting coordinated shutdown. 
+[2022-12-27 16:57:56.4958] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Exiting completed. 
+[2022-12-27 16:57:56.4958] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Shutting down... 
+[2022-12-27 16:57:56.4958] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Successfully shut down 
+[2022-12-27 16:57:56.5075] [INFO] [remoting-terminator] Shutting down remote daemon. 
+[2022-12-27 16:57:56.5075] [INFO] [remoting-terminator] Remote daemon shut down; proceeding with flushing remote transports. 
+[2022-12-27 17:01:07.2763] [INFO] [SlotGamesNode.SlotGamesService] Starting SlotGamesNode Service... 
+[2022-12-27 17:01:07.7922] [INFO] [remoting (akka://gitigaming)] Starting remoting 
+[2022-12-27 17:01:08.5414] [INFO] [remoting (akka://gitigaming)] Remoting started; listening on addresses : [akka.tcp://gitigaming@127.0.0.1:8091] 
+[2022-12-27 17:01:08.5414] [INFO] [remoting (akka://gitigaming)] Remoting now listens on addresses: [akka.tcp://gitigaming@127.0.0.1:8091] 
+[2022-12-27 17:01:08.5622] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Starting up... 
+[2022-12-27 17:01:08.5809] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Started up successfully 
+[2022-12-27 17:01:08.6176] [INFO] [SlotGamesNode.BootstrapActor] Start Single Game Server(id:)... 
+[2022-12-27 17:01:08.6176] [INFO] [SlotGamesNode.BootstrapActor] Initializing database proxy... 
+[2022-12-27 17:01:08.6243] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - No seed-nodes configured, manual cluster join required 
+[2022-12-27 17:01:11.1765] [INFO] [SlotGamesNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2022-12-27 17:01:11.1765] [INFO] [SlotGamesNode.BootstrapActor] started loading game database.... 
+[2022-12-27 17:01:18.9105] [INFO] [SlotGamesNode.BootstrapActor] completed loading of game database successfully. 
+[2022-12-27 17:01:18.9105] [INFO] [SlotGamesNode.BootstrapActor] cluster joining... 
+[2022-12-27 17:01:19.1362] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Welcome from [akka.tcp://gitigaming@127.0.0.1:4055] 
+[2022-12-27 17:01:57.0090] [INFO] [Akka.Remote.Transport.DotNetty.TcpClientHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:64837->[::ffff:127.0.0.1]:8083](Id=28c8d5e5) 
+[2022-12-27 17:01:57.0321] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://gitigaming@127.0.0.1:8091]->[akka.tcp://gitigaming@127.0.0.1:8083] 
+[2022-12-27 17:01:57.3292] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [GossipStatus] from akka://gitigaming/system/cluster/core/daemon to akka://gitigaming/deadLetters was not delivered. [1] dead letters encountered. If this is not an expected behavior then akka://gitigaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2022-12-27 17:01:57.7249] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://gitigaming/system/cluster/core/daemon/heartbeatSender to akka://gitigaming/deadLetters was not delivered. [2] dead letters encountered. If this is not an expected behavior then akka://gitigaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2022-12-27 17:01:58.7453] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://gitigaming/system/cluster/core/daemon/heartbeatSender to akka://gitigaming/deadLetters was not delivered. [3] dead letters encountered. If this is not an expected behavior then akka://gitigaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2022-12-27 17:02:51.7908] [INFO] [SlotGamesNode.SlotGamesService] Starting SlotGamesNode Service... 
+[2022-12-27 17:02:52.2335] [INFO] [remoting (akka://gitigaming)] Starting remoting 
+[2022-12-27 17:02:52.8352] [INFO] [remoting (akka://gitigaming)] Remoting started; listening on addresses : [akka.tcp://gitigaming@127.0.0.1:8091] 
+[2022-12-27 17:02:52.8829] [INFO] [remoting (akka://gitigaming)] Remoting now listens on addresses: [akka.tcp://gitigaming@127.0.0.1:8091] 
+[2022-12-27 17:02:52.8958] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Starting up... 
+[2022-12-27 17:02:52.9132] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Started up successfully 
+[2022-12-27 17:02:52.9704] [INFO] [SlotGamesNode.BootstrapActor] Start Single Game Server(id:)... 
+[2022-12-27 17:02:52.9704] [INFO] [SlotGamesNode.BootstrapActor] Initializing database proxy... 
+[2022-12-27 17:02:52.9704] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - No seed-nodes configured, manual cluster join required 
+[2022-12-27 17:02:55.5414] [INFO] [SlotGamesNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2022-12-27 17:02:55.5541] [INFO] [SlotGamesNode.BootstrapActor] started loading game database.... 
+[2022-12-27 17:03:01.0990] [INFO] [SlotGamesNode.BootstrapActor] completed loading of game database successfully. 
+[2022-12-27 17:03:01.0990] [INFO] [SlotGamesNode.BootstrapActor] cluster joining... 
+[2022-12-27 17:03:01.3207] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Welcome from [akka.tcp://gitigaming@127.0.0.1:4055] 
+[2022-12-27 17:28:30.6439] [INFO] [SlotGamesNode.SlotGamesService] Stop SlotGamesNode Service Started... 
+[2022-12-27 17:28:30.6439] [INFO] [SlotGamesNode.BootstrapActor] Shutting down server.... 
+[2022-12-27 17:28:30.6439] [INFO] [SlotGamesNode.BootstrapActor] Inform connect servers to remove this server from router.... 
+[2022-12-27 17:28:30.6439] [INFO] [SlotGamesNode.BootstrapActor] Waiting for 20 seconds until all the users connected to this server can connect to other servers 
+[2022-12-27 17:28:50.6476] [INFO] [SlotGamesNode.BootstrapActor] Terminating game logic actors.... 
+[2022-12-27 17:28:50.6697] [INFO] [SlotGamesNode.BootstrapActor] Terminating redis write actors.... 
+[2022-12-27 17:28:50.6697] [INFO] [SlotGamesNode.BootstrapActor] Terminating database proxy actors.... 
+[2022-12-27 17:28:50.7028] [INFO] [SlotGamesNode.SlotGamesService] Leaving from cluster.... 
+[2022-12-27 17:28:50.7028] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Marked address [akka.tcp://gitigaming@127.0.0.1:8091] as [Leaving] 
+[2022-12-27 17:28:50.9902] [INFO] [Akka.Actor.LocalActorRef] Message [String] without sender to akka://gitigaming/user/dbproxy/writer/writeWorker was not delivered. [1] dead letters encountered. If this is not an expected behavior then akka://gitigaming/user/dbproxy/writer/writeWorker may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2022-12-27 17:28:51.4156] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Exiting, starting coordinated shutdown. 
+[2022-12-27 17:28:51.4387] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Exiting completed. 
+[2022-12-27 17:28:51.4387] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Shutting down... 
+[2022-12-27 17:28:51.4387] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Successfully shut down 
+[2022-12-27 17:28:51.4575] [INFO] [Akka.Actor.LocalActorRef] Message [GossipEnvelope] from akka.tcp://gitigaming@127.0.0.1:8083/system/cluster/core/daemon to akka://gitigaming/system/cluster/core/daemon was not delivered. [2] dead letters encountered. If this is not an expected behavior then akka://gitigaming/system/cluster/core/daemon may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2022-12-27 17:29:00.4982] [INFO] [SlotGamesNode.SlotGamesService] Starting SlotGamesNode Service... 
+[2022-12-27 17:29:00.9218] [INFO] [remoting (akka://gitigaming)] Starting remoting 
+[2022-12-27 17:29:01.3690] [INFO] [remoting (akka://gitigaming)] Remoting started; listening on addresses : [akka.tcp://gitigaming@127.0.0.1:8091] 
+[2022-12-27 17:29:01.3690] [INFO] [remoting (akka://gitigaming)] Remoting now listens on addresses: [akka.tcp://gitigaming@127.0.0.1:8091] 
+[2022-12-27 17:29:01.3900] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Starting up... 
+[2022-12-27 17:29:01.4107] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Started up successfully 
+[2022-12-27 17:29:01.4934] [INFO] [SlotGamesNode.BootstrapActor] Start Single Game Server(id:)... 
+[2022-12-27 17:29:01.4934] [INFO] [SlotGamesNode.BootstrapActor] Initializing database proxy... 
+[2022-12-27 17:29:01.5325] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - No seed-nodes configured, manual cluster join required 
+[2022-12-27 17:29:04.0945] [INFO] [SlotGamesNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2022-12-27 17:29:04.0945] [INFO] [SlotGamesNode.BootstrapActor] started loading game database.... 
+[2022-12-27 17:29:09.5117] [INFO] [SlotGamesNode.BootstrapActor] completed loading of game database successfully. 
+[2022-12-27 17:29:09.5117] [INFO] [SlotGamesNode.BootstrapActor] cluster joining... 
+[2022-12-27 17:29:09.7238] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Welcome from [akka.tcp://gitigaming@127.0.0.1:4055] 
+[2022-12-27 17:32:34.7349] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [54715.5788] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2022-12-27 17:32:36.0747] [ERROR] [SlotGamesNode.GameLogics.GreenChiliGameLogic] Exception has been occurred in BaseBNGSlotGame::spinGame System.NullReferenceException: Object reference not set to an instance of an object.
+   at SlotGamesNode.GameLogics.BaseBNGHillSlotGame.changeHillofSpinResult(String resultString, String strUserID, BNGActionTypes action) in D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\SlotGamesNode(TextDB)\GameLogics\BaseClasses\BaseBNGHillSlotGame.cs:line 63
+   at SlotGamesNode.GameLogics.BaseBNGHillSlotGame.calculateResult(String strUserID, BaseBNGSlotBetInfo betInfo, String strSpinResponse, Boolean isFirst, BNGActionTypes action) in D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\SlotGamesNode(TextDB)\GameLogics\BaseClasses\BaseBNGHillSlotGame.cs:line 41
+   at SlotGamesNode.GameLogics.BaseBNGSlotGame.<generateSpinResult>d__70.MoveNext() in D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\SlotGamesNode(TextDB)\GameLogics\BaseClasses\BaseBNGSlotGame.cs:line 915
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SlotGamesNode.GameLogics.BaseBNGSlotGame.<spinGame>d__72.MoveNext() in D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\SlotGamesNode(TextDB)\GameLogics\BaseClasses\BaseBNGSlotGame.cs:line 1012 
+[2022-12-27 17:32:37.9371] [ERROR] [SlotGamesNode.GameLogics.GreenChiliGameLogic] Exception has been occurred in BaseBNGSlotGame::spinGame System.NullReferenceException: Object reference not set to an instance of an object.
+   at SlotGamesNode.GameLogics.BaseBNGHillSlotGame.changeHillofSpinResult(String resultString, String strUserID, BNGActionTypes action) in D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\SlotGamesNode(TextDB)\GameLogics\BaseClasses\BaseBNGHillSlotGame.cs:line 63
+   at SlotGamesNode.GameLogics.BaseBNGHillSlotGame.calculateResult(String strUserID, BaseBNGSlotBetInfo betInfo, String strSpinResponse, Boolean isFirst, BNGActionTypes action) in D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\SlotGamesNode(TextDB)\GameLogics\BaseClasses\BaseBNGHillSlotGame.cs:line 41
+   at SlotGamesNode.GameLogics.BaseBNGSlotGame.<generateSpinResult>d__70.MoveNext() in D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\SlotGamesNode(TextDB)\GameLogics\BaseClasses\BaseBNGSlotGame.cs:line 915
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SlotGamesNode.GameLogics.BaseBNGSlotGame.<spinGame>d__72.MoveNext() in D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\SlotGamesNode(TextDB)\GameLogics\BaseClasses\BaseBNGSlotGame.cs:line 1012 
+[2022-12-27 17:32:38.9829] [ERROR] [SlotGamesNode.GameLogics.GreenChiliGameLogic] Exception has been occurred in BaseBNGSlotGame::spinGame System.NullReferenceException: Object reference not set to an instance of an object.
+   at SlotGamesNode.GameLogics.BaseBNGHillSlotGame.changeHillofSpinResult(String resultString, String strUserID, BNGActionTypes action) in D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\SlotGamesNode(TextDB)\GameLogics\BaseClasses\BaseBNGHillSlotGame.cs:line 63
+   at SlotGamesNode.GameLogics.BaseBNGHillSlotGame.calculateResult(String strUserID, BaseBNGSlotBetInfo betInfo, String strSpinResponse, Boolean isFirst, BNGActionTypes action) in D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\SlotGamesNode(TextDB)\GameLogics\BaseClasses\BaseBNGHillSlotGame.cs:line 41
+   at SlotGamesNode.GameLogics.BaseBNGSlotGame.<generateSpinResult>d__70.MoveNext() in D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\SlotGamesNode(TextDB)\GameLogics\BaseClasses\BaseBNGSlotGame.cs:line 915
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SlotGamesNode.GameLogics.BaseBNGSlotGame.<spinGame>d__72.MoveNext() in D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\SlotGamesNode(TextDB)\GameLogics\BaseClasses\BaseBNGSlotGame.cs:line 1012 
+[2022-12-27 17:32:38.9829] [WARN] [Akka.Cluster.ClusterCoreDaemon] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Marking node(s) as UNREACHABLE [Member(address = akka.tcp://gitigaming@127.0.0.1:4055, Uid=1833754671 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://gitigaming@127.0.0.1:8083, Uid=1658478473 status = Up, role=[comm], upNumber=2, version=1.0.0)]. Node roles [slotgame] 
+[2022-12-27 17:32:38.9829] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - is the new leader among reachable nodes (more leaders may exist) 
+[2022-12-27 17:32:39.5658] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://gitigaming@127.0.0.1:8083, 1658478473)] 
+[2022-12-27 17:32:39.9507] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://gitigaming@127.0.0.1:8083, 1658478473)] 
+[2022-12-27 17:32:39.9587] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://gitigaming@127.0.0.1:4055, 1833754671)] 
+[2022-12-27 17:32:40.3743] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://gitigaming@127.0.0.1:4055, 1833754671)] 
+[2022-12-27 17:32:41.5912] [ERROR] [SlotGamesNode.GameLogics.GreenChiliGameLogic] Exception has been occurred in BaseBNGSlotGame::spinGame System.NullReferenceException: Object reference not set to an instance of an object.
+   at SlotGamesNode.GameLogics.BaseBNGHillSlotGame.changeHillofSpinResult(String resultString, String strUserID, BNGActionTypes action) in D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\SlotGamesNode(TextDB)\GameLogics\BaseClasses\BaseBNGHillSlotGame.cs:line 63
+   at SlotGamesNode.GameLogics.BaseBNGHillSlotGame.calculateResult(String strUserID, BaseBNGSlotBetInfo betInfo, String strSpinResponse, Boolean isFirst, BNGActionTypes action) in D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\SlotGamesNode(TextDB)\GameLogics\BaseClasses\BaseBNGHillSlotGame.cs:line 41
+   at SlotGamesNode.GameLogics.BaseBNGSlotGame.<generateSpinResult>d__70.MoveNext() in D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\SlotGamesNode(TextDB)\GameLogics\BaseClasses\BaseBNGSlotGame.cs:line 915
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SlotGamesNode.GameLogics.BaseBNGSlotGame.<spinGame>d__72.MoveNext() in D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\SlotGamesNode(TextDB)\GameLogics\BaseClasses\BaseBNGSlotGame.cs:line 1012 
+[2022-12-27 17:32:41.5952] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Marking node(s) as REACHABLE [Member(address = akka.tcp://gitigaming@127.0.0.1:8083, Uid=1658478473 status = Up, role=[comm], upNumber=2, version=1.0.0), Member(address = akka.tcp://gitigaming@127.0.0.1:4055, Uid=1833754671 status = Up, role=[lighthouse], upNumber=1, version=1.4.0)]. Node roles [slotgame] 
+[2022-12-27 17:32:41.5952] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - is no longer leader 
+[2022-12-27 17:32:41.5952] [ERROR] [SlotGamesNode.GameLogics.GreenChiliGameLogic] Exception has been occurred in BaseBNGSlotGame::spinGame System.NullReferenceException: Object reference not set to an instance of an object.
+   at SlotGamesNode.GameLogics.BaseBNGHillSlotGame.changeHillofSpinResult(String resultString, String strUserID, BNGActionTypes action) in D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\SlotGamesNode(TextDB)\GameLogics\BaseClasses\BaseBNGHillSlotGame.cs:line 63
+   at SlotGamesNode.GameLogics.BaseBNGHillSlotGame.calculateResult(String strUserID, BaseBNGSlotBetInfo betInfo, String strSpinResponse, Boolean isFirst, BNGActionTypes action) in D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\SlotGamesNode(TextDB)\GameLogics\BaseClasses\BaseBNGHillSlotGame.cs:line 41
+   at SlotGamesNode.GameLogics.BaseBNGSlotGame.<generateSpinResult>d__70.MoveNext() in D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\SlotGamesNode(TextDB)\GameLogics\BaseClasses\BaseBNGSlotGame.cs:line 915
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SlotGamesNode.GameLogics.BaseBNGSlotGame.<spinGame>d__72.MoveNext() in D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\SlotGamesNode(TextDB)\GameLogics\BaseClasses\BaseBNGSlotGame.cs:line 1012 
+[2022-12-27 17:32:41.5952] [ERROR] [SlotGamesNode.GameLogics.GreenChiliGameLogic] Exception has been occurred in BaseBNGSlotGame::spinGame System.NullReferenceException: Object reference not set to an instance of an object.
+   at SlotGamesNode.GameLogics.BaseBNGHillSlotGame.changeHillofSpinResult(String resultString, String strUserID, BNGActionTypes action) in D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\SlotGamesNode(TextDB)\GameLogics\BaseClasses\BaseBNGHillSlotGame.cs:line 63
+   at SlotGamesNode.GameLogics.BaseBNGHillSlotGame.calculateResult(String strUserID, BaseBNGSlotBetInfo betInfo, String strSpinResponse, Boolean isFirst, BNGActionTypes action) in D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\SlotGamesNode(TextDB)\GameLogics\BaseClasses\BaseBNGHillSlotGame.cs:line 41
+   at SlotGamesNode.GameLogics.BaseBNGSlotGame.<generateSpinResult>d__70.MoveNext() in D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\SlotGamesNode(TextDB)\GameLogics\BaseClasses\BaseBNGSlotGame.cs:line 915
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SlotGamesNode.GameLogics.BaseBNGSlotGame.<spinGame>d__72.MoveNext() in D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\SlotGamesNode(TextDB)\GameLogics\BaseClasses\BaseBNGSlotGame.cs:line 1012 
+[2022-12-27 17:32:44.6225] [INFO] [SlotGamesNode.SlotGamesService] Stop SlotGamesNode Service Started... 
+[2022-12-27 17:32:44.6245] [INFO] [SlotGamesNode.BootstrapActor] Shutting down server.... 
+[2022-12-27 17:32:44.6245] [INFO] [SlotGamesNode.BootstrapActor] Inform connect servers to remove this server from router.... 
+[2022-12-27 17:32:44.6245] [INFO] [SlotGamesNode.BootstrapActor] Waiting for 20 seconds until all the users connected to this server can connect to other servers 
+[2022-12-27 17:33:04.6349] [INFO] [SlotGamesNode.BootstrapActor] Terminating game logic actors.... 
+[2022-12-27 17:33:04.6527] [INFO] [SlotGamesNode.BootstrapActor] Terminating redis write actors.... 
+[2022-12-27 17:33:04.6677] [INFO] [SlotGamesNode.BootstrapActor] Terminating database proxy actors.... 
+[2022-12-27 17:33:04.9017] [INFO] [Akka.Actor.LocalActorRef] Message [String] without sender to akka://gitigaming/user/dbproxy/writer/writeWorker was not delivered. [1] dead letters encountered. If this is not an expected behavior then akka://gitigaming/user/dbproxy/writer/writeWorker may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2022-12-27 17:33:05.2321] [INFO] [SlotGamesNode.SlotGamesService] Leaving from cluster.... 
+[2022-12-27 17:33:05.2351] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Marked address [akka.tcp://gitigaming@127.0.0.1:8091] as [Leaving] 
+[2022-12-27 17:33:06.5831] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Exiting, starting coordinated shutdown. 
+[2022-12-27 17:33:06.6007] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Exiting completed. 
+[2022-12-27 17:33:06.6007] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Shutting down... 
+[2022-12-27 17:33:06.6007] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Successfully shut down 
+[2022-12-27 17:33:06.6248] [INFO] [remoting-terminator] Shutting down remote daemon. 
+[2022-12-27 17:33:15.2594] [INFO] [SlotGamesNode.SlotGamesService] Starting SlotGamesNode Service... 
+[2022-12-27 17:33:15.6327] [INFO] [remoting (akka://gitigaming)] Starting remoting 
+[2022-12-27 17:33:16.0889] [INFO] [remoting (akka://gitigaming)] Remoting started; listening on addresses : [akka.tcp://gitigaming@127.0.0.1:8091] 
+[2022-12-27 17:33:16.0889] [INFO] [remoting (akka://gitigaming)] Remoting now listens on addresses: [akka.tcp://gitigaming@127.0.0.1:8091] 
+[2022-12-27 17:33:16.1110] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Starting up... 
+[2022-12-27 17:33:16.1330] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Started up successfully 
+[2022-12-27 17:33:16.2155] [INFO] [SlotGamesNode.BootstrapActor] Start Single Game Server(id:)... 
+[2022-12-27 17:33:16.2505] [INFO] [SlotGamesNode.BootstrapActor] Initializing database proxy... 
+[2022-12-27 17:33:16.2945] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - No seed-nodes configured, manual cluster join required 
+[2022-12-27 17:33:18.8204] [INFO] [SlotGamesNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2022-12-27 17:33:18.8264] [INFO] [SlotGamesNode.BootstrapActor] started loading game database.... 
+[2022-12-27 17:33:24.3473] [INFO] [SlotGamesNode.BootstrapActor] completed loading of game database successfully. 
+[2022-12-27 17:33:24.3473] [INFO] [SlotGamesNode.BootstrapActor] cluster joining... 
+[2022-12-27 17:33:24.5743] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Welcome from [akka.tcp://gitigaming@127.0.0.1:4055] 
+[2022-12-27 17:38:33.7956] [INFO] [SlotGamesNode.SlotGamesService] Stop SlotGamesNode Service Started... 
+[2022-12-27 17:38:33.7956] [INFO] [SlotGamesNode.BootstrapActor] Shutting down server.... 
+[2022-12-27 17:38:33.7956] [INFO] [SlotGamesNode.BootstrapActor] Inform connect servers to remove this server from router.... 
+[2022-12-27 17:38:33.7956] [INFO] [SlotGamesNode.BootstrapActor] Waiting for 20 seconds until all the users connected to this server can connect to other servers 
+[2022-12-27 17:38:37.6055] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Exiting confirmed [akka.tcp://gitigaming@127.0.0.1:8083] 
+[2022-12-27 17:38:37.6337] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://gitigaming@127.0.0.1:8091]->[akka.tcp://gitigaming@127.0.0.1:8083] 
+[2022-12-27 17:38:38.4719] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://gitigaming/system/cluster/core/daemon/heartbeatSender to akka://gitigaming/deadLetters was not delivered. [1] dead letters encountered. If this is not an expected behavior then akka://gitigaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2022-12-27 17:38:39.4840] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://gitigaming/system/cluster/core/daemon/heartbeatSender to akka://gitigaming/deadLetters was not delivered. [2] dead letters encountered. If this is not an expected behavior then akka://gitigaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2022-12-27 17:38:39.6268] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Exiting confirmed [akka.tcp://gitigaming@127.0.0.1:4055] 
+[2022-12-27 17:38:39.6268] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://gitigaming@127.0.0.1:8091]->[akka.tcp://gitigaming@127.0.0.1:4055] 
+[2022-12-27 17:38:40.1376] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - is the new leader among reachable nodes (more leaders may exist) 
+[2022-12-27 17:38:40.1376] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [GossipStatus] from akka://gitigaming/system/cluster/core/daemon to akka://gitigaming/deadLetters was not delivered. [3] dead letters encountered. If this is not an expected behavior then akka://gitigaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2022-12-27 17:38:40.1477] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Leader is removing confirmed Exiting node [akka.tcp://gitigaming@127.0.0.1:4055] 
+[2022-12-27 17:38:53.8255] [INFO] [SlotGamesNode.BootstrapActor] Terminating game logic actors.... 
+[2022-12-27 17:38:53.8386] [INFO] [SlotGamesNode.BootstrapActor] Terminating redis write actors.... 
+[2022-12-27 17:38:53.8386] [INFO] [SlotGamesNode.BootstrapActor] Terminating database proxy actors.... 
+[2022-12-27 17:38:54.0264] [INFO] [Akka.Actor.LocalActorRef] Message [String] without sender to akka://gitigaming/user/dbproxy/writer/writeWorker was not delivered. [4] dead letters encountered. If this is not an expected behavior then akka://gitigaming/user/dbproxy/writer/writeWorker may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2022-12-27 17:39:09.8287] [INFO] [SlotGamesNode.SlotGamesService] Leaving from cluster.... 
+[2022-12-27 17:39:09.8287] [ERROR] [SlotGamesNode.Database.DBProxyMonitor] Exception has been occurred in DBProxyMonitor::monitorTables System.Data.SqlClient.SqlException (0x80131904): A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.) ---> System.ComponentModel.Win32Exception (0x80004005): The semaphore timeout period has expired
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SlotGamesNode.Database.DBProxyMonitor.<monitorTables>d__10.MoveNext() in D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\SlotGamesNode(TextDB)\Database\DBProxyMonitor.cs:line 180
+ClientConnectionId:e072091b-d432-4cab-a0cd-07666539cbe4
+Error Number:121,State:0,Class:20 
+[2022-12-27 17:39:09.8457] [INFO] [Akka.Actor.LocalActorRef] Message [String] without sender to akka://gitigaming/user/dbproxy/monitor was not delivered. [5] dead letters encountered. If this is not an expected behavior then akka://gitigaming/user/dbproxy/monitor may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2022-12-27 17:39:09.8457] [INFO] [Akka.Actor.LocalActorRef] Message [String] without sender to akka://gitigaming/user/dbproxy/monitor was not delivered. [6] dead letters encountered. If this is not an expected behavior then akka://gitigaming/user/dbproxy/monitor may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2022-12-27 17:39:09.8457] [INFO] [Akka.Actor.LocalActorRef] Message [String] without sender to akka://gitigaming/user/dbproxy/monitor was not delivered. [7] dead letters encountered. If this is not an expected behavior then akka://gitigaming/user/dbproxy/monitor may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2022-12-27 17:39:09.8457] [INFO] [Akka.Actor.LocalActorRef] Message [String] without sender to akka://gitigaming/user/dbproxy/monitor was not delivered. [8] dead letters encountered. If this is not an expected behavior then akka://gitigaming/user/dbproxy/monitor may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2022-12-27 17:39:09.8457] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Marked address [akka.tcp://gitigaming@127.0.0.1:8091] as [Leaving] 
+[2022-12-27 17:39:10.5544] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Exiting (leader), starting coordinated shutdown. 
+[2022-12-27 17:39:10.5544] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Leader is moving node [akka.tcp://gitigaming@127.0.0.1:8091] to [Exiting] 
+[2022-12-27 17:39:10.5685] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Exiting completed. 
+[2022-12-27 17:39:10.5685] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Shutting down... 
+[2022-12-27 17:39:10.5685] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Successfully shut down 
+[2022-12-27 19:24:12.4171] [INFO] [SlotGamesNode.SlotGamesService] Starting SlotGamesNode Service... 
+[2022-12-27 19:24:12.7747] [INFO] [remoting (akka://gitigaming)] Starting remoting 
+[2022-12-27 19:24:13.2613] [INFO] [remoting (akka://gitigaming)] Remoting started; listening on addresses : [akka.tcp://gitigaming@127.0.0.1:8091] 
+[2022-12-27 19:24:13.2613] [INFO] [remoting (akka://gitigaming)] Remoting now listens on addresses: [akka.tcp://gitigaming@127.0.0.1:8091] 
+[2022-12-27 19:24:13.2833] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Starting up... 
+[2022-12-27 19:24:13.3279] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Started up successfully 
+[2022-12-27 19:24:13.4284] [INFO] [SlotGamesNode.BootstrapActor] Start Single Game Server(id:)... 
+[2022-12-27 19:24:13.4374] [INFO] [SlotGamesNode.BootstrapActor] Initializing database proxy... 
+[2022-12-27 19:24:13.4374] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - No seed-nodes configured, manual cluster join required 
+[2022-12-27 19:24:16.0639] [INFO] [SlotGamesNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2022-12-27 19:24:16.0639] [INFO] [SlotGamesNode.BootstrapActor] started loading game database.... 
+[2022-12-27 19:24:21.2760] [INFO] [SlotGamesNode.BootstrapActor] completed loading of game database successfully. 
+[2022-12-27 19:24:21.2760] [INFO] [SlotGamesNode.BootstrapActor] cluster joining... 
+[2022-12-27 19:24:21.5387] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Welcome from [akka.tcp://gitigaming@127.0.0.1:4055] 
+[2022-12-27 19:25:58.7712] [INFO] [SlotGamesNode.SlotGamesService] Stop SlotGamesNode Service Started... 
+[2022-12-27 19:25:58.7712] [INFO] [SlotGamesNode.BootstrapActor] Shutting down server.... 
+[2022-12-27 19:25:58.7712] [INFO] [SlotGamesNode.BootstrapActor] Inform connect servers to remove this server from router.... 
+[2022-12-27 19:25:58.7712] [INFO] [SlotGamesNode.BootstrapActor] Waiting for 20 seconds until all the users connected to this server can connect to other servers 
+[2022-12-27 19:26:18.7864] [INFO] [SlotGamesNode.BootstrapActor] Terminating game logic actors.... 
+[2022-12-27 19:26:18.7979] [INFO] [SlotGamesNode.BootstrapActor] Terminating redis write actors.... 
+[2022-12-27 19:26:18.7979] [INFO] [SlotGamesNode.BootstrapActor] Terminating database proxy actors.... 
+[2022-12-27 19:26:18.7979] [INFO] [SlotGamesNode.SlotGamesService] Leaving from cluster.... 
+[2022-12-27 19:26:18.7979] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Marked address [akka.tcp://gitigaming@127.0.0.1:8091] as [Leaving] 
+[2022-12-27 19:26:19.0553] [INFO] [Akka.Actor.LocalActorRef] Message [String] without sender to akka://gitigaming/user/dbproxy/writer/writeWorker was not delivered. [1] dead letters encountered. If this is not an expected behavior then akka://gitigaming/user/dbproxy/writer/writeWorker may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2022-12-27 19:26:20.3791] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Exiting, starting coordinated shutdown. 
+[2022-12-27 19:26:20.3934] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Exiting completed. 
+[2022-12-27 19:26:20.3934] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Shutting down... 
+[2022-12-27 19:26:20.3934] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Successfully shut down 
+[2022-12-27 19:26:45.9204] [INFO] [SlotGamesNode.SlotGamesService] Starting SlotGamesNode Service... 
+[2022-12-27 19:26:46.3230] [INFO] [remoting (akka://gitigaming)] Starting remoting 
+[2022-12-27 19:26:46.7826] [INFO] [remoting (akka://gitigaming)] Remoting started; listening on addresses : [akka.tcp://gitigaming@127.0.0.1:8091] 
+[2022-12-27 19:26:46.7986] [INFO] [remoting (akka://gitigaming)] Remoting now listens on addresses: [akka.tcp://gitigaming@127.0.0.1:8091] 
+[2022-12-27 19:26:46.8311] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Starting up... 
+[2022-12-27 19:26:46.8681] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Started up successfully 
+[2022-12-27 19:26:46.9051] [INFO] [SlotGamesNode.BootstrapActor] Start Single Game Server(id:)... 
+[2022-12-27 19:26:46.9051] [INFO] [SlotGamesNode.BootstrapActor] Initializing database proxy... 
+[2022-12-27 19:26:46.9202] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - No seed-nodes configured, manual cluster join required 
+[2022-12-27 19:26:49.4440] [INFO] [SlotGamesNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2022-12-27 19:26:49.4510] [INFO] [SlotGamesNode.BootstrapActor] started loading game database.... 
+[2022-12-27 19:26:54.8969] [INFO] [SlotGamesNode.BootstrapActor] completed loading of game database successfully. 
+[2022-12-27 19:26:54.8969] [INFO] [SlotGamesNode.BootstrapActor] cluster joining... 
+[2022-12-27 19:26:55.1132] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Welcome from [akka.tcp://gitigaming@127.0.0.1:4055] 
+[2022-12-27 19:28:38.3890] [INFO] [SlotGamesNode.SlotGamesService] Stop SlotGamesNode Service Started... 
+[2022-12-27 19:28:38.3890] [INFO] [SlotGamesNode.BootstrapActor] Shutting down server.... 
+[2022-12-27 19:28:38.3890] [INFO] [SlotGamesNode.BootstrapActor] Inform connect servers to remove this server from router.... 
+[2022-12-27 19:28:38.3890] [INFO] [SlotGamesNode.BootstrapActor] Waiting for 20 seconds until all the users connected to this server can connect to other servers 
+[2022-12-27 19:28:45.2732] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Exiting confirmed [akka.tcp://gitigaming@127.0.0.1:8083] 
+[2022-12-27 19:28:45.3007] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://gitigaming@127.0.0.1:8091]->[akka.tcp://gitigaming@127.0.0.1:8083] 
+[2022-12-27 19:28:45.4236] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [GossipStatus] from akka://gitigaming/system/cluster/core/daemon to akka://gitigaming/deadLetters was not delivered. [1] dead letters encountered. If this is not an expected behavior then akka://gitigaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2022-12-27 19:28:45.5622] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://gitigaming/system/cluster/core/daemon/heartbeatSender to akka://gitigaming/deadLetters was not delivered. [2] dead letters encountered. If this is not an expected behavior then akka://gitigaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2022-12-27 19:28:46.5752] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://gitigaming/system/cluster/core/daemon/heartbeatSender to akka://gitigaming/deadLetters was not delivered. [3] dead letters encountered. If this is not an expected behavior then akka://gitigaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2022-12-27 19:28:58.4014] [INFO] [SlotGamesNode.BootstrapActor] Terminating game logic actors.... 
+[2022-12-27 19:28:58.4199] [INFO] [SlotGamesNode.BootstrapActor] Terminating redis write actors.... 
+[2022-12-27 19:28:58.4199] [INFO] [SlotGamesNode.BootstrapActor] Terminating database proxy actors.... 
+[2022-12-27 19:28:58.4199] [INFO] [SlotGamesNode.SlotGamesService] Leaving from cluster.... 
+[2022-12-27 19:28:58.4199] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Marked address [akka.tcp://gitigaming@127.0.0.1:8091] as [Leaving] 
+[2022-12-27 19:28:58.5623] [INFO] [Akka.Actor.LocalActorRef] Message [String] without sender to akka://gitigaming/user/dbproxy/writer/writeWorker was not delivered. [4] dead letters encountered. If this is not an expected behavior then akka://gitigaming/user/dbproxy/writer/writeWorker may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2022-12-27 19:28:59.4386] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Exiting, starting coordinated shutdown. 
+[2022-12-27 19:28:59.4736] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Exiting completed. 
+[2022-12-27 19:28:59.4736] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Shutting down... 
+[2022-12-27 19:28:59.4736] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Successfully shut down 
+[2022-12-27 19:28:59.6031] [INFO] [remoting-terminator] Shutting down remote daemon. 
+[2022-12-27 19:28:59.6436] [INFO] [remoting-terminator] Remote daemon shut down; proceeding with flushing remote transports. 
+[2022-12-27 19:29:24.5705] [INFO] [SlotGamesNode.SlotGamesService] Starting SlotGamesNode Service... 
+[2022-12-27 19:29:25.2036] [INFO] [remoting (akka://gitigaming)] Starting remoting 
+[2022-12-27 19:29:25.6025] [INFO] [remoting (akka://gitigaming)] Remoting started; listening on addresses : [akka.tcp://gitigaming@127.0.0.1:8091] 
+[2022-12-27 19:29:25.6025] [INFO] [remoting (akka://gitigaming)] Remoting now listens on addresses: [akka.tcp://gitigaming@127.0.0.1:8091] 
+[2022-12-27 19:29:25.6245] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Starting up... 
+[2022-12-27 19:29:25.6450] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Started up successfully 
+[2022-12-27 19:29:25.6720] [INFO] [SlotGamesNode.BootstrapActor] Start Single Game Server(id:)... 
+[2022-12-27 19:29:25.6720] [INFO] [SlotGamesNode.BootstrapActor] Initializing database proxy... 
+[2022-12-27 19:29:25.6720] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - No seed-nodes configured, manual cluster join required 
+[2022-12-27 19:29:28.2039] [INFO] [SlotGamesNode.BootstrapActor] Database Proxy has been successfully initialized. 
+[2022-12-27 19:29:28.2039] [INFO] [SlotGamesNode.BootstrapActor] started loading game database.... 
+[2022-12-27 19:29:33.8442] [INFO] [SlotGamesNode.BootstrapActor] completed loading of game database successfully. 
+[2022-12-27 19:29:33.8442] [INFO] [SlotGamesNode.BootstrapActor] cluster joining... 
+[2022-12-27 19:29:34.0574] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Welcome from [akka.tcp://gitigaming@127.0.0.1:4055] 
+[2022-12-27 19:30:47.8007] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [4889.8643] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2022-12-27 19:30:51.9070] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [2532.939] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2022-12-27 19:30:54.1079] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [2200.8321] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2022-12-27 19:30:56.1595] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [2051.5943] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2022-12-27 19:30:58.5114] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [2351.9663] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2022-12-27 19:30:59.3677] [WARN] [Akka.Cluster.ClusterCoreDaemon] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Marking node(s) as UNREACHABLE [Member(address = akka.tcp://gitigaming@127.0.0.1:4055, Uid=497389431 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://gitigaming@127.0.0.1:8083, Uid=111356242 status = Up, role=[comm], upNumber=2, version=1.0.0)]. Node roles [slotgame] 
+[2022-12-27 19:30:59.3762] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - is the new leader among reachable nodes (more leaders may exist) 
+[2022-12-27 19:30:59.3762] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://gitigaming@127.0.0.1:8083, 111356242)] 
+[2022-12-27 19:31:00.0534] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://gitigaming@127.0.0.1:4055, 497389431)] 
+[2022-12-27 19:31:00.0806] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://gitigaming@127.0.0.1:4055, 497389431)] 
+[2022-12-27 19:31:00.0806] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://gitigaming@127.0.0.1:8083, 111356242)] 
+[2022-12-27 19:31:01.6019] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://gitigaming@127.0.0.1:8083, 111356242)] 
+[2022-12-27 19:31:06.6408] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Ignoring received gossip status from unreachable [UniqueAddress: (akka.tcp://gitigaming@127.0.0.1:8083, 111356242)] 
+[2022-12-27 19:31:06.6408] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [6572.5477] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2022-12-27 19:31:07.5262] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Marking node(s) as REACHABLE [Member(address = akka.tcp://gitigaming@127.0.0.1:8083, Uid=111356242 status = Up, role=[comm], upNumber=2, version=1.0.0), Member(address = akka.tcp://gitigaming@127.0.0.1:4055, Uid=497389431 status = Up, role=[lighthouse], upNumber=1, version=1.4.0)]. Node roles [slotgame] 
+[2022-12-27 19:31:07.5262] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - is no longer leader 
+[2022-12-27 19:31:42.6533] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [3141.2885] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2022-12-27 19:33:36.0796] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [2609.0316] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2022-12-27 22:55:38.5001] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [8987279.316] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2022-12-27 22:55:38.5291] [WARN] [Akka.Cluster.ClusterCoreDaemon] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Marking node(s) as UNREACHABLE [Member(address = akka.tcp://gitigaming@127.0.0.1:4055, Uid=497389431 status = Up, role=[lighthouse], upNumber=1, version=1.4.0), Member(address = akka.tcp://gitigaming@127.0.0.1:8083, Uid=111356242 status = Up, role=[comm], upNumber=2, version=1.0.0)]. Node roles [slotgame] 
+[2022-12-27 22:55:38.6623] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - is the new leader among reachable nodes (more leaders may exist) 
+[2022-12-27 22:55:38.6623] [ERROR] [Akka.Remote.Transport.ProtocolStateActor] No response from remote. Handshake timed out or transport failure detector triggered. (internal state was Open) 
+[2022-12-27 22:55:38.6623] [ERROR] [Akka.Remote.Transport.ProtocolStateActor] No response from remote. Handshake timed out or transport failure detector triggered. (internal state was Open) 
+[2022-12-27 22:55:38.6623] [INFO] [Akka.Remote.Transport.DotNetty.TcpClientHandler] Socket read operation aborted. Connection is about to be closed. Channel [[::ffff:127.0.0.1]:58490->[::ffff:127.0.0.1]:4055](Id=5882a4f2) 
+[2022-12-27 22:55:38.6623] [INFO] [Akka.Remote.Transport.DotNetty.TcpServerHandler] Socket read operation aborted. Connection is about to be closed. Channel [[::ffff:127.0.0.1]:8091->[::ffff:127.0.0.1]:58492](Id=15a3cfc7) 
+[2022-12-27 22:55:38.6623] [INFO] [Akka.Actor.LocalActorRef] Message [InboundPayload] without sender to akka://gitigaming/system/transports/akkaprotocolmanager.tcp.0/akkaProtocol-tcp%3A%2F%2Fgitigaming%40%5B%3A%3Affff%3A127.0.0.1%5D%3A58492-2 was not delivered. [1] dead letters encountered. If this is not an expected behavior then akka://gitigaming/system/transports/akkaprotocolmanager.tcp.0/akkaProtocol-tcp%3A%2F%2Fgitigaming%40%5B%3A%3Affff%3A127.0.0.1%5D%3A58492-2 may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2022-12-27 22:55:38.6623] [INFO] [Akka.Actor.LocalActorRef] Message [InboundPayload] without sender to akka://gitigaming/system/transports/akkaprotocolmanager.tcp.0/akkaProtocol-tcp%3A%2F%2Fgitigaming%40127.0.0.1%3A4055-1 was not delivered. [2] dead letters encountered. If this is not an expected behavior then akka://gitigaming/system/transports/akkaprotocolmanager.tcp.0/akkaProtocol-tcp%3A%2F%2Fgitigaming%40127.0.0.1%3A4055-1 may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2022-12-27 22:55:38.6623] [WARN] [Akka.Remote.ReliableDeliverySupervisor] Association with remote system akka.tcp://gitigaming@127.0.0.1:8083 has failed; address is now gated for 5000 ms. Reason is: [Akka.Remote.EndpointDisassociatedException: Disassociated
+   at Akka.Remote.EndpointWriter.PublishAndThrow(Exception reason, LogLevel level, Boolean needToThrow)
+   at Akka.Remote.EndpointWriter.Unhandled(Object message)
+   at Akka.Actor.ReceiveActor.ExecutePartialMessageHandler(Object message, PartialAction`1 partialAction)
+   at Akka.Actor.ReceiveActor.OnReceive(Object message)
+   at Akka.Actor.UntypedActor.Receive(Object message)
+   at Akka.Actor.ActorBase.AroundReceive(Receive receive, Object message)
+   at Akka.Actor.ActorCell.ReceiveMessage(Object message)
+   at Akka.Actor.ActorCell.ReceivedTerminated(Terminated t)
+   at Akka.Actor.ActorCell.AutoReceiveMessage(Envelope envelope)
+   at Akka.Actor.ActorCell.Invoke(Envelope envelope)] 
+[2022-12-27 22:55:38.6798] [WARN] [Akka.Remote.ReliableDeliverySupervisor] Association with remote system akka.tcp://gitigaming@127.0.0.1:4055 has failed; address is now gated for 5000 ms. Reason is: [Akka.Remote.EndpointDisassociatedException: Disassociated
+   at Akka.Remote.EndpointWriter.PublishAndThrow(Exception reason, LogLevel level, Boolean needToThrow)
+   at Akka.Remote.EndpointWriter.Unhandled(Object message)
+   at Akka.Actor.ReceiveActor.ExecutePartialMessageHandler(Object message, PartialAction`1 partialAction)
+   at Akka.Actor.ReceiveActor.<>c__DisplayClass11_0.<Become>b__0(Object m)
+   at Akka.Actor.ActorCell.<>c__DisplayClass114_0.<Akka.Actor.IUntypedActorContext.Become>b__0(Object m)
+   at Akka.Actor.ActorBase.AroundReceive(Receive receive, Object message)
+   at Akka.Actor.ActorCell.ReceiveMessage(Object message)
+   at Akka.Actor.ActorCell.ReceivedTerminated(Terminated t)
+   at Akka.Actor.ActorCell.AutoReceiveMessage(Envelope envelope)
+   at Akka.Actor.ActorCell.Invoke(Envelope envelope)] 
+[2022-12-27 22:55:40.6099] [ERROR] [Akka.Actor.OneForOneStrategy] Disassociated Akka.Remote.EndpointDisassociatedException: Disassociated
+   at Akka.Remote.EndpointWriter.PublishAndThrow(Exception reason, LogLevel level, Boolean needToThrow)
+   at Akka.Remote.EndpointWriter.Unhandled(Object message)
+   at Akka.Actor.ReceiveActor.ExecutePartialMessageHandler(Object message, PartialAction`1 partialAction)
+   at Akka.Actor.ReceiveActor.<>c__DisplayClass11_0.<Become>b__0(Object m)
+   at Akka.Actor.ActorCell.<>c__DisplayClass114_0.<Akka.Actor.IUntypedActorContext.Become>b__0(Object m)
+   at Akka.Actor.ActorBase.AroundReceive(Receive receive, Object message)
+   at Akka.Actor.ActorCell.ReceiveMessage(Object message)
+   at Akka.Actor.ActorCell.ReceivedTerminated(Terminated t)
+   at Akka.Actor.ActorCell.AutoReceiveMessage(Envelope envelope)
+   at Akka.Actor.ActorCell.Invoke(Envelope envelope)
+[2022-12-27 22:55:40.9474] [ERROR] [Akka.Actor.OneForOneStrategy] Disassociated Akka.Remote.EndpointDisassociatedException: Disassociated
+   at Akka.Remote.EndpointWriter.PublishAndThrow(Exception reason, LogLevel level, Boolean needToThrow)
+   at Akka.Remote.EndpointWriter.Unhandled(Object message)
+   at Akka.Actor.ReceiveActor.ExecutePartialMessageHandler(Object message, PartialAction`1 partialAction)
+   at Akka.Actor.ReceiveActor.OnReceive(Object message)
+   at Akka.Actor.UntypedActor.Receive(Object message)
+   at Akka.Actor.ActorBase.AroundReceive(Receive receive, Object message)
+   at Akka.Actor.ActorCell.ReceiveMessage(Object message)
+   at Akka.Actor.ActorCell.ReceivedTerminated(Terminated t)
+   at Akka.Actor.ActorCell.AutoReceiveMessage(Envelope envelope)
+   at Akka.Actor.ActorCell.Invoke(Envelope envelope)
+[2022-12-27 22:55:41.0241] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://gitigaming/system/cluster/core/daemon/heartbeatSender to akka://gitigaming/deadLetters was not delivered. [3] dead letters encountered. If this is not an expected behavior then akka://gitigaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2022-12-27 22:55:41.0241] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://gitigaming/system/cluster/core/daemon/heartbeatSender to akka://gitigaming/deadLetters was not delivered. [4] dead letters encountered. If this is not an expected behavior then akka://gitigaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2022-12-27 22:55:41.0241] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://gitigaming/system/cluster/core/daemon/heartbeatSender to akka://gitigaming/deadLetters was not delivered. [5] dead letters encountered. If this is not an expected behavior then akka://gitigaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2022-12-27 22:55:41.0296] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://gitigaming/system/cluster/core/daemon/heartbeatSender to akka://gitigaming/deadLetters was not delivered. [6] dead letters encountered. If this is not an expected behavior then akka://gitigaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2022-12-27 22:55:41.5565] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://gitigaming/system/cluster/core/daemon/heartbeatSender to akka://gitigaming/deadLetters was not delivered. [7] dead letters encountered. If this is not an expected behavior then akka://gitigaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2022-12-27 22:55:41.5565] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://gitigaming/system/cluster/core/daemon/heartbeatSender to akka://gitigaming/deadLetters was not delivered. [8] dead letters encountered. If this is not an expected behavior then akka://gitigaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2022-12-27 22:55:42.5653] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://gitigaming/system/cluster/core/daemon/heartbeatSender to akka://gitigaming/deadLetters was not delivered. [9] dead letters encountered. If this is not an expected behavior then akka://gitigaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2022-12-27 22:55:42.5653] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://gitigaming/system/cluster/core/daemon/heartbeatSender to akka://gitigaming/deadLetters was not delivered. [10] dead letters encountered, no more dead letters will be logged in next [00:05:00]. If this is not an expected behavior then akka://gitigaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2022-12-27 22:55:44.5874] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Marking node(s) as REACHABLE [Member(address = akka.tcp://gitigaming@127.0.0.1:8083, Uid=111356242 status = Up, role=[comm], upNumber=2, version=1.0.0)]. Node roles [slotgame] 
+[2022-12-27 22:55:44.5874] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - is no longer leader 
+[2022-12-27 22:55:45.6000] [INFO] [Cluster (akka://gitigaming)] Cluster Node [akka.tcp://gitigaming@127.0.0.1:8091] - Marking node(s) as REACHABLE [Member(address = akka.tcp://gitigaming@127.0.0.1:4055, Uid=497389431 status = Up, role=[lighthouse], upNumber=1, version=1.4.0)]. Node roles [slotgame] 
+[2022-12-27 22:55:49.0004] [ERROR] [SlotGamesNode.Database.DBProxyMonitor] Exception has been occurred in DBProxyMonitor::monitorTables System.Data.SqlClient.SqlException (0x80131904): A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.) ---> System.ComponentModel.Win32Exception (0x80004005): The semaphore timeout period has expired
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SlotGamesNode.Database.DBProxyMonitor.<monitorTables>d__10.MoveNext() in D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\SlotGamesNode(TextDB)\Database\DBProxyMonitor.cs:line 180
+ClientConnectionId:24fda6e7-5ce1-4c42-8c8f-b375501b26f9
+Error Number:121,State:0,Class:20 
+[2022-12-27 22:55:49.0940] [ERROR] [SlotGamesNode.Database.DBProxyMonitor] Exception has been occurred in DBProxyMonitor::monitorTables System.Data.SqlClient.SqlException (0x80131904): A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.) ---> System.ComponentModel.Win32Exception (0x80004005): The semaphore timeout period has expired
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SlotGamesNode.Database.DBProxyMonitor.<monitorTables>d__10.MoveNext() in D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\SlotGamesNode(TextDB)\Database\DBProxyMonitor.cs:line 180
+ClientConnectionId:f75bbec2-6f72-4c04-b3d4-ad1221e80ad5
+Error Number:121,State:0,Class:20 
+[2022-12-27 22:56:26.4346] [ERROR] [SlotGamesNode.Database.DBProxyMonitor] Exception has been occurred in DBProxyMonitor::monitorTables System.Data.SqlClient.SqlException (0x80131904): A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.) ---> System.ComponentModel.Win32Exception (0x80004005): The semaphore timeout period has expired
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SlotGamesNode.Database.DBProxyMonitor.<monitorTables>d__10.MoveNext() in D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\SlotGamesNode(TextDB)\Database\DBProxyMonitor.cs:line 220
+ClientConnectionId:6a46d1d2-97d6-4dc9-80e8-0dfd829d7df8
+Error Number:121,State:0,Class:20 
+[2022-12-27 22:56:31.1457] [ERROR] [SlotGamesNode.Database.DBProxyMonitor] Exception has been occurred in DBProxyMonitor::monitorTables System.Data.SqlClient.SqlException (0x80131904): A transport-level error has occurred when receiving results from the server. (provider: TCP Provider, error: 0 - The semaphore timeout period has expired.) ---> System.ComponentModel.Win32Exception (0x80004005): The semaphore timeout period has expired
+   at System.Data.SqlClient.SqlCommand.EndExecuteReaderAsync(IAsyncResult asyncResult)
+   at System.Threading.Tasks.TaskFactory`1.FromAsyncCoreLogic(IAsyncResult iar, Func`2 endFunction, Action`1 endAction, Task`1 promise, Boolean requiresSynchronization)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at SlotGamesNode.Database.DBProxyMonitor.<monitorTables>d__10.MoveNext() in D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\SlotGamesNode(TextDB)\Database\DBProxyMonitor.cs:line 180
+ClientConnectionId:d966d364-d9cf-4db2-a1b7-aca3454a77ba
+Error Number:121,State:0,Class:20 

@@ -1,0 +1,18 @@
+[2024-12-07 07:50:56.9553] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8091] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [66473437.791] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2024-12-07 07:51:02.2090] [INFO] [Akka.Remote.Transport.DotNetty.TcpClientHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:1555->[::ffff:127.0.0.1]:8093](Id=31295ed5) 
+[2024-12-07 07:51:02.2250] [INFO] [Akka.Remote.Transport.DotNetty.TcpServerHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:8091->[::ffff:127.0.0.1]:1554](Id=14fbf64e) 
+[2024-12-07 07:51:02.2250] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8093] 
+[2024-12-07 07:51:02.2250] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8094] 
+[2024-12-07 07:51:02.2250] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [1] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2024-12-07 07:51:02.2416] [INFO] [Akka.Remote.Transport.DotNetty.TcpClientHandler] Connection was reset by the remote peer. Channel [[::ffff:127.0.0.1]:1556->[::ffff:127.0.0.1]:8083](Id=6e4a89a9) 
+[2024-12-07 07:51:02.2416] [INFO] [Akka.Remote.ReliableDeliverySupervisor] Removing receive buffers for [akka.tcp://godgaming@127.0.0.1:8091]->[akka.tcp://godgaming@127.0.0.1:8083] 
+[2024-12-07 07:51:02.2526] [INFO] [Akka.Remote.RemoteActorRefProvider+RemoteDeadLetterActorRef] Message [Heartbeat] from akka://godgaming/system/cluster/core/daemon/heartbeatSender to akka://godgaming/deadLetters was not delivered. [2] dead letters encountered. If this is not an expected behavior then akka://godgaming/deadLetters may have terminated unexpectedly. This logging can be turned off or adjusted with configuration settings 'akka.log-dead-letters' and 'akka.log-dead-letters-during-shutdown'. 
+[2024-12-07 00:00:10.1651] [INFO] [SlotGamesNode.GameLogics.BonanzaGoldGameLogic] generateSpinResult: null 
+[2024-12-07 00:00:18.8423] [INFO] [SlotGamesNode.GameLogics.BonanzaGoldGameLogic] generateSpinResult: null 
+[2024-12-07 00:00:25.2570] [INFO] [SlotGamesNode.GameLogics.BonanzaGoldGameLogic] generateSpinResult: null 
+[2024-12-07 00:00:36.1488] [INFO] [SlotGamesNode.GameLogics.BonanzaGoldGameLogic] generateSpinResult: null 
+[2024-12-07 00:00:49.1064] [INFO] [SlotGamesNode.GameLogics.BonanzaGoldGameLogic] generateSpinResult: null 
+[2024-12-07 00:00:53.3677] [INFO] [SlotGamesNode.GameLogics.BonanzaGoldGameLogic] generateSpinResult: null 
+[2024-12-07 00:00:59.9385] [INFO] [SlotGamesNode.GameLogics.BonanzaGoldGameLogic] generateSpinResult: null 
+[2024-12-07 00:01:15.3396] [INFO] [SlotGamesNode.GameLogics.BonanzaGoldGameLogic] generateSpinResult: {"CashbackID":4,"Cashback":3.5,"AgentID":"devagent","CuntryCode":"MY","Currency":"MYR","IsAgent":0,"Period":0,"PeriodKey":"20241207","BonusType":5,"BonusID":123,"IsRewarded":false} 
+[2024-12-07 00:01:15.3426] [INFO] [SlotGamesNode.GameLogics.BonanzaGoldGameLogic] ReceivedCashback: 4, devagent, devuser001 
