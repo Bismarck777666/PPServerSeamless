@@ -1,0 +1,10 @@
+E:\Jobs\Backend(PGSoft)\BetMoneyFetcher\bin\Debug\BetMoneyFetcher.exe.config
+E:\Jobs\Backend(PGSoft)\BetMoneyFetcher\bin\Debug\BetMoneyFetcher.exe
+E:\Jobs\Backend(PGSoft)\BetMoneyFetcher\bin\Debug\BetMoneyFetcher.pdb
+E:\Jobs\Backend(PGSoft)\BetMoneyFetcher\bin\Debug\Newtonsoft.Json.dll
+E:\Jobs\Backend(PGSoft)\BetMoneyFetcher\bin\Debug\Newtonsoft.Json.xml
+E:\Jobs\Backend(PGSoft)\BetMoneyFetcher\obj\Debug\BetMoneyFetcher.csproj.AssemblyReference.cache
+E:\Jobs\Backend(PGSoft)\BetMoneyFetcher\obj\Debug\BetMoneyFetcher.csproj.CoreCompileInputs.cache
+E:\Jobs\Backend(PGSoft)\BetMoneyFetcher\obj\Debug\BetMoneyFetcher.csproj.CopyComplete
+E:\Jobs\Backend(PGSoft)\BetMoneyFetcher\obj\Debug\BetMoneyFetcher.exe
+E:\Jobs\Backend(PGSoft)\BetMoneyFetcher\obj\Debug\BetMoneyFetcher.pdb

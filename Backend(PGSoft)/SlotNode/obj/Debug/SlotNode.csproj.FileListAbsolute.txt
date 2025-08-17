@@ -1,0 +1,626 @@
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\mongocrypt.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\Chipset\chipset(EUR).info
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\Chipset\chipset(TND).info
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\Chipset\chipset(USD).info
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\config.hocon
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\NLog.config
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\SlotGamesNode.exe.config
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\SlotGamesNode.exe
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\SlotGamesNode.pdb
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\Akka.Cluster.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\Akka.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\Akka.Logger.NLog.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\Akka.Remote.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\DnsClient.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\DotNetty.Buffers.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\DotNetty.Codecs.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\DotNetty.Common.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\DotNetty.Handlers.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\DotNetty.Transport.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\EntityFramework.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\EntityFramework.SqlServer.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\GITProtocol.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\Google.Protobuf.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\Microsoft.Extensions.Logging.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\Microsoft.Win32.Registry.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\MongoDB.Bson.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\MongoDB.Driver.Core.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\MongoDB.Driver.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\MongoDB.Libmongocrypt.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\Newtonsoft.Json.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\NLog.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\Pipelines.Sockets.Unofficial.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\SharpCompress.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\Snappier.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\StackExchange.Redis.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\System.Buffers.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\System.Collections.Immutable.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\System.Configuration.ConfigurationManager.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\System.Data.SQLite.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\System.Data.SQLite.EF6.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\System.Data.SQLite.Linq.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\System.Diagnostics.PerformanceCounter.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\System.IO.Pipelines.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\System.Memory.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\System.Numerics.Vectors.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\System.Security.AccessControl.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\System.Security.Permissions.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\System.Security.Principal.Windows.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\System.Text.Encoding.CodePages.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\System.Threading.Channels.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\Topshelf.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\ZstdSharp.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\GITProtocol.pdb
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\Akka.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\Akka.Cluster.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\Akka.Logger.NLog.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\Akka.Remote.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\DnsClient.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\DotNetty.Buffers.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\DotNetty.Codecs.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\DotNetty.Common.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\DotNetty.Handlers.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\DotNetty.Transport.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\EntityFramework.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\EntityFramework.SqlServer.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\Google.Protobuf.pdb
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\Google.Protobuf.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\Microsoft.Extensions.Logging.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\Microsoft.Win32.Registry.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\MongoDB.Bson.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\MongoDB.Driver.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\MongoDB.Driver.Core.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\Newtonsoft.Json.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\NLog.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\Pipelines.Sockets.Unofficial.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\Snappier.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\StackExchange.Redis.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\System.Buffers.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\System.Collections.Immutable.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\System.Configuration.ConfigurationManager.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\System.Data.SQLite.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\System.Diagnostics.PerformanceCounter.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\System.IO.Pipelines.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\System.Memory.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\System.Numerics.Vectors.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\System.Security.AccessControl.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\System.Security.Permissions.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\System.Security.Principal.Windows.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\System.Text.Encoding.CodePages.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\System.Threading.Channels.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\Topshelf.xml
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\obj\Debug\SlotNode.csproj.AssemblyReference.cache
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\obj\Debug\SlotNode.csproj.SuggestedBindingRedirects.cache
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\obj\Debug\SlotNode.csproj.CoreCompileInputs.cache
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\obj\Debug\SlotNode.csproj.CopyComplete
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\obj\Debug\SlotGamesNode.exe
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\obj\Debug\SlotGamesNode.pdb
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\Chipset\chipset(TRY).info
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\Chipset\chipset(INR).info
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\Chipset\chipset(BRL).info
+E:\Jobs\Backend(GitSlotPark Seamless)\SlotNode\bin\Debug\Chipset\chipset(MAD).info
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\mongocrypt.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Chipset\chipset(BRL).info
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Chipset\chipset(EUR).info
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Chipset\chipset(INR).info
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Chipset\chipset(MAD).info
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Chipset\chipset(TND).info
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Chipset\chipset(TRY).info
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Chipset\chipset(USD).info
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\config.hocon
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\NLog.config
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\SlotGamesNode.exe.config
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\SlotGamesNode.exe
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\SlotGamesNode.pdb
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Akka.Cluster.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Akka.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Akka.Logger.NLog.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Akka.Remote.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\DnsClient.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\DotNetty.Buffers.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\DotNetty.Codecs.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\DotNetty.Common.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\DotNetty.Handlers.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\DotNetty.Transport.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\EntityFramework.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\EntityFramework.SqlServer.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\GITProtocol.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Google.Protobuf.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Microsoft.Extensions.Logging.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Microsoft.Win32.Registry.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\MongoDB.Bson.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\MongoDB.Driver.Core.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\MongoDB.Driver.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\MongoDB.Libmongocrypt.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Newtonsoft.Json.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\NLog.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Pipelines.Sockets.Unofficial.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\SharpCompress.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Snappier.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\StackExchange.Redis.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\System.Buffers.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\System.Collections.Immutable.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\System.Configuration.ConfigurationManager.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\System.Data.SQLite.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\System.Data.SQLite.EF6.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\System.Data.SQLite.Linq.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\System.Diagnostics.PerformanceCounter.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\System.IO.Pipelines.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\System.Memory.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\System.Numerics.Vectors.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\System.Security.AccessControl.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\System.Security.Permissions.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\System.Security.Principal.Windows.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\System.Text.Encoding.CodePages.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\System.Threading.Channels.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Topshelf.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\ZstdSharp.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\GITProtocol.pdb
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Akka.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Akka.Cluster.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Akka.Logger.NLog.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Akka.Remote.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\DnsClient.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\DotNetty.Buffers.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\DotNetty.Codecs.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\DotNetty.Common.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\DotNetty.Handlers.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\DotNetty.Transport.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\EntityFramework.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\EntityFramework.SqlServer.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Google.Protobuf.pdb
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Google.Protobuf.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Microsoft.Extensions.Logging.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Microsoft.Win32.Registry.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\MongoDB.Bson.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\MongoDB.Driver.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\MongoDB.Driver.Core.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Newtonsoft.Json.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\NLog.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Pipelines.Sockets.Unofficial.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Snappier.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\StackExchange.Redis.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\System.Buffers.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\System.Collections.Immutable.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\System.Configuration.ConfigurationManager.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\System.Data.SQLite.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\System.Diagnostics.PerformanceCounter.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\System.IO.Pipelines.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\System.Memory.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\System.Numerics.Vectors.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\System.Security.AccessControl.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\System.Security.Permissions.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\System.Security.Principal.Windows.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\System.Text.Encoding.CodePages.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\System.Threading.Channels.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Topshelf.xml
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\obj\Debug\SlotNode.csproj.AssemblyReference.cache
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\obj\Debug\SlotNode.csproj.CoreCompileInputs.cache
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\obj\Debug\SlotNode.csproj.CopyComplete
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\obj\Debug\SlotGamesNode.exe
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\obj\Debug\SlotGamesNode.pdb
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Chipset\gamertp.info
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Chipset\chipset(AUD).info
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Chipset\chipset(CHF).info
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Chipset\chipset(IDR).info
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Chipset\chipset(NOK).info
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Chipset\chipset(THB).info
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Chipset\chipset(MYR).info
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Chipset\chipset(NGN).info
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Chipset\chipset(TVD).info
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Chipset\chipset(XOF).info
+E:\Jobs\Backend(GitSlotPark Seamless2)\SlotNode\bin\Debug\Chipset\chipset(RUB).info
+E:\Jobs\Backend(PGSoft)\SlotNode\obj\Debug\SlotNode.csproj.AssemblyReference.cache
+E:\Jobs\Backend(PGSoft)\SlotNode\obj\Debug\SlotNode.csproj.CoreCompileInputs.cache
+E:\Jobs\Backend(PGSoft)\SlotNode\obj\Debug\SlotGamesNode.exe
+E:\Jobs\Backend(PGSoft)\SlotNode\obj\Debug\SlotGamesNode.pdb
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\mongocrypt.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\chipset(BRL).info
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\chipset(THB).info
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\config.hocon
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\NLog.config
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\SlotGamesNode.exe.config
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\SlotGamesNode.exe
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\SlotGamesNode.pdb
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\Akka.Cluster.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\Akka.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\Akka.Logger.NLog.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\Akka.Remote.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\DnsClient.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\DotNetty.Buffers.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\DotNetty.Codecs.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\DotNetty.Common.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\DotNetty.Handlers.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\DotNetty.Transport.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\EntityFramework.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\EntityFramework.SqlServer.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\GITProtocol.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\Google.Protobuf.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\Microsoft.Extensions.Logging.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\Microsoft.Win32.Registry.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\MongoDB.Bson.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\MongoDB.Driver.Core.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\MongoDB.Driver.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\MongoDB.Libmongocrypt.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\Newtonsoft.Json.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\NLog.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\Pipelines.Sockets.Unofficial.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\SharpCompress.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\Snappier.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\StackExchange.Redis.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\System.Buffers.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\System.Collections.Immutable.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\System.Configuration.ConfigurationManager.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\System.Data.SQLite.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\System.Data.SQLite.EF6.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\System.Data.SQLite.Linq.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\System.Diagnostics.PerformanceCounter.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\System.IO.Pipelines.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\System.Memory.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\System.Numerics.Vectors.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\System.Security.AccessControl.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\System.Security.Permissions.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\System.Security.Principal.Windows.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\System.Text.Encoding.CodePages.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\System.Threading.Channels.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\Topshelf.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\ZstdSharp.dll
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\GITProtocol.pdb
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\Akka.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\Akka.Cluster.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\Akka.Logger.NLog.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\Akka.Remote.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\DnsClient.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\DotNetty.Buffers.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\DotNetty.Codecs.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\DotNetty.Common.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\DotNetty.Handlers.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\DotNetty.Transport.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\EntityFramework.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\EntityFramework.SqlServer.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\Google.Protobuf.pdb
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\Google.Protobuf.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\Microsoft.Extensions.Logging.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\Microsoft.Win32.Registry.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\MongoDB.Bson.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\MongoDB.Driver.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\MongoDB.Driver.Core.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\Newtonsoft.Json.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\NLog.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\Pipelines.Sockets.Unofficial.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\Snappier.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\StackExchange.Redis.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\System.Buffers.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\System.Collections.Immutable.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\System.Configuration.ConfigurationManager.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\System.Data.SQLite.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\System.Diagnostics.PerformanceCounter.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\System.IO.Pipelines.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\System.Memory.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\System.Numerics.Vectors.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\System.Security.AccessControl.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\System.Security.Permissions.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\System.Security.Principal.Windows.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\System.Text.Encoding.CodePages.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\System.Threading.Channels.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\Topshelf.xml
+E:\Jobs\Backend(PGSoft)\SlotNode\obj\Debug\SlotNode.csproj.CopyComplete
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(EUR).info
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(TND).info
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(TRY).info
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(USD).info
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(IDR).info
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(MYR).info
+E:\Jobs\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(RT).info
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\mongocrypt.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\config.hocon
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\NLog.config
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\SlotGamesNode.exe.config
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\SlotGamesNode.exe
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\SlotGamesNode.pdb
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Akka.Cluster.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Akka.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Akka.Logger.NLog.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Akka.Remote.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\DnsClient.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\DotNetty.Buffers.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\DotNetty.Codecs.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\DotNetty.Common.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\DotNetty.Handlers.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\DotNetty.Transport.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\EntityFramework.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\EntityFramework.SqlServer.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\GITProtocol.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Google.Protobuf.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Microsoft.Extensions.Logging.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Microsoft.Win32.Registry.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\MongoDB.Bson.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\MongoDB.Driver.Core.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\MongoDB.Driver.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\MongoDB.Libmongocrypt.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Newtonsoft.Json.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\NLog.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Pipelines.Sockets.Unofficial.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\SharpCompress.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Snappier.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\StackExchange.Redis.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Buffers.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Collections.Immutable.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Configuration.ConfigurationManager.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Data.SQLite.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Data.SQLite.EF6.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Data.SQLite.Linq.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Diagnostics.PerformanceCounter.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.IO.Pipelines.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Memory.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Numerics.Vectors.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Security.AccessControl.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Security.Permissions.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Security.Principal.Windows.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Text.Encoding.CodePages.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Threading.Channels.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Topshelf.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\ZstdSharp.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\GITProtocol.pdb
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Akka.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Akka.Cluster.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Akka.Logger.NLog.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Akka.Remote.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\DnsClient.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\DotNetty.Buffers.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\DotNetty.Codecs.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\DotNetty.Common.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\DotNetty.Handlers.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\DotNetty.Transport.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\EntityFramework.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\EntityFramework.SqlServer.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Google.Protobuf.pdb
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Google.Protobuf.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Microsoft.Extensions.Logging.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Microsoft.Win32.Registry.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\MongoDB.Bson.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\MongoDB.Driver.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\MongoDB.Driver.Core.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Newtonsoft.Json.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\NLog.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Pipelines.Sockets.Unofficial.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Snappier.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\StackExchange.Redis.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Buffers.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Collections.Immutable.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Configuration.ConfigurationManager.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Data.SQLite.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Diagnostics.PerformanceCounter.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.IO.Pipelines.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Memory.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Numerics.Vectors.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Security.AccessControl.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Security.Permissions.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Security.Principal.Windows.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Text.Encoding.CodePages.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Threading.Channels.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Topshelf.xml
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\obj\Debug\SlotNode.csproj.AssemblyReference.cache
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\obj\Debug\SlotNode.csproj.CoreCompileInputs.cache
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\obj\Debug\SlotNode.csproj.Up2Date
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\obj\Debug\SlotGamesNode.exe
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\obj\Debug\SlotGamesNode.pdb
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(AED).info
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(ARS).info
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(BWP).info
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(CHF).info
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(EGP).info
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(GC).info
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(IQD).info
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(JC).info
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(MAD).info
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(RUB).info
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(SYP).info
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(UAH).info
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(ZAR).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\mongocrypt.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(AED).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(ARS).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(BWP).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(CHF).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(EGP).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(GC).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(IQD).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(JC).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(MAD).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(RUB).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(SYP).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(UAH).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(ZAR).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\config.hocon
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\NLog.config
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\SlotGamesNode.exe.config
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\SlotGamesNode.exe
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\SlotGamesNode.pdb
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Akka.Cluster.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Akka.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Akka.Logger.NLog.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Akka.Remote.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\DnsClient.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\DotNetty.Buffers.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\DotNetty.Codecs.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\DotNetty.Common.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\DotNetty.Handlers.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\DotNetty.Transport.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\EntityFramework.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\EntityFramework.SqlServer.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\GITProtocol.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Google.Protobuf.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Microsoft.Extensions.Logging.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Microsoft.Win32.Registry.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\MongoDB.Bson.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\MongoDB.Driver.Core.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\MongoDB.Driver.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\MongoDB.Libmongocrypt.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Newtonsoft.Json.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\NLog.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Pipelines.Sockets.Unofficial.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\SharpCompress.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Snappier.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\StackExchange.Redis.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Buffers.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Collections.Immutable.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Configuration.ConfigurationManager.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Data.SQLite.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Data.SQLite.EF6.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Data.SQLite.Linq.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Diagnostics.PerformanceCounter.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.IO.Pipelines.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Memory.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Numerics.Vectors.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Security.AccessControl.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Security.Permissions.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Security.Principal.Windows.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Text.Encoding.CodePages.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Threading.Channels.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Topshelf.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\ZstdSharp.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\GITProtocol.pdb
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Akka.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Akka.Cluster.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Akka.Logger.NLog.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Akka.Remote.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\DnsClient.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\DotNetty.Buffers.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\DotNetty.Codecs.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\DotNetty.Common.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\DotNetty.Handlers.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\DotNetty.Transport.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\EntityFramework.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\EntityFramework.SqlServer.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Google.Protobuf.pdb
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Google.Protobuf.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Microsoft.Extensions.Logging.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Microsoft.Win32.Registry.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\MongoDB.Bson.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\MongoDB.Driver.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\MongoDB.Driver.Core.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Newtonsoft.Json.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\NLog.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Pipelines.Sockets.Unofficial.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Snappier.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\StackExchange.Redis.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Buffers.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Collections.Immutable.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Configuration.ConfigurationManager.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Data.SQLite.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Diagnostics.PerformanceCounter.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.IO.Pipelines.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Memory.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Numerics.Vectors.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Security.AccessControl.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Security.Permissions.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Security.Principal.Windows.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Text.Encoding.CodePages.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Threading.Channels.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Topshelf.xml
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\obj\Debug\SlotNode.csproj.AssemblyReference.cache
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\obj\Debug\SlotNode.csproj.CoreCompileInputs.cache
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\obj\Debug\SlotNode.csproj.Up2Date
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\obj\Debug\SlotGamesNode.exe
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\obj\Debug\SlotGamesNode.pdb
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(AUD).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(AZN).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(BAM).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(BOB).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(BRL).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(CAD).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(DKK).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(EUR).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(GBP).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(GEL).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(GHS).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(HKD).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(IDR).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(ILS).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(INR).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(JPY).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(KRW).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(KWD).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(LBP).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(MMK).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(MNT).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(MXN).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(MYR).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(NAD).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(NZD).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(PEN).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(PHP).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(PLN).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(RON).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(RT).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(SEK).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(SGD).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(SZL).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(THB).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(TMT).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(TND).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(TRY).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(TVD).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(USD).info
+E:\work\Slot\PPServer\Backend(PGSoft)\SlotNode\bin\Debug\Chipset\Chipset(VND).info

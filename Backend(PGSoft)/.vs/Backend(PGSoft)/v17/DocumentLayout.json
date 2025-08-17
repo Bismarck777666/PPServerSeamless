@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\work\\Slot\\PPServer\\Backend(PGSoft)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9B7E3073-C207-44B1-88B2-C35312A1FF4B}|FrontNode\\FrontNode.csproj|e:\\work\\slot\\ppserver\\backend(pgsoft)\\frontnode\\httpservice\\pgverifyapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B7E3073-C207-44B1-88B2-C35312A1FF4B}|FrontNode\\FrontNode.csproj|solutionrelative:frontnode\\httpservice\\pgverifyapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PGVerifyApiController.cs",
+              "DocumentMoniker": "E:\\work\\Slot\\PPServer\\Backend(PGSoft)\\FrontNode\\HTTPService\\PGVerifyApiController.cs",
+              "RelativeDocumentMoniker": "FrontNode\\HTTPService\\PGVerifyApiController.cs",
+              "ToolTip": "E:\\work\\Slot\\PPServer\\Backend(PGSoft)\\FrontNode\\HTTPService\\PGVerifyApiController.cs",
+              "RelativeToolTip": "FrontNode\\HTTPService\\PGVerifyApiController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwDEAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T05:59:11.071Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

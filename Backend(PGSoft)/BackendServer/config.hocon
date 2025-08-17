@@ -1,0 +1,84 @@
+﻿comm{
+  actorsystem: "gitigaming" #POPULATE NAME OF YOUR ACTOR SYSTEM HERE
+  http {
+		baseurl = "http://*:9099"
+  }
+  database {
+		ip			= "18.134.13.108"
+		port		= 1433
+		user		= "sa"
+		pass		= "akduifwkro1988"
+		dbname		= "PGDB"
+		poolcount	= 10
+  }
+  redis {
+		ip			= "127.0.0.1"
+		port		= 6379
+		password	= "akduifwkro"
+		database	= 1
+  }
+}
+
+akka {
+	loggers = ["Akka.Logger.NLog.NLogLogger, Akka.Logger.NLog"]
+	actor {
+		provider = cluster
+		deployment {            								
+			/slotgameRouter {
+				router = round-robin-group
+				routees.paths = ["/user/gameManager"]
+				cluster {
+					enabled = on
+					allow-local-routees = off
+					use-role = slotgame
+				}
+			}
+			/promoRouter {
+				router = round-robin-group
+				routees.paths = ["/user/promofetcher"]
+				cluster {
+					enabled = on
+					allow-local-routees = off
+					use-role = promo
+				}
+			}
+			/redisWriter {
+				router 			= consistent-hashing-pool
+				nr-of-instances = 5
+			}
+			/httpWorkers {
+				router 			= consistent-hashing-pool
+				nr-of-instances = 20
+			}
+			/httpAuthWorkers {
+				router 			= consistent-hashing-pool
+				nr-of-instances = 20
+			}
+			/httpReplayWorkers {
+				router 			= consistent-hashing-pool
+				nr-of-instances = 20			
+			}
+			/httpHistoryWorkers {
+				router 			= consistent-hashing-pool
+				nr-of-instances = 20						
+			}
+			/spinDBReaders {
+				router	        = consistent-hashing-pool
+				nr-of-instances = 10
+			}
+
+		}
+	}
+	
+	remote {
+		dot-netty.tcp {
+				hostname = "127.0.0.1"
+				port     = 4055
+				maximum-frame-size = 2048000b
+			}
+	}			
+
+	cluster {
+		seed-nodes = ["akka.tcp://gitigaming@127.0.0.1:4055"]
+	}
+}

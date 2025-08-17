@@ -1,0 +1,91 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\work\\Slot\\PPServer\\Backend(PGSoft)\\Lighthouse\\Lighthouse.csproj": {}
+  },
+  "projects": {
+    "E:\\work\\Slot\\PPServer\\Backend(PGSoft)\\Lighthouse\\Lighthouse.csproj": {
+      "version": "1.4.0",
+      "restore": {
+        "projectUniqueName": "E:\\work\\Slot\\PPServer\\Backend(PGSoft)\\Lighthouse\\Lighthouse.csproj",
+        "projectName": "Lighthouse",
+        "projectPath": "E:\\work\\Slot\\PPServer\\Backend(PGSoft)\\Lighthouse\\Lighthouse.csproj",
+        "packagesPath": "C:\\Users\\bismarck\\.nuget\\packages\\",
+        "outputPath": "E:\\work\\Slot\\PPServer\\Backend(PGSoft)\\Lighthouse\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\bismarck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "targetAlias": "net461",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "targetAlias": "net461",
+          "dependencies": {
+            "Akka.Bootstrap.Docker": {
+              "target": "Package",
+              "version": "[0.5.0, )"
+            },
+            "Akka.Cluster": {
+              "target": "Package",
+              "version": "[1.4.18, )"
+            },
+            "Microsoft.Extensions.Configuration.Xml": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            },
+            "Petabridge.Cmd.Cluster": {
+              "target": "Package",
+              "version": "[0.8.3, )"
+            },
+            "Petabridge.Cmd.Remote": {
+              "target": "Package",
+              "version": "[0.8.3, )"
+            },
+            "Topshelf": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

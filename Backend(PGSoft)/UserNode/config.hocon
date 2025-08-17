@@ -1,0 +1,51 @@
+﻿user{
+  actorsystem: "godgaming" #POPULATE NAME OF YOUR ACTOR SYSTEM HERE
+  database {
+		ip			= "127.0.0.1"
+		port		= 1433
+		user		= "sa"
+		pass		= "kir_star1996"
+		dbname		= "gitslotpark_pgsoft"
+  }
+  redis {
+		ip			= "127.0.0.1"
+		port		= 6379
+		password	= ""
+		database	= 2
+  }
+}
+
+akka {
+	loggers = ["Akka.Logger.NLog.NLogLogger, Akka.Logger.NLog"]
+	actor {
+		provider = cluster
+		deployment {            								
+			/slotgameRouter {
+				router = round-robin-group
+				routees.paths = ["/user/gameManager"]
+				cluster {
+					enabled = on
+					allow-local-routees = off
+					use-role = slotgame
+				}
+			}			
+			/retryWorkers {
+				router 			= consistent-hashing-pool
+				nr-of-instances = 20										
+			}
+		}
+	}
+						
+	remote {
+		dot-netty.tcp {
+				hostname = "127.0.0.1"
+				port     = 9084
+				maximum-frame-size = 2048000b
+			}
+	}			
+
+	cluster {
+		seed-nodes = ["akka.tcp://godgaming@127.0.0.1:4056"]
+		roles = ["user"]
+	}
+}

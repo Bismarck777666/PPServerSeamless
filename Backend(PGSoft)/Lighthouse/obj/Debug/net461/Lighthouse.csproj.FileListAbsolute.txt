@@ -1,0 +1,1192 @@
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\akka.hocon
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\Lighthouse.exe.config
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\Lighthouse.exe
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\Lighthouse.pdb
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\Akka.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\Akka.Bootstrap.Docker.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\Akka.Cluster.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\Akka.Coordination.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\Akka.Remote.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\DotNetty.Buffers.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\DotNetty.Codecs.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\DotNetty.Common.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\DotNetty.Handlers.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\DotNetty.Transport.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\Google.Protobuf.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Configuration.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Configuration.FileExtensions.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Configuration.Xml.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.FileProviders.Abstractions.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.FileProviders.Physical.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.FileSystemGlobbing.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Logging.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Logging.Abstractions.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Primitives.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\Newtonsoft.Json.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\Petabridge.Cmd.Cluster.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\Petabridge.Cmd.Common.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\Petabridge.Cmd.Host.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\Petabridge.Cmd.Remote.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Buffers.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Collections.Immutable.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Configuration.ConfigurationManager.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Diagnostics.DiagnosticSource.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Memory.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Numerics.Vectors.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Runtime.CompilerServices.Unsafe.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Security.AccessControl.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Security.Permissions.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Security.Principal.Windows.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Threading.Tasks.Extensions.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.ValueTuple.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\Topshelf.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\Microsoft.Win32.Primitives.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\netstandard.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.AppContext.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Collections.Concurrent.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Collections.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Collections.NonGeneric.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Collections.Specialized.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.ComponentModel.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.ComponentModel.EventBasedAsync.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.ComponentModel.Primitives.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.ComponentModel.TypeConverter.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Console.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Data.Common.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Diagnostics.Contracts.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Diagnostics.Debug.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Diagnostics.FileVersionInfo.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Diagnostics.Process.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Diagnostics.StackTrace.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Diagnostics.TextWriterTraceListener.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Diagnostics.Tools.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Diagnostics.TraceSource.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Diagnostics.Tracing.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Drawing.Primitives.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Dynamic.Runtime.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Globalization.Calendars.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Globalization.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Globalization.Extensions.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.IO.Compression.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.IO.Compression.ZipFile.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.IO.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.IO.FileSystem.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.IO.FileSystem.DriveInfo.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.IO.FileSystem.Primitives.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.IO.FileSystem.Watcher.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.IO.IsolatedStorage.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.IO.MemoryMappedFiles.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.IO.Pipes.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.IO.UnmanagedMemoryStream.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Linq.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Linq.Expressions.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Linq.Parallel.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Linq.Queryable.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Net.Http.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Net.NameResolution.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Net.NetworkInformation.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Net.Ping.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Net.Primitives.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Net.Requests.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Net.Security.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Net.Sockets.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Net.WebHeaderCollection.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Net.WebSockets.Client.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Net.WebSockets.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.ObjectModel.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Reflection.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Reflection.Extensions.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Reflection.Primitives.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Resources.Reader.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Resources.ResourceManager.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Resources.Writer.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Runtime.CompilerServices.VisualC.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Runtime.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Runtime.Extensions.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Runtime.Handles.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Runtime.InteropServices.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Runtime.Numerics.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Runtime.Serialization.Formatters.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Runtime.Serialization.Json.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Runtime.Serialization.Primitives.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Runtime.Serialization.Xml.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Security.Claims.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.Algorithms.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.Csp.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.Encoding.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.Primitives.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.X509Certificates.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Security.Principal.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Security.SecureString.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Text.Encoding.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Text.Encoding.Extensions.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Text.RegularExpressions.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Threading.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Threading.Overlapped.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Threading.Tasks.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Threading.Tasks.Parallel.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Threading.Thread.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Threading.ThreadPool.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Threading.Timer.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Xml.ReaderWriter.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Xml.XDocument.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Xml.XmlDocument.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Xml.XmlSerializer.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Xml.XPath.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\bin\Debug\net461\System.Xml.XPath.XDocument.dll
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\obj\Debug\net461\Lighthouse.csproj.AssemblyReference.cache
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\obj\Debug\net461\Lighthouse.csproj.SuggestedBindingRedirects.cache
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\obj\Debug\net461\Lighthouse.exe.config
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\obj\Debug\net461\Lighthouse.GeneratedMSBuildEditorConfig.editorconfig
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\obj\Debug\net461\Lighthouse.AssemblyInfoInputs.cache
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\obj\Debug\net461\Lighthouse.AssemblyInfo.cs
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\obj\Debug\net461\Lighthouse.csproj.CoreCompileInputs.cache
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\obj\Debug\net461\Lighthouse.csproj.CopyComplete
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\obj\Debug\net461\Lighthouse.exe
+F:\Jobs\KCasino\Work\Backend(KCasino)\Lighthouse\obj\Debug\net461\Lighthouse.pdb
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\akka.hocon
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\Lighthouse.exe.config
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\Lighthouse.exe
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\Lighthouse.pdb
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\Akka.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\Akka.Bootstrap.Docker.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\Akka.Cluster.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\Akka.Coordination.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\Akka.Remote.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\DotNetty.Buffers.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\DotNetty.Codecs.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\DotNetty.Common.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\DotNetty.Handlers.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\DotNetty.Transport.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\Google.Protobuf.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Configuration.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Configuration.FileExtensions.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Configuration.Xml.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.FileProviders.Abstractions.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.FileProviders.Physical.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.FileSystemGlobbing.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Logging.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Logging.Abstractions.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Primitives.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\Newtonsoft.Json.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\Petabridge.Cmd.Cluster.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\Petabridge.Cmd.Common.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\Petabridge.Cmd.Host.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\Petabridge.Cmd.Remote.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Buffers.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Collections.Immutable.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Configuration.ConfigurationManager.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Diagnostics.DiagnosticSource.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Memory.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Numerics.Vectors.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Runtime.CompilerServices.Unsafe.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Security.AccessControl.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Security.Permissions.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Security.Principal.Windows.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Threading.Tasks.Extensions.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.ValueTuple.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\Topshelf.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\Microsoft.Win32.Primitives.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\netstandard.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.AppContext.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Collections.Concurrent.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Collections.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Collections.NonGeneric.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Collections.Specialized.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.ComponentModel.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.ComponentModel.EventBasedAsync.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.ComponentModel.Primitives.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.ComponentModel.TypeConverter.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Console.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Data.Common.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Diagnostics.Contracts.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Diagnostics.Debug.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Diagnostics.FileVersionInfo.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Diagnostics.Process.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Diagnostics.StackTrace.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Diagnostics.TextWriterTraceListener.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Diagnostics.Tools.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Diagnostics.TraceSource.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Diagnostics.Tracing.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Drawing.Primitives.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Dynamic.Runtime.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Globalization.Calendars.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Globalization.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Globalization.Extensions.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.IO.Compression.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.IO.Compression.ZipFile.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.IO.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.IO.FileSystem.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.IO.FileSystem.DriveInfo.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.IO.FileSystem.Primitives.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.IO.FileSystem.Watcher.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.IO.IsolatedStorage.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.IO.MemoryMappedFiles.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.IO.Pipes.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.IO.UnmanagedMemoryStream.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Linq.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Linq.Expressions.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Linq.Parallel.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Linq.Queryable.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Net.Http.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Net.NameResolution.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Net.NetworkInformation.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Net.Ping.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Net.Primitives.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Net.Requests.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Net.Security.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Net.Sockets.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Net.WebHeaderCollection.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Net.WebSockets.Client.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Net.WebSockets.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.ObjectModel.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Reflection.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Reflection.Extensions.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Reflection.Primitives.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Resources.Reader.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Resources.ResourceManager.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Resources.Writer.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Runtime.CompilerServices.VisualC.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Runtime.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Runtime.Extensions.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Runtime.Handles.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Runtime.InteropServices.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Runtime.Numerics.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Runtime.Serialization.Formatters.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Runtime.Serialization.Json.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Runtime.Serialization.Primitives.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Runtime.Serialization.Xml.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Security.Claims.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.Algorithms.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.Csp.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.Encoding.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.Primitives.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.X509Certificates.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Security.Principal.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Security.SecureString.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Text.Encoding.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Text.Encoding.Extensions.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Text.RegularExpressions.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Threading.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Threading.Overlapped.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Threading.Tasks.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Threading.Tasks.Parallel.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Threading.Thread.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Threading.ThreadPool.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Threading.Timer.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Xml.ReaderWriter.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Xml.XDocument.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Xml.XmlDocument.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Xml.XmlSerializer.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Xml.XPath.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Xml.XPath.XDocument.dll
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\obj\Debug\net461\Lighthouse.csproj.AssemblyReference.cache
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\obj\Debug\net461\Lighthouse.csproj.SuggestedBindingRedirects.cache
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\obj\Debug\net461\Lighthouse.exe.config
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\obj\Debug\net461\Lighthouse.GeneratedMSBuildEditorConfig.editorconfig
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\obj\Debug\net461\Lighthouse.AssemblyInfoInputs.cache
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\obj\Debug\net461\Lighthouse.AssemblyInfo.cs
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\obj\Debug\net461\Lighthouse.csproj.CoreCompileInputs.cache
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\obj\Debug\net461\Lighthouse.csproj.CopyComplete
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\obj\Debug\net461\Lighthouse.exe
+F:\Jobs\KSlot\Backend(KSlot)\Lighthouse\obj\Debug\net461\Lighthouse.pdb
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\akka.hocon
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\Lighthouse.exe.config
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\Lighthouse.exe
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\Lighthouse.pdb
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\Akka.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\Akka.Bootstrap.Docker.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\Akka.Cluster.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\Akka.Coordination.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\Akka.Remote.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\DotNetty.Buffers.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\DotNetty.Codecs.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\DotNetty.Common.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\DotNetty.Handlers.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\DotNetty.Transport.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\Google.Protobuf.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Configuration.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Configuration.Xml.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.FileProviders.Physical.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Logging.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Primitives.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\Newtonsoft.Json.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\Petabridge.Cmd.Cluster.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\Petabridge.Cmd.Common.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\Petabridge.Cmd.Host.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\Petabridge.Cmd.Remote.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Buffers.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Collections.Immutable.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Configuration.ConfigurationManager.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Diagnostics.DiagnosticSource.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Memory.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Numerics.Vectors.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Runtime.CompilerServices.Unsafe.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Security.AccessControl.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Security.Permissions.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Security.Principal.Windows.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Threading.Tasks.Extensions.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.ValueTuple.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\Topshelf.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\Microsoft.Win32.Primitives.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\netstandard.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.AppContext.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Collections.Concurrent.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Collections.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Collections.NonGeneric.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Collections.Specialized.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.ComponentModel.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.ComponentModel.EventBasedAsync.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.ComponentModel.Primitives.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.ComponentModel.TypeConverter.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Console.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Data.Common.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Diagnostics.Contracts.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Diagnostics.Debug.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Diagnostics.FileVersionInfo.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Diagnostics.Process.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Diagnostics.StackTrace.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Diagnostics.TextWriterTraceListener.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Diagnostics.Tools.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Diagnostics.TraceSource.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Diagnostics.Tracing.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Drawing.Primitives.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Dynamic.Runtime.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Globalization.Calendars.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Globalization.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Globalization.Extensions.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.IO.Compression.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.IO.Compression.ZipFile.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.IO.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.IO.FileSystem.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.IO.FileSystem.DriveInfo.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.IO.FileSystem.Primitives.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.IO.FileSystem.Watcher.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.IO.IsolatedStorage.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.IO.MemoryMappedFiles.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.IO.Pipes.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.IO.UnmanagedMemoryStream.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Linq.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Linq.Expressions.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Linq.Parallel.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Linq.Queryable.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Net.Http.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Net.NameResolution.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Net.NetworkInformation.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Net.Ping.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Net.Primitives.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Net.Requests.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Net.Security.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Net.Sockets.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Net.WebHeaderCollection.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Net.WebSockets.Client.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Net.WebSockets.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.ObjectModel.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Reflection.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Reflection.Extensions.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Reflection.Primitives.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Resources.Reader.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Resources.ResourceManager.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Resources.Writer.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Runtime.CompilerServices.VisualC.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Runtime.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Runtime.Extensions.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Runtime.Handles.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Runtime.InteropServices.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Runtime.Numerics.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Runtime.Serialization.Formatters.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Runtime.Serialization.Json.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Runtime.Serialization.Primitives.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Runtime.Serialization.Xml.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Security.Claims.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.Algorithms.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.Csp.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.Encoding.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.Primitives.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.X509Certificates.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Security.Principal.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Security.SecureString.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Text.Encoding.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Text.Encoding.Extensions.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Text.RegularExpressions.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Threading.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Threading.Overlapped.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Threading.Tasks.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Threading.Tasks.Parallel.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Threading.Thread.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Threading.ThreadPool.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Threading.Timer.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Xml.ReaderWriter.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Xml.XDocument.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Xml.XmlDocument.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Xml.XmlSerializer.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Xml.XPath.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\bin\Debug\net461\System.Xml.XPath.XDocument.dll
+E:\Jobs\Backend(KSlot)\Lighthouse\obj\Debug\net461\Lighthouse.csproj.AssemblyReference.cache
+E:\Jobs\Backend(KSlot)\Lighthouse\obj\Debug\net461\Lighthouse.csproj.SuggestedBindingRedirects.cache
+E:\Jobs\Backend(KSlot)\Lighthouse\obj\Debug\net461\Lighthouse.exe.config
+E:\Jobs\Backend(KSlot)\Lighthouse\obj\Debug\net461\Lighthouse.GeneratedMSBuildEditorConfig.editorconfig
+E:\Jobs\Backend(KSlot)\Lighthouse\obj\Debug\net461\Lighthouse.AssemblyInfoInputs.cache
+E:\Jobs\Backend(KSlot)\Lighthouse\obj\Debug\net461\Lighthouse.AssemblyInfo.cs
+E:\Jobs\Backend(KSlot)\Lighthouse\obj\Debug\net461\Lighthouse.csproj.CoreCompileInputs.cache
+E:\Jobs\Backend(KSlot)\Lighthouse\obj\Debug\net461\Lighthouse.csproj.CopyComplete
+E:\Jobs\Backend(KSlot)\Lighthouse\obj\Debug\net461\Lighthouse.exe
+E:\Jobs\Backend(KSlot)\Lighthouse\obj\Debug\net461\Lighthouse.pdb
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\akka.hocon
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\Lighthouse.exe.config
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\Lighthouse.exe
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\Lighthouse.pdb
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\Akka.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\Akka.Bootstrap.Docker.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\Akka.Cluster.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\Akka.Coordination.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\Akka.Remote.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\DotNetty.Buffers.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\DotNetty.Codecs.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\DotNetty.Common.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\DotNetty.Handlers.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\DotNetty.Transport.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\Google.Protobuf.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Configuration.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Configuration.Xml.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.FileProviders.Physical.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Logging.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Primitives.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\Newtonsoft.Json.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\Petabridge.Cmd.Cluster.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\Petabridge.Cmd.Common.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\Petabridge.Cmd.Host.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\Petabridge.Cmd.Remote.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Buffers.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Collections.Immutable.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Configuration.ConfigurationManager.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Diagnostics.DiagnosticSource.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Memory.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Numerics.Vectors.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Runtime.CompilerServices.Unsafe.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Security.AccessControl.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Security.Permissions.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Security.Principal.Windows.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Threading.Tasks.Extensions.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.ValueTuple.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\Topshelf.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\Microsoft.Win32.Primitives.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\netstandard.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.AppContext.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Collections.Concurrent.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Collections.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Collections.NonGeneric.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Collections.Specialized.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.ComponentModel.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.ComponentModel.EventBasedAsync.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.ComponentModel.Primitives.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.ComponentModel.TypeConverter.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Console.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Data.Common.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Diagnostics.Contracts.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Diagnostics.Debug.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Diagnostics.FileVersionInfo.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Diagnostics.Process.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Diagnostics.StackTrace.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Diagnostics.TextWriterTraceListener.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Diagnostics.Tools.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Diagnostics.TraceSource.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Diagnostics.Tracing.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Drawing.Primitives.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Dynamic.Runtime.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Globalization.Calendars.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Globalization.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Globalization.Extensions.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.IO.Compression.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.IO.Compression.ZipFile.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.IO.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.IO.FileSystem.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.IO.FileSystem.DriveInfo.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.IO.FileSystem.Primitives.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.IO.FileSystem.Watcher.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.IO.IsolatedStorage.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.IO.MemoryMappedFiles.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.IO.Pipes.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.IO.UnmanagedMemoryStream.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Linq.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Linq.Expressions.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Linq.Parallel.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Linq.Queryable.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Net.Http.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Net.NameResolution.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Net.NetworkInformation.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Net.Ping.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Net.Primitives.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Net.Requests.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Net.Security.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Net.Sockets.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Net.WebHeaderCollection.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Net.WebSockets.Client.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Net.WebSockets.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.ObjectModel.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Reflection.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Reflection.Extensions.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Reflection.Primitives.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Resources.Reader.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Resources.ResourceManager.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Resources.Writer.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Runtime.CompilerServices.VisualC.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Runtime.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Runtime.Extensions.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Runtime.Handles.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Runtime.InteropServices.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Runtime.Numerics.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Runtime.Serialization.Formatters.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Runtime.Serialization.Json.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Runtime.Serialization.Primitives.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Runtime.Serialization.Xml.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Security.Claims.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.Algorithms.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.Csp.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.Encoding.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.Primitives.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.X509Certificates.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Security.Principal.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Security.SecureString.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Text.Encoding.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Text.Encoding.Extensions.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Text.RegularExpressions.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Threading.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Threading.Overlapped.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Threading.Tasks.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Threading.Tasks.Parallel.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Threading.Thread.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Threading.ThreadPool.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Threading.Timer.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Xml.ReaderWriter.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Xml.XDocument.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Xml.XmlDocument.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Xml.XmlSerializer.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Xml.XPath.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\bin\Debug\net461\System.Xml.XPath.XDocument.dll
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\obj\Debug\net461\Lighthouse.csproj.AssemblyReference.cache
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\obj\Debug\net461\Lighthouse.csproj.SuggestedBindingRedirects.cache
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\obj\Debug\net461\Lighthouse.exe.config
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\obj\Debug\net461\Lighthouse.GeneratedMSBuildEditorConfig.editorconfig
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\obj\Debug\net461\Lighthouse.AssemblyInfoInputs.cache
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\obj\Debug\net461\Lighthouse.AssemblyInfo.cs
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\obj\Debug\net461\Lighthouse.csproj.CoreCompileInputs.cache
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\obj\Debug\net461\Lighthouse.csproj.CopyComplete
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\obj\Debug\net461\Lighthouse.exe
+E:\Jobs\Backend(GitSlotPark Seamless)\Lighthouse\obj\Debug\net461\Lighthouse.pdb
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\akka.hocon
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\Lighthouse.exe.config
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\Lighthouse.exe
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\Lighthouse.pdb
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\Akka.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\Akka.Bootstrap.Docker.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\Akka.Cluster.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\Akka.Coordination.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\Akka.Remote.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\DotNetty.Buffers.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\DotNetty.Codecs.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\DotNetty.Common.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\DotNetty.Handlers.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\DotNetty.Transport.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\Google.Protobuf.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Configuration.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Configuration.Xml.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.FileProviders.Physical.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Logging.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Primitives.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\Newtonsoft.Json.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\Petabridge.Cmd.Cluster.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\Petabridge.Cmd.Common.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\Petabridge.Cmd.Host.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\Petabridge.Cmd.Remote.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Buffers.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Collections.Immutable.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Configuration.ConfigurationManager.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Diagnostics.DiagnosticSource.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Memory.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Numerics.Vectors.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Runtime.CompilerServices.Unsafe.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Security.AccessControl.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Security.Permissions.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Security.Principal.Windows.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Threading.Tasks.Extensions.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.ValueTuple.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\Topshelf.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\Microsoft.Win32.Primitives.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\netstandard.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.AppContext.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Collections.Concurrent.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Collections.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Collections.NonGeneric.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Collections.Specialized.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.ComponentModel.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.ComponentModel.EventBasedAsync.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.ComponentModel.Primitives.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.ComponentModel.TypeConverter.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Console.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Data.Common.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Diagnostics.Contracts.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Diagnostics.Debug.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Diagnostics.FileVersionInfo.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Diagnostics.Process.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Diagnostics.StackTrace.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Diagnostics.TextWriterTraceListener.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Diagnostics.Tools.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Diagnostics.TraceSource.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Diagnostics.Tracing.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Drawing.Primitives.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Dynamic.Runtime.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Globalization.Calendars.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Globalization.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Globalization.Extensions.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.IO.Compression.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.IO.Compression.ZipFile.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.IO.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.IO.FileSystem.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.IO.FileSystem.DriveInfo.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.IO.FileSystem.Primitives.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.IO.FileSystem.Watcher.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.IO.IsolatedStorage.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.IO.MemoryMappedFiles.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.IO.Pipes.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.IO.UnmanagedMemoryStream.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Linq.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Linq.Expressions.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Linq.Parallel.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Linq.Queryable.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Net.Http.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Net.NameResolution.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Net.NetworkInformation.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Net.Ping.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Net.Primitives.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Net.Requests.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Net.Security.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Net.Sockets.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Net.WebHeaderCollection.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Net.WebSockets.Client.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Net.WebSockets.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.ObjectModel.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Reflection.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Reflection.Extensions.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Reflection.Primitives.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Resources.Reader.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Resources.ResourceManager.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Resources.Writer.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Runtime.CompilerServices.VisualC.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Runtime.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Runtime.Extensions.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Runtime.Handles.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Runtime.InteropServices.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Runtime.Numerics.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Runtime.Serialization.Formatters.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Runtime.Serialization.Json.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Runtime.Serialization.Primitives.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Runtime.Serialization.Xml.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Security.Claims.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.Algorithms.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.Csp.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.Encoding.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.Primitives.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.X509Certificates.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Security.Principal.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Security.SecureString.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Text.Encoding.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Text.Encoding.Extensions.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Text.RegularExpressions.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Threading.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Threading.Overlapped.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Threading.Tasks.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Threading.Tasks.Parallel.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Threading.Thread.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Threading.ThreadPool.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Threading.Timer.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Xml.ReaderWriter.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Xml.XDocument.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Xml.XmlDocument.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Xml.XmlSerializer.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Xml.XPath.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\bin\Debug\net461\System.Xml.XPath.XDocument.dll
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\obj\Debug\net461\Lighthouse.csproj.AssemblyReference.cache
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\obj\Debug\net461\Lighthouse.csproj.SuggestedBindingRedirects.cache
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\obj\Debug\net461\Lighthouse.exe.config
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\obj\Debug\net461\Lighthouse.GeneratedMSBuildEditorConfig.editorconfig
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\obj\Debug\net461\Lighthouse.AssemblyInfoInputs.cache
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\obj\Debug\net461\Lighthouse.AssemblyInfo.cs
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\obj\Debug\net461\Lighthouse.csproj.CoreCompileInputs.cache
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\obj\Debug\net461\Lighthouse.csproj.CopyComplete
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\obj\Debug\net461\Lighthouse.exe
+E:\Jobs\Backend(GitSlotPark Seamless2)\Lighthouse\obj\Debug\net461\Lighthouse.pdb
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\akka.hocon
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Lighthouse.exe.config
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Lighthouse.exe
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Lighthouse.pdb
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Akka.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Akka.Bootstrap.Docker.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Akka.Cluster.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Akka.Coordination.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Akka.Remote.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\DotNetty.Buffers.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\DotNetty.Codecs.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\DotNetty.Common.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\DotNetty.Handlers.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\DotNetty.Transport.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Google.Protobuf.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Configuration.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Configuration.Xml.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.FileProviders.Physical.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Logging.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Primitives.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Newtonsoft.Json.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Petabridge.Cmd.Cluster.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Petabridge.Cmd.Common.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Petabridge.Cmd.Host.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Petabridge.Cmd.Remote.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Buffers.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Collections.Immutable.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Configuration.ConfigurationManager.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Diagnostics.DiagnosticSource.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Memory.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Numerics.Vectors.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Runtime.CompilerServices.Unsafe.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Security.AccessControl.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Security.Permissions.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Security.Principal.Windows.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Threading.Tasks.Extensions.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.ValueTuple.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Topshelf.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Microsoft.Win32.Primitives.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\netstandard.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.AppContext.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Collections.Concurrent.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Collections.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Collections.NonGeneric.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Collections.Specialized.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.ComponentModel.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.ComponentModel.EventBasedAsync.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.ComponentModel.Primitives.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.ComponentModel.TypeConverter.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Console.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Data.Common.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Diagnostics.Contracts.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Diagnostics.Debug.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Diagnostics.FileVersionInfo.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Diagnostics.Process.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Diagnostics.StackTrace.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Diagnostics.TextWriterTraceListener.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Diagnostics.Tools.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Diagnostics.TraceSource.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Diagnostics.Tracing.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Drawing.Primitives.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Dynamic.Runtime.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Globalization.Calendars.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Globalization.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Globalization.Extensions.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.IO.Compression.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.IO.Compression.ZipFile.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.IO.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.IO.FileSystem.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.IO.FileSystem.DriveInfo.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.IO.FileSystem.Primitives.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.IO.FileSystem.Watcher.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.IO.IsolatedStorage.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.IO.MemoryMappedFiles.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.IO.Pipes.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.IO.UnmanagedMemoryStream.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Linq.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Linq.Expressions.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Linq.Parallel.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Linq.Queryable.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Net.Http.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Net.NameResolution.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Net.NetworkInformation.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Net.Ping.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Net.Primitives.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Net.Requests.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Net.Security.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Net.Sockets.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Net.WebHeaderCollection.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Net.WebSockets.Client.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Net.WebSockets.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.ObjectModel.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Reflection.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Reflection.Extensions.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Reflection.Primitives.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Resources.Reader.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Resources.ResourceManager.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Resources.Writer.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Runtime.CompilerServices.VisualC.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Runtime.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Runtime.Extensions.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Runtime.Handles.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Runtime.InteropServices.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Runtime.Numerics.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Runtime.Serialization.Formatters.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Runtime.Serialization.Json.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Runtime.Serialization.Primitives.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Runtime.Serialization.Xml.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Security.Claims.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.Algorithms.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.Csp.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.Encoding.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.Primitives.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.X509Certificates.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Security.Principal.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Security.SecureString.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Text.Encoding.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Text.Encoding.Extensions.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Text.RegularExpressions.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Threading.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Threading.Overlapped.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Threading.Tasks.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Threading.Tasks.Parallel.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Threading.Thread.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Threading.ThreadPool.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Threading.Timer.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Xml.ReaderWriter.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Xml.XDocument.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Xml.XmlDocument.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Xml.XmlSerializer.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Xml.XPath.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Xml.XPath.XDocument.dll
+E:\Jobs\Backend(PGSoft)\Lighthouse\obj\Debug\net461\Lighthouse.csproj.AssemblyReference.cache
+E:\Jobs\Backend(PGSoft)\Lighthouse\obj\Debug\net461\Lighthouse.csproj.SuggestedBindingRedirects.cache
+E:\Jobs\Backend(PGSoft)\Lighthouse\obj\Debug\net461\Lighthouse.exe.config
+E:\Jobs\Backend(PGSoft)\Lighthouse\obj\Debug\net461\Lighthouse.GeneratedMSBuildEditorConfig.editorconfig
+E:\Jobs\Backend(PGSoft)\Lighthouse\obj\Debug\net461\Lighthouse.AssemblyInfoInputs.cache
+E:\Jobs\Backend(PGSoft)\Lighthouse\obj\Debug\net461\Lighthouse.AssemblyInfo.cs
+E:\Jobs\Backend(PGSoft)\Lighthouse\obj\Debug\net461\Lighthouse.csproj.CoreCompileInputs.cache
+E:\Jobs\Backend(PGSoft)\Lighthouse\obj\Debug\net461\Lighthouse.csproj.CopyComplete
+E:\Jobs\Backend(PGSoft)\Lighthouse\obj\Debug\net461\Lighthouse.exe
+E:\Jobs\Backend(PGSoft)\Lighthouse\obj\Debug\net461\Lighthouse.pdb
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\akka.hocon
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Lighthouse.exe.config
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Lighthouse.exe
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Lighthouse.pdb
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Akka.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Akka.Bootstrap.Docker.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Akka.Cluster.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Akka.Coordination.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Akka.Remote.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\DotNetty.Buffers.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\DotNetty.Codecs.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\DotNetty.Common.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\DotNetty.Handlers.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\DotNetty.Transport.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Google.Protobuf.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Configuration.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Configuration.Xml.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.FileProviders.Physical.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Logging.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Logging.Abstractions.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Primitives.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Newtonsoft.Json.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Petabridge.Cmd.Cluster.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Petabridge.Cmd.Common.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Petabridge.Cmd.Host.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Petabridge.Cmd.Remote.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Buffers.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Collections.Immutable.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Configuration.ConfigurationManager.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Diagnostics.DiagnosticSource.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Memory.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Numerics.Vectors.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Runtime.CompilerServices.Unsafe.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Security.AccessControl.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Security.Permissions.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Security.Principal.Windows.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Threading.Tasks.Extensions.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.ValueTuple.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Topshelf.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Microsoft.Win32.Primitives.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\netstandard.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.AppContext.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Collections.Concurrent.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Collections.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Collections.NonGeneric.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Collections.Specialized.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.ComponentModel.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.ComponentModel.EventBasedAsync.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.ComponentModel.Primitives.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.ComponentModel.TypeConverter.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Console.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Data.Common.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Diagnostics.Contracts.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Diagnostics.Debug.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Diagnostics.FileVersionInfo.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Diagnostics.Process.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Diagnostics.StackTrace.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Diagnostics.TextWriterTraceListener.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Diagnostics.Tools.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Diagnostics.TraceSource.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Diagnostics.Tracing.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Drawing.Primitives.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Dynamic.Runtime.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Globalization.Calendars.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Globalization.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Globalization.Extensions.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.IO.Compression.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.IO.Compression.ZipFile.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.IO.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.IO.FileSystem.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.IO.FileSystem.DriveInfo.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.IO.FileSystem.Primitives.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.IO.FileSystem.Watcher.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.IO.IsolatedStorage.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.IO.MemoryMappedFiles.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.IO.Pipes.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.IO.UnmanagedMemoryStream.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Linq.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Linq.Expressions.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Linq.Parallel.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Linq.Queryable.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Net.Http.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Net.NameResolution.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Net.NetworkInformation.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Net.Ping.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Net.Primitives.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Net.Requests.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Net.Security.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Net.Sockets.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Net.WebHeaderCollection.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Net.WebSockets.Client.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Net.WebSockets.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.ObjectModel.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Reflection.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Reflection.Extensions.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Reflection.Primitives.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Resources.Reader.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Resources.ResourceManager.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Resources.Writer.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Runtime.CompilerServices.VisualC.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Runtime.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Runtime.Extensions.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Runtime.Handles.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Runtime.InteropServices.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Runtime.Numerics.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Runtime.Serialization.Formatters.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Runtime.Serialization.Json.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Runtime.Serialization.Primitives.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Runtime.Serialization.Xml.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Security.Claims.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.Algorithms.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.Csp.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.Encoding.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.Primitives.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.X509Certificates.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Security.Principal.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Security.SecureString.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Text.Encoding.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Text.Encoding.Extensions.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Text.RegularExpressions.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Threading.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Threading.Overlapped.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Threading.Tasks.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Threading.Tasks.Parallel.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Threading.Thread.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Threading.ThreadPool.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Threading.Timer.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Xml.ReaderWriter.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Xml.XDocument.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Xml.XmlDocument.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Xml.XmlSerializer.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Xml.XPath.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Xml.XPath.XDocument.dll
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\obj\Debug\net461\Lighthouse.csproj.AssemblyReference.cache
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\obj\Debug\net461\Lighthouse.csproj.SuggestedBindingRedirects.cache
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\obj\Debug\net461\Lighthouse.exe.config
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\obj\Debug\net461\Lighthouse.GeneratedMSBuildEditorConfig.editorconfig
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\obj\Debug\net461\Lighthouse.AssemblyInfoInputs.cache
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\obj\Debug\net461\Lighthouse.AssemblyInfo.cs
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\obj\Debug\net461\Lighthouse.csproj.CoreCompileInputs.cache
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\obj\Debug\net461\Lighthouse.csproj.Up2Date
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\obj\Debug\net461\Lighthouse.exe
+E:\work\work_by_category\Slot\PPServer\Backend(PGSoft)\Lighthouse\obj\Debug\net461\Lighthouse.pdb
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\akka.hocon
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Lighthouse.exe.config
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Lighthouse.exe
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Lighthouse.pdb
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Akka.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Akka.Bootstrap.Docker.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Akka.Cluster.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Akka.Coordination.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Akka.Remote.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\DotNetty.Buffers.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\DotNetty.Codecs.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\DotNetty.Common.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\DotNetty.Handlers.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\DotNetty.Transport.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Google.Protobuf.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Configuration.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Configuration.Xml.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.FileProviders.Physical.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Logging.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Logging.Abstractions.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Microsoft.Extensions.Primitives.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Newtonsoft.Json.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Petabridge.Cmd.Cluster.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Petabridge.Cmd.Common.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Petabridge.Cmd.Host.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Petabridge.Cmd.Remote.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Buffers.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Collections.Immutable.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Configuration.ConfigurationManager.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Diagnostics.DiagnosticSource.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Memory.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Numerics.Vectors.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Runtime.CompilerServices.Unsafe.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Security.AccessControl.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Security.Permissions.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Security.Principal.Windows.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Threading.Tasks.Extensions.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.ValueTuple.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Topshelf.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\Microsoft.Win32.Primitives.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\netstandard.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.AppContext.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Collections.Concurrent.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Collections.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Collections.NonGeneric.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Collections.Specialized.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.ComponentModel.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.ComponentModel.EventBasedAsync.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.ComponentModel.Primitives.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.ComponentModel.TypeConverter.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Console.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Data.Common.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Diagnostics.Contracts.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Diagnostics.Debug.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Diagnostics.FileVersionInfo.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Diagnostics.Process.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Diagnostics.StackTrace.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Diagnostics.TextWriterTraceListener.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Diagnostics.Tools.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Diagnostics.TraceSource.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Diagnostics.Tracing.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Drawing.Primitives.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Dynamic.Runtime.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Globalization.Calendars.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Globalization.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Globalization.Extensions.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.IO.Compression.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.IO.Compression.ZipFile.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.IO.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.IO.FileSystem.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.IO.FileSystem.DriveInfo.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.IO.FileSystem.Primitives.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.IO.FileSystem.Watcher.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.IO.IsolatedStorage.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.IO.MemoryMappedFiles.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.IO.Pipes.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.IO.UnmanagedMemoryStream.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Linq.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Linq.Expressions.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Linq.Parallel.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Linq.Queryable.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Net.Http.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Net.NameResolution.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Net.NetworkInformation.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Net.Ping.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Net.Primitives.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Net.Requests.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Net.Security.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Net.Sockets.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Net.WebHeaderCollection.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Net.WebSockets.Client.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Net.WebSockets.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.ObjectModel.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Reflection.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Reflection.Extensions.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Reflection.Primitives.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Resources.Reader.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Resources.ResourceManager.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Resources.Writer.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Runtime.CompilerServices.VisualC.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Runtime.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Runtime.Extensions.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Runtime.Handles.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Runtime.InteropServices.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Runtime.Numerics.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Runtime.Serialization.Formatters.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Runtime.Serialization.Json.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Runtime.Serialization.Primitives.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Runtime.Serialization.Xml.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Security.Claims.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.Algorithms.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.Csp.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.Encoding.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.Primitives.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Security.Cryptography.X509Certificates.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Security.Principal.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Security.SecureString.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Text.Encoding.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Text.Encoding.Extensions.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Text.RegularExpressions.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Threading.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Threading.Overlapped.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Threading.Tasks.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Threading.Tasks.Parallel.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Threading.Thread.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Threading.ThreadPool.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Threading.Timer.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Xml.ReaderWriter.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Xml.XDocument.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Xml.XmlDocument.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Xml.XmlSerializer.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Xml.XPath.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\bin\Debug\net461\System.Xml.XPath.XDocument.dll
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\obj\Debug\net461\Lighthouse.csproj.AssemblyReference.cache
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\obj\Debug\net461\Lighthouse.csproj.SuggestedBindingRedirects.cache
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\obj\Debug\net461\Lighthouse.exe.config
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\obj\Debug\net461\Lighthouse.GeneratedMSBuildEditorConfig.editorconfig
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\obj\Debug\net461\Lighthouse.AssemblyInfoInputs.cache
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\obj\Debug\net461\Lighthouse.AssemblyInfo.cs
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\obj\Debug\net461\Lighthouse.csproj.CoreCompileInputs.cache
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\obj\Debug\net461\Lighthouse.csproj.Up2Date
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\obj\Debug\net461\Lighthouse.exe
+E:\work\Slot\PPServer\Backend(PGSoft)\Lighthouse\obj\Debug\net461\Lighthouse.pdb

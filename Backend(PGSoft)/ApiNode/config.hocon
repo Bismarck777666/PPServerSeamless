@@ -1,0 +1,51 @@
+﻿apinode{
+  actorsystem: "godgaming" #POPULATE NAME OF YOUR ACTOR SYSTEM HERE
+  http {
+		baseurl = "http://*:9888"
+  }
+  database {
+		ip			= "localhost"
+		port		= 1433
+		user		= "sa"
+		pass		= "kir_star1996"
+		dbname		= "gitslotpark_pgsoft"
+		poolcount	= 10
+  }
+  gameFront {
+		protocol	 = "http"
+		domain	     = "m.pgtest.com"
+		#domain	     = "localhost:56181"
+		tokenkey	 = "fd973747b689447fb360c89f9612baa9"
+		operatorguid = "43be6494-bfa7-4603-ad79-1043c23bc256"
+		#operatorguid = "N-f51d9326-73de-4fbf-af78-3129176f6430"
+		#originparam  = "05r%3Dlnyxqtyul%3Dhtr"
+		originparam  = 14ghohwq%3Dduhsgh%3Dqca
+  }
+
+}
+
+akka {
+	loggers = ["Akka.Logger.NLog.NLogLogger, Akka.Logger.NLog"]
+	actor {
+		provider = cluster
+		deployment {            											
+			/httpWorkers {
+				router 			= consistent-hashing-pool
+				nr-of-instances = 20
+			}
+		}
+	}
+						
+	remote {
+		dot-netty.tcp {
+				hostname = "127.0.0.1"
+				port     = 9094
+				maximum-frame-size = 2048000b
+			}
+	}			
+
+	cluster {
+		seed-nodes = ["akka.tcp://godgaming@127.0.0.1:4056"]
+		roles = ["queenapi"]
+	}
+}
