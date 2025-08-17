@@ -1,0 +1,106 @@
+﻿using GITProtocol;
+using SlotGamesNode.GameLogics.BaseClasses;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SlotGamesNode.GameLogics
+{
+    internal class HaulOfHadesGameLogic : BaseGreenSlotGame
+    {
+        #region
+        protected override string ScatterSymbol
+        {
+            get
+            {
+                return "F";
+            }
+        }
+
+        protected override int MinCountToFreespin
+        {
+            get
+            {
+                return 9;
+            }
+        }
+
+        protected override string VersionCheckString
+        {
+            get
+            {
+                return "\b0ÿ2.5.16ÿCasino-Lobbymanager-Serverÿ545ÿ1.10.54.0ÿMazooma_Serverÿ1101ÿ1.0.0ÿHaulOfHades 96%ÿ1.119.0_2025-04-14_123855ÿ1.183.0";
+            }
+        }
+
+        protected override string GameUniqueString
+        {
+            get
+            {
+                return "\u0006S0ÿA1ÿRÿM,10,10000,40,-1,0ÿI00ÿH,0,0,0,0,0,0ÿ:n,HaulOfHades 96%ÿ:v,3ÿ:l,-----ÿ:l,^^^^^ÿ:l,_____ÿ:l,^-_-^ÿ:l,_-^-_ÿ:l,^^-__ÿ:l,__-^^ÿ:l,-^-_-ÿ:l,-_-^-ÿ:l,^---_ÿ:l,_---^ÿ:l,-^^-_ÿ:l,-__-^ÿ:l,--^-_ÿ:l,--_-^ÿ:l,^^-_-ÿ:l,__-^-ÿ:l,-^-__ÿ:l,-_-^^ÿ:l,^^^-_ÿ:l,___-^ÿ:l,^-___ÿ:l,_-^^^ÿ:l,^-^-^ÿ:l,_-_-_ÿ:l,^---^ÿ:l,_---_ÿ:l,-^^^-ÿ:l,-___-ÿ:l,^-^-_ÿ:l,_-_-^ÿ:l,^-__-ÿ:l,_-^^-ÿ:l,^-_--ÿ:l,_-^--ÿ:l,-_-_-ÿ:l,-^-^-ÿ:l,^-_-_ÿ:l,_-^-^ÿ:l,^^-^^ÿ:r,0,SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSTQ2JATT3A4JQ3TQJTJA4QA4QQ3JA4TKJASSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSQ2JATT3A4JQ3TWTJQ1JA4QA4QQ3JATJATÿ:r,0,SSSSSSSSSSSSSSSSSSSSSSSSSSSSSS2A31T2JATK4T1KAJ2K4ATJKAJTKJTKA1KSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS4W2J1T2AQK4T1KAJ2K4TA4JAJ4JTJKA1K4ÿ:r,0,SSSSSSSSSSSSSSSSSSSSTKJTJQJKQ3SSSSSSSSSQ2TQTKAJ1Q4K2Q3TTJK3TQKJSSSSSSSSSSSSSSSS3T2JKQ2KJTJQJKQ32WT3TKJQKSSSSSSSSSSSSSK2Q3TJKT2QKJ3TKJKQÿ:r,0,SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSQJ341T4Q3Q31QT4JQ3K43JT34TJ3W41T4SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSQ3J31QT4J34A3JT234ÿ:r,0,SSSSSSSSSSSSSSSSSSSSSSSSSSSSSS4AWT2KJ2Q14J24Q13A2K4J4K2TA4AT2K2SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSQ14K24Q1A2K4J4K2Tÿ:r,1,111111111111111111111111111111TQ2JATT3A4JQ3TQJTJA4QA4QQ3JA4TKJA111111111111111111111111111111111111111Q2JATT3A4JQ3TWTJQ1JA4QA4QQ3JATJATÿ:r,1,1111111111111111111111111111112A31T2JATK4T1KAJ2K4ATJKAJTKJTKA1K111111111111111111111111111111111111114W2J1T2AQK4T1KAJ2K4TA4JAJ4JTJKA1K4ÿ:r,1,11111111111111111111TKJTJQJKQ3111111111Q2TQTKAJ1Q4K2Q3TTJK3TQKJ11111111111111113T2JKQ2KJTJQJKQ32WT3TKJQK1111111111111K2Q3TJKT2QKJ3TKJKQÿ:r,1,111111111111111111111111111111QJ341T4Q3Q31QT4JQ3K43JT34TJ3W41T4111111111111111111111111111111111111111111111111111111Q3J31QT4J34A3JT234ÿ:r,1,1111111111111111111111111111114AWT2KJ2Q14J24Q13A2K4J4K2TA4AT2K21111111111111111111111111111111111111111111111111111111Q14K24Q1A2K4J4K2Tÿ:r,2,222222222222222222222222222222TQ2JATT3A4JQ3TQJTJA4QA4QQ3JA4TKJA222222222222222222222222222222222222222Q2JATT3A4JQ3TWTJQ1JA4QA4QQ3JATJATÿ:r,2,2222222222222222222222222222222A31T2JATK4T1KAJ2K4ATJKAJTKJTKA1K222222222222222222222222222222222222224W2J1T2AQK4T1KAJ2K4TA4JAJ4JTJKA1K4ÿ:r,2,22222222222222222222TKJTJQJKQ3222222222Q2TQTKAJ1Q4K2Q3TTJK3TQKJ22222222222222223T2JKQ2KJTJQJKQ32WT3TKJQK2222222222222K2Q3TJKT2QKJ3TKJKQÿ:r,2,222222222222222222222222222222QJ341T4Q3Q31QT4JQ3K43JT34TJ3W41T4222222222222222222222222222222222222222222222222222222Q3J31QT4J34A3JT234ÿ:r,2,2222222222222222222222222222224AWT2KJ2Q14J24Q13A2K4J4K2TA4AT2K22222222222222222222222222222222222222222222222222222222Q14K24Q1A2K4J4K2Tÿ:r,3,333333333333333333333333333333TQ2JATT3A4JQ3TQJTJA4QA4QQ3JA4TKJA333333333333333333333333333333333333333Q2JATT3A4JQ3TWTJQ1JA4QA4QQ3JATJATÿ:r,3,3333333333333333333333333333332A31T2JATK4T1KAJ2K4ATJKAJTKJTKA1K333333333333333333333333333333333333334W2J1T2AQK4T1KAJ2K4TA4JAJ4JTJKA1K4ÿ:r,3,33333333333333333333TKJTJQJKQ3333333333Q2TQTKAJ1Q4K2Q3TTJK3TQKJ33333333333333333T2JKQ2KJTJQJKQ32WT3TKJQK3333333333333K2Q3TJKT2QKJ3TKJKQÿ:r,3,333333333333333333333333333333QJ341T4Q3Q31QT4JQ3K43JT34TJ3W41T4333333333333333333333333333333333333333333333333333333Q3J31QT4J34A3JT234ÿ:r,3,3333333333333333333333333333334AWT2KJ2Q14J24Q13A2K4J4K2TA4AT2K23333333333333333333333333333333333333333333333333333333Q14K24Q1A2K4J4K2Tÿ:r,4,444444444444444444444444444444TQ2JATT3A4JQ3TQJTJA4QA4QQ3JA4TKJA444444444444444444444444444444444444444Q2JATT3A4JQ3TWTJQ1JA4QA4QQ3JATJATÿ:r,4,4444444444444444444444444444442A31T2JATK4T1KAJ2K4ATJKAJTKJTKA1K444444444444444444444444444444444444444W2J1T2AQK4T1KAJ2K4TA4JAJ4JTJKA1K4ÿ:r,4,44444444444444444444TKJTJQJKQ3444444444Q2TQTKAJ1Q4K2Q3TTJK3TQKJ44444444444444443T2JKQ2KJTJQJKQ32WT3TKJQK4444444444444K2Q3TJKT2QKJ3TKJKQÿ:r,4,444444444444444444444444444444QJ341T4Q3Q31QT4JQ3K43JT34TJ3W41T4444444444444444444444444444444444444444444444444444444Q3J31QT4J34A3JT234ÿ:r,4,4444444444444444444444444444444AWT2KJ2Q14J24Q13A2K4J4K2TA4AT2K24444444444444444444444444444444444444444444444444444444Q14K24Q1A2K4J4K2Tÿ:j,W,1,0,1234AKQJTÿ:u,APPPP.PP.PP.PPPPÿ:w,T,3,1,0ÿ:w,T,4,6,0ÿ:w,T,5,11,0ÿ:w,J,3,2,0ÿ:w,J,4,7,0ÿ:w,J,5,12,0ÿ:w,Q,3,3,0ÿ:w,Q,4,8,0ÿ:w,Q,5,13,0ÿ:w,K,3,4,0ÿ:w,K,4,9,0ÿ:w,K,5,14,0ÿ:w,A,3,5,0ÿ:w,A,4,10,0ÿ:w,A,5,15,0ÿ:w,4,3,5,0ÿ:w,4,4,15,0ÿ:w,4,5,20,0ÿ:w,3,3,5,0ÿ:w,3,4,16,0ÿ:w,3,5,30,0ÿ:w,2,2,3,0ÿ:w,2,3,8,0ÿ:w,2,4,17,0ÿ:w,2,5,40,0ÿ:w,1,2,4,0ÿ:w,1,3,10,0ÿ:w,1,4,18,0ÿ:w,1,5,50,0ÿ:w,W,2,10,0ÿ:w,W,3,50,0ÿ:w,W,4,250,0ÿ:w,W,5,1000,0ÿ:wa,T,3,1,0,0,0,0:1,0,0ÿ:wa,T,4,6,0,0,0,0:1,0,0ÿ:wa,T,5,11,0,0,0,0:1,0,0ÿ:wa,J,3,2,0,0,0,0:1,0,0ÿ:wa,J,4,7,0,0,0,0:1,0,0ÿ:wa,J,5,12,0,0,0,0:1,0,0ÿ:wa,Q,3,3,0,0,0,0:1,0,0ÿ:wa,Q,4,8,0,0,0,0:1,0,0ÿ:wa,Q,5,13,0,0,0,0:1,0,0ÿ:wa,K,3,4,0,0,0,0:1,0,0ÿ:wa,K,4,9,0,0,0,0:1,0,0ÿ:wa,K,5,14,0,0,0,0:1,0,0ÿ:wa,A,3,5,0,0,0,0:1,0,0ÿ:wa,A,4,10,0,0,0,0:1,0,0ÿ:wa,A,5,15,0,0,0,0:1,0,0ÿ:wa,4,3,5,0,0,0,0:1,0,0ÿ:wa,4,4,15,0,0,0,0:1,0,0ÿ:wa,4,5,20,0,0,0,0:1,0,0ÿ:wa,3,3,5,0,0,0,0:1,0,0ÿ:wa,3,4,16,0,0,0,0:1,0,0ÿ:wa,3,5,30,0,0,0,0:1,0,0ÿ:wa,2,2,3,0,0,0,0:1,0,0ÿ:wa,2,3,8,0,0,0,0:1,0,0ÿ:wa,2,4,17,0,0,0,0:1,0,0ÿ:wa,2,5,40,0,0,0,0:1,0,0ÿ:wa,1,2,4,0,0,0,0:1,0,0ÿ:wa,1,3,10,0,0,0,0:1,0,0ÿ:wa,1,4,18,0,0,0,0:1,0,0ÿ:wa,1,5,50,0,0,0,0:1,0,0ÿ:wa,W,2,10,0,0,0,0:1,0,0ÿ:wa,W,3,50,0,0,0,0:1,0,0ÿ:wa,W,4,250,0,0,0,0:1,0,0ÿ:wa,W,5,1000,0,0,0,0:1,0,0ÿ:wa,T,3,1,0,0,0,0:1,1:2:3:4,0ÿ:wa,T,4,6,0,0,0,0:1,1:2:3:4,0ÿ:wa,T,5,11,0,0,0,0:1,1:2:3:4,0ÿ:wa,J,3,2,0,0,0,0:1,1:2:3:4,0ÿ:wa,J,4,7,0,0,0,0:1,1:2:3:4,0ÿ:wa,J,5,12,0,0,0,0:1,1:2:3:4,0ÿ:wa,Q,3,3,0,0,0,0:1,1:2:3:4,0ÿ:wa,Q,4,8,0,0,0,0:1,1:2:3:4,0ÿ:wa,Q,5,13,0,0,0,0:1,1:2:3:4,0ÿ:wa,K,3,4,0,0,0,0:1,1:2:3:4,0ÿ:wa,K,4,9,0,0,0,0:1,1:2:3:4,0ÿ:wa,K,5,14,0,0,0,0:1,1:2:3:4,0ÿ:wa,A,3,5,0,0,0,0:1,1:2:3:4,0ÿ:wa,A,4,10,0,0,0,0:1,1:2:3:4,0ÿ:wa,A,5,15,0,0,0,0:1,1:2:3:4,0ÿ:wa,4,3,5,0,0,0,0:1,1:2:3:4,0ÿ:wa,4,4,15,0,0,0,0:1,1:2:3:4,0ÿ:wa,4,5,20,0,0,0,0:1,1:2:3:4,0ÿ:wa,3,3,5,0,0,0,0:1,1:2:3:4,0ÿ:wa,3,4,16,0,0,0,0:1,1:2:3:4,0ÿ:wa,3,5,30,0,0,0,0:1,1:2:3:4,0ÿ:wa,2,2,3,0,0,0,0:1,1:2:3:4,0ÿ:wa,2,3,8,0,0,0,0:1,1:2:3:4,0ÿ:wa,2,4,17,0,0,0,0:1,1:2:3:4,0ÿ:wa,2,5,40,0,0,0,0:1,1:2:3:4,0ÿ:wa,1,2,4,0,0,0,0:1,1:2:3:4,0ÿ:wa,1,3,10,0,0,0,0:1,1:2:3:4,0ÿ:wa,1,4,18,0,0,0,0:1,1:2:3:4,0ÿ:wa,1,5,50,0,0,0,0:1,1:2:3:4,0ÿ:wa,W,2,10,0,0,0,0:1,1:2:3:4,0ÿ:wa,W,3,50,0,0,0,0:1,1:2:3:4,0ÿ:wa,W,4,250,0,0,0,0:1,1:2:3:4,0ÿ:wa,W,5,1000,0,0,0,0:1,1:2:3:4,0ÿ:s,0ÿ:i,40ÿ:m,40ÿ:a,0,0ÿ:g,999,1000,-1,false,0,falseÿ:es,0,0ÿ:mbnr,0.0ÿ:fs,0,0,0,0,0,0ÿbs,0,1,0ÿ:k,nullÿe,40,0,0,-1ÿb,0,0,0ÿs,1ÿr,0,5,110,69,117,33,41ÿx,2,HADES:2#2#T#2#4#,REELSET:0ÿrw,0";
+            }
+        }
+        #endregion
+
+        public HaulOfHadesGameLogic()
+        {
+            _gameID = GAMEID.HaulOfHades;
+            GameName = "HaulOfHades";
+        }
+        
+        protected override string buildLineBetString(string strGlobalUserID, double balance)
+        {
+            return string.Format("\u0006S{0}ÿA0ÿC,100.0,,1,ÿT,0,0,0ÿRÿM,40,3000,40,-1,0ÿI00ÿH,0,0,0,0,0,0ÿY,7200,10ÿ:i,40ÿ:m,40ÿ:b,12,1,2,3,4,5,8,10,15,20,30,40,50ÿ:a,0,0ÿ:g,999,1000,-1,false,0,falseÿ:es,0,0ÿ:mbnr,40.0ÿbs,0,1,0ÿ:k,nullÿe,{1},{2},{3},-1ÿb,1000,1000,0ÿs,1ÿr,0,5,110,69,117,33,41ÿx,2,HADES:2#2#T#2#4#,REELSET:0ÿrw,0", balance, !_dicUserBetInfos.ContainsKey(strGlobalUserID) ? this._defaultLine : _dicUserBetInfos[strGlobalUserID].PlayLine, !_dicUserBetInfos.ContainsKey(strGlobalUserID) ? this._defaultBetPerLine : (_dicUserBetInfos[strGlobalUserID].PlayBet / _dicUserBetInfos[strGlobalUserID].PlayLine), !_dicUserBetInfos.ContainsKey(strGlobalUserID) ? Array.IndexOf(_supportLines, this._defaultLine) : Array.IndexOf(_supportLines, _dicUserBetInfos[strGlobalUserID].PlayLine));
+        }
+
+        protected override void onDoInit(string strGlobalUserID, GITMessage message, double balance, Currencies currency)
+        {
+            try
+            {
+                GITMessage resMessage = new GITMessage((ushort)SCMSG_CODE.SC_GREENTUBE_DOINIT);
+                resMessage.Append("%t0ÿq0");
+                resMessage.Append(VersionCheckString);
+                foreach (string currencyName in SupportCurrencyList)
+                {
+                    resMessage.Append(currencyName);
+                }
+                resMessage.Append(buildInitString(strGlobalUserID, balance, currency));
+                resMessage.Append("\vGAMEVARIATIONÿ665ÿTICKETSÿ1");
+
+                resMessage.Append(GameUniqueString);
+                
+                resMessage.Append("%t0ÿq0");
+                resMessage.Append($"\aNATIVEJACKPOTCURRENCYFACTORÿ100.0ÿMAXBUYINTOTALÿ0ÿNEEDSSESSIONTIMEOUTÿ0ÿRELIABILITYÿ0ÿNICKNAMEÿ155258EURÿIDÿ155258ÿISDEEPWALLETÿ0ÿCURRENCYFACTORÿ100.0ÿMINBUYINÿ1ÿSESSIONTIMEOUTMINUTESÿ60ÿJACKPOT_PROGRESSIVE_CAPÿ0.0ÿNATIVEJACKPOTCURRENCYÿ{getCurrencyCode(currency)}ÿEXTUSERIDÿDummyDB_ExternalUserId_155258EURÿFREESPINSISCAPREACHEDÿ0ÿCURRENCYÿ{getCurrencySymbol(currency)}ÿTICKETSÿ0ÿJACKPOT_TOTAL_CAPÿ0.0ÿJACKPOTFEEPERCENTAGEÿ0.0ÿISSHOWJACKPOTCONTRIBUTIONÿ0");
+                resMessage.Append(buildLineBetString(strGlobalUserID, balance));
+
+                ToUserMessage toUserMessage = new ToUserMessage((int)_gameID, resMessage);
+
+                Sender.Tell(toUserMessage, Self);
+            }
+            catch (Exception ex)
+            {
+                _logger.Error("Exception has been occurred in BaseGreentubeSlotGame::onDoInit GameID: {0}, {1}", _gameID, ex);
+            }
+        }
+        protected override void onBalanceConfirm(string strGlobalUserID, GITMessage message, double balance, Currencies currency)
+        {
+            try
+            {
+                GITMessage resMessage = new GITMessage((ushort)SCMSG_CODE.SC_GREENTUBE_BALANCECONFIRM);
+                resMessage.Append("%t0ÿq0");
+                resMessage.Append($"\aNATIVEJACKPOTCURRENCYFACTORÿ100.0ÿMAXBUYINTOTALÿ0ÿNEEDSSESSIONTIMEOUTÿ0ÿRELIABILITYÿ0ÿNICKNAMEÿ155258EURÿIDÿ155258ÿISDEEPWALLETÿ0ÿCURRENCYFACTORÿ100.0ÿMINBUYINÿ1ÿSESSIONTIMEOUTMINUTESÿ60ÿJACKPOT_PROGRESSIVE_CAPÿ0.0ÿNATIVEJACKPOTCURRENCYÿ{getCurrencyCode(currency)}ÿEXTUSERIDÿDummyDB_ExternalUserId_155258EURÿFREESPINSISCAPREACHEDÿ0ÿCURRENCYÿ{getCurrencySymbol(currency)}ÿTICKETSÿ0ÿJACKPOT_TOTAL_CAPÿ0.0ÿJACKPOTFEEPERCENTAGEÿ0.0ÿISSHOWJACKPOTCONTRIBUTIONÿ0");
+                resMessage.Append(buildLineBetString(strGlobalUserID, balance));
+                ToUserMessage toUserMessage = new ToUserMessage((int)_gameID, resMessage);
+
+                Sender.Tell(toUserMessage, Self);
+            }
+            catch (Exception ex)
+            {
+                _logger.Error("Exception has been occurred in BaseGreentubeSlotGame::onDoInit GameID: {0}, {1}", _gameID, ex);
+            }
+        }
+    }
+}

@@ -1,0 +1,300 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Akka.Actor;
+using Akka.Routing;
+using Newtonsoft.Json;
+
+
+namespace GITProtocol
+{
+    public class CreateNewUserMessage
+    {
+        public object       Connection          { get; private set; }
+        public long         UserDBID            { get; private set; }
+        public string       UserID              { get; private set; }
+        public double       UserBalance         { get; private set; }
+        public string       PassToken           { get; private set; }
+        public string       AgentID             { get; private set; }
+        public int          AgentDBID           { get; private set; }
+        public long         LastScoreCounter    { get; private set; }
+        public Currencies   Currency            { get; private set; }
+
+        public CreateNewUserMessage(object connection, long userDBID, string strUserID, double userBalance, string passToken,
+            int agentDBID, string agentID, long lastScoreCounter, Currencies currency)
+        {
+            this.Connection       = connection;
+            this.UserID             = strUserID;
+            this.UserDBID           = userDBID;
+            this.UserBalance        = userBalance;
+            this.PassToken          = passToken;
+            this.AgentDBID          = agentDBID;
+            this.LastScoreCounter   = lastScoreCounter;
+            this.Currency           = currency;
+            this.AgentID            = agentID;
+        }
+        public string       GlobalUserID        => string.Format("{0}_{1}", AgentDBID, UserID);
+    }
+    public class FromConnRevMessage
+    {
+        public object       Connection      { get; private set; }
+        public GITMessage   Message         { get; private set; }
+
+        public FromConnRevMessage(object connection, GITMessage message)
+        {
+            this.Connection   = connection;
+            this.Message        = message;
+        }
+    }
+    public class SendMessageToUser
+    {
+        public GITMessage   Message { get; private set; }
+        public double       Balance { get; private set; }
+        public double       Delay   { get; private set; }
+        public SendMessageToUser(GITMessage message, double balance, double delay)
+        {
+            Message = message;
+            Balance = balance;
+            Delay   = delay;
+        }
+    }
+
+    public class EnterGameRequest
+    {
+        public int          AgentID     { get; private set; }
+        public string       UserID      { get; private set; }
+        public int          GameID      { get; private set; }
+        public bool         NewEnter    { get; private set; }
+        public IActorRef    UserActor   { get; private set; }
+        public EnterGameRequest(int gameID, int agentID, string userID, IActorRef userActor, bool newEnter = true)
+        {
+            AgentID     = agentID;
+            GameID      = gameID;
+            UserID      = userID;
+            NewEnter    = newEnter;
+            UserActor   = userActor;
+        }
+    }
+    public class EnterGameResponse
+    {
+        public IActorRef        GameActor   { get; private set; }
+        public int              GameID      { get; private set; }
+        public int              Ack         { get; private set; }
+        public List<GITMessage> SubMessages { get; private set; }
+
+        public EnterGameResponse(int gameID, IActorRef gameActor, int ack)
+        {
+            GameID      = gameID;
+            Ack         = ack;
+            GameActor   = gameActor;
+            SubMessages = new List<GITMessage>();
+        }
+    }
+    public class ExitGameRequest
+    {
+        public string       UserID              { get; private set; }
+        public int          WebsiteID           { get; private set; }
+        public double       Balance             { get; private set; }
+        public bool         UserRequested       { get; private set; }
+        public Currencies   Currency            { get; private set; }
+        public bool         IsNewServerReady    { get; private set; }
+
+        public ExitGameRequest(string userID, int websiteID, double balance, Currencies currency, bool userRequested, bool isNewServerReady)
+        {
+            UserID              = userID;
+            WebsiteID           = websiteID;
+            Balance             = balance;
+            Currency            = currency;
+            UserRequested       = userRequested;
+            IsNewServerReady    = isNewServerReady;
+        }
+    }
+    public class ExitGameResponse
+    {
+
+    }
+    public class GreenExitResponse : ExitGameResponse
+    {
+        public ToUserResultMessage ResultMsg { get; set; }
+        public GreenExitResponse(ToUserResultMessage resultMsg)
+        {
+            this.ResultMsg = resultMsg;
+        }
+    }
+    public class FromUserMessage
+    {
+        public string       UserID          { get; private set; }
+        public int          WebsiteID       { get; private set; }
+        public GITMessage   Message         { get; private set; }
+        public double       UserBalance     { get; private set; }
+        public IActorRef    UserActor       { get; private set; }
+        public Currencies   Currency        { get; private set; }
+        public FromUserMessage(string strUserID, int websiteID, double userBalance, IActorRef userActor, GITMessage message, Currencies currency)
+        {
+            UserID          = strUserID;
+            WebsiteID       = websiteID;
+            UserBalance     = userBalance;
+            UserActor       = userActor;
+            Message         = message;
+            Currency        = currency;
+        }
+    }
+    public class GameLogInfo
+    {
+        public string GameName  { get; private set; }
+        public string TableName { get; private set; }
+        public string LogString { get; private set; }
+        public GameLogInfo()
+        {
+
+        }
+        public GameLogInfo(string strGameName, string strTableName, string strGameLog)
+        {
+            GameName    = strGameName;
+            TableName   = strTableName;
+            LogString   = strGameLog;
+        }
+    }
+    public class ToUserMessage
+    {
+        public int              GameID              { get; private set; }
+        public List<GITMessage> Messages            { get; private set; }
+        public bool             IsCountAsSpin       { get; private set; }
+        public bool             IsRewardedBonus     { get; private set; }
+        public double           RewardBonusMoney    { get; private set; }
+
+        public void addMessage(GITMessage message)
+        {
+            if (message != null)
+                Messages.Add(message);
+        }
+        public void insertFirstMessage(GITMessage message)
+        {
+            if (message == null)
+                return;
+
+            Messages.Insert(0, message);
+        }
+        public ToUserMessage()
+        {
+            IsRewardedBonus     = false;
+            RewardBonusMoney    = 0.0;
+        }
+        public ToUserMessage(int gameID, GITMessage message)
+        {
+            GameID              = gameID;
+            Messages            = new List<GITMessage>();
+            if (message != null)
+                Messages.Add(message);
+
+            IsRewardedBonus     = false;
+            RewardBonusMoney    = 0.0;
+        }
+        public void setBonusReward(double bonusMoney)
+        {
+            IsRewardedBonus     = true;
+            RewardBonusMoney    = bonusMoney;
+        }
+        public void setCountAsSpin(bool isCountAsSpin)
+        {
+            IsCountAsSpin = isCountAsSpin;
+        }
+    }
+    
+    public enum UserBetTypes
+    {
+        Normal          = 0,
+        PurchaseFree    = 1,
+        AnteBet         = 2,
+    }
+    public class ToUserResultMessage : ToUserMessage
+    {
+        public double       BetMoney            { get; private set; }
+        public double       WinMoney            { get; private set; }
+        public double       TurnOver            { get; protected set; }
+        public GameLogInfo  GameLog             { get; private set; }
+        public UserBetTypes BetType             { get; private set; }        
+        public string       BetTransactionID    { get; set; }
+        public string       TransactionID       { get; set; }
+        public string       RoundID             { get; set; }
+        public bool         RoundEnd            { get; set; }
+
+        public ToUserResultMessage()
+        {
+        }
+
+        public ToUserResultMessage(int gameID, GITMessage message, double betMoney, double winMoney, GameLogInfo gameLog, UserBetTypes betType, double turnOver = -1.0) : base(gameID, message)
+        {
+            this.BetMoney   = betMoney;
+            this.WinMoney   = winMoney;
+            this.GameLog    = gameLog;
+            this.BetType    = betType;
+            if (turnOver == -1.0)
+                this.TurnOver = betMoney;
+            else
+                this.TurnOver = turnOver;
+        }
+    }
+    
+    public class SocketConnectionAdded
+    {
+
+    }
+    public class SocketConnectionClosed
+    {
+
+    }
+    public class SlotsNodeShuttingDownMsg
+    {
+
+    }
+    public class ForceLogoutMesssage
+    {
+        public int    AgentID { get; private set; }
+        public string UserID  { get; private set; }
+
+        public string GlobalUserID
+        {
+            get
+            {
+                return string.Format("{0}_{1}", AgentID, UserID);
+            }
+        }
+        public ForceLogoutMesssage(string strUserID)
+        {
+            this.UserID = strUserID;
+        }
+    }
+    public class UserSpinItem : IConsistentHashable
+    {
+        public int      AgentID         { get; private set; }
+        public string   UserID          { get; private set; }
+        public string   Symbol          { get; private set; }
+        public double   BetPerLine      { get; private set; }
+        public int      LineCount       { get; private set; }
+        public int      MoreBetID       { get; private set; } 
+        public int      PurchaseID      { get; private set; }
+        public double   BetMoney        { get; private set; }
+
+        public UserSpinItem(int agentID, string strUserID, string symbol, double betPerLine, int lineCount, int moreBetID, int purchaseID, double betMoney)
+        {
+            AgentID     = agentID;
+            UserID      = strUserID;
+            Symbol      = symbol;
+            BetPerLine  = betPerLine;
+            LineCount   = lineCount;
+            MoreBetID   = moreBetID;
+            PurchaseID  = purchaseID;
+            BetMoney    = betMoney;
+        }
+        public object ConsistentHashKey     => string.Format("{0}_{1}", AgentID, UserID);
+    }
+    public enum Languages
+    {
+        EN    = 0,
+        FR    = 1,
+        COUNT = 2,
+    }
+}
