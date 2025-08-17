@@ -1,0 +1,116 @@
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITProtocol\bin\Debug\GITProtocol.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITProtocol\bin\Debug\GITProtocol.pdb
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITProtocol\bin\Debug\Akka.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITProtocol\bin\Debug\Newtonsoft.Json.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITProtocol\bin\Debug\System.Buffers.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITProtocol\bin\Debug\System.Collections.Immutable.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITProtocol\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITProtocol\bin\Debug\System.Memory.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITProtocol\bin\Debug\System.Numerics.Vectors.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITProtocol\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITProtocol\bin\Debug\System.Security.AccessControl.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITProtocol\bin\Debug\System.Security.Permissions.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITProtocol\bin\Debug\System.Security.Principal.Windows.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITProtocol\bin\Debug\Akka.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITProtocol\bin\Debug\Newtonsoft.Json.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITProtocol\bin\Debug\System.Buffers.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITProtocol\bin\Debug\System.Collections.Immutable.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITProtocol\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITProtocol\bin\Debug\System.Memory.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITProtocol\bin\Debug\System.Numerics.Vectors.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITProtocol\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITProtocol\bin\Debug\System.Security.AccessControl.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITProtocol\bin\Debug\System.Security.Permissions.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITProtocol\bin\Debug\System.Security.Principal.Windows.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITProtocol\obj\Debug\GITProtocol.csproj.CoreCompileInputs.cache
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITProtocol\obj\Debug\GITProtocol.csproj.CopyComplete
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITProtocol\obj\Debug\GITProtocol.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITProtocol\obj\Debug\GITProtocol.pdb
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITProtocol\obj\Debug\GITProtocol.csprojAssemblyReference.cache
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\GITProtocol.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\GITProtocol.pdb
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\Akka.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\Newtonsoft.Json.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\System.Buffers.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\System.Collections.Immutable.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\System.Memory.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\System.Numerics.Vectors.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\System.Security.AccessControl.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\System.Security.Permissions.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\System.Security.Principal.Windows.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\Akka.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\Newtonsoft.Json.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\System.Buffers.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\System.Collections.Immutable.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\System.Memory.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\System.Numerics.Vectors.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\System.Security.AccessControl.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\System.Security.Permissions.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\System.Security.Principal.Windows.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITProtocol\obj\Debug\GITProtocol.csproj.CoreCompileInputs.cache
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITProtocol\obj\Debug\GITProtocol.csproj.CopyComplete
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITProtocol\obj\Debug\GITProtocol.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITProtocol\obj\Debug\GITProtocol.pdb
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITProtocol\obj\Debug\GITProtocol.csprojAssemblyReference.cache
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\GITProtocol.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\GITProtocol.pdb
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\Akka.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\Newtonsoft.Json.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\System.Buffers.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\System.Collections.Immutable.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\System.Configuration.ConfigurationManager.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\System.Memory.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\System.Numerics.Vectors.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\System.Security.AccessControl.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\System.Security.Permissions.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\System.Security.Principal.Windows.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\Akka.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\Newtonsoft.Json.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\System.Buffers.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\System.Collections.Immutable.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\System.Configuration.ConfigurationManager.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\System.Memory.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\System.Numerics.Vectors.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\System.Security.AccessControl.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\System.Security.Permissions.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITProtocol\bin\Debug\System.Security.Principal.Windows.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITProtocol\obj\Debug\GITProtocol.csproj.CoreCompileInputs.cache
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITProtocol\obj\Debug\GITProtocol.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITProtocol\obj\Debug\GITProtocol.pdb
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITProtocol\obj\Debug\GITProtocol.csproj.CopyComplete
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITProtocol\obj\Debug\GITProtocol.csproj.AssemblyReference.cache
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITProtocol\bin\Debug\GITProtocol.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITProtocol\bin\Debug\GITProtocol.pdb
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITProtocol\bin\Debug\Akka.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITProtocol\bin\Debug\Newtonsoft.Json.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITProtocol\bin\Debug\System.Buffers.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITProtocol\bin\Debug\System.Collections.Immutable.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITProtocol\bin\Debug\System.Configuration.ConfigurationManager.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITProtocol\bin\Debug\System.Memory.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITProtocol\bin\Debug\System.Numerics.Vectors.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITProtocol\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITProtocol\bin\Debug\System.Security.AccessControl.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITProtocol\bin\Debug\System.Security.Permissions.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITProtocol\bin\Debug\System.Security.Principal.Windows.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITProtocol\bin\Debug\Akka.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITProtocol\bin\Debug\Newtonsoft.Json.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITProtocol\bin\Debug\System.Buffers.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITProtocol\bin\Debug\System.Collections.Immutable.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITProtocol\bin\Debug\System.Configuration.ConfigurationManager.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITProtocol\bin\Debug\System.Memory.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITProtocol\bin\Debug\System.Numerics.Vectors.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITProtocol\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITProtocol\bin\Debug\System.Security.AccessControl.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITProtocol\bin\Debug\System.Security.Permissions.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITProtocol\bin\Debug\System.Security.Principal.Windows.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITProtocol\obj\Debug\GITProtocol.csproj.CoreCompileInputs.cache
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITProtocol\obj\Debug\GITProtocol.csproj.CopyComplete
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITProtocol\obj\Debug\GITProtocol.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITProtocol\obj\Debug\GITProtocol.pdb
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITProtocol\obj\Debug\GITProtocol.csproj.AssemblyReference.cache

@@ -1,0 +1,57 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using GITProtocol;
+using System.IO;
+using Akka.Actor;
+using Newtonsoft.Json;
+using Akka.Configuration;
+
+namespace SlotGamesNode.GameLogics
+{
+   
+    class UltraSevenGameLogic : BaseAmaticSlotGame
+    {
+        #region 게임고유속성값
+        protected override string SymbolName
+        {
+            get
+            {
+                return "UltraSeven";
+            }
+        }
+        
+        protected override long[] BettingButton
+        {
+            get
+            {
+                return new long[] { 2, 3, 4, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 60, 70, 80, 90, 100, 150, 200, 300, 400, 500, 1000 };
+            }
+        }
+
+        protected override long[] LINES
+        {
+            get
+            {
+                return new long[] { 10 };
+            }
+        }
+
+        protected override string InitString
+        {
+            get
+            {
+                return "0529655566611151550556622322113334443343433055544433311411666222525505566224434344055566611151550552232211333444334343355544433311411666222525505522443434429a66611011335505511333221233034434460655566644043343360655544422022112144225505566611011335505551133322123303034441555666220224455055522444112144040433325552aa333116166644422442505554446606626224224403336606616333113315055522626661131133044433344466066066444224244220555116166622422440333660660663331131331105552262666113113304442925553441161666363444333033444055522322555333444044555433226266646411411333055544116166636344433303344405552232255533344404455533226266646411411333029e6661151555444046636333353555254044442206663033330366464444545553332252555151106661155155544404663633335355525404444220666303333036646444454555333225525551511000301010101010104271010001131f40a101010101010100a0a0a1100101010101000000000000000001311121314151a1f21421921e22322822d23223c24625025a2640b1010101010101010101010";
+            }
+        }
+        #endregion
+
+        public UltraSevenGameLogic()
+        {
+            _gameID     = GAMEID.UltraSeven;
+            GameName    = "UltraSeven";
+        }
+    }
+}

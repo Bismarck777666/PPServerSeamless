@@ -1,0 +1,437 @@
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\config.hocon
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\NLog.config
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\CommNode.exe.config
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\CommNode.exe
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\CommNode.pdb
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\Akka.Cluster.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\Akka.Coordination.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\Akka.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\Akka.Logger.NLog.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\Akka.Remote.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\DotNetty.Buffers.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\DotNetty.Codecs.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\DotNetty.Common.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\DotNetty.Handlers.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\DotNetty.Transport.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\EntityFramework.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\EntityFramework.SqlServer.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\GITProtocol.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\Google.Protobuf.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\Microsoft.Owin.Cors.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\Microsoft.Owin.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\Microsoft.Owin.Hosting.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\Newtonsoft.Json.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\NLog.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\Owin.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\Pipelines.Sockets.Unofficial.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\StackExchange.Redis.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.Buffers.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.Collections.Immutable.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.Data.SQLite.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.Diagnostics.PerformanceCounter.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.IO.Pipelines.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.Memory.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.Net.Http.Formatting.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.Numerics.Vectors.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.Security.AccessControl.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.Security.Permissions.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.Security.Principal.Windows.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.Threading.Channels.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.Web.Cors.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.Web.Http.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.Web.Http.Owin.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\Topshelf.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\vtortola.WebSockets.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\websocket-sharp-with-proxy-support.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.Threading.Tasks.Dataflow.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\GITProtocol.pdb
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\vtortola.WebSockets.pdb
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\Akka.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\Akka.Cluster.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\Akka.Coordination.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\Akka.Logger.NLog.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\Akka.Remote.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\DotNetty.Buffers.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\DotNetty.Codecs.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\DotNetty.Common.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\DotNetty.Handlers.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\DotNetty.Transport.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\EntityFramework.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\EntityFramework.SqlServer.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\Google.Protobuf.pdb
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\Google.Protobuf.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\Microsoft.Owin.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\Microsoft.Owin.Cors.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\Microsoft.Owin.Hosting.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\Newtonsoft.Json.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\NLog.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\Pipelines.Sockets.Unofficial.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\StackExchange.Redis.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.Buffers.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.Collections.Immutable.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.Data.SQLite.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.Diagnostics.PerformanceCounter.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.IO.Pipelines.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.Memory.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.Net.Http.Formatting.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.Numerics.Vectors.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.Security.AccessControl.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.Security.Permissions.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.Security.Principal.Windows.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.Threading.Channels.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.Web.Http.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\System.Web.Http.Owin.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\bin\Debug\Topshelf.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\obj\Debug\CommunicationNode.csprojAssemblyReference.cache
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\obj\Debug\CommunicationNode.csproj.CoreCompileInputs.cache
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\obj\Debug\CommunicationNode.csproj.CopyComplete
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\obj\Debug\CommNode.exe
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021\GITGameServerSolution2021\obj\Debug\CommNode.pdb
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\config.hocon
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\NLog.config
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\CommNode.exe.config
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\CommNode.exe
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\CommNode.pdb
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Akka.Cluster.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Akka.Coordination.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Akka.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Akka.Logger.NLog.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Akka.Remote.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\DotNetty.Buffers.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\DotNetty.Codecs.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\DotNetty.Common.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\DotNetty.Handlers.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\DotNetty.Transport.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\EntityFramework.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\EntityFramework.SqlServer.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\GITProtocol.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Google.Protobuf.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Microsoft.Owin.Cors.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Microsoft.Owin.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Microsoft.Owin.Hosting.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Newtonsoft.Json.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\NLog.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Owin.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Pipelines.Sockets.Unofficial.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\StackExchange.Redis.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Buffers.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Collections.Immutable.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Data.SQLite.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Data.SQLite.EF6.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Data.SQLite.Linq.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Diagnostics.PerformanceCounter.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.IO.Pipelines.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Memory.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Net.Http.Formatting.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Numerics.Vectors.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Security.AccessControl.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Security.Permissions.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Security.Principal.Windows.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Threading.Channels.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Web.Cors.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Web.Http.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Web.Http.Owin.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Topshelf.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\vtortola.WebSockets.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\websocket-sharp-with-proxy-support.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Threading.Tasks.Dataflow.dll
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\GITProtocol.pdb
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\vtortola.WebSockets.pdb
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Akka.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Akka.Cluster.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Akka.Coordination.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Akka.Logger.NLog.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Akka.Remote.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\DotNetty.Buffers.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\DotNetty.Codecs.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\DotNetty.Common.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\DotNetty.Handlers.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\DotNetty.Transport.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\EntityFramework.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\EntityFramework.SqlServer.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Google.Protobuf.pdb
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Google.Protobuf.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Microsoft.Owin.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Microsoft.Owin.Cors.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Microsoft.Owin.Hosting.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Newtonsoft.Json.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\NLog.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Pipelines.Sockets.Unofficial.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\StackExchange.Redis.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Buffers.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Collections.Immutable.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Data.SQLite.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Diagnostics.PerformanceCounter.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.IO.Pipelines.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Memory.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Net.Http.Formatting.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Numerics.Vectors.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Security.AccessControl.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Security.Permissions.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Security.Principal.Windows.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Threading.Channels.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Web.Http.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Web.Http.Owin.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Topshelf.xml
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\obj\Debug\CommunicationNode.csprojAssemblyReference.cache
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\obj\Debug\CommunicationNode.csproj.CoreCompileInputs.cache
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\obj\Debug\CommunicationNode.csproj.CopyComplete
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\obj\Debug\CommNode.exe
+D:\Workshop\PragmaticPlayGames\Server\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\obj\Debug\CommNode.pdb
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\config.hocon
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\NLog.config
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\CommNode.exe.config
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\CommNode.exe
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\CommNode.pdb
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Akka.Cluster.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Akka.Coordination.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Akka.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Akka.Logger.NLog.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Akka.Remote.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\DotNetty.Buffers.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\DotNetty.Codecs.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\DotNetty.Common.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\DotNetty.Handlers.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\DotNetty.Transport.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\EntityFramework.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\EntityFramework.SqlServer.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\GITProtocol.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Google.Protobuf.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Microsoft.Extensions.Logging.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Microsoft.Owin.Cors.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Microsoft.Owin.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Microsoft.Owin.Hosting.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Newtonsoft.Json.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\NLog.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Owin.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Pipelines.Sockets.Unofficial.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\StackExchange.Redis.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Buffers.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Collections.Immutable.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Configuration.ConfigurationManager.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Data.SQLite.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Data.SQLite.EF6.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Data.SQLite.Linq.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Diagnostics.PerformanceCounter.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.IO.Pipelines.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Memory.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Net.Http.Formatting.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Numerics.Vectors.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Security.AccessControl.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Security.Permissions.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Security.Principal.Windows.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Threading.Channels.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Web.Cors.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Web.Http.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Web.Http.Owin.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Topshelf.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\websocket-sharp-with-proxy-support.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\GITProtocol.pdb
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Akka.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Akka.Cluster.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Akka.Coordination.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Akka.Logger.NLog.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Akka.Remote.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\DotNetty.Buffers.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\DotNetty.Codecs.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\DotNetty.Common.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\DotNetty.Handlers.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\DotNetty.Transport.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\EntityFramework.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\EntityFramework.SqlServer.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Google.Protobuf.pdb
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Google.Protobuf.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Microsoft.Extensions.Logging.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Microsoft.Owin.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Microsoft.Owin.Cors.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Microsoft.Owin.Hosting.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Newtonsoft.Json.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\NLog.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Pipelines.Sockets.Unofficial.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\StackExchange.Redis.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Buffers.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Collections.Immutable.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Configuration.ConfigurationManager.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Data.SQLite.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Diagnostics.PerformanceCounter.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.IO.Pipelines.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Memory.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Net.Http.Formatting.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Numerics.Vectors.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Security.AccessControl.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Security.Permissions.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Security.Principal.Windows.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Threading.Channels.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Web.Http.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Web.Http.Owin.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\Topshelf.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\obj\Debug\CommunicationNode.csproj.AssemblyReference.cache
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\obj\Debug\CommunicationNode.csproj.CoreCompileInputs.cache
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\obj\Debug\CommNode.exe
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\obj\Debug\CommNode.pdb
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Text.Encodings.Web.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Text.Json.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.ValueTuple.dll
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Text.Encodings.Web.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.Text.Json.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\bin\Debug\System.ValueTuple.xml
+E:\work\work_by_category\Slot\PPServer\GITGameServerSolution2021(Sqlite)\GITGameServerSolution2021\obj\Debug\CommunicationNode.csproj.CopyComplete
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\config.hocon
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\NLog.config
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\CommNode.exe.config
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\CommNode.exe
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\CommNode.pdb
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\Akka.Cluster.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\Akka.Coordination.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\Akka.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\Akka.Logger.NLog.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\Akka.Remote.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\DotNetty.Buffers.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\DotNetty.Codecs.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\DotNetty.Common.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\DotNetty.Handlers.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\DotNetty.Transport.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\EntityFramework.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\EntityFramework.SqlServer.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\GITProtocol.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\Google.Protobuf.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\Microsoft.Extensions.Logging.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\Microsoft.Owin.Cors.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\Microsoft.Owin.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\Microsoft.Owin.Host.HttpListener.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\Microsoft.Owin.Hosting.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\Newtonsoft.Json.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\NLog.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\Owin.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\Pipelines.Sockets.Unofficial.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\StackExchange.Redis.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.Buffers.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.Collections.Immutable.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.Configuration.ConfigurationManager.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.Diagnostics.PerformanceCounter.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.IO.Pipelines.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.Memory.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.Net.Http.Formatting.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.Numerics.Vectors.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.Security.AccessControl.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.Security.Permissions.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.Security.Principal.Windows.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.Text.Encodings.Web.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.Text.Json.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.Threading.Channels.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.ValueTuple.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.Web.Cors.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.Web.Http.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.Web.Http.Owin.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\Topshelf.dll
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\GITProtocol.pdb
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\Akka.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\Akka.Cluster.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\Akka.Coordination.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\Akka.Logger.NLog.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\Akka.Remote.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\DotNetty.Buffers.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\DotNetty.Codecs.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\DotNetty.Common.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\DotNetty.Handlers.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\DotNetty.Transport.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\EntityFramework.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\EntityFramework.SqlServer.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\Google.Protobuf.pdb
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\Google.Protobuf.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\Microsoft.Extensions.Logging.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\Microsoft.Owin.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\Microsoft.Owin.Cors.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\Microsoft.Owin.Host.HttpListener.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\Microsoft.Owin.Hosting.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\Newtonsoft.Json.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\NLog.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\Pipelines.Sockets.Unofficial.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\StackExchange.Redis.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.Buffers.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.Collections.Immutable.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.Configuration.ConfigurationManager.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.Diagnostics.PerformanceCounter.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.IO.Pipelines.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.Memory.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.Net.Http.Formatting.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.Numerics.Vectors.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.Security.AccessControl.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.Security.Permissions.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.Security.Principal.Windows.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.Text.Encodings.Web.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.Text.Json.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.Threading.Channels.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.ValueTuple.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.Web.Http.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\System.Web.Http.Owin.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\bin\Debug\Topshelf.xml
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\obj\Debug\CommunicationNode.csproj.AssemblyReference.cache
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\obj\Debug\CommunicationNode.csproj.CoreCompileInputs.cache
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\obj\Debug\CommunicationNode.csproj.CopyComplete
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\obj\Debug\CommNode.exe
+E:\work\work_by_category\Slot\PPServer\Backend(Amatic Json)\GITGameServerSolution2021\obj\Debug\CommNode.pdb

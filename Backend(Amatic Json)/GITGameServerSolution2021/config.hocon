@@ -1,0 +1,67 @@
+﻿comm{
+  actorsystem: "gitigaming" #POPULATE NAME OF YOUR ACTOR SYSTEM HERE
+  http {
+		baseurl = "http://192.168.88.34:8888"
+  }
+   database {
+		ip			= "127.0.0.1"
+		port		= 1433
+		user		= "sa"
+		pass		= "kir_star1996"
+		dbname		= "gitigaming_am"
+		poolcount	= 10
+  }
+  redis {
+		ip			= "127.0.0.1"
+		port		= 6379
+		password	= ""
+		database	= 2
+  }
+  amaticwebsocket {
+		url			= "http://192.168.88.34:8078/"
+		acceptlimit = 5000
+  }
+}
+
+akka {
+	loggers = ["Akka.Logger.NLog.NLogLogger, Akka.Logger.NLog"]
+	actor {
+		provider = cluster
+		deployment {            								
+			/slotgameRouter {
+				router = round-robin-group
+				routees.paths = ["/user/gameManager"]
+				cluster {
+					enabled = on
+					allow-local-routees = off
+					use-role = slotgame
+				}
+			}
+			/redisWriter {
+				router 			= consistent-hashing-pool
+				nr-of-instances = 5
+			}
+			/httpWorkers {
+				router 			= consistent-hashing-pool
+				nr-of-instances = 20
+			}
+			/httpAuthWorkers {
+				router 			= consistent-hashing-pool
+				nr-of-instances = 20
+			}
+		}
+	}
+	
+	remote {
+		dot-netty.tcp {
+				hostname = "127.0.0.1"
+				port     = 8083
+				maximum-frame-size = 2048000b
+			}
+	}			
+
+	cluster {
+		seed-nodes = ["akka.tcp://gitigaming@127.0.0.1:4055"]
+		roles = ["comm"]
+	}
+}

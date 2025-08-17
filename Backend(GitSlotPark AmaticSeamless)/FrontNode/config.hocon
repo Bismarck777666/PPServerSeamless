@@ -1,0 +1,74 @@
+﻿front{
+  actorsystem: "godgaming" #POPULATE NAME OF YOUR ACTOR SYSTEM HERE
+  database {
+		ip			= "127.0.0.1"
+		port		= 1433
+		user		= "sa"
+		pass		= "kir_star1996"
+		dbname		= "gitslotamatic_seamless"
+  }
+  redis {
+		ip			= "127.0.0.1"
+		port		= 6379
+		password	= ""
+		database	= 3
+  }
+  websocket {
+		url			= "http://192.168.88.34:8089/"
+		acceptlimit = 5000
+  }
+  gameFront {
+		tokenkey	= "fd973747b689447fb360c89f9612baa8"
+  }
+}
+
+akka {
+	loggers = ["Akka.Logger.NLog.NLogLogger, Akka.Logger.NLog"]
+	actor {
+		provider = cluster
+		deployment {            								
+			/userRouter {
+				router = round-robin-group
+				routees.paths = ["/user/userManager"]
+				cluster {
+					enabled = on
+					allow-local-routees = off
+					use-role = user
+				}
+			}
+			/redisWriter {
+				router 			= consistent-hashing-pool
+				nr-of-instances = 5
+			}
+			/httpWorkers {
+				router 			= consistent-hashing-pool
+				nr-of-instances = 20
+			}
+			/httpAuthWorkers {
+				router 			= consistent-hashing-pool
+				nr-of-instances = 20
+			}
+			/httpReplayWorkers {
+				router 			= consistent-hashing-pool
+				nr-of-instances = 20			
+			}
+			/httpHistoryWorkers {
+				router 			= consistent-hashing-pool
+				nr-of-instances = 20						
+			}
+		}
+	}
+						
+	remote {
+		dot-netty.tcp {
+				hostname = "127.0.0.1"
+				port     = 8083
+				maximum-frame-size = 2048000b
+			}
+	}			
+
+	cluster {
+		seed-nodes = ["akka.tcp://godgaming@127.0.0.1:4055"]
+		roles = ["front"]
+	}
+}
