@@ -1,0 +1,67 @@
+﻿apinode{
+  actorsystem: "godgaming" #POPULATE NAME OF YOUR ACTOR SYSTEM HERE
+  http {
+		#baseurl = "http://api.gitslotgame.net"
+		baseurl = "http://192.168.88.34:9888"
+  }
+  database {
+		ip		= "127.0.0.1"
+		port		= 1433
+		user		= "sa"
+		pass		= "kir_star1996"
+		dbname		= "gitslotpark"
+		poolcount	= 10
+  }
+  gameFront {
+		#url			= "http://igbsoft.pragslotgame.com"
+		url			= "http://localhost:56180"
+		tokenkey	= "fd973747b689447fb360c89f9612baa8"
+  }
+  adminApi {
+		tokenkey 	= "33541741c9dd42c2a9eb609e362b4689"
+  }
+}
+
+akka {
+	loggers = ["Akka.Logger.NLog.NLogLogger, Akka.Logger.NLog"]
+	actor {
+		provider = cluster
+		deployment {            								
+			/userServers {
+				router        = broadcast-group
+				routees.paths = ["/user/userManager"]
+				cluster {
+					enabled = on
+					allow-local-routees = off
+					use-role = user
+				}
+			}
+			/frontAuthWorkers {
+				router	      = broadcast-group
+				routees.paths = ["/user/httpAuthWorkers"]
+				cluster {
+					enabled = on
+					allow-local-routees = off
+					use-role = front
+				}
+			}
+			/httpWorkers {
+				router 			= consistent-hashing-pool
+				nr-of-instances = 20
+			}
+		}
+	}
+						
+	remote {
+		dot-netty.tcp {
+				hostname = "127.0.0.1"
+				port     = 8085
+				maximum-frame-size = 2048000b
+			}
+	}				
+
+	cluster {
+		seed-nodes = ["akka.tcp://godgaming@127.0.0.1:4055"]
+		roles = ["queenapi"]
+	}
+}

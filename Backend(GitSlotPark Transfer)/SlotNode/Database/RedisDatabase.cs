@@ -1,0 +1,39 @@
+﻿using StackExchange.Redis;
+using System;
+
+namespace SlotGamesNode.Database
+{
+    public class RedisDatabase
+    {
+        private static string   _sRedisIP;
+        private static int      _sRedisPort;
+        private static string   _sPassword;
+        private static int      _database;
+        private static Lazy<ConnectionMultiplexer> lazyConnection = new Lazy<ConnectionMultiplexer>(() =>
+        {
+            return ConnectionMultiplexer.Connect(string.Format("{0}:{1},password={2}", _sRedisIP, _sRedisPort, _sPassword));
+        });
+
+        public static void setRedisInfo(string strIP, int port, string strPassword, int database)
+        {
+            _sRedisIP   = strIP;
+            _sRedisPort = port;
+            _sPassword  = strPassword;
+            _database   = database;
+        }
+        public static ConnectionMultiplexer Connection
+        {
+            get
+            {
+                return lazyConnection.Value;
+            }
+        }
+        public static IDatabase RedisCache
+        {
+            get
+            {
+                return Connection.GetDatabase(_database);
+            }
+        }
+    }
+}
