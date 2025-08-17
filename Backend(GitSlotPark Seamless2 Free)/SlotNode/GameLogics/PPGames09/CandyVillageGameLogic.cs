@@ -1,0 +1,172 @@
+﻿using GITProtocol;
+using PCGSharp;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SlotGamesNode.GameLogics
+{
+    class CandyVillageGameLogic : BasePPSlotGame
+    {
+        #region 게임고유속성값
+        protected override string SymbolName
+        {
+            get
+            {
+                return "vs20candvil";
+            }
+        }
+        protected override bool SupportReplay
+        {
+            get
+            {
+                return true;
+            }
+        }
+        protected override int ClientReqLineCount
+        {
+            get
+            {
+                return 20;
+            }
+        }
+        protected override int ServerResLineCount
+        {
+            get { return 20; }
+        }
+        protected override int ROWS
+        {
+            get
+            {
+                return 5;
+            }
+        }
+        protected override string InitDataString
+        {
+            get
+            {
+                return "def_s=3,8,4,8,1,10,6,10,5,7,8,9,6,9,8,7,4,5,3,4,3,8,4,8,1,10,6,10,5,7&cfgs=4744&ver=2&reel_set_size=5&def_sb=5,10,11,8,1,7&prm=12~2,3,4,5,6,8,10,12,15,20,25,50,100;12~2,3,4,5,6,8,10,12,15,20,25,50,100;12~2,3,4,5,6,8,10,12,15,20,25,50,100&def_sa=8,3,4,3,11,3&prg_cfg_m=wm&scatters=1~2000,2000,2000,2000,2000,2000,2000,2000,2000,2000,2000,2000,2000,2000,2000,2000,2000,2000,2000,2000,2000,2000,2000,2000,2000,100,60,0,0,0~10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,0,0,0~1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1&gmb=0,0,0&rt=d&gameInfo={props:{max_rnd_sim:\"1\",max_rnd_hr:\"1000000\",max_rnd_win:\"4424\"}}&prg_cfg=1&sc=10.00,20.00,30.00,40.00,50.00,100.00,150.00,200.00,250.00,375.00,500.00,750.00,1250.00,2500.00,3750.00,5000.00&defc=50.00&fspps=2000~10~0&wilds=2~0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0~1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1&bonuses=0&fsbonus=&bls=20,25&paytable=0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0;1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,1000,500,500,200,200,0,0,0,0,0,0,0;500,500,500,500,500,500,500,500,500,500,500,500,500,500,500,500,500,500,500,200,200,50,50,0,0,0,0,0,0,0;300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,300,100,100,40,40,0,0,0,0,0,0,0;240,240,240,240,240,240,240,240,240,240,240,240,240,240,240,240,240,240,240,40,40,30,30,0,0,0,0,0,0,0;200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,200,30,30,20,20,0,0,0,0,0,0,0;160,160,160,160,160,160,160,160,160,160,160,160,160,160,160,160,160,160,160,24,24,16,16,0,0,0,0,0,0,0;100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,20,20,10,10,0,0,0,0,0,0,0;80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,80,18,18,8,8,0,0,0,0,0,0,0;40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,40,15,15,5,5,0,0,0,0,0,0,0;0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0&fspps_mask=bet~fs_count~bet_level&total_bet_max=10,000,000.00&reel_set0=4,11,4,4,9,9,11,8,8,10,10,5,5,8,8,11,4,7,9,9,10,10,4,4,1,3,3,11,5,5,4,7,11,6,6,9,9,10,10,9,5,4,6,8,8,10,4,10,8,11,6,6,10,10,10,8,8,10,10,4,7,7,7~5,5,8,8,11,6,6,10,10,9,9,4,4,1,3,3,11,5,5,4,7,10,10,9,5,4,6,10,10,8,8,11,4,7,9,5,4,6,8,8,10,10,9,9,11,4,4,9,9,11,1,8,8,10,10,4,7,11,11,11~11,11,4,4,7,9,9,10,10,4,4,11,6,6,4,4,9,9,11,8,8,10,10,1,8,8,10,4,10,8,11,6,6,4,7,7,7,5,5,8,8,11,10,10,9,5,4,6,3,3,8,8,5,5,4,7,8,8,10,10,3,3,3~10,4,8,8,10,4,10,8,11,5,5,10,10,9,5,4,6,10,10,4,4,7,11,6,6,9,9,1,3,3,11,3,3,6,6,10,10,10,8,8,11,5,5,4,7,9,9,10,4,10,8,11,4,4,9,9,11,5,5,6,6,11,11,11,6~10,10,4,4,9,9,8,8,4,4,9,9,5,5,8,8,11,4,7,9,9,3,3,11,1,10,10,9,9,5,5,4,7,7,7,10,10,9,9,11,9,5,4,6,8,8,11,6,6,8,8,10,4,10,8,11,6,6,5,5,9,9,9~9,9,8,8,10,4,10,8,11,4,7,9,9,10,10,9,5,4,6,11,9,9,10,10,4,4,4,3,3,9,9,5,5,8,8,11,6,6,4,4,9,9,8,8,6,6,1,11,5,5,4,7,8,8,10,4,10,8,11,6,6,4,4,4,7,7&reel_set2=4,11,4,4,9,9,11,8,8,10,10,5,5,8,8,11,4,7,9,9,10,10,4,4,1,3,3,11,5,5,4,7,11,6,6,9,9,10,10,9,5,4,6,8,8,10,4,10,8,11,6,6,10,10,10,8,8,10,10,4,7,7,7,6~7,5,5,8,8,11,6,6,10,10,9,9,4,4,1,3,3,11,5,5,4,7,10,10,9,5,4,6,10,10,8,8,11,4,7,9,5,4,6,8,8,10,10,9,9,11,4,4,9,9,11,1,8,8,10,10,4,7,11,11,11~4,11,4,4,7,9,9,10,10,4,4,11,6,6,4,4,9,9,11,8,8,10,10,1,8,8,10,4,10,8,11,6,6,4,7,7,7,5,5,8,8,11,10,10,9,5,4,6,3,3,8,8,5,5,4,7,8,8,10,10,3,3,3,1,6~8,8,10,4,10,8,11,5,5,10,10,9,5,4,6,10,10,4,4,7,11,6,6,9,9,1,3,3,11,3,3,6,6,10,10,10,8,8,11,5,5,4,7,9,9,10,4,10,8,11,4,4,9,9,11,5,5,6,6,9,9,9~4,10,10,4,4,9,9,8,8,4,4,9,9,5,5,8,8,11,4,7,9,9,3,3,11,1,10,10,9,9,5,5,4,7,7,7,10,10,9,9,11,9,5,4,6,8,8,11,6,6,8,8,10,4,10,8,11,6,6,5,5,1~9,9,8,8,10,4,10,8,11,4,7,9,9,10,10,9,5,4,6,11,9,9,10,10,4,4,4,3,3,9,9,5,5,8,8,11,6,6,4,4,9,9,8,8,6,6,1,11,5,5,4,7,8,8,10,4,10,8,11,6,6,4,4,4,6&t=symbol_count&reel_set1=4,11,4,4,9,9,8,8,11,10,10,5,5,8,8,11,4,7,9,9,10,10,4,4,1,3,3,11,5,5,4,7,9,5,4,6,11,10,10,9,5,4,6,8,8,10,4,10,8,11,6,6,10,10,10,8,8,12~5,5,8,8,11,6,6,10,10,9,9,4,4,12,3,3,11,5,5,10,10,4,7,9,5,4,6,10,10,8,8,11,4,7,9,5,4,6,8,8,1,11,9,9,10,10,4,4,9,9,11,8,8,10,10,12,6~11,11,4,4,7,9,9,10,10,4,4,3,3,6,6,4,4,9,9,10,10,8,8,11,1,8,8,10,4,10,8,11,6,6,4,7,7,7,5,5,8,8,11,10,10,9,5,4,6,8,8,3,3,5,5,4,7,8,8,12~4,8,8,10,4,10,8,11,5,5,3,3,9,5,4,6,10,10,4,4,7,11,6,6,9,9,1,10,4,10,8,11,3,3,6,6,10,10,10,8,8,11,5,5,4,7,9,9,11,10,10,4,4,9,9,11,5,5,12,6~9,10,10,4,4,9,9,8,8,4,4,5,5,9,9,8,8,11,4,7,9,9,3,3,11,1,10,10,9,9,5,5,4,7,7,7,9,9,10,4,10,8,11,6,6,8,8,9,9,11,6,6,8,8,10,4,10,8,11,6,6,12~9,9,8,8,10,10,5,5,4,7,11,10,10,9,9,1,6,6,11,9,9,10,10,4,4,12,3,3,9,9,5,5,8,8,11,6,6,4,4,9,9,8,8,6,6,11,9,9,4,7,8,8,10,4,10,8,11,12&reel_set4=4,11,4,4,9,9,11,8,8,10,10,5,5,8,8,11,4,7,9,9,10,10,4,4,3,3,11,5,5,4,7,11,6,6,9,9,10,10,9,5,4,6,8,8,10,4,10,8,11,6,6,10,10,10,8,8,10,10,4,7,7,7~5,5,8,8,11,6,6,10,10,9,9,4,4,4,3,3,11,5,5,4,7,10,10,9,5,4,6,10,10,8,8,11,4,7,9,5,4,6,8,8,8,10,10,9,9,11,4,4,9,9,11,8,8,10,10,4,7,11,11,11~11,11,4,4,7,9,9,10,10,4,4,11,6,6,4,4,9,9,11,8,8,10,10,8,8,10,4,10,8,11,6,6,4,7,7,7,5,5,8,8,11,10,10,10,9,5,4,6,3,3,8,8,5,5,4,7,8,8,10,10,3,3,3~10,4,8,8,10,4,10,8,11,5,5,10,10,9,5,4,6,10,10,4,4,7,11,6,6,9,9,3,3,11,3,3,6,6,10,10,10,8,8,11,5,5,4,7,9,9,9,10,4,10,8,11,4,4,9,9,11,5,5,6,6,11,11,11,6~10,10,4,4,9,9,8,8,4,4,9,9,5,5,8,8,11,4,7,9,9,3,3,11,10,10,9,9,5,5,4,7,7,7,10,10,9,9,11,11,11,9,5,4,6,8,8,11,6,6,8,8,10,4,10,8,11,6,6,5,5,9,9,9~9,9,8,8,10,4,10,8,11,4,7,9,9,10,10,9,5,4,6,11,9,9,10,10,4,4,4,3,3,9,9,5,5,8,8,11,6,6,4,4,9,9,8,8,6,6,6,11,5,5,4,7,8,8,10,4,10,8,11,6,6,4,4,4,7,7&reel_set3=11,11,4,4,9,9,8,8,11,10,10,5,5,8,8,11,4,7,9,9,10,10,4,4,1,3,3,11,5,5,4,7,9,5,4,6,11,10,10,9,5,4,6,8,8,10,4,10,8,11,6,6,10,10,10,8,8,12,6~4,5,5,8,8,11,6,6,10,10,9,9,4,4,12,3,3,11,5,5,10,10,4,7,9,5,4,6,10,10,8,8,11,4,7,9,5,4,6,8,8,1,11,9,9,10,10,4,4,9,9,11,8,8,10,10,12~11,11,4,4,7,9,9,10,10,4,4,3,3,6,6,4,4,9,9,10,10,8,8,11,1,8,8,10,4,10,8,11,6,6,4,7,7,7,5,5,8,8,11,10,10,9,5,4,6,8,8,3,3,5,5,4,7,8,8,12,6~4,8,8,10,4,10,8,11,5,5,3,3,9,5,4,6,10,10,4,4,7,11,6,6,9,9,1,10,4,10,8,11,3,3,6,6,10,10,10,8,8,11,5,5,4,7,9,9,11,10,10,4,4,9,9,11,5,5,12,6~10,10,4,4,9,9,8,8,4,4,5,5,9,9,8,8,11,4,7,9,9,3,3,11,1,10,10,9,9,5,5,4,7,7,7,9,9,10,4,10,8,11,6,6,8,8,9,9,11,6,6,8,8,10,4,10,8,11,6,6,12~6,9,9,8,8,10,10,5,5,4,7,11,10,10,9,9,1,6,6,11,9,9,10,10,4,4,12,3,3,9,9,5,5,8,8,11,6,6,4,4,9,9,8,8,6,6,11,9,9,4,7,8,8,10,4,10,8,11,12,6&total_bet_min=10.00";
+            }
+        }
+        protected override double PurchaseFreeMultiple
+        {
+            get { return 100.0; }
+        }
+        protected override bool SupportPurchaseFree
+        {
+            get { return true; }
+        }
+        protected override bool HasPurEnableOption
+        {
+            get { return true; }
+        }
+        protected override double MoreBetMultiple
+        {
+            get { return 1.25; }
+        }
+        protected override bool SupportMoreBet
+        {
+            get { return true; }
+        }
+        #endregion
+        public CandyVillageGameLogic()
+        {
+            _gameID = GAMEID.CandyVillage;
+            GameName = "CandyVillage";
+        }
+        protected override void setupDefaultResultParams(Dictionary<string, string> dicParams, double userBalance, int index, int counter, string initString)
+        {
+            base.setupDefaultResultParams(dicParams, userBalance, index, counter, initString);
+            dicParams["reel_set"] = "0";
+            dicParams["bl"] = "0";
+            dicParams["prg"] = "1";
+            dicParams["prg_m"] = "wm";
+        }
+        protected override void overrideSomeParams(BasePPSlotBetInfo betInfo, Dictionary<string, string> dicParams)
+        {
+            if (!betInfo.PurchaseFree)
+                dicParams.Remove("fs_bought");
+        }
+        protected override void convertWinsByBet(Dictionary<string, string> dicParams, float currentBet)
+        {
+            base.convertWinsByBet(dicParams, currentBet);
+            if (dicParams.ContainsKey("tmb_win"))
+                dicParams["tmb_win"] = convertWinByBet(dicParams["tmb_win"], currentBet);
+            if (dicParams.ContainsKey("tmb_res"))
+                dicParams["tmb_res"] = convertWinByBet(dicParams["tmb_res"], currentBet);
+        }
+
+        protected override void readBetInfoFromMessage(GITMessage message, string strGlobalUserID, Currencies currency)
+        {
+            try
+            {
+                string strInitString = ChipsetManager.Instance.convertTo(currency, this.InitDataString, this.SymbolName);
+                var dicParams = splitResponseToParams(strInitString);
+
+                double minChip = 0.0, maxChip = 0.0;
+                getMinMaxChip(dicParams["sc"], ref minChip, ref maxChip);
+
+
+                BasePPSlotBetInfo betInfo = new BasePPSlotBetInfo();
+                betInfo.BetPerLine = (float)message.Pop();
+                betInfo.LineCount = (int)message.Pop();
+
+                int bl = (int)message.Pop();
+                if (bl == 0)
+                    betInfo.MoreBet = false;
+                else
+                    betInfo.MoreBet = true;
+
+                if (message.DataNum >= 3)
+                    betInfo.PurchaseFree = true;
+                else
+                    betInfo.PurchaseFree = false;
+
+                if (betInfo.BetPerLine <= 0.0f)
+                {
+                    _logger.Error("{0} betInfo.BetPerLine <= 0 in CandyVillageGameLogic::readBetInfoFromMessage {1}", strGlobalUserID, betInfo.BetPerLine);
+                    return;
+                }
+
+                if (betInfo.MoreBet && betInfo.PurchaseFree)
+                {
+                    _logger.Error("{0} betInfo.MoreBet and  PurchasedFreeSpin is same time true in CandyVillageGameLogic::readBetInfoFromMessage", strGlobalUserID);
+                    return;
+                }
+                if (!isNotIntergerMultipleBetPerLine(betInfo.BetPerLine, minChip))
+                {
+                    _logger.Error("{0} betInfo.BetPerLine is illegual: {1} != {2} * integer", strGlobalUserID, betInfo.BetPerLine, minChip);
+                    return;
+                }
+
+                if (betInfo.LineCount != this.ClientReqLineCount)
+                {
+                    _logger.Error("{0} betInfo.LineCount is not matched {1} != {2}", strGlobalUserID, betInfo.LineCount, this.ClientReqLineCount);
+                    return;
+                }
+                BasePPSlotBetInfo oldBetInfo = null;
+                if (_dicUserBetInfos.TryGetValue(strGlobalUserID, out oldBetInfo))
+                {
+                    //만일 유저에게 남은 응답이 존재하는 경우
+                    if (oldBetInfo.HasRemainResponse)
+                        return;
+
+                    oldBetInfo.BetPerLine = betInfo.BetPerLine;
+                    oldBetInfo.LineCount = betInfo.LineCount;
+                    oldBetInfo.MoreBet = betInfo.MoreBet;
+                    oldBetInfo.PurchaseFree = betInfo.PurchaseFree;
+                }
+                else
+                {
+                    _dicUserBetInfos.Add(strGlobalUserID, betInfo);
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.Error("Exception has been occurred in CandyVillageGameLogic::readBetInfoFromMessage {0}", ex);
+            }
+        }
+    }
+}

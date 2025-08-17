@@ -1,0 +1,38 @@
+﻿pppromobot{
+  actorsystem: "gitigamingbot" #POPULATE NAME OF YOUR ACTOR SYSTEM HERE
+  redis {
+		ip			= "127.0.0.1"
+		port		= 6379
+		password	= ""
+		databases	= [0]
+  }
+  apiinfo {
+		symbol	= "vs10bbbonanza"
+  }
+  siteinfo
+  {
+		symbol		= "vs10txbigbass"
+		url			= "https://vip-prod.quanta.tech/gamelauncher/play/KONFATTA/PP_SUGAR_RUSH?authsession=1L13BM2A83U1Q"
+		//url		= "https://f66a0315d5.pdbbogophx.net/gs2c/playGame.do?key=token%3D2055503699-a4e7e12ca152a5c355af31401a5a4c0e%60%7C%60symbol%3Dvs20fruitswx%60%7C%60platform%3DWEB%60%7C%60language%3Den%60%7C%60currency%3DBDT&ppkv=2&stylename=sftgm_mostbet&country=TR&isGameUrlApiCalled=true"
+		host		= "58ee05c640.nntqycliiw.net"
+  }
+}
+
+akka {
+	loggers = ["Akka.Logger.NLog.NLogLogger, Akka.Logger.NLog"]
+	actor {
+	}
+						
+	remote {
+		dot-netty.tcp {
+				hostname = "127.0.0.1"
+				port     = 8085
+				maximum-frame-size = 256000b
+			}
+	}			
+
+	cluster {
+		seed-nodes = ["akka.tcp://gitigaming@127.0.0.1:8085"]
+		roles = ["pppromobot"]
+	}
+}
