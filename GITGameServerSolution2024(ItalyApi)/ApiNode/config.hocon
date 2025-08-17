@@ -1,0 +1,77 @@
+﻿apinode{
+  actorsystem: "gitigaming" #POPULATE NAME OF YOUR ACTOR SYSTEM HERE
+  http {
+		baseurl = "http://*:9888"
+  }
+  database {
+		ip			= "192.168.88.34"
+		port		= 1433
+		user		= "sa"
+		pass		= "123123"
+		dbname		= "gitigaming_api"
+		poolcount	= 10
+  }
+  userFront {
+		url			= "https://gitslotraya.com"
+  }
+  gameFront {
+		url			= "http://localhost:5102"
+		tokenkey	= "fd973747b689447fb360c89f9612baa8"
+  }
+  adminApi {
+		tokenkey	= "33541741c9dd42c2a9eb609e362b4689"
+  }
+}
+
+akka {
+	loggers = ["Akka.Logger.NLog.NLogLogger, Akka.Logger.NLog"]
+	actor {
+		provider = cluster
+		deployment {            								
+			/commWorkers {
+				router = broadcast-group
+				routees.paths = ["/user/apiWorkers"]
+				cluster {
+					enabled				= on
+					allow-local-routees = off
+					use-role			= comm
+				}
+			}
+			/commServers {
+				router        = broadcast-group
+				routees.paths = ["/user/userManager"]
+				cluster {
+					enabled				= on
+					allow-local-routees = off
+					use-role			= comm
+				}
+			}
+			/commAuthWorkers {
+				router	      = broadcast-group
+				routees.paths = ["/user/httpAuthWorkers"]
+				cluster {
+					enabled				= on
+					allow-local-routees = off
+					use-role			= comm
+				}
+			}
+			/httpWorkers {
+				router 			= consistent-hashing-pool
+				nr-of-instances = 20
+			}
+		}
+	}
+						
+	remote {
+		dot-netty.tcp {
+				hostname			= "127.0.0.1"
+				port				= 8094
+				maximum-frame-size	= 2048000b
+			}
+	}			
+
+	cluster {
+		seed-nodes = ["akka.tcp://gitigaming@127.0.0.1:4055"]
+		roles = ["apiserver"]
+	}
+}

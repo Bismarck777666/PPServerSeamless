@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ApiNode",
+    "\\ApiNode\\Agent",
+    "\\ApiNode\\HttpService"
+  ],
+  "SelectedNode": "\\ApiNode\\config.hocon",
+  "PreviewInSolutionExplorer": false
+}
