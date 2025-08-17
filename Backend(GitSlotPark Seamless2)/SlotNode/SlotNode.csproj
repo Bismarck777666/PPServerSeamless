@@ -1,0 +1,883 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{619F5EF1-1674-4E98-B168-CA201383EBC9}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>SlotGamesNode</RootNamespace>
+    <AssemblyName>SlotGamesNode</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;NEWBETAMOUNT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;GENSPINDATA</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Akka, Version=1.4.16.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Akka.1.4.16\lib\netstandard2.0\Akka.dll</HintPath>
+    </Reference>
+    <Reference Include="Akka.Cluster, Version=1.4.16.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Akka.Cluster.1.4.16\lib\netstandard2.0\Akka.Cluster.dll</HintPath>
+    </Reference>
+    <Reference Include="Akka.Logger.NLog, Version=1.4.10.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Akka.Logger.NLog.1.4.10\lib\netstandard2.0\Akka.Logger.NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="Akka.Remote, Version=1.4.16.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Akka.Remote.1.4.16\lib\netstandard2.0\Akka.Remote.dll</HintPath>
+    </Reference>
+    <Reference Include="DnsClient, Version=1.6.1.0, Culture=neutral, PublicKeyToken=4574bb5573c51424, processorArchitecture=MSIL">
+      <HintPath>..\packages\DnsClient.1.6.1\lib\net471\DnsClient.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetty.Buffers, Version=0.6.0.0, Culture=neutral, PublicKeyToken=bc13ca065fa06c29, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotNetty.Buffers.0.6.0\lib\net45\DotNetty.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetty.Codecs, Version=0.6.0.0, Culture=neutral, PublicKeyToken=bc13ca065fa06c29, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotNetty.Codecs.0.6.0\lib\net45\DotNetty.Codecs.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetty.Common, Version=0.6.0.0, Culture=neutral, PublicKeyToken=bc13ca065fa06c29, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotNetty.Common.0.6.0\lib\net45\DotNetty.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetty.Handlers, Version=0.6.0.0, Culture=neutral, PublicKeyToken=bc13ca065fa06c29, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotNetty.Handlers.0.6.0\lib\net45\DotNetty.Handlers.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetty.Transport, Version=0.6.0.0, Culture=neutral, PublicKeyToken=bc13ca065fa06c29, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotNetty.Transport.0.6.0\lib\net45\DotNetty.Transport.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.14.0.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.14.0\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.5.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=1.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.1.1.0\lib\netstandard1.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging, Version=1.1.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.1.1.1\lib\netstandard1.1\Microsoft.Extensions.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.2.0.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Win32.Primitives.4.3.0\lib\net46\Microsoft.Win32.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Registry, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Win32.Registry.5.0.0\lib\net461\Microsoft.Win32.Registry.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Bson, Version=2.18.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MongoDB.Bson.2.18.0\lib\net472\MongoDB.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver, Version=2.18.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MongoDB.Driver.2.18.0\lib\net472\MongoDB.Driver.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver.Core, Version=2.18.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MongoDB.Driver.Core.2.18.0\lib\net472\MongoDB.Driver.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Libmongocrypt, Version=1.6.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MongoDB.Libmongocrypt.1.6.0\lib\net472\MongoDB.Libmongocrypt.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.4.7.5\lib\net45\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="Pipelines.Sockets.Unofficial, Version=1.0.0.0, Culture=neutral, PublicKeyToken=42ea0a778e13fbe2, processorArchitecture=MSIL">
+      <HintPath>..\packages\Pipelines.Sockets.Unofficial.2.2.0\lib\net472\Pipelines.Sockets.Unofficial.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpCompress, Version=0.30.1.0, Culture=neutral, PublicKeyToken=afb0a02973931d96, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpCompress.0.30.1\lib\net461\SharpCompress.dll</HintPath>
+    </Reference>
+    <Reference Include="Snappier, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a1b25124e6e13a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Snappier.1.0.0\lib\netstandard2.0\Snappier.dll</HintPath>
+    </Reference>
+    <Reference Include="StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46, processorArchitecture=MSIL">
+      <HintPath>..\packages\StackExchange.Redis.2.2.4\lib\net472\StackExchange.Redis.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.AppContext, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.AppContext.4.3.0\lib\net463\System.AppContext.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Immutable, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Collections.Immutable.5.0.0\lib\net461\System.Collections.Immutable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.ConfigurationManager, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Configuration.ConfigurationManager.4.7.0\lib\net461\System.Configuration.ConfigurationManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Console, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Console.4.3.0\lib\net46\System.Console.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Data.SQLite, Version=1.0.115.5, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.115.5, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.115.5\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.115.5, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.115.5\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.4.3.0\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.PerformanceCounter, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.PerformanceCounter.5.0.0\lib\net461\System.Diagnostics.PerformanceCounter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.Tracing.4.3.0\lib\net462\System.Diagnostics.Tracing.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Globalization.Calendars, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Globalization.Calendars.4.3.0\lib\net46\System.Globalization.Calendars.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.4.3.0\lib\net462\System.IO.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Compression.4.3.0\lib\net46\System.IO.Compression.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.IO.Compression.ZipFile, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Compression.ZipFile.4.3.0\lib\net46\System.IO.Compression.ZipFile.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.FileSystem.4.3.0\lib\net46\System.IO.FileSystem.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.FileSystem.Primitives.4.3.0\lib\net46\System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Pipelines, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Pipelines.5.0.0\lib\net461\System.IO.Pipelines.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Linq.4.3.0\lib\net463\System.Linq.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Linq.Expressions, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Linq.Expressions.4.3.0\lib\net463\System.Linq.Expressions.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http, Version=4.1.1.3, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Http.4.3.4\lib\net46\System.Net.Http.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Sockets, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Sockets.4.3.0\lib\net46\System.Net.Sockets.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Reflection.4.3.0\lib\net462\System.Reflection.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.4.3.0\lib\net462\System.Runtime.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.5.0.0\lib\net45\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.Extensions.4.3.0\lib\net462\System.Runtime.Extensions.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.InteropServices.4.3.0\lib\net463\System.Runtime.InteropServices.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.InteropServices.RuntimeInformation.4.3.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Security.AccessControl, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.AccessControl.5.0.0\lib\net461\System.Security.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Algorithms.4.3.0\lib\net463\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.X509Certificates.4.3.0\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Permissions, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Permissions.4.7.0\lib\net461\System.Security.Permissions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Principal.Windows.5.0.0\lib\net461\System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Text.Encoding.CodePages, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encoding.CodePages.5.0.0\lib\net461\System.Text.Encoding.CodePages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.RegularExpressions.4.3.0\lib\net463\System.Text.RegularExpressions.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Threading.Channels, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Channels.5.0.0\lib\net461\System.Threading.Channels.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.ReaderWriter, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Xml.ReaderWriter.4.3.0\lib\net46\System.Xml.ReaderWriter.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Topshelf, Version=4.3.0.0, Culture=neutral, PublicKeyToken=b800c4cfcdeea87b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Topshelf.4.3.0\lib\net452\Topshelf.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="ZstdSharp, Version=0.6.2.0, Culture=neutral, PublicKeyToken=8d151af33a4ad5cf, processorArchitecture=MSIL">
+      <HintPath>..\packages\ZstdSharp.Port.0.6.2\lib\net461\ZstdSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BootstrapActor.cs" />
+    <Compile Include="Database\DBProxy.cs" />
+    <Compile Include="Database\DBProxyMonitor.cs" />
+    <Compile Include="Database\DBProxyReader.cs" />
+    <Compile Include="Database\DBProxyWriter.cs" />
+    <Compile Include="Database\DBProxyWriteWorker.cs" />
+    <Compile Include="Database\FromDBMessages.cs" />
+    <Compile Include="Database\MonitorSnapshot.cs" />
+    <Compile Include="Database\PayoutConfigSnapshot.cs" />
+    <Compile Include="Database\RedisDatabase.cs" />
+    <Compile Include="Database\RedisWriter.cs" />
+    <Compile Include="Database\SpinDBReader.cs" />
+    <Compile Include="Database\WriterSnapshot.cs" />
+    <Compile Include="GameLogics\BaseClasses\BasePPClassicGame.cs" />
+    <Compile Include="GameLogics\BaseClasses\BasePPSlotClasses.cs" />
+    <Compile Include="GameLogics\BaseClasses\BasePPSlotGame.cs" />
+    <Compile Include="GameLogics\BaseClasses\BaseSelFreeGroupedPPSlotGame.cs" />
+    <Compile Include="GameLogics\BaseClasses\BaseSelFreePPSlotGame.cs" />
+    <Compile Include="GameLogics\ChipsetManager.cs" />
+    <Compile Include="GameLogics\GameCollectionActor.cs" />
+    <Compile Include="GameLogics\GameConfig.cs" />
+    <Compile Include="GameLogics\GameUtils.cs" />
+    <Compile Include="GameLogics\IGameLogicActor.cs" />
+    <Compile Include="GameLogics\PayoutPoolActor.cs" />
+    <Compile Include="GameLogics\PayoutPoolConfig.cs" />
+    <Compile Include="GameLogics\PPGames10\AztecBonanzaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\AztecGemsDeluxeGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\BlackBullGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\BombBonanzaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\BookOfGoldenSandsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\BookOfTheFallenGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\BookOfTutGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\CaishenCashGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\CandyStarsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\CheekyEmperorGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\ChickenDropGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\ChilliHeatMegaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\CloverGoldGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\ClubTropicanaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\CosmicCashGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\CrownOfFireGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\CrystalCavernsMegaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\CurseOfTheWerewolfMegaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\DownTheRailsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\DragoJewelsOfFortuneGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\DrillThatGoldGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\ElementalGemsMegaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\EyeOfCleopatraGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\FireArcherGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\FireHot100GameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\FireHot20GameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\FireHot40GameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\FireHot5GameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\FireStrike2GameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\FireStrikeGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\FruitParty2GameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\GatesOfValhallaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\GemsBonanzaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\GoblinHeistPowerNudgeGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\GoldPartyGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\GorillaMayhemGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\GreedyWolfGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\HotToBurnExtremeGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\JohnHunterAndTheQuestGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\JohnHunterTombScarabQueenGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\JokerJewelsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\LittleGemGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\MagicianSecretsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\MagicMoneyMazeGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\NorthGuardiansGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\OctobeerFortunesGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\PhoenixForgeGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\QueenOfGodsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\ReleaseTheKrakenGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\RiseOfGizaPowerNudgeGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\SantasWonderlandGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\ShiningHot100GameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\ShiningHot20GameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\ShiningHot40GameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\ShiningHot5GameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\SnakesAndLaddersSnakeEyesGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\SpiritOfAdventureGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\StrikingHot5GameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\TemujinTreasuresGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\TheAmazingMoneyMachineGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\TheGreatStickUpGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\Triple8DragonsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\WildBeachPartyGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames10\WildHopAndDropGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\AladdinAndTheSorcererGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\AncientEgyptGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\AztecKingGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\BigBassBonanzaMegaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\BookOfAztecKingGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\BookOfKingdomsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\BountyGoldGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\BubblePopGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\BullFiestaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\CaishenGoldGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\CashBonanzaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\ChilliHeatGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\DaVinciTreasureGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\DayOfDeadGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\Devils13GameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\DiamondsAreForeverGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\DiscoLadyGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\DragonKingdomGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\DragonTigerGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\DwarvenGoldDeluxeGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\EmeraldKingGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\EmperorCaishenGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\ExtraJuicyGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\EyeOfTheStormGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\FairytaleFortuneGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\Fire88GameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\FishinReelsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\FruitRainbowGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\FuFuFuGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\GoldenPigGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\GoldRushGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\GreatReefGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\GreekGodsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\HerculesSonOfZeusGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\HockeyAttackGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\HokkaidoWolfGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\HoneyHoneyHoneyGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\HotChilliGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\HotSafariGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\IrishCharmsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\JohnHunterAndTheAztecTreasureGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\JohnHunterAndTheMayanGodsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\JourneyToTheWestGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\LadyGodivaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\LuckyDragonBallGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\LuckyDragonsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\LuckyGraceCharmGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\LuckyNewYearTigerTreasuresGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\MadameDestinyGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\MagicJourneyGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\MahjongPandaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\MasterChensFortuneGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\MasterJokerGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\MightOfRaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\MightyKongGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\MoneyMoneyMoneyGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\MoneyRollGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\MonkeyMadnessGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\MysteriousEgyptGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\MysteryOfTheOrientGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\MysticChiefGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\PeakPowerGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\PiggyBankBillsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\PixieWingsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\PyramidKingGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\RabbitGardenGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\RiseOfSamuraiGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\SafariKingGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\SantaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\SevenMonkeysGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\SevenPiggiesGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\SmugglersCoveGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\StarBountyGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\StarPiratesCodeGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\StreetRacerGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\Super7sGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\SuperJokerGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\SuperXGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\TheGreatChickenEscapeGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\TheMagicCauldronGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\TheTigerWarriorGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\TheWildMachineGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\ThreeGenieWishesGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\ThreeStarFortuneGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\TicTacTakeGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\TreasureHorseGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\TreeOfRichesGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\Triple8GoldGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\TripleDragonsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\TripleTigersGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\VampiresVSWolvesGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\VegasNightsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\VoodooMagicGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\WildGladiatorsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\WildPixiesGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\WildSpellsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\WildWalkerGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\WildWestDuelsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\WildWildRichesGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames11\WildWildRichesMegaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames12\BigBassHoldSpinnerGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames12\BusyBeesGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames12\DragonKingdomEyesOfFireGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames12\EmeraldKingClassicGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames12\FruitsOfTheAmazonGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames12\LeprechaunCarolGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames12\MoonShotGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames12\ReleaseTheKraken2GameLogic.cs" />
+    <Compile Include="GameLogics\PPGames12\TheDogHouseMultiholdGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames12\TheKnightKingGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames12\TheRedQueenGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames12\ThreeDancingMonkeysGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames13\AfricanElephantGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames13\GodsOfGizaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames13\JaneHunterGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames13\WildCelebrityBusMegaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\BigBassAmazonXtremeGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\BigBassHoldAndSpinnerMegawaysGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\BookOfTutMegawaysGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\CandyBlitzGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\CashBoxGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\CowboyCoinsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\CyclopsSmashGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\DiamondCascadeGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\DiamondsOfEgyptGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\EightGoldenDragonChallengeGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\ExcaliburUnleashedGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\FatPandaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\FloatingDragonDragonBoatFestivalGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\ForgeOfOlympusGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\FortunesOfAztecGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\FrogsAndBugsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\FrozenTropicsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\GoldOasisGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\HeistForTheGoldenNuggetsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\HellvisWildGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\JasmineDreamsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\JewelRushGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\KingdomOfTheDeadGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\KnightHotSpotzGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\LampOfInfinityGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\LobsterBobsCrazyCrabShackGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\MustangTrailGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\PiggyBankersGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\PiratesPubGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\PowerOfMerlinMegawaysGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\PubKingsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\RobberStrikeGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\RocketBlastMegawaysGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\SkyBountyGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\SpellbindingMysteryGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\StickyBeesGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\ThreeBuzzingWildsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\WildBisonChargeGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\WisdomOfAthenaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames14\ZeusVsHadesGodsOfWarGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames15\BigBassHalloweenGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames15\CashChipsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames15\DemonPotsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames15\GravityBonanzaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames15\InfectiveWildGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames15\RainbowReelsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames15\StarlightPrincess1000GameLogic.cs" />
+    <Compile Include="GameLogics\PPGames15\TheMoneyMenMegawaysGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames15\TundrasFortuneGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames15\TwilightPrincessGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames15\VikingForgeGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames16\AladdinsTreasureGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames16\BookOfVikingsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames16\ChaseForGloryGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames16\CountryFarmingGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames16\DwarvenGoldGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames16\GloriousRomeGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames16\HappyHoovesGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames16\HockeyLeagueGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames16\HockeyLeagueWildMatchGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames16\JokersJewelDiceGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames16\JurassicGiantsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames16\LadyOfTheMoonGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames16\MagicCrystalsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames16\NileFortuneGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames16\PantherQueenGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames16\QueenOfAtlantisGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames16\RomeoAndJulietGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames16\SugarSupremePowernudgeGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames16\SweetBonanzaDiceGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames16\TalesOfEgyptGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames16\TheCatfatherGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames16\TheCatfatherPartIIGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames16\TheDogHouseDiceShowGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames16\ThreeKingdomsBattleOfRedCliffsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames16\TimberStacksGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames16\TripleJokersGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames16\WildDepthsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames17\BigBassChristmasBashGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames17\BladeAndFangsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames17\CandyJarClustersGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames17\CastleOfFireGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames17\DingDongChristmasBellsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames17\FireStampedeGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames17\FiveFrozenCharmsMegawaysGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames17\FloatingDragonNewYearFestivalUltraMegawaysHoldAndSpinGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames17\GatesOfOlympus1000GameLogic.cs" />
+    <Compile Include="GameLogics\PPGames17\JuicyFruitsMultiholdGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames17\SugarRushXmasGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames17\TheBigDawgsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames17\TheWildGangGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames18\BigBassDayAtTheRacesGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames18\BigBassFloatsMyBoatGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames18\BlazingWildsMegawaysGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames18\GearsOfHorusGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames18\GoodLuckAndGoodFortuneGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames18\LokisRichesGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames18\MightyMunchingMelonsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames18\PompeiiMegareelsMegawaysGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames18\RedHotLuckGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames18\StrawberryCocktailGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames18\TheAlterEgoGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames18\TreesOfTreasureGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames18\WheelOGoldGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames18\YearOfTheDragonKingGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames2\WildBoosterGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames2\FiveLionsDanceGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames2\FiveLionsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames2\FruitPartyGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames2\GreatRhinoMegaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames2\HotToBurnGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames2\LuckyNewYearGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames2\MonkeyWarriorGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames2\OlympusGatesGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames2\PandaFortune2GameLogic.cs" />
+    <Compile Include="GameLogics\PPGames2\ReturnDeadGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames2\UltraBurnGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames3\AsgardGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames3\AztecKingMegaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames3\BroncoSpiritGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames3\BuffaloKingMegaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames3\DancePartyGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames3\DragonHoldAndSpinGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames3\HeartOfRioGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames3\JokerKingGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames3\MustangGoldGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames3\VegasMagicGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames4\AztecGemsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames4\BigBassBonanzaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames4\BiggerBassBonanzaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames4\CashElevatorGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames4\CowBoysGoldGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames4\EightDragonsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames4\HandOfMidasGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames4\MoneyMouseGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames4\PeKingLuckGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames4\PirateGoldDeluxGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames4\PowerOfThorMegaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames4\PyramidBonanzaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames4\TheTweetyHouseGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames5\ChristmasBigBassBonanzaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames5\FloatingDragonHoldAndSpinGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames5\FortuneOfGizaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames5\HotFiestaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames6\BigJuanGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames6\CashPatrolGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames6\CleocatraGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames6\EmptyTheBankGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames6\KoiPondGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames6\QueenieGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames6\RockVegasGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames6\TheUltimate5GameLogic.cs" />
+    <Compile Include="GameLogics\PPGames6\TreasureWildGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames6\ZombieCarnivalGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames7\BonanzaGoldGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames7\StarlightPrincessGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames7\SugarRushGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames7\SweetBonanzaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames7\SweetBonanzaXmasGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames7\SwordOfAresGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames8\AztecBlazeGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames8\BarnFestivalGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames8\BigBassKeepingItReelGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames8\BigBassSplashGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames8\BiggerBassBlizzardGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames8\BookOfTutRespinGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames8\ColossalCashZoneGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames8\DragonHeroGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames8\FirebirdSpiritGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames8\FishEyeGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames8\FiveRabbitsMegaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames8\FuryOfOdinMegaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames8\GatesOfAztecGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames8\GatesOfGatotKacaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames8\GemsOfSerengetiGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames8\HotPepperGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames8\KingdomOfAsgardGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames8\LeprechaunSongGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames8\LuckyFishingGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames8\MammothGoldMegaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames8\MonsterSuperlancheGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames8\PinupGirlsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames8\PirateGoldenAgeGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames8\PizzaPizzaPizzaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames8\ReelBanksGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames8\RiseOfSamurai3GameLogic.cs" />
+    <Compile Include="GameLogics\PPGames8\RiseOfSamuraiMegaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames8\SantaGreatGiftsGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames8\SecretCityGoldGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames8\ShieldOfSpartaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames8\SpinAndScoreMegaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames8\StarlightChristmasGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames8\SweetPowernudgeGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames8\ToweringFortunesGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames8\WildWestGoldMegaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames8\WildWildBananasGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames8\YumYumPowerWaysGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames9\CandyVillageGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames9\ChristmasCarolMegaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames9\CoffeeWildGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames9\ExtraJuicyMegaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames9\FloatingDragonMegaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames9\GatotKacaFuryGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames9\LegendOfHeroesMegaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames9\LuckyLightningGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames9\MochimonGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames9\MuertosMultiplierMegaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames9\TropicalTikiGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames\AncientEgyptClassicGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames\BeoWulfGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames\BuffaloKingGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames\GreatRhinoGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames\DiamondStrikeGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames\EgyptianFortunesGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames\FiveLionsGoldGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames\FiveLionsMegaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames\GoldenOxGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames\GreatRhinoDeluxGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames\HerculesAndPegasusGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames\HotToBurnHoldAndSpinGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames\JuicyFruitGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames\MadameDestinyMegaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames\PandasFortuneGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames\PirateGoldGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames\SpartaKingGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames\StarzMegawaysGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames\TheDogHouseGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames\TheDogHouseMegaGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames\UltraHoldAndSpinGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames\WestWildGoldGameLogic.cs" />
+    <Compile Include="GameLogics\PPGames\WolfGoldGameLogic.cs" />
+    <Compile Include="GameLogics\Utils\SerializeUtils.cs" />
+    <Compile Include="LocalMessages.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SlotGamesHostFactory.cs" />
+    <Compile Include="SlotGamesNodeService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Chipset\chipset%28AUD%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Chipset\chipset%28BRL%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Chipset\chipset%28CHF%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Chipset\chipset%28EUR%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Chipset\chipset%28IDR%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Chipset\chipset%28INR%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Chipset\chipset%28MAD%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Chipset\chipset%28MYR%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Chipset\chipset%28NGN%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Chipset\chipset%28NOK%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Chipset\chipset%28RUB%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Chipset\chipset%28THB%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Chipset\chipset%28TND%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Chipset\chipset%28TRY%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Chipset\chipset%28TVD%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Chipset\chipset%28USD%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Chipset\chipset%28XOF%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Chipset\gamertp.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="config.hocon">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="libmongocrypt.dylib" />
+    <None Include="libmongocrypt.so" />
+    <None Include="NLog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GITProtocol\GITProtocol.csproj">
+      <Project>{f2677eca-aa39-49d3-9f00-544dc842da65}</Project>
+      <Name>GITProtocol</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="mongocrypt.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
+    <Error Condition="!Exists('..\packages\MongoDB.Libmongocrypt.1.6.0\build\MongoDB.Libmongocrypt.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MongoDB.Libmongocrypt.1.6.0\build\MongoDB.Libmongocrypt.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <Import Project="..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
+  <Import Project="..\packages\MongoDB.Libmongocrypt.1.6.0\build\MongoDB.Libmongocrypt.targets" Condition="Exists('..\packages\MongoDB.Libmongocrypt.1.6.0\build\MongoDB.Libmongocrypt.targets')" />
+</Project>

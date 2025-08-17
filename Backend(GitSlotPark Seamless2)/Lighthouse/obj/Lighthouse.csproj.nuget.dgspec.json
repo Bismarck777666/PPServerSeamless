@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\work\\work_by_category\\Slot\\PPServer\\Backend(GitSlotPark Seamless2)\\Lighthouse\\Lighthouse.csproj": {}
+  },
+  "projects": {
+    "E:\\work\\work_by_category\\Slot\\PPServer\\Backend(GitSlotPark Seamless2)\\Lighthouse\\Lighthouse.csproj": {
+      "version": "1.4.0",
+      "restore": {
+        "projectUniqueName": "E:\\work\\work_by_category\\Slot\\PPServer\\Backend(GitSlotPark Seamless2)\\Lighthouse\\Lighthouse.csproj",
+        "projectName": "Lighthouse",
+        "projectPath": "E:\\work\\work_by_category\\Slot\\PPServer\\Backend(GitSlotPark Seamless2)\\Lighthouse\\Lighthouse.csproj",
+        "packagesPath": "C:\\Users\\bismarck\\.nuget\\packages\\",
+        "outputPath": "E:\\work\\work_by_category\\Slot\\PPServer\\Backend(GitSlotPark Seamless2)\\Lighthouse\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "C:\\Users\\bismarck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "targetAlias": "net461",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "targetAlias": "net461",
+          "dependencies": {
+            "Akka.Bootstrap.Docker": {
+              "target": "Package",
+              "version": "[0.5.0, )"
+            },
+            "Akka.Cluster": {
+              "target": "Package",
+              "version": "[1.4.18, )"
+            },
+            "Microsoft.Extensions.Configuration.Xml": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Petabridge.Cmd.Cluster": {
+              "target": "Package",
+              "version": "[0.8.3, )"
+            },
+            "Petabridge.Cmd.Remote": {
+              "target": "Package",
+              "version": "[0.8.3, )"
+            },
+            "Topshelf": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
