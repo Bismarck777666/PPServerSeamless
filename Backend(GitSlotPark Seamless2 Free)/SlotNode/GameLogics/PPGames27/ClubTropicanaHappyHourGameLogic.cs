@@ -9,6 +9,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using GITProtocol.Utils;
 
 namespace SlotGamesNode.GameLogics
 {
@@ -112,6 +113,24 @@ namespace SlotGamesNode.GameLogics
 	        dicParams["sw"] = "5";
 	        dicParams["bl"] = "0";
         }
+        protected override Dictionary<string, string> mergeSpinToBonus(Dictionary<string, string> spinParams, Dictionary<string, string> bonusParams)
+        {
+            Dictionary<string, string> resultParams = new Dictionary<string, string>();
+            foreach (KeyValuePair<string, string> pair in bonusParams)
+                resultParams.Add(pair.Key, pair.Value);
+
+            string[] toCopyParams = new string[] { "s", "sa", "sb", "fs", "fsmul", "fsmax", "fsres", "fswin", "fs_total", "fsmul_total", "fsres_total", "fswin_total", "reel_set", "bw" };
+            for (int i = 0; i < toCopyParams.Length; i++)
+            {
+                if (!spinParams.ContainsKey(toCopyParams[i]))
+                    continue;
+                resultParams[toCopyParams[i]] = spinParams[toCopyParams[i]];
+            }
+
+            if (!resultParams.ContainsKey("g") && spinParams.ContainsKey("g"))
+                resultParams["g"] = spinParams["g"];
+            return resultParams;
+        }
         protected override void convertWinsByBet(Dictionary<string, string> dicParams, float currentBet)
         {
             base.convertWinsByBet(dicParams, currentBet);
@@ -154,9 +173,9 @@ namespace SlotGamesNode.GameLogics
                     return;
                 }
 
-                if (!isNotIntergerMultipleBetPerLine(betInfo.BetPerLine, minChip))
+                if (!minChip.EQ(betInfo.BetPerLine, _epsilion) && betInfo.BetPerLine < minChip)
                 {
-                    _logger.Error("{0} betInfo.BetPerLine is illegual: {1} != {2} * integer", strGlobalUserID, betInfo.BetPerLine, minChip);
+                    _logger.Error("{0} betInfo.BetPerLine is less that min chip: {1} < {2}", strGlobalUserID, betInfo.BetPerLine, minChip);
                     return;
                 }
 

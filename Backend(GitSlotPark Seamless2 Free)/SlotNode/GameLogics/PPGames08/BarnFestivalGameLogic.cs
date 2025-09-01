@@ -1,4 +1,5 @@
 ﻿using GITProtocol;
+using GITProtocol.Utils;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -105,9 +106,9 @@ namespace SlotGamesNode.GameLogics
                     _logger.Error("{0} betInfo.MoreBet and  PurchasedFreeSpin is same time true in SugarRushGameLogic::readBetInfoFromMessage", strGlobalUserID);
                     return;
                 }
-                if (!isNotIntergerMultipleBetPerLine(betInfo.BetPerLine, minChip))
+                if (!minChip.EQ(betInfo.BetPerLine, _epsilion) && betInfo.BetPerLine < minChip)
                 {
-                    _logger.Error("{0} betInfo.BetPerLine is illegual: {1} != {2} * integer", strGlobalUserID, betInfo.BetPerLine, minChip);
+                    _logger.Error("{0} betInfo.BetPerLine is less that min chip: {1} < {2}", strGlobalUserID, betInfo.BetPerLine, minChip);
                     return;
                 }
 

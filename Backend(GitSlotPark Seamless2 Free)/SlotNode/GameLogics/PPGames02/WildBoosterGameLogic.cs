@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using GITProtocol;
+using GITProtocol.Utils;
 
 namespace SlotGamesNode.GameLogics
 {
@@ -110,9 +111,9 @@ namespace SlotGamesNode.GameLogics
                     _logger.Error("{0} betInfo.BetPerLine <= 0 in WildBoosterGameLogic::readBetInfoFromMessage {1}", strGlobalUserID, betInfo.BetPerLine);
                     return;
                 }
-                if (!isNotIntergerMultipleBetPerLine(betInfo.BetPerLine, minChip))
+                if (!minChip.EQ(betInfo.BetPerLine, _epsilion) && betInfo.BetPerLine < minChip)
                 {
-                    _logger.Error("{0} betInfo.BetPerLine is illegual: {1} != {2} * integer", strGlobalUserID, betInfo.BetPerLine, minChip);
+                    _logger.Error("{0} betInfo.BetPerLine is less that min chip: {1} < {2}", strGlobalUserID, betInfo.BetPerLine, minChip);
                     return;
                 }
 

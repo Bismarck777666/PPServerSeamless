@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using GITProtocol;
+using GITProtocol.Utils;
 
 namespace SlotGamesNode.GameLogics
 {
@@ -115,9 +116,9 @@ namespace SlotGamesNode.GameLogics
                     _logger.Error("{0} betInfo.MoreBet and  PurchasedFreeSpin is same time true in JuicyFruitGameLogic::readBetInfoFromMessage", strGlobalUserID);
                     return;
                 }
-                if (!isNotIntergerMultipleBetPerLine(betInfo.BetPerLine, minChip))
+                if (!minChip.EQ(betInfo.BetPerLine, _epsilion) && betInfo.BetPerLine < minChip)
                 {
-                    _logger.Error("{0} betInfo.BetPerLine is illegual: {1} != {2} * integer", strGlobalUserID, betInfo.BetPerLine, minChip);
+                    _logger.Error("{0} betInfo.BetPerLine is less that min chip: {1} < {2}", strGlobalUserID, betInfo.BetPerLine, minChip);
                     return;
                 }
 
@@ -126,16 +127,15 @@ namespace SlotGamesNode.GameLogics
                     _logger.Error("{0} betInfo.LineCount is not matched {1} != {2}", strGlobalUserID, betInfo.LineCount, this.ClientReqLineCount);
                     return;
                 }
-                BasePPSlotBetInfo oldBetInfo = null;
-                if (_dicUserBetInfos.TryGetValue(strGlobalUserID, out oldBetInfo))
+                if (_dicUserBetInfos.TryGetValue(strGlobalUserID, out BasePPSlotBetInfo oldBetInfo))
                 {
                     //만일 유저에게 남은 응답이 존재하는 경우
                     if (oldBetInfo.HasRemainResponse)
                         return;
 
-                    oldBetInfo.BetPerLine   = betInfo.BetPerLine;
-                    oldBetInfo.LineCount    = betInfo.LineCount;
-                    oldBetInfo.MoreBet      = betInfo.MoreBet;
+                    oldBetInfo.BetPerLine = betInfo.BetPerLine;
+                    oldBetInfo.LineCount = betInfo.LineCount;
+                    oldBetInfo.MoreBet = betInfo.MoreBet;
                     oldBetInfo.PurchaseFree = betInfo.PurchaseFree;
                 }
                 else

@@ -1,4 +1,5 @@
 ﻿using GITProtocol;
+using GITProtocol.Utils;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
@@ -101,9 +102,9 @@ namespace SlotGamesNode.GameLogics
                     _logger.Error("{0} betInfo.BetPerLine <= 0 in SecretCityGoldGameLogic::readBetInfoFromMessage {1}", strGlobalUserID, betInfo.BetPerLine);
                     return;
                 }
-                if (!isNotIntergerMultipleBetPerLine(betInfo.BetPerLine, minChip))
+                if (!minChip.EQ(betInfo.BetPerLine, _epsilion) && betInfo.BetPerLine < minChip)
                 {
-                    _logger.Error("{0} betInfo.BetPerLine is illegual: {1} != {2} * integer", strGlobalUserID, betInfo.BetPerLine, minChip);
+                    _logger.Error("{0} betInfo.BetPerLine is less that min chip: {1} < {2}", strGlobalUserID, betInfo.BetPerLine, minChip);
                     return;
                 }
 

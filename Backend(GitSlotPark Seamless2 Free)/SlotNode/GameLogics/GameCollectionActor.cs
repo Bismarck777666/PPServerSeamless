@@ -633,13 +633,21 @@ namespace SlotGamesNode.GameLogics
             _dicGameLogicActors.Add(GAMEID.ZombieSchoolMega,            Context.ActorOf(Props.Create(() => new ZombieSchoolMegaGameLogic()),            "ZombieSchoolMega"));
             _dicGameLogicActors.Add(GAMEID.Argonauts,                   Context.ActorOf(Props.Create(() => new ArgonautsGameLogic()),                   "Argonauts"));
             _dicGameLogicActors.Add(GAMEID.BigBassReelRepeat,           Context.ActorOf(Props.Create(() => new BigBassReelRepeatGameLogic()),           "BigBassReelRepeat"));
-            
-            
-            
-            
-            
-            
-            
+            _dicGameLogicActors.Add(GAMEID.IceMints,                    Context.ActorOf(Props.Create(() => new IceMintsGameLogic()),                    "IceMints"));
+            _dicGameLogicActors.Add(GAMEID.DinoDrop,                    Context.ActorOf(Props.Create(() => new DinoDropGameLogic()),                    "DinoDrop"));
+            _dicGameLogicActors.Add(GAMEID.SpellMaster,                 Context.ActorOf(Props.Create(() => new SpellMasterGameLogic()),                 "SpellMaster"));
+            _dicGameLogicActors.Add(GAMEID.WolfGold4Pack,               Context.ActorOf(Props.Create(() => new WolfGold4PackGameLogic()),               "WolfGold4Pack"));
+            _dicGameLogicActors.Add(GAMEID.StarlightWins,               Context.ActorOf(Props.Create(() => new StarlightWinsGameLogic()),               "StarlightWins"));
+            _dicGameLogicActors.Add(GAMEID.GatesOfOlympusDice,          Context.ActorOf(Props.Create(() => new GatesOfOlympusDiceGameLogic()),          "GatesOfOlympusDice"));
+            _dicGameLogicActors.Add(GAMEID.FireStampede2,               Context.ActorOf(Props.Create(() => new FireStampede2GameLogic()),               "FireStampede2"));
+            _dicGameLogicActors.Add(GAMEID.JackpotBlaze,                Context.ActorOf(Props.Create(() => new JackpotBlazeGameLogic()),                "JackpotBlaze"));
+
+
+
+
+
+
+
 
 
             List<string> symbols = new List<string>();

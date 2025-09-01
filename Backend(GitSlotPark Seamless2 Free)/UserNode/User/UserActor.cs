@@ -520,8 +520,8 @@ namespace UserNode
                 string strContent = await message.Content.ReadAsStringAsync();
                 GetBalanceResponse response = JsonConvert.DeserializeObject<GetBalanceResponse>(strContent);
                 if(response.code != 0)
-                    _logger.Error("GetBalance callback returns no success code in UserActor::callGetBalance {0} {1}", response.code, response.message);
-                
+                    _logger.Error("GetBalance callback returns no success code in UserActor::callGetBalance {0} {1} {2} {3}", _agentID, _strUserID, response.code, response.message);
+
                 return response;
             }
             catch (Exception ex)
@@ -567,7 +567,7 @@ namespace UserNode
                 if(response.code == 0) 
                     _dbWriter.Tell(new ApiTransactionItem(_agentID, _strUserID, gameID, amount, 0.0, transactionID, "", response.platformTransactionID, roundID, TransactionTypes.Withdraw, DateTime.UtcNow));
                 else
-                    _logger.Error("Withdraw callback returns no success code in UserActor::callWithdraw {0} {1}", response.code, response.message);
+                    _logger.Error("Withdraw callback returns no success code in UserActor::callWithdraw {0} {1} {2} {3}", _agentID, _strUserID, response.code, response.message);
 
                 return response;
             }
@@ -612,7 +612,7 @@ namespace UserNode
                     _dbWriter.Tell(new ApiTransactionItem(_agentID, _strUserID, gameID, 0.0, amount, transactionID, betTransactionID, response.platformTransactionID, roundID, TransactionTypes.Deposit, DateTime.UtcNow));
                 else
                 {
-                    _logger.Error("Deposit callback returns no success code in UserActor::callDeposit {0} {1}", response.code, response.message);
+                    _logger.Error("Deposit callback returns no success code in UserActor::callDeposit {0} {1} {2} {3}", _agentID, _strUserID, response.code, response.message);
                     _dbWriter.Tell(new FailedTransactionItem(_agentID, _strUserID, TransactionTypes.Deposit, transactionID, betTransactionID, 0.0, amount, gameID, DateTime.UtcNow));
                 }
                 return response;
@@ -661,8 +661,8 @@ namespace UserNode
                 if (response.code == 0)
                     _dbWriter.Tell(new ApiTransactionItem(_agentID, _strUserID, gameID, betAmount, winAmount, transactionID, "", response.platformTransactionID, roundID, TransactionTypes.BetWin, DateTime.UtcNow));
                 else
-                    _logger.Error("BetWin callback returns no success code in UserActor::callBetWin {0} {1}", response.code, response.message);
-                
+                    _logger.Error("BetWin callback returns no success code in UserActor::callBetWin {0} {1} {2} {3}", _agentID, _strUserID, response.code, response.message);
+
                 return response;
             }
             catch (Exception ex)
