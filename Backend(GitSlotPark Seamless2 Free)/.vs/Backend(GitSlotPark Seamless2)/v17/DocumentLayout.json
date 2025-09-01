@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "E:\\work\\Slot\\PPServer\\Backend(GitSlotPark Seamless2 Free)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F2677ECA-AA39-49D3-9F00-544DC842DA65}|GITProtocol\\GITProtocol.csproj|e:\\work\\slot\\ppserver\\backend(gitslotpark seamless2 free)\\gitprotocol\\betweenserversmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2677ECA-AA39-49D3-9F00-544DC842DA65}|GITProtocol\\GITProtocol.csproj|solutionrelative:gitprotocol\\betweenserversmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{619F5EF1-1674-4E98-B168-CA201383EBC9}|SlotNode\\SlotNode.csproj|e:\\work\\slot\\ppserver\\backend(gitslotpark seamless2 free)\\slotnode\\gamelogics\\ppgames22\\releasethekrakenmegagamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619F5EF1-1674-4E98-B168-CA201383EBC9}|SlotNode\\SlotNode.csproj|solutionrelative:slotnode\\gamelogics\\ppgames22\\releasethekrakenmegagamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{619F5EF1-1674-4E98-B168-CA201383EBC9}|SlotNode\\SlotNode.csproj|e:\\work\\slot\\ppserver\\backend(gitslotpark seamless2 free)\\slotnode\\gamelogics\\baseclasses\\baseppslotgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{619F5EF1-1674-4E98-B168-CA201383EBC9}|SlotNode\\SlotNode.csproj|solutionrelative:slotnode\\gamelogics\\baseclasses\\baseppslotgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{619F5EF1-1674-4E98-B168-CA201383EBC9}|SlotNode\\SlotNode.csproj|e:\\work\\slot\\ppserver\\backend(gitslotpark seamless2 free)\\slotnode\\gamelogics\\ppgames12\\emeraldkingclassicgamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619F5EF1-1674-4E98-B168-CA201383EBC9}|SlotNode\\SlotNode.csproj|solutionrelative:slotnode\\gamelogics\\ppgames12\\emeraldkingclassicgamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2677ECA-AA39-49D3-9F00-544DC842DA65}|GITProtocol\\GITProtocol.csproj|e:\\work\\slot\\ppserver\\backend(gitslotpark seamless2 free)\\gitprotocol\\utils\\realextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2677ECA-AA39-49D3-9F00-544DC842DA65}|GITProtocol\\GITProtocol.csproj|solutionrelative:gitprotocol\\utils\\realextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{619F5EF1-1674-4E98-B168-CA201383EBC9}|SlotNode\\SlotNode.csproj|e:\\work\\slot\\ppserver\\backend(gitslotpark seamless2 free)\\slotnode\\gamelogics\\ppgames12\\dragonkingdomeyesoffiregamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619F5EF1-1674-4E98-B168-CA201383EBC9}|SlotNode\\SlotNode.csproj|solutionrelative:slotnode\\gamelogics\\ppgames12\\dragonkingdomeyesoffiregamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619F5EF1-1674-4E98-B168-CA201383EBC9}|SlotNode\\SlotNode.csproj|e:\\work\\slot\\ppserver\\backend(gitslotpark seamless2 free)\\slotnode\\gamelogics\\ppgames01\\starzmegawaysgamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619F5EF1-1674-4E98-B168-CA201383EBC9}|SlotNode\\SlotNode.csproj|solutionrelative:slotnode\\gamelogics\\ppgames01\\starzmegawaysgamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619F5EF1-1674-4E98-B168-CA201383EBC9}|SlotNode\\SlotNode.csproj|e:\\work\\slot\\ppserver\\backend(gitslotpark seamless2 free)\\slotnode\\gamelogics\\ppgames10\\bookofgoldensandsgamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619F5EF1-1674-4E98-B168-CA201383EBC9}|SlotNode\\SlotNode.csproj|solutionrelative:slotnode\\gamelogics\\ppgames10\\bookofgoldensandsgamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{619F5EF1-1674-4E98-B168-CA201383EBC9}|SlotNode\\SlotNode.csproj|e:\\work\\slot\\ppserver\\backend(gitslotpark seamless2 free)\\slotnode\\gamelogics\\ppgames10\\bookofthefallengamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619F5EF1-1674-4E98-B168-CA201383EBC9}|SlotNode\\SlotNode.csproj|solutionrelative:slotnode\\gamelogics\\ppgames10\\bookofthefallengamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +39,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BetweenServersMessage.cs",
-              "DocumentMoniker": "E:\\work\\Slot\\PPServer\\Backend(GitSlotPark Seamless2 Free)\\GITProtocol\\BetweenServersMessage.cs",
-              "RelativeDocumentMoniker": "GITProtocol\\BetweenServersMessage.cs",
-              "ToolTip": "E:\\work\\Slot\\PPServer\\Backend(GitSlotPark Seamless2 Free)\\GITProtocol\\BetweenServersMessage.cs",
-              "RelativeToolTip": "GITProtocol\\BetweenServersMessage.cs",
-              "ViewState": "AgIAAAwDAAAAAAAAAAAnwB4DAAAQAAAAAAAAAA==",
+              "Title": "ReleaseTheKrakenMegaGameLogic.cs",
+              "DocumentMoniker": "E:\\work\\Slot\\PPServer\\Backend(GitSlotPark Seamless2 Free)\\SlotNode\\GameLogics\\PPGames22\\ReleaseTheKrakenMegaGameLogic.cs",
+              "RelativeDocumentMoniker": "SlotNode\\GameLogics\\PPGames22\\ReleaseTheKrakenMegaGameLogic.cs",
+              "ToolTip": "E:\\work\\Slot\\PPServer\\Backend(GitSlotPark Seamless2 Free)\\SlotNode\\GameLogics\\PPGames22\\ReleaseTheKrakenMegaGameLogic.cs",
+              "RelativeToolTip": "SlotNode\\GameLogics\\PPGames22\\ReleaseTheKrakenMegaGameLogic.cs",
+              "ViewState": "AgIAAOMAAAAAAAAAAAAIwPEAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T12:14:10.425Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RealExtensions.cs",
-              "DocumentMoniker": "E:\\work\\Slot\\PPServer\\Backend(GitSlotPark Seamless2 Free)\\GITProtocol\\Utils\\RealExtensions.cs",
-              "RelativeDocumentMoniker": "GITProtocol\\Utils\\RealExtensions.cs",
-              "ToolTip": "E:\\work\\Slot\\PPServer\\Backend(GitSlotPark Seamless2 Free)\\GITProtocol\\Utils\\RealExtensions.cs",
-              "RelativeToolTip": "GITProtocol\\Utils\\RealExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T22:11:20.014Z",
+              "WhenOpened": "2025-09-01T07:31:32.828Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BasePPSlotGame.cs",
-              "DocumentMoniker": "E:\\work\\Slot\\PPServer\\Backend(GitSlotPark Seamless2 Free)\\SlotNode\\GameLogics\\BaseClasses\\BasePPSlotGame.cs",
-              "RelativeDocumentMoniker": "SlotNode\\GameLogics\\BaseClasses\\BasePPSlotGame.cs",
-              "ToolTip": "E:\\work\\Slot\\PPServer\\Backend(GitSlotPark Seamless2 Free)\\SlotNode\\GameLogics\\BaseClasses\\BasePPSlotGame.cs",
-              "RelativeToolTip": "SlotNode\\GameLogics\\BaseClasses\\BasePPSlotGame.cs",
-              "ViewState": "AgIAACgDAAAAAAAAAIAwwFkDAABCAAAAAAAAAA==",
+              "Title": "EmeraldKingClassicGameLogic.cs",
+              "DocumentMoniker": "E:\\work\\Slot\\PPServer\\Backend(GitSlotPark Seamless2 Free)\\SlotNode\\GameLogics\\PPGames12\\EmeraldKingClassicGameLogic.cs",
+              "RelativeDocumentMoniker": "SlotNode\\GameLogics\\PPGames12\\EmeraldKingClassicGameLogic.cs",
+              "ToolTip": "E:\\work\\Slot\\PPServer\\Backend(GitSlotPark Seamless2 Free)\\SlotNode\\GameLogics\\PPGames12\\EmeraldKingClassicGameLogic.cs",
+              "RelativeToolTip": "SlotNode\\GameLogics\\PPGames12\\EmeraldKingClassicGameLogic.cs",
+              "ViewState": "AgIAANIAAAAAAAAAAAAIwOAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T21:55:54.463Z",
+              "WhenOpened": "2025-09-01T07:31:28.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DragonKingdomEyesOfFireGameLogic.cs",
+              "DocumentMoniker": "E:\\work\\Slot\\PPServer\\Backend(GitSlotPark Seamless2 Free)\\SlotNode\\GameLogics\\PPGames12\\DragonKingdomEyesOfFireGameLogic.cs",
+              "RelativeDocumentMoniker": "SlotNode\\GameLogics\\PPGames12\\DragonKingdomEyesOfFireGameLogic.cs",
+              "ToolTip": "E:\\work\\Slot\\PPServer\\Backend(GitSlotPark Seamless2 Free)\\SlotNode\\GameLogics\\PPGames12\\DragonKingdomEyesOfFireGameLogic.cs*",
+              "RelativeToolTip": "SlotNode\\GameLogics\\PPGames12\\DragonKingdomEyesOfFireGameLogic.cs*",
+              "ViewState": "AgIAALUAAAAAAAAAAAAIwMMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T07:31:24.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StarzMegawaysGameLogic.cs",
+              "DocumentMoniker": "E:\\work\\Slot\\PPServer\\Backend(GitSlotPark Seamless2 Free)\\SlotNode\\GameLogics\\PPGames01\\StarzMegawaysGameLogic.cs",
+              "RelativeDocumentMoniker": "SlotNode\\GameLogics\\PPGames01\\StarzMegawaysGameLogic.cs",
+              "ToolTip": "E:\\work\\Slot\\PPServer\\Backend(GitSlotPark Seamless2 Free)\\SlotNode\\GameLogics\\PPGames01\\StarzMegawaysGameLogic.cs*",
+              "RelativeToolTip": "SlotNode\\GameLogics\\PPGames01\\StarzMegawaysGameLogic.cs*",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAIwFsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T07:31:19.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookOfTheFallenGameLogic.cs",
+              "DocumentMoniker": "E:\\work\\Slot\\PPServer\\Backend(GitSlotPark Seamless2 Free)\\SlotNode\\GameLogics\\PPGames10\\BookOfTheFallenGameLogic.cs",
+              "RelativeDocumentMoniker": "SlotNode\\GameLogics\\PPGames10\\BookOfTheFallenGameLogic.cs",
+              "ToolTip": "E:\\work\\Slot\\PPServer\\Backend(GitSlotPark Seamless2 Free)\\SlotNode\\GameLogics\\PPGames10\\BookOfTheFallenGameLogic.cs",
+              "RelativeToolTip": "SlotNode\\GameLogics\\PPGames10\\BookOfTheFallenGameLogic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T07:28:02.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookOfGoldenSandsGameLogic.cs",
+              "DocumentMoniker": "E:\\work\\Slot\\PPServer\\Backend(GitSlotPark Seamless2 Free)\\SlotNode\\GameLogics\\PPGames10\\BookOfGoldenSandsGameLogic.cs",
+              "RelativeDocumentMoniker": "SlotNode\\GameLogics\\PPGames10\\BookOfGoldenSandsGameLogic.cs",
+              "ToolTip": "E:\\work\\Slot\\PPServer\\Backend(GitSlotPark Seamless2 Free)\\SlotNode\\GameLogics\\PPGames10\\BookOfGoldenSandsGameLogic.cs",
+              "RelativeToolTip": "SlotNode\\GameLogics\\PPGames10\\BookOfGoldenSandsGameLogic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-01T07:27:56.287Z",
               "EditorCaption": ""
             }
           ]

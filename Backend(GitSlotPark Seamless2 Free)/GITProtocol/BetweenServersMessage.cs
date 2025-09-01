@@ -746,7 +746,7 @@ namespace GITProtocol
         UZS     = 33,   // 10000
         CAD     = 34,   // 1
         CNY     = 35,   // 5
-        PLN     = 36,   // 1
+        PLN     = 36,   // 4
         HUF     = 37,   // 100
         NZD     = 38,   // 1
         CLP     = 39,   // 500
@@ -797,9 +797,10 @@ namespace GITProtocol
         GC      = 84,   //1
         SC      = 85,   //1
         ENT     = 86,   //10
+        USDT    = 87,   //1
 
 
-        COUNT   = 87,
+        COUNT   = 88,
     }
     public enum Languages
     {

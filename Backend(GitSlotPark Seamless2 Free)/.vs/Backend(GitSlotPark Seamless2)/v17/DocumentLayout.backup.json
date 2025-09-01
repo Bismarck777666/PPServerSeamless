@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\work\\Slot\\PPServer\\Backend(GitSlotPark Seamless2 Free)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{619F5EF1-1674-4E98-B168-CA201383EBC9}|SlotNode\\SlotNode.csproj|e:\\work\\slot\\ppserver\\backend(gitslotpark seamless2 free)\\slotnode\\gamelogics\\baseclasses\\baseppslotgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{619F5EF1-1674-4E98-B168-CA201383EBC9}|SlotNode\\SlotNode.csproj|solutionrelative:slotnode\\gamelogics\\baseclasses\\baseppslotgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{619F5EF1-1674-4E98-B168-CA201383EBC9}|SlotNode\\SlotNode.csproj|e:\\work\\slot\\ppserver\\backend(gitslotpark seamless2 free)\\slotnode\\gamelogics\\ppgames10\\bookofgoldensandsgamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619F5EF1-1674-4E98-B168-CA201383EBC9}|SlotNode\\SlotNode.csproj|solutionrelative:slotnode\\gamelogics\\ppgames10\\bookofgoldensandsgamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2677ECA-AA39-49D3-9F00-544DC842DA65}|GITProtocol\\GITProtocol.csproj|e:\\work\\slot\\ppserver\\backend(gitslotpark seamless2 free)\\gitprotocol\\utils\\realextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2677ECA-AA39-49D3-9F00-544DC842DA65}|GITProtocol\\GITProtocol.csproj|solutionrelative:gitprotocol\\utils\\realextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{619F5EF1-1674-4E98-B168-CA201383EBC9}|SlotNode\\SlotNode.csproj|e:\\work\\slot\\ppserver\\backend(gitslotpark seamless2 free)\\slotnode\\gamelogics\\ppgames10\\bookofthefallengamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{619F5EF1-1674-4E98-B168-CA201383EBC9}|SlotNode\\SlotNode.csproj|solutionrelative:slotnode\\gamelogics\\ppgames10\\bookofthefallengamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RealExtensions.cs",
-              "DocumentMoniker": "E:\\work\\Slot\\PPServer\\Backend(GitSlotPark Seamless2 Free)\\GITProtocol\\Utils\\RealExtensions.cs",
-              "RelativeDocumentMoniker": "GITProtocol\\Utils\\RealExtensions.cs",
-              "ToolTip": "E:\\work\\Slot\\PPServer\\Backend(GitSlotPark Seamless2 Free)\\GITProtocol\\Utils\\RealExtensions.cs",
-              "RelativeToolTip": "GITProtocol\\Utils\\RealExtensions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAdAAAAAAAAAA==",
+              "Title": "BookOfTheFallenGameLogic.cs",
+              "DocumentMoniker": "E:\\work\\Slot\\PPServer\\Backend(GitSlotPark Seamless2 Free)\\SlotNode\\GameLogics\\PPGames10\\BookOfTheFallenGameLogic.cs",
+              "RelativeDocumentMoniker": "SlotNode\\GameLogics\\PPGames10\\BookOfTheFallenGameLogic.cs",
+              "ToolTip": "E:\\work\\Slot\\PPServer\\Backend(GitSlotPark Seamless2 Free)\\SlotNode\\GameLogics\\PPGames10\\BookOfTheFallenGameLogic.cs",
+              "RelativeToolTip": "SlotNode\\GameLogics\\PPGames10\\BookOfTheFallenGameLogic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T22:11:20.014Z",
+              "WhenOpened": "2025-09-01T07:28:02.176Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BasePPSlotGame.cs",
-              "DocumentMoniker": "E:\\work\\Slot\\PPServer\\Backend(GitSlotPark Seamless2 Free)\\SlotNode\\GameLogics\\BaseClasses\\BasePPSlotGame.cs",
-              "RelativeDocumentMoniker": "SlotNode\\GameLogics\\BaseClasses\\BasePPSlotGame.cs",
-              "ToolTip": "E:\\work\\Slot\\PPServer\\Backend(GitSlotPark Seamless2 Free)\\SlotNode\\GameLogics\\BaseClasses\\BasePPSlotGame.cs",
-              "RelativeToolTip": "SlotNode\\GameLogics\\BaseClasses\\BasePPSlotGame.cs",
-              "ViewState": "AgIAAL8CAAAAAAAAAAAnwNUCAAAOAAAAAAAAAA==",
+              "Title": "BookOfGoldenSandsGameLogic.cs",
+              "DocumentMoniker": "E:\\work\\Slot\\PPServer\\Backend(GitSlotPark Seamless2 Free)\\SlotNode\\GameLogics\\PPGames10\\BookOfGoldenSandsGameLogic.cs",
+              "RelativeDocumentMoniker": "SlotNode\\GameLogics\\PPGames10\\BookOfGoldenSandsGameLogic.cs",
+              "ToolTip": "E:\\work\\Slot\\PPServer\\Backend(GitSlotPark Seamless2 Free)\\SlotNode\\GameLogics\\PPGames10\\BookOfGoldenSandsGameLogic.cs",
+              "RelativeToolTip": "SlotNode\\GameLogics\\PPGames10\\BookOfGoldenSandsGameLogic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T21:55:54.463Z",
+              "WhenOpened": "2025-09-01T07:27:56.287Z",
               "EditorCaption": ""
             }
           ]

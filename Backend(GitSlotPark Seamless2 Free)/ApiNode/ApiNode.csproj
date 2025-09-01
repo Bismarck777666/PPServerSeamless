@@ -351,7 +351,9 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="app.manifest" />
-    <None Include="Chipset\chipset%28AED%29.info" />
+    <None Include="Chipset\chipset%28AED%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Chipset\chipset%28AOA%29.info">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -364,7 +366,9 @@
     <None Include="Chipset\chipset%28AUD%29.info">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Chipset\chipset%28AZN%29.info" />
+    <None Include="Chipset\chipset%28AZN%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Chipset\chipset%28BAM%29.info">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -377,31 +381,54 @@
     <None Include="Chipset\chipset%28BRL%29.info">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Chipset\chipset%28BWP%29.info" />
-    <None Include="Chipset\chipset%28CAD%29.info" />
+    <None Include="Chipset\chipset%28BWP%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Chipset\chipset%28BYN%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Chipset\chipset%28CAD%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Chipset\chipset%28CHF%29.info">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Chipset\chipset%28CLP%29.info" />
-    <None Include="Chipset\chipset%28CNY%29.info" />
+    <None Include="Chipset\chipset%28CLP%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Chipset\chipset%28CNY%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Chipset\chipset%28COP%29.info">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Chipset\chipset%28CZK%29.info" />
+    <None Include="Chipset\chipset%28CZK%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Chipset\chipset%28DKK%29.info">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Chipset\chipset%28DZD%29.info">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Chipset\chipset%28EGP%29.info" />
+    <None Include="Chipset\chipset%28EGP%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Chipset\chipset%28ENT%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Chipset\chipset%28EUR%29.info">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Chipset\chipset%28GBP%29.info">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Chipset\chipset%28GEL%29.info" />
+    <None Include="Chipset\chipset%28GC%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Chipset\chipset%28GEL%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Chipset\chipset%28GHS%29.info">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -429,7 +456,9 @@
     <None Include="Chipset\chipset%28INR%29.info">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Chipset\chipset%28IQD%29.info" />
+    <None Include="Chipset\chipset%28IQD%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Chipset\chipset%28IRR%29.info">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -439,15 +468,27 @@
     <None Include="Chipset\chipset%28ISK%29.info">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Chipset\chipset%28JC%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Chipset\chipset%28JPY%29.info">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Chipset\chipset%28KES%29.info">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Chipset\chipset%28KRW%29.info" />
-    <None Include="Chipset\chipset%28KZT%29.info" />
-    <None Include="Chipset\chipset%28LBP%29.info" />
+    <None Include="Chipset\chipset%28KRW%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Chipset\chipset%28KZT%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Chipset\chipset%28LBP%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Chipset\chipset%28LKR%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Chipset\chipset%28MAD%29.info">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -475,17 +516,27 @@
     <None Include="Chipset\chipset%28NOK%29.info">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Chipset\chipset%28NZD%29.info" />
+    <None Include="Chipset\chipset%28NZD%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Chipset\chipset%28PEN%29.info">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Chipset\chipset%28PHP%29.info" />
-    <None Include="Chipset\chipset%28PKR%29.info" />
-    <None Include="Chipset\chipset%28PLN%29.info" />
+    <None Include="Chipset\chipset%28PHP%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Chipset\chipset%28PKR%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Chipset\chipset%28PLN%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Chipset\chipset%28PYG%29.info">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Chipset\chipset%28RON%29.info" />
+    <None Include="Chipset\chipset%28RON%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Chipset\chipset%28RSD%29.info">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -493,6 +544,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Chipset\chipset%28RUB%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Chipset\chipset%28SC%29.info">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Chipset\chipset%28SEK%29.info">
@@ -525,15 +579,24 @@
     <None Include="Chipset\chipset%28TZS%29.info">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Chipset\chipset%28UAH%29.info" />
+    <None Include="Chipset\chipset%28UAH%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Chipset\chipset%28UGX%29.info">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Chipset\chipset%28USD%29.info">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Chipset\chipset%28UYU%29.info" />
-    <None Include="Chipset\chipset%28UZS%29.info" />
+    <None Include="Chipset\chipset%28UYU%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Chipset\chipset%28UZS%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Chipset\chipset%28VES%29.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Chipset\chipset%28VND%29.info">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -552,7 +615,9 @@
     <None Include="Chipset\chipset%28ZWL%29.info">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Chipset\gamertp.info" />
+    <None Include="Chipset\gamertp.info">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="config.hocon">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

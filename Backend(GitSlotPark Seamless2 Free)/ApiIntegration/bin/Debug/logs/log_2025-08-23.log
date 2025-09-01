@@ -1,0 +1,46 @@
+[2025-08-23 10:18:41.2656] [INFO] [ApiIntegration.ApiInteService] Starting ApiInteService Service... 
+[2025-08-23 10:18:42.6022] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2025-08-23 10:18:43.3297] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8093] 
+[2025-08-23 10:18:43.3297] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8093] 
+[2025-08-23 10:18:43.3616] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Starting up... 
+[2025-08-23 10:18:43.3945] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Started up successfully 
+[2025-08-23 10:18:43.4184] [INFO] [ApiIntegration.BootstrapActor] Initializing database proxy... 
+[2025-08-23 10:18:43.4663] [INFO] [Cluster (akka://godgaming)] Cluster Node [1.0.0] - Node [akka.tcp://godgaming@127.0.0.1:8093] is JOINING itself (with roles [apiintegration], version [1.0.0]) and forming a new cluster 
+[2025-08-23 10:18:43.4703] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - is the new leader among reachable nodes (more leaders may exist) 
+[2025-08-23 10:18:43.4912] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Leader is moving node [akka.tcp://godgaming@127.0.0.1:8093] to [Up] 
+[2025-08-23 10:18:43.9347] [INFO] [ApiIntegration.BootstrapActor] Database Proxy has been successfully initialized. 
+[2025-08-23 10:18:51.7726] [WARN] [Akka.Cluster.ClusterHeartbeatSender] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Scheduled sending of heartbeat was delayed. Previous heartbeat was sent [7296.7323] ms ago, expected interval is [1000] ms. This may cause failure detection to mark members as unreachable. The reason can be thread starvation, e.g. by running blocking tasks on the default dispatcher, CPU overload, or GC. 
+[2025-08-23 10:21:38.2069] [INFO] [ApiIntegration.ApiInteService] Starting ApiInteService Service... 
+[2025-08-23 10:21:38.6096] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2025-08-23 10:21:38.8469] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8093] 
+[2025-08-23 10:21:38.8469] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8093] 
+[2025-08-23 10:21:38.8838] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Starting up... 
+[2025-08-23 10:21:38.9366] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Started up successfully 
+[2025-08-23 10:21:38.9705] [INFO] [ApiIntegration.BootstrapActor] Initializing database proxy... 
+[2025-08-23 10:21:39.0114] [INFO] [Cluster (akka://godgaming)] Cluster Node [1.0.0] - Node [akka.tcp://godgaming@127.0.0.1:8093] is JOINING itself (with roles [apiintegration], version [1.0.0]) and forming a new cluster 
+[2025-08-23 10:21:39.0173] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - is the new leader among reachable nodes (more leaders may exist) 
+[2025-08-23 10:21:39.0373] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Leader is moving node [akka.tcp://godgaming@127.0.0.1:8093] to [Up] 
+[2025-08-23 10:21:39.1459] [INFO] [ApiIntegration.BootstrapActor] Database Proxy has been successfully initialized. 
+[2025-08-23 10:23:12.7356] [INFO] [ApiIntegration.HTTPService.HTTPWorkActor] GetBalanceRequest 
+[2025-08-23 10:23:12.8023] [INFO] [ApiIntegration.UserActor] devuser001 has been logged in successfully 
+[2025-08-23 10:23:40.4746] [INFO] [ApiIntegration.HTTPService.HTTPWorkActor] GetBalanceRequest 
+[2025-08-23 10:23:52.1024] [INFO] [ApiIntegration.HTTPService.HTTPWorkActor] GetBalanceRequest 
+[2025-08-23 10:24:08.9495] [INFO] [ApiIntegration.HTTPService.HTTPWorkActor] GetBalanceRequest 
+[2025-08-23 10:24:37.6461] [INFO] [ApiIntegration.HTTPService.HTTPWorkActor] GetBalanceRequest 
+[2025-08-23 10:25:29.6484] [INFO] [ApiIntegration.HTTPService.HTTPWorkActor] GetBalanceRequest 
+[2025-08-23 10:25:54.6079] [INFO] [ApiIntegration.HTTPService.HTTPWorkActor] GetBalanceRequest 
+[2025-08-23 10:26:12.1062] [INFO] [ApiIntegration.HTTPService.HTTPWorkActor] GetBalanceRequest 
+[2025-08-23 10:31:05.7264] [INFO] [ApiIntegration.ApiInteService] Starting ApiInteService Service... 
+[2025-08-23 10:31:06.2336] [INFO] [remoting (akka://godgaming)] Starting remoting 
+[2025-08-23 10:31:06.4738] [INFO] [remoting (akka://godgaming)] Remoting started; listening on addresses : [akka.tcp://godgaming@127.0.0.1:8093] 
+[2025-08-23 10:31:06.4738] [INFO] [remoting (akka://godgaming)] Remoting now listens on addresses: [akka.tcp://godgaming@127.0.0.1:8093] 
+[2025-08-23 10:31:06.5027] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Starting up... 
+[2025-08-23 10:31:06.5575] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Started up successfully 
+[2025-08-23 10:31:06.5764] [INFO] [ApiIntegration.BootstrapActor] Initializing database proxy... 
+[2025-08-23 10:31:06.6103] [INFO] [Cluster (akka://godgaming)] Cluster Node [1.0.0] - Node [akka.tcp://godgaming@127.0.0.1:8093] is JOINING itself (with roles [apiintegration], version [1.0.0]) and forming a new cluster 
+[2025-08-23 10:31:06.6103] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - is the new leader among reachable nodes (more leaders may exist) 
+[2025-08-23 10:31:06.6442] [INFO] [Cluster (akka://godgaming)] Cluster Node [akka.tcp://godgaming@127.0.0.1:8093] - Leader is moving node [akka.tcp://godgaming@127.0.0.1:8093] to [Up] 
+[2025-08-23 10:31:06.7827] [INFO] [ApiIntegration.BootstrapActor] Database Proxy has been successfully initialized. 
+[2025-08-23 10:33:21.0079] [INFO] [ApiIntegration.HTTPService.HTTPWorkActor] GetBalanceRequest 
+[2025-08-23 10:33:21.0727] [INFO] [ApiIntegration.UserActor] devuser002 has been logged in successfully 
+[2025-08-23 10:33:55.0818] [INFO] [ApiIntegration.HTTPService.HTTPWorkActor] GetBalanceRequest 
