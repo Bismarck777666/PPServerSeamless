@@ -32,7 +32,7 @@ namespace UserNode
                 _userHashMap.Add(message.GlobalUserID);
                 Context.Watch(userActor);
 
-                //액터의 패스를 레디스에 등록한후에 리턴한다.
+                //将Actor的路径注册到Redis后返回。
                 registerUserPathToRedis(message.GlobalUserID, userActor).PipeTo(Sender);
             });
             Receive<ForceLogoutMesssage>(message =>
@@ -100,11 +100,11 @@ namespace UserNode
         {
             try
             {
-                //레디스에 액터패스, 유저토큰을 등록한다.
+                //在Redis中注册ActorPath、UserToken。
                 string strUserPathFieldName = string.Format("{0}_path", strGlobalUserID);
                 await RedisDatabase.RedisCache.HashSetAsync("onlineusers", strUserPathFieldName, getActorRemotePath(userActor));
 
-                //이미 등록됬던 유저토큰들을 모두 삭제한다.
+                //删除所有已注册过的UserToken。
                 await RedisDatabase.RedisCache.KeyDeleteAsync(strGlobalUserID + "_tokens");
                 return userActor;
             }

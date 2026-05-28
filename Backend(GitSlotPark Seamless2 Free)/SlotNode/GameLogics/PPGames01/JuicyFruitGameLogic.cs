@@ -10,7 +10,7 @@ namespace SlotGamesNode.GameLogics
 {
     public class JuicyFruitGameLogic : BasePPSlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -129,7 +129,7 @@ namespace SlotGamesNode.GameLogics
                 }
                 if (_dicUserBetInfos.TryGetValue(strGlobalUserID, out BasePPSlotBetInfo oldBetInfo))
                 {
-                    //만일 유저에게 남은 응답이 존재하는 경우
+                    //如果用户存在剩余响应的情况
                     if (oldBetInfo.HasRemainResponse)
                         return;
 

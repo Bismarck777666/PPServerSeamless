@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
    
     class HappyRichYearGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             {
                 return "[{\"lang\":\"en\",\"name\":\"Happy Rich Year\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"Feliz ano rico\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"해피 리치 이어\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"快乐富足年\"}," +
                     "{\"lang\":\"th\",\"name\":\"เกมเศรษฐี\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"好运年年\"}]";
             }

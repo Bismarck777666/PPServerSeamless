@@ -230,7 +230,7 @@ namespace UserNode.PPPromo
                         calculateHistory(raceID, winnerInfo);
                     }
 
-                    //현재의 레이스당첨자리스트
+                    //当前的竞猜中奖者列表
                     DicActiveRaceWinners[raceID]            = JsonConvert.SerializeObject(winnerInfo);
 
 

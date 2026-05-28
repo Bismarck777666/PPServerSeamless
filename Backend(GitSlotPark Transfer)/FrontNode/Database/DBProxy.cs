@@ -40,14 +40,14 @@ namespace FrontNode.Database
         {
             if(command == "initialize")
             {
-                //자료기지서버의 련결가능성을 검사한다.
+                //检查数据库服务器的连接可能性。
                 if (!await checkDBConnection())
                 {
                     _logger.Error("Can not connect to database. Please check if database is correctly configured.");
                     return;
                 }
 
-                //모니터액터를 초기화한다.
+                //初始化监控角色。
                 await _monitorActor.Ask("initialize");
                 Sender.Tell(new ReadyDBProxy(_readerRouter));
             }
@@ -91,7 +91,7 @@ namespace FrontNode.Database
 
         protected override void PreStart()
         {
-            //자식액터들을 창조한다.
+            //创建子角色。
             _readerRouter = Context.ActorOf(DBProxyReader.Props(_strConnectionString,  _poolSize),  "readers");
             _monitorActor = Context.ActorOf(DBProxyMonitor.Props(_strConnectionString),             "monitor");
             

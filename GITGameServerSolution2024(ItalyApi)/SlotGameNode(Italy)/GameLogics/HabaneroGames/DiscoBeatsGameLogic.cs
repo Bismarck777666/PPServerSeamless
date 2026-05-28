@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
 {
     public class DiscoBeatsGameLogic : BaseHabaneroSlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -63,13 +63,13 @@ namespace SlotGamesNode.GameLogics
             {
                 return new Dictionary<int, HabaneroLogSymbolIDName>()
                 {
-                    {1,   new HabaneroLogSymbolIDName{id = "idWild",        name = "Wild"           } },    //와일드(허트)
-                    {2,   new HabaneroLogSymbolIDName{id = "idScatter",     name = "Scatter"        } },    //스캐터
-                    {3,   new HabaneroLogSymbolIDName{id = "idDiscoBall",   name = "idDiscoBall"    } },    //조명
-                    {4,   new HabaneroLogSymbolIDName{id = "idVinylRecord", name = "VinylRecord"    } },    //레코드
-                    {5,   new HabaneroLogSymbolIDName{id = "idGoldNote",    name = "idGoldNote"     } },    //노란색 쏠음기호
-                    {6,   new HabaneroLogSymbolIDName{id = "idPurpleNote",  name = "PurpleNote"     } },    //분홍색 4분기호
-                    {7,   new HabaneroLogSymbolIDName{id = "idBlueNote",    name = "BlueNote"       } },    //파란8분기호
+                    {1,   new HabaneroLogSymbolIDName{id = "idWild",        name = "Wild"           } },    //野牌(心)
+                    {2,   new HabaneroLogSymbolIDName{id = "idScatter",     name = "Scatter"        } },    //分散
+                    {3,   new HabaneroLogSymbolIDName{id = "idDiscoBall",   name = "idDiscoBall"    } },    //灯光
+                    {4,   new HabaneroLogSymbolIDName{id = "idVinylRecord", name = "VinylRecord"    } },    //唱片
+                    {5,   new HabaneroLogSymbolIDName{id = "idGoldNote",    name = "idGoldNote"     } },    //黄色音符符号
+                    {6,   new HabaneroLogSymbolIDName{id = "idPurpleNote",  name = "PurpleNote"     } },    //粉色四分音符
+                    {7,   new HabaneroLogSymbolIDName{id = "idBlueNote",    name = "BlueNote"       } },    //蓝色八分音符
                 };
             }
         }

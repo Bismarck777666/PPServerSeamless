@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
    
     class SixCandyGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -71,7 +71,7 @@ namespace SlotGamesNode.GameLogics
                 return "[{\"lang\":\"en\",\"name\":\"Six Candy\"}," +
                     "{\"lang\":\"es\",\"name\":\"Seis carameros\"}," +
                     "{\"lang\":\"ja\",\"name\":\"シックスキャンディ\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"식스 캔디\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"六颗糖果\"}," +
                     "{\"lang\":\"th\",\"name\":\"ซิกแคนดี้\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"六颗糖\"}]";
             }

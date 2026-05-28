@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class WanbaoDinoGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Wanbao Dino\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"완바오 다이너소어\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"完宝恐龙\"}," +
                     "{\"lang\":\"th\",\"name\":\"ไดโนหวั่นเบ๋า\"}," +
                     "{\"lang\":\"id\",\"name\":\"Wanbao Dino\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"Wanbao Dino\"}," +

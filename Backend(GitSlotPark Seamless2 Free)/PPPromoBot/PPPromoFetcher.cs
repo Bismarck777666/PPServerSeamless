@@ -76,7 +76,7 @@ namespace PPPromoBot
             {
                 _logger.Info("Getting PP Active Promotions...");
 
-                //사이트에서 직접 호출
+                //从网站直接调用
                 string strHost  = _hostUrl;
                 string strURL   = string.Format("https://{0}/gs2c/promo/active/?symbol={2}&mgckey={1}", strHost, _strPPToken, _gameSymbol);
 

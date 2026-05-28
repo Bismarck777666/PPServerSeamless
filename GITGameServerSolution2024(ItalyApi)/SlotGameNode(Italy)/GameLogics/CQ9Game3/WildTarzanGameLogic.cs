@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
    
     class WildTarzanGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             {
                 return "[{\"lang\":\"en\",\"name\":\"Wild Tarzan\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"Tarzan Selvagem\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"와일드 타잔\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"狂野泰山\"}," +
                     "{\"lang\":\"th\",\"name\":\"ทาร์ซานป่า\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"森林泰后\"}]";
             }

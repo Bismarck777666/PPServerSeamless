@@ -11,7 +11,7 @@ namespace SlotGamesNode.GameLogics
 {
     public class LanternLuckGameLogic : BaseHabaneroSlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -60,7 +60,7 @@ namespace SlotGamesNode.GameLogics
             {
                 return new Dictionary<int, HabaneroLogSymbolIDName>()
                 {
-                    {1,   new HabaneroLogSymbolIDName{id = "idWild",        name = "Wild"           } },    //와일드
+                    {1,   new HabaneroLogSymbolIDName{id = "idWild",        name = "Wild"           } },    //狂野
                     
                     {2,   new HabaneroLogSymbolIDName{id = "idLantern1",    name = "Lantern1"       } },
                     {3,   new HabaneroLogSymbolIDName{id = "idLantern2",    name = "Lantern2"       } },    

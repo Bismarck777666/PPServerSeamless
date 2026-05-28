@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
    
     class SuperDiamondsGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -69,7 +69,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Super Diamonds\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"슈퍼 다이야몬드\"}]";
+                    "{\"lang\":\"ko\",\"name\":\"超级钻石\"}]";
             }
         }
 

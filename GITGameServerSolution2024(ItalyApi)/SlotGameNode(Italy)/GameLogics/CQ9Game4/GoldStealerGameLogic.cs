@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class GoldStealerGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Gold Stealer\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"황금 도둑\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"黄金小偷\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"Ladrão de Ouro\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"偷金妹子\"}]";
             }

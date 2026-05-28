@@ -149,7 +149,7 @@ namespace UserNode
         {
             try
             {
-                //레디스에서 해당 세션토큰을 삭제한다.
+                //从Redis中删除该会话令牌
                 await RedisDatabase.RedisCache.HashDeleteAsync((RedisKey)string.Format("{0}_tokens", _strGlobalUserID), message.SessionToken);
                 if (!_userConnections.ContainsKey(message.SessionToken))
                     return;
@@ -201,7 +201,7 @@ namespace UserNode
             {
                 try
                 {
-                    //밸런스변화가 있다면
+                    //如果有平衡变化
                     double balanceUpdate = await _dbWriter.Ask<double>(new FetchUserBalanceUpdate(_userDBID));
                     await _dbReader.Ask(new UserOfflineStateItem(_userDBID, lastGameID, balanceUpdate));
                 }
@@ -273,7 +273,7 @@ namespace UserNode
             int             gameID          = (int)(ushort)message.Pop();
             GameProviders   gameProvider    = DBMonitorSnapshot.Instance.getGITGameProvider(gameID);
 
-            //등록된 게임아이디가 아님
+            //不是已注册的游戏ID
             GITMessage enterResponseMessage;
             if (gameProvider == GameProviders.NONE)
             {
@@ -283,7 +283,7 @@ namespace UserNode
                 return;
             }
 
-            //이미 게임에 입장함
+            //已经进入游戏
             if (userConn.GameActor != null && userConn.GameID != gameID)
             {
                 _logger.Warning("{0} tried to enter game while it has already been entered to other game", _strGlobalUserID);
@@ -300,7 +300,7 @@ namespace UserNode
             }
             else
             {
-                //같은 게임에 입장한 연결이 있는가를 검사한다.
+                //检查是否有进入同一游戏的连接。
                 UserConnection oldConn = null;
                 foreach (KeyValuePair<string, UserConnection> pair in _userConnections)
                 {
@@ -311,7 +311,7 @@ namespace UserNode
                     }
                 }
 
-                //원래의 연결을 비활성화시키고 새 연결에로 게임정보를 이관한다.
+                //禁用原有连接，并将游戏信息转移到新连接。
                 if (oldConn != null)
                 {
                     userConn.GameActor      = oldConn.GameActor;
@@ -361,7 +361,7 @@ namespace UserNode
                 }
             }
 
-            //방입장결과메세지를 클라이언트에 보낸다.
+            //向客户端发送进入房间结果消息。
             enterResponseMessage = new GITMessage((ushort)SCMSG_CODE.SC_ENTERGAME);
             enterResponseMessage.Append((enterGameSucceeded ? (byte)0 : (byte)1));
             Sender.Tell(new SendMessageToUser(enterResponseMessage, _balance, 0.0));
@@ -395,7 +395,7 @@ namespace UserNode
 
         private void procToUserMessage(ToUserMessage message,UserBonus askedBonus,GITMessage gameMessage,UserConnection userConn)
         {
-            //만일 게임결과처리와 관련된 메세지라면
+            //如果是与游戏结果处理相关的消息
             if (message is ToUserResultMessage)
             {
                 bool isSuccess = processResultMessage(message as ToUserResultMessage);
@@ -450,7 +450,7 @@ namespace UserNode
             {
                 ToUserSpecialResultMessage specialResultMessage = resultMessage as ToUserSpecialResultMessage;
 
-                //보유머니를 검사한다.
+                //检查持有金额。
                 double betMoney     = Math.Round(specialResultMessage.BetMoney, 2);
                 double realBet      = Math.Round(specialResultMessage.RealBet, 2);
                 double winMoney     = Math.Round(specialResultMessage.WinMoney, 2);
@@ -459,17 +459,17 @@ namespace UserNode
 
                 if (specialResultMessage.IsJustBet)
                 {
-                    //보유머니를 갱신한다.
+                    //更新持有金额。
                     _balance -= realBet;
 
-                    //디비를 갱신한다.
+                    //更新数据库。
                     addPoint((int)providerID, specialResultMessage.GameID, realBet, 0.0);
                     _dbWriter.Tell(new PlayerBalanceUpdateItem(_userDBID, -realBet));
                     _dbWriter.Tell(new ReportUpdateItem(_strUserID, _agentDBID, nowDayReportTime, realBet, 0.0));
                 }
                 else
                 {
-                    //보유머니를 갱신한다.
+                    //更新持有金额。
                     double beginMoney = _balance + (betMoney - realBet);
                     _balance += winMoney - realBet;
                     
@@ -481,7 +481,7 @@ namespace UserNode
             }
             else
             {
-                //보유머니를 검사한다.
+                //检查持有金额。
                 double betMoney = Math.Round(resultMessage.BetMoney, 2);
                 double winMoney = Math.Round(resultMessage.WinMoney, 2);
                 
@@ -490,11 +490,11 @@ namespace UserNode
 
                 if (betMoney != 0.0 || winMoney != 0.0)
                 {
-                    //보유머니를 갱신한다.
+                    //更新持有金额。
                     double beforeBalance = _balance;
                     _balance += winMoney - betMoney;
 
-                    //디비를 갱신한다.
+                    //更新数据库。
                     addPoint((int)providerID, resultMessage.GameID, betMoney, winMoney);
                     _dbWriter.Tell(new PlayerBalanceUpdateItem(_userDBID, winMoney - betMoney));
                     _dbWriter.Tell(new ReportUpdateItem(_strUserID, _agentDBID, nowDayReportTime, betMoney, winMoney));

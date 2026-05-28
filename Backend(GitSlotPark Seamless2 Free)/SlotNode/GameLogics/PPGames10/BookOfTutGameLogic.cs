@@ -12,7 +12,7 @@ namespace SlotGamesNode.GameLogics
 {
     class BookOfTutGameLogic : BasePPSlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -185,7 +185,7 @@ namespace SlotGamesNode.GameLogics
                             responseMessage.Append(convertKeyValuesToString(dicParams));
                             ActionTypes nextAction = convertStringToActionType(dicParams["na"]);
 
-                            //히스토리보관 및 초기화
+                            //历史保管及初始化
                             if (_dicUserHistory.ContainsKey(strGlobalUserID) && _dicUserHistory[strGlobalUserID].log.Count > 0)
                                 addActionHistory(strGlobalUserID, "doMysteryScatter", convertKeyValuesToString(dicParams), index, counter);
 

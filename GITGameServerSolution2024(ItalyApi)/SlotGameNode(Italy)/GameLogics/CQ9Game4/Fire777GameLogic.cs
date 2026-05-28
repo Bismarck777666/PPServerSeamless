@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class Fire777GameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Fire 777\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"파이어 777\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"火之777\"}," +
                     "{\"lang\":\"th\",\"name\":\"กงล้อเพลิง 777\"}," +
                     "{\"lang\":\"id\",\"name\":\"Fire 777\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"Fogo 777\"}," +

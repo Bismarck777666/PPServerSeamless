@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
    
     class GodOfWarMGameLogic : BaseSelFreeCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -80,7 +80,7 @@ namespace SlotGamesNode.GameLogics
                     "{\"lang\":\"es\",\"name\":\"Dios de la Guerra M\"}," +
                     "{\"lang\":\"id\",\"name\":\"Dewa Perang M\"}," +
                     "{\"lang\":\"ja\",\"name\":\"ゴッドオブウォー M\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"갓 오브 워 M\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"战神 M\"}," +
                     "{\"lang\":\"th\",\"name\":\"สงครามเทพ M\"}," +
                     "{\"lang\":\"vn\",\"name\":\"Thần chiến tranh M\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"直式武圣\"}]";

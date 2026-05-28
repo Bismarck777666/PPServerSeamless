@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class LordGaneshaGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Lord Ganesha\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"가네샤\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"加内沙\"}," +
                     "{\"lang\":\"th\",\"name\":\"พระพิฆเนศ\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"富贵象\"}]";
             }

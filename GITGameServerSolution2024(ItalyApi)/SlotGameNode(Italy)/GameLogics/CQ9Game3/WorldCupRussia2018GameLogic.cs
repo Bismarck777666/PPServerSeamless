@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
    
     class WorldCupRussia2018GameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             {
                 return "[{\"lang\":\"en\",\"name\":\"World Cup Russia2018\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"Copa do Mundo Rússia 2018\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"2018 러시아 월드컵\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"2018 俄罗斯世界杯\"}," +
                     "{\"lang\":\"th\",\"name\":\"ฟุตบอลโลก2018\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"2018世界杯\"}]";
             }

@@ -618,7 +618,7 @@ namespace FrontNode.Database
                     if (response == null)
                         response = new UserLoginResponse(resultCode);
 
-                    //응답을 보낸다
+                    //发送响应
                     Sender.Tell(response);
                 }
             }

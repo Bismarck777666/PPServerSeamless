@@ -40,13 +40,13 @@ namespace SlotGamesNode
         {
             _logger.Info("Database Proxy has been successfully initialized.");
             
-            //Redis자료기지액터를 창조한다.
+            //创建Redis数据库参与者。
             _redisWriter        = Context.System.ActorOf(Akka.Actor.Props.Create(() => new RedisWriter()).WithRouter(FromConfig.Instance), "redisWriter");
             
-            //유저서버루터창조
+            //创建用户服务器路由器
             _userServerGroup    = Context.System.ActorOf(Akka.Actor.Props.Empty.WithRouter(FromConfig.Instance),        "userServers");
             
-            //API클라스터시작
+            //启动API集群
             Context.System.ActorOf(Akka.Actor.Props.Empty.WithRouter((RouterConfig)FromConfig.Instance),   "apiWorker");
             
             IActorRef tourScoreWriter = Context.System.ActorOf(Akka.Actor.Props.Create(() => new TournamentScoreWriter()).WithRouter(FromConfig.Instance), "tourScoreWriter");

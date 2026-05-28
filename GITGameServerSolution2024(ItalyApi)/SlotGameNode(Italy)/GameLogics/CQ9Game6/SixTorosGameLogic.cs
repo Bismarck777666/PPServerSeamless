@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class SixTorosGameLogic : BaseCQ9TembleGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"6 Toros\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"6 토로\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"6 托罗\"}," +
                     "{\"lang\":\"th\",\"name\":\"6 โทรอส\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"666\"}]";
             }

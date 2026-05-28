@@ -208,11 +208,11 @@ namespace CommNode.HTTPService
                 GITMessage message = new GITMessage((ushort)CSMSG_CODE.CS_PP_SAVESETTING);
                 if (dicParams.ContainsKey("method") && dicParams["method"] == "load")
                 {
-                    message.Append(true);   //로드
+                    message.Append(true);   //加载
                 }
                 else
                 {
-                    message.Append(false);  //보관
+                    message.Append(false);  //保管
                     message.Append(dicParams["settings"]);
                 }
                 return message;
@@ -393,7 +393,7 @@ namespace CommNode.HTTPService
                 if (requestMessage == null)
                     return new HttpResponseMessage() { Content = new StringContent("unlogged") };
 
-                //init인 경우 게임입장부터 먼저 진행한다.
+                //如果是init，则先从游戏入场开始进行。
                 if(dicParams["action"] == "doInit")
                 {
                     HTTPEnterGameResults enterGameResult = await HTTPServiceConfig.Instance.WorkerGroup.Ask<HTTPEnterGameResults>(new HTTPEnterGameRequest(strUserID, dicParams["mgckey"], GAMETYPE.PP, dicParams["symbol"]), TimeSpan.FromSeconds(10));

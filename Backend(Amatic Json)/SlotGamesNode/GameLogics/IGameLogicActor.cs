@@ -32,7 +32,7 @@ namespace SlotGamesNode.GameLogics
 
         protected static RealExtensions.Epsilon _epsilion       = new RealExtensions.Epsilon(0.001);
 
-        #region 보너스정보
+        #region 奖励信息
         protected GITMessage    _bonusSendMessage;
         protected double        _rewardedBonusMoney;
         protected bool          _isRewardedBonus;
@@ -49,13 +49,13 @@ namespace SlotGamesNode.GameLogics
                 _redisWriter = inform.RedisWriter;
             });
 
-            //유저게임입장메세지
+            //用户游戏进入消息
             ReceiveAsync<EnterGameRequest>      (onEnterUserMessage);
 
-            //유저게임탈퇴메세지
+            //用户游戏退出消息
             ReceiveAsync<ExitGameRequest>       (onExitUserMessage);
 
-            //유저메세지처리
+            //用户消息处理
             ReceiveAsync<FromUserMessage>       (onProcMessage);
             Receive<string>                     (onProcCommand);
             ReceiveAsync<BsonDocument>          (onLoadSpinData);
@@ -108,27 +108,27 @@ namespace SlotGamesNode.GameLogics
         }
 
 
-        #region 메세지처리 함수들
+        #region 消息处理函数
         private async Task onEnterUserMessage(EnterGameRequest message)
         {
             _dicEnteredUsers[message.UserID] = message.UserActor;
 
             bool isLoadSuccess = await loadUserHistoricalData(message.UserID,message.NewEnter);
 
-            //리력정보를 읽는 과정에 Redis오유가 발생했다면 
+            //读取历史信息时发生Redis错误
             if(!isLoadSuccess)
             {
-                //입장실패메세지를 보낸다.
+                //发送进入失败消息
                 Sender.Tell(new EnterGameResponse((int) _gameID, Self, 1));
                 return;
             }
 
             EnterGameResponse response = new EnterGameResponse((int) _gameID, Self, 0);
-            //게임에 새로 진입할 경우
+            //如果新进入游戏时
             if (message.NewEnter)
                 await onUserEnterGame(message.UserID);
 
-            Sender.Tell(response);  //게임입장성공메세지를 보낸다.
+            Sender.Tell(response);  //发送游戏入场成功消息。
         }
         protected virtual async Task onExitUserMessage(ExitGameRequest message)
         {
@@ -138,7 +138,7 @@ namespace SlotGamesNode.GameLogics
         }
         private async Task onProcMessage(FromUserMessage message)
         {
-            //보너스정보들을 초기화한다.
+            //初始化奖励信息。
             _bonusSendMessage   = null;
             _isRewardedBonus    = false;
             _rewardedBonusMoney = 0.0;
@@ -147,7 +147,7 @@ namespace SlotGamesNode.GameLogics
         }
         #endregion
 
-        #region 가상함수들
+        #region 虚函数
         protected virtual async Task onUserEnterGame(string strUserID)
         {
 

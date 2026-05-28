@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
    
     class LuckyBatsGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -72,7 +72,7 @@ namespace SlotGamesNode.GameLogics
                     "{\"lang\":\"es\",\"name\":\"Bates de la suerte\"}," +
                     "{\"lang\":\"id\",\"name\":\"Kelelawar Mujur\"}," +
                     "{\"lang\":\"ja\",\"name\":\"五福臨門\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"럭키 뱃\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"幸运赌注\"}," +
                     "{\"lang\":\"th\",\"name\":\"ลัคกี้ แบท\"}," +
                     "{\"lang\":\"vn\",\"name\":\"Chú dơi may mắn\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"Morcegos de Sorte\"}," +

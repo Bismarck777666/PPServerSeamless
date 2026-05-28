@@ -97,7 +97,7 @@ namespace SlotGamesNode.GameLogics
                 BaseHabaneroSlotSpinResult spinResult = new BaseHabaneroSlotSpinResult();
                 dynamic resultContext = JsonConvert.DeserializeObject<dynamic>(strSpinResponse);
 
-                //모든 당첨값들을 현재의 베팅금액상태로 전환한다.
+                //将所有中奖值转换为当前的下注金额状态。
                 convertWinsByBet(resultContext, betInfo.TotalBet);
 
                 string strNextAction = (string)resultContext["videoslotstate"]["gamemodename"];

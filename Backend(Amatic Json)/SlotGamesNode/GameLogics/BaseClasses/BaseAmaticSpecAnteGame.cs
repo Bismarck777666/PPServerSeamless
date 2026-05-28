@@ -68,7 +68,7 @@ namespace SlotGamesNode.GameLogics
 
             return 0;
         }
-        #region 스핀관련
+        #region 旋转相关
         protected override OddAndIDData selectRandomOddAndID(int websiteID, BaseAmaticSlotBetInfo betInfo)
         {
             int     anteType        = getAnteFromBetInfo(betInfo);

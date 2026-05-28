@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
    
     class MoveNJumpGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -73,7 +73,7 @@ namespace SlotGamesNode.GameLogics
                     "{\"lang\":\"es\",\"name\":\"Salta pa'ca\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"Mover e pular\"}," +
                     "{\"lang\":\"ja\",\"name\":\"ムーブ＆ジャンプ\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"움직이고 점프하기\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"移动和跳跃\"}," +
                     "{\"lang\":\"th\",\"name\":\"มูฟแอนด์จัมป์\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"跳过来\"}]";
             }

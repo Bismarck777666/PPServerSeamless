@@ -47,7 +47,7 @@ namespace CommNode.Database
                         await connection.OpenAsync();
 
 
-                        //플레이어 리포트변경을 디비에 기록한다.
+                        //将玩家报告变更记录到数据库。
                         await updateReports(connection);
 
                         await updateUserRolling(connection);
@@ -79,7 +79,7 @@ namespace CommNode.Database
                         var stopWatch = new System.Diagnostics.Stopwatch();
                         stopWatch.Start();
 
-                        //플레이어 리포트변경을 디비에 기록한다.
+                        //将玩家报告变更记录到数据库。
                         int reportCount         = await updateReports(connection);
 
                         int userRollingCount    = await updateUserRolling(connection);
@@ -132,7 +132,7 @@ namespace CommNode.Database
             {
                 _logger.Error("Exception has been occured in DBReportWriteWorker::updateGameReports while updating game reports : {0}", ex.ToString());
 
-                //기록에 실패한 항목들을 다시 넣는다.
+                //重新放入记录失败的条目。
                 if (reportUpdateItems != null && reportUpdateItems.Count > 0)
                     Context.Parent.Tell(reportUpdateItems);
 
@@ -172,7 +172,7 @@ namespace CommNode.Database
             {
                 _logger.Error("Exception has been occured in DBReportWriteWorker::updateReports while updating report : {0}", ex.ToString());
 
-                //기록에 실패한 항목들을 다시 넣는다.
+                //重新放入记录失败的条目。
                 if (reportUpdateItems != null && reportUpdateItems.Count > 0)
                     Context.Parent.Tell(reportUpdateItems);
 
@@ -207,7 +207,7 @@ namespace CommNode.Database
             {
                 _logger.Error("Exception has been occured in DBReportWriteWorker::updateUserRolling while updating user rolling : {0}", ex.ToString());
 
-                //기록에 실패한 항목들을 다시 넣는다.
+                //重新放入记录失败的条目。
                 if (userRollingAdds != null && userRollingAdds.Count > 0)
                     Context.Parent.Tell(userRollingAdds);
 
@@ -242,7 +242,7 @@ namespace CommNode.Database
             {
                 _logger.Error("Exception has been occured in DBReportWriteWorker::updateAgentRolling while updating agent rolling : {0}", ex.ToString());
 
-                //기록에 실패한 항목들을 다시 넣는다.
+                //重新放入记录失败的条目。
                 if (agentRollingAdds != null && agentRollingAdds.Count > 0)
                     Context.Parent.Tell(agentRollingAdds);
 

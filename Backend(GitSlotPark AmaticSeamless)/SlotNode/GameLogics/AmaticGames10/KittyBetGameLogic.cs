@@ -13,7 +13,7 @@ namespace SlotGamesNode.GameLogics
 {
     class KittyBetGameLogic : BaseAmaticMultiBaseExtra1Game
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -157,12 +157,12 @@ namespace SlotGamesNode.GameLogics
 
             double pointUnit = getPointUnit(new BaseAmaticSlotBetInfo() { CurrencyInfo = currency });
             long balanceUnit = (long)Math.Round(balance / pointUnit, 0);
-            initString = encrypt.WriteLengthAndDec(initString, balanceUnit);        //현재 화페와 단위금액으로 변환된 발란스
-            initString = encrypt.WriteLengthAndDec(initString, initPacket.win);     //당첨금(인이트의 경우에는 0)
-            initString = encrypt.WriteDec2Hex(initString, initPacket.laststep);     //마지막스핀 스텝
+            initString = encrypt.WriteLengthAndDec(initString, balanceUnit);        //当前货币与单位金额转换后的余额
+            initString = encrypt.WriteLengthAndDec(initString, initPacket.win);     //中奖金额（初始化情况下为0）
+            initString = encrypt.WriteDec2Hex(initString, initPacket.laststep);     //最后旋转步骤
             initString = encrypt.WriteLengthAndDec(initString, initPacket.minbet);
             initString = encrypt.WriteLengthAndDec(initString, initPacket.maxbet);  
-            initString = encrypt.WriteDec2Hex(initString, initPacket.lastline);     //마지막스핀 라인
+            initString = encrypt.WriteDec2Hex(initString, initPacket.lastline);     //最后旋转行
 
             initString = encrypt.WriteLengthAndDec(initString, initPacket.totalfreecnt);
             initString = encrypt.WriteLengthAndDec(initString, initPacket.curfreecnt);

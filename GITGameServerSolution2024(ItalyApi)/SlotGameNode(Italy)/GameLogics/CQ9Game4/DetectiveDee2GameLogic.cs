@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class DetectiveDee2GameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Detective Dee 2\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"명탐정 디2\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"名侦探迪2\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"狄仁杰四大天王\"}]";
             }
         }

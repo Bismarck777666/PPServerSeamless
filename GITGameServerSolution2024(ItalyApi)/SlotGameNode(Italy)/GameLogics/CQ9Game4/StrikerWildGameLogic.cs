@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class StrikerWildGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Striker WILD\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"태극전사\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"太极战士\"}," +
                     "{\"lang\":\"th\",\"name\":\"กองหน้าเพชฌฆาต\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"狂野前锋\"}]";
             }

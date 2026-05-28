@@ -19,7 +19,7 @@ namespace SlotGamesNode.GameLogics
         protected int _emptySpinCount2      = 0;
         protected int _anteStartID          = 0;
 
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -145,7 +145,7 @@ namespace SlotGamesNode.GameLogics
                 BasePPSlotBetInfo oldBetInfo = null;
                 if (_dicUserBetInfos.TryGetValue(strGlobalUserID, out oldBetInfo))
                 {
-                    //만일 유저에게 남은 응답이 존재하는 경우
+                    //如果用户存在剩余响应的情况
                     if (oldBetInfo.HasRemainResponse)
                         return;
 
@@ -252,7 +252,7 @@ namespace SlotGamesNode.GameLogics
         }
         public override async Task<BasePPSlotSpinData> selectRandomStop(int websiteID, UserBonus userBonus, double baseBet, bool isChangedLineCount, BasePPSlotBetInfo betInfo, bool isAffiliate)
         {
-            //프리스핀구입을 먼저 처리한다.
+            //先处理购买免费旋转。
             if (this.SupportPurchaseFree && betInfo.PurchaseFree)
                 return await selectPurchaseFreeSpin(websiteID, betInfo, baseBet, userBonus, isAffiliate);
 

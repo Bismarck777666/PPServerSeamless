@@ -19,7 +19,7 @@ namespace SlotGamesNode.GameLogics
 
         protected static int PoolCount = 2;
 
-        #region 베팅풀정보(각 웹사이트마다 있다)
+        #region 投注池信息（每个网站都有）
         //protected Dictionary<int, double[]> _websiteTotalBets  = new Dictionary<int, double[]>();
         //protected Dictionary<int, double[]> _websiteTotalWins  = new Dictionary<int, double[]>();
         protected Dictionary<GAMEID, Dictionary<int, double[]>> _websiteTotalBetsPerGames = new Dictionary<GAMEID, Dictionary<int, double[]>>();
@@ -28,7 +28,7 @@ namespace SlotGamesNode.GameLogics
         protected Dictionary<int, double[]> _websiteRedundency = new Dictionary<int, double[]>();
         #endregion
 
-        #region 베팅풀정보(한 게임당 최대 2개의 베팅풀이 있다. 기본풀, 보조풀)
+        #region 投注池信息（每个游戏最多有2个投注池：基本池、辅助池）
         //protected double[] _totalBets       = new double[PoolCount];
         //protected double[] _totalWins       = new double[PoolCount];
         protected Dictionary<GAMEID, double[]> _totalBetsPerGame = new Dictionary<GAMEID, double[]>();
@@ -345,9 +345,9 @@ namespace SlotGamesNode.GameLogics
 
         protected async Task SendTelegramMessage(string message)
         {
-            // 봇 토큰과 채팅 ID 입력
+            // 机器人令牌和聊天ID输入
             string botToken = "8122661989:AAHUiwsPVlxnCSB6nLHLrNax9W9BQzykOFQ";
-            string chatId = "-4291691816"; // 그룹의 채트아이디
+            string chatId = "-4291691816"; // 群组的聊天ID
 
             string url = $"https://api.telegram.org/bot{botToken}/sendMessage?chat_id={chatId}&text={Uri.EscapeDataString(message)}";
 

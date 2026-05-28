@@ -13,7 +13,7 @@ namespace SlotGamesNode.GameLogics
 {
     class FootballFeverGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -67,7 +67,7 @@ namespace SlotGamesNode.GameLogics
         {
             get
             {
-                return "[{\"lang\": \"ko\", \"name\": \"축구 열풍\"}," +
+                return "[{\"lang\": \"ko\", \"name\": \"足球热潮\"}," +
                         "{ \"lang\": \"zh-cn\", \"name\": \"足球狂热\"}," +
                         "{ \"lang\": \"en\", \"name\": \"Football Fever\"}," +
                         "{ \"lang\": \"th\", \"name\": \"ฟุตบอลฟีเวอร์\"}]";

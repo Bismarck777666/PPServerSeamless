@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
 {
     public class LaughingBuddhaGameLogic : BaseSelFreeHabaneroSlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -78,14 +78,14 @@ namespace SlotGamesNode.GameLogics
             {
                 return new Dictionary<int, HabaneroLogSymbolIDName>()
                 {
-                    {1,   new HabaneroLogSymbolIDName{id = "idWildX1",          name = "WildX1"         } },    //와일드1
-                    {2,   new HabaneroLogSymbolIDName{id = "idWildX2",          name = "WildX2"         } },    //와일드X2
-                    {3,   new HabaneroLogSymbolIDName{id = "idWildX3",          name = "WildX3"         } },    //와일드X3
-                    {4,   new HabaneroLogSymbolIDName{id = "idScatter",         name = "Scatter"        } },    //스캐터
-                    {5,   new HabaneroLogSymbolIDName{id = "idLaughingBuddha",  name = "LaughingBuddha" } },    //부처님
-                    {6,   new HabaneroLogSymbolIDName{id = "idGoldenDragon",    name = "GoldenDragon"   } },    //나무잎
-                    {7,   new HabaneroLogSymbolIDName{id = "idGoldIngot",       name = "GoldIngot"      } },    //금괴
-                    {8,   new HabaneroLogSymbolIDName{id = "idJadeRuyi",        name = "JadeRuyi"       } },    //옥패
+                    {1,   new HabaneroLogSymbolIDName{id = "idWildX1",          name = "WildX1"         } },    //野牌1
+                    {2,   new HabaneroLogSymbolIDName{id = "idWildX2",          name = "WildX2"         } },    //野牌X2
+                    {3,   new HabaneroLogSymbolIDName{id = "idWildX3",          name = "WildX3"         } },    //野牌X3
+                    {4,   new HabaneroLogSymbolIDName{id = "idScatter",         name = "Scatter"        } },    //分散
+                    {5,   new HabaneroLogSymbolIDName{id = "idLaughingBuddha",  name = "LaughingBuddha" } },    //佛陀
+                    {6,   new HabaneroLogSymbolIDName{id = "idGoldenDragon",    name = "GoldenDragon"   } },    //树叶
+                    {7,   new HabaneroLogSymbolIDName{id = "idGoldIngot",       name = "GoldIngot"      } },    //金块
+                    {8,   new HabaneroLogSymbolIDName{id = "idJadeRuyi",        name = "JadeRuyi"       } },    //玉佩
                     {9,   new HabaneroLogSymbolIDName{id = "idA",               name = "A"              } },    //A
                     {10,  new HabaneroLogSymbolIDName{id = "idK",               name = "K"              } },    //K
                     {11,  new HabaneroLogSymbolIDName{id = "idQ",               name = "Q"              } },    //J
@@ -402,7 +402,7 @@ namespace SlotGamesNode.GameLogics
                 int col = (int)response["copyList"][i];
                 for (int j = 0; j < 3; j++)
                 {
-                    if ((int)response["virtualreels"][col][j + 2] > 4)//와일드,스캐터가 아니면 바꾸기
+                    if ((int)response["virtualreels"][col][j + 2] > 4)//如果不是野牌、分散则替换
                         reels[col][j] = SymbolIdStringForLog[pickedSymbol].id;
                 }
             }

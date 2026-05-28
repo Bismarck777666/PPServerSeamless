@@ -13,7 +13,7 @@ namespace SlotGamesNode.GameLogics
 {
     class HotDJGameLogic : BaseCQ9TembleGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -67,7 +67,7 @@ namespace SlotGamesNode.GameLogics
         {
             get
             {
-                return "[{\"lang\": \"ko\", \"name\": \"핫 DJ\"}," +
+                return "[{\"lang\": \"ko\", \"name\": \"热辣DJ\"}," +
                         "{ \"lang\": \"zh-cn\", \"name\": \"热音DJ\"}," +
                         "{ \"lang\": \"en\", \"name\": \"Hot DJ\"}," +
                         "{ \"lang\": \"th\", \"name\": \"ดีเจสุดฮอต\"}]";

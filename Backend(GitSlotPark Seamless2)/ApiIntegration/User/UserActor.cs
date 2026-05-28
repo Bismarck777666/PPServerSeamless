@@ -21,16 +21,16 @@ using ApiIntegration.HTTPService;
 
 namespace ApiIntegration
 {
-    //로그인된 사용자를 표현하는 클라스 
+    //表示已登录用户的类
     public class UserActor : ReceiveActor
     {
-        #region 사용자정보
+        #region 用户信息
         private long                    _userDBID               = 0;
         private string                  _strUserID              = "";
         private double                  _balance                = 0.0;
         #endregion
 
-        #region 유저의 상태변수들       
+        #region 用户的状态变量
         private bool                           _userDisconnected   = false;
         #endregion
 
@@ -200,7 +200,7 @@ namespace ApiIntegration
             }
         }
         
-        #region 각종 사건처리부        
+        #region 各种事件处理部分
         private void onCommand(string strCommand)
         {
             if(strCommand == "checkConn")

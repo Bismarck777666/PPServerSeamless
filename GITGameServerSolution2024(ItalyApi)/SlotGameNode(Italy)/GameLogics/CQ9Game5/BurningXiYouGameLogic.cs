@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class BurningXiYouGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Burning Xi-You\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"버닝 씨유\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"燃烧的C U\"}," +
                     "{\"lang\":\"th\",\"name\":\"ไซอิ๋วลุกเป็นไฟ\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"火爆西游\"}]";
             }

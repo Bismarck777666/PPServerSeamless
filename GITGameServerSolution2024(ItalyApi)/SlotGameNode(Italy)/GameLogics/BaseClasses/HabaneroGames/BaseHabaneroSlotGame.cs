@@ -19,7 +19,7 @@ namespace SlotGamesNode.GameLogics
     public class BaseHabaneroSlotGame : IGameLogicActor
     {
         protected string    _providerName           = "habanero";
-        //스핀디비관리액터
+        //旋转数据库管理角色
         protected IActorRef _spinDatabase           = null;
         protected double    _spinDataDefaultBet     = 0.0f;
 
@@ -29,27 +29,27 @@ namespace SlotGamesNode.GameLogics
         protected SortedDictionary<double, int[]>   _totalSpinOddIds        = new SortedDictionary<double, int[]>();
         protected List<int>                         _emptySpinIDs           = new List<int>();
 
-        //프리스핀구매기능이 있을떄만 필요하다. 디비안의 모든 프리스핀들의 오드별 아이디어레이
+        //仅在具有免费旋转购买功能时需要。数据库中所有免费旋转的赔率ID数组
         protected SortedDictionary<double, int[]>   _totalFreeSpinOddIds    = new SortedDictionary<double, int[]>();
         protected int                               _freeSpinTotalCount     = 0;
         protected int                               _minFreeSpinTotalCount  = 0;
-        protected double                            _totalFreeSpinWinRate   = 0.0; //스핀디비안의 모든 프리스핀들의 배당평균값
-        protected double                            _minFreeSpinWinRate     = 0.0; //구매금액의 20% - 50%사이에 들어가는 모든 프리스핀들의 평균배당값
+        protected double                            _totalFreeSpinWinRate   = 0.0; //旋转数据库中所有免费旋转的赔率平均值
+        protected double                            _minFreeSpinWinRate     = 0.0; //购买金额的20% - 50%之间的所有免费旋转的平均赔率值
 
-        //앤티베팅기능이 있을때만 필요하다.(앤티베팅시 감소시켜야할 빈스핀의 갯수)
+        //仅在存在附加投注功能时需要。（附加投注时需要减少的空转次数）
         protected int                               _anteBetMinusZeroCount  = 0;
 
 
-        //유저의 베팅정보 
+        //用户的投注信息
         protected Dictionary<string, BaseHabaneroSlotBetInfo>       _dicUserBetInfos    = new Dictionary<string, BaseHabaneroSlotBetInfo>();
 
-        //유정의 마지막결과정보
+        //用户的最后结果信息
         protected Dictionary<string, BaseHabaneroSlotSpinResult>    _dicUserResultInfos = new Dictionary<string, BaseHabaneroSlotSpinResult>();
 
-        //유저의 게임이력정보
+        //用户的游戏历史信息
         protected Dictionary<string, HabaneroHistoryItem>           _dicUserHistory     = new Dictionary<string, HabaneroHistoryItem>();
 
-        //백업정보
+        //备份信息
         protected Dictionary<string, BaseHabaneroSlotSpinResult>    _dicUserLastBackupResultInfos   = new Dictionary<string, BaseHabaneroSlotSpinResult>();
         protected Dictionary<string, byte[]>                        _dicUserLastBackupBetInfos      = new Dictionary<string, byte[]>();
 
@@ -57,7 +57,7 @@ namespace SlotGamesNode.GameLogics
         {
             get
             {
-                return 0; //유저가 선택가능한 프리스핀종류수
+                return 0; //用户可选择的免费旋转种类数
             }
         }
         protected virtual bool HasPurEnableOption
@@ -211,7 +211,7 @@ namespace SlotGamesNode.GameLogics
             {
                 var stopWatch = new Stopwatch();
                 stopWatch.Start();
-                //자연빵 1만개스핀 선택
+                //天然面包 1万个旋转选择
                 double sumOdd1 = 0.0;
                 for (int i = 0; i < 100000; i++)
                 {
@@ -224,7 +224,7 @@ namespace SlotGamesNode.GameLogics
                 stopWatch.Reset();
                 stopWatch.Start();
 
-                //이벤트각 구간마다 2천개
+                //每个事件区间各2000个
                 for (int i = 0; i < 6; i++)
                 {
                     double[] rangeMins = new double[] { 10, 50, 100, 300, 500, 1000 };
@@ -420,7 +420,7 @@ namespace SlotGamesNode.GameLogics
 
                 if (SupportPurchaseFree && HasPurEnableOption)
                 {
-                    //따로 읽는다.
+                    //单独读取
                     List<SpinBaseData> freeSpinDatas = await _spinDatabase.Ask<List<SpinBaseData>>(new ReadSpinInfoPurEnabledRequest(), TimeSpan.FromSeconds(30.0));
                     for (int i = 0; i < freeSpinDatas.Count; i++)
                     {
@@ -482,7 +482,7 @@ namespace SlotGamesNode.GameLogics
             }
         }
 
-        #region 메세지처리함수들
+        #region 消息处理函数
         protected override async Task onProcMessage(string strUserID, int agentID, CurrencyEnum currency, GITMessage message, UserBonus userBonus, double userBalance, bool isMustLose)
         {
             string strGlobalUserID = string.Format("{0}_{1}", agentID, strUserID);
@@ -820,7 +820,7 @@ namespace SlotGamesNode.GameLogics
                 BaseHabaneroSlotBetInfo oldBetInfo = null;
                 if (_dicUserBetInfos.TryGetValue(strGlobalUserID, out oldBetInfo))
                 {
-                    //만일 유저에게 남은 응답이 존재하는 경우
+                    //如果用户存在剩余响应的情况
                     if (oldBetInfo.HasRemainResponse)
                         return;
 
@@ -942,7 +942,7 @@ namespace SlotGamesNode.GameLogics
                 BaseHabaneroSlotSpinResult spinResult     = new BaseHabaneroSlotSpinResult();
                 dynamic resultContext = JsonConvert.DeserializeObject<dynamic>(strSpinResponse);
 
-                //모든 당첨값들을 현재의 베팅금액상태로 전환한다.
+                //将所有中奖值转换为当前的下注金额状态。
                 convertWinsByBet(resultContext, betInfo.TotalBet);
 
                 string strNextAction    = (string)resultContext["nextgamestate"];
@@ -1005,22 +1005,22 @@ namespace SlotGamesNode.GameLogics
                 BaseHabaneroActionToResponse nextResponse = betInfo.pullRemainResponse();
                 result = calculateResult(strGlobalUserID, betInfo, nextResponse.Response, false,nextResponse.ActionType);
 
-                //프리게임이 끝났는지를 검사한다.
+                //检查免费游戏是否结束。
                 if (!betInfo.HasRemainResponse)
                     betInfo.RemainReponses = null;
                 return result;
             }
 
-            //유저의 총 베팅액을 얻는다.
+            //获取用户的总投注额。
             float   totalBet     = betInfo.TotalBet;
             double  realBetMoney = totalBet;
 
             if (SupportPurchaseFree && betInfo.PurchaseFree > 0)
-                realBetMoney = totalBet * getPurchaseMultiple(betInfo);//구매베팅금액
+                realBetMoney = totalBet * getPurchaseMultiple(betInfo);//购买投注金额
 
             spinData = await selectRandomStop(agentID, userBonus, totalBet, betInfo);
 
-            //첫자료를 가지고 결과를 계산한다.
+            //用第一份数据计算结果。
             double totalWin = totalBet * spinData.SpinOdd;
 
             if (!usePayLimit || spinData.IsEvent || checkCompanyPayoutRate(agentID, realBetMoney, totalWin))
@@ -1053,7 +1053,7 @@ namespace SlotGamesNode.GameLogics
                 result      = calculateResult(strGlobalUserID, betInfo, spinData.SpinStrings[0], true,HabaneroActionType.MAIN);
                 emptyWin    = totalBet * spinData.SpinOdd;
 
-                //뒤에 응답자료가 또 있다면
+                //如果后面还有响应数据
                 if (spinData.SpinStrings.Count > 1)
                     betInfo.RemainReponses = buildResponseList(spinData.SpinStrings);
             }
@@ -1096,7 +1096,7 @@ namespace SlotGamesNode.GameLogics
             try
             {
                 string strGlobalUserID = string.Format("{0}_{1}", agentID, strUserID);
-                //해당 유저의 베팅정보를 얻는다. 만일 베팅정보가 없다면(례외상황) 그대로 리턴한다.
+                //获取该用户的投注信息。如果没有投注信息（例外情况）则直接返回。
                 BaseHabaneroSlotBetInfo betInfo = null;
                 if (!_dicUserBetInfos.TryGetValue(strGlobalUserID, out betInfo))
                     return;
@@ -1118,7 +1118,7 @@ namespace SlotGamesNode.GameLogics
                     betMoney = Math.Round(betMoney * this.MoreBetMultiple, 1);
 
 
-                //만일 베팅머니가 유저의 밸런스보다 크다면 끝낸다.(2020.02.15)
+                //如果投注金额大于用户余额则结束。(2020.02.15)
                 if (userBalance.LT(betMoney, _epsilion) || betMoney < 0.0)
                 {
                     _logger.Error("user balance is less than bet money in BaseHabaneroSlotGame::spinGame {0} balance:{1}, bet money: {2} game id:{3}", strUserID, userBalance, betMoney, _gameID);
@@ -1128,10 +1128,10 @@ namespace SlotGamesNode.GameLogics
                 if (betMoney > 0.0)
                     _dicUserHistory[strGlobalUserID] = new HabaneroHistoryItem();
 
-                //결과를 생성한다.
+                //生成结果。
                 BaseHabaneroSlotSpinResult spinResult = await this.generateSpinResult(betInfo, strUserID, agentID, userBonus, true);
 
-                //게임로그
+                //游戏日志
                 string strGameLog                       = spinResult.ResultString;
                 _dicUserResultInfos[strGlobalUserID]    = spinResult;
                 
@@ -1141,7 +1141,7 @@ namespace SlotGamesNode.GameLogics
                     _dicUserHistory[strGlobalUserID].RoundId    = spinResult.RoundId;
                 }
 
-                //결과를 보내기전에 베팅정보를 디비에 보관한다.
+                //在发送结果之前，将投注信息保存到数据库
                 saveBetResultInfo(strGlobalUserID);
 
                 HabaneroResponseHeader responseHeader = null;
@@ -1150,7 +1150,7 @@ namespace SlotGamesNode.GameLogics
                 else
                     responseHeader = makeHabaneroResponseHeader(strGlobalUserID, currency, userBalance - betMoney, strToken);
 
-                //생성된 게임결과를 유저에게 보낸다.
+                //将生成的游戏结果发送给用户。
                 sendGameResult(betInfo, spinResult, agentID, strUserID, currency, betMoney, spinResult.WinMoney, strGameLog, userBalance, strSessionID, strToken, strGrid, responseHeader);
 
                 _dicUserLastBackupBetInfos[strGlobalUserID]     = betInfoBytes;
@@ -1456,7 +1456,7 @@ namespace SlotGamesNode.GameLogics
             Sender.Tell(toUserResult, Self);
         }
 
-        #region 스핀자료처리부분
+        #region 旋转数据处理部分
         protected OddAndIDData selectOddAndIDFromProbsWithRange(SortedDictionary<double, int[]> oddProbs, int totalCount, double minOdd, double maxOdd)
         {
             int random = Pcg.Default.Next(0, totalCount);
@@ -1599,7 +1599,7 @@ namespace SlotGamesNode.GameLogics
             if (_totalSpinOddIds.ContainsKey(maxOdd))
                 return maxOdd;
 
-            double bestMatchedOdd = 0.0;    //제일 작은 오드값으로 초기화한다.
+            double bestMatchedOdd = 0.0;    //用最小的赔率值初始化
             foreach (KeyValuePair<double, int[]> pair in _totalSpinOddIds)
             {
                 if (maxOdd < pair.Key)
@@ -1675,7 +1675,7 @@ namespace SlotGamesNode.GameLogics
         }
         public virtual async Task<BasePPSlotSpinData> selectRandomStop(int agentID, UserBonus userBonus, double baseBet, BaseHabaneroSlotBetInfo betInfo)
         {
-            //프리스핀구입을 먼저 처리한다.
+            //先处理购买免费旋转。
             if (this.SupportPurchaseFree && betInfo.PurchaseFree > 0)
                 return await selectPurchaseFreeSpin(agentID, betInfo, baseBet, userBonus);
 
@@ -1704,7 +1704,7 @@ namespace SlotGamesNode.GameLogics
 
                 HabaneroLogItem logItem = buildHabaneroLogItem(betInfo, _dicUserHistory[strGlobalUserID],agentID ,strUserID, currency, userBalance,betMoney ,winMoney);
                 
-                //게임히스토리디비에 보관
+                //保存在游戏历史数据库中
                 _dbWriter.Tell(logItem);
                 _dicUserHistory.Remove(strGlobalUserID);
             }

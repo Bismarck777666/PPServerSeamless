@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class MrMiserGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Mr. Miser\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"재물광 요정\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"财光妖精\"}," +
                     "{\"lang\":\"th\",\"name\":\"ภูติจิ๋วเฝ้าทรัพย์\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"财迷小妖\"}]";
             }

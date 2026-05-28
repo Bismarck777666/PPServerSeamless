@@ -11,7 +11,7 @@ using Newtonsoft.Json;
 /****
  * 
  *          Created by Foresight(2021.03.12)
- *          해당 노드내부에서 교환되는 메세지들을 정의한다.
+ *          定义在该节点内部交换的消息。
  * 
  */
 
@@ -218,7 +218,7 @@ namespace CommNode
         public double   Score   { get; set; }
     }
 
-    //유저강퇴메세지
+    //用户强制退出消息
     public class QuitUserMessage
     {
         public string UserID { get; private set; }
@@ -237,7 +237,7 @@ namespace CommNode
         }
     }
 
-    //스코변경메세지
+    //分数变更消息
     public class AddScoreMessage
     {
         public string   UserID      { get; private set; }

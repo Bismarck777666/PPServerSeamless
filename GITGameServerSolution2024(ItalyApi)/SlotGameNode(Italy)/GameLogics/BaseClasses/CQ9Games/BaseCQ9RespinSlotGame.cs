@@ -54,7 +54,7 @@ namespace SlotGamesNode.GameLogics
             try
             {
                 string strGlobalUserID = string.Format("{0}_{1}", agentID, strUserID);
-                //해당 유저의 베팅정보를 얻는다. 만일 베팅정보가 없다면(례외상황) 그대로 리턴한다.
+                //获取该用户的投注信息。如果没有投注信息（例外情况）则直接返回。
                 BaseCQ9SlotBetInfo betInfo = null;
                 if (!_dicUserBetInfos.TryGetValue(strGlobalUserID, out betInfo))
                     return;
@@ -72,7 +72,7 @@ namespace SlotGamesNode.GameLogics
                 if (betInfo.HasRemainResponse)
                     betMoney = 0.0;
 
-                //만일 베팅머니가 유저의 밸런스보다 크다면 끝낸다.(2020.02.15)
+                //如果投注金额大于用户余额则结束。(2020.02.15)
                 if (userBalance.LT(betMoney, _epsilion) || betMoney < 0.0)
                 {
                     _logger.Error("user balance is less than bet money in BaseCQ9ReelPaySlotGame::spinGame {0} balance:{1}, bet money: {2} game id:{3}", strGlobalUserID, userBalance, betMoney, _gameID);
@@ -82,14 +82,14 @@ namespace SlotGamesNode.GameLogics
                 if (betMoney > 0.0)
                     _dicUserHistory[strGlobalUserID] = new CQ9HistoryItem();
 
-                //결과를 생성한다.
+                //生成结果。
                 BaseCQ9SlotSpinResult spinResult = await this.generateSpinResult(betInfo, strUserID, agentID, userBonus, true, isMustLose);
 
-                //게임로그
+                //游戏日志
                 string strGameLog = spinResult.ResultString;
                 _dicUserResultInfos[strGlobalUserID] = spinResult;
 
-                //생성된 게임결과를 유저에게 보낸다.(윈은 Collect요청시에 처리한다.)
+                //将生成的游戏结果发送给用户。（赢在Collect请求时处理。）
                 sendGameResult(betInfo, spinResult, strGlobalUserID, betMoney, 0.0, strGameLog, userBalance);
 
                 _dicUserLastBackupBetInfos[strGlobalUserID]       = betInfoBytes;
@@ -104,13 +104,13 @@ namespace SlotGamesNode.GameLogics
         protected override async Task<BaseCQ9SlotSpinResult> generateSpinResult(BaseCQ9SlotBetInfo betInfo, string strUserID, int agentID, UserBonus userBonus, bool usePayLimit, bool isMustLose)
         {
             string strGlobalUserID = string.Format("{0}_{1}", agentID, strUserID);
-            //프리스핀이거나 일반스핀에서 릴이 선택되지 않았으면 일반방식으로 처리
+            //如果是免费旋转或普通旋转中未选择卷轴，则按普通方式处理
             if(betInfo.HasRemainResponse || !betInfo.ReelSelected.Contains(1) || betInfo.ReelPay == 0 || _dicUserResultInfos[strGlobalUserID] == null)
                 return await base.generateSpinResult(betInfo, strUserID, agentID, userBonus, usePayLimit, isMustLose);
 
             BaseCQ9SlotSpinResult   result      = null;
 
-            //유저의 총 베팅액을 얻는다.
+            //获取用户的总投注额。
             float totalBet      = (float)betInfo.TotalBet;
             double realBetMoney = betInfo.ReelPay;
 

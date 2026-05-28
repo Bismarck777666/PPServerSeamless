@@ -14,8 +14,8 @@ using CommNode.HTTPService.Models;
 /***
  * 
  *          Created by Foresight(2021.03.18)
- *          인증조작을 진행하는 클래스
- *          유저의 아이디, 비번을 받아 인증하여 결과에 따라 세션토큰을 발급한다.
+ *          进行认证操作的类
+ *          接收用户的ID、密码进行认证，并根据结果颁发会话令牌。
  * 
  */
 namespace CommNode.HTTPService
@@ -50,11 +50,11 @@ namespace CommNode.HTTPService
         {
             try
             {
-                //디비에서 조회한다.
+                //从数据库查询。
                 UserLoginResponse loginResponse = await Context.System.ActorSelection("/user/dbproxy/readers").Ask<UserLoginResponse>(new UserLoginRequest(request.AgentID, request.UserID, request.PasswordMD5, request.IPAddress, PlatformTypes.WEB));
                 if(loginResponse.Result != LoginResult.OK)
                 {
-                    //실패결과 리턴
+                    //返回失败结果
                     Sender.Tell(new HTTPAuthResponse(HttpAuthResults.IDPASSWORDERROR));
                     return;
                 }
@@ -69,7 +69,7 @@ namespace CommNode.HTTPService
                 string strNewSesionToken = createNewSessionToken(loginResponse.GlobalUserID + "@" + loginResponse.PassToken);
                 string strHashKey        = string.Format("{0}_tokens", loginResponse.GlobalUserID);
 
-                //유저액터가 이미 존재하는가를 검사한다.
+                //检查用户Actor是否已经存在。
                 RedisValue redisValue = await RedisDatabase.RedisCache.HashGetAsync("onlineusers", loginResponse.GlobalUserID + "_path");
                 if (!redisValue.IsNullOrEmpty)
                 {
@@ -81,11 +81,11 @@ namespace CommNode.HTTPService
                     return;
                 }
 
-                //유저새로 로그인
+                //用户重新登录
                 bool isNotOnline = await RedisDatabase.RedisCache.HashSetAsync("onlineusers", loginResponse.GlobalUserID, true, StackExchange.Redis.When.NotExists);
                 if (isNotOnline)
                 {
-                    //새로운 세션토큰을 만든다.
+                    //生成新的会话令牌。
                     IActorRef   userActor           = await Context.System.ActorSelection("/user/userManager").Ask<IActorRef>(new CreateNewUserMessage(strNewSesionToken, _dbReaderProxy, _dbWriterProxy, _redisWriter, loginResponse, PlatformTypes.WEB));
                     string      strUserActorPath    = getActorRemotePath(userActor);
 

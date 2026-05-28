@@ -11,7 +11,7 @@ namespace SlotGamesNode.GameLogics
 {
     public class WealthInnGameLogic : BaseHabaneroSlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -60,14 +60,14 @@ namespace SlotGamesNode.GameLogics
             {
                 return new Dictionary<int, HabaneroLogSymbolIDName>()
                 {
-                    {1,   new HabaneroLogSymbolIDName{id = "idWild",        name = "Wild"           } },    //와일드
-                    {2,   new HabaneroLogSymbolIDName{id = "idPeach",       name = "Peach"          } },    //복숭아
-                    {3,   new HabaneroLogSymbolIDName{id = "idRuyi",        name = "Ruyi"           } },    //루이
-                    {4,   new HabaneroLogSymbolIDName{id = "idIngot",       name = "Ingot"          } },    //금낭
-                    {5,   new HabaneroLogSymbolIDName{id = "idLow1",        name = "Low1"           } },    //노랑
-                    {6,   new HabaneroLogSymbolIDName{id = "idLow2",        name = "Low2"           } },    //빨강
-                    {7,   new HabaneroLogSymbolIDName{id = "idLow3",        name = "Low3"           } },    //파랑
-                    {8,   new HabaneroLogSymbolIDName{id = "idLowCombined", name = "LowCombined"    } },    //애니
+                    {1,   new HabaneroLogSymbolIDName{id = "idWild",        name = "Wild"           } },    //狂野
+                    {2,   new HabaneroLogSymbolIDName{id = "idPeach",       name = "Peach"          } },    //桃子
+                    {3,   new HabaneroLogSymbolIDName{id = "idRuyi",        name = "Ruyi"           } },    //如意
+                    {4,   new HabaneroLogSymbolIDName{id = "idIngot",       name = "Ingot"          } },    //金锭
+                    {5,   new HabaneroLogSymbolIDName{id = "idLow1",        name = "Low1"           } },    //黄色
+                    {6,   new HabaneroLogSymbolIDName{id = "idLow2",        name = "Low2"           } },    //红色
+                    {7,   new HabaneroLogSymbolIDName{id = "idLow3",        name = "Low3"           } },    //蓝色
+                    {8,   new HabaneroLogSymbolIDName{id = "idLowCombined", name = "LowCombined"    } },    //任意
                 };
             }
         }

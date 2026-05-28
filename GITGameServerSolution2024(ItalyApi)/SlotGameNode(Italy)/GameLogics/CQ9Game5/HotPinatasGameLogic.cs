@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class HotPinatasGameLogic : BaseCQ9TembleGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Hot Pinatas\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"핫 피나타스\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"热皮纳塔斯\"}," +
                     "{\"lang\":\"th\",\"name\":\"เผ็ชซี้ด\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"辣爆了\"}]";
             }

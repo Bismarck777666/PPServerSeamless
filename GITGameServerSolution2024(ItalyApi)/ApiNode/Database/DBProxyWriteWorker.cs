@@ -109,7 +109,7 @@ namespace QueenApiNode.Database
                 {
 
                 }
-                //기록에 실패한 항목들을 다시 넣는다.
+                //重新放入记录失败的条目。
                 Context.Parent.Tell(updateItems);
                 return -1;
             }
@@ -149,7 +149,7 @@ namespace QueenApiNode.Database
             {
                 _logger.Error("Exception has been occured in DBProxyWriteWorker::insertAgentMoneyChangeItems {0}", ex.ToString());
 
-                //기록에 실패한 항목들을 다시 넣는다.
+                //重新放入记录失败的条目。
                 Context.Parent.Tell(insertItems);
                 return -1;
             }
@@ -188,7 +188,7 @@ namespace QueenApiNode.Database
             {
                 _logger.Error("Exception has been occured in DBProxyWriteWorker::insertUserMoneyChangeItems {0}", ex.ToString());
 
-                //기록에 실패한 항목들을 다시 넣는다.
+                //重新放入记录失败的条目。
                 Context.Parent.Tell(insertItems);
                 return -1;
             }

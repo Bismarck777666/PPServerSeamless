@@ -113,7 +113,7 @@ namespace FrontNode.Database
                 {
                     await connection.OpenAsync();
 
-                    //게임설정을 감시한다.
+                    //监视游戏设置。
                     string strQuery = "SELECT gameid, gametype, openclose, gamesymbol, gamename, gamedata, updatetime FROM gameconfigs WHERE updatetime > @updatetime ORDER BY updatetime";
                     SqlCommand command = new SqlCommand(strQuery, connection);
                     command.Parameters.AddWithValue("@updatetime", DBMonitorSnapshot.Instance.GameConfigUpdateTime);

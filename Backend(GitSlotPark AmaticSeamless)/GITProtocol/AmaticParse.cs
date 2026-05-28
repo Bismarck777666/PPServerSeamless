@@ -17,23 +17,23 @@ namespace GITProtocol
         FreeSpin        = 6,
         GamblePick      = 7,
         GambleHalf      = 8,
-        NoCollectSpin   = 9,    //웨이즈 노멀 스핀
-        ExtendFree      = 10,   //프리게임중 추가프리스핀
-        FreeReopen      = 11,   //프리게임때 껏다 켤때
+        NoCollectSpin   = 9,    //Ways 普通旋转
+        ExtendFree      = 10,   //免费游戏中额外免费旋转
+        FreeReopen      = 11,   //免费游戏时关闭再打开
         LastFree        = 12,
-        FreeOption      = 16,   //프로옵션게임때 픽크
+        FreeOption      = 16,   //Pro选项游戏时选择
         WheelTrigger    = 20, 
         Wheel           = 21,
         LastWheel       = 22,
         RespinTrigger   = 30,
         Respin          = 31,
         LastRespin      = 32,
-        FreeRespinStart = 34,   //프리스핀안에서 리스핀 시작
-        FreeRespin      = 35,   //프리스핀안에서 리스핀
-        FreeRespinEnd   = 36,   //프리스핀안에서 리스핀 끝
-        TriggerPower    = 37,   //파워리스핀 시작
-        PowerRespin     = 38,   //파워리스핀
-        LastPower       = 39,   //파워리스핀 끝
+        FreeRespinStart = 34,   //免费旋转中的重新旋转开始
+        FreeRespin      = 35,   //免费旋转中的重新旋转
+        FreeRespinEnd   = 36,   //免费旋转中的重新旋转结束
+        TriggerPower    = 37,   //强力重新旋转开始
+        PowerRespin     = 38,   //强力重新旋转
+        LastPower       = 39,   //强力重新旋转结束
         BonusTrigger    = 45,   
         BonusSpin       = 46,
         BonusEnd        = 47,
@@ -44,7 +44,7 @@ namespace GITProtocol
         DiamondSpin     = 58,
         DiamondEnd      = 59,
         
-        PurFree         = 66,   //프리구매
+        PurFree         = 66,   //购买免费
     }
 
     public class AmaticDecrypt
@@ -193,7 +193,7 @@ namespace GITProtocol
 
     public class AmaticPacket
     {
-        public int          curpoint        { get; set; }   //파켓을 읽을때 현재위치
+        public int          curpoint        { get; set; }   //读取钱包时的当前位置
         public long         messageheader   { get; set; }
         public long         messagetype     { get; set; }
         public long         sessionclose    { get; set; }
@@ -327,9 +327,9 @@ namespace GITProtocol
         public long             freeunparam2    { get; set; }
         public long             totalfreewin    { get; set; }   
         public long             unknownparam1   { get; set; }   //0
-        public long             minbetline      { get; set; }   //베팅라인 최소
-        public long             maxbetline      { get; set; }   //베팅라인 최대
-        public long             unitbetline     { get; set; }   //베팅라인간격
+        public long             minbetline      { get; set; }   //投注线最小值
+        public long             maxbetline      { get; set; }   //投注线最大值
+        public long             unitbetline     { get; set; }   //投注行间距
         public long             unknownparam2   { get; set; }   //11
         public long             unknownparam3   { get; set; }   //00
         public List<long>       freereelstops   { get; set; }
@@ -442,7 +442,7 @@ namespace GITProtocol
         public long         messageid       { get; set; }
         public long         balance         { get; set; }
         public long         win             { get; set; }
-        public long         winnumber       { get; set; }   //룰렛당첨숫자
+        public long         winnumber       { get; set; }   //轮盘中奖数字
         public long         unknowparam1    { get; set; }   // 0 (-)
 
         public RoulettePacket(string message)
@@ -474,7 +474,7 @@ namespace GITProtocol
         public long         messageid       { get; set; }
         public long         balance         { get; set; }
         public long         win             { get; set; }
-        public long         winnumber       { get; set; }   //룰렛당첨숫자
+        public long         winnumber       { get; set; }   //轮盘中奖数字
         public long         unknownparam1   { get; set; }   //0
         public List<long>   betbuttons      { get; set; }
         public long         maxbetamount    { get; set; }

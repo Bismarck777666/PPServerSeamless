@@ -30,7 +30,7 @@ namespace SlotGamesNode.GameLogics
     }
     public class TreasureWildGameLogic : BasePPSlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -84,8 +84,8 @@ namespace SlotGamesNode.GameLogics
         #endregion
 
         protected const int     PurFreeCount            = 12;
-        protected double []     _totalPurFreeWinRates   = new double[PurFreeCount]; //스핀디비안의 모든 프리스핀들의 배당평균값
-        protected double []     _minPurFreeWinRates     = new double[PurFreeCount]; //구매금액의 20% - 50%사이에 들어가는 모든 프리스핀들의 평균배당값
+        protected double []     _totalPurFreeWinRates   = new double[PurFreeCount]; //旋转数据库中的所有免费旋转的赔率平均值
+        protected double []     _minPurFreeWinRates     = new double[PurFreeCount]; //购买金额的20% - 50%之间的所有免费旋转的平均赔率值
 
         public TreasureWildGameLogic()
         {
@@ -130,7 +130,7 @@ namespace SlotGamesNode.GameLogics
                 BasePPSlotBetInfo oldBetInfo = null;
                 if (_dicUserBetInfos.TryGetValue(strGlobalUserID, out oldBetInfo))
                 {
-                    //만일 유저에게 남은 응답이 존재하는 경우
+                    //如果用户存在剩余响应的情况
                     if (oldBetInfo.HasRemainResponse)
                         return;
 

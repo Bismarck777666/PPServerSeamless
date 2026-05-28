@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class GreatLionGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Great Lion\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"그레이트 라이언\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"大狮子\"}," +
                     "{\"lang\":\"th\",\"name\":\"สิงโตให้มงคล\"}," +
                     "{\"lang\":\"id\",\"name\":\"Singa Besar\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"Grande Leão\"}," +

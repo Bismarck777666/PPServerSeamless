@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class SakuraLegendGameLogic : BaseCQ9TembleGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -71,7 +71,7 @@ namespace SlotGamesNode.GameLogics
             {
                 return "[{\"lang\":\"en\",\"name\":\"Sakura Legend\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"Lenda Sakura\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"사쿠라 레전드\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"樱花传奇\"}," +
                     "{\"lang\":\"th\",\"name\":\"ตำนานซากุระ\"}," +
                     "{\"lang\":\"vn\",\"name\":\"Truyền thuyết Sakura\"}," +
                     "{\"lang\":\"id\",\"name\":\"Legenda Sakura\"}," +

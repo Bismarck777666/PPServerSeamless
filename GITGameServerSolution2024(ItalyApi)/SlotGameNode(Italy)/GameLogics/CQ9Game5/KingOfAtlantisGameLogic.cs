@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class KingOfAtlantisGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"King of Atlantis\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"바다의 왕\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"海之王\"}," +
                     "{\"lang\":\"th\",\"name\":\"คิงออฟแอตแลนติส\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"海王\"}]";
             }

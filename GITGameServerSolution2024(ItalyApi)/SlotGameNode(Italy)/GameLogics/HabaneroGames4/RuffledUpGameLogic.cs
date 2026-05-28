@@ -11,7 +11,7 @@ namespace SlotGamesNode.GameLogics
 {
     public class RuffledUpGameLogic : BaseHabaneroSlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -93,7 +93,7 @@ namespace SlotGamesNode.GameLogics
             GameName    = "RuffledUp";
         }
 
-        #region 스핀조작
+        #region 旋转操作
         protected override BaseHabaneroSlotSpinResult calculateResult(string strUserID, BaseHabaneroSlotBetInfo betInfo, string strSpinResponse, bool isFirst,HabaneroActionType currentAction)
         {
             try
@@ -101,7 +101,7 @@ namespace SlotGamesNode.GameLogics
                 BaseHabaneroSlotSpinResult spinResult     = new BaseHabaneroSlotSpinResult();
                 dynamic resultContext = JsonConvert.DeserializeObject<dynamic>(strSpinResponse);
 
-                //모든 당첨값들을 현재의 베팅금액상태로 전환한다.
+                //将所有中奖值转换为当前的下注金额状态。
                 convertWinsByBet(resultContext, betInfo.TotalBet);
 
                 string strNextAction    = (string)resultContext["nextgamestate"];
@@ -180,7 +180,7 @@ namespace SlotGamesNode.GameLogics
         }
         #endregion
 
-        #region 리력쓰기
+        #region 历史记录
         protected override JArray buildInitResumeGame(string strGlobalUserID, BaseHabaneroSlotBetInfo betInfo, JObject lastResult, string gameinstanceid, string roundid, HabaneroActionType currentAction = HabaneroActionType.FREEGAME)
         {
 

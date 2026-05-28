@@ -41,7 +41,7 @@ namespace SlotGamesNode.GameLogics
 
         protected void createGameLogicActors()
         {
-            #region Amatic 게임
+            #region Amatic 游戏
             _dicGameLogicActors.Add(GAMEID.WildShark,               Context.ActorOf(Props.Create(()     => new WildSharkGameLogic()),               "WildShark"));
             _dicGameLogicActors.Add(GAMEID.FlyingDutchman,          Context.ActorOf(Props.Create(()     => new FlyingDutchmanGameLogic()),          "FlyingDutchman"));
             _dicGameLogicActors.Add(GAMEID.WildDragon,              Context.ActorOf(Props.Create(()     => new WildDragonGameLogic()),              "WildDragon"));
@@ -266,7 +266,7 @@ namespace SlotGamesNode.GameLogics
             GAMEID gameID = (GAMEID) enterGameMessage.GameID;
             if (!_dicGameLogicActors.ContainsKey(gameID))
             {
-                Sender.Tell(new EnterGameResponse((int) gameID, Self, 1));  //해당 게임이 존재하지 않음
+                Sender.Tell(new EnterGameResponse((int) gameID, Self, 1));  //该游戏不存在
                 return;
             }
 

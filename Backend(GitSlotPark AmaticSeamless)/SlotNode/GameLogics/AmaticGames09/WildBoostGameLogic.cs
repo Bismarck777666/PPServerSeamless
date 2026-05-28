@@ -9,7 +9,7 @@ namespace SlotGamesNode.GameLogics
 {
     class WildBoostGameLogic : BaseAmaticMultiBaseGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected string ExtraString => "214ffffffffffffffffffff";
         protected override string SymbolName
         {

@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
    
     class GoldenEggsGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -69,7 +69,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Golden Eggs\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"골든 에그\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"金蛋\"}," +
                     "{\"lang\":\"th\",\"name\":\"ไข่ทองคำ\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"赚金蛋\"}]";
             }

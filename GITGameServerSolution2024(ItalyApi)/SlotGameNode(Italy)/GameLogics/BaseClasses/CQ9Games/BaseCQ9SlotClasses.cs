@@ -219,7 +219,7 @@ namespace SlotGamesNode.GameLogics
             }
         }
     }
-#region CQ9 Init 부분
+#region CQ9 Init 部分
     public class CQ9InitData
     {
         public int      Type                    { get; set; }

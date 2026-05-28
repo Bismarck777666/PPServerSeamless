@@ -45,7 +45,7 @@ namespace CommNode.Database
                     {
                         await connection.OpenAsync();
 
-                        //플레이어들의 게임로그를 넣는다.
+                        //插入玩家们的游戏日志。
                         await insertGameLogs(connection);
                     }
                 }
@@ -69,7 +69,7 @@ namespace CommNode.Database
                         {
                             await connection.OpenAsync();
 
-                            //플레이어들의 게임로그를 넣는다.
+                            //插入玩家们的游戏日志。
                             int insertedLogCount            = await insertGameLogs(connection);
                             _logger.Info("{0} insert game logs  count:{1}", DateTime.Now, insertedLogCount);
 
@@ -108,7 +108,7 @@ namespace CommNode.Database
             int totalCount = 0;
             foreach (KeyValuePair<int, List<GameLogItem>> pair in dicGameLogItems)
             {
-                //먼저 해당에이전트의 표가 이미 창조된것인지를 검사한다.
+                //首先检查该代理的表是否已经创建。
                 if (!WriterSnapshot.Instance.IsAgentGameLogTableCreated(pair.Key))
                 {
                     try
@@ -126,7 +126,7 @@ namespace CommNode.Database
                     }
                 }
 
-                //게임로그표에 게임로그들을 삽입한다.
+                //向游戏日志表插入游戏日志。
                 try
                 {
 
@@ -161,7 +161,7 @@ namespace CommNode.Database
                 {
                     _logger.Error("Exception has been occured in DBWriteWorker while inserting game logs : {0}", ex.ToString());
 
-                    //기록에 실패한 항목들을 다시 넣는다.
+                    //重新插入记录失败的条目。
                     Context.Parent.Tell(pair.Value);
                     break;
                 }

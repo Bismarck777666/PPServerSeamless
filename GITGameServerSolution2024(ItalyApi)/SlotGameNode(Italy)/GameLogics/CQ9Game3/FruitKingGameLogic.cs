@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
    
     class FruitKingGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             {
                 return "[{\"lang\":\"en\",\"name\":\"Fruit King\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"Fruta Rei\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"후르츠 킹\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"水果王\"}," +
                     "{\"lang\":\"th\",\"name\":\"ราชาผลไม้\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"钻石水果王\"}]";
             }

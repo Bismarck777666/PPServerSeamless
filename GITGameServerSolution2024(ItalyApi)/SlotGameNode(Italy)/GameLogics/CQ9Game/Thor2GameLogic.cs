@@ -16,7 +16,7 @@ namespace SlotGamesNode.GameLogics
    
     class Thor2GameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
         {
             get
             {
-                return "[{\"lang\": \"ko\", \"name\": \"토르2\"}," +
+                return "[{\"lang\": \"ko\", \"name\": \"雷神2\"}," +
                         "{ \"lang\": \"zh-cn\", \"name\": \"雷神 2\"}," +
                         "{ \"lang\": \"en\", \"name\": \"Thor 2\"}," +
                         "{ \"lang\": \"th\", \"name\": \"ธอร์ 2\"}," +

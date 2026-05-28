@@ -629,7 +629,7 @@ namespace UserNode
             DateTime        nowReportTime     = DateTime.UtcNow;
             DateTime        nowDayReportTime  = new DateTime(nowReportTime.Year, nowReportTime.Month, nowReportTime.Day);
             GameProviders   providerID        = DBMonitorSnapshot.Instance.getGITGameProvider(resultMessage.GameID);
-            //보유머니를 검사한다.
+            //检查持有金额
 
             double betMoney  = Math.Round(resultMessage.BetMoney, 2);
             double winMoney  = Math.Round(resultMessage.WinMoney, 2);

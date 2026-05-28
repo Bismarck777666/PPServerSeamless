@@ -150,7 +150,7 @@ namespace CommNode
                 _logger.Error("Exception has been occurred in UserActor::onUserLoginSucceeded {0}", ex);
             }
         }
-        #region 각종 사건처리부
+        #region 各种事件处理部
 
         private void onForceLogoutMessage(QuitUserMessage _)
         {
@@ -694,7 +694,7 @@ namespace CommNode
             return dicParamValues;
         }
 
-        #region 보너스관련 함수들
+        #region 奖金相关函数
         private UserBonus pickUserBonus(int gameID)
         {
             try
@@ -1037,7 +1037,7 @@ namespace CommNode
         }
         #endregion
 
-        #region 심리스콜백부분
+        #region 无缝回调部分
         public static string createDataSign(string key, string message)
         {
             var hmac = System.Security.Cryptography.HMAC.Create("HMACSHA256");
@@ -1391,7 +1391,7 @@ namespace CommNode
         }
         #endregion
 
-        #region 토너먼트,프라이즈드롭(레이스) 관련부분
+        #region 锦标赛、奖品掉落（竞赛）相关部分
         private async Task onPromoUpdateEvent(PPPromoUpdateEvent updateEvent)
         {
             try

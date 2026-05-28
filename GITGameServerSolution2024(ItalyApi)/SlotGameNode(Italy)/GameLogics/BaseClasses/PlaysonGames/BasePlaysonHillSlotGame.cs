@@ -35,7 +35,7 @@ namespace SlotGamesNode.GameLogics
 
     class BasePlaysonHillSlotGame : BasePlaysonSlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected virtual int[] HillValues
         {
             get
@@ -217,7 +217,7 @@ namespace SlotGamesNode.GameLogics
                 }
             }
 
-            //결과생성후 hill값 변환
+            //生成结果后转换hill值
             hillSpinResult = changeHillofSpinResult(hillSpinResult, strGlobalUserID, action);
             return hillSpinResult;
         }

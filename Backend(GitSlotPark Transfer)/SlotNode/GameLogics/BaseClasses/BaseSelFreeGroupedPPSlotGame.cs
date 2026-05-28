@@ -260,13 +260,13 @@ namespace SlotGamesNode.GameLogics
                 BasePPActionToResponse nextResponse = betInfo.pullRemainResponse();
                 result = calculateResult(betInfo, nextResponse.Response, false);
 
-                //프리게임이 끝났는지를 검사한다.
+                //检查免费游戏是否结束。
                 if (!betInfo.HasRemainResponse)
                     betInfo.RemainReponses = null;
                 return result;
             }
 
-            //유저의 총 베팅액을 얻는다.
+            //获取用户的总投注额。
             float totalBet      = betInfo.TotalBet;
             double realBetMoney = totalBet;
 
@@ -295,7 +295,7 @@ namespace SlotGamesNode.GameLogics
                 (betInfo as BasePPGroupedSlotBetInfo).undoSequence();
             }
 
-            //만일 프리스핀이 선택되였었다면 취소한다.
+            //如果选择了免费旋转则取消。
             spinData        = await selectEmptySpin(websiteID, betInfo);
             result          = calculateResult(betInfo, spinData.SpinStrings[0], true);
             if (spinData is BasePPSlotStartSpinData)
@@ -369,7 +369,7 @@ namespace SlotGamesNode.GameLogics
                 BasePPSlotBetInfo oldBetInfo = null;
                 if (_dicUserBetInfos.TryGetValue(strGlobalUserID, out oldBetInfo))
                 {
-                    //만일 유저에게 남은 응답이 존재하는 경우
+                    //如果用户存在剩余响应的情况
                     if (oldBetInfo.HasRemainResponse)
                         return;
 

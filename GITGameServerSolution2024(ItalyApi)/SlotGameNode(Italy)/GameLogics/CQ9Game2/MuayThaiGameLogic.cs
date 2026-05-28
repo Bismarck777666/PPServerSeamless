@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
    
     class MuayThaiGameLogic : BaseSelFreeCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -78,7 +78,7 @@ namespace SlotGamesNode.GameLogics
             {
                 return "[{\"lang\":\"en\",\"name\":\"MuayThai\"}," +
                     "{\"lang\":\"es\",\"name\":\"Muay Thai\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"무에타이\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"泰拳\"}," +
                     "{\"lang\":\"th\",\"name\":\"มวยไทย\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"拳霸\"}]";
             }

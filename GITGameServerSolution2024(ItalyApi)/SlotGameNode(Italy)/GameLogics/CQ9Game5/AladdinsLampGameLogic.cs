@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class AladdinsLampGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Aladdin's lamp\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"알라딘의 마술등\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"阿拉丁的神灯\"}," +
                     "{\"lang\":\"th\",\"name\":\"จินนี่จ๋า\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"小伙与神灯\"}]";
             }

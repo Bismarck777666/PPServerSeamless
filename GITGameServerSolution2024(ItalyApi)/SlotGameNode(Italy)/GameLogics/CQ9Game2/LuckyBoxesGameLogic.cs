@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
    
     class LuckyBoxesGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -69,7 +69,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"LuckyBoxes\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"럭키 박스\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"幸运盒子\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"百宝箱\"}]";
             }
         }

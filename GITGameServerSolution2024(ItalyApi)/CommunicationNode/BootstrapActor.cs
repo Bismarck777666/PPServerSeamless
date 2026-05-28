@@ -52,22 +52,22 @@ namespace CommNode
             {
                 _logger.Info("Database Proxy has been successfully initialized.");
 
-                //Redis자료기지액터를 창조한다.
+                //创建Redis数据库角色。
                 _redisWriter = Context.System.ActorOf(Akka.Actor.Props.Create(() => new RedisWriter()).WithRouter(FromConfig.Instance), "redisWriter");
 
-                //프라그마틱 프로모션정보를 관리하는 액터
+                //管理Pragmatic推广信息的Actor
                 _ppPromotionActor = Context.System.ActorOf(Akka.Actor.Props.Create(() => new PPPromoActor()), "promofetcher");
 
                 _bngPromotionActor = Context.System.ActorOf(Akka.Actor.Props.Create(() => new BNGPromoActor()), "bngPromofetcher");
                 _bngPromotionActor.Tell("fetch");
 
-                //UserManager 액터를 창조한다.
+                //创建UserManager角色。
                 _userManager = Context.System.ActorOf(UserManager.Props(), "userManager");
 
-                //자료기지가 초기화되면 소켓서버들을 시작한다.
+                //数据库初始化后启动套接字服务器。
                 _slotGamesRouter = Context.System.ActorOf(Akka.Actor.Props.Empty.WithRouter(FromConfig.Instance), Constants.SlotGameRouterName);
 
-                //프로모션서버루터
+                //促销服务器路由器
                 _ppPromoRouter = Context.System.ActorOf(Akka.Actor.Props.Empty.WithRouter(FromConfig.Instance), "promoRouter");
 
                 _httpAuthActorGroup         = Context.System.ActorOf(Akka.Actor.Props.Create(() => new HTTPAuthWorker(dbActors.Reader, dbActors.Writer, _redisWriter)).WithRouter(FromConfig.Instance), "httpAuthWorkers");
@@ -82,7 +82,7 @@ namespace CommNode
 
                 _ppPromotionActor.Tell("start");
 
-                //웹소켓서비스
+                //WebSocket服务
                 var websocketConfig = _configuration.GetConfig("websocket");
                 if (websocketConfig != null)
                 {
@@ -90,7 +90,7 @@ namespace CommNode
                     _webSocketListener.Tell("start");
                 }
 
-                //아마네트 웹소켓서비스
+                //Amanet网络套接字服务
                 var amanetWebsocketConfig = _configuration.GetConfig("amaticwebsocket");
                 if (amanetWebsocketConfig != null)
                 {
@@ -98,7 +98,7 @@ namespace CommNode
                     _amanetWebSocketListener.Tell("start");
                 }
 
-                //웹요청서비스
+                //网络请求服务
                 var httpConfig = _configuration.GetConfig("http");
                 if (httpConfig != null)
                 {
@@ -106,7 +106,7 @@ namespace CommNode
                     _httpWebService = WebApp.Start<Startup>(url: baseAddress);
                 }
                 
-                //프라그마틱플레이게임설정
+                //Pragmatic Play游戏设置
                 var ppConfig = _configuration.GetConfig("ppconfig");
                 if (ppConfig != null)
                 {
@@ -139,17 +139,17 @@ namespace CommNode
                 _logger.Info("Initializing database proxy...");
 
 
-                //첫단계로 자료기지련결부분을 초기화한다.
+                //第一步初始化数据库连接部分。
                 _dbProxy = Context.System.ActorOf(DBProxy.Props(dbConfig), "dbproxy");
                 _dbProxy.Tell("initialize");               
             }
         }
 
 
-        //Single게임서버가 종료되려고 한다.
+        //Single游戏服务器即将关闭。
         private void onSlotGamesNodeShutdown(SlotsNodeShuttingDownMsg message)
         {
-            //새로 게임에 입장하는 유저들이 해당 서버에 입장하지 못하도록 루터에서 삭제한다.
+            //从路由器中删除，防止新进入游戏的用户进入该服务器。
             Routee routee = new ActorSelectionRoutee(Context.System.ActorSelection(Sender.Path));
             _slotGamesRouter.Tell(new RemoveRoutee(routee));
 
@@ -160,7 +160,7 @@ namespace CommNode
         {
             try
             {
-                //먼저 소켓서버들을 종료시킨다.
+                //首先关闭套接字服务器。
                 _logger.Info("Shutting down tcp and web socket server...");
 
                 if (_webSocketListener != null)
@@ -176,17 +176,17 @@ namespace CommNode
                 await _userManager.GracefulStop(TimeSpan.FromSeconds(300), "terminate");
 
 
-                //Redis자료기지액터를 중지한다.
+                //停止Redis数据库角色。
                 _logger.Info("Terminating redis write actors....");
                 _redisWriter.Tell(new Broadcast(PoisonPill.Instance));
                 await _redisWriter.GracefulStop(TimeSpan.FromSeconds(300));
 
-                //기본자료기지액터들을 중지한다.
+                //停止基础数据库角色。
                 _logger.Info("Terminating database proxy actors....");
                 await _dbProxy.GracefulStop(TimeSpan.FromSeconds(3600), "terminate");
 
 
-                //클라스터에서 탈퇴한다.
+                //从集群中退出。
                 _logger.Info("Leaving from cluster....");
                 var cluster = Akka.Cluster.Cluster.Get(Context.System);
                 await cluster.LeaveAsync();

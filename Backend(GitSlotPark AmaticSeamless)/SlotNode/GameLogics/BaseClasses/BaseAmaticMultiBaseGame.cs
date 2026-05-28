@@ -31,7 +31,7 @@ namespace SlotGamesNode.GameLogics
                 for( int k = 0; k < LineTypeCnt; k++)
                 {
                     stopWatch.Start();
-                    //자연빵 1만개스핀 선택
+                    //天然面包 1万个旋转选择
                     double sumOdd1 = 0.0;
                     BaseAmaticSlotBetInfo betInfo = new BaseAmaticSlotBetInfo();
                     betInfo.MoreBet         = -1;
@@ -49,7 +49,7 @@ namespace SlotGamesNode.GameLogics
                     stopWatch.Start();
 
                     double sumOdd2 = 0.0;
-                    //MoreBet 1만개
+                    //MoreBet 1万个
                     if (SupportMoreBet)
                     {
                         betInfo.MoreBet = 0;

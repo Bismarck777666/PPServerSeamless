@@ -20,7 +20,7 @@ namespace SlotGamesNode
             var logger = NLog.LogManager.GetCurrentClassLogger();
             logger.Info("Starting SlotGamesNode Service...");
 
-            //먼저 설정정보를 검사한다.
+            //首先检查配置信息。
             Config clusterConfig = null;
             try
             {
@@ -39,7 +39,7 @@ namespace SlotGamesNode
                 return false;
             }
 
-            //Redis 자료기지정보를 설정한다.
+            //设置Redis数据库信息。
             var redisConfig = slotGamesConfig.GetConfig("redis");
             if(redisConfig == null)
             {
@@ -49,10 +49,10 @@ namespace SlotGamesNode
 
             setRedisInfo(redisConfig);
 
-            //액터시스템을 창조한다.
+            //创建参与者系统。
             _slotGameActorSystem = SlotGamesHostFactory.LaunchSlotGamesNode(clusterConfig);
 
-            //부트스트랩액터를 창조한다.
+            //创建引导参与者。
             _bootstrapActor = _slotGameActorSystem.ActorOf(BootstrapActor.Props(slotGamesConfig), "bootstrapper");
             _bootstrapActor.Tell("startService");
             return true;
@@ -83,7 +83,7 @@ namespace SlotGamesNode
                 logger.Error("Exception has been occured in Stopping bootstrap actor {0}", ex.ToString());
             }
 
-            //클라스터에서 탈퇴한다.
+            //从集群中退出。
             logger.Info("Leaving from cluster....");
             var cluster = Akka.Cluster.Cluster.Get(_slotGameActorSystem);
             await cluster.LeaveAsync();

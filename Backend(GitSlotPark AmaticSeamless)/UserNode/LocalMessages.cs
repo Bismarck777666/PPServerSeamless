@@ -11,7 +11,7 @@ using Newtonsoft.Json;
 /****
  * 
  *          Created by Foresight(2021.03.12)
- *          해당 노드내부에서 교환되는 메세지들을 정의한다.
+ *          定义在该节点内部交换的消息。
  * 
  */
 

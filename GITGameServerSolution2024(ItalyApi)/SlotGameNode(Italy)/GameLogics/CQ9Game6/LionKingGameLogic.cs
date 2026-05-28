@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class LionKingGameLogic : BaseCQ9MultiBaseGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Lion King\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"사자왕\"}]";
+                    "{\"lang\":\"ko\",\"name\":\"狮子王\"}]";
             }
         }
         protected override double[] MoreBetMultiples

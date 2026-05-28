@@ -34,7 +34,7 @@ namespace SlotGamesNode.GameLogics
         protected double[] _totalFreeSpinWinRates   = new double[2];
         protected double[] _minFreeSpinWinRates     = new double[2];
 
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -415,7 +415,7 @@ namespace SlotGamesNode.GameLogics
 
                         responseMessage.Append(strResponse);
 
-                        //히스토리보관 및 초기화
+                        //历史保管及初始化
                         if (_dicUserHistory.ContainsKey(strGlobalUserID) && _dicUserHistory[strGlobalUserID].log.Count > 0)
                             addActionHistory(strGlobalUserID, "doBonus", strResponse, index, counter);
 

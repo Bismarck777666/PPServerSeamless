@@ -73,7 +73,7 @@ namespace SlotGamesNode.GameLogics
 
     public class JumpGameLogic : BaseHabaneroSlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -129,13 +129,13 @@ namespace SlotGamesNode.GameLogics
             {
                 return new Dictionary<int, HabaneroLogSymbolIDName>()
                 {
-                    {1,   new HabaneroLogSymbolIDName{id = "idWild",        name = "idWild"     } },    //조커
+                    {1,   new HabaneroLogSymbolIDName{id = "idWild",        name = "idWild"     } },    //小丑
                     {2,   new HabaneroLogSymbolIDName{id = "idSeven",       name = "Seven"      } },    //7
-                    {3,   new HabaneroLogSymbolIDName{id = "idBell",        name = "Bell"       } },    //벨
-                    {4,   new HabaneroLogSymbolIDName{id = "idWatermelon",  name = "Watermelon" } },    //수박
-                    {5,   new HabaneroLogSymbolIDName{id = "idLemon",       name = "Lemon"      } },    //레몬
-                    {6,   new HabaneroLogSymbolIDName{id = "idPlum",        name = "Plum"       } },    //추리
-                    {7,   new HabaneroLogSymbolIDName{id = "idCherry",      name = "Cherry"     } },    //체리
+                    {3,   new HabaneroLogSymbolIDName{id = "idBell",        name = "Bell"       } },    //铃铛
+                    {4,   new HabaneroLogSymbolIDName{id = "idWatermelon",  name = "Watermelon" } },    //西瓜
+                    {5,   new HabaneroLogSymbolIDName{id = "idLemon",       name = "Lemon"      } },    //柠檬
+                    {6,   new HabaneroLogSymbolIDName{id = "idPlum",        name = "Plum"       } },    //推理
+                    {7,   new HabaneroLogSymbolIDName{id = "idCherry",      name = "Cherry"     } },    //樱桃
 
                 };
             }
@@ -242,7 +242,7 @@ namespace SlotGamesNode.GameLogics
                 BaseHabaneroSlotSpinResult spinResult = new BaseHabaneroSlotSpinResult();
                 dynamic resultContext = JsonConvert.DeserializeObject<dynamic>(strSpinResponse);
 
-                //모든 당첨값들을 현재의 베팅금액상태로 전환한다.
+                //将所有中奖值转换为当前的下注金额状态。
                 convertWinsByBet(resultContext, betInfo.TotalBet);
 
                 string strNextAction        = (string)resultContext["nextgamestate"];
@@ -336,7 +336,7 @@ namespace SlotGamesNode.GameLogics
                 BaseHabaneroSlotBetInfo oldBetInfo = null;
                 if (_dicUserBetInfos.TryGetValue(strGlobalUserID, out oldBetInfo))
                 {
-                    //만일 유저에게 남은 응답이 존재하는 경우
+                    //如果用户存在剩余响应的情况
                     if (oldBetInfo.HasRemainResponse)
                         return;
 
@@ -529,7 +529,7 @@ namespace SlotGamesNode.GameLogics
 
                 int stackSymbol = 0;
                 List<HabaneroReelAndSymbolIndex> stackPositions = new List<HabaneroReelAndSymbolIndex>();
-                //윈후보심볼의 총개수가 5이상이면 그심벌을 스택시키기
+                //如果候选符号的总个数大于等于5，则将该符号堆叠
                 foreach(int symbol in candidateWinSymbols)
                 {
                     if (symbolAndCounts[symbol] >= 5)
@@ -539,7 +539,7 @@ namespace SlotGamesNode.GameLogics
                     }
                 }
 
-                //후보에 5개이상이 없을때 전체개수가 5이상인 심벌을 스택시키기
+                //当候选中没有5个以上时，将总个数大于等于5的符号堆叠
                 if (stackSymbol == 0)
                 {
                     foreach(KeyValuePair<int,int> pair in symbolAndCounts)
@@ -570,7 +570,7 @@ namespace SlotGamesNode.GameLogics
                 }
                 else
                 {
-                    //그렇지 않은경우에는 후보이외의 심벌중 5개를 후보를 제외한 한가지 심벌로 바꿔준다.(이외의 상황은 디비에서 삭제)
+                    //否则，将候选之外的符号中的5个替换为候选之外的一种符号。（其他情况从数据库中删除）
                     List<int> allSymbols = new List<int>() { 2, 3, 4, 5, 6, 7 };
                     foreach (int symbol in candidateWinSymbols)
                         allSymbols.Remove(symbol);

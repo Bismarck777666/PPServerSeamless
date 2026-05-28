@@ -11,7 +11,7 @@ namespace SlotGamesNode.GameLogics
 {
     public class FengHuangGameLogic : BaseHabaneroSlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -60,14 +60,14 @@ namespace SlotGamesNode.GameLogics
             {
                 return new Dictionary<int, HabaneroLogSymbolIDName>()
                 {
-                    {0,   new HabaneroLogSymbolIDName{id = "idExpand",    name = "idExpand"   } },    //(봉황 || 룡)프리게임중
-                    {1,   new HabaneroLogSymbolIDName{id = "idPhoenix",   name = "Phoenix"    } },    //봉황
-                    {2,   new HabaneroLogSymbolIDName{id = "idDragon",    name = "Dragon"     } },    //룡
-                    {3,   new HabaneroLogSymbolIDName{id = "idFire",      name = "Fire"       } },    //불
-                    {4,   new HabaneroLogSymbolIDName{id = "idEarth",     name = "Earth"      } },    //땅
-                    {5,   new HabaneroLogSymbolIDName{id = "idMetal",     name = "Metal"      } },    //철
-                    {6,   new HabaneroLogSymbolIDName{id = "idWater",     name = "Water"      } },    //폭포
-                    {7,   new HabaneroLogSymbolIDName{id = "idWood",      name = "Wood"       } },    //나무
+                    {0,   new HabaneroLogSymbolIDName{id = "idExpand",    name = "idExpand"   } },    //(凤凰 || 龙)免费游戏中
+                    {1,   new HabaneroLogSymbolIDName{id = "idPhoenix",   name = "Phoenix"    } },    //凤凰
+                    {2,   new HabaneroLogSymbolIDName{id = "idDragon",    name = "Dragon"     } },    //龙
+                    {3,   new HabaneroLogSymbolIDName{id = "idFire",      name = "Fire"       } },    //火
+                    {4,   new HabaneroLogSymbolIDName{id = "idEarth",     name = "Earth"      } },    //地
+                    {5,   new HabaneroLogSymbolIDName{id = "idMetal",     name = "Metal"      } },    //铁
+                    {6,   new HabaneroLogSymbolIDName{id = "idWater",     name = "Water"      } },    //瀑布
+                    {7,   new HabaneroLogSymbolIDName{id = "idWood",      name = "Wood"       } },    //木头
                     {8,   new HabaneroLogSymbolIDName{id = "idA",         name = "A"          } },    //A
                     {9,   new HabaneroLogSymbolIDName{id = "idK",         name = "K"          } },    //K
                     {10,  new HabaneroLogSymbolIDName{id = "idQ",         name = "Q"          } },    //Q
@@ -134,7 +134,7 @@ namespace SlotGamesNode.GameLogics
                 {
                     int symbol   = Convert.ToInt32(response["reels"][i][j]["symbolid"]);
                     string symbolid = "";
-                    if (symbol > 0)//봉황 + 룡 이 아니면
+                    if (symbol > 0)//如果不是凤凰 + 龙
                     {
                         symbolid = SymbolIdStringForLog[symbol].id;
                     }
@@ -226,10 +226,10 @@ namespace SlotGamesNode.GameLogics
             return resumeGames;
         }
 
-        //0번심벌이 드래곤 인가를확인 (depth = 1부터 시작)
+        //检查0号符号是否为龙 (depth = 1开始)
         private bool checkOriginIsDragonSymbol(string strGlobalUserId, int col,int row,int depth,int backwardIndex)
         {
-            if (col >= 4)//맨오른쪽릴이면
+            if (col >= 4)//如果是最右侧卷轴
                 return false;
 
             List<HabaneroHistoryResponses> habaneroHistories = _dicUserHistory[strGlobalUserId].Responses;
@@ -248,10 +248,10 @@ namespace SlotGamesNode.GameLogics
             return false;
         }
 
-        //0번심벌이 포에닉스 인가를확인 (depth = 1부터 시작)
+        //检查0号符号是否为凤凰 (depth = 1开始)
         private bool checkOriginIsPhoenixSymbol(string strGlobalUserId, int col,int row,int depth,int backwardIndex)
         {
-            if (col <= 0)//맨왼쪽릴이면
+            if (col <= 0)//如果是最左侧卷轴
                 return false;
 
             List<HabaneroHistoryResponses> habaneroHistories = _dicUserHistory[strGlobalUserId].Responses;

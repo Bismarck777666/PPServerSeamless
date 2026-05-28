@@ -11,7 +11,7 @@ namespace SlotGamesNode.GameLogics
 {
     public class HeySushiGameLogic : BaseHabaneroSlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -62,13 +62,13 @@ namespace SlotGamesNode.GameLogics
                 {
                     {1,     new HabaneroLogSymbolIDName{id = "idWild",          name = "Wild"           } },
                     {2,     new HabaneroLogSymbolIDName{id = "idScatter",       name = "Scatter"        } },
-                    {3,     new HabaneroLogSymbolIDName{id = "idEelRiceBowl",   name = "EelRiceBowl"    } },    //장어밥
-                    {4,     new HabaneroLogSymbolIDName{id = "idBluefinTuna",   name = "BluefinTuna"    } },    //참다랑어
-                    {5,     new HabaneroLogSymbolIDName{id = "idEggOmelet",     name = "EggOmelet"      } },    //닭부침
-                    {6,     new HabaneroLogSymbolIDName{id = "idPrawn",         name = "Prawn"          } },    //새우
-                    {7,     new HabaneroLogSymbolIDName{id = "idSeaUrchin",     name = "SeaUrchin"      } },    //성게
-                    {8,     new HabaneroLogSymbolIDName{id = "idHandRoll",      name = "HandRoll"       } },    //핸드롤
-                    {9,     new HabaneroLogSymbolIDName{id = "idTokoyaki",      name = "Tokoyaki"       } },    //빵
+                    {3,     new HabaneroLogSymbolIDName{id = "idEelRiceBowl",   name = "EelRiceBowl"    } },    //鳗鱼饭
+                    {4,     new HabaneroLogSymbolIDName{id = "idBluefinTuna",   name = "BluefinTuna"    } },    //蓝鳍金枪鱼
+                    {5,     new HabaneroLogSymbolIDName{id = "idEggOmelet",     name = "EggOmelet"      } },    //鸡肉煎饼
+                    {6,     new HabaneroLogSymbolIDName{id = "idPrawn",         name = "Prawn"          } },    //虾
+                    {7,     new HabaneroLogSymbolIDName{id = "idSeaUrchin",     name = "SeaUrchin"      } },    //海胆
+                    {8,     new HabaneroLogSymbolIDName{id = "idHandRoll",      name = "HandRoll"       } },    //手卷
+                    {9,     new HabaneroLogSymbolIDName{id = "idTokoyaki",      name = "Tokoyaki"       } },    //面包
                     {10,    new HabaneroLogSymbolIDName{id = "idA",             name = "A"              } },
                     {11,    new HabaneroLogSymbolIDName{id = "idK",             name = "K"              } },
                     {12,    new HabaneroLogSymbolIDName{id = "idQ",             name = "Q"              } },

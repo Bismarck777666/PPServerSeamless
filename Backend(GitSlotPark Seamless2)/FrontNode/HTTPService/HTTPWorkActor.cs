@@ -74,7 +74,7 @@ namespace FrontNode.HTTPService
                     return;
                 }
 
-                //게임아이디유효성검사                
+                //游戏ID有效性检查
                 int gameID = DBMonitorSnapshot.Instance.getGameIDFromString(request.GameType, request.GameIdentifier);
                 if (gameID == 0)
                 {
@@ -83,7 +83,7 @@ namespace FrontNode.HTTPService
                     return;
                 }
                 
-                //유저액터에 게임입장요청을 보낸다.
+                //向用户角色发送游戏入场请求。
                 sendEnterRequestToUserActor(request.UserID, gameID, strUserActorPath, request.SessionToken);
             }
             catch (Exception ex)

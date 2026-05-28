@@ -21,10 +21,10 @@ using Newtonsoft.Json.Linq;
 
 namespace UserNode
 {
-    //로그인된 사용자를 표현하는 클라스 
+    //表示已登录用户的类
     public class UserActor : ReceiveActor
     {
-        #region 사용자정보
+        #region 用户信息
         private long                    _userDBID               = 0;
         private string                  _strUserID              = "";
         private string                  _strGlobalUserID        = "";
@@ -35,12 +35,12 @@ namespace UserNode
         private Currencies              _currency               = Currencies.USD;
         #endregion
 
-        #region 유저의 상태변수들       
+        #region 用户的状态变量
         private bool                                _userDisconnected   = false;
         private Dictionary<string, UserConnection>  _userConnections    = new Dictionary<string, UserConnection>();
         #endregion
 
-        #region 사용자의 각종 보너스정보
+        #region 用户的各种奖励信息
         private UserRangeOddEventItem   _userRangeOddEventItem;
         private List<UserBonus>         _waitingUserBonuses = new List<UserBonus>();
         #endregion
@@ -101,7 +101,7 @@ namespace UserNode
         {
             try
             {
-                //유저온라인상태 갱신
+                //用户在线状态更新
                 _dbWriter.Tell(new UserLoginStateItem(_userDBID));
                 _dbReader.Tell(new GetUserBonusItems(_agentDBID, _strUserID));
 
@@ -121,7 +121,7 @@ namespace UserNode
             _lastScoreCounter = scoreID;
             _balance         += score;
         }
-        #region 각종 사건처리부
+        #region 各种事件处理部
         private void onUserEventCancelled(UserEventCancelled message)
         {
             if (_userRangeOddEventItem != null && _userRangeOddEventItem.BonusID == message.BonusID)
@@ -170,7 +170,7 @@ namespace UserNode
 
         private void onForceLogoutMessage(QuitUserMessage _)
         {
-            //모든 연결들에 통지한다.
+            //通知所有连接。
             for (int i = 0; i < _userConnections.Count; i++)
             {
                 string strToken = _userConnections.Keys.ElementAt(i);
@@ -204,7 +204,7 @@ namespace UserNode
         {
             try
             {
-                //레디스에서 해당 세션토큰을 삭제한다.
+                //从Redis中删除该会话令牌
                 await RedisDatabase.RedisCache.HashDeleteAsync(string.Format("{0}_tokens", _strGlobalUserID), message.SessionToken);
                 if (!_userConnections.ContainsKey(message.SessionToken))
                     return;
@@ -254,7 +254,7 @@ namespace UserNode
             {
                 try
                 {
-                    //밸런스변화가 있다면
+                    //如果有平衡变化
                     double balanceUpdate = await _dbWriter.Ask<double>(new FetchUserBalanceUpdate(_userDBID));
                     await _dbReader.Ask(new UserOfflineStateItem(_userDBID, lastGameID, balanceUpdate));
                 }
@@ -287,10 +287,10 @@ namespace UserNode
         }
         #endregion
 
-        #region 메세지처리함수들
+        #region 消息处理函数
         private async Task onProcMessage(FromConnRevMessage fromConnRevMsg)
         {
-            //이미 로그아웃된 유저에 한해서 모든 메세지처리를 무시한다.
+            //仅针对已注销的用户忽略所有消息处理。
             if (_userDisconnected)
                 return;
 
@@ -329,7 +329,7 @@ namespace UserNode
             int             gameID          = (int)(ushort)message.Pop();
             GameProviders   gameProvider    = DBMonitorSnapshot.Instance.getGITGameProvider(gameID);
 
-            //등록된 게임아이디가 아님
+            //不是已注册的游戏ID
             if (gameProvider == GameProviders.NONE)
             {
                 _logger.Warning("{0} tried to enter game for not registered game id {1}", _strGlobalUserID, (int)gameID);
@@ -338,10 +338,10 @@ namespace UserNode
                 return;
             }
 
-            //이미 게임에 입장함
+            //已经进入游戏
             if (userConn.GameActor != null && userConn.GameID != gameID)
             {
-                //이미 다른 게임에 입장하였다면
+                //如果已经进入了其他游戏
                 _logger.Warning("{0} tried to enter game while it has already been entered to other game", _strGlobalUserID);
                 Sender.Tell("closeConnection");
                 Self.Tell(new CloseHttpSession(userConn.Token));
@@ -351,7 +351,7 @@ namespace UserNode
             bool enterGameSucceeded = false;
             do
             {
-                //유저의 보유머니를 API로 부터 불러온다.
+                //从API获取用户的持有金额
                 var balanceResponse = await callGetBalance(gameID);
                 if (balanceResponse == null || balanceResponse.code != 0 || balanceResponse.balance < 0.0M)
                 {
@@ -359,16 +359,16 @@ namespace UserNode
                     break;
                 }
                 _balance = Math.Round((double) balanceResponse.balance, 2);
-                _dbWriter.Tell(new PlayerBalanceUpdateItem(_userDBID, _balance));                                                            //유저머니갱신
+                _dbWriter.Tell(new PlayerBalanceUpdateItem(_userDBID, _balance));                                                            //用户金额更新
 
-                //이미 해당게임에 입장하였다면 처리를 진행하지 않는다.
+                //如果已经进入该游戏，则不进行处理
                 if (userConn.GameActor != null && userConn.GameID == gameID)
                 {
                     enterGameSucceeded = true;
                     break;
                 }
 
-                //같은 게임에 입장한 연결이 있는가를 검사한다.
+                //检查是否有进入同一游戏的连接。
                 UserConnection oldConn = null;
                 foreach (KeyValuePair<string, UserConnection> pair in _userConnections)
                 {
@@ -379,7 +379,7 @@ namespace UserNode
                     }
                 }
 
-                //원래의 연결을 비활성화시키고 새 연결에로 게임정보를 이관한다.
+                //禁用原有连接，并将游戏信息转移到新连接。
                 if (oldConn != null)
                 {
                     userConn.GameActor      = oldConn.GameActor;
@@ -429,7 +429,7 @@ namespace UserNode
             Sender.Tell(new SendMessageToUser(enterResponseMessage, _balance, 0.0));
         }
 
-        #region Callback API관련처리
+        #region Callback API相关处理
         public static string createDataSign(string key, string message)
         {
             var hmac    = System.Security.Cryptography.HMAC.Create("HMACSHA256");
@@ -625,11 +625,11 @@ namespace UserNode
         #endregion
         private async Task procSlotGameMsg(GITMessage message, UserConnection userConn)
         {
-            //게임에 입장한 상태가 아니라면
+            //如果不是进入游戏的状态
             if (userConn.GameActor == null || userConn.GameProvider == (int) GameProviders.NONE)
             {
                 Self.Tell(new CloseHttpSession(userConn.Token));
-                Sender.Tell("invalidaction"); //유저의 고의적인 액션    
+                Sender.Tell("invalidaction"); //用户的故意动作
                 return;
             }
             UserBonus       waitingBonus    = pickUserBonus(userConn.GameID);
@@ -650,7 +650,7 @@ namespace UserNode
         }
         private async Task procToUserMessage(ToUserMessage message, UserBonus askedBonus, GITMessage gameMessage, UserConnection userConn)
         {
-            //만일 게임결과처리와 관련된 메세지라면
+            //如果是与游戏结果处理相关的消息
             if (message is ToUserResultMessage)
             {
                 bool isSuccess = await processResultMessage(message as ToUserResultMessage);
@@ -709,7 +709,7 @@ namespace UserNode
             DateTime        nowReportTime     = DateTime.UtcNow;
             DateTime        nowDayReportTime  = new DateTime(nowReportTime.Year, nowReportTime.Month, nowReportTime.Day);
             GameProviders   providerID        = DBMonitorSnapshot.Instance.getGITGameProvider(resultMessage.GameID);
-            //보유머니를 검사한다.
+            //检查持有金额
 
             double betMoney  = Math.Round(resultMessage.BetMoney, 2);
             double winMoney  = Math.Round(resultMessage.WinMoney, 2);
@@ -811,11 +811,11 @@ namespace UserNode
                     return;
                 }
 
-                //다른 슬롯게임노드에 입장한다.
+                //进入其他老虎机游戏节点。
                 EnterGameRequest  requestMsg  = new EnterGameRequest(userConn.GameID, _agentDBID, _strUserID, Self, false);
                 EnterGameResponse responseMsg = await Context.System.ActorSelection(Constants.SlotGameRouterPath).Ask<EnterGameResponse>(requestMsg, Constants.RemoteTimeOut);
 
-                //게임입장성공
+                //游戏进入成功
                 if (responseMsg.Ack == 0)
                     userConn.GameActor = responseMsg.GameActor;
 
@@ -851,14 +851,14 @@ namespace UserNode
         }
 #endregion
 
-        //유저의 연결객체(tcp, websocket, http session)
+        //用户的连接对象(tcp, websocket, http session)
         public class UserConnection
         {
             public string       Token           { get; set; } //HTTP Session Token
-            public IActorRef    GameActor       { get; set; } //입장한 게임액터(null: 게임에 입장하지 않은 상태)
-            public int          GameID          { get; set; } //입장한 게임아이디(0: 게임에 입장하지 않은 상태)            
-            public int          GameProvider    { get; set; } //입장한 게임사
-            public DateTime     LastActiveTime  { get; set; } //유저가 마지막으로 서버와 접촉한 시간
+            public IActorRef    GameActor       { get; set; } //进入的游戏Actor(null: 未进入游戏的状态)
+            public int          GameID          { get; set; } //进入的游戏ID(0: 未进入游戏的状态)
+            public int          GameProvider    { get; set; } //进入的游戏公司
+            public DateTime     LastActiveTime  { get; set; } //用户最后一次与服务器接触的时间
 
             public UserConnection(string sessionToken)
             {

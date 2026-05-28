@@ -29,7 +29,7 @@ namespace CommNode
             {
                 _connectionHandler = registerHandler.ConnectionHandler;
 
-                //자료읽기를 시작한다.
+                //开始读取数据。
                 Self.Tell("read");
             });
 
@@ -90,7 +90,7 @@ namespace CommNode
             }
             catch (Exception ex)
             {
-                //웹소켓에서 자료를 읽는 과정에 례외발생
+                //在WebSocket读取数据的过程中发生异常
                 _log.Error("Error Reading from web socket " + ex.Message);
                 try
                 {
@@ -147,10 +147,10 @@ namespace CommNode
             }
             catch(Exception ex)
             {
-                //웹소켓에서 자료를 읽는 과정에 례외발생
+                //在WebSocket读取数据的过程中发生异常
                 _log.Error("AmaticWsClientConnection::onWriteData " + ex.ToString());
 
-                //웹소켓을 닫기한다.
+                //关闭WebSocket。
                 try
                 {
                     _wsClient.Dispose();

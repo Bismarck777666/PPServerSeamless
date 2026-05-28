@@ -14,12 +14,12 @@ namespace SlotGamesNode.GameLogics
 {
     class BaseBNGMultiFreeGame : BaseBNGSlotGame
     {
-        //프리스핀구매기능이 있을떄만 필요하다. 디비안의 모든 프리스핀들의 오드별 아이디어레이
+        //仅在具有免费旋转购买功能时需要。数据库中所有免费旋转的赔率ID数组
         protected SortedDictionary<double, int[]> [] _multiTotalFreeSpinOddIds   = null;
         protected int                             [] _multiFreeSpinTotalCounts   = null;
         protected int                             [] _multiMinFreeSpinTotalCounts = null;
-        protected double                          [] _multiTotalFreeSpinWinRates = null; //스핀디비안의 모든 프리스핀들의 배당평균값
-        protected double                          [] _multiMinFreeSpinWinRates   = null; //구매금액의 20% - 50%사이에 들어가는 모든 프리스핀들의 평균배당값
+        protected double                          [] _multiTotalFreeSpinWinRates = null; //旋转数据库中所有免费旋转的赔付平均值
+        protected double                          [] _multiMinFreeSpinWinRates   = null; //购买金额的20% - 50%之间的所有免费旋转的平均赔付值
 
 
         public virtual int FreeSpinTypeCount
@@ -169,7 +169,7 @@ namespace SlotGamesNode.GameLogics
                 BaseBNGSlotBetInfo oldBetInfo = null;
                 if (_dicUserBetInfos.TryGetValue(strUserID, out oldBetInfo))
                 {
-                    //만일 유저에게 남은 응답이 존재하는 경우
+                    //如果用户存在剩余响应的情况
                     if (oldBetInfo.HasRemainResponse || (action != BNGActionTypes.SPIN && action != BNGActionTypes.BUYSPIN))
                         return;
 
@@ -227,7 +227,7 @@ namespace SlotGamesNode.GameLogics
             try
             {
                 string strGlobalUserID = string.Format("{0}_{1}", agentID, strUserID);
-                //해당 유저의 베팅정보를 얻는다. 만일 베팅정보가 없다면(례외상황) 그대로 리턴한다.
+                //获取该用户的投注信息。如果没有投注信息（例外情况）则直接返回。
                 BaseBNGSlotBetInfo baseBetInfo = null;
                 if (!_dicUserBetInfos.TryGetValue(strGlobalUserID, out baseBetInfo))
                     return;
@@ -246,7 +246,7 @@ namespace SlotGamesNode.GameLogics
                 if (betInfo.HasRemainResponse)
                     betMoney = 0.0;
 
-                //만일 베팅머니가 유저의 밸런스보다 크다면 끝낸다.(2020.02.15)
+                //如果投注金额大于用户余额则结束。(2020.02.15)
                 if (userBalance.LT(betMoney, _epsilion) || betMoney < 0.0)
                 {
                     string strBalanceErrorResult = makeBalanceNotEnoughResult(strGlobalUserID, currency, userBalance, strToken, strRequestID, originData, betInfo);
@@ -257,23 +257,23 @@ namespace SlotGamesNode.GameLogics
                     return;
                 }
 
-                //결과를 생성한다.
+                //生成结果。
                 BaseBNGSlotSpinResult spinResult = await this.generateSpinResult(betInfo, strUserID, currency, agentID, userBonus, true, action);
 
-                //게임로그
+                //游戏日志
                 string strGameLog = spinResult.ResultString;
                 _dicUserResultInfos[strGlobalUserID] = spinResult;
 
-                //결과를 보내기전에 베팅정보를 디비에 보관한다.(2018.06.12)
+                //在发送结果前将投注信息存入数据库。(2018.06.12)
                 saveBetResultInfo(strGlobalUserID);
 
-                //생성된 게임결과를 유저에게 보낸다.
+                //将生成的游戏结果发送给用户。
                 sendGameResult(betInfo, spinResult, strGlobalUserID, currency, betMoney, spinResult.WinMoney, strGameLog, userBalance, strRequestID, strToken, originData,UserBetTypes.Normal);
 
                 _dicUserLastBackupBetInfos[strGlobalUserID]     = betInfoBytes;
                 _dicUserLastBackupResultInfos[strGlobalUserID]  = lastResult;
 
-                //게임결과를 디비에 보관한다.
+                //将游戏结果保存到数据库
                 saveResultToHistory(spinResult, agentID, strUserID, currency, userBalance, betMoney, spinResult.WinMoney, action);
             }
             catch (Exception ex)
@@ -293,13 +293,13 @@ namespace SlotGamesNode.GameLogics
                 BaseBNGActionToResponse nextResponse = betInfo.pullRemainResponse();
                 result = calculateResult(strGlobalUserID, currency, betInfo, nextResponse.Response, false, action);
 
-                //프리게임이 끝났는지를 검사한다.
+                //检查免费游戏是否结束。
                 if (!betInfo.HasRemainResponse)
                     betInfo.RemainReponses = null;
                 return result;
             }
 
-            //유저의 총 베팅액을 얻는다.
+            //获取用户的总投注额。
             float   totalBet     = betInfo.TotalBet;
             double  realBetMoney = totalBet;
             if (action == BNGActionTypes.BUYSPIN && SupportPurchaseFree)
@@ -307,7 +307,7 @@ namespace SlotGamesNode.GameLogics
 
             spinData = await selectRandomStop(agentID, userBonus, totalBet, betInfo, action);
 
-            //첫자료를 가지고 결과를 계산한다.
+            //用第一份数据计算结果。
             double totalWin = totalBet * spinData.SpinOdd;
 
             if (!usePayLimit || spinData.IsEvent || checkCompanyPayoutRate(agentID, realBetMoney, totalWin))
@@ -332,7 +332,7 @@ namespace SlotGamesNode.GameLogics
                 result   = calculateResult(strGlobalUserID, currency, betInfo, spinData.SpinStrings[0], true, action);
                 emptyWin = totalBet * spinData.SpinOdd;
 
-                //뒤에 응답자료가 또 있다면
+                //如果后面还有响应数据
                 if (spinData.SpinStrings.Count > 1)
                     betInfo.RemainReponses = buildResponseList(spinData.SpinStrings);
             }

@@ -12,7 +12,7 @@ namespace SlotGamesNode.GameLogics
 {
     class DaVinciTreasureGameLogic : BasePPSlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -133,7 +133,7 @@ namespace SlotGamesNode.GameLogics
                         responseMessage.Append(convertKeyValuesToString(dicParams));
                         result.NextAction = convertStringToActionType(dicParams["na"]);
 
-                        //히스토리보관 및 초기화
+                        //历史保管及初始化
                         if (_dicUserHistory.ContainsKey(strGlobalUserID) && _dicUserHistory[strGlobalUserID].log.Count > 0)
                         {
                             addActionHistory(strGlobalUserID, "doCollectBonus", convertKeyValuesToString(dicParams), index, counter);
@@ -198,7 +198,7 @@ namespace SlotGamesNode.GameLogics
                         string strResponse    = convertKeyValuesToString(dicParams);
                         responseMessage.Append(strResponse);
 
-                        //히스토리보관 및 초기화
+                        //历史保管及初始化
                         if (_dicUserHistory.ContainsKey(strGlobalUserID) && _dicUserHistory[strGlobalUserID].log.Count > 0)
                             addIndActionHistory(strGlobalUserID, "doGambleOption", strResponse, index, counter, gOption);
 
@@ -319,7 +319,7 @@ namespace SlotGamesNode.GameLogics
                         string strResponse      = convertKeyValuesToString(dicParams);
                         responseMessage.Append(strResponse);
 
-                        //히스토리보관 및 초기화
+                        //历史保管及初始化
                         if (_dicUserHistory.ContainsKey(strGlobalUserID) && _dicUserHistory[strGlobalUserID].log.Count > 0)
                             addActionHistory(strGlobalUserID, "doGamble", strResponse, index, counter);
 
@@ -428,7 +428,7 @@ namespace SlotGamesNode.GameLogics
                         string strResponse = convertKeyValuesToString(dicParams);
                         responseMessage.Append(strResponse);
 
-                        //히스토리보관 및 초기화
+                        //历史保管及初始化
                         if (_dicUserHistory.ContainsKey(strGlobalUserID) && _dicUserHistory[strGlobalUserID].log.Count > 0)
                         {
                             if (ind >= 0)

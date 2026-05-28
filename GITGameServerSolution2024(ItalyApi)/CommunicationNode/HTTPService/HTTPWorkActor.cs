@@ -96,7 +96,7 @@ namespace CommNode.HTTPService
                     return;
                 }
 
-                //게임아이디유효성검사
+                //游戏ID有效性检查
                 
                 int gameID = DBMonitorSnapshot.Instance.getGameIDFromString(request.GameType, request.GameIdentifier);
                 if (gameID == 0)
@@ -106,7 +106,7 @@ namespace CommNode.HTTPService
                     return;
                 }
                 
-                //유저액터에 게임입장요청을 보낸다.
+                //向用户角色发送游戏入场请求。
                 await sendEnterRequestToUserActor(request.UserID, gameID, strUserActorPath, request.SessionToken);
             }
             catch (Exception ex)
@@ -164,7 +164,7 @@ namespace CommNode.HTTPService
 
                 object response = await Context.System.ActorSelection(strUserActorPath).Ask<object>(new FromConnRevMessage(strSessionToken, gitMessage), TimeSpan.FromSeconds(10));
 
-                //실패(유저의 불법액션이므로 세션을 종료한다.)
+                //失败（由于用户的非法操作，终止会话。）
                 if(response is string)
                 {
                     await closeHttpSession(strUserID, strSessionToken, strUserActorPath);

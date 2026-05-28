@@ -107,23 +107,23 @@ namespace SlotGamesNode.GameLogics
         {
             _dicEnteredUsers[message.UserID] = message.UserActor;
 
-            //해당유저의 게임리력정보를 로드한다.(테이블게임들에서 사용함)
+            //加载该用户的游戏历史信息。(在桌面游戏中使用)
             bool isLoadSuccess = await loadUserHistoricalData(message.AgentID, message.UserID, message.NewEnter);
 
-            //리력정보를 읽는 과정에 Redis오유가 발생했다면 
+            //读取历史信息时发生Redis错误
             if (!isLoadSuccess)
             {
-                //입장실패메세지를 보낸다.
+                //发送进入失败消息
                 Sender.Tell(new EnterGameResponse((int)_gameID, Self, 1));
             }
             else
             {
                 EnterGameResponse response = new EnterGameResponse((int)_gameID, Self, 0);
-                //게임에 새로 진입할 경우
+                //如果新进入游戏
                 if (message.NewEnter)
                     await onUserEnterGame(message.AgentID, message.UserID);
 
-                Sender.Tell(response); //게임입장성공메세지를 보낸다.
+                Sender.Tell(response); //发送游戏入场成功消息。
             }
         }
 

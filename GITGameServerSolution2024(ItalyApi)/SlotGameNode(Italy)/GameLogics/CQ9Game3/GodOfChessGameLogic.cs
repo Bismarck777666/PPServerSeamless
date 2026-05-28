@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
    
     class GodOfChessGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             {
                 return "[{\"lang\":\"en\",\"name\":\"God Of Chess\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"Deus do Xadrez\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"갓 오브 체스\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"棋神\"}," +
                     "{\"lang\":\"th\",\"name\":\"เทพหมากรุก\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"棋圣\"}]";
             }

@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class SixGachaGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Six Gacha\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"식스 가차\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"六抽卡\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"六颗扭蛋\"}]";
             }
         }

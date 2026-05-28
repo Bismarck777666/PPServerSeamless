@@ -19,7 +19,7 @@ namespace PPPromoBot
             var logger = NLog.LogManager.GetCurrentClassLogger();
             logger.Info("Starting PPPromoBot Service...");
 
-            //먼저 설정정보를 검사한다.
+            //首先检查配置信息。
             Config clusterConfig = null;
             try
             {
@@ -38,7 +38,7 @@ namespace PPPromoBot
                 return false;
             }
 
-            //Redis 자료기지정보를 설정한다.
+            //设置Redis数据库信息。
             var redisConfig = slotGamesConfig.GetConfig("redis");
             if(redisConfig == null)
             {
@@ -48,10 +48,10 @@ namespace PPPromoBot
 
             setRedisInfo(redisConfig);
 
-            //액터시스템을 창조한다.
+            //创建参与者系统。
             _ppPromoBotActorSystem = PPPromoBotHostFactory.LaunchPPPromoBot(clusterConfig);
 
-            //부트스트랩액터를 창조한다.
+            //创建引导参与者。
             _bootstrapActor = _ppPromoBotActorSystem.ActorOf(BootstrapActor.Props(slotGamesConfig), "bootstrapper");
             _bootstrapActor.Tell("startService");
             return true;

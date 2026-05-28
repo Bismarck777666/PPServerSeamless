@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
    
     class UproarInHeavenGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -68,7 +68,7 @@ namespace SlotGamesNode.GameLogics
         {
             get
             {
-                return "[{\"lang\": \"ko\", \"name\": \"천궁의 소란\"}," +
+                return "[{\"lang\": \"ko\", \"name\": \"天宫之乱\"}," +
                         "{ \"lang\": \"en\", \"name\": \"UproarInHeaven\"}]";
             }
         }

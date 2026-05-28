@@ -75,7 +75,7 @@ namespace SlotGamesNode.Database
                 strKey                  = "CQ9RecommendList";
                 if (await RedisDatabase.RedisCache.KeyExistsAsync(strKey))
                 {
-                    //API게임때는 이용안함
+                    //API游戏时不用
                     //string recommendList    = await RedisDatabase.RedisCache.StringGetAsync(strKey);
                     //CQ9Config.Instance.RecommendList    = JsonConvert.DeserializeObject<CQ9RecommendItem>(recommendList);
                 }

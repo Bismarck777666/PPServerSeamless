@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class OrientalBeautyGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -72,7 +72,7 @@ namespace SlotGamesNode.GameLogics
             {
                 return "[{\"lang\":\"zh-cn\",\"name\":\"舞媚娘\"}," +
                     "{\"lang\":\"en\",\"name\":\"OrientalBeauty\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"오리엔탈 뷰티\"}]";
+                    "{\"lang\":\"ko\",\"name\":\"东方美容\"}]";
             }
         }
         #endregion

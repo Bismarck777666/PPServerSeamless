@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class Super5GameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -72,7 +72,7 @@ namespace SlotGamesNode.GameLogics
             {
                 return "[{\"lang\":\"zh-cn\",\"name\":\"五行\"}," +
                     "{\"lang\":\"en\",\"name\":\"Super5\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"오행\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"五行\"}," +
                     "{\"lang\":\"th\",\"name\":\"5 ธาตุสะท้านภพ\"}," +
                     "{\"lang\":\"vn\",\"name\":\"Super5\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"Super5\"}," +

@@ -11,7 +11,7 @@ namespace SlotGamesNode.GameLogics
 {
     public class FiveLuckyLionsGameLogic : BaseSelFreeHabanero1SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -74,14 +74,14 @@ namespace SlotGamesNode.GameLogics
             {
                 return new Dictionary<int, HabaneroLogSymbolIDName>()
                 {
-                    {1,   new HabaneroLogSymbolIDName{id = "idMan",         name = "Man"            } },    //와일드
-                    {2,   new HabaneroLogSymbolIDName{id = "idDrum",        name = "Drum"           } },    //스캐터
+                    {1,   new HabaneroLogSymbolIDName{id = "idMan",         name = "Man"            } },    //狂野
+                    {2,   new HabaneroLogSymbolIDName{id = "idDrum",        name = "Drum"           } },    //分散
 
-                    {3,   new HabaneroLogSymbolIDName{id = "idRedLion",     name = "RedLion"        } },    //빨강
-                    {4,   new HabaneroLogSymbolIDName{id = "idPinkLion",    name = "PinkLion"       } },    //핑크
-                    {5,   new HabaneroLogSymbolIDName{id = "idYellowLion",  name = "YellowLion"     } },    //노랑
-                    {6,   new HabaneroLogSymbolIDName{id = "idVioletLion",  name = "VioletLion"     } },    //보라
-                    {7,   new HabaneroLogSymbolIDName{id = "idGreenLion",   name = "GreenLion"      } },    //녹색
+                    {3,   new HabaneroLogSymbolIDName{id = "idRedLion",     name = "RedLion"        } },    //红色
+                    {4,   new HabaneroLogSymbolIDName{id = "idPinkLion",    name = "PinkLion"       } },    //粉色
+                    {5,   new HabaneroLogSymbolIDName{id = "idYellowLion",  name = "YellowLion"     } },    //黄色
+                    {6,   new HabaneroLogSymbolIDName{id = "idVioletLion",  name = "VioletLion"     } },    //紫色
+                    {7,   new HabaneroLogSymbolIDName{id = "idGreenLion",   name = "GreenLion"      } },    //绿色
                     {8,   new HabaneroLogSymbolIDName{id = "idAce",         name = "Ace"            } },    //A
                     {9,   new HabaneroLogSymbolIDName{id = "idKing",        name = "King"           } },    //K
                     {10,  new HabaneroLogSymbolIDName{id = "idQueen",       name = "Queen"          } },    //Q
@@ -214,7 +214,7 @@ namespace SlotGamesNode.GameLogics
                         JObject customSubEventItem = new JObject();
                         
                         JObject animationSymbol = new JObject();
-                        animationSymbol["si"]   = (int)responses.Action - 15;//(보너스1:18~보너스5:22)
+                        animationSymbol["si"]   = (int)responses.Action - 15;//(奖励1:18~奖励5:22)
                         animationSymbol["ri"]   = (int)videoSlotState["animatesymbollist"][i]["y"] + 1;
                         
                         customSubEventItem["type"] = "5LL";

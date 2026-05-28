@@ -111,7 +111,7 @@ namespace QueenApiNode.Database
                 catch
                 {
                 }
-                //기록에 실패한 항목들을 다시 넣는다.
+                //重新放入记录失败的条目。
                 Context.Parent.Tell(updateItems);
                 return -1;
             }

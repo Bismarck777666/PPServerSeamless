@@ -10,7 +10,7 @@ using Newtonsoft.Json;
 
 namespace GITProtocol
 {
-    //게임입장요청메세지
+    //游戏入场请求消息
     public class EnterGameRequest
     {
         public string    UserID     { get; private set; }
@@ -26,13 +26,13 @@ namespace GITProtocol
         }
     }
 
-    //게임입장응답메세지
+    //游戏入场响应消息
     public class EnterGameResponse
     {
         public IActorRef        GameActor   { get; private set; }
         public int              GameID      { get; private set; }
-        public int              Ack         { get; private set; }       //0: 입장성공, 기타: 입장실패
-        public List<GITMessage> SubMessages { get; private set; }       //게임입장후에 서버에서 유저에게 보낼 메세지들
+        public int              Ack         { get; private set; }       //0: 入场成功, 其他: 入场失败
+        public List<GITMessage> SubMessages { get; private set; }       //游戏入场后服务器发送给用户的消息列表
 
         public EnterGameResponse(int gameID, IActorRef gameActor, int ack)
         {
@@ -43,14 +43,14 @@ namespace GITProtocol
         }
     }
 
-    //게임탈퇴요청메세지
+    //游戏退出请求消息
     public class ExitGameRequest
     {
         public string       UserID              { get; private set; }
         public int          CompanyID           { get; private set; }
         public double       Balance             { get; private set; }
-        public bool         UserRequested       { get; private set; }       //유저요청에 의한것인가? 아님 게임서버노드의 shutdown으로 인한것인가?
-        public Currencies   Currency            { get; private set; }   //화페
+        public bool         UserRequested       { get; private set; }       //是否由用户请求？还是由游戏服务器节点关闭导致？
+        public Currencies   Currency            { get; private set; }   //货币
         public bool         IsNewServerReady    { get; private set; }
 
         public ExitGameRequest(string userID, int companyID, double balance, Currencies currency, bool userRequested, bool isNewServerReady)
@@ -64,7 +64,7 @@ namespace GITProtocol
         }
     }
 
-    //게임탙퇴응답메세지
+    //游戏退出响应消息
     public class ExitGameResponse
     {
 
@@ -79,16 +79,16 @@ namespace GITProtocol
         }
     }
 
-    //클라이언트에서 서버노드에로 보내는 메세지
+    //从客户端发送到服务器节点的消息
     public class FromUserMessage
     {
-        public string       UserID      { get; private set; }   //유저아이디
-        public int          CompanyID   { get; private set; }   //운영본사식별자
-        public GITMessage   Message     { get; private set; }   //클라에서 보낸 메세지
-        public UserBonus    Bonus       { get; private set; }   //유저에게 할당된 보너스정보
-        public double       UserBalance { get; private set; }   //유저잔고
-        public Currencies Currency    { get; private set; }   //화페
-        public IActorRef    UserActor   { get; private set; }   //유저액터
+        public string       UserID      { get; private set; }   //用户ID
+        public int          CompanyID   { get; private set; }   //运营公司标识符
+        public GITMessage   Message     { get; private set; }   //客户端发送的消息
+        public UserBonus    Bonus       { get; private set; }   //分配给用户的奖励信息
+        public double       UserBalance { get; private set; }   //用户余额
+        public Currencies Currency    { get; private set; }   //货币
+        public IActorRef    UserActor   { get; private set; }   //用户角色
         public FromUserMessage(string strUserID, int companyID, double userBalance, Currencies currency, IActorRef userActor, GITMessage message, UserBonus bonus)
         {
             this.UserID         = strUserID;

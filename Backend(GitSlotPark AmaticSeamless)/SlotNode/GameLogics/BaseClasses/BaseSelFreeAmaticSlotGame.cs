@@ -165,7 +165,7 @@ namespace SlotGamesNode.GameLogics
         }
         protected override async Task<BasePPSlotSpinData> selectRandomStop(int websiteID, double baseBet, BaseAmaticSlotBetInfo betInfo)
         {
-            //프리스핀구입을 먼저 처리한다.
+            //先处理购买免费旋转。
             if (this.SupportPurchaseFree && betInfo.isPurchase)
                 return await selectPurchaseFreeSpin(websiteID, betInfo, baseBet);
 
@@ -182,13 +182,13 @@ namespace SlotGamesNode.GameLogics
                 BaseAmaticActionToResponse nextResponse = betInfo.pullRemainResponse();
                 result = calculateResult(betInfo, strUserID, nextResponse.Response, false, userBalance, betMoney);
 
-                //프리게임이 끝났는지를 검사한다.
+                //检查免费游戏是否结束。
                 if (!betInfo.HasRemainResponse)
                     betInfo.RemainReponses = null;
                 return result;
             }
 
-            //유저의 총 베팅액을 얻는다.
+            //获取用户的总投注额。
             double pointUnit    = getPointUnit(betInfo);
             double totalBet     = betInfo.RelativeTotalBet * BettingButton[betInfo.PlayBet] * pointUnit;
             double realBetMoney = totalBet;
@@ -221,7 +221,7 @@ namespace SlotGamesNode.GameLogics
                 } while (false);
             }
 
-            //만일 프리스핀이 선택되였었다면 취소한다.
+            //如果选择了免费旋转则取消。
             double emptyWin = 0.0;
             if (SupportPurchaseFree && betInfo.isPurchase)
             {
@@ -234,7 +234,7 @@ namespace SlotGamesNode.GameLogics
                 else
                     betInfo.SpinData = null;
 
-                //뒤에 응답자료가 또 있다면
+                //如果后面还有响应数据
                 if (spinData.SpinStrings.Count > 1)
                     betInfo.RemainReponses = buildResponseList(spinData.SpinStrings);
             }
@@ -298,7 +298,7 @@ namespace SlotGamesNode.GameLogics
 
                         double selectedWin  = (startSpinData.StartOdd + freeSpinData.SpinOdd) * (betInfo.RelativeTotalBet * BettingButton[betInfo.PlayBet]);
                         double maxWin       = startSpinData.MaxOdd * (betInfo.RelativeTotalBet * BettingButton[betInfo.PlayBet]);
-                        //시작스핀시에 최대의 오드에 해당한 윈값을 더해주었으므로 그 차분을 보상해준다.
+                        //由于在开始旋转时已加上了对应最大赔率的值，因此补偿其差值。
                         sumUpWebsiteBetWin(websiteID, 0.0, selectedWin - maxWin);
 
                         AmaticPacket packet = new AmaticPacket(strSpinResponse, Cols, FreeCols);
@@ -346,7 +346,7 @@ namespace SlotGamesNode.GameLogics
                 BaseAmaticSlotBetInfo betInfo = new BaseAmaticSlotBetInfo();
                 var stopWatch = new Stopwatch();
                 stopWatch.Start();
-                //자연빵 1만개스핀 선택
+                //天然面包 1万个旋转选择
                 double sumOdd1 = 0.0;
                 for (int i = 0; i < 100000; i++)
                 {
@@ -368,7 +368,7 @@ namespace SlotGamesNode.GameLogics
 
                 stopWatch.Start();
 
-                //MoreBet 1만개
+                //MoreBet 1万个
                 double sumOdd2 = 0.0;
                 if (SupportMoreBet)
                 {
@@ -394,7 +394,7 @@ namespace SlotGamesNode.GameLogics
 
                 stopWatch.Start();
 
-                //Min Start1만개
+                //Min Start1万个
                 double sumOdd3 = 0.0;
                 if (SupportPurchaseFree)
                 {

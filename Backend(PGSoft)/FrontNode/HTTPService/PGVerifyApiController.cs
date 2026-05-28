@@ -46,25 +46,25 @@ namespace FrontNode.HTTPService
 
                 string base64Input = "gqFthKN0aWSgomNprDY1LjIxLjIzNi41M6JydK5OQ2VVSEphd3hkLmdpZqJhdKtoZWFsdGhjaGVja6FmkoKhddmPaHR0cHM6Ly9wdWJsaWMuem1jeXU5eXB5LmNvbS9oaXN0b3J5L3JlZGlyZWN0Lmh0bWw/b3Q9JnR5cGU9dmVyaWZ5JnNpZD0xOTM3MTQ0Mjg2OTE1MDkzNTA4JmdpZD0zMyZhdGs9NTQ4NDJUMTctNE9JRS1KQjYzLTlWT1YtNVZDOThHNktQU0Y1Jmw9ZW6hd9IAAAAygqF12YtodHRwczovL3B1YmxpYy54MXNrZi5jb20vaGlzdG9yeS9yZWRpcmVjdC5odG1sP290PSZ0eXBlPXZlcmlmeSZzaWQ9MTkzNzE0NDI4NjkxNTA5MzUwOCZnaWQ9MzMmYXRrPTU0ODQyVDE3LTRPSUUtSkI2My05Vk9WLTVWQzk4RzZLUFNGNSZsPWVuoXfSAAAAMg==";
 
-                //요거계속 빠꿔줘야해
+                //这个需要持续修改
                 string target = $"https://verify.pgf-emw0zz.com/history/redirect.html?ot=&type=verify&sid={sid}&gid={gid}&atk={atk}&l=en";
                 string source = "https://public.zmcyu9ypy.com/history/redirect.html?ot=&type=verify&sid=1937144286915093508&gid=33&atk=54842T17-4OIE-JB63-9VOV-5VC98G6KPSF5&l=en";
                 string source1 = "https://public.x1skf.com/history/redirect.html?ot=&type=verify&sid=1937144286915093508&gid=33&atk=54842T17-4OIE-JB63-9VOV-5VC98G6KPSF5&l=en";
 
                 byte[] bytes11 = Convert.FromBase64String(base64Input);
 
-                // MessagePack 디코딩
+                // MessagePack 解码
                 var unpacked = MessagePackSerializer.Deserialize<object>(bytes11);
 
-                // 링크 교체
+                // 链接替换
 
                 ReplaceLinkRecursive(unpacked, source, target);
                 ReplaceLinkRecursive(unpacked, source1, target);
 
-                // 다시 MessagePack으로 직렬화
+                // 再次序列化为 MessagePack
                 byte[] encodedBytes = MessagePackSerializer.Serialize(unpacked);
 
-                // Base64 인코딩
+                // Base64 编码
                 string base64Output = Convert.ToBase64String(encodedBytes);
 
                 string result = data.Replace(base64Input, base64Output);
@@ -84,10 +84,10 @@ namespace FrontNode.HTTPService
             {
                 if (str.StartsWith(targetPrefix))
                 {
-                    // 원하는 링크로 교체
-                    string fullNewUrl = newLink; // 필요시 파라미터 추가
-                    Console.WriteLine($"🔁 교체됨: {str} → {fullNewUrl}");
-                    // 여기서는 상위에서 재귀로 처리되므로 setter 불가 → Dictionary/List 내부에서만 처리 가능
+                    // 替换为期望的链接
+                    string fullNewUrl = newLink; // 必要时添加参数
+                    Console.WriteLine($"🔁 已替换: {str} → {fullNewUrl}");
+                    // 这里由上层递归处理，因此不能使用setter → 只能在Dictionary/List内部处理
                 }
             }
             else if (node is IList<object> list)

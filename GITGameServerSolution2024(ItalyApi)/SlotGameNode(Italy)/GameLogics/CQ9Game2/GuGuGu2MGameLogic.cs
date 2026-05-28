@@ -18,7 +18,7 @@ namespace SlotGamesNode.GameLogics
    
     class GuGuGu2MGameLogic : BaseSelFreeCQ9RespinSlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -185,11 +185,11 @@ namespace SlotGamesNode.GameLogics
         
         protected override async Task<BaseCQ9SlotSpinResult> generateSpinResult(BaseCQ9SlotBetInfo betInfo, string strUserID, int companyID, UserBonus userBonus, bool usePayLimit, bool isMustLose)
         {
-            //프리스핀이거나 일반스핀에서 릴이 선택되지 않았으면 일반방식으로 처리
+            //如果是免费旋转或普通旋转中未选择卷轴，则按普通方式处理
             if (betInfo.HasRemainResponse || betInfo.ReelPay == 0 || _dicUserResultInfos[strUserID] == null)
                 return await base.generateSpinResult(betInfo, strUserID, companyID, userBonus, usePayLimit, isMustLose);
 
-            //유저의 총 베팅액을 얻는다.
+            //获取用户的总投注额。
             float totalBet      = (float)betInfo.TotalBet;
             double realBetMoney = betInfo.ReelPay;
 
@@ -236,9 +236,9 @@ namespace SlotGamesNode.GameLogics
         }
 
         /// <summary>
-        /// 리스핀돌릴때 나올수있는 가능한 모든 조합을 배당별로 얻는 함수
+        /// 获取在重新旋转时可能出现的所有组合按赔率分配的函数
         /// </summary>
-        /// <param name="respinColNo">구구구2게임에서는 이값이 항상 2로 들어온다</param>
+        /// <param name="respinColNo">在九九九2游戏中，该值始终为2</param>
         /// <param name="lastResult"></param>
         /// <param name="betInfo"></param>
         /// <returns></returns>
@@ -281,11 +281,11 @@ namespace SlotGamesNode.GameLogics
                 while (row < 3);
 
                 int scatterCnt = findAllScatterCnt(reelStatus);
-                //일반스핀에 스캐터3이상
+                //普通旋转中散落3以上
                 if (scatterCnt >= 3 && !isFreeSpin)
                     continue;
 
-                //프리시작스핀에 스캐터3보다 적을때
+                //免费开始旋转中散落少于3时
                 if (scatterCnt < 3 && isFreeSpin)
                     continue;
 

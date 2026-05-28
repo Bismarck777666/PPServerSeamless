@@ -21,7 +21,7 @@ namespace SlotGamesNode.GameLogics
     }
     class MonkeyWarriorGameLogic : BasePPSlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -122,7 +122,7 @@ namespace SlotGamesNode.GameLogics
                             string[] strWinsMask = dicParams["wins_mask"].Split(new string[] { "," }, StringSplitOptions.RemoveEmptyEntries);
                             string[] strStatus   = dicParams["status"].Split(new string[] { "," }, StringSplitOptions.RemoveEmptyEntries);
 
-                            //0인 경우 필요없음
+                            //0的情况下不需要
                             if(ind != 0)
                             {
                                 string strTemp = strWins[0];
@@ -148,7 +148,7 @@ namespace SlotGamesNode.GameLogics
 
                         responseMessage.Append(strResponse);
 
-                        //히스토리보관 및 초기화
+                        //历史保管及初始化
                         if (_dicUserHistory.ContainsKey(strGlobalUserID) && _dicUserHistory[strGlobalUserID].log.Count > 0)
                             addActionHistory(strGlobalUserID, "doBonus", strResponse, index, counter);
 
@@ -227,7 +227,7 @@ namespace SlotGamesNode.GameLogics
                 BasePPSlotBetInfo oldBetInfo = null;
                 if (_dicUserBetInfos.TryGetValue(strGlobalUserID, out oldBetInfo))
                 {
-                    //만일 유저에게 남은 응답이 존재하는 경우
+                    //如果用户存在剩余响应的情况
                     if (oldBetInfo.HasRemainResponse)
                         return;
 

@@ -11,7 +11,7 @@ namespace SlotGamesNode.GameLogics
 {
     public class TheKoiGateGameLogic : BaseHabaneroSlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -60,13 +60,13 @@ namespace SlotGamesNode.GameLogics
             {
                 return new Dictionary<int, HabaneroLogSymbolIDName>()
                 {
-                    {1,   new HabaneroLogSymbolIDName{id = "idKoi",     name = "Koi"    } },    //금붕어
-                    {2,   new HabaneroLogSymbolIDName{id = "idDragon",  name = "Dragon" } },    //룡
-                    {3,   new HabaneroLogSymbolIDName{id = "idGate",    name = "Gate"   } },    //게이트
-                    {4,   new HabaneroLogSymbolIDName{id = "idFlower",  name = "Flower" } },    //꽃
-                    {5,   new HabaneroLogSymbolIDName{id = "idBamboo",  name = "Bamboo" } },    //참대
-                    {6,   new HabaneroLogSymbolIDName{id = "idLeaves",  name = "Leaves" } },    //나무잎
-                    {7,   new HabaneroLogSymbolIDName{id = "idWave",    name = "Wave"   } },    //파도
+                    {1,   new HabaneroLogSymbolIDName{id = "idKoi",     name = "Koi"    } },    //金鱼
+                    {2,   new HabaneroLogSymbolIDName{id = "idDragon",  name = "Dragon" } },    //龙
+                    {3,   new HabaneroLogSymbolIDName{id = "idGate",    name = "Gate"   } },    //门
+                    {4,   new HabaneroLogSymbolIDName{id = "idFlower",  name = "Flower" } },    //花
+                    {5,   new HabaneroLogSymbolIDName{id = "idBamboo",  name = "Bamboo" } },    //竹子
+                    {6,   new HabaneroLogSymbolIDName{id = "idLeaves",  name = "Leaves" } },    //树叶
+                    {7,   new HabaneroLogSymbolIDName{id = "idWave",    name = "Wave"   } },    //波浪
                     {8,   new HabaneroLogSymbolIDName{id = "idA",       name = "A"      } },    //A
                     {9,   new HabaneroLogSymbolIDName{id = "idK",       name = "K"      } },    //K
                     {10,  new HabaneroLogSymbolIDName{id = "idQ",       name = "Q"      } },    //Q

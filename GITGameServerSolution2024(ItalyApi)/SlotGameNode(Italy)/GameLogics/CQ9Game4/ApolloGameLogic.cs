@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class ApolloGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Apollo\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"아폴로\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"阿波罗\"}," +
                     "{\"lang\":\"th\",\"name\":\"อพอลโล\"}," +
                     "{\"lang\":\"id\",\"name\":\"Apollo\"}," +
                     "{\"lang\":\"vn\",\"name\":\"Apollo\"}," +

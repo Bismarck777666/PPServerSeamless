@@ -13,7 +13,7 @@ namespace SlotGamesNode.GameLogics
 {
     class MyeongRyangGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -67,7 +67,7 @@ namespace SlotGamesNode.GameLogics
         {
             get
             {
-                return "[{\"lang\": \"ko\", \"name\": \"명량\"}," +
+                return "[{\"lang\": \"ko\", \"name\": \"鸣梁\"}," +
                         "{ \"lang\": \"zh-cn\", \"name\": \"鸣梁\"}," +
                         "{ \"lang\": \"en\", \"name\": \"Myeong-ryang\"}," +
                         "{ \"lang\": \"th\", \"name\": \"ขุนพลคลื่นคำราม\"}," +

@@ -43,7 +43,7 @@ namespace SlotGamesNode.GameLogics
                 else
                     winMoney    += result.TotalWin;
 
-                //프리,텀블게임이 끝났는지를 검사한다.
+                //检查免费、翻滚游戏是否结束
                 if (!betInfo.HasRemainResponse)
                 {
                     betInfo.RemainReponses = null;

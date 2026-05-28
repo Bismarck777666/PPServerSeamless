@@ -100,7 +100,7 @@ namespace CommNode.HTTPService
                     return new HttpResponseMessage() { Content = new StringContent("unlogged") };
 
 
-                //로그인 메세지인경우 먼저 게임에 입장한다.
+                //如果是登录消息，则先进入游戏。
                 if (request.command == "login")
                 {
                     HTTPEnterGameResults enterGameResult = await HTTPServiceConfig.Instance.WorkerGroup.Ask<HTTPEnterGameResults>(new HTTPEnterGameRequest(strUserID, strToken, GAMETYPE.BNG, gameSymbol), TimeSpan.FromSeconds(10));

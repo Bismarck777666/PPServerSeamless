@@ -157,7 +157,7 @@ namespace CommNode.HTTPService
                 if (strUserID == null)
                     return new HttpResponseMessage() { Content = new StringContent(buildErrorResponse(), Encoding.UTF8, "application/json") };
 
-                //로그인 메세지인경우 먼저 게임에 입장한다.
+                //如果是登录消息，则先进入游戏。
                 if (strCommand == "connect")
                 {
                     HTTPEnterGameResults enterGameResult = await HTTPServiceConfig.Instance.WorkerGroup.Ask<HTTPEnterGameResults>(new HTTPEnterGameRequest(strUserID, strToken, GAMETYPE.PLAYSON, gameSymbol), TimeSpan.FromSeconds(10));

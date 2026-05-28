@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class FootballBootsGameLogic : BaseCQ9MultiBaseGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Football Boots\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"풋볼 부츠\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"足球 靴子\"}," +
                     "{\"lang\":\"th\",\"name\":\"ฟุตบอล รองเท้าบูท\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"Chuteiras de Futebol\"}," +
                     "{\"lang\":\"id\",\"name\":\"Sepak bola Sepatu\"}," +

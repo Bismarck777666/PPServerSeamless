@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class MahJongKingGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"MahJong King\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"마작 킹\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"麻将王\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"麻将王\"}]";
             }
         }

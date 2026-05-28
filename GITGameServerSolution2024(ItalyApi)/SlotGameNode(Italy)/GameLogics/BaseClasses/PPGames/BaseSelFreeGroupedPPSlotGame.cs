@@ -373,7 +373,7 @@ namespace SlotGamesNode.GameLogics
         }
         public override async Task<BasePPSlotSpinData> selectRandomStop(int agentID, UserBonus userBonus, double baseBet, bool isChangedLineCount, bool isMustLose, BasePPSlotBetInfo betInfo)
         {
-            //배당구간이벤트만을 처리한다.
+            //只处理派奖区间事件。
             if (userBonus != null && userBonus is UserRangeOddEventBonus)
             {
                 UserRangeOddEventBonus rangeOddBonus = userBonus as UserRangeOddEventBonus;
@@ -404,13 +404,13 @@ namespace SlotGamesNode.GameLogics
 
                 result = calculateResult(strGlobalUserID, betInfo, nextResponse.Response, false, action);
 
-                //프리게임이 끝났는지를 검사한다.
+                //检查免费游戏是否结束。
                 if (!betInfo.HasRemainResponse)
                     betInfo.RemainReponses = null;
                 return result;
             }
 
-            //유저의 총 베팅액을 얻는다.
+            //获取用户的总投注额。
             float totalBet      = betInfo.TotalBet;
             double realBetMoney = totalBet;
 
@@ -453,7 +453,7 @@ namespace SlotGamesNode.GameLogics
                 (betInfo as BasePPGroupedSlotBetInfo).undoSequence();
             }
 
-            //만일 프리스핀이 선택되였었다면 취소한다.
+            //如果选择了免费旋转则取消。
             spinData    = await selectEmptySpin(agentID, betInfo);
             result      = calculateResult(strGlobalUserID, betInfo, spinData.SpinStrings[0], true, action);
             if (spinData is BasePPSlotStartSpinData)
@@ -518,7 +518,7 @@ namespace SlotGamesNode.GameLogics
                 BasePPSlotBetInfo oldBetInfo = null;
                 if (_dicUserBetInfos.TryGetValue(strGlobalUserID, out oldBetInfo))
                 {
-                    //만일 유저에게 남은 응답이 존재하는 경우
+                    //如果用户存在剩余响应的情况
                     if (oldBetInfo.HasRemainResponse)
                         return;
 
@@ -551,7 +551,7 @@ namespace SlotGamesNode.GameLogics
                 _dicUserBetInfos["test1"] = betInfo;
                 var stopWatch = new Stopwatch();
                 stopWatch.Start();
-                //자연빵 1만개스핀 선택
+                //天然面包 1万个旋转选择
                 double sumOdd1 = 0.0;
                 for (int i = 0; i < 1000000; i++)
                 {
@@ -583,7 +583,7 @@ namespace SlotGamesNode.GameLogics
 
                 stopWatch.Start();
 
-                //Min Start1만개
+                //Min Start1万个
                 double sumOdd3 = 0.0;
                 if (SupportPurchaseFree)
                 {
@@ -600,7 +600,7 @@ namespace SlotGamesNode.GameLogics
                 long elapsed3 = stopWatch.ElapsedMilliseconds;
 
                 stopWatch.Start();
-                //이벤트각 구간마다 200
+                //事件各区间每200
                 for (int i = 0; i < 6; i++)
                 {
                     double[] rangeMins = new double[] { 10, 50, 100, 300, 500, 1000 };

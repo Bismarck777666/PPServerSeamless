@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class PharaohsGoldGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Pharaoh's Gold\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"파라오 골드\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"法老黄金\"}," +
                     "{\"lang\":\"th\",\"name\":\"ทองของฟาโรห์\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"Ouro do Faraó\"}," +
                     "{\"lang\":\"id\",\"name\":\"Emas Firaun\"}," +

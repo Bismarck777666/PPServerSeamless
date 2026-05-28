@@ -8,10 +8,10 @@ namespace GITProtocol
 {
     public enum Currencies
     {
-        USD = 0,    //미딸라
-        EUR = 1,    //유로
-        TND = 2,    //뛰니지 디나르
-        KRW = 3,    //원
+        USD = 0,    //美元
+        EUR = 1,    //欧元
+        TND = 2,    //突尼斯第纳尔
+        KRW = 3,    //韩元
     }
 
     public class CurrencyObj

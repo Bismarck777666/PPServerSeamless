@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
    
     class ApsarasGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             {
                 return "[{\"lang\":\"en\",\"name\":\"Apsaras\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"Apsaras\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"압사라스\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"阿普萨拉斯\"}," +
                     "{\"lang\":\"th\",\"name\":\"นางอัปสร\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"飞天\"}]";
             }

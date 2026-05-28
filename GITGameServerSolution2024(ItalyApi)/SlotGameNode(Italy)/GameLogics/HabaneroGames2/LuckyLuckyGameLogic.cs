@@ -11,7 +11,7 @@ namespace SlotGamesNode.GameLogics
 {
     public class LuckyLuckyGameLogic : BaseHabaneroSlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -84,7 +84,7 @@ namespace SlotGamesNode.GameLogics
                     {7,   new HabaneroLogSymbolIDName{id = "idLow1",        name = "Low1"           } },    
                     {8,   new HabaneroLogSymbolIDName{id = "idLow2",        name = "Low2"           } },    
                     {9,   new HabaneroLogSymbolIDName{id = "idLow3",        name = "Low3"           } },    
-                    {10,  new HabaneroLogSymbolIDName{id = "idLowCombined", name = "LowCombined"    } },    //애니
+                    {10,  new HabaneroLogSymbolIDName{id = "idLowCombined", name = "LowCombined"    } },    //安妮
                 };
             }
         }

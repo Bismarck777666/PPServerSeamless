@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class MagicWorldGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Magic World\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"매직 월드\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"魔法世界\"}," +
                     "{\"lang\":\"th\",\"name\":\"เมจิกเวิลด์\"}," +
                     "{\"lang\":\"id\",\"name\":\"Dunia Sihir\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"Mundo Mágico\"}," +

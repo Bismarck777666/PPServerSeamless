@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class FloatingMarketGameLogic : BaseCQ9TembleGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Floating Market\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"플로팅 마켓\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"水上市场\"}," +
                     "{\"lang\":\"th\",\"name\":\"ตลาดน้ำดำเนินโชค\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"这市集绝了\"}]";
             }

@@ -11,7 +11,7 @@ namespace SlotGamesNode.GameLogics
 {
     public class FireRoosterGameLogic : BaseHabanero1SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -67,14 +67,14 @@ namespace SlotGamesNode.GameLogics
             {
                 return new Dictionary<int, HabaneroLogSymbolIDName>()
                 {
-                    {1,   new HabaneroLogSymbolIDName{id = "idRooster",     name = "Rooster"        } },    //수탉
-                    {2,   new HabaneroLogSymbolIDName{id = "idCrown",       name = "Crown"          } },    //스캐터
+                    {1,   new HabaneroLogSymbolIDName{id = "idRooster",     name = "Rooster"        } },    //公鸡
+                    {2,   new HabaneroLogSymbolIDName{id = "idCrown",       name = "Crown"          } },    //分散
 
-                    {3,   new HabaneroLogSymbolIDName{id = "idDragon",      name = "Dragon"         } },    //드라곤
-                    {4,   new HabaneroLogSymbolIDName{id = "idCentipede",   name = "Centipede"      } },    //지네
-                    {5,   new HabaneroLogSymbolIDName{id = "idBlueGem",     name = "BlueGem"        } },    //청보석
-                    {6,   new HabaneroLogSymbolIDName{id = "idPurpleGem",   name = "PurpleGem"      } },    //홍보석
-                    {7,   new HabaneroLogSymbolIDName{id = "idGreenGem",    name = "GreenGem"       } },    //록보석
+                    {3,   new HabaneroLogSymbolIDName{id = "idDragon",      name = "Dragon"         } },    //龙
+                    {4,   new HabaneroLogSymbolIDName{id = "idCentipede",   name = "Centipede"      } },    //蜈蚣
+                    {5,   new HabaneroLogSymbolIDName{id = "idBlueGem",     name = "BlueGem"        } },    //蓝宝石
+                    {6,   new HabaneroLogSymbolIDName{id = "idPurpleGem",   name = "PurpleGem"      } },    //红宝石
+                    {7,   new HabaneroLogSymbolIDName{id = "idGreenGem",    name = "GreenGem"       } },    //绿宝石
                     {8,   new HabaneroLogSymbolIDName{id = "idAce",         name = "Ace"            } },    //A
                     {9,   new HabaneroLogSymbolIDName{id = "idKing",        name = "King"           } },    //K
                     {10,  new HabaneroLogSymbolIDName{id = "idQueen",       name = "Queen"          } },    //Q

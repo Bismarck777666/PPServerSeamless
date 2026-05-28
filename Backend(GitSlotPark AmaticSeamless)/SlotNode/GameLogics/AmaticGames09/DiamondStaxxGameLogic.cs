@@ -9,7 +9,7 @@ namespace SlotGamesNode.GameLogics
 {
     class DiamondStaxxGameLogic : BaseAmaticSlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected string ExtraString => "13fff13fff13fff13fff13fff";
         protected override string SymbolName
         {

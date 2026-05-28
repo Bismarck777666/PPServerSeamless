@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class RedPhoenixGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Red Phoenix\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"레드 포닉스\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"红色凤凰\"}," +
                     "{\"lang\":\"th\",\"name\":\"โฟนิกซ์สีแดง\"}," +
                     "{\"lang\":\"id\",\"name\":\"Red Phoenix\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"Fênix Vermelha\"}," +

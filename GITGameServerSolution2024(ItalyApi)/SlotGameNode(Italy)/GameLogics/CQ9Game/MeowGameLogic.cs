@@ -16,7 +16,7 @@ namespace SlotGamesNode.GameLogics
    
     class MeowGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -71,7 +71,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Meow\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"야옹\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"喵\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"再喵一个\"}]";
             }
         }

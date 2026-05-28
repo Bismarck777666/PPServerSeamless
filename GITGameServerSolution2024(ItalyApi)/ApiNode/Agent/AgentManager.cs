@@ -21,7 +21,7 @@ namespace QueenApiNode.Agent
         {
             Receive<CreateNewAgentActorMsg>(message =>
             {
-                //해당 유저액터가 이미 존재하는가를 검사한다.
+                //检查该用户Actor是否已经存在。
                 IActorRef agentActor = Context.Child(message.AgentID);
                 if (agentActor != ActorRefs.Nobody)
                 {

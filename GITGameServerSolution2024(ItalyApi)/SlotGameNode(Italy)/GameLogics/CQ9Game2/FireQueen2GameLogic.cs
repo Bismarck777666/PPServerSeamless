@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class FireQueen2GameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -78,7 +78,7 @@ namespace SlotGamesNode.GameLogics
                     "{\"lang\":\"ja\",\"name\":\"ファイアクイーン 2\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"Rainha do Fogo 2\"}," +
                     "{\"lang\":\"vn\",\"name\":\"NỮ HOÀNG LỬA 2\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"파이어 퀸 2\"}]";
+                    "{\"lang\":\"ko\",\"name\":\"火焰女王 2\"}]";
             }
         }
         #endregion

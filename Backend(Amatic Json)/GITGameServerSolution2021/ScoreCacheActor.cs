@@ -9,7 +9,7 @@ namespace CommNode
 {
     public class ScoreCacheActor : ReceiveActor
     {
-        private const int CACHE_SIZE = 90;     //대략적으로 90초정도의 스코로그자료를 가지고 있음
+        private const int CACHE_SIZE = 90;     //大约持有90秒左右的分数日志数据
         private Dictionary<string, SortedList<long, SetScoreData>>      _dicCacheData           = new Dictionary<string, SortedList<long, SetScoreData>>();
         private List<List<long>>                                        _listCachedScoreIDs     = new List<List<long>>();
         private Dictionary<long, string>                                _mapScoreIDToUserId     = new Dictionary<long, string>();
@@ -46,7 +46,7 @@ namespace CommNode
         {
             string strUserID = message.UserID;
 
-            //캐시자료 없음
+            //缓存资料无
             if (!_dicCacheData.ContainsKey(strUserID))
             {
                 Sender.Tell(null);
@@ -67,7 +67,7 @@ namespace CommNode
                 string strUserID = _mapScoreIDToUserId[scoreID];
                 _mapScoreIDToUserId.Remove(scoreID);
 
-                //캐시에서 삭제
+                //从缓存中删除
                 if (!_dicCacheData.ContainsKey(strUserID))
                     continue;
 

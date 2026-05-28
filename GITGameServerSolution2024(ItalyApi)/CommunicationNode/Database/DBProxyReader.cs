@@ -20,25 +20,25 @@ namespace CommNode.Database
 
         protected enum CurrencyEnum
         {
-            USD = 0,    //미딸라
-            EUR = 1,    //유로
-            TND = 2,    //뜌니지(디나르)
-            KRW = 3,    //코리아(원)
-            GMD = 4,    //감비아(다르실)
-            CNY = 5,    //중국(위엔)
-            JPY = 6,    //일본(엔)
-            MYR = 7,    //말레이시아(링기트)
-            THB = 8,    //타이(바흐트)
-            PHP = 9,    //필리핀(페소)
-            VND = 10,   //베트남(동)
-            INR = 11,   //인디아(루피)
-            IDR = 12,   //인도네시아(루피아)
-            PKR = 13,   //파키스탄(루피)
-            BDT = 14,   //방글라데슈(타카)
-            NPR = 15,   //네팔(루피)
-            UGX = 16,   //우간다(쉴링)
-            TRY = 17,   //터키(리라)
-            RUB = 18,   //러시아(루불)
+            USD = 0,    //美元
+            EUR = 1,    //欧元
+            TND = 2,    //突尼斯(第纳尔)
+            KRW = 3,    //韩国(元)
+            GMD = 4,    //冈比亚（达拉西）
+            CNY = 5,    //中国（元）
+            JPY = 6,    //日本（日元）
+            MYR = 7,    //马来西亚（林吉特）
+            THB = 8,    //泰国（泰铢）
+            PHP = 9,    //菲律宾（比索）
+            VND = 10,   //越南（盾）
+            INR = 11,   //印度（卢比）
+            IDR = 12,   //印度尼西亚（卢比）
+            PKR = 13,   //巴基斯坦（卢比）
+            BDT = 14,   //孟加拉国(塔卡)
+            NPR = 15,   //尼泊尔(卢比)
+            UGX = 16,   //乌干达(先令)
+            TRY = 17,   //土耳其(里拉)
+            RUB = 18,   //俄罗斯(卢布)
         }
 
         protected Dictionary<int, CurrencyObj> _currencyInfo = new Dictionary<int, CurrencyObj>()
@@ -68,7 +68,7 @@ namespace CommNode.Database
         {
             _strConnString = strConnString;
 
-            //유저로그인 요청을 처리한다.
+            //处理用户登录请求。
             ReceiveAsync<UserLoginRequest>                  (doLoginRequest);
             ReceiveAsync<GetUserBonusItems>                 (getUserBonusItems);
             ReceiveAsync<HTTPPPReplayListRequest>           (onRequestPPReplayList);
@@ -158,7 +158,7 @@ namespace CommNode.Database
             Sender.Tell(new ApiWithdrawResponse(2, 0.0, 0.0));
         }
 
-        #region 로그인부분
+        #region 登录部分
         private async Task doLoginRequest(UserLoginRequest request)
         {
             try
@@ -226,7 +226,7 @@ namespace CommNode.Database
         }
         #endregion
 
-        #region 보너스부분
+        #region 奖金部分
         private async Task getUserBonusItems(GetUserBonusItems request)
         {
             try
@@ -343,7 +343,7 @@ namespace CommNode.Database
             return dicReturn;
         }
         
-        #region PP부분
+        #region PP部分
         private async Task onRequestPPReplayList(HTTPPPReplayListRequest request)
         {
             try
@@ -660,7 +660,7 @@ namespace CommNode.Database
         }
         #endregion
 
-        #region BNG 부분
+        #region BNG 部分
         private async Task onBNGTransDetailRequest(BNGTransDetailRequest request)
         {
             try
@@ -802,7 +802,7 @@ namespace CommNode.Database
         }
         #endregion
 
-        #region CQ9 부분
+        #region CQ9 部分
         private async Task onCQ9RoundDetailRequest(CQ9RoundDetailRequest request)
         {
             try
@@ -929,7 +929,7 @@ namespace CommNode.Database
         }
         #endregion
 
-        #region Habanero 부분
+        #region Habanero 部分
         private async Task onHabaneroGetHistoryRequest(HabaneroGetHistoryRequest request)
         {
             List<string> items = new List<string>();
@@ -1002,7 +1002,7 @@ namespace CommNode.Database
         }
         #endregion
 
-        #region Playson 부분
+        #region Playson 部分
         private async Task onPlaysonTransDetailRequest(PlaysonTransDetailRequest request)
         {
             try

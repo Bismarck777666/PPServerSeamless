@@ -30,7 +30,7 @@ namespace SlotGamesNode.GameLogics
     public class BasePPSlotSpinData
     {
         public double       SpinOdd         { get; set; }
-        public int          SpinType        { get; set; } //0:일반스핀, 1:시작프리스핀 + 프리스핀, 100:시작프리스핀, 200, 201, 202...: 그에 상응한 프리스핀조합 
+        public int          SpinType        { get; set; } //0:普通旋转, 1:开始免费旋转 + 免费旋转, 100:开始免费旋转, 200, 201, 202...: 对应的免费旋转组合
         public List<string> SpinStrings     { get; set; }
         public bool         IsEvent         { get; set; }
 

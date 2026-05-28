@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class CrazyBundesligaGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -72,7 +72,7 @@ namespace SlotGamesNode.GameLogics
             {
                 return "[{\"lang\":\"zh-cn\",\"name\":\"疯狂德甲\"}," +
                     "{\"lang\":\"en\",\"name\":\"Crazy Bundesliga\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"핫 분데스리가\"}]";
+                    "{\"lang\":\"ko\",\"name\":\"热德甲联赛\"}]";
             }
         }
         #endregion

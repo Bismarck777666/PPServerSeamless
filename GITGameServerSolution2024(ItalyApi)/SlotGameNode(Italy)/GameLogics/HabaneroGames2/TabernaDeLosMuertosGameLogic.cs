@@ -11,7 +11,7 @@ namespace SlotGamesNode.GameLogics
 {
     public class TabernaDeLosMuertosGameLogic : BaseHabaneroSlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -60,16 +60,16 @@ namespace SlotGamesNode.GameLogics
             {
                 return new Dictionary<int, HabaneroLogSymbolIDName>()
                 {
-                    {1,   new HabaneroLogSymbolIDName{id = "idWild",    name = "Wild"       } },    //와일드
-                    {2,   new HabaneroLogSymbolIDName{id = "idScatter", name = "Scatter"    } },    //스캐터
-                    {3,   new HabaneroLogSymbolIDName{id = "idGun",     name = "Gun"        } },    //총
-                    {4,   new HabaneroLogSymbolIDName{id = "idTequila", name = "Tequila"    } },    //술병
-                    {5,   new HabaneroLogSymbolIDName{id = "idTaco",    name = "Taco"       } },    //튀기
-                    {6,   new HabaneroLogSymbolIDName{id = "idDice",    name = "Dice"       } },    //주사위
-                    {7,   new HabaneroLogSymbolIDName{id = "idHeart",   name = "Heart"      } },    //허트
-                    {8,   new HabaneroLogSymbolIDName{id = "idDiamond", name = "Diamond"    } },    //다이야
-                    {9,   new HabaneroLogSymbolIDName{id = "idClub",    name = "Club"       } },    //크로바
-                    {10,  new HabaneroLogSymbolIDName{id = "idSpade",   name = "Spade"      } },    //스페이드
+                    {1,   new HabaneroLogSymbolIDName{id = "idWild",    name = "Wild"       } },    //野牌
+                    {2,   new HabaneroLogSymbolIDName{id = "idScatter", name = "Scatter"    } },    //分散
+                    {3,   new HabaneroLogSymbolIDName{id = "idGun",     name = "Gun"        } },    //枪
+                    {4,   new HabaneroLogSymbolIDName{id = "idTequila", name = "Tequila"    } },    //酒瓶
+                    {5,   new HabaneroLogSymbolIDName{id = "idTaco",    name = "Taco"       } },    //炸鸡
+                    {6,   new HabaneroLogSymbolIDName{id = "idDice",    name = "Dice"       } },    //骰子
+                    {7,   new HabaneroLogSymbolIDName{id = "idHeart",   name = "Heart"      } },    //红心
+                    {8,   new HabaneroLogSymbolIDName{id = "idDiamond", name = "Diamond"    } },    //方块
+                    {9,   new HabaneroLogSymbolIDName{id = "idClub",    name = "Club"       } },    //梅花
+                    {10,  new HabaneroLogSymbolIDName{id = "idSpade",   name = "Spade"      } },    //黑桃
                 };
             }
         }

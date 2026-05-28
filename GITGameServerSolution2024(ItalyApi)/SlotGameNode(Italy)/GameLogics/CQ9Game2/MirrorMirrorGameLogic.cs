@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class MirrorMirrorGameLogic : BaseCQ9TembleGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -69,7 +69,7 @@ namespace SlotGamesNode.GameLogics
         {
             get
             {
-                return "[{\"lang\": \"ko\", \"name\": \"미러미러\"}," +
+                return "[{\"lang\": \"ko\", \"name\": \"镜子镜子\"}," +
                         "{ \"lang\": \"zh-cn\", \"name\": \"魔镜魔镜\"}," +
                         "{ \"lang\": \"en\", \"name\": \"Mirror Mirror\"}," +
                         "{ \"lang\": \"th\", \"name\": \"กระจกวิเศษ\"}," +

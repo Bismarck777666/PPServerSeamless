@@ -59,7 +59,7 @@ namespace SlotGamesNode.GameLogics
 
         protected Dictionary<int, double> _companyPayoutRates = new Dictionary<int, double>();
 
-        #region 베팅풀정보(각 company마다 있다)
+        #region 投注池信息（每个公司都有）
         protected Dictionary<int, double[]> _companyTotalBets = new Dictionary<int, double[]>();
         protected Dictionary<int, double[]> _companyTotalWins = new Dictionary<int, double[]>();
         #endregion
@@ -370,7 +370,7 @@ namespace SlotGamesNode.GameLogics
             }
         }
 
-        #region 메세지처리함수들
+        #region 消息处理函数
         protected override async Task onProcMessage(string strUserID, int companyID, GITMessage message, UserBonus bonus, double userBalance, Currencies currency, int agentMoneyMode)
         {
             if (message.MsgCode == (ushort)CSMSG_CODE.CS_PP_DOINIT)
@@ -1750,7 +1750,7 @@ namespace SlotGamesNode.GameLogics
             return false;
         }
 
-        #region 스핀자료처리부분
+        #region 旋转数据处理部分
         protected OddAndIDData selectOddAndIDFromProbsWithRange(SortedDictionary<double, int[]> oddProbs, int totalCount, double minOdd, double maxOdd)
         {
             int random = Pcg.Default.Next(0, totalCount);

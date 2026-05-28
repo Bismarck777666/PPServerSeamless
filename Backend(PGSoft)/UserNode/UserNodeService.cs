@@ -22,7 +22,7 @@ namespace UserNode
             var logger = NLog.LogManager.GetCurrentClassLogger();
             logger.Info("Starting Connect Service...");
 
-            //먼저 설정정보를 검사한다.
+            //首先检查配置信息。
             Config clusterConfig = null;
             try
             {
@@ -41,7 +41,7 @@ namespace UserNode
                 return false;
             }
 
-            //Redis 자료기지정보를 설정한다.
+            //设置Redis数据库信息。
             var redisConfig = userNodeConfig.GetConfig("redis");
             if (redisConfig == null)
             {

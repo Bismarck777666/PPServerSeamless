@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class FootballAllStarGameLogic : BaseCQ9MultiBaseGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Football All Star\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"풋볼 올 스타\"}]";
+                    "{\"lang\":\"ko\",\"name\":\"足球 全明星\"}]";
             }
         }
         protected override double[] MoreBetMultiples

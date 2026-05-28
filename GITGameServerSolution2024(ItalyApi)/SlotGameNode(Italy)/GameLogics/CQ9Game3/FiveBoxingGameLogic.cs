@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
    
     class FiveBoxingGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -69,7 +69,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"5 Boxing\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"5 복싱\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"5 拳击\"}," +
                     "{\"lang\":\"th\",\"name\":\"กังฟูแปลงร่าง\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"五形拳\"}]";
             }

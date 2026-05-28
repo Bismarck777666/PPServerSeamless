@@ -34,7 +34,7 @@ namespace SlotGamesNode.GameLogics
     }
     class CheekyEmperorGameLogic : BasePPSlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -108,7 +108,7 @@ namespace SlotGamesNode.GameLogics
                 CheekyEmperorResult spinResult = new CheekyEmperorResult();
                 Dictionary<string, string> dicParams = splitResponseToParams(strSpinResponse);
 
-                //모든 당첨값들을 현재의 베팅금액상태로 전환한다.
+                //将所有中奖值转换为当前的下注金额状态。
                 convertWinsByBet(dicParams, betInfo.TotalBet);
 
                 convertBetsByBet(dicParams, betInfo.BetPerLine, betInfo.TotalBet);
@@ -224,7 +224,7 @@ namespace SlotGamesNode.GameLogics
 
                         responseMessage.Append(strResponse);
 
-                        //히스토리보관 및 초기화
+                        //历史保管及初始化
                         if (_dicUserHistory.ContainsKey(strGlobalUserID) && _dicUserHistory[strGlobalUserID].log.Count > 0)
                             addActionHistory(strGlobalUserID, "doBonus", strResponse, index, counter);
 
@@ -330,7 +330,7 @@ namespace SlotGamesNode.GameLogics
                 BasePPSlotBetInfo oldBetInfo = null;
                 if (_dicUserBetInfos.TryGetValue(strGlobalUserID, out oldBetInfo))
                 {
-                    //만일 유저에게 남은 응답이 존재하는 경우
+                    //如果用户存在剩余响应的情况
                     if (oldBetInfo.HasRemainResponse)
                         return;
 

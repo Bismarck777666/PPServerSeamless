@@ -61,7 +61,7 @@ namespace UserNode
                 }
 
                 _logger.Info("Initializing database proxy...");
-                //자료기지련결부분을 초기화한다.
+                //初始化数据库连接部分。
                 _dbProxy = Context.System.ActorOf(DBProxy.Props(dbConfig), "dbproxy");
                 _dbProxy.Tell("initialize");               
             }

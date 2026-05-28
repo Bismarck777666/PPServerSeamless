@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
    
     class VampireKissGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             {
                 return "[{\"lang\":\"en\",\"name\":\"Vampire Kiss\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"Beijo do Vampiro\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"뱀파이어 키스\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"吸血鬼之吻\"}," +
                     "{\"lang\":\"th\",\"name\":\"รอยจูบผี\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"血の接吻\"}]";
             }

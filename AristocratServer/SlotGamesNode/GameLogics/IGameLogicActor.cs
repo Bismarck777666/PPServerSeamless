@@ -34,7 +34,7 @@ namespace SlotGamesNode.GameLogics
         protected static RealExtensions.Epsilon _epsilion       = new RealExtensions.Epsilon(0.001);
 
 
-        #region 보너스정보
+        #region 奖励信息
         protected GITMessage    _bonusSendMessage;
         protected double        _rewardedBonusMoney;
         protected bool          _isRewardedBonus;
@@ -79,7 +79,7 @@ namespace SlotGamesNode.GameLogics
                 _config = new GameConfig(97.0f, 0.0f, 1000.0f, false);
         }
         
-        #region 메세지처리 함수들
+        #region 消息处理函数
         private async Task onEnterUserMessage(EnterGameRequest message)
         {
             _dicEnteredUsers[message.UserID] = message.UserActor;
@@ -117,7 +117,7 @@ namespace SlotGamesNode.GameLogics
         }
         #endregion
 
-        #region 가상함수들
+        #region 虚函数
         protected virtual async Task onUserEnterGame(string strUserID)
         {
 

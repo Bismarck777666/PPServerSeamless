@@ -11,7 +11,7 @@ namespace SlotGamesNode.GameLogics
 {
     class WolfSagaGameLogic : BaseBNGSlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -111,7 +111,7 @@ namespace SlotGamesNode.GameLogics
                 BaseBNGSlotSpinResult spinResult = new BaseBNGSlotSpinResult();
                 dynamic resultContext = JsonConvert.DeserializeObject<dynamic>(strSpinResponse);
 
-                //모든 당첨값들을 현재의 베팅금액상태로 전환한다.
+                //将所有中奖值转换为当前的下注金额状态。
                 convertWinsByBet(resultContext, betInfo.TotalBet);
                 convertBetsByBet(resultContext, betInfo.BetPerLine, betInfo.TotalBet);
 

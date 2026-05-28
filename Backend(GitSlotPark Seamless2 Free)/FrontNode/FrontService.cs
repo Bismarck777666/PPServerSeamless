@@ -22,7 +22,7 @@ namespace FrontNode
             var logger = NLog.LogManager.GetCurrentClassLogger();
             logger.Info("Starting FrontNode Service...");
 
-            //먼저 설정정보를 검사한다.
+            //首先检查配置信息。
             Config clusterConfig = null;
             try
             {
@@ -41,7 +41,7 @@ namespace FrontNode
                 return false;
             }
 
-            //Redis 자료기지정보를 설정한다.
+            //设置Redis数据库信息。
             var redisConfig = frontConfig.GetConfig("redis");
             if (redisConfig == null)
             {
@@ -50,13 +50,13 @@ namespace FrontNode
             }
             setRedisInfo(redisConfig);
 
-            //먼저 설정파일에서 액터시스템의 이름을 얻는다.
+            //首先从配置文件中获取参与者系统的名称。
             string systemName = frontConfig.GetString("actorsystem", "gitigaming");
 
-            //액터시스템을 창조한다.
+            //创建参与者系统。
             _actorSystem =  ActorSystem.Create(systemName, clusterConfig);
 
-            //부트스트랩액터를 창조한다.
+            //创建引导参与者。
             _bootstrapActor = _actorSystem.ActorOf(BootstrapActor.Props(frontConfig), "bootstrapper");
             _bootstrapActor.Tell("startService");
             return true;

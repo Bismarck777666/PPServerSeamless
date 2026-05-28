@@ -130,7 +130,7 @@ namespace SlotGamesNode.GameLogics
     }
     public class CongoCashGameLogic : BasePPSlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -205,7 +205,7 @@ namespace SlotGamesNode.GameLogics
                 BasePPSlotBetInfo oldBetInfo = null;
                 if (_dicUserBetInfos.TryGetValue(strGlobalUserID, out oldBetInfo))
                 {
-                    //만일 유저에게 남은 응답이 존재하는 경우
+                    //如果用户存在剩余响应的情况
                     if (oldBetInfo.HasRemainResponse)
                         return;
 
@@ -334,19 +334,19 @@ namespace SlotGamesNode.GameLogics
                 action = nextResponse.ActionType;
                 result = calculateResult(strGlobalUserID, betInfo, nextResponse.Response, false, action);
 
-                //프리게임이 끝났는지를 검사한다.
+                //检查免费游戏是否结束。
                 if (!betInfo.HasRemainResponse)
                     betInfo.RemainReponses = null;
                 return result;
             }
 
-            //유저의 총 베팅액을 얻는다.
+            //获取用户的总投注额。
             float  totalBet     = betInfo.TotalBet;
             double realBetMoney = totalBet;
 
             spinData = await selectRandomStop(agentID, userBonus, totalBet, false, isMustLose, betInfo) as CongoCashSpinData;
 
-            //첫자료를 가지고 결과를 계산한다.
+            //用第一份数据计算结果。
             double totalWin = totalBet * spinData.SpinOdd;
             if (!usePayLimit || spinData.IsEvent || spinData.IsReservedSpin || checkCompanyPayoutRate(agentID, realBetMoney, totalWin))
             {
@@ -392,7 +392,7 @@ namespace SlotGamesNode.GameLogics
                 BasePPSlotSpinResult spinResult = new BasePPSlotSpinResult();
                 Dictionary<string, string> dicParams = splitResponseToParams(strSpinResponse);
 
-                //모든 당첨값들을 현재의 베팅금액상태로 전환한다.
+                //将所有中奖值转换为当前的下注金额状态。
                 convertWinsByBet(dicParams, betInfo.TotalBet);
 
                 convertBetsByBet(dicParams, betInfo.BetPerLine, betInfo.TotalBet);

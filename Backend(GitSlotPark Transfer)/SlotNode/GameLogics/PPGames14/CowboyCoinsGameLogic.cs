@@ -33,7 +33,7 @@ namespace SlotGamesNode.GameLogics
         protected double[]                          _multiTotalFreeSpinWinRates;
         protected double[]                          _multiMinFreeSpinWinRates;
 
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -334,7 +334,7 @@ namespace SlotGamesNode.GameLogics
                     _dicUserHistory[strGlobalUserID].bet = betMoney;
             }
 
-            //빈스핀인 경우에 히스토리보관을 여기서 진행한다.
+            //如果是免费旋转的情况，在此处进行历史记录保存。
             if (addSpinResultToHistory(strGlobalUserID, index, counter, strSpinResult, betInfo, spinResult))
             {
                 saveHistory(agentID, strUserID, index, counter, userBalance - betMoney, currency);

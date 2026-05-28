@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class ZeusMGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -72,7 +72,7 @@ namespace SlotGamesNode.GameLogics
                 return "[{\"lang\":\"zh-cn\",\"name\":\"直式宙斯\"}," +
                     "{\"lang\":\"en\",\"name\":\"Zeus M\"}," +
                     "{\"lang\":\"th\",\"name\":\"เทพซีอุส M\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"제우스 M\"}]";
+                    "{\"lang\":\"ko\",\"name\":\"宙斯 M\"}]";
             }
         }
         #endregion

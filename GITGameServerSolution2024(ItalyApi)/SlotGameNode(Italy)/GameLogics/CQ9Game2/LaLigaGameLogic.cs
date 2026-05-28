@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
    
     class LaLigaGameLogic : BaseSelFreeCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -77,7 +77,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"La Liga\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"라 리가\"}]";
+                    "{\"lang\":\"ko\",\"name\":\"西甲联赛\"}]";
             }
         }
         #endregion

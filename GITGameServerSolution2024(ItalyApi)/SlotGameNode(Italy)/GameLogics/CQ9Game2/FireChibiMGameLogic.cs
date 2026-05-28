@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class FireChibiMGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -72,7 +72,7 @@ namespace SlotGamesNode.GameLogics
             {
                 return "[{\"lang\":\"zh-cn\",\"name\":\"直式火烧连环船\"}," +
                     "{\"lang\":\"en\",\"name\":\"Fire Chibi M\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"파이어 치비 M\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"火焰奇比 M\"}," +
                     "{\"lang\":\"th\",\"name\":\"เปลวไฟแห่งความร่ำรวย M\"}," +
                     "{\"lang\":\"vn\",\"name\":\"Ngọn lửa Chibi M\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"Chibi de Fogo M\"}," +

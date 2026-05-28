@@ -78,7 +78,7 @@ namespace CommNode
             {
                 sendLoginResponse(loginResponse);
 
-                //로그인실패라면 련결을 끊는다.
+                //如果登录失败则断开连接。
                 _connection.Tell("disconnected");
             }
             else
@@ -89,7 +89,7 @@ namespace CommNode
                     bool isNotOnline = await RedisDatabase.RedisCache.HashSetAsync("onlineusers", strGlobalUserID, true, StackExchange.Redis.When.NotExists);
                     if (isNotOnline)
                     {
-                        //로그인성공이면 유저액터를 창조한다.
+                //如果登录成功则创建用户角色。
                         _userActor = await Context.System.ActorSelection("/user/userManager").Ask<IActorRef>(new CreateNewUserMessage(Self, _dbReaderProxy, _dbWriterProxy, _redisWriter, loginResponse, PlatformTypes.WEB));
                         _strUserID = loginResponse.UserID;
                         _connectionStatus = ConnectionStatus.Authenticated;
@@ -97,8 +97,8 @@ namespace CommNode
                         return;
                     }
 
-                    //이미 로그인되였다면 해당 유저의 패스를 얻는다.
-                    //만일 패스가 등록되지 않은 경우 최대 20초동안 대기한다. (40 * 0.5초)
+                    //如果已经登录则获取该用户的通行证。
+                    //如果通行证未注册，则最多等待20秒。 (40 * 0.5秒)
                     if (_redisWaitSchedulerCancel != null)
                         _redisWaitSchedulerCancel.Cancel();
 
@@ -122,7 +122,7 @@ namespace CommNode
                 {
                     _userActor          = await Context.System.ActorSelection((string)userPath).ResolveOne(TimeSpan.FromSeconds(5));
 
-                    //해당 연결을 유저액터에 등록한다.
+                    //将该连接注册到用户角色。
                     _userActor.Tell(new SocketConnectionAdded());
  
                     _strUserID          = strGlobalUserID;
@@ -139,7 +139,7 @@ namespace CommNode
 
                 _redisCheckRetryCount++;
 
-                //20초가 지났다면
+                //如果20秒已过
                 if (_redisCheckRetryCount < 40)
                     return;
             }
@@ -148,7 +148,7 @@ namespace CommNode
                 _log.Error("Exception has been occurred in AmaticWebsocketClientHandler::checkRegisteredUserPath {0}", ex);
             }
 
-            //로그인 실패로 확정한다.
+            //确认为登录失败。
             sendLoginResponse(new UserLoginResponse(LoginResult.UNKNOWNERROR));
             _connection.Tell("disconnected");
 
@@ -222,7 +222,7 @@ namespace CommNode
             }
             else if (_connectionStatus == ConnectionStatus.Authenticating)
             {
-                //유저액토를 찾을동안에는 그어떤 메시지도 처리할수없다
+                //在找到用户角色期间无法处理任何消息
                 _log.Warning("Unauthorized Message has been received from {0}", _remoteAddress);
                 _connection.Tell("disconnected");
             }
@@ -250,7 +250,7 @@ namespace CommNode
                 int agentDbId           = Convert.ToInt32(strGlobalUserID.Split(new string[] { "_" }, StringSplitOptions.RemoveEmptyEntries)[0]);
                 string strUserId        = strGlobalUserID.Split(new string[] { "_" }, StringSplitOptions.RemoveEmptyEntries)[1];
 
-                //련결의 상태를 인증대기 상태로 전환한다.
+                //将连接的状态转换为等待认证状态。
                 _connectionStatus = ConnectionStatus.Authenticating;
                 _dbReaderProxy.Tell(new UserLoginRequest(agentDbId, strUserId.Trim(), strPassword, (_remoteAddress as IPEndPoint).Address.ToString(), PlatformTypes.WEB));
             }
@@ -312,17 +312,17 @@ namespace CommNode
 
                     if(messageParams.Length == 4)
                     {
-                        message.Append(Convert.ToInt32(messageParams[1]));  //라인
-                        message.Append(Convert.ToInt32(messageParams[2]));  //벳스텝
-                        message.Append(Convert.ToInt32(-1));                //구매스텝(0,1,2)
-                        message.Append(Convert.ToInt32(-1));                //앤티스텝(일반 : -1, 앤티 : 0)
+                        message.Append(Convert.ToInt32(messageParams[1]));  //行
+                        message.Append(Convert.ToInt32(messageParams[2]));  //步骤
+                        message.Append(Convert.ToInt32(-1));                //购买步骤(0,1,2)
+                        message.Append(Convert.ToInt32(-1));                //反步骤(普通 : -1, 反 : 0)
                     }
                     else if(messageParams.Length == 5)
                     {
-                        message.Append(Convert.ToInt32(messageParams[1]));  //라인
-                        message.Append(Convert.ToInt32(messageParams[2]));  //벳스텝
-                        message.Append(Convert.ToInt32(-1));                //구매스텝(0,1,2)
-                        message.Append(Convert.ToInt32(messageParams[4]));  //앤티스텝(일반 : -1, 앤티 : 0)
+                        message.Append(Convert.ToInt32(messageParams[1]));  //行
+                        message.Append(Convert.ToInt32(messageParams[2]));  //步骤
+                        message.Append(Convert.ToInt32(-1));                //购买步骤(0,1,2)
+                        message.Append(Convert.ToInt32(messageParams[4]));  //反步骤(普通 : -1, 反 : 0)
                     }
 
                     _userActor.Tell(new FromConnRevMessage(Self, message));
@@ -338,17 +338,17 @@ namespace CommNode
 
                     if (messageParams.Length == 4)
                     {
-                        message.Append(Convert.ToInt32(messageParams[1]));  //라인
-                        message.Append(Convert.ToInt32(messageParams[2]));  //벳스텝
-                        message.Append(Convert.ToInt32(-1));                //구매스텝(0,1,2)
-                        message.Append(Convert.ToInt32(-1));                //앤티스텝(일반 : -1, 앤티 : 0)
+                        message.Append(Convert.ToInt32(messageParams[1]));  //行
+                        message.Append(Convert.ToInt32(messageParams[2]));  //步骤
+                        message.Append(Convert.ToInt32(-1));                //购买步骤(0,1,2)
+                        message.Append(Convert.ToInt32(-1));                //反步骤(普通 : -1, 反 : 0)
                     }
                     _userActor.Tell(new FromConnRevMessage(Self, message));
                 }
                 else if (messageParams[0] == "A/u257")
                 {
                     GITMessage message = new GITMessage((ushort)CSMSG_CODE.CS_AMATIC_DOGAMBLEPICK);
-                    message.Append(Convert.ToInt32(messageParams[1]));  //픽크(1:Red, 2:Balck, 3:Diamond, 4:Heart, 5:Crob, 6:Spade)
+                    message.Append(Convert.ToInt32(messageParams[1]));  //花色(1:Red, 2:Balck, 3:Diamond, 4:Heart, 5:Crob, 6:Spade)
                     
                     _userActor.Tell(new FromConnRevMessage(Self, message));
                 }
@@ -358,33 +358,33 @@ namespace CommNode
 
                     _userActor.Tell(new FromConnRevMessage(Self, message));
                 }
-                else if (messageParams[0] == "A/u2510") //휠돌리기
+                else if (messageParams[0] == "A/u2510") //转轮
                 {
                     GITMessage message = new GITMessage((ushort)CSMSG_CODE.CS_AMATIC_DOSPIN);
 
                     if (messageParams.Length == 4)
                     {
-                        message.Append(Convert.ToInt32(messageParams[1]));  //라인
-                        message.Append(Convert.ToInt32(messageParams[2]));  //벳스텝
+                        message.Append(Convert.ToInt32(messageParams[1]));  //行
+                        message.Append(Convert.ToInt32(messageParams[2]));  //步骤
                         message.Append(Convert.ToInt32(-1));                
                         message.Append(Convert.ToInt32(-1));                
                     }
                     _userActor.Tell(new FromConnRevMessage(Self, message));
                 }
-                else if (messageParams[0] == "A/u2517") //옵션선택
+                else if (messageParams[0] == "A/u2517") //选项选择
                 {
                     GITMessage message = new GITMessage((ushort)CSMSG_CODE.CS_AMATIC_FSOPTION);
-                    message.Append(Convert.ToInt32(messageParams[1]));  //옵션인덱스
+                    message.Append(Convert.ToInt32(messageParams[1]));  //选项索引
                     _userActor.Tell(new FromConnRevMessage(Self, message));
                 }
-                else if (messageParams[0] == "A/u2531") //리스핀
+                else if (messageParams[0] == "A/u2531") //重新旋转
                 {
                     GITMessage message = new GITMessage((ushort)CSMSG_CODE.CS_AMATIC_DOSPIN);
 
                     if (messageParams.Length == 4)
                     {
-                        message.Append(Convert.ToInt32(messageParams[1]));  //라인
-                        message.Append(Convert.ToInt32(messageParams[2]));  //벳스텝
+                        message.Append(Convert.ToInt32(messageParams[1]));  //行
+                        message.Append(Convert.ToInt32(messageParams[2]));  //步骤
                         message.Append(Convert.ToInt32(-1));
                         message.Append(Convert.ToInt32(-1));
                     }
@@ -396,10 +396,10 @@ namespace CommNode
 
                     if (messageParams.Length == 5)
                     {
-                        message.Append(Convert.ToInt32(messageParams[1]));  //라인
-                        message.Append(Convert.ToInt32(messageParams[2]));  //벳스텝
-                        message.Append(Convert.ToInt32(messageParams[4]));  //구매스텝(0,1,2)
-                        message.Append(Convert.ToInt32(-1));                //앤티스텝(일반 : -1, 앤티 : 0)
+                        message.Append(Convert.ToInt32(messageParams[1]));  //行
+                        message.Append(Convert.ToInt32(messageParams[2]));  //步骤
+                        message.Append(Convert.ToInt32(messageParams[4]));  //购买步骤(0,1,2)
+                        message.Append(Convert.ToInt32(-1));                //反步骤(普通 : -1, 反 : 0)
                     }
 
                     _userActor.Tell(new FromConnRevMessage(Self, message));

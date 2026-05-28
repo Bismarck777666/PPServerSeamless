@@ -225,7 +225,7 @@ namespace CommNode.Database
                 {
                     await connection.OpenAsync();
 
-                    //강퇴유저설정을 감시한다.
+                    //监视强退用户设置。
                     string      strQuery = "SELECT * FROM quitusers WHERE id > @id ORDER BY id";
                     SqlCommand  command = new SqlCommand(strQuery, connection);
                     command.Parameters.AddWithValue("@id", DBMonitorSnapshot.Instance.LastQuitUserID);
@@ -241,7 +241,7 @@ namespace CommNode.Database
                         }
                     }
 
-                    //게임설정을 감시한다.
+                    //监视游戏设置。
                     strQuery = "SELECT gameid, gametype, openclose, gamesymbol, updatetime FROM gameconfigs WHERE updatetime > @updatetime ORDER BY updatetime";
                     command = new SqlCommand(strQuery, connection);
                     command.Parameters.AddWithValue("@updatetime", DBMonitorSnapshot.Instance.GameConfigUpdateTime);
@@ -266,7 +266,7 @@ namespace CommNode.Database
                         }
                     }
 
-                    //userrangeevents표를 감시한다.
+                    //监视userrangeevents表。
                     strQuery = "SELECT * FROM userrangeevents WHERE id > @id and processed=0 ORDER BY id";
                     command = new SqlCommand(strQuery, connection);
                     command.Parameters.AddWithValue("@id", DBMonitorSnapshot.Instance.LastRangeEventPlayerID);

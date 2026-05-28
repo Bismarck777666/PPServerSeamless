@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class EcstaticCircusGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Ecstatic Circus\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"엑스타틱 서커스\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"狂喜 马戏团\"}," +
                     "{\"lang\":\"th\",\"name\":\"สุขสันต์ละครสัตว์\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"Circo em êxtase\"}," +
                     "{\"lang\":\"id\",\"name\":\"Sirkus Ekstatik\"}," +

@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
    
     class GodOfWarGameLogic : BaseSelFreeCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -76,7 +76,7 @@ namespace SlotGamesNode.GameLogics
         {
             get
             {
-                return "[{\"lang\":\"en\",\"name\":\"God of War\"},{\"lang\":\"es\",\"name\":\"Dios de la Guerra\"},{\"lang\":\"id\",\"name\":\"Dewa Perang\"},{\"lang\":\"ja\",\"name\":\"ゴッド・オブ・ウォー\"},{\"lang\":\"ko\",\"name\":\"갓 오브 워\"},{\"lang\":\"th\",\"name\":\"สงครามเทพ\"},{\"lang\":\"vn\",\"name\":\"Thần chiến tranh\"},{\"lang\":\"zh-cn\",\"name\":\"武圣\"}]";
+                return "[{\"lang\":\"en\",\"name\":\"God of War\"},{\"lang\":\"es\",\"name\":\"Dios de la Guerra\"},{\"lang\":\"id\",\"name\":\"Dewa Perang\"},{\"lang\":\"ja\",\"name\":\"ゴッド・オブ・ウォー\"},{\"lang\":\"ko\",\"name\":\"战神\"},{\"lang\":\"th\",\"name\":\"สงครามเทพ\"},{\"lang\":\"vn\",\"name\":\"Thần chiến tranh\"},{\"lang\":\"zh-cn\",\"name\":\"武圣\"}]";
             }
         }
 

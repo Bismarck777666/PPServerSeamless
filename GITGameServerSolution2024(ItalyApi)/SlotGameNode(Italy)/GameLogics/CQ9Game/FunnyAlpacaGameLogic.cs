@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class FunnyAlpacaGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -71,7 +71,7 @@ namespace SlotGamesNode.GameLogics
             {
                 return "[{\"lang\": \"zh-cn\",\"name\": \"火草泥马\"}," +
                     "{\"lang\": \"en\",\"name\": \"Funny Alpaca\"}," +
-                    "{\"lang\": \"ko\",\"name\": \"퍼니 알파카\"}," +
+                    "{\"lang\": \"ko\",\"name\": \"趣味羊驼\"}," +
                     "{\"lang\": \"th\",\"name\": \"อัลปากาสุขสันต์\"}," +
                     "{\"lang\": \"vn\",\"name\": \"LẠC ĐÀ NGỘ NGHĨNH\"}," +
                     "{\"lang\": \"id\",\"name\": \"FUNNY ALPACA\"}]";

@@ -11,7 +11,7 @@ namespace SlotGamesNode.GameLogics
 {
     public class TaikoBeatsGameLogic : BaseHabaneroSlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -67,7 +67,7 @@ namespace SlotGamesNode.GameLogics
             {
                 return new Dictionary<int, HabaneroLogSymbolIDName>()
                 {
-                    {1,   new HabaneroLogSymbolIDName{id = "idWild",    name = "Wild"       } },    //와일드
+                    {1,   new HabaneroLogSymbolIDName{id = "idWild",    name = "Wild"       } },    //野牌
                     {2,   new HabaneroLogSymbolIDName{id = "idScatter", name = "Scatter"    } },    
                     {3,   new HabaneroLogSymbolIDName{id = "idDrum",    name = "Drum"       } },    
                     {4,   new HabaneroLogSymbolIDName{id = "idFan",     name = "Fan"        } },    
@@ -79,8 +79,8 @@ namespace SlotGamesNode.GameLogics
                     {9,   new HabaneroLogSymbolIDName{id = "idQ",       name = "Q"          } },    
                     {10,  new HabaneroLogSymbolIDName{id = "idJ",       name = "J"          } },
 
-                    {11,  new HabaneroLogSymbolIDName{id = "idWildX2",  name = "WildX2"     } },    //와일드X2
-                    {12,  new HabaneroLogSymbolIDName{id = "idWildX3",  name = "WildX3"     } },    //와일드X3
+                    {11,  new HabaneroLogSymbolIDName{id = "idWildX2",  name = "WildX2"     } },    //野性X2
+                    {12,  new HabaneroLogSymbolIDName{id = "idWildX3",  name = "WildX3"     } },    //野性X3
                 };
             }
         }
