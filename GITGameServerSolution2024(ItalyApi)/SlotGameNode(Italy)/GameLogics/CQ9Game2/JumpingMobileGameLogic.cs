@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class JumpingMobileGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -72,7 +72,7 @@ namespace SlotGamesNode.GameLogics
             {
                 return "[{\"lang\":\"zh-cn\",\"name\":\"单手跳高高\"}," +
                     "{\"lang\":\"en\",\"name\":\"Jumping Mobile\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"점핑 모바일\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"跳跃移动\"}," +
                     "{\"lang\":\"th\",\"name\":\"กระโดดสูง M\"}," +
                     "{\"lang\":\"vn\",\"name\":\"Jumping Mobile\"}," +
                     "{\"lang\":\"es\",\"name\":\"Salto Móvil\"}," +

@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class GoodFortuneGameLogic : BaseCQ9MultiBaseGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Good Fortune\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"굿 포춘\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"好运气\"}," +
                     "{\"lang\":\"th\",\"name\":\"โชคดีมีชัย\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"Boa Sorte\"}," +
                     "{\"lang\":\"es\",\"name\":\"Buena fortuna\"}," +

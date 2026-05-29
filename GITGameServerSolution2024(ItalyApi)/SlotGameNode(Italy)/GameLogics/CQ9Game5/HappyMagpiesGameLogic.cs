@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class HappyMagpiesGameLogic : BaseSelFreeCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -78,7 +78,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Happy Magpies\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"행복한 까치\"}]";
+                    "{\"lang\":\"ko\",\"name\":\"幸福的喜鹊\"}]";
             }
         }
         #endregion

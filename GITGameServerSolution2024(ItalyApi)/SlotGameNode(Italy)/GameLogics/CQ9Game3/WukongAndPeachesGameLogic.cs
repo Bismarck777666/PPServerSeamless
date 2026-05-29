@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
    
     class WukongAndPeachesGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             {
                 return "[{\"lang\":\"en\",\"name\":\"Wukong & Peaches\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"Wukong e Pêssegos\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"우공과 피치\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"雨果与皮奇\"}," +
                     "{\"lang\":\"th\",\"name\":\"หงอคงและลูกท้อ\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"悟空偷桃\"}]";
             }

@@ -21,7 +21,7 @@ namespace SlotGamesNode.GameLogics
     }
     class TheWildMachineGameLogic : BaseSelFreePPSlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -127,7 +127,7 @@ namespace SlotGamesNode.GameLogics
                 BasePPSlotBetInfo oldBetInfo = null;
                 if (_dicUserBetInfos.TryGetValue(strGlobalUserID, out oldBetInfo))
                 {
-                    //만일 유저에게 남은 응답이 존재하는 경우
+                    //如果用户存在剩余响应的情况
                     if (oldBetInfo.HasRemainResponse)
                         return;
 
@@ -225,7 +225,7 @@ namespace SlotGamesNode.GameLogics
                                     double selectedWin = (startSpinData.StartOdd + freeSpinData.SpinOdd) * betInfo.TotalBet;
                                     double maxWin = startSpinData.MaxOdd * betInfo.TotalBet;
 
-                                    //시작스핀시에 최대의 오드에 해당한 윈값을 더해주었으므로 그 차분을 보상해준다.
+                                    //开始旋转时已加上最大赔率对应的赢值，因此补偿该差值。
                                     if (!startSpinData.IsEvent && !isAffiliate)
                                         sumUpWebsiteBetWin(agentID, 0.0, selectedWin - maxWin);
                                     else if (maxWin > selectedWin)
@@ -252,7 +252,7 @@ namespace SlotGamesNode.GameLogics
 
                         responseMessage.Append(strResponse);
 
-                        //히스토리보관 및 초기화
+                        //历史保管及初始化
                         if (_dicUserHistory.ContainsKey(strGlobalUserID) && _dicUserHistory[strGlobalUserID].log.Count > 0)
                             addActionHistory(strGlobalUserID, "doBonus", strResponse, index, counter);
 

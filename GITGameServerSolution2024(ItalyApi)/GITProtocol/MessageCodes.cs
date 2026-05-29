@@ -534,9 +534,9 @@ namespace GITProtocol
         WolfLand                    = 4082,
 
 
-        BookOfGoldChoice            = 4052,     //옵션게임
-        CloverRiches                = 4053,     //옵션게임
-        RomeCaesarsGlory            = 4050,     //프로그레스스트레인지
+        BookOfGoldChoice            = 4052,     //选项游戏
+        CloverRiches                = 4053,     //选项游戏
+        RomeCaesarsGlory            = 4050,     //进度条范围
         #endregion
     }
 
@@ -545,7 +545,7 @@ namespace GITProtocol
         CS_HEARTBEAT        = 0,
         CS_LOGIN            = 1,
         CS_ENTERGAME        = 18,
-        CS_FORCEOUTUSER     = 26,   //유저강퇴
+        CS_FORCEOUTUSER     = 26,   //用户强制踢出
 
 
 

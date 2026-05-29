@@ -41,7 +41,7 @@ namespace QueenApiNode
                 Context.System.ActorOf(Akka.Actor.Props.Empty.WithRouter(FromConfig.Instance), "userServers");
                 Context.System.ActorOf(Akka.Actor.Props.Empty.WithRouter(FromConfig.Instance), "frontAuthWorkers");
                 
-                //웹요청서비스
+                //网络请求服务
                 Config httpConfig = _configuration.GetConfig("http");
                 if (httpConfig != null)
                 {
@@ -86,7 +86,7 @@ namespace QueenApiNode
                     return;
                 }
 
-                //첫단계로 자료기지련결부분을 초기화한다.
+                //第一步初始化数据库连接部分。
                 _logger.Info("Initializing database proxy...");
                 _dbProxy = Context.System.ActorOf(DBProxy.Props(dbConfig), "dbproxy");
                 _dbProxy.Tell("initialize");
@@ -104,11 +104,11 @@ namespace QueenApiNode
 
                 await ApiConfig.WorkActorGroup.GracefulStop(TimeSpan.FromSeconds(300.0), new Broadcast("terminate"));
 
-                //기본자료기지액터들을 중지한다.
+                //停止基础数据库角色。
                 _logger.Info("Terminating database proxy actors....");
                 await _dbProxy.GracefulStop(TimeSpan.FromSeconds(3600.0), "terminate");
 
-                //클라스터에서 탈퇴한다.
+                //从集群中退出。
                 _logger.Info("Leaving from cluster....");
                 var cluster = Akka.Cluster.Cluster.Get(Context.System);
                 await cluster.LeaveAsync();

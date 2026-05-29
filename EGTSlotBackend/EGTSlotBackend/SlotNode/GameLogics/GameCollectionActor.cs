@@ -208,7 +208,7 @@ namespace SlotGamesNode.GameLogics
             GAMEID gameID = (GAMEID) enterGameMessage.GameID;
             if (!_dicGameLogicActors.ContainsKey(gameID))
             {
-                Sender.Tell(new EnterGameResponse((int) gameID, Self, 1));  //해당 게임이 존재하지 않음
+                Sender.Tell(new EnterGameResponse((int) gameID, Self, 1));  //该游戏不存在
                 return;
             }
 

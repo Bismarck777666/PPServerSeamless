@@ -11,7 +11,7 @@ using Newtonsoft.Json;
 /****
  * 
  *          Created by Foresight(2021.03.12)
- *          해당 노드내부에서 교환되는 메세지들을 정의한다.
+ *          定义在该节点内部交换的消息。
  * 
  */
 
@@ -206,7 +206,7 @@ namespace CommNode
         }
     }
 
-    //유저강퇴메세지
+    //用户强制退出消息
     public class QuitUserMessage
     {
         public int      AgentID         { get; private set; }
@@ -946,7 +946,7 @@ namespace CommNode
         }
     }
 
-    #region Verify메시지
+    #region Verify消息
     public class HTTPPPVerifyGetLastItemRequest : IConsistentHashable
     {
         public string UserID { get; private set; }

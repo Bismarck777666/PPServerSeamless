@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class AllStarTeamGameLogic : BaseSelFreeCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -83,7 +83,7 @@ namespace SlotGamesNode.GameLogics
                     "{\"lang\":\"th\",\"name\":\"ฟุตบอลโลกทีมสตาร์\"}," +
                     "{\"lang\":\"vn\",\"name\":\"Đội bóng toàn ngôi sao\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"世界杯全明星\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"모든 스타 팀\"}]";
+                    "{\"lang\":\"ko\",\"name\":\"所有明星队\"}]";
             }
         }
         #endregion

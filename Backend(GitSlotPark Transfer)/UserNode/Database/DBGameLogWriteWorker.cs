@@ -189,7 +189,7 @@ namespace UserNode.Database
             int totalCount = 0;
             foreach (KeyValuePair<int, List<GameLogItem>> pair in dicApiGameLogItems)
             {
-                //먼저 해당에이전트의 표가 이미 창조된것인지를 검사한다.
+                //首先检查该代理的表是否已经创建。
                 if (!WriterSnapshot.Instance.IsAgentGameLogTableCreated(pair.Key))
                 {
                     try
@@ -207,7 +207,7 @@ namespace UserNode.Database
                     }
                 }
 
-                //게임로그표에 게임로그들을 삽입한다.
+                //向游戏日志表插入游戏日志。
                 try
                 {
                     DataTable dataTable = new DataTable();

@@ -15,23 +15,23 @@ namespace SlotGamesNode.GameLogics
 {
     public enum RouletteBetTypes
     {
-        None        = -1,   //없음
-        Straight    = 0,    //직접 35배
-        Split       = 1,    //2중하나 17배
-        Street      = 2,    //한행에있는 3중 하나 11배
-        Square      = 3,    //점주위에있는 4중 하나 8배
-        Line        = 4,    //연속인 6숫자 5배
-        Column      = 5,    //3으로 나눈 나머지별로 2배
-        Dozen       = 6,    //1-12,13-24,25-36 2배
-        HighLow     = 7,    //1-18,19-36 1배
-        EvenOdd     = 8,    //홋수,짝수 1배
-        Color       = 9,    //Red/Black 1배
+        None        = -1,   //无
+        Straight    = 0,    //直接 35倍
+        Split       = 1,    //二选一 17倍
+        Street      = 2,    //一行中的三个之一 11倍
+        Square      = 3,    //点周围的四个之一 8倍
+        Line        = 4,    //连续的6个数字 5倍
+        Column      = 5,    //按除以3的余数分类 2倍
+        Dozen       = 6,    //1-12,13-24,25-36 2倍
+        HighLow     = 7,    //1-18,19-36 1倍
+        EvenOdd     = 8,    //奇数,偶数 1倍
+        Color       = 9,    //Red/Black 1倍
     }
 
     public class RouletteRoyalBetInfo
     {
         public string           BetGroup            { get; set; }
-        public Currencies       CurrencyInfo        { get; set; }   //화페
+        public Currencies       CurrencyInfo        { get; set; }   //货币
         public string           RoundID             { get; set; }
         public string           BetTransactionID    { get; set; }
 
@@ -126,7 +126,7 @@ namespace SlotGamesNode.GameLogics
 
     class RouletteRoyalGameLogic : IGameLogicActor
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected string SymbolName
         {
             get
@@ -155,13 +155,13 @@ namespace SlotGamesNode.GameLogics
                 return new long[] { 5000, 10000, 15000, 20000, 30000, 40000, 50000 };
             }
         }
-        //매유저의 베팅정보 
+        //每个用户的投注信息
         protected Dictionary<string, RouletteRoyalBetInfo>      _dicUserBetInfos                = new Dictionary<string, RouletteRoyalBetInfo>();
 
-        //유정의 마지막결과정보
+        //用户的最后结果信息
         protected Dictionary<string, RouletteRoyalResult>       _dicUserResultInfos             = new Dictionary<string, RouletteRoyalResult>();
 
-        //백업정보
+        //备份信息
         protected Dictionary<string, BaseAmaticSlotSpinResult>  _dicUserLastBackupResultInfos   = new Dictionary<string, BaseAmaticSlotSpinResult>();
         protected Dictionary<string, byte[]>                    _dicUserLastBackupBetInfos      = new Dictionary<string, byte[]>();
 
@@ -340,9 +340,9 @@ namespace SlotGamesNode.GameLogics
                     {
                         RouletteBetTypes.Column, new RouletteStrAndMultiple(new List<string>()
                         {
-                            "1/12",//3으로 나눈 나머지가 1
-                            "2/12",//3으로 나눈 나머지가 2
-                            "3/12",//3으로 나눈 나머지가 0,(숫자 0은 제외)
+                            "1/12",//除以3的余数为1
+                            "2/12",//除以3的余数为2
+                            "3/12",//除以3的余数为0,(数字0除外)
                         }, 2)
                     },
                     {
@@ -449,7 +449,7 @@ namespace SlotGamesNode.GameLogics
             {
                 string strGlobalUserID = string.Format("{0}_{1}", websiteID, strUserID);
 
-                //해당 유저의 베팅정보를 얻는다. 만일 베팅정보가 없다면(례외상황) 그대로 리턴한다.
+                //获取该用户的投注信息。如果没有投注信息（例外情况）则直接返回。
                 RouletteRoyalBetInfo betInfo = null;
                 if (!_dicUserBetInfos.TryGetValue(strGlobalUserID, out betInfo))
                     return;
@@ -463,17 +463,17 @@ namespace SlotGamesNode.GameLogics
                 betInfo.BetTransactionID    = createTransactionID();
                 betInfo.RoundID             = createRoundID();
 
-                //결과를 생성한다.
+                //生成结果。
                 RouletteRoyalResult spinResult = await generateSpinResult(betInfo, strUserID, websiteID, userBalance);
 
-                //게임로그
+                //游戏日志
                 string strGameLog = string.Format("{0}:{1}", spinResult.ResultString, betInfo.BetGroup);
                 _dicUserResultInfos[strGlobalUserID]  = spinResult;
 
-                //결과를 보내기전에 베팅정보를 디비에 보관한다
+                //在发送结果前将投注信息保存到数据库
                 saveBetResultInfo(strGlobalUserID);
 
-                //생성된 게임결과를 유저에게 보낸다.
+                //将生成的游戏结果发送给用户。
                 long totalBet = getTotalBet(betInfo);
                 sendGameResult(betInfo, spinResult, totalBet * getPointUnit(betInfo), spinResult.TotalWin, strGameLog);
 
@@ -892,9 +892,9 @@ namespace SlotGamesNode.GameLogics
 
             double pointUnit = getPointUnit(new RouletteRoyalBetInfo() { CurrencyInfo = currency });
             long balanceUnit = (long)Math.Round(balance / pointUnit, 0);
-            initString = encrypt.WriteLengthAndDec(initString, balanceUnit);                //현재 화페와 단위금액으로 변환된 발란스
-            initString = encrypt.WriteLengthAndDec(initString, initPacket.win);             //당첨금
-            initString = encrypt.WriteLengthAndDec(initString, initPacket.winnumber);       //당첨금
+            initString = encrypt.WriteLengthAndDec(initString, balanceUnit);                //转换为当前货币与单位金额的余额
+            initString = encrypt.WriteLengthAndDec(initString, initPacket.win);             //奖金
+            initString = encrypt.WriteLengthAndDec(initString, initPacket.winnumber);       //奖金
             initString = encrypt.WriteLengthAndDec(initString, initPacket.unknownparam1);   //0
             for (int i = 0; i < initPacket.betbuttons.Count; i++)
             {

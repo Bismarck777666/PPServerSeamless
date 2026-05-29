@@ -11,7 +11,7 @@ namespace SlotGamesNode.GameLogics
 {
     public class PandaPandaGameLogic : BaseHabaneroSlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -60,13 +60,13 @@ namespace SlotGamesNode.GameLogics
             {
                 return new Dictionary<int, HabaneroLogSymbolIDName>()
                 {
-                    {1,   new HabaneroLogSymbolIDName{id = "idPanda",           name = "Panda"          } },    //와일드(판더)
-                    {3,   new HabaneroLogSymbolIDName{id = "idScatter",         name = "Scatter"        } },    //스캐터
-                    {4,   new HabaneroLogSymbolIDName{id = "idTreasureBowl",    name = "TreasureBowl"   } },    //금전
-                    {5,   new HabaneroLogSymbolIDName{id = "idHulu",            name = "Hulu"           } },    //호로병
-                    {6,   new HabaneroLogSymbolIDName{id = "idWaterfall",       name = "Waterfall"      } },    //폭폭
-                    {7,   new HabaneroLogSymbolIDName{id = "idCherryBlossoms",  name = "CherryBlossoms" } },    //꽃
-                    {8,   new HabaneroLogSymbolIDName{id = "idBamboo",          name = "Bamboo"         } },    //참대
+                    {1,   new HabaneroLogSymbolIDName{id = "idPanda",           name = "Panda"          } },    //百搭(熊猫)
+                    {3,   new HabaneroLogSymbolIDName{id = "idScatter",         name = "Scatter"        } },    //分散
+                    {4,   new HabaneroLogSymbolIDName{id = "idTreasureBowl",    name = "TreasureBowl"   } },    //金钱
+                    {5,   new HabaneroLogSymbolIDName{id = "idHulu",            name = "Hulu"           } },    //葫芦瓶
+                    {6,   new HabaneroLogSymbolIDName{id = "idWaterfall",       name = "Waterfall"      } },    //瀑布
+                    {7,   new HabaneroLogSymbolIDName{id = "idCherryBlossoms",  name = "CherryBlossoms" } },    //花
+                    {8,   new HabaneroLogSymbolIDName{id = "idBamboo",          name = "Bamboo"         } },    //竹子
                     {9,   new HabaneroLogSymbolIDName{id = "idAce",             name = "Ace"            } },    //A
                     {10,  new HabaneroLogSymbolIDName{id = "idKing",            name = "King"           } },    //K
                     {11,  new HabaneroLogSymbolIDName{id = "idQueen",           name = "Queen"          } },    //Q

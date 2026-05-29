@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class FaCaiShenGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -72,7 +72,7 @@ namespace SlotGamesNode.GameLogics
             {
                 return "[{\"lang\":\"zh-cn\",\"name\":\"福の神\"}," +
                     "{\"lang\":\"en\",\"name\":\"Fa Cai Shen\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"재물신\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"财神\"}," +
                     "{\"lang\":\"th\",\"name\":\"ฟาชัยเซ็น\"}," +
                     "{\"lang\":\"vn\",\"name\":\"Trò chơi Fa Cai Shen\"}," +
                     "{\"lang\":\"id\",\"name\":\"Fa Cai Shen\"}]";

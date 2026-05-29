@@ -42,7 +42,7 @@ namespace ApiIntegration.Database
                     {
                         await connection.OpenAsync();
 
-                        //플레이어잔고 변경을 디비에 기록한다.
+                        //将玩家余额变更记录到数据库。
                         await updateBalances(connection);
 
                     }
@@ -113,7 +113,7 @@ namespace ApiIntegration.Database
             {
                 _logger.Error("Exception has been occured in DBWriteProxy while updating balance : {0}", ex.ToString());
 
-                //기록에 실패한 항목들을 다시 넣는다.
+                //重新放入记录失败的条目。
                 Context.Parent.Tell(balanceUpdates);
                 return -1;
             }

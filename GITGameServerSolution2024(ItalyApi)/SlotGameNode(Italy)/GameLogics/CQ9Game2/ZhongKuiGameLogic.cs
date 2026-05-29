@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
    
     class ZhongKuiGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -71,7 +71,7 @@ namespace SlotGamesNode.GameLogics
                 return "[{\"lang\":\"en\",\"name\":\"Zhong Kui\"}," +
                     "{\"lang\":\"es\",\"name\":\"Zhong Kui\"}," +
                     "{\"lang\":\"ja\",\"name\":\"鍾馗様\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"종규\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"宗圭\"}," +
                     "{\"lang\":\"th\",\"name\":\"จงขุ่ย\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"钟馗运财\"}]";
             }

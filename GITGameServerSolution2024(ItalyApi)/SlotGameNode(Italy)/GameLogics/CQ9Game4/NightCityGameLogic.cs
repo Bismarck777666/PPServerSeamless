@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class NightCityGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Night City\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"불야성\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"不夜城\"}," +
                     "{\"lang\":\"th\",\"name\":\"ตะลุยราตรี\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"不夜城\"}]";
             }

@@ -11,7 +11,7 @@ namespace SlotGamesNode.GameLogics
 {
     public class BeforeTimeRunsOutGameLogic : BaseHabaneroSlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -197,7 +197,7 @@ namespace SlotGamesNode.GameLogics
 
                 if(response["vizierList"][i]["turnWildList"].Count > 0)
                 {
-                    //와일드심벌 추가
+                    //添加通配符
                     for (int j = 0; j < response["vizierList"][i]["turnWildList"].Count; j++)
                     {
                         int reelindex   = response["vizierList"][i]["turnWildList"][j]["reelindex"];
@@ -208,7 +208,7 @@ namespace SlotGamesNode.GameLogics
 
                 if ((bool)response["vizierList"][i]["isWin"])
                 {
-                    //승인경우 왕자심벌 새위치 추가,몬스터심벌 삭제
+                    //胜利情况下，添加王子符号新位置，删除怪物符号
                     dynamic princePath      = response["vizierList"][i]["pathToVizierList"];
                     int reelindex   = princePath[princePath.Count - 1]["pathPos"]["reelindex"];
                     int symbolindex = princePath[princePath.Count - 1]["pathPos"]["symbolindex"];
@@ -221,7 +221,7 @@ namespace SlotGamesNode.GameLogics
                 }
                 else
                 {
-                    //패인경우 왕자심벌 삭제
+                    //失败情况下，删除王子符号
                     int reelindex   = response["vizierList"][i]["princePos"]["reelindex"];
                     int symbolindex = response["vizierList"][i]["princePos"]["symbolindex"];
                     int princeOriginSymbol = (int)response["reels"][reelindex][symbolindex]["symbolid"];

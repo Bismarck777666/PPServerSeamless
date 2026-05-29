@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
    
     class WorldCupFieldGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -69,7 +69,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"World Cup Field\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"월드컵 피엘드\"}]";
+                    "{\"lang\":\"ko\",\"name\":\"世界杯球场\"}]";
             }
         }
 

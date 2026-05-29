@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class OGFaFaFaGameLogic : BaseCQ9MultiBaseGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get

@@ -12,10 +12,10 @@ using System.Threading.Tasks;
 
 namespace SlotGamesNode.GameLogics
 {
-    //앤티베팅을 프리스핀구매방식으로 처리한다.(앤티베팅이 이벤트에 들어가서는 안된다)
+    //将反注以免费旋转购买方式处理。（反注不应进入事件）
     class SuperXGameLogic : BasePPSlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get

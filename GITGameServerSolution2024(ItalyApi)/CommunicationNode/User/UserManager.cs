@@ -23,7 +23,7 @@ namespace CommNode
         {
             Receive<CreateNewUserMessage>(message =>
             {
-                //해당 유저액터가 이미 존재하는가를 검사한다.
+                //检查该用户Actor是否已经存在。
                 if (Context.Child(message.LoginResponse.GlobalUserID) != ActorRefs.Nobody)
                 {
                     Sender.Tell(ActorRefs.Nobody);
@@ -34,14 +34,14 @@ namespace CommNode
                 _userHashMap.Add(message.LoginResponse.GlobalUserID);
                 Context.Watch(userActor);
                 
-                //액터의 패스를 레디스에 등록한후에 리턴한다.
+                //将Actor的路径注册到Redis后返回。
                 registerUserPathToRedis(message.LoginResponse.GlobalUserID, userActor).PipeTo(Sender);
             });
 
             Receive<QuitUserMessage>(message =>
             {
                 var userActor = Context.Child(message.GlobalUserID);
-                //만일 해당 유저가 로그인한 상태가 아니라면 
+                //如果该用户不是登录状态
                 if (userActor.Equals(ActorRefs.Nobody))
                     return;
 
@@ -51,7 +51,7 @@ namespace CommNode
             Receive<UserRangeOddEventItem>(message =>
             {
                 var userActor = Context.Child(message.GlobalUserID);
-                //만일 해당 유저가 로그인한 상태가 아니라면 
+                //如果该用户不是登录状态
                 if (userActor.Equals(ActorRefs.Nobody))
                     return;
 
@@ -112,11 +112,11 @@ namespace CommNode
         {
             try
             {
-                //레디스에 액터패스, 유저토큰을 등록한다.
+                //在Redis中注册ActorPath、UserToken。
                 string strUserPathFieldName  = string.Format("{0}_path", strGlobalUserID);
                 await RedisDatabase.RedisCache.HashSetAsync("onlineusers", strUserPathFieldName, getActorRemotePath(userActor));
 
-                //이미 등록됬던 유저토큰들을 모두 삭제한다.
+                //删除所有已注册过的UserToken。
                 await RedisDatabase.RedisCache.KeyDeleteAsync(strGlobalUserID + "_tokens");
 
                 return userActor;

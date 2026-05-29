@@ -11,7 +11,7 @@ namespace SlotGamesNode.GameLogics
 {
     public class MountMazumaGameLogic : BaseHabaneroSlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -78,7 +78,7 @@ namespace SlotGamesNode.GameLogics
                     {9,     new HabaneroLogSymbolIDName{id = "idK",             name = "K"              } },    
                     {10,    new HabaneroLogSymbolIDName{id = "idQ",             name = "Q"              } },    
                     {11,    new HabaneroLogSymbolIDName{id = "idJ",             name = "J"              } },
-                    {12,    new HabaneroLogSymbolIDName{id = "idB",             name = "B"              } },//블록(록크)
+                    {12,    new HabaneroLogSymbolIDName{id = "idB",             name = "B"              } },//方块(洛克)
 
                     {101,   new HabaneroLogSymbolIDName{id = "idWild_X2",       name = "Wild_X2"        } },
                     {103,   new HabaneroLogSymbolIDName{id = "idCoconut_X2",    name = "Coconut_X2"     } },

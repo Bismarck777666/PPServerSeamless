@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class NinjaRaccoonGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Ninja Raccoon\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"닌자 래큰\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"忍者拉肯\"}," +
                     "{\"lang\":\"th\",\"name\":\"นินจา แรคคูน\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"忍者浣熊\"}]";
             }

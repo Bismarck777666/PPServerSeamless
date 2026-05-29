@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class GophersWarGameLogic : BaseSelFreeCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -78,7 +78,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Gophers War\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"고퍼 워\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"戈珀战争\"}," +
                     "{\"lang\":\"id\",\"name\":\"Perang Tikus\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"Pregueado de Guerra\"}," +
                     "{\"lang\":\"th\",\"name\":\"สงครามหนู\"}," +

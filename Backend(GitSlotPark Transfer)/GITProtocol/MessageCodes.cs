@@ -498,7 +498,7 @@ namespace GITProtocol
         ReleaseTheKrakenMega            = 2480,
         TigreSortudo                    = 2481,
         
-        SixJokers                       = 2482,     ////앤티벳 4개
+        SixJokers                       = 2482,     ////安提赌注 4个
         MightOfFreyaMega                = 2483,
         PenguinsChristmasPartyTime      = 2484,
         TinyToads                       = 2485,
@@ -508,7 +508,7 @@ namespace GITProtocol
         EternalEmpressFreezeTime        = 2489,
         BigBassXmasExtreme              = 2490,
         GatesOfOlympusXmas1000          = 2491,
-        SantasXmasRush                  = 2492,     //앤티벳 2개
+        SantasXmasRush                  = 2492,     //安提赌注 2个
 
         AztecSmash                      = 2493,
         IrishCrown                      = 2494,
@@ -525,7 +525,7 @@ namespace GITProtocol
         GreedyFortunePig                = 2505,
         MahjongWins                     = 2506,
         MahjongWins3BlackScatter        = 2507,
-        MahjongWinsGongXiFaCai          = 2508, //원본이 정확치 않음
+        MahjongWinsGongXiFaCai          = 2508, //原文不准确
 
         TouroSortudo                    = 2509,
         SweetBaklava                    = 2510,
@@ -554,7 +554,7 @@ namespace GITProtocol
         BisonSpirit                     = 2532,
         FruitPartyDice                  = 2533,
         Tukanito                        = 2534,
-        BookOfMonsters                  = 2535,     //복잡도
+        BookOfMonsters                  = 2535,     //复杂度
         CandyStashBonanza               = 2536,
         HadesInferno1000                = 2537,
         MadMuertos                      = 2538,

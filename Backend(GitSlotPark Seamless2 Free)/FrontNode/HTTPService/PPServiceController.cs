@@ -223,11 +223,11 @@ namespace FrontNode.HTTPService
                 GITMessage message = new GITMessage((ushort)CSMSG_CODE.CS_PP_SAVESETTING);
                 if (dicParams.ContainsKey("method") && dicParams["method"] == "load")
                 {
-                    message.Append(true);   //로드
+                    message.Append(true);   //加载
                 }
                 else
                 {
-                    message.Append(false);  //보관
+                    message.Append(false);  //保管
                     message.Append(dicParams["settings"]);
                 }
                 return message;
@@ -471,7 +471,7 @@ namespace FrontNode.HTTPService
                 if (requestMessage == null)
                     return new HttpResponseMessage() { Content = new StringContent("unlogged") };
 
-                //init인 경우 게임입장부터 먼저 진행한다.
+                //如果是init，则先从游戏入场开始进行。
                 if(dicParams["action"] == "doInit")
                 {
                     HTTPEnterGameResults enterGameResult = await procEnterGame(strUserID, dicParams);                    
@@ -500,7 +500,7 @@ namespace FrontNode.HTTPService
             try
             {
                 var response = await HTTPServiceConfig.Instance.WorkerGroup.Ask<object>(new HTTPEnterGameRequest(strUserID, dicParams["mgckey"], GameProviders.PP, dicParams["symbol"]), TimeSpan.FromSeconds(10));
-                //실패(유저의 불법액션이므로 세션을 종료한다.)
+                //失败（由于用户的非法操作，终止会话。）
                 if (response is string)
                 {
                     enterGameResult = HTTPEnterGameResults.INVALIDACTION;

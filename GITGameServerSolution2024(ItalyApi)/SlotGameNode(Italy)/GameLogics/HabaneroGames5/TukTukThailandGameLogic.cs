@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
 {
     public class TukTukThailandGameLogic : BaseHabaneroSlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -102,7 +102,7 @@ namespace SlotGamesNode.GameLogics
         }
         #endregion
 
-        //프리스핀구매기능이 있을떄만 필요하다. 디비안의 모든 프리스핀들의 오드별 아이디어레이
+        //仅在具有免费旋转购买功能时需要。数据库中所有免费旋转的赔率ID数组
         protected SortedDictionary<double, int[]>[] _totalFreeSpinOddIdses    = new SortedDictionary<double, int[]>[]
         {
             new SortedDictionary<double, int[]>(),
@@ -111,8 +111,8 @@ namespace SlotGamesNode.GameLogics
         };
         protected int[]     _freeSpinTotalCounts      = new int[] { 0, 0, 0 };
         protected int[]     _minFreeSpinTotalCounts   = new int[] { 0, 0, 0 };
-        protected double[]  _totalFreeSpinWinRates    = new double[] { 0.0, 0.0, 0.0 }; //스핀디비안의 모든 프리스핀들의 배당평균값
-        protected double[]  _minFreeSpinWinRates      = new double[] { 0.0, 0.0, 0.0 }; //구매금액의 20% - 50%사이에 들어가는 모든 프리스핀들의 평균배당값
+        protected double[]  _totalFreeSpinWinRates    = new double[] { 0.0, 0.0, 0.0 }; //旋转数据库中的所有免费旋转的赔率平均值
+        protected double[]  _minFreeSpinWinRates      = new double[] { 0.0, 0.0, 0.0 }; //购买金额的20% - 50%之间的所有免费旋转的平均赔率值
 
         public TukTukThailandGameLogic()
         {
@@ -320,7 +320,7 @@ namespace SlotGamesNode.GameLogics
                 BaseHabaneroSlotBetInfo oldBetInfo = null;
                 if (_dicUserBetInfos.TryGetValue(strGlobalUserID, out oldBetInfo))
                 {
-                    //만일 유저에게 남은 응답이 존재하는 경우
+                    //如果用户存在剩余响应的情况
                     if (oldBetInfo.HasRemainResponse)
                         return;
 

@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class DiamondTreasureGameLogic : BaseSelFreeCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -78,7 +78,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Diamond Treasure\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"다이아몬드 트레져\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"钻石宝藏\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"钻更多\"}]";
             }
         }

@@ -12,7 +12,7 @@ namespace SlotGamesNode.GameLogics
 {
     class QueenOfGodsGameLogic : BaseSelFreePPSlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -126,7 +126,7 @@ namespace SlotGamesNode.GameLogics
                             double selectedWin = (startSpinData.StartOdd + freeSpinData.SpinOdd) * betInfo.TotalBet;
                             double maxWin = startSpinData.MaxOdd * betInfo.TotalBet;
 
-                            //시작스핀시에 최대의 오드에 해당한 윈값을 더해주었으므로 그 차분을 보상해준다.
+                            //由于在开始旋转时已加上对应最大赔率的赢值，因此补偿其差值。
                             if (!startSpinData.IsEvent)
                                 sumUpWebsiteBetWin(agentID, 0.0, selectedWin - maxWin);
                             else if (maxWin > selectedWin)
@@ -149,7 +149,7 @@ namespace SlotGamesNode.GameLogics
 
                             responseMessage.Append(strResponse);
 
-                            //히스토리보관 및 초기화
+                            //历史保管及初始化
                             if (_dicUserHistory.ContainsKey(strGlobalUserID) && _dicUserHistory[strGlobalUserID].log.Count > 0)
                                 addDoBonusActionHistory(strGlobalUserID, ind, strResponse, index, counter);
 

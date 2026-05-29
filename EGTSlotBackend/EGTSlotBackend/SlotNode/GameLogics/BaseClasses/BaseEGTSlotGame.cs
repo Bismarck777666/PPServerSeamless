@@ -1094,7 +1094,7 @@ namespace SlotGamesNode.GameLogics
             Sender.Tell(toUserResult, Self);
         }
 
-        #region 스핀자료처리부분
+        #region 旋转数据处理部分
         protected virtual async Task<BasePPSlotSpinData> SelectRandomStop(int websiteID, BaseClasses.BaseEGTSlotBetInfo betInfo)
         {
             OddAndIDData selectedOddAndID = SelectRandomOddAndID(websiteID, betInfo);
@@ -1254,7 +1254,7 @@ namespace SlotGamesNode.GameLogics
             try
             {
                 string strGlobalUserID = string.Format("{0}_{1}", message.WebsiteID, message.UserID);
-                //유저나가기전에 트랜잭션정보만 뽑아낸다
+                //在用户退出前仅提取交易信息
                 BaseClasses.BaseEGTSlotBetInfo betInfo = null;
 
                 if (_dicUserBetInfos.ContainsKey(strGlobalUserID))

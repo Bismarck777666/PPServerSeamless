@@ -75,7 +75,7 @@ namespace SlotGamesNode.GameLogics
         private double _spinDataRTP     = 0.0;
         private double _minSpinDataRTP  = 0.0;
 
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -219,7 +219,7 @@ namespace SlotGamesNode.GameLogics
                 BasePPSlotBetInfo oldBetInfo = null;
                 if (_dicUserBetInfos.TryGetValue(strUserID, out oldBetInfo))
                 {
-                    //만일 유저에게 남은 응답이 존재하는 경우
+                    //如果用户存在剩余响应的情况
                     if (oldBetInfo.HasRemainResponse)
                         return;
 
@@ -319,13 +319,13 @@ namespace SlotGamesNode.GameLogics
                 BasePPActionToResponse nextResponse = betInfo.pullRemainResponse();
                 result = calculateResult(betInfo, nextResponse.Response, false);
 
-                //프리게임이 끝났는지를 검사한다.
+                //检查免费游戏是否结束。
                 if (!betInfo.HasRemainResponse)
                     betInfo.RemainReponses = null;
                 return result;
             }
 
-            //유저의 총 베팅액을 얻는다.
+            //获取用户的总投注额。
             float totalBet = betInfo.TotalBet;
             double realBetMoney = totalBet;
 
@@ -334,7 +334,7 @@ namespace SlotGamesNode.GameLogics
 
             spinData = await selectRandomStop(websiteID, userBonus, totalBet, false, betInfo);
 
-            //첫자료를 가지고 결과를 계산한다.
+            //用第一份数据计算结果。
             double totalWin = totalBet * spinData.SpinOdd;
             if (!usePayLimit || !betInfo.PurchaseFree || await checkWebsitePayoutRate(websiteID, realBetMoney, totalWin))
             {
@@ -364,7 +364,7 @@ namespace SlotGamesNode.GameLogics
                 result = calculateResult(betInfo, spinData.SpinStrings[0], true);
                 emptyWin = totalBet * spinData.SpinOdd;
 
-                //뒤에 응답자료가 또 있다면
+                //如果后面还有响应数据
                 if (spinData.SpinStrings.Count > 1)
                     betInfo.RemainReponses = buildResponseList(spinData.SpinStrings);
             }

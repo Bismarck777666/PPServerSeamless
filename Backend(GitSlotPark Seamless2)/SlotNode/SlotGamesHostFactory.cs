@@ -13,7 +13,7 @@ namespace SlotGamesNode
     {
         public static ActorSystem LaunchSlotGamesNode(Config clusterConfig)
         {
-            //먼저 설정파일에서 액터시스템의 이름을 얻는다.
+            //首先从配置文件中获取参与者系统的名称。
             string systemName = "gitigaming";
             var connectConfig = clusterConfig.GetConfig("slotgames");
             if (connectConfig != null)
@@ -21,7 +21,7 @@ namespace SlotGamesNode
                 systemName = connectConfig.GetString("actorsystem", systemName);
             }
 
-            //액터시스템을 창조한다.
+            //创建参与者系统。
             return ActorSystem.Create(systemName, clusterConfig);
         }
     }

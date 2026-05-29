@@ -31,7 +31,7 @@ namespace SlotGamesNode.GameLogics
         protected double[]  _multiTotalFreeSpinWinRates;
         protected double[] _multiMinFreeSpinWinRates;
 
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get

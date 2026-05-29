@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class WaterBalloonsGameLogic : BaseCQ9TembleGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"WaterBalloons\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"워터볼룬즈\"}]";
+                    "{\"lang\":\"ko\",\"name\":\"水球\"}]";
             }
         }
 

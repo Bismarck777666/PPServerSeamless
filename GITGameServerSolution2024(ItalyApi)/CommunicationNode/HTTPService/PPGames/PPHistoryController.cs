@@ -37,7 +37,7 @@ namespace CommNode.HTTPService
             if (strUserID == null)
                 return new HttpResponseMessage() { Content = new StringContent(""), StatusCode = System.Net.HttpStatusCode.Unauthorized };
 
-            //게임아이디유효성검사
+            //游戏ID有效性检查
             int gameID = DBMonitorSnapshot.Instance.getGameIDFromString(GAMETYPE.PP, strSymbol);
             if (gameID == 0)
                 return new HttpResponseMessage() { Content = new StringContent(""), StatusCode = System.Net.HttpStatusCode.Unauthorized };
@@ -74,7 +74,7 @@ namespace CommNode.HTTPService
             if (strUserID == null)
                 return new HttpResponseMessage() { Content = new StringContent(""), StatusCode = System.Net.HttpStatusCode.Unauthorized };
 
-            //게임아이디유효성검사
+            //游戏ID有效性检查
             int gameID = DBMonitorSnapshot.Instance.getGameIDFromString(GAMETYPE.PP, strSymbol);
             if (gameID == 0)
                 return new HttpResponseMessage() { Content = new StringContent(""), StatusCode = System.Net.HttpStatusCode.Unauthorized };
@@ -114,7 +114,7 @@ namespace CommNode.HTTPService
             if (strGlobalUserID == null)
                 return new HttpResponseMessage() { Content = new StringContent(""), StatusCode = System.Net.HttpStatusCode.Unauthorized };
 
-            //게임아이디유효성검사
+            //游戏ID有效性检查
             int gameID = DBMonitorSnapshot.Instance.getGameIDFromString(GAMETYPE.PP, strSymbol);
             if (gameID == 0)
                 return new HttpResponseMessage() { Content = new StringContent(""), StatusCode = System.Net.HttpStatusCode.Unauthorized };

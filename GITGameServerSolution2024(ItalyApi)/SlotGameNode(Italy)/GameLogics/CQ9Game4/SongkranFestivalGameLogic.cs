@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class SongkranFestivalGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Songkran Festival\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"송크란 축제\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"宋干节\"}," +
                     "{\"lang\":\"th\",\"name\":\"เทศกาล สงกรานต์\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"欢乐泼水节\"}]";
             }

@@ -19,7 +19,7 @@ namespace UserNode
             Logger logger = LogManager.GetCurrentClassLogger();
             logger.Info("Starting Connect Service...");
 
-            //먼저 설정정보를 검사한다.
+            //首先检查配置信息。
             Config clusterConfig = null;
             try
             {

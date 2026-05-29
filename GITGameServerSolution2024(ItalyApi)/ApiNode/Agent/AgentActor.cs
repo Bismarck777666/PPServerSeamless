@@ -21,7 +21,7 @@ namespace QueenApiNode.Agent
 {
     class AgentActor : ReceiveActor
     {
-        #region 에이전트정보
+        #region 代理信息
         private int     _dbID           = 0;
         private string  _strAgentID     = "";
         private double  _balance        = 0.0;
@@ -284,7 +284,7 @@ namespace QueenApiNode.Agent
                 _balance += amount;
                 if (amount > 0.0)
                 {
-                    //에이전트머니변경이력을 디비에 저장한다.
+                    //将代理资金变更历史保存到数据库。
                     _dbWriter.Tell(new AgentScoreUpdateItem(_dbID, amount));
                     _dbWriter.Tell(new AgentMoneyChangeItem(_strAgentID, request.userid, amount, _balance - amount, _balance, AgentMoneyChangeModes.USERWITHDRAW, DateTime.UtcNow));
                     _dbWriter.Tell(new UserMoneyChangeItem(_strAgentID, request.userid, -amount, UserMoneyChangeModes.WITHDRAW, response.BeforeScore, response.AfterScore, DateTime.UtcNow));

@@ -66,7 +66,7 @@ namespace UserNode.Database
                     {
                         await connection.OpenAsync();
 
-                        //플레이어 리포트변경을 디비에 기록한다.
+                        //将玩家报告变更记录到数据库。
                         int reportCount     = await updateReports(connection);
                         int gameReportCount = await updateGameReports(connection);
 

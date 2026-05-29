@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
    
     class TreasureBowlGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             {
                 return "[{\"lang\":\"en\",\"name\":\"Treasure Bowl\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"Tigela do Tesouro\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"트레저 보울\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"宝藏碗\"}," +
                     "{\"lang\":\"th\",\"name\":\"กระถางมหาสมบัติ\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"聚宝盆\"}]";
             }

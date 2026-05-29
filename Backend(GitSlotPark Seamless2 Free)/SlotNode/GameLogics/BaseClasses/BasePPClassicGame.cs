@@ -61,14 +61,14 @@ namespace SlotGamesNode.GameLogics
                 Dictionary<string, string> dicParams = splitResponseToParams(strSpinResponse);
 
                 int betType = betInfo.LineCount - 1;
-                //모든 당첨값들을 현재의 베팅금액상태로 전환한다.
+                //将所有中奖值转换为当前的下注金额状态。
                 if (dicParams.ContainsKey("w"))
                 {
                     double win  = double.Parse(dicParams["w"]);
                     win         = win / _spinDataDefaultBets[betType] * betInfo.TotalBet;
                     dicParams["w"] = Math.Round(win, 2).ToString();
                 }
-                //WinLine정보
+                //中奖线信息
                 int winLineID = 0;
                 do
                 {
@@ -198,7 +198,7 @@ namespace SlotGamesNode.GameLogics
                 BasePPSlotBetInfo oldBetInfo = null;
                 if (_dicUserBetInfos.TryGetValue(strGlobalUserID, out oldBetInfo))
                 {
-                    //만일 유저에게 남은 응답이 존재하는 경우
+                    //如果用户存在剩余响应的情况
                     if (oldBetInfo.HasRemainResponse)
                         return;
 
@@ -240,8 +240,8 @@ namespace SlotGamesNode.GameLogics
                 dicParams["action"] = "doSpin";
 
 
-            dicParams["balance"]        = Math.Round(userBalance - (isInit ? 0.0 : betMoney), 2).ToString();        //밸런스
-            dicParams["balance_cash"]   = Math.Round(userBalance - (isInit ? 0.0 : betMoney), 2).ToString();        //밸런스케시
+            dicParams["balance"]        = Math.Round(userBalance - (isInit ? 0.0 : betMoney), 2).ToString();        //余额
+            dicParams["balance_cash"]   = Math.Round(userBalance - (isInit ? 0.0 : betMoney), 2).ToString();        //余额现金
 
             if (SupportPurchaseFree && betInfo.PurchaseFree)
                 dicParams["puri"] = "0";

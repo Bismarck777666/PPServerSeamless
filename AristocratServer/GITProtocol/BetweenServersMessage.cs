@@ -300,11 +300,11 @@ namespace GITProtocol
         public string htmlRules { get; set; }
         public string shortHtmlRules { get; set; }
         public PPRacePrizePool prizePool { get; set; }
-        public string agentid { get; set; }   //프리이즈를 창조한 에이전트(null이면 슈퍼)
-        public int prizesLimit { get; set; }   //한번에 받을수있는 프리이즈개수 (0이면 무한대)
-        public string games { get; set; }   //프라이즈에 참가하는 게임들(빈문자이면 모든게임 콤마구분)
-        public string playersinc { get; set; }   //프라이즈에 참가하는 유저들(빈문자이면 모든유저 콤마구분)
-        public string playersexc { get; set; }   //프라이즈에 참가못하는 유저들(빈문자이면 없음 콤마구분)
+        public string agentid { get; set; }   //创建奖品的代理（null则为超级）
+        public int prizesLimit { get; set; }   //一次可领取的奖品数量（0为无限）
+        public string games { get; set; }   //参与奖品的游戏（空字符串则为所有游戏，逗号分隔）
+        public string playersinc { get; set; }   //参与奖品的用户（空字符串则为所有用户，逗号分隔）
+        public string playersexc { get; set; }   //不能参与奖品的用户（空字符串则为无，逗号分隔）
         public List<PPRaceWinner> winners { get; set; }
         public Dictionary<long, bool> dicWinners { get; set; }
         public List<PPRaceWinner> pendingPrizes { get; set; }
@@ -416,11 +416,11 @@ namespace GITProtocol
         public List<PPTournamentLeaderItem> leaderBoard { get; set; }
         public PPTournamentPrizePool prizePool { get; set; }
         public int type { get; set; }
-        public string agentid { get; set; }   //프리이즈를 창조한 에이전트(null이면 슈퍼)
-        public int currency { get; set; }   //토너먼트 화페
-        public string games { get; set; }   //프라이즈에 참가하는 게임들(빈문자이면 모든게임 콤마구분)
-        public string playersinc { get; set; }   //프라이즈에 참가하는 유저들(빈문자이면 모든유저 콤마구분)
-        public string playersexc { get; set; }   //프라이즈에 참가못하는 유저들(빈문자이면 없음 콤마구분)
+        public string agentid { get; set; }   //创建奖品的代理（null则为超级）
+        public int currency { get; set; }   //锦标赛货币
+        public string games { get; set; }   //参与奖品的游戏（空字符串则为所有游戏，逗号分隔）
+        public string playersinc { get; set; }   //参与奖品的用户（空字符串则为所有用户，逗号分隔）
+        public string playersexc { get; set; }   //不能参与奖品的用户（空字符串则为无，逗号分隔）
     }
 
     public class PPTournamentLeaderItem
@@ -433,9 +433,9 @@ namespace GITProtocol
         public double effectiveBetForFreeRounds { get; set; }
         public double effectiveBetForBetMultiplier { get; set; }
         public string countryID { get; set; }
-        public double totalbet { get; set; }           //전체베팅
-        public double totalwin { get; set; }           //전체당첨
-        public double win { get; set; }           //토너먼트당첨금
+        public double totalbet { get; set; }           //总投注
+        public double totalwin { get; set; }           //总中奖
+        public double win { get; set; }           //锦标赛奖金
     }
 
     public class PPTournamentPrizePool

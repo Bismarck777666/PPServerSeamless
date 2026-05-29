@@ -177,7 +177,7 @@ namespace SlotGamesNode.Database
                 {
                     await connection.OpenAsync();
 
-                    //싱글게임설정을 감시한다.
+                    //监视单人游戏设置。
                     string strQuery = "SELECT gameid, gametype, gamesymbol, payoutrate, updatetime FROM gameconfigs WHERE updatetime > @updatetime ORDER BY updatetime";
                     SqlCommand command = new SqlCommand(strQuery, connection);
                     command.Parameters.AddWithValue("@updatetime", DBMonitorSnapshot.Instance.GameConfigUpdateTime);
@@ -224,7 +224,7 @@ namespace SlotGamesNode.Database
                         }
                     }
 
-                    //웹사이트별게임설정을 감시한다.
+                    //监视每个网站的单独游戏设置。
                     strQuery = "SELECT gameid, agentid, payoutrate, updatetime FROM agentgameconfigs WHERE updatetime > @updatetime ORDER BY updatetime";
                     command = new SqlCommand(strQuery, connection);
                     command.Parameters.AddWithValue("@updatetime", DBMonitorSnapshot.Instance.AgentGameConfigUpdateTime);

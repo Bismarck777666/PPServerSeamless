@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
    
     class PoseidonGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -69,7 +69,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Poseidon\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"포세이돈\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"波塞冬\"}," +
                     "{\"lang\":\"th\",\"name\":\"โพไซดอน\"}," +
                     "{\"lang\":\"vn\",\"name\":\"VUA THỦY TỀ\"}," +
                     "{\"lang\":\"id\",\"name\":\"Poseidon\"}," +

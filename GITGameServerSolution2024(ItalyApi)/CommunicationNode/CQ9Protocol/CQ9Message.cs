@@ -43,7 +43,7 @@ namespace CQ9Protocol
         }
     }
 
-    #region 소켓메시지들
+    #region 套接字消息们
     public class CQ9RequestPacket
     {
         public string[] vals { get; set; }
@@ -78,7 +78,7 @@ namespace CQ9Protocol
     }
     #endregion
 
-    #region 소켓파람Object
+    #region 套接字参数Object
     public class CQ9ResponseInitUI
     {
         public int      Type                        { get; set; }
@@ -122,7 +122,7 @@ namespace CQ9Protocol
         public int ID       { get; set; }
     }
 
-    //45번메시지 파람
+    //45号消息参数
     public class CQ9RequestFreeOptSelect
     {
         public int Type                 { get; set; }

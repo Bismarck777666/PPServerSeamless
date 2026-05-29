@@ -23,7 +23,7 @@ namespace SlotGamesNode.GameLogics
 
     class AllwaysCandyGameLogic : BaseAmaticSpecAnteGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -66,8 +66,8 @@ namespace SlotGamesNode.GameLogics
         #endregion
 
         protected const int     PurFreeCount    = 3;
-        protected double []                     _totalPurFreeWinRates   = new double[PurFreeCount]; //스핀디비안의 모든 프리스핀들의 배당평균값
-        protected double []                     _minPurFreeWinRates     = new double[PurFreeCount]; //구매금액의 20% - 50%사이에 들어가는 모든 프리스핀들의 평균배당값
+        protected double []                     _totalPurFreeWinRates   = new double[PurFreeCount]; //所有免费旋转在旋转数据库中的平均赔率值
+        protected double []                     _minPurFreeWinRates     = new double[PurFreeCount]; //购买金额的20% - 50%之间的所有免费旋转的平均赔率值
 
 
         public AllwaysCandyGameLogic()
@@ -83,7 +83,7 @@ namespace SlotGamesNode.GameLogics
                 var stopWatch = new Stopwatch();
 
                 stopWatch.Start();
-                //자연빵 1만개스핀 선택
+                //天然面包 1万个旋转选择
                 double sumOdd1 = 0.0;
                 BaseAmaticSlotBetInfo betInfo = new BaseAmaticSlotBetInfo();
                 betInfo.MoreBet         = -1;
@@ -101,7 +101,7 @@ namespace SlotGamesNode.GameLogics
                 stopWatch.Start();
 
                 double sumOdd2 = 0.0;
-                //MoreBet 1만개
+                //MoreBet 1万个
                 betInfo.MoreBet = 0;
                 for (int i = 0; i < 100000; i++)
                 {
@@ -209,7 +209,7 @@ namespace SlotGamesNode.GameLogics
                 BaseAmaticSlotBetInfo oldBetInfo = null;
                 if (_dicUserBetInfos.TryGetValue(strUserID, out oldBetInfo))
                 {
-                    //만일 유저에게 남은 응답이 존재하는 경우
+                    //如果用户存在剩余响应的情况
                     if (oldBetInfo.HasRemainResponse)
                         return;
 

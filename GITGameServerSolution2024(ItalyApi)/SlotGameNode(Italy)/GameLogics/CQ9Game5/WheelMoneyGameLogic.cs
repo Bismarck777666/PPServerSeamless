@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class WheelMoneyGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Wheel Money\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"휠 머니\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"轮子 钱\"}," +
                     "{\"lang\":\"th\",\"name\":\"วีลมันนี่\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"Dinheiro da Roda\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"转大钱\"}]";

@@ -26,7 +26,7 @@ namespace SlotGamesNode.GameLogics
             return 0;
         }
         
-        #region 스핀관련
+        #region 旋转相关
         protected override OddAndIDData selectRandomOddAndID(int websiteID, BaseAmaticSlotBetInfo betInfo)
         {
             int     anteType        = getAnteFromBetInfo(betInfo);
@@ -80,7 +80,7 @@ namespace SlotGamesNode.GameLogics
                 var stopWatch = new Stopwatch();
 
                 stopWatch.Start();
-                //자연빵 1만개스핀 선택
+                //天然面包 1万个旋转选择
                 double sumOdd1 = 0.0;
                 BaseAmaticSlotBetInfo betInfo = new BaseAmaticSlotBetInfo();
                 betInfo.MoreBet         = -1;

@@ -43,13 +43,13 @@ namespace UserNode.Database
                     {
                         await connection.OpenAsync();
 
-                        //플레이어잔고 변경을 디비에 기록한다.
+                        //将玩家余额变更记录到数据库。
                         await updateBalances(connection);
 
-                        //플레이어 상태변경을 디비에 기록한다.
+                        //将玩家状态变更记录到数据库。
                         await updatePlayerStates(connection);
 
-                        //유저의 베트머니를 업데이트한다.
+                        //更新用户的投注金额。
                         await updateUserBetMoney(connection);
 
                     }
@@ -75,10 +75,10 @@ namespace UserNode.Database
                         {
                             await connection.OpenAsync();
 
-                            //플레이어잔고 변경을 디비에 기록한다.
+                            //将玩家余额变更记录到数据库。
                             int balanceCount = await updateBalances(connection);
 
-                            //플레이어 상태변경을 디비에 기록한다.
+                            //将玩家状态变更记录到数据库。
                             int stateCount  = await updatePlayerStates(connection);
 
                             if (balanceCount == 0 && stateCount == 0)
@@ -151,7 +151,7 @@ namespace UserNode.Database
             {
                 _logger.Error("Exception has been occured in DBWriteWorker while updating player states : {0}", ex.ToString());
 
-                //기록에 실패한 항목들을 다시 넣는다.
+                //重新放入记录失败的条目。
                 if (updatedPlayerStates != null)
                     Context.Parent.Tell(updatedPlayerStates);
             }
@@ -170,7 +170,7 @@ namespace UserNode.Database
             {
                 _logger.Error("Exception has been occured in DBWriteWorker while updating player states : {0}", ex.ToString());
 
-                //기록에 실패한 항목들을 다시 넣는다.
+                //重新放入记录失败的条目。
                 if (updateLoginItems.Count > 0)
                     Context.Parent.Tell(updateLoginItems);
             }
@@ -189,7 +189,7 @@ namespace UserNode.Database
             {
                 _logger.Error("Exception has been occured in DBWriteWorker while updating player states : {0}", ex.ToString());
 
-                //기록에 실패한 항목들을 다시 넣는다.
+                //重新放入记录失败的条目。
                 if (updateGameItems.Count > 0)
                     Context.Parent.Tell(updateGameItems);
             }
@@ -212,7 +212,7 @@ namespace UserNode.Database
             {
                 _logger.Error("Exception has been occured in DBWriteWorker while updating player states : {0}", ex.ToString());
 
-                //기록에 실패한 항목들을 다시 넣는다.
+                //重新放入记录失败的条目。
                 if(updateLobbyOffItems.Count > 0)
                     Context.Parent.Tell(updateLobbyOffItems);
             }
@@ -246,7 +246,7 @@ namespace UserNode.Database
             {
                 _logger.Error("Exception has been occured in DBWriteProxy while updating user betmoney : {0}", ex.ToString());
 
-                //기록에 실패한 항목들을 다시 넣는다.
+                //重新放入记录失败的条目。
                 Context.Parent.Tell(betMoneyUpdates);
                 return -1;
             }
@@ -284,7 +284,7 @@ namespace UserNode.Database
             {
                 _logger.Error("Exception has been occured in DBWriteProxy while updating balance : {0}", ex.ToString());
 
-                //기록에 실패한 항목들을 다시 넣는다.
+                //重新放入记录失败的条目。
                 Context.Parent.Tell(balanceUpdates);
                 return -1;
             }

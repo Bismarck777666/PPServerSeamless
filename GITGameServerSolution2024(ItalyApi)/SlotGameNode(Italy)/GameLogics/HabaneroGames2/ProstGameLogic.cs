@@ -12,7 +12,7 @@ namespace SlotGamesNode.GameLogics
 {
     public class ProstGameLogic : BaseHabaneroSlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -61,13 +61,13 @@ namespace SlotGamesNode.GameLogics
             {
                 return new Dictionary<int, HabaneroLogSymbolIDName>()
                 {
-                    {1,   new HabaneroLogSymbolIDName{id = "idHans",        name = "Hans"       } },    //와일드(남)
-                    {2,   new HabaneroLogSymbolIDName{id = "idHeidi",       name = "Heidi"      } },    //와일드(여)
-                    {3,   new HabaneroLogSymbolIDName{id = "idProst",       name = "Prost"      } },    //프로스트(맥주)
-                    {4,   new HabaneroLogSymbolIDName{id = "idAccordion",   name = "Accordion"  } },    //손풍금
-                    {5,   new HabaneroLogSymbolIDName{id = "idBarrel",      name = "Barrel"     } },    //맥주통
-                    {6,   new HabaneroLogSymbolIDName{id = "idPretzel",     name = "Pretzel"    } },    //빵
-                    {7,   new HabaneroLogSymbolIDName{id = "idSausages",    name = "Sausages"   } },    //쏘세지
+                    {1,   new HabaneroLogSymbolIDName{id = "idHans",        name = "Hans"       } },    //野性(男)
+                    {2,   new HabaneroLogSymbolIDName{id = "idHeidi",       name = "Heidi"      } },    //野性(女)
+                    {3,   new HabaneroLogSymbolIDName{id = "idProst",       name = "Prost"      } },    //福斯特(啤酒)
+                    {4,   new HabaneroLogSymbolIDName{id = "idAccordion",   name = "Accordion"  } },    //手风琴
+                    {5,   new HabaneroLogSymbolIDName{id = "idBarrel",      name = "Barrel"     } },    //啤酒桶
+                    {6,   new HabaneroLogSymbolIDName{id = "idPretzel",     name = "Pretzel"    } },    //面包
+                    {7,   new HabaneroLogSymbolIDName{id = "idSausages",    name = "Sausages"   } },    //香肠
                     {8,   new HabaneroLogSymbolIDName{id = "idA",           name = "A"          } },
                     {9,   new HabaneroLogSymbolIDName{id = "idK",           name = "K"          } },
                     {10,  new HabaneroLogSymbolIDName{id = "idQ",           name = "Q"          } },
@@ -238,7 +238,7 @@ namespace SlotGamesNode.GameLogics
                 if (!object.ReferenceEquals(resultContext["prost_mapList"], null) && resultContext["prost_mapList"].Count > 0)
                     changeProstMapList(resultContext);
 
-                //모든 당첨값들을 현재의 베팅금액상태로 전환한다.
+                //将所有中奖值转换为当前的下注金额状态。
                 convertWinsByBet(resultContext, betInfo.TotalBet);
 
                 string strNextAction    = (string)resultContext["nextgamestate"];

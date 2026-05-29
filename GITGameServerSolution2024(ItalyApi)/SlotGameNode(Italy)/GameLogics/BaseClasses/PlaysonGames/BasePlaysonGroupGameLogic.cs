@@ -212,7 +212,7 @@ namespace SlotGamesNode.GameLogics
                         oldBetInfo.PurchaseFree = false;
 
                     BasePlaysonGroupSlotBetInfo groupBetInfo = oldBetInfo as BasePlaysonGroupSlotBetInfo;
-                    //만일 유저에게 남은 일반스핀응답이 존재하는 경우
+                    //如果用户存在剩余的一般旋转响应的情况
                     if (groupBetInfo.HasRemainResponse && groupBetInfo.SeqRemainReponses[totalBet][0].ActionType != PlaysonActionTypes.SPIN)
                         return;
                 }
@@ -247,7 +247,7 @@ namespace SlotGamesNode.GameLogics
             {
                 string strGlobalUserID = string.Format("{0}_{1}", agentID, strUserID);
 
-                //해당 유저의 베팅정보를 얻는다. 만일 베팅정보가 없다면(례외상황) 그대로 리턴한다.
+                //获取该用户的投注信息。如果没有投注信息（例外情况）则直接返回。
                 BasePlaysonSlotBetInfo betInfo = null;
                 if (!_dicUserBetInfos.TryGetValue(strGlobalUserID, out betInfo))
                     return;
@@ -267,7 +267,7 @@ namespace SlotGamesNode.GameLogics
                 if (SupportPurchaseFree && betInfo.PurchaseFree)
                     betMoney = Math.Round(betMoney * PurchaseFreeMultiple, 1);
 
-                //만일 베팅머니가 유저의 밸런스보다 크다면 끝낸다.
+                //如果投注金额大于用户余额则结束。
                 if (userBalance.LT(betMoney, _epsilion) || betMoney < 0.0)
                 {
                     string strBalanceErrorResult = makeBalanceNotEnoughResult(strGlobalUserID, userBalance, strToken, strRnd, betInfo);
@@ -278,26 +278,26 @@ namespace SlotGamesNode.GameLogics
                     return;
                 }
 
-                //결과를 생성한다.
+                //生成结果。
                 BasePlaysonSlotSpinResult spinResult = await generateSpinResult(groupBetInfo, strUserID, agentID, userBonus, true);
 
                 changeSessionAndRndToResponse(spinResult, strToken, strRnd);
                 addBalanceInfo(spinResult, userBalance);
 
-                //게임로그
+                //游戏日志
                 string strGameLog = spinResult.ResultString;
                 _dicUserResultInfos[strGlobalUserID] = spinResult;
 
-                //결과를 보내기전에 베팅정보를 디비에 보관한다
+                //在发送结果前将投注信息保存到数据库
                 saveBetResultInfo(strGlobalUserID);
 
-                //생성된 게임결과를 유저에게 보낸다.
+                //将生成的游戏结果发送给用户。
                 sendGameResult(betInfo, spinResult, strGlobalUserID, betMoney, spinResult.WinMoney, strGameLog, userBalance, strRnd, strToken);
 
                 _dicUserLastBackupBetInfos[strGlobalUserID]     = betInfoBytes;
                 _dicUserLastBackupResultInfos[strGlobalUserID]  = lastResult;
 
-                //게임결과를 디비에 보관한다.
+                //将游戏结果保存到数据库
                 saveResultToHistory(spinResult,agentID ,strUserID, currency, userBalance, betMoney, spinResult.WinMoney, spinResult.CurrentAction, strPlayClient);
             }
             catch (Exception ex)
@@ -337,7 +337,7 @@ namespace SlotGamesNode.GameLogics
             BasePlaysonSlotSpinResult   result              = null;
             BasePlaysonGroupSlotBetInfo groupSlotBetInfo    = betInfo as BasePlaysonGroupSlotBetInfo;
 
-            //유저의 총 베팅액을 얻는다.
+            //获取用户的总投注额。
             float   totalBet        = groupSlotBetInfo.TotalBet;
             double  realBetMoney    = totalBet;
 
@@ -346,7 +346,7 @@ namespace SlotGamesNode.GameLogics
             {
                 if (SupportPurchaseFree && betInfo.PurchaseFree)
                 {
-                    realBetMoney    = totalBet * PurchaseFreeMultiple;//구매베팅금액
+                    realBetMoney    = totalBet * PurchaseFreeMultiple;//购买投注金额
                     spinData        = await selectMinStartFreeSpinData(betInfo);
                     result          = calculateResult(strGlobalUserID, groupSlotBetInfo, spinData.SpinStrings[0], true, PlaysonActionTypes.SPIN);
                     double purFreeWin = totalBet * spinData.SpinOdd;
@@ -375,11 +375,11 @@ namespace SlotGamesNode.GameLogics
             }
 
             if (SupportPurchaseFree && betInfo.PurchaseFree)
-                realBetMoney = totalBet * PurchaseFreeMultiple;//구매베팅금액
+                realBetMoney = totalBet * PurchaseFreeMultiple;//购买投注金额
 
             spinData = await selectRandomStop(agentID, userBonus, totalBet, betInfo);
 
-            //첫자료를 가지고 결과를 계산한다.
+            //用第一份数据计算结果。
             double totalWin = totalBet * spinData.SpinOdd;
 
             if (!usePayLimit || spinData.IsEvent || checkCompanyPayoutRate(agentID, realBetMoney, totalWin))
@@ -422,7 +422,7 @@ namespace SlotGamesNode.GameLogics
                 result      = calculateResult(strGlobalUserID, betInfo, spinData.SpinStrings[0], true,PlaysonActionTypes.SPIN);
             }
 
-            //뒤에 응답자료가 또 있다면
+            //后面还有响应数据的话
             if (spinData.SpinStrings.Count > 1)
             {
                 groupSlotBetInfo.SeqRemainReponses[groupSlotBetInfo.TotalBet] = buildResponseList(spinData.SpinStrings);

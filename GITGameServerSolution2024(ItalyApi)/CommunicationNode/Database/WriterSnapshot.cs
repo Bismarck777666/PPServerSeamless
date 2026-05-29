@@ -131,7 +131,7 @@ namespace CommNode.Database
                     UserGameStateItem gameStateItem = stateUpdateItem as UserGameStateItem;
                     if (gameStateItem.State == 0)
                     {
-                        //유저가 오프라인될때 현재 펜딩중인 밸런스업데이트를 함께 진행하여 출금조작시 나타날수 있는 오류를 방지한다.
+                        //当用户离线时，同时处理当前待处理的余额更新，以防止在提现操作时可能出现的错误。
                         double balanceIncrement = 0.0;
                         if (_dicPlayerBalanceUpates.ContainsKey(gameStateItem.PlayerID))
                         {
@@ -350,7 +350,7 @@ namespace CommNode.Database
 
     }
 
-    //유저가 게임에 입장하거나 게임
+    //用户进入游戏或游戏
     public class UserGameStateItem : UserStateUpdateItem
     {
         public UserGameStateItem(long playerID, int state, int gameID) : base(playerID)

@@ -38,7 +38,7 @@ namespace UserNode
             {
                 _logger.Info("Database Proxy has been successfully initialized.");
 
-                //프라그마틱 프로모션정보를 관리하는 액터
+                //管理Pragmatic推广信息的Actor
                 _ppPromotionActor   = Context.System.ActorOf(Akka.Actor.Props.Create(() => new PPPromoActor()), "promofetcher");
 
                 _userManager        = Context.System.ActorOf(UserManager.Props(dbActors.Reader, dbActors.Writer), "userManager");
@@ -70,7 +70,7 @@ namespace UserNode
                 }
 
                 _logger.Info("Initializing database proxy...");
-                //자료기지련결부분을 초기화한다.
+                //初始化数据库连接部分。
                 _dbProxy = Context.System.ActorOf(DBProxy.Props(dbConfig), "dbproxy");
                 _dbProxy.Tell("initialize");               
             }

@@ -46,20 +46,20 @@ namespace SlotGamesNode.Database
                     {
                         await connection.OpenAsync();
 
-                        //프라그마틱게임들에서 유저의 플레이이력을 디비에 보관한다.
+                        //在Pragmatic游戏中，将用户的游戏记录保存在数据库中。
                         await insertPPGameHistory(connection);
                         await insertPPRecentGameHistory(connection);
 
-                        //부운고게임이력
+                        //富邦游戏历史
                         await insertBNGGameHistory(connection);
 
-                        //CQ9게임이력
+                        //CQ9游戏历史
                         await insertCQ9GameHistory(connection);
 
-                        //하바네로게임이력
+                        //哈巴内罗游戏历史
                         await insertHananeroHistory(connection);
 
-                        //플레이선게임이력
+                        //玩家游戏历史
                         await insertPlaysonGameHistory(connection);
                     }
                 }
@@ -131,7 +131,7 @@ namespace SlotGamesNode.Database
             {
                 _logger.Error("Exception has been occured in DBProxyWriteWorker::insertPPRecentGameHistory {0}", ex.ToString());
 
-                //기록에 실패한 항목들을 다시 넣는다.
+                //重新放入记录失败的条目。
                 if (historyItems != null && historyItems.Count > 0)
                     Context.Parent.Tell(historyItems);
 
@@ -174,7 +174,7 @@ namespace SlotGamesNode.Database
             {
                 _logger.Error("Exception has been occured in DBProxyWriteWorker::insertPPGameHistory {0}", ex.ToString());
 
-                //기록에 실패한 항목들을 다시 넣는다.
+                //重新放入记录失败的条目。
                 if (historyItems != null && historyItems.Count > 0)
                     Context.Parent.Tell(historyItems);
 
@@ -216,7 +216,7 @@ namespace SlotGamesNode.Database
             {
                 _logger.Error("Exception has been occured in DBProxyWriteWorker::insertBNGGameHistory {0}", ex.ToString());
 
-                //기록에 실패한 항목들을 다시 넣는다.
+                //重新放入记录失败的条目。
                 if (historyItems != null && historyItems.Count > 0)
                     Context.Parent.Tell(historyItems);
 
@@ -258,7 +258,7 @@ namespace SlotGamesNode.Database
             {
                 _logger.Error("Exception has been occured in DBProxyWriteWorker::insertCQ9GameHistory {0}", ex.ToString());
 
-                //기록에 실패한 항목들을 다시 넣는다.
+                //重新放入记录失败的条目。
                 if (historyItems != null && historyItems.Count > 0)
                     Context.Parent.Tell(historyItems);
 
@@ -300,7 +300,7 @@ namespace SlotGamesNode.Database
             {
                 _logger.Error("Exception has been occured in DBProxyWriteWorker::insertHabaneroGameHistory {0}", ex.ToString());
 
-                //기록에 실패한 항목들을 다시 넣는다.
+                //重新放入记录失败的条目。
                 if (historyItems != null && historyItems.Count > 0)
                     Context.Parent.Tell(historyItems);
 
@@ -343,7 +343,7 @@ namespace SlotGamesNode.Database
             {
                 _logger.Error("Exception has been occured in DBProxyWriteWorker::insertPlaysonGameHistory {0}", ex.ToString());
 
-                //기록에 실패한 항목들을 다시 넣는다.
+                //重新放入记录失败的条目。
                 if (historyItems != null && historyItems.Count > 0)
                     Context.Parent.Tell(historyItems);
 

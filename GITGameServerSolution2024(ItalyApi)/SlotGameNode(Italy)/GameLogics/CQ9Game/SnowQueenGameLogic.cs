@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class SnowQueenGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -73,7 +73,7 @@ namespace SlotGamesNode.GameLogics
                     "{\"lang\":\"en\",\"name\":\"Snow Queen\"}," +
                     "{\"lang\":\"th\",\"name\":\"ราชินีหิมะ\"}," +
                     "{\"lang\":\"es\",\"name\":\"Reina de la nieve\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"스노우 퀸\"}]";
+                    "{\"lang\":\"ko\",\"name\":\"雪女王\"}]";
             }
         }
         #endregion

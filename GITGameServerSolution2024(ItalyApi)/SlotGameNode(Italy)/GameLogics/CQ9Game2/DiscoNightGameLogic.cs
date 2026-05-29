@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
    
     class DiscoNightGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -71,7 +71,7 @@ namespace SlotGamesNode.GameLogics
                 return "[{\"lang\":\"en\",\"name\":\"DiscoNight\"}," +
                     "{\"lang\":\"es\",\"name\":\"Noche de discoteca\"}," +
                     "{\"lang\":\"ja\",\"name\":\"ディスコナイト\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"디스코나이트\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"迪斯科骑士\"}," +
                     "{\"lang\":\"th\",\"name\":\"เกมส์ดิสโก้ไนท์\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"蹦迪\"}]";
             }

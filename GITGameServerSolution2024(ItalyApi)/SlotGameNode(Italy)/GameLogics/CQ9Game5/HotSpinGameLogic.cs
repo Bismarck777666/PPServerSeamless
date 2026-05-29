@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class HotSpinGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Hot Spin\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"핫스핀\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"热旋转\"}," +
                     "{\"lang\":\"th\",\"name\":\"ล้อไฟลม\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"Giro Quente\"}," +
                     "{\"lang\":\"id\",\"name\":\"Putaran Seru\"}," +

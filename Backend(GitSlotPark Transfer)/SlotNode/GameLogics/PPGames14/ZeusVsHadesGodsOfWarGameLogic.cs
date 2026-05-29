@@ -46,7 +46,7 @@ namespace SlotGamesNode.GameLogics
         protected double[]      _multiTotalFreeSpinWinRates;
         protected double[]      _multiMinFreeSpinWinRates;
 
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -396,7 +396,7 @@ namespace SlotGamesNode.GameLogics
             _dicUserHistory[strGlobalUserID].baseBet = betInfo.TotalBet;
             _dicUserHistory[strGlobalUserID].win = spinResult.TotalWin;
 
-            //빈스핀인 경우이다.
+            //如果是免费旋转的情况。
             if (spinResult.NextAction == ActionTypes.DOSPIN)
                 return true;
 

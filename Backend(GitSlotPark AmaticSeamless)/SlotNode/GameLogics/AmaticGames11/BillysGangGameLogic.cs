@@ -18,7 +18,7 @@ namespace SlotGamesNode.GameLogics
 {
     class BillysGangGameLogic : BaseAmaticPurAnteGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -60,8 +60,8 @@ namespace SlotGamesNode.GameLogics
         #endregion
 
         protected const int     PurFreeCount    = 3;
-        protected double []                     _totalPurFreeWinRates   = new double[PurFreeCount]; //스핀디비안의 모든 프리스핀들의 배당평균값
-        protected double []                     _minPurFreeWinRates     = new double[PurFreeCount]; //구매금액의 20% - 50%사이에 들어가는 모든 프리스핀들의 평균배당값
+        protected double []                     _totalPurFreeWinRates   = new double[PurFreeCount]; //所有免费旋转在旋转数据库中的平均赔率值
+        protected double []                     _minPurFreeWinRates     = new double[PurFreeCount]; //购买金额的20% - 50%之间的所有免费旋转的平均赔率值
 
 
         public BillysGangGameLogic()

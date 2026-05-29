@@ -17,7 +17,7 @@ namespace QueenApiNode
             Logger currentClassLogger = LogManager.GetCurrentClassLogger();
             currentClassLogger.Info("Starting API Backend Service...");
 
-            //먼저 설정정보를 검사한다.
+            //首先检查配置信息。
             Config clusterConfig;
             try
             {
@@ -36,13 +36,13 @@ namespace QueenApiNode
                 return false;
             }
 
-            //먼저 설정파일에서 액터시스템의 이름을 얻는다.
+            //首先从配置文件中获取参与者系统的名称。
             string systemName = apiNodeConfig.GetString("actorsystem", "godgaming");
 
-            //액터시스템을 창조한다.
+            //创建参与者系统。
             _actorSystem    = ActorSystem.Create(systemName, clusterConfig);
             
-            //부트스트랩액터를 창조한다.
+            //创建引导参与者。
             _bootstrapActor = _actorSystem.ActorOf(BootstrapActor.Props(apiNodeConfig), "bootstrapper");
             _bootstrapActor.Tell("startService");
             return true;
@@ -63,7 +63,7 @@ namespace QueenApiNode
                 logger.Error("Exception has been occured in Stopping bootstrap actor {0}", ex.ToString());
             }
 
-            //클라스터에서 탈퇴한다.
+            //从集群中退出。
             logger.Info("Leaving from cluster....");
             Akka.Cluster.Cluster cluster = Akka.Cluster.Cluster.Get(_actorSystem);
             await cluster.LeaveAsync();

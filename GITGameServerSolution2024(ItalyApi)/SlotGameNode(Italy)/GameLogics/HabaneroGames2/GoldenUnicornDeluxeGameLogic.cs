@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
 {
     public class GoldenUnicornDeluxeGameLogic : BaseHabaneroSlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -63,12 +63,12 @@ namespace SlotGamesNode.GameLogics
             {
                 return new Dictionary<int, HabaneroLogSymbolIDName>()
                 {
-                    {1, new HabaneroLogSymbolIDName{id = "idWild",              name = "idWild"             } },    //와일드
-                    {2, new HabaneroLogSymbolIDName{id = "idWildGoldenUnicorn", name = "WildGoldenUnicorn"  } },    //골드유니콘
-                    {3, new HabaneroLogSymbolIDName{id = "idScatter",           name = "Scatter"            } },    //스캐터
-                    {4, new HabaneroLogSymbolIDName{id = "idChest",             name = "Chest"              } },    //박스
-                    {5, new HabaneroLogSymbolIDName{id = "idPrincess",          name = "Princess"           } },    //공주
-                    {6, new HabaneroLogSymbolIDName{id = "idBeetle",            name = "Beetle"             } },    //벌레
+                    {1, new HabaneroLogSymbolIDName{id = "idWild",              name = "idWild"             } },    //野
+                    {2, new HabaneroLogSymbolIDName{id = "idWildGoldenUnicorn", name = "WildGoldenUnicorn"  } },    //金独角兽
+                    {3, new HabaneroLogSymbolIDName{id = "idScatter",           name = "Scatter"            } },    //分散
+                    {4, new HabaneroLogSymbolIDName{id = "idChest",             name = "Chest"              } },    //箱子
+                    {5, new HabaneroLogSymbolIDName{id = "idPrincess",          name = "Princess"           } },    //公主
+                    {6, new HabaneroLogSymbolIDName{id = "idBeetle",            name = "Beetle"             } },    //虫子
                     {7, new HabaneroLogSymbolIDName{id = "idA",                 name = "A"                  } },    //A
                     {8, new HabaneroLogSymbolIDName{id = "idK",                 name = "K"                  } },    //K
                     {9, new HabaneroLogSymbolIDName{id = "idQ",                 name = "Q"                  } },    //Q
@@ -95,7 +95,7 @@ namespace SlotGamesNode.GameLogics
         }
         #endregion
 
-        //프리스핀구매기능이 있을떄만 필요하다. 디비안의 모든 프리스핀들의 오드별 아이디어레이
+        //仅在具有免费旋转购买功能时需要。数据库中所有免费旋转的赔率ID数组
         protected SortedDictionary<double, int[]>[] _totalFreeSpinOddIdses    = new SortedDictionary<double, int[]>[]
         {
             new SortedDictionary<double, int[]>(),
@@ -103,8 +103,8 @@ namespace SlotGamesNode.GameLogics
         };
         protected int[]           _freeSpinTotalCounts      = new int[] { 0, 0 };
         protected int[]           _minFreeSpinTotalCounts   = new int[] { 0, 0 };
-        protected double[]        _totalFreeSpinWinRates    = new double[] { 0.0, 0.0 }; //스핀디비안의 모든 프리스핀들의 배당평균값
-        protected double[]        _minFreeSpinWinRates      = new double[] { 0.0, 0.0 }; //구매금액의 20% - 50%사이에 들어가는 모든 프리스핀들의 평균배당값
+        protected double[]        _totalFreeSpinWinRates    = new double[] { 0.0, 0.0 }; //旋转数据库中所有免费旋转的赔付平均值
+        protected double[]        _minFreeSpinWinRates      = new double[] { 0.0, 0.0 }; //购买金额的20% - 50%之间的所有免费旋转的平均赔付值
 
         public GoldenUnicornDeluxeGameLogic()
         {

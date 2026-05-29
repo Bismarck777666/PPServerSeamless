@@ -17,10 +17,10 @@ using Newtonsoft.Json;
 
 namespace CommNode
 {
-    //로그인된 사용자를 표현하는 클라스 
+    //表示已登录用户的类
     public class UserActor : ReceiveActor
     {
-        #region 사용자정보
+        #region 用户信息
         private long                    _userDBID               = 0;
         private string                  _strUserID              = "";
         private string                  _strUserToken           = "";
@@ -41,13 +41,13 @@ namespace CommNode
         private string _strCountry = null;
         #endregion
 
-        #region 유저의 상태변수들       
+        #region 用户的状态变量
         private bool            _userDisconnected = false;
         private PlatformTypes   _platformType;
         private Dictionary<object, UserConnection> _userConnections = new Dictionary<object, UserConnection>();
         #endregion
 
-        #region 사용자의 각종 보너스정보
+        #region 用户的各种奖励信息
         private UserRangeOddEventItem   _userRangeOddEventItem;
         private List<UserBonus>         _waitingUserBonuses = new List<UserBonus>();
         #endregion
@@ -102,7 +102,7 @@ namespace CommNode
             ReceiveAsync<UserLoggedIn>              (onUserLoginSucceeded);
             ReceiveAsync<FromConnRevMessage>        (onProcMessage);
 
-            //소켓연결 추가/삭제처리
+            //套接字连接添加/删除处理
             Receive<SocketConnectionAdded>          (onProcSocketConnectionAdded);
             ReceiveAsync<SocketConnectionClosed>    (onProcSocketConnectionClosed);
 
@@ -130,7 +130,7 @@ namespace CommNode
         
         protected override void PreStart()
         {
-            Self.Tell(new UserLoggedIn());                                                  // 로그인성공후에 보낼 메세지들을 먼저 보낸다.
+            Self.Tell(new UserLoggedIn());                                                  // 登录成功后先发送要发送的消息。
             base.PreStart();
         }
         
@@ -148,14 +148,14 @@ namespace CommNode
             {
                 _agentRollingFees           = await _dbReader.Ask<Dictionary<int, double>>(new GetAgentRollingFees(_agentHierachy));
 
-                //유저온라인상태 갱신
+                //用户在线状态更新
                 _dbWriter.Tell(new UserLoginStateItem(_userDBID, (int)_platformType));
-                //유저에게 수여된 각종 보너스정보들을 디비에서 읽어서 전송한다.
+                //从数据库读取并发送授予用户的各种奖励信息。
                 _dbReader.Tell(new GetUserBonusItems(_strUserID));
 
                 _logger.Info("{0} has been logged in successfully {1}", _strUserID, _platformType);
 
-                //스코캐시를 검사한다.
+                //检查分数缓存。
                 if (!_isCheckedScoreCache)
                     await checkScoreCache();
 
@@ -167,7 +167,7 @@ namespace CommNode
             }
         }
 
-        //유저가 로그인 되는 동안 적용된 스코변화를 감지하여 적용한다.
+        //检测用户登录期间应用的分数变化并应用。
         private async Task checkScoreCache()
         {
             _isCheckedScoreCache = true;
@@ -203,12 +203,12 @@ namespace CommNode
             }
         }
 
-        #region 각종 사건처리부
+        #region 各种事件处理部
         private void onForceLogoutMessage(QuitUserMessage _)
         {
             GITMessage message = new GITMessage((ushort)CSMSG_CODE.CS_FORCEOUTUSER);
 
-            //모든 연결들에 통지한다.
+            //通知所有连接。
             for (int i = 0; i < _userConnections.Count; i++)
             {
                 object key = _userConnections.Keys.ElementAt(i);
@@ -236,11 +236,11 @@ namespace CommNode
             if (scoreID <= _lastScoreID)
                 return;
 
-            //게임머니갱신
+            //游戏币更新
             _lastScoreID = scoreID;
             _balance += score;
 
-            //게임로그추가
+            //添加游戏日志
             _dbWriter.Tell(new GameLogItem(_strUserID, 0, "setscore", "", 0.0, 0.0, _balance - score, _balance, "", DateTime.UtcNow));
 
         }
@@ -285,10 +285,10 @@ namespace CommNode
 
             _userConnections.Remove(userConn.Connection);
 
-            //유저의 모든 연결이 다 끊어졌다면
+            //如果用户的所有连接都已断开
             if (_userConnections.Count == 0)
             {
-                //디비에서 플레이어 상태갱신
+                //从数据库更新玩家状态
                 _dbWriter.Tell(new UserGameStateItem(_userDBID, 0, lastGameID));
 
                 //Changed by Foresight(2019.09.27)
@@ -314,7 +314,7 @@ namespace CommNode
             try
             {
 
-                //만일 이미 게임에 입장한 상태라면 
+                //如果已经进入游戏状态
                 IActorRef connection = Sender;
 
                 if (!_userConnections.ContainsKey(connection))
@@ -330,10 +330,10 @@ namespace CommNode
         }
         #endregion
 
-        #region 메세지처리함수들
+        #region 消息处理函数
         private async Task onProcMessage(FromConnRevMessage fromConnRevMsg)
         {
-            //이미 로그아웃된 유저에 한해서 모든 메세지처리를 무시한다.
+            //仅针对已注销的用户忽略所有消息处理。
             if (_userDisconnected)
                 return;
 
@@ -346,7 +346,7 @@ namespace CommNode
             {
                 userConn.LastActiveTime = DateTime.Now;
 
-                //소켓연결인 경우에만 하트비트응답을 보낸다.
+                //仅在套接字连接的情况下发送心跳响应。
                 if (userConn.Connection is IActorRef)
                 {
                     GITMessage responseMessage = new GITMessage((ushort)CSMSG_CODE.CS_HEARTBEAT);
@@ -381,7 +381,7 @@ namespace CommNode
             int      gameID     = (int)(ushort)message.Pop();
             GameProviders gameType   = DBMonitorSnapshot.Instance.getGameType(gameID);
 
-            //등록된 게임아이디가 아님
+            //不是已注册的游戏ID
             if (gameType == GameProviders.NONE)
             {
                 _logger.Warning("{0} tried to enter game for not registered game id {1}", _strUserID, (int)gameID);
@@ -389,16 +389,16 @@ namespace CommNode
                 return;
             }
 
-            //이미 게임에 입장함
+            //已经进入游戏
             if (userConn.GameActor != null && userConn.GameID != gameID)
             {
-                //이미 다른 게임에 입장하였다면
+                //如果已经进入了其他游戏
                 _logger.Warning("{0} tried to enter game while it has already been entered to other game", _strUserID);
                 Sender.Tell("closeConnection");
                 return;
             }
 
-            //이미 해당게임에 입장하였다면 처리를 진행하지 않는다.
+            //如果已经进入了该游戏，则不进行处理。
 
             bool enterGameSucceeded = false;
             if (userConn.GameActor != null && userConn.GameID == gameID)
@@ -407,7 +407,7 @@ namespace CommNode
             }
             else if (userConn.GameActor == null)
             {
-                //같은 게임에 입장한 연결이 있는가를 검사한다.
+                //检查是否有进入同一游戏的连接。
                 UserConnection oldConn = null;
                 foreach (KeyValuePair<object, UserConnection> pair in _userConnections)
                 {
@@ -418,7 +418,7 @@ namespace CommNode
                     }
                 }
 
-                //원래의 연결을 비활성화시키고 새 연결에로 게임정보를 이관한다.
+                //禁用原有连接，并将游戏信息转移到新连接。
                 if (oldConn != null)
                 {
                     userConn.GameActor  = oldConn.GameActor;
@@ -439,7 +439,7 @@ namespace CommNode
                         {
                             EnterGameRequest requestMsg = new EnterGameRequest(gameID, _strUserID, Self);
                             EnterGameResponse responseMsg = await Context.System.ActorSelection(Constants.SlotGameRouterPath).Ask<EnterGameResponse>(requestMsg, Constants.RemoteTimeOut);
-                            //게임입장성공
+                            //进入游戏成功
                             if (responseMsg.Ack == 0)
                             {
                                 userConn.GameActor  = responseMsg.GameActor;
@@ -447,7 +447,7 @@ namespace CommNode
                                 userConn.GameType   = gameType;
                                 enterGameSucceeded  = true;
 
-                                //유저상태갱신(게임입장)
+                                //更新用户状态（进入游戏）
                                 _dbWriter.Tell(new UserGameStateItem(_userDBID, 2, (int)gameID));
                             }
                         }
@@ -459,7 +459,7 @@ namespace CommNode
                 }
             }
    
-            //방입장결과메세지를 클라이언트에 보낸다.
+            //向客户端发送进入房间结果消息。
             GITMessage enterResponseMessage = new GITMessage((ushort)SCMSG_CODE.SC_ENTERGAME);
             enterResponseMessage.Append(enterGameSucceeded ? (byte)0 : (byte)1);
             Sender.Tell(new SendMessageToUser(enterResponseMessage, _balance));
@@ -467,11 +467,11 @@ namespace CommNode
         
         private async Task procSlotGameMsg(GITMessage message, UserConnection userConn)
         {
-            //게임에 입장한 상태가 아니라면
+            //如果不是进入游戏的状态
             if (userConn.GameActor == null || userConn.GameType == GameProviders.NONE)
             {
                 if (userConn.IsHttpSession)
-                    Sender.Tell("invalidaction"); //유저의 고의적인 액션    
+                    Sender.Tell("invalidaction"); //用户的故意动作
                 return;
             }
 
@@ -488,7 +488,7 @@ namespace CommNode
                     _strUserID, userConn.GameID, message.MsgCode, ex);
             }
 
-            //만일 메세지수신에 성공했다면 
+            //如果消息接收成功的话
             if (toUserMessage != null)
             {
                 await procToUserMessage(toUserMessage as ToUserMessage, waitingBonus, message, userConn);
@@ -502,16 +502,16 @@ namespace CommNode
         
         private async Task procToUserMessage(ToUserMessage message, UserBonus askedBonus, GITMessage gameMessage, UserConnection userConn)
         {           
-            //만일 게임결과처리와 관련된 메세지라면
+            //如果是与游戏结果处理相关的消息
             if (message is ToUserResultMessage)
             {
                 await processResultMessage(message as ToUserResultMessage);
             }
 
-            //만일 요청한 보너스를 처리했다면 
+            //如果处理了请求的奖励的话
             if (askedBonus != null && message.IsRewardedBonus)
             {
-                //대기목록에서 삭제한다.
+                //从等待列表中删除。
                 _waitingUserBonuses.Remove(askedBonus);
                 onRewardCompleted(askedBonus, message.RewardBonusMoney, message.GameID);
             }
@@ -521,7 +521,7 @@ namespace CommNode
                 {
                     Sender.Tell(new SendMessageToUser(message.Messages[i], _balance));
 
-                    //HTTP세션인 경우 1개의 응답메세지만을 보낼수 있다.
+                    //如果是HTTP会话，只能发送1个响应消息。
                     if (userConn.IsHttpSession)
                         break;
                 }
@@ -530,14 +530,14 @@ namespace CommNode
         
         private void addRolling(int gameID, double betMoney)
         {
-            //1. 유저롤링
+            //1. 用户滚动
             double rollingPoint = betMoney * _rollingPer / 100.0;
             if (rollingPoint > 0.0)
                 _dbWriter.Tell(new UserRollingAdded(_userDBID, rollingPoint));
 
             double prevRollingPer = _rollingPer;
 
-            //2. 업체롤링(운영본사까지만 롤링을 적립한다..)
+            //2. 商家滚动（仅累积到运营总公司为止。）
             for(int i = _agentHierachy.Count -1; i >= 1; i--)
             {
                 int     agentID     = _agentHierachy[i];
@@ -558,12 +558,12 @@ namespace CommNode
                     prevRollingPer = rollPercent;
             }
 
-            //게임롤링
+            //游戏滚动
             DateTime nowTime   = DateTime.Now;
             DateTime dateTime  = new DateTime(nowTime.Year, nowTime.Month, nowTime.Day);
 
             if(betMoney > 0.0 && _companyID > 0)
-                _dbWriter.Tell(new GameReportItem(gameID, _companyID, betMoney, dateTime));              //게임리포트갱신
+                _dbWriter.Tell(new GameReportItem(gameID, _companyID, betMoney, dateTime));              //游戏报告更新
 
             if (betMoney > 0.0)
                 _dbWriter.Tell(new UserBetMoneyUpdateItem(_userDBID, betMoney));
@@ -579,7 +579,7 @@ namespace CommNode
             {
                 ToUserSpecialResultMessage specialResultMsg = resultMessage as ToUserSpecialResultMessage;
 
-                //보유머니를 검사한다.
+                //检查持有金额。
                 double betMoney     = Math.Round(specialResultMsg.BetMoney, 2);
                 double realBet      = Math.Round(specialResultMsg.RealBet,  2);
                 double winMoney     = Math.Round(specialResultMsg.WinMoney, 2);
@@ -589,42 +589,42 @@ namespace CommNode
 
                 if (specialResultMsg.IsJustBet)
                 {
-                    //보유머니를 갱신한다.
+                    //更新持有金额。
                     _balance -= realBet;
                     turnover  = realBet;
 
-                    //디비를 갱신한다.
-                    _dbWriter.Tell(new PlayerBalanceUpdateItem(_userDBID, -realBet));                                                      //유저머니갱신
+                    //更新数据库。
+                    _dbWriter.Tell(new PlayerBalanceUpdateItem(_userDBID, -realBet));                                                      //用户金额更新
 #if FORTEST
-                    //테스트유저방식인 경우 리포트갱신을 하지 않는다
+                    //测试用户方式不更新报告
 #else
-                    _dbWriter.Tell(new ReportUpdateItem(_strUserID, _agentDBID, nowHourReportTime, realBet, 0.0, turnover2));              //리포트갱신
-                    addRolling((int)specialResultMsg.GameID, realBet);    //롤링적립
+                    _dbWriter.Tell(new ReportUpdateItem(_strUserID, _agentDBID, nowHourReportTime, realBet, 0.0, turnover2));              //报告更新
+                    addRolling((int)specialResultMsg.GameID, realBet);    //滚动累积
 #endif
                 }
                 else
                 {
-                    //보유머니를 갱신한다.
+                    //更新持有金额。
                     double beforeBalance     = _balance + (betMoney - realBet);
                     _balance                += (winMoney - realBet);
                     turnover                 = realBet;
 
-                    //디비를 갱신한다.
-                    _dbWriter.Tell(new PlayerBalanceUpdateItem(_userDBID, winMoney - realBet));                                                   //유저머니갱신
+                    //更新数据库。
+                    _dbWriter.Tell(new PlayerBalanceUpdateItem(_userDBID, winMoney - realBet));                                                   //用户金额更新
 #if FORTEST
-                    //테스트유저방식인 경우 리포트갱신과 게임로그추가를 하지 않는다
+                    //测试用户方式不更新报告和添加游戏日志
 #else
-                    _dbWriter.Tell(new ReportUpdateItem(_strUserID, _agentDBID, nowHourReportTime, realBet, winMoney, turnover2));            //리포트갱신
-                    _dbWriter.Tell(new GameLogItem(_strUserID, (int)specialResultMsg.GameID, specialResultMsg.GameLog.GameName, specialResultMsg.GameLog.TableName,                 //게임로그추가
+                    _dbWriter.Tell(new ReportUpdateItem(_strUserID, _agentDBID, nowHourReportTime, realBet, winMoney, turnover2));            //报告更新
+                    _dbWriter.Tell(new GameLogItem(_strUserID, (int)specialResultMsg.GameID, specialResultMsg.GameLog.GameName, specialResultMsg.GameLog.TableName,                 //添加游戏日志
                         betMoney, winMoney, beforeBalance, _balance, specialResultMsg.GameLog.LogString, nowReportTime));
 
-                    addRolling((int)specialResultMsg.GameID, realBet);    //롤링적립
+                    addRolling((int)specialResultMsg.GameID, realBet);    //滚动累积
 #endif
                 }
             }
             else
             {
-                //보유머니를 검사한다.
+                //检查持有金额。
 
                 double betMoney  = Math.Round(resultMessage.BetMoney, 2);
                 double winMoney  = Math.Round(resultMessage.WinMoney, 2);
@@ -632,19 +632,19 @@ namespace CommNode
                 if (_balance.LT(betMoney, _epsilion))
                     return false;
 
-                //보유머니를 갱신한다.
+                //更新持有资金。
                 double beforeBalance = _balance;
                 _balance  += (winMoney - betMoney);
                 turnover   = turnover2;
 
-                //디비를 갱신한다.
-                _dbWriter.Tell(new PlayerBalanceUpdateItem(_userDBID, winMoney - betMoney));                                                            //유저머니갱신
-                _dbWriter.Tell(new ReportUpdateItem(_strUserID, _agentDBID, nowHourReportTime, betMoney, winMoney, turnover2));                         //리포트갱신
-                addRolling((int)resultMessage.GameID, betMoney);                                                                                                                   //롤링적립
+                //更新数据库。
+                _dbWriter.Tell(new PlayerBalanceUpdateItem(_userDBID, winMoney - betMoney));                                                            //用户资金更新
+                _dbWriter.Tell(new ReportUpdateItem(_strUserID, _agentDBID, nowHourReportTime, betMoney, winMoney, turnover2));                         //报告更新
+                addRolling((int)resultMessage.GameID, betMoney);                                                                                                                   //滚动积分
 
                 string strTableName = resultMessage.GameLog.TableName;
 
-                _dbWriter.Tell(new GameLogItem(_strUserID, (int)resultMessage.GameID, resultMessage.GameLog.GameName, strTableName,                      //게임로그추가
+                _dbWriter.Tell(new GameLogItem(_strUserID, (int)resultMessage.GameID, resultMessage.GameLog.GameName, strTableName,                      //游戏日志添加
                 betMoney, winMoney, beforeBalance, _balance, resultMessage.GameLog.LogString, nowReportTime));
             }
             return true;
@@ -668,7 +668,7 @@ namespace CommNode
 
         private async Task replaceSlotGameNode(string strSlotNodePath, UserConnection userConn)
         {
-            //해당 슬롯게임노드가 shutdown 되므로 다른 노드에 가입한다.
+            //该老虎机游戏节点已关闭，因此加入其他节点。
             int remainServerCount = 0;
             try
             {
@@ -701,11 +701,11 @@ namespace CommNode
                     return;
                 }
 
-                //다른 슬롯게임노드에 입장한다.
+                //进入其他老虎机游戏节点。
                 EnterGameRequest requestMsg   = new EnterGameRequest(userConn.GameID, _strUserID, Self, false);
                 EnterGameResponse responseMsg = await Context.System.ActorSelection(Constants.SlotGameRouterPath).Ask<EnterGameResponse>(requestMsg, Constants.RemoteTimeOut);
 
-                //게임입장성공
+                //游戏进入成功
                 if (responseMsg.Ack == 0)
                     userConn.GameActor = responseMsg.GameActor;
 
@@ -736,7 +736,7 @@ namespace CommNode
             }            
         }
 
-        #region 보너스처리관련 함수들
+        #region 奖金处理相关函数
         private void onRewardCompleted(UserBonus completedBonus, double rewardedMoney, int gameID)
         {
             if(completedBonus is UserRangeOddEventBonus)
@@ -778,14 +778,14 @@ namespace CommNode
         }
         #endregion
 
-        //유저의 연결객체(tcp, websocket, http session)
+        //用户的连接对象(tcp, websocket, http session)
         public class UserConnection
         {
-            public object           Connection      { get; set; } //socket연결: IActorRef, http세션: string
-            public IActorRef        GameActor       { get; set; } //입장한 게임액터(null: 게임에 입장하지 않은 상태)
-            public int              GameID          { get; set; } //입장한 게임아이디(0: 게임에 입장하지 않은 상태)
-            public GameProviders    GameType        { get; set; } //입장한 게임유형
-            public DateTime         LastActiveTime  { get; set; } //유저가 마지막으로 서버와 접촉한 시간
+            public object           Connection      { get; set; } //socket连接: IActorRef, http会话: string
+            public IActorRef        GameActor       { get; set; } //进入的游戏Actor(null: 未进入游戏的状态)
+            public int              GameID          { get; set; } //进入的游戏ID(0: 未进入游戏的状态)
+            public GameProviders    GameType        { get; set; } //进入的游戏类型
+            public DateTime         LastActiveTime  { get; set; } //用户最后一次与服务器接触的时间
 
             public bool IsHttpSession
             {

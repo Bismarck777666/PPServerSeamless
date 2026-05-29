@@ -22,7 +22,7 @@ namespace UserNode.Database
         {
             _strConnString = strConnString;
 
-            //유저로그인 요청을 처리한다.
+            //处理用户登录请求。
             ReceiveAsync<UserOfflineStateItem>              (onUserOfflineUpdate);
             ReceiveAsync<PGBetHistoryRequest>               (onPGGetBetHistoryItems);
             ReceiveAsync<PGBetSummaryRequest>               (onPGBetSummaryRequest);

@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class SummerMoodGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Summer Mood\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"섬머 무드\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"夏日心情\"}," +
                     "{\"lang\":\"th\",\"name\":\"กอริลลาซัมเมอร์\"}," +
                     "{\"lang\":\"id\",\"name\":\"Gorilla Summer\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"Humor de Verão\"}," +

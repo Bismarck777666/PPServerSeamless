@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class OoGaChaKaGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Oo Ga Cha Ka\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"오가차\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"奥加查\"}," +
                     "{\"lang\":\"th\",\"name\":\"อู กา ชา ก้า\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"呜嘎吓嘎\"}]";
             }

@@ -31,7 +31,7 @@ namespace SlotGamesNode.GameLogics
 
         protected static RealExtensions.Epsilon _epsilion           = new RealExtensions.Epsilon(0.001);
         
-        #region 보너스정보
+        #region 奖励信息
         protected GITMessage    _bonusSendMessage;
         protected double        _rewardedBonusMoney;
         protected bool          _isRewardedBonus;
@@ -104,7 +104,7 @@ namespace SlotGamesNode.GameLogics
         }
         private async Task onProcMessage(FromUserMessage message)
         {
-            //보너스정보들을 초기화한다.
+            //初始化奖励信息。
             _bonusSendMessage   = null;
             _isRewardedBonus    = false;
             _rewardedBonusMoney = 0.0;

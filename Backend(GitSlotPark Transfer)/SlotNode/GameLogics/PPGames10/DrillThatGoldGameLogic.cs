@@ -20,7 +20,7 @@ namespace SlotGamesNode.GameLogics
         protected int _emptySpinCount2      = 0;
         protected int _anteStartID          = 0;
 
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get

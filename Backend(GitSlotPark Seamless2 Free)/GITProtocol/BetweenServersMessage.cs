@@ -11,7 +11,7 @@ using Newtonsoft.Json;
 /**
  * 
  *      Created by Foresight(2021.03.03)
- *      솔루션의 서버노드들사이에 교환되는 메세지들
+ *      解决方案的服务器节点之间交换的消息
  *
  */
 
@@ -73,7 +73,7 @@ namespace GITProtocol
         }
     }
 
-    //게임입장요청메세지
+    //游戏入场请求消息
     public class EnterGameRequest
     {
         public int          AgentID     { get; private set; }
@@ -91,13 +91,13 @@ namespace GITProtocol
         }
     }
 
-    //게임입장응답메세지
+    //游戏入场响应消息
     public class EnterGameResponse
     {
         public IActorRef GameActor { get; private set; }
         public int GameID { get; private set; }
-        public int Ack { get; private set; }       //0: 입장성공, 기타: 입장실패
-        public List<GITMessage> SubMessages { get; private set; }       //게임입장후에 서버에서 유저에게 보낼 메세지들
+        public int Ack { get; private set; }       //0: 入场成功，其他: 入场失败
+        public List<GITMessage> SubMessages { get; private set; }       //游戏入场后服务器发送给用户的消息列表
 
         public EnterGameResponse(int gameID, IActorRef gameActor, int ack)
         {
@@ -108,13 +108,13 @@ namespace GITProtocol
         }
     }
 
-    //게임탈퇴요청메세지
+    //游戏退出请求消息
     public class ExitGameRequest
     {
         public string   UserID           { get; private set; }
         public int      WebsiteID        { get; private set; }
         public double   Balance          { get; private set; }
-        public bool     UserRequested    { get; private set; }       //유저요청에 의한것인가? 아님 게임서버노드의 shutdown으로 인한것인가?
+        public bool     UserRequested    { get; private set; }       //是由用户请求引起的？还是游戏服务器节点的shutdown引起的？
         public bool     IsNewServerReady { get; private set; }
 
         public ExitGameRequest(string userID, int websiteID, double balance, bool userRequested, bool isNewServerReady)
@@ -127,7 +127,7 @@ namespace GITProtocol
         }
     }
 
-    //게임탙퇴응답메세지
+    //游戏退出响应消息
     public class ExitGameResponse
     {
 
@@ -148,13 +148,13 @@ namespace GITProtocol
 
     public class FromUserMessage
     {
-        public string       UserID          { get; private set; }   //유저아이디
-        public int          WebsiteID       { get; private set; }   //웹사이트아이디
-        public GITMessage   Message         { get; private set; }   //클라에서 보낸 메세지
-        public UserBonus    Bonus           { get; private set; }   //유저에게 할당된 보너스정보
-        public double       UserBalance     { get; private set; }   //유저잔고
-        public IActorRef    UserActor       { get; private set; }   //유저액터
-        public Currencies   Currency        { get; private set; }   //유저의 화페단위
+        public string       UserID          { get; private set; }   //用户ID
+        public int          WebsiteID       { get; private set; }   //网站ID
+        public GITMessage   Message         { get; private set; }   //客户端发送的消息
+        public UserBonus    Bonus           { get; private set; }   //分配给用户的奖励信息
+        public double       UserBalance     { get; private set; }   //用户余额
+        public IActorRef    UserActor       { get; private set; }   //用户角色
+        public Currencies   Currency        { get; private set; }   //用户的货币单位
         public bool         IsAffiliate     { get; private set; }
         public FromUserMessage(string strUserID, int websiteID, double userBalance, IActorRef userActor, GITMessage message, UserBonus bonus, Currencies currency, bool isAffiliate)
         {
@@ -738,7 +738,7 @@ namespace GITProtocol
         UYU     = 25,   // 10
         LBP     = 26,   // 50000
         IQD     = 27,   // 1000
-        PHP     = 28,   // 1(특수최대)
+        PHP     = 28,   // 1(特殊最大)
         EGP     = 29,   // 50
         AZN     = 30,   // 1
         PKR     = 31,   // 100

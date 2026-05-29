@@ -197,7 +197,7 @@ namespace UserNode.Database
                 {
                     await connection.OpenAsync();
 
-                    //싱글게임설정을 감시한다.
+                    //监视单人游戏设置。
                     string strQuery = "SELECT gameid, gametype, openclose, gamesymbol, updatetime FROM gameconfigs WHERE updatetime > @updatetime ORDER BY updatetime";
                     SqlCommand command = new SqlCommand(strQuery, connection);
                     command.Parameters.AddWithValue("@updatetime", DBMonitorSnapshot.Instance.GameConfigUpdateTime);

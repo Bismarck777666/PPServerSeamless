@@ -46,7 +46,7 @@ namespace SlotGamesNode.Database
                     {
                         await connection.OpenAsync();
 
-                        //프라그마틱게임들에서 유저의 플레이이력을 디비에 보관한다.
+                        //在Pragmatic游戏中，将用户的游戏记录保存在数据库中。
                         await insertPPGameHistory(connection);
                         await insertPPRecentGameHistory(connection);
                         await updatePayoutPoolStatus(connection);
@@ -104,7 +104,7 @@ namespace SlotGamesNode.Database
                     dataTable.Rows.Add(item.AgentID, item.UserName, item.GameID, item.Balance, item.Bet, item.Win,  item.DetailLog, item.DateTime, item.Currency);
 
 
-                //디버깅로그용
+                //用于调试日志
                 //_logger.Info("DBProxyWriteWorker::insertPPRecentGameHistory Count : {0}", dataTable.Rows.Count);
 
                 SqlCommand command = new SqlCommand("UpsertPPUserRecentGameLog", connection);
@@ -117,7 +117,7 @@ namespace SlotGamesNode.Database
             {
                 _logger.Error("Exception has been occured in DBProxyWriteWorker::insertPPRecentGameHistory {0}", ex.ToString());
 
-                //기록에 실패한 항목들을 다시 넣는다.
+                //重新放入记录失败的条目。
                 if (historyItems != null && historyItems.Count > 0)
                     Context.Parent.Tell(historyItems);
 
@@ -159,7 +159,7 @@ namespace SlotGamesNode.Database
             {
                 _logger.Error("Exception has been occured in DBProxyWriteWorker::insertPPGameHistory {0}", ex.ToString());
 
-                //기록에 실패한 항목들을 다시 넣는다.
+                //重新放入记录失败的条目。
                 if (historyItems != null && historyItems.Count > 0)
                     Context.Parent.Tell(historyItems);
 

@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
    
     class CricketFeverGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{ \"lang\": \"th\", \"name\": \"คริกเก็ตบ้าคลั่ง\"}," + 
-                        "{ \"lang\": \"ko\", \"name\": \"크리켓 열병\"}," +
+                        "{ \"lang\": \"ko\", \"name\": \"板球狂热\"}," +
                         "{ \"lang\": \"zh-cn\", \"name\": \"板球狂热\"}," +
                         "{ \"lang\": \"en\", \"name\": \"Cricket Fever\"}]";
             }

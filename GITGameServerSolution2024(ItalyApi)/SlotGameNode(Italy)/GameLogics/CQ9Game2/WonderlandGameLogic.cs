@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
    
     class WonderlandGameLogic : BaseSelFreeCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -77,7 +77,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Wonderland\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"이상한 나라\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"奇怪的国度\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"País das Maravilhas\"}," +
                     "{\"lang\":\"th\",\"name\":\"แดนมหัศจรรย์\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"梦游仙境\"}]";

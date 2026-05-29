@@ -79,7 +79,7 @@ namespace PromoNode.Database
                 {
                     await connection.OpenAsync();
 
-                    //1. 진행중인 토너먼트가 있는가를 검사한다.
+                    //1. 检查是否有正在进行的锦标赛。
                     string      strQuery    = "SELECT * FROM pptournaments WHERE status=@status";
                     SqlCommand  command     = new SqlCommand(strQuery, connection);
                     command.Parameters.AddWithValue("@status", "O");
@@ -97,7 +97,7 @@ namespace PromoNode.Database
                         }
                     }
 
-                    //2. 마지막으로 종료된 토너먼트를 구한다.
+                    //2. 获取最后结束的锦标赛。
                     strQuery = "SELECT * FROM pptournaments WHERE (status=@statusC OR status=@statusCO) AND enddate > @fromlimittime ORDER BY enddate DESC";
                     command = new SqlCommand(strQuery, connection);
                     command.Parameters.AddWithValue("@statusC", "C");
@@ -116,14 +116,14 @@ namespace PromoNode.Database
                         }
                     }
 
-                    //토너먼트가 끝났으면 즉시 상태을 정산됨으로 해준다
+                    //锦标赛结束后立即将状态设为已结算
                     foreach(PPTournament item in lastTournaments)
                     {
                         if (item.status == "C")
                             await updateTournamentStatusCompleted(connection, item.id);
                     }
 
-                    //3. 이제 시작될 토너먼트를 얻는다.
+                    //3. 获取即将开始的锦标赛。
                     strQuery = "SELECT * FROM pptournaments WHERE status=@status AND startdate < @tolimittime ORDER BY startdate";
                     command = new SqlCommand(strQuery, connection);
                     command.Parameters.AddWithValue("@status", "S");
@@ -431,7 +431,7 @@ namespace PromoNode.Database
                 {
                     await connection.OpenAsync();
 
-                    //1. 진행중인 레이스가 있는가를 검사한다.
+                    //1. 检查是否有正在进行的比赛。
                     string strQuery = "SELECT * FROM ppraces WHERE status=@status";
                     SqlCommand command = new SqlCommand(strQuery, connection);
                     command.Parameters.AddWithValue("@currenttime", DateTime.UtcNow);
@@ -450,7 +450,7 @@ namespace PromoNode.Database
                         }
                     }
 
-                    //2. 마지막으로 종료된 레이스를 구한다.
+                    //2. 获取最后结束的比赛。
                     strQuery = "SELECT * FROM ppraces WHERE status=@status AND enddate > @fromlimittime ORDER BY enddate DESC";
                     command = new SqlCommand(strQuery, connection);
                     command.Parameters.AddWithValue("@status", "C");
@@ -467,7 +467,7 @@ namespace PromoNode.Database
                         }
                     }
 
-                    //3. 이제 시작될 레이스를 얻는다.
+                    //3. 获取即将开始的比赛。
                     strQuery = "SELECT * FROM ppraces WHERE status=@status AND startdate < @tolimittime ORDER BY startdate";
                     command = new SqlCommand(strQuery, connection);
                     command.Parameters.AddWithValue("@status", "S");
@@ -590,7 +590,7 @@ namespace PromoNode.Database
                 {
                     await connection.OpenAsync();
 
-                    //1. 진행중인 레이스가 있는가를 검사한다.
+                    //1. 检查是否有正在进行的比赛。
                     string strQuery = "SELECT * FROM ppcashbacks WHERE status=@status";
                     SqlCommand command = new SqlCommand(strQuery, connection);
                     command.Parameters.AddWithValue("@currenttime", DateTime.UtcNow);
@@ -609,7 +609,7 @@ namespace PromoNode.Database
                         }
                     }
 
-                    //2. 마지막으로 종료된 레이스를 구한다.
+                    //2. 获取最后结束的比赛。
                     strQuery = "SELECT * FROM ppcashbacks WHERE status=@status AND enddate > @fromlimittime ORDER BY enddate DESC";
                     command = new SqlCommand(strQuery, connection);
                     command.Parameters.AddWithValue("@status", "C");
@@ -626,7 +626,7 @@ namespace PromoNode.Database
                         }
                     }
 
-                    //3. 이제 시작될 레이스를 얻는다.
+                    //3. 获取即将开始的比赛。
                     strQuery = "SELECT * FROM ppcashbacks WHERE status=@status AND startdate < @tolimittime ORDER BY startdate";
                     command = new SqlCommand(strQuery, connection);
                     command.Parameters.AddWithValue("@status", "S");

@@ -55,7 +55,7 @@ namespace SlotGamesNode.GameLogics
         private List<GambleOdd> _minGambleOdds      = new List<GambleOdd>();
         private double          _totalGambleOdd     = 0.0;
         private double          _minGambleOdd       = 0.0;
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -153,7 +153,7 @@ namespace SlotGamesNode.GameLogics
                 BasePPActionToResponse nextResponse = betInfo.pullRemainResponse();
                 result = calculateResult(betInfo, nextResponse.Response, false, freeSpinInfo);
 
-                //프리게임이 끝났는지를 검사한다.
+                //检查免费游戏是否结束。
                 if (!betInfo.HasRemainResponse)
                 {
                     betInfo.RemainReponses = null;
@@ -162,7 +162,7 @@ namespace SlotGamesNode.GameLogics
                 return result;
             }
 
-            //유저의 총 베팅액을 얻는다.
+            //获取用户的总投注额。
             float   totalBet        = betInfo.TotalBet;
             double  realBetMoney    = totalBet;
 
@@ -174,7 +174,7 @@ namespace SlotGamesNode.GameLogics
 
             spinData = await selectRandomStop(websiteID, userBonus, totalBet, false, betInfo, isAffiliate);
 
-            //첫자료를 가지고 결과를 계산한다.
+            //用第一份数据计算结果。
             double totalWin = totalBet * spinData.SpinOdd;
             if (isAffiliate || (freeSpinInfo != null) || !usePayLimit || spinData.IsEvent || await checkWebsitePayoutRate(websiteID, realBetMoney, totalWin))
             {
@@ -207,7 +207,7 @@ namespace SlotGamesNode.GameLogics
                 result = calculateResult(betInfo, spinData.SpinStrings[0], true, freeSpinInfo);
                 emptyWin = totalBet * spinData.SpinOdd;
 
-                //뒤에 응답자료가 또 있다면
+                //如果后面还有响应数据
                 if (spinData.SpinStrings.Count > 1)
                     betInfo.RemainReponses = buildResponseList(spinData.SpinStrings);
             }
@@ -397,7 +397,7 @@ namespace SlotGamesNode.GameLogics
                 SpiritOfAdventureResult spinResult = new SpiritOfAdventureResult();
                 Dictionary<string, string> dicParams = splitResponseToParams(strSpinResponse);
 
-                //모든 당첨값들을 현재의 베팅금액상태로 전환한다.
+                //将所有中奖值转换为当前的下注金额状态。
                 convertWinsByBet(dicParams, betInfo.TotalBet);
                 convertBetsByBet(dicParams, betInfo.BetPerLine, betInfo.TotalBet);
 
@@ -506,7 +506,7 @@ namespace SlotGamesNode.GameLogics
                         string strResponse = convertKeyValuesToString(dicParams);
 
                         responseMessage.Append(strResponse);
-                        //히스토리보관 및 초기화
+                        //历史保管及初始化
                         if (_dicUserHistory.ContainsKey(strGlobalUserID) && _dicUserHistory[strGlobalUserID].log.Count > 0)
                             addIndActionHistory(strGlobalUserID, "doBonus", strResponse, index, counter, ind);
 
@@ -570,8 +570,8 @@ namespace SlotGamesNode.GameLogics
 
         protected override void addDefaultParams(Dictionary<string, string> dicParams, double userBalance, int index, int counter)
         {
-            dicParams["balance"] = Math.Round(userBalance, 2).ToString();        //밸런스
-            dicParams["balance_cash"] = Math.Round(userBalance, 2).ToString();        //밸런스
+            dicParams["balance"] = Math.Round(userBalance, 2).ToString();        //余额
+            dicParams["balance_cash"] = Math.Round(userBalance, 2).ToString();        //余额
             dicParams["balance_bonus"] = "0.0";
             dicParams["stime"] = GameUtils.GetCurrentUnixTimestampMillis().ToString();
             dicParams["index"] = index.ToString();
@@ -611,8 +611,8 @@ namespace SlotGamesNode.GameLogics
                 dicParams["na"] = convertActionTypeToString(spinResult.NextAction);
             }
 
-            dicParams["balance"] = Math.Round(userBalance - (isInit ? 0.0 : betMoney), 2).ToString();        //밸런스
-            dicParams["balance_cash"] = Math.Round(userBalance - (isInit ? 0.0 : betMoney), 2).ToString();        //밸런스케시
+            dicParams["balance"] = Math.Round(userBalance - (isInit ? 0.0 : betMoney), 2).ToString();        //余额
+            dicParams["balance_cash"] = Math.Round(userBalance - (isInit ? 0.0 : betMoney), 2).ToString();        //余额现金
 
             if (SupportPurchaseFree && betInfo.PurchaseFree)
                 dicParams["puri"] = "0";

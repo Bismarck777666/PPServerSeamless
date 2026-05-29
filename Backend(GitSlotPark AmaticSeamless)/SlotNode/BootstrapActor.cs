@@ -45,9 +45,9 @@ namespace SlotGamesNode
         {
             _logger.Info("Database Proxy has been successfully initialized.");
 
-            //Redis자료기지액터를 창조한다.
+            //创建Redis数据库参与者。
             _redisWriter        = Context.System.ActorOf(Akka.Actor.Props.Create(() => new RedisWriter()).WithRouter(FromConfig.Instance), "redisWriter");
-            //련결서버루터를 창조한다.
+            //创建连接服务器路由器。
             _commServerGroup    = Context.System.ActorOf(Akka.Actor.Props.Empty.WithRouter(FromConfig.Instance), "commServers");
 
             Context.System.ActorOf(Akka.Actor.Props.Empty.WithRouter(FromConfig.Instance), "apiWorker");
@@ -55,7 +55,7 @@ namespace SlotGamesNode
             PayoutPoolConfig.Instance.PoolActor = Context.System.ActorOf(Akka.Actor.Props.Create(() => new PayoutPoolActor()), "payoutPool");
             Context.System.ActorOf(Akka.Actor.Props.Create(() => new SpinDBReader()).WithRouter(FromConfig.Instance), "spinDBReaders");
 
-            //자료기지가 초기화되면 게임로직을 시작한다.
+            //数据库初始化后开始游戏逻辑。
             var props    = Akka.Actor.Props.Create(() => new GameCollectionActor(dbActors.Reader, dbActors.Writer, _redisWriter)).WithRouter(FromConfig.Instance);
             _gameManager = Context.System.ActorOf(props, "gameManager");
 
@@ -87,22 +87,22 @@ namespace SlotGamesNode
 
             _logger.Info("Inform connect servers to remove this server from router....");
             
-            //연결서버들에 게임서버가 인차 종료된다는것을 알린다.            
+            //通知连接服务器游戏服务器即将关闭。
             _commServerGroup.Tell(new Broadcast(new SlotsNodeShuttingDownMsg()), _gameManager);
 
             _logger.Info("Waiting for 20 seconds until all the users connected to this server can connect to other servers");
-            //20초동안 대기한다.
+            //等待20秒。
             await Task.Delay(20000);
             
-            //먼저 게임로직들을 중지한다.
+            //首先停止游戏逻辑。
             _logger.Info("Terminating game logic actors....");
             await _gameManager.GracefulStop(TimeSpan.FromSeconds(10), "terminate");
 
-            //Redis자료기지액터를 중지한다.
+            //停止Redis数据库参与者。
             _logger.Info("Terminating redis write actors....");
             await _redisWriter.GracefulStop(TimeSpan.FromSeconds(10));
             
-            //기본자료기지액터들을 중지한다.
+            //停止基本数据库参与者。
             _logger.Info("Terminating database proxy actors....");
             await _dbProxy.GracefulStop(TimeSpan.FromSeconds(30), "terminate");
 
@@ -123,7 +123,7 @@ namespace SlotGamesNode
                 _logger.Info("Start Single Game Server(id:{0})...", _serverID);
                 _logger.Info("Initializing database proxy...");
 
-                //첫단계로 자료기지련결부분을 초기화한다.
+                //第一步初始化数据库连接部分。
                 _dbProxy        = Context.System.ActorOf(DBProxy.Props(dbConfig), "dbproxy");
                 _dbProxy.Tell("initialize");
             }

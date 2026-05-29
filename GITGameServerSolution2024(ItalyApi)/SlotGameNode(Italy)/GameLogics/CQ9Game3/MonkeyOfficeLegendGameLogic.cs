@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
    
     class MonkeyOfficeLegendGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             {
                 return "[{\"lang\":\"en\",\"name\":\"Monkey Office Legend\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"Lenda do Macaco\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"몽키 오피스 레전드\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"猴子办公室传奇\"}," +
                     "{\"lang\":\"th\",\"name\":\"ไซอิ๋ว\"}," +
                     "{\"lang\":\"vn\",\"name\":\"Truyền thuyết ngôi nhà khỉ\"}," +
                     "{\"lang\":\"id\",\"name\":\"Legenda Pejabat Kera\"}," +

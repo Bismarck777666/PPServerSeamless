@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
    
     class RaveJump2MGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -72,7 +72,7 @@ namespace SlotGamesNode.GameLogics
                 return "[{\"lang\":\"en\",\"name\":\"Rave Jump 2 M\"}," +
                     "{\"lang\":\"es\",\"name\":\"Rave Jump 2 M\"}," +
                     "{\"lang\":\"id\",\"name\":\"Rave Jump 2 M\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"레이브 점프 2 M\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"锐舞跳跃2 M\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"直式跳起来2\"}]";
             }
         }

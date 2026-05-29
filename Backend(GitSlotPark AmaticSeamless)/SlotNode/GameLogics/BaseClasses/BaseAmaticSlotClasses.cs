@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
     public class BasePPSlotSpinData
     {
         public double       SpinOdd         { get; set; }
-        public int          SpinType        { get; set; } //0:일반스핀, 1:시작프리스핀 + 프리스핀, 100:시작프리스핀, 200, 201, 202...: 그에 상응한 프리스핀조합 
+        public int          SpinType        { get; set; } //0:普通旋转, 1:开始免费旋转 + 免费旋转, 100:开始免费旋转, 200, 201, 202...: 对应的免费旋转组合
         public List<string> SpinStrings     { get; set; }
 
         public BasePPSlotSpinData()
@@ -167,13 +167,13 @@ namespace SlotGamesNode.GameLogics
 
     public class BaseAmaticSlotBetInfo
     {
-        public int          PlayLine            { get; set; }   //베팅라인수
-        public int          PlayBet             { get; set; }   //베팅스텝
-        public int          PurchaseStep        { get; set; }   //구매스텝
-        public int          MoreBet             { get; set; }   //앤티스텝
-        public Currencies   CurrencyInfo        { get; set; }   //화페
-        public int          GambleType          { get; set; }   //갬블인덱스
-        public bool         GambleHalf          { get; set; }   //갬블하프
+        public int          PlayLine            { get; set; }   //投注线数
+        public int          PlayBet             { get; set; }   //下注步骤
+        public int          PurchaseStep        { get; set; }   //购买步骤
+        public int          MoreBet             { get; set; }   //前注步骤
+        public Currencies   CurrencyInfo        { get; set; }   //货币
+        public int          GambleType          { get; set; }   //赌博索引
+        public bool         GambleHalf          { get; set; }   //赌博半
         public string       RoundID             { get; set; }   
         public string       BetTransactionID    { get; set; }
         public BasePPSlotSpinData               SpinData            { get; set; }   

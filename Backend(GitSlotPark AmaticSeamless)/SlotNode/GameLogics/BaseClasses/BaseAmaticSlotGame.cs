@@ -22,25 +22,25 @@ namespace SlotGamesNode.GameLogics
         protected int                               _naturalSpinCount       = 0;
         protected int                               _emptySpinCount         = 0;
 
-        //프리스핀구매시 필요. 디비안의 모든(구매가능한) 프리스핀들의 오드별 아이디어레이
-        protected double                            _totalFreeSpinWinRate   = 0.0; //스핀디비안의 모든 프리스핀들의 배당평균값
-        protected double                            _minFreeSpinWinRate     = 0.0; //구매금액의 20% - 50%사이에 들어가는 모든 프리스핀들의 평균배당값
+        //购买免费旋转时需要。数据库中所有（可购买的）免费旋转的赔率ID数组
+        protected double                            _totalFreeSpinWinRate   = 0.0; //旋转数据库中所有免费旋转的赔率平均值
+        protected double                            _minFreeSpinWinRate     = 0.0; //购买金额的20% - 50%之间的所有免费旋转的平均赔率值
 
-        //앤티베팅기능이 있을때만 필요하다.(앤티베팅시 감소시켜야할 빈스핀의 갯수)
+        //仅在存在附加投注功能时需要。（附加投注时需要减少的空转次数）
         protected int                               _anteBetMinusZeroCount  = 0;
 
 
-        //매유저의 베팅정보 
+        //每个用户的投注信息
         protected Dictionary<string, BaseAmaticSlotBetInfo>        _dicUserBetInfos             = new Dictionary<string, BaseAmaticSlotBetInfo>();
 
-        //유정의 마지막결과정보
+        //用户的最后结果信息
         protected Dictionary<string, BaseAmaticSlotSpinResult>  _dicUserResultInfos             = new Dictionary<string, BaseAmaticSlotSpinResult>();
 
-        //백업정보
+        //备份信息
         protected Dictionary<string, BaseAmaticSlotSpinResult>  _dicUserLastBackupResultInfos   = new Dictionary<string, BaseAmaticSlotSpinResult>();
         protected Dictionary<string, byte[]>                    _dicUserLastBackupBetInfos      = new Dictionary<string, byte[]>();
 
-        protected virtual int       FreeSpinTypeCount       => 0; //유저가 선택가능한 프리스핀종류수
+        protected virtual int       FreeSpinTypeCount       => 0; //用户可选择的免费旋转种类数
         protected virtual bool      HasPurEnableOption      => false;
         protected virtual bool      HasSelectableFreeSpin   => false;
         protected virtual string    SymbolName              => "";
@@ -55,7 +55,7 @@ namespace SlotGamesNode.GameLogics
         protected virtual int       FreeCols                => 5;
         protected virtual string    InitString              => "";
         protected virtual int       ReelSetColBitNum        => 1;
-        protected virtual int       ReelSetBitNum           => 1;   //1 또는 2(릴셋자료를 읽을때 단위비트수)
+        protected virtual int       ReelSetBitNum           => 1;   //1或2(读取卷轴集数据时的单位比特数)
 
         public BaseAmaticSlotGame()
         {
@@ -67,7 +67,7 @@ namespace SlotGamesNode.GameLogics
             {
                 var stopWatch = new Stopwatch();
                 stopWatch.Start();
-                //자연빵 1만개스핀 선택
+                //天然面包 1万个旋转选择
                 double sumOdd1 = 0.0;
                 BaseAmaticSlotBetInfo betInfo = new BaseAmaticSlotBetInfo();
                 betInfo.MoreBet         = -1;
@@ -84,7 +84,7 @@ namespace SlotGamesNode.GameLogics
                 stopWatch.Start();
 
                 double sumOdd2 = 0.0;
-                //MoreBet 1만개
+                //MoreBet 1万个
                 if (SupportMoreBet)
                 {
                     betInfo.MoreBet = 0;
@@ -167,7 +167,7 @@ namespace SlotGamesNode.GameLogics
             }
         }
 
-        #region 메세지처리함수들
+        #region 消息处理函数
         protected override async Task onProcMessage(string strUserID, int websiteID, GITMessage message, double userBalance, Currencies currency)
         {
             string strGlobalUserID = string.Format("{0}_{1}", websiteID, strUserID);
@@ -457,7 +457,7 @@ namespace SlotGamesNode.GameLogics
                 BaseAmaticSlotBetInfo oldBetInfo = null;
                 if (_dicUserBetInfos.TryGetValue(strGlobalUserID, out oldBetInfo))
                 {
-                    //만일 유저에게 남은 응답이 존재하는 경우
+                    //如果用户存在剩余响应的情况
                     if (oldBetInfo.HasRemainResponse)
                         return;
 
@@ -551,13 +551,13 @@ namespace SlotGamesNode.GameLogics
                 BaseAmaticActionToResponse nextResponse = betInfo.pullRemainResponse();
                 result = calculateResult(betInfo, strGlobalUserID, nextResponse.Response, false, userBalance, betMoney);
 
-                //프리게임이 끝났는지를 검사한다.
+                //检查免费游戏是否结束。
                 if (!betInfo.HasRemainResponse)
                     betInfo.RemainReponses = null;
                 return result;
             }
 
-            //유저의 총 베팅액을 얻는다.
+            //获取用户的总投注额。
             double pointUnit        = getPointUnit(betInfo);
             double totalBet         = betInfo.RelativeTotalBet * BettingButton[betInfo.PlayBet] * pointUnit;
             double  realBetMoney    = totalBet;
@@ -570,7 +570,7 @@ namespace SlotGamesNode.GameLogics
 
             spinData = await selectRandomStop(websiteID, totalBet, betInfo);
 
-            //첫자료를 가지고 결과를 계산한다.
+            //用第一份数据计算结果。
             double totalWin = totalBet * spinData.SpinOdd;
             
             if (!usePayLimit || await checkWebsitePayoutRate(websiteID, realBetMoney, totalWin))
@@ -592,7 +592,7 @@ namespace SlotGamesNode.GameLogics
                 result      = calculateResult(betInfo, strGlobalUserID, spinData.SpinStrings[0], true, userBalance, betMoney);
                 emptyWin    = totalBet * spinData.SpinOdd;
 
-                //뒤에 응답자료가 또 있다면
+                //如果后面还有响应数据
                 if (spinData.SpinStrings.Count > 1)
                     betInfo.RemainReponses = buildResponseList(spinData.SpinStrings);
             }
@@ -622,7 +622,7 @@ namespace SlotGamesNode.GameLogics
             {
                 string strGlobalUserID = string.Format("{0}_{1}", websiteID, strUserID);
 
-                //해당 유저의 베팅정보를 얻는다. 만일 베팅정보가 없다면(례외상황) 그대로 리턴한다.
+                //获取该用户的投注信息。如果没有投注信息（例外情况）则直接返回。
                 BaseAmaticSlotBetInfo betInfo = null;
                 if (!_dicUserBetInfos.TryGetValue(strGlobalUserID, out betInfo))
                     return;
@@ -637,7 +637,7 @@ namespace SlotGamesNode.GameLogics
                 double betMoney     = betInfo.RelativeTotalBet * BettingButton[betInfo.PlayBet] * pointUnit;
 
                 UserBetTypes betType = UserBetTypes.Normal;
-                //프리스핀구입
+                //购买免费旋转
                 if (this.SupportPurchaseFree && betInfo.isPurchase)
                 {
                     betMoney = Math.Round((double)getPurchaseMultiple(betInfo) * betMoney, 2);
@@ -654,7 +654,7 @@ namespace SlotGamesNode.GameLogics
                 if (betInfo.HasRemainResponse || betInfo.GambleType > 0 || betInfo.GambleHalf)
                     betMoney = 0.0;
 
-                //만일 베팅머니가 유저의 밸런스보다 크다면 끝낸다.
+                //如果投注金额大于用户余额则结束。
                 if (userBalance.LT(betMoney, _epsilion) || betMoney < 0.0)
                 {
                     GITMessage message = new GITMessage((ushort)SCMSG_CODE.SC_AMATIC_DOSPIN);
@@ -672,17 +672,17 @@ namespace SlotGamesNode.GameLogics
                     betInfo.RoundID             = createRoundID();
                 }
 
-                //결과를 생성한다.
+                //生成结果。
                 BaseAmaticSlotSpinResult spinResult = await generateSpinResult(betInfo, strUserID, websiteID, userBalance, betMoney, true);
 
-                //게임로그
+                //游戏日志
                 string strGameLog               = spinResult.ResultString;
                 _dicUserResultInfos[strGlobalUserID]  = spinResult;
 
-                //결과를 보내기전에 베팅정보를 디비에 보관한다
+                //在发送结果前将投注信息保存到数据库
                 saveBetResultInfo(strGlobalUserID);
 
-                //생성된 게임결과를 유저에게 보낸다.(윈은 Collect요청시에 처리한다.)
+                //将生成的游戏结果发送给用户。（赢在Collect请求时处理。）
                 sendGameResult(betInfo, spinResult, strGlobalUserID, betMoney, 0.0, strGameLog, userBalance, betType);
 
                 _dicUserLastBackupBetInfos[strGlobalUserID]       = betInfoBytes;
@@ -745,7 +745,7 @@ namespace SlotGamesNode.GameLogics
             double payoutRate   = getPayoutRate(websiteID);
             double randomDouble = Pcg.Default.NextDouble(0.0, 100.0);
 
-            //환수율이 이상이면 틀린카드
+            //如果回收率异常则为错误卡片
             if (randomDouble >= payoutRate || payoutRate == 0.0)
             {
                 if (betInfo.GambleType == (int)GambleTypes.Red && (cardSymbol == (int)CardTypes.Diamond || cardSymbol == (int)CardTypes.Heart))
@@ -926,7 +926,7 @@ namespace SlotGamesNode.GameLogics
             Sender.Tell(toUserResult, Self);
         }
 
-        #region 스핀자료처리부분
+        #region 旋转数据处理部分
         protected virtual async Task<BasePPSlotSpinData> selectRandomStop(int websiteID, BaseAmaticSlotBetInfo betInfo)
         {
             OddAndIDData selectedOddAndID = selectRandomOddAndID(websiteID, betInfo);
@@ -1057,10 +1057,10 @@ namespace SlotGamesNode.GameLogics
         }
         protected virtual async Task<BasePPSlotSpinData> selectRandomStop(int websiteID, double baseBet, BaseAmaticSlotBetInfo betInfo)
         {
-            //프리스핀만 테스트할때
+            //仅测试免费旋转时
             //return await selectRandomStartFreeSpinData(betInfo);
 
-            //프리스핀구입을 먼저 처리한다.
+            //先处理购买免费旋转。
             if (SupportPurchaseFree && betInfo.isPurchase)
                 return await selectPurchaseFreeSpin(websiteID, betInfo, baseBet);
 
@@ -1150,7 +1150,7 @@ namespace SlotGamesNode.GameLogics
             try
             {
                 string strGlobalUserID = string.Format("{0}_{1}", message.WebsiteID, message.UserID);
-                //유저나가기전에 트랜잭션정보만 뽑아낸다
+                //在用户退出前仅提取交易信息
                 BaseAmaticSlotBetInfo betInfo = null;
                 
                 if(_dicUserBetInfos.ContainsKey(strGlobalUserID))
@@ -1324,12 +1324,12 @@ namespace SlotGamesNode.GameLogics
 
             double pointUnit = getPointUnit(new BaseAmaticSlotBetInfo() { CurrencyInfo = currency });
             long balanceUnit = (long)Math.Round(balance / pointUnit, 0);
-            initString = encrypt.WriteLengthAndDec(initString, balanceUnit);        //현재 화페와 단위금액으로 변환된 발란스
-            initString = encrypt.WriteLengthAndDec(initString, initPacket.win);     //당첨금(인이트의 경우에는 0)
-            initString = encrypt.WriteDec2Hex(initString, initPacket.laststep);     //마지막스핀 스텝
+            initString = encrypt.WriteLengthAndDec(initString, balanceUnit);        //当前货币与单位金额转换后的余额
+            initString = encrypt.WriteLengthAndDec(initString, initPacket.win);     //中奖金额（初始化情况下为0）
+            initString = encrypt.WriteDec2Hex(initString, initPacket.laststep);     //最后旋转步骤
             initString = encrypt.WriteLengthAndDec(initString, initPacket.minbet);
             initString = encrypt.WriteLengthAndDec(initString, initPacket.maxbet);  
-            initString = encrypt.WriteDec2Hex(initString, initPacket.lastline);     //마지막스핀 라인
+            initString = encrypt.WriteDec2Hex(initString, initPacket.lastline);     //最后旋转行
 
             initString = encrypt.WriteLengthAndDec(initString, initPacket.totalfreecnt);
             initString = encrypt.WriteLengthAndDec(initString, initPacket.curfreecnt);

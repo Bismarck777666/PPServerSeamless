@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
    
     class BookOfAztecGameLogic : BaseAmaticExtra3Game
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get

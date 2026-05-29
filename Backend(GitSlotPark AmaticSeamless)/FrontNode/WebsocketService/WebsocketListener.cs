@@ -55,7 +55,7 @@ namespace FrontNode.WebsocketService
                     return;
                 }
 
-                //Incoming 련결들을 접수한다.
+                //接收传入的连接。
                 _log.Info("Listening amatic websocket service....");
                 _acceptTasks = accept().ToArray();
             }
@@ -74,7 +74,7 @@ namespace FrontNode.WebsocketService
             }
         }
         
-        //클라이언트접속요청을 처리한다.
+        //处理客户端连接请求。
         private async Task processIncomingConnection(HttpListenerContext context)
         {
             try
@@ -94,7 +94,7 @@ namespace FrontNode.WebsocketService
                 context.Response.Close();
 
             }
-            //새로운 접속요청을 진행한다.            
+            //进行新的连接请求。
             acceptWebsocketTask();
         }
 

@@ -32,7 +32,7 @@ namespace CommNode
         private ICancelable                 _redisWaitSchedulerCancel = null;
         private ConnectionStatus            _connectionStatus       = ConnectionStatus.Connected;
 
-        private string                      _token          = "";   //소켓이 연결될때 받는 토큰
+        private string                      _token          = "";   //套接字连接时接收的令牌
 
         private CQ9Parse                    _parser         = new CQ9Parse();
 
@@ -70,7 +70,7 @@ namespace CommNode
 
             Receive<SendCQ9MessageToUser>(message =>
             {
-                //처음에 세션보낼때 쓴다
+                //首次发送会话时使用
                 this.sendMessage(message);
             });
 
@@ -82,7 +82,7 @@ namespace CommNode
             base.PreStart();
         }
 
-        //수신된 자료처리함수
+        //接收数据处理函数
         private void onBynaryReceiveData(WsClientConnection.BynaryProtocalReceived received)
         {
         }
@@ -93,7 +93,7 @@ namespace CommNode
             {
                 sendLoginResponse(loginResponse.Result);
 
-                //로그인실패라면 련결을 끊는다.
+                //如果登录失败则断开连接。
                 _connection.Tell("disconnected");
             }
             else
@@ -104,7 +104,7 @@ namespace CommNode
                     bool isNotOnline = await RedisDatabase.RedisCache.HashSetAsync("onlineusers", strGlobalUserID, true, StackExchange.Redis.When.NotExists);
                     if (isNotOnline)
                     {
-                        //로그인성공이면 유저액터를 창조한다.
+                //如果登录成功则创建用户角色。
                         _userActor = await Context.System.ActorSelection("/user/userManager").Ask<IActorRef>(new CreateNewUserMessage(Self, _dbReaderProxy, _dbWriterProxy, _redisWriter, loginResponse, PlatformTypes.WEB));
                         _strUserID = loginResponse.UserID;
                         _connectionStatus = ConnectionStatus.Authenticated;
@@ -112,8 +112,8 @@ namespace CommNode
                         return;
                     }
 
-                    //이미 로그인되였다면 해당 유저의 패스를 얻는다.
-                    //만일 패스가 등록되지 않은 경우 최대 20초동안 대기한다. (40 * 0.5초)
+                    //如果已经登录则获取该用户的通行证。
+                    //如果通行证未注册，则最多等待20秒。 (40 * 0.5秒)
                     if (_redisWaitSchedulerCancel != null)
                         _redisWaitSchedulerCancel.Cancel();
 
@@ -137,7 +137,7 @@ namespace CommNode
                 {
                     _userActor          = await Context.System.ActorSelection((string)userPath).ResolveOne(TimeSpan.FromSeconds(5));
 
-                    //해당 연결을 유저액터에 등록한다.
+                    //将该连接注册到用户角色。
                     _userActor.Tell(new SocketConnectionAdded());
  
                     _strUserID          = strGlobalUserID;
@@ -153,7 +153,7 @@ namespace CommNode
 
                 _redisCheckRetryCount++;
 
-                //20초가 지났다면
+                //如果20秒已过
                 if (_redisCheckRetryCount < 40)
                     return;
             }
@@ -162,7 +162,7 @@ namespace CommNode
                 _log.Error("Exception has been occurred in WebsocketClientHandler::checkRegisteredUserPath {0}", ex);
             }
 
-            //로그인 실패로 확정한다.
+            //确认为登录失败。
             sendLoginResponse(LoginResult.UNKNOWNERROR);
             _connection.Tell("disconnected");
 
@@ -202,7 +202,7 @@ namespace CommNode
                 byte status             = (byte) message.Pop();
                 if(status == 0)
                 {
-                    //게임입장이 성공했으면 유저보유머니전송 및 해당 게임초기화정보요청
+                    //如果进入游戏成功，则发送用户持有资金并请求该游戏初始化信息
                     sendEvtMessage(balance);
                     GITMessage initGameMsg = buildDefaultMessage(CSMSG_CODE.CS_CQ9_InitGame1Request);
                     initGameMsg.Append(_token);
@@ -283,7 +283,7 @@ namespace CommNode
                     }
                     else if (_connectionStatus == ConnectionStatus.Authenticating)
                     {
-                        //유저액토를 찾을동안에는 그어떤 메시지도 처리할수없다
+                        //在查找用户操作期间，无法处理任何消息
                         _log.Warning("Unauthorized Message has been received from {0}", _remoteAddress);
                         _connection.Tell("disconnected");
                         return;
@@ -307,7 +307,7 @@ namespace CommNode
                 CQ9RequestReqPacket reqPacket = obj as CQ9RequestReqPacket;
                 if(reqPacket.req != 1)
                 {
-                    //비법사용자라고 판단하고 련결을 차단한다.
+                    //判断为非法用户并阻断连接。
                     _log.Warning("Unauthorized Message has been received from {0}", _remoteAddress);
                     _connection.Tell("disconnected");
                     return;
@@ -320,7 +320,7 @@ namespace CommNode
                     strPassword             = strPassword.Split(new string[] { "_" }, StringSplitOptions.RemoveEmptyEntries)[0];
                     int agentDbId           = Convert.ToInt32(strGlobalUserID.Split(new string[] { "_" }, StringSplitOptions.RemoveEmptyEntries)[0]);
                     string strUserId        = strGlobalUserID.Split(new string[] { "_" }, StringSplitOptions.RemoveEmptyEntries)[1];
-                    //련결의 상태를 인증대기 상태로 전환한다.
+                    //将连接的状态转换为认证等待状态。
                     _connectionStatus = ConnectionStatus.Authenticating;
                     _dbReaderProxy.Tell(new UserLoginRequest(agentDbId, strUserId.Trim(), strPassword, (_remoteAddress as IPEndPoint).Address.ToString(), PlatformTypes.WEB));
                 }
@@ -332,7 +332,7 @@ namespace CommNode
             }
             else
             {
-                //비법사용자라고 판단하고 련결을 차단한다.
+                //判断为非法用户并阻断连接。
                 _log.Warning("Unauthorized Message has been received from {0}", _remoteAddress);
                 _connection.Tell("disconnected");
                 return;
@@ -433,7 +433,7 @@ namespace CommNode
 
                     }
                 }
-                else if(reqPacket.req == 202)//미니로비메시지
+                else if(reqPacket.req == 202)//迷你大厅消息
                 {
                     JObject reqParam = (JObject)JsonConvert.DeserializeObject(_parser._Secure.doGetIVAndDecrypt(reqPacket.vals[1], 0));
                     procMiniLobbyMessage(reqParam);
@@ -574,7 +574,7 @@ namespace CommNode
         {
             if (_userActor != null)
             {
-                //현재 인증이 완료된 상태라면 
+                //当前认证已完成的状态下
                 _userActor.Tell(new SocketConnectionClosed());
             }
 

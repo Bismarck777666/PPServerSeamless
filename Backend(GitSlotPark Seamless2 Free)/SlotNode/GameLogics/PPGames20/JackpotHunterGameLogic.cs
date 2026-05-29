@@ -33,7 +33,7 @@ namespace SlotGamesNode.GameLogics
         protected double[] _multiTotalFreeSpinWinRates;
         protected double[] _multiMinFreeSpinWinRates;
 
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -107,7 +107,7 @@ namespace SlotGamesNode.GameLogics
         protected override void convertWinsByBet(Dictionary<string, string> dicParams, float currentBet)
         {
             base.convertWinsByBet(dicParams, currentBet);
-            if (dicParams.ContainsKey("apwa")) //FiveLionsDance 보너스당첨
+            if (dicParams.ContainsKey("apwa")) //FiveLionsDance 奖金中奖
                 dicParams["apwa"] = convertWinByBet(dicParams["apwa"], currentBet);
         }
         protected override void readBetInfoFromMessage(GITMessage message, string strGlobalUserID, Currencies currency)

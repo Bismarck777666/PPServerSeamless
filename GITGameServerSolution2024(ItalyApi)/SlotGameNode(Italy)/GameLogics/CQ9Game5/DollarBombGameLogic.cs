@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class DollarBombGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Dollar Bomb\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"달러 봄브\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"美元炸弹\"}," +
                     "{\"lang\":\"th\",\"name\":\"ดอลล่าร์ บอม\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"达拉崩吧\"}]";
             }

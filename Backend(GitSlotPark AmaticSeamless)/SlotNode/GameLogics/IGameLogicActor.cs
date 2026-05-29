@@ -30,7 +30,7 @@ namespace SlotGamesNode.GameLogics
 
         protected static RealExtensions.Epsilon _epsilion       = new RealExtensions.Epsilon(0.001);
 
-        #region 트랜잭션정보 
+        #region 交易信息
         protected string _roundID;
         #endregion
 
@@ -45,13 +45,13 @@ namespace SlotGamesNode.GameLogics
                 _redisWriter = inform.RedisWriter;
             });
 
-            //유저게임입장메세지
+            //用户游戏进入消息
             ReceiveAsync<EnterGameRequest>      (onEnterUserMessage);
 
-            //유저게임탈퇴메세지
+            //用户游戏退出消息
             ReceiveAsync<ExitGameRequest>       (onExitUserMessage);
 
-            //유저메세지처리
+            //用户消息处理
             ReceiveAsync<FromUserMessage>       (onProcMessage);
             Receive<string>                     (onProcCommand);
             ReceiveAsync<BsonDocument>          (onLoadSpinData);
@@ -103,7 +103,7 @@ namespace SlotGamesNode.GameLogics
             return result;
         }
 
-        #region 메세지처리 함수들
+        #region 消息处理函数
         private async Task onEnterUserMessage(EnterGameRequest message)
         {
             string strGlobalUserID = string.Format("{0}_{1}", message.AgentID, message.UserID);
@@ -111,20 +111,20 @@ namespace SlotGamesNode.GameLogics
 
             bool isLoadSuccess = await loadUserHistoricalData(strGlobalUserID, message.NewEnter);
 
-            //리력정보를 읽는 과정에 Redis오유가 발생했다면 
+            //读取历史信息时发生Redis错误
             if(!isLoadSuccess)
             {
-                //입장실패메세지를 보낸다.
+                //发送进入失败消息
                 Sender.Tell(new EnterGameResponse((int) _gameID, Self, 1));
                 return;
             }
 
             EnterGameResponse response = new EnterGameResponse((int) _gameID, Self, 0);
-            //게임에 새로 진입할 경우
+            //如果新进入游戏时
             if (message.NewEnter)
                 await onUserEnterGame(message.AgentID, message.UserID);
 
-            Sender.Tell(response);  //게임입장성공메세지를 보낸다.
+            Sender.Tell(response);  //发送游戏入场成功消息。
         }
         protected virtual async Task onExitUserMessage(ExitGameRequest message)
         {
@@ -138,7 +138,7 @@ namespace SlotGamesNode.GameLogics
         }
         #endregion
 
-        #region 가상함수들
+        #region 虚函数
         protected virtual async Task onUserEnterGame(int websiteID, string strGlobalUserID)
         {
 

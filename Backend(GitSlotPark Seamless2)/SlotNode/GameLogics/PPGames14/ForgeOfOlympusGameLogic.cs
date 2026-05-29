@@ -31,7 +31,7 @@ namespace SlotGamesNode.GameLogics
         protected double[]                          _multiTotalFreeSpinWinRates;
         protected double[]                          _multiMinFreeSpinWinRates;
 
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -339,8 +339,8 @@ namespace SlotGamesNode.GameLogics
                 dicParams["na"] = convertActionTypeToString(spinResult.NextAction);
             }
 
-            dicParams["balance"] = Math.Round(userBalance - (isInit ? 0.0 : betMoney), 2).ToString();        //밸런스
-            dicParams["balance_cash"] = Math.Round(userBalance - (isInit ? 0.0 : betMoney), 2).ToString();        //밸런스케시
+            dicParams["balance"] = Math.Round(userBalance - (isInit ? 0.0 : betMoney), 2).ToString();        //余额
+            dicParams["balance_cash"] = Math.Round(userBalance - (isInit ? 0.0 : betMoney), 2).ToString();        //余额现金
 
             if (SupportPurchaseFree && betInfo.PurchaseFree)
                 dicParams["puri"] = (betInfo as ForgeOfOlympusBetInfo).PurchaseType.ToString();

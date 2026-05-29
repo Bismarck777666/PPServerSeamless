@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
    
     class WolfDiscoGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -69,7 +69,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"WolfDisco\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"늑대 디스코\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"狼之迪斯科\"}," +
                     "{\"lang\":\"th\",\"name\":\"วูฟดิสโก้\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"野狼Disco\"}]";
             }

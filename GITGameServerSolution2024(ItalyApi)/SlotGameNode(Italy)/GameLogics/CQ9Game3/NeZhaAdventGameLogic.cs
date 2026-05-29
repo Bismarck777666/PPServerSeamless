@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
    
     class NeZhaAdventGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -69,7 +69,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Ne Zha Advent\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"나타\"}," +
+                    "{\"lang\":\"ko\",\"name\": \"哪吒\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"哪吒再临\"}]";
             }
         }

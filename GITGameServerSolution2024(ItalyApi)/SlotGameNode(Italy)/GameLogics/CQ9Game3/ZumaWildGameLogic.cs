@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class ZumaWildGameLogic : BaseCQ9TembleGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -71,7 +71,7 @@ namespace SlotGamesNode.GameLogics
             {
                 return "[{\"lang\":\"en\",\"name\":\"Zuma Wild\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"Zuma Louco\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"캔디 주마\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"糖果祖玛\"}," +
                     "{\"lang\":\"es\",\"name\":\"Comodín Zuma\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"印加祖玛\"}]";
             }

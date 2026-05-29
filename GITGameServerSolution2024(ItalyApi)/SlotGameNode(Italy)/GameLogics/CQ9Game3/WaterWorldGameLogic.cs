@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     public class WaterWorldGameLogic : BaseCQ9TembleGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -71,7 +71,7 @@ namespace SlotGamesNode.GameLogics
             {
                 return "[{\"lang\":\"en\",\"name\":\"WaterWorld\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"Mundo Aquático\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"워터월드\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"水世界\"}," +
                     "{\"lang\":\"th\",\"name\":\"โลกใต้น้ำ\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"水世界\"}]";
             }

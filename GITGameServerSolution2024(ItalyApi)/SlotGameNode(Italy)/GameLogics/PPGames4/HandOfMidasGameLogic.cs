@@ -29,7 +29,7 @@ namespace SlotGamesNode.GameLogics
     }
     class HandOfMidasGameLogic : BasePPSlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -87,12 +87,12 @@ namespace SlotGamesNode.GameLogics
         }
         #endregion
 
-        //프리스핀구매기능이 있을떄만 필요하다. 프리스핀 타입별 디비안의 모든 프리스핀들의 오드별 아이디어레이
+        //仅在存在免费旋转购买功能时需要。按免费旋转类型划分的数据库中所有免费旋转的赔率ID数组
         protected SortedDictionary<double, int[]> []    _totalFreeSpinOddIdsPerTypes = new SortedDictionary<double, int[]>[3];
         protected int[]                                 _freeSpinTotalCounts         = new int[3];
         protected int[]                                 _minFreeSpinTotalCounts      = new int[3];
-        protected double[]                              _totalFreeSpinWinRates       = new double[3]; //스핀디비안의 모든 프리스핀들의 배당평균값
-        protected double[]                              _minFreeSpinWinRates         = new double[3]; //구매금액의 20% - 50%사이에 들어가는 모든 프리스핀들의 평균배당값
+        protected double[]                              _totalFreeSpinWinRates       = new double[3]; //旋转数据库中的所有免费旋转的赔率平均值
+        protected double[]                              _minFreeSpinWinRates         = new double[3]; //购买金额的20% - 50%之间的所有免费旋转的平均赔率值
 
         public HandOfMidasGameLogic()
         {
@@ -150,7 +150,7 @@ namespace SlotGamesNode.GameLogics
                 BasePPSlotBetInfo oldBetInfo = null;
                 if (_dicUserBetInfos.TryGetValue(strGlobalUserID, out oldBetInfo))
                 {
-                    //만일 유저에게 남은 응답이 존재하는 경우
+                    //如果用户存在剩余响应的情况
                     if (oldBetInfo.HasRemainResponse)
                         return;
 
@@ -200,7 +200,7 @@ namespace SlotGamesNode.GameLogics
             _dicUserHistory[strGlobalUserID].baseBet    = betInfo.TotalBet;
             _dicUserHistory[strGlobalUserID].win        = spinResult.TotalWin;
 
-            //빈스핀인 경우이다.
+            //如果是免费旋转的情况。
             if (spinResult.NextAction == ActionTypes.DOSPIN)
                 return true;
 

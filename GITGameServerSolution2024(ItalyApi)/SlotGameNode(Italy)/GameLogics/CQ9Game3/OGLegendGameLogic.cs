@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
    
     class OGLegendGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -69,7 +69,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"OG Legend\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"OG 전설\"}]";
+                    "{\"lang\":\"ko\",\"name\":\"OG 传说\"}]";
             }
         }
 

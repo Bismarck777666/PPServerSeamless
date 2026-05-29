@@ -13,8 +13,8 @@ namespace CQ9Protocol
     {
         protected string _ClientIvStr   = "";
         protected string _ServerIvStr   = "";
-        protected string _KeyStr1       = "60A299E7243EDEA7";   //일반암호화키
-        protected string _KeyStr2       = "a8Ds56a8wbf594fa";   //릴셋암호화키
+        protected string _KeyStr1       = "60A299E7243EDEA7";   //一般加密密钥
+        protected string _KeyStr2       = "a8Ds56a8wbf594fa";   //重置加密密钥
         public AES16()
         {
             _ServerIvStr = generateIV();
@@ -45,7 +45,7 @@ namespace CQ9Protocol
             try
             {
                 RijndaelManaged aes = new RijndaelManaged();
-                aes.KeySize             = 128; //AES128로 사용시 
+                aes.KeySize             = 128; //使用AES128时
                 aes.FeedbackSize        = 128;
                 aes.Mode                = CipherMode.CBC;
                 aes.Padding             = PaddingMode.PKCS7;
@@ -77,7 +77,7 @@ namespace CQ9Protocol
             try
             {
                 RijndaelManaged aes = new RijndaelManaged();
-                aes.KeySize             = 128; //AES128로 사용시 
+                aes.KeySize             = 128; //使用AES128时
                 aes.FeedbackSize        = 128;
                 aes.Mode                = CipherMode.CBC;
                 aes.Padding             = PaddingMode.PKCS7;

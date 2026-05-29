@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class DragonTreasureGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Dragon's Treasure\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"용의 보물\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"龙的宝物\"}," +
                     "{\"lang\":\"th\",\"name\":\"สมบัติของมังกร\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"盘龙秘宝\"}]";
             }

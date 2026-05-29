@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class FootballStarGameLogic : BaseSelFreeCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -78,7 +78,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Football Star\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"축구 스타\"}]";
+                    "{\"lang\":\"ko\",\"name\":\"足球明星\"}]";
             }
         }
         #endregion

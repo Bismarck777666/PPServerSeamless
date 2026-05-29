@@ -22,7 +22,7 @@ namespace QueenApiNode.Agent
 {
     class AgentActor : ReceiveActor
     {
-        #region 에이전트정보
+        #region 代理信息
         private int             _dbID       = 0;
         private string          _strAgentID = "";
         private string          _strAuthKey = "";

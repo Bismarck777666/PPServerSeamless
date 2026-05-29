@@ -133,7 +133,7 @@ namespace GITProtocol
         CS_HEARTBEAT            = 0,
         CS_LOGIN                = 1,
         CS_ENTERGAME            = 18,
-        CS_FORCEOUTUSER         = 26,   //유저강퇴
+        CS_FORCEOUTUSER         = 26,   //用户强制退出
 
         CS_EGT_SLOTGAMESTART     = 2300,
         CS_EGT_DOINIT            = 2300,

@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class DragonHeartGameLogic : BaseCQ9TembleGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Dragon Heart\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"드래곤 하트\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"龙之心\"}," +
                     "{\"lang\":\"th\",\"name\":\"หัวใจมังกร\"}," +
                     "{\"lang\":\"id\",\"name\":\"Dragonheart\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"Coração de Dragão\"}," +

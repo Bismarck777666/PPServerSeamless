@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class PremiorLeagueGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -74,7 +74,7 @@ namespace SlotGamesNode.GameLogics
                     "{\"lang\":\"en\",\"name\":\"Premior League\"}," +
                     "{\"lang\":\"th\",\"name\":\"พรีเมียร์ลีก\"}," +
                     "{\"lang\":\"ja\",\"name\":\"プレミアリーグ\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"프리미오 리그\"}]";
+                    "{\"lang\":\"ko\",\"name\":\"普里米奥联赛\"}]";
             }
         }
         #endregion

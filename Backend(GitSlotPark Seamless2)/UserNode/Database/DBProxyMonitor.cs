@@ -194,7 +194,7 @@ namespace UserNode.Database
                 {
                     await connection.OpenAsync();
 
-                    //싱글게임설정을 감시한다.
+                    //监视单人游戏设置。
                     string strQuery = "SELECT gameid, gametype, openclose, gamesymbol, updatetime FROM gameconfigs WHERE updatetime > @updatetime ORDER BY updatetime";
                     SqlCommand command = new SqlCommand(strQuery, connection);
                     command.Parameters.AddWithValue("@updatetime", DBMonitorSnapshot.Instance.GameConfigUpdateTime);
@@ -212,7 +212,7 @@ namespace UserNode.Database
                         }
                     }
 
-                    //userrangeevents표를 감시한다.
+                    //监视userrangeevents表。
                     strQuery = "SELECT * FROM userrangeevents WHERE id > @id and processed=0 ORDER BY id";
                     command = new SqlCommand(strQuery, connection);
                     command.Parameters.AddWithValue("@id", DBMonitorSnapshot.Instance.LastRangeEventPlayerID);

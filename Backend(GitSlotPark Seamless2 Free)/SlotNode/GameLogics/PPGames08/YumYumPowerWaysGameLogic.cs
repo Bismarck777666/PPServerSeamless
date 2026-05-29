@@ -32,7 +32,7 @@ namespace SlotGamesNode.GameLogics
 
     class YumYumPowerWaysGameLogic : BaseSelFreePPSlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -199,7 +199,7 @@ namespace SlotGamesNode.GameLogics
                 BasePPSlotBetInfo oldBetInfo = null;
                 if (_dicUserBetInfos.TryGetValue(strGlobalUserID, out oldBetInfo))
                 {
-                    //만일 유저에게 남은 응답이 존재하는 경우
+                    //如果用户存在剩余响应的情况
                     if (oldBetInfo.HasRemainResponse)
                         return;
 
@@ -231,7 +231,7 @@ namespace SlotGamesNode.GameLogics
                 YumYumPowerWaysResult spinResult = new YumYumPowerWaysResult();
                 Dictionary<string, string> dicParams = splitResponseToParams(strSpinResponse);
 
-                //모든 당첨값들을 현재의 베팅금액상태로 전환한다.
+                //将所有中奖值转换为当前的下注金额状态。
                 convertWinsByBet(dicParams, betInfo.TotalBet);
                 convertBetsByBet(dicParams, betInfo.BetPerLine, betInfo.TotalBet);
 
@@ -420,7 +420,7 @@ namespace SlotGamesNode.GameLogics
                                     double selectedWin  = startSpinData.StartOdd * betInfo.TotalBet;
                                     double maxWin       = startSpinData.MaxOdd * betInfo.TotalBet;
 
-                                    //시작스핀시에 최대의 오드에 해당한 윈값을 더해주었으므로 그 차분을 보상해준다.
+                                    //开始旋转时已加上最大赔率对应的赢值，因此补偿该差值。
                                     if (!startSpinData.IsEvent && !isAffiliate)
                                         sumUpWebsiteBetWin(agentID, 0.0, selectedWin - maxWin);
                                     else if (maxWin > selectedWin)
@@ -448,7 +448,7 @@ namespace SlotGamesNode.GameLogics
                             double selectedWin = (startSpinData.StartOdd + freeSpinData.SpinOdd) * betInfo.TotalBet;
                             double maxWin = startSpinData.MaxOdd * betInfo.TotalBet;
 
-                            //시작스핀시에 최대의 오드에 해당한 윈값을 더해주었으므로 그 차분을 보상해준다.
+                            //由于在开始旋转时已加上对应最大赔率的赢值，因此补偿其差值。
                             if (!startSpinData.IsEvent && !isAffiliate)
                                 sumUpWebsiteBetWin(agentID, 0.0, selectedWin - maxWin);
                             else if (maxWin > selectedWin)
@@ -458,7 +458,7 @@ namespace SlotGamesNode.GameLogics
                         }
                         else
                         {
-                            //필요없는 응답을 삭제한다.
+                            //删除不需要的响应。
                             betInfo.pullRemainResponse();
                         }
 
@@ -468,7 +468,7 @@ namespace SlotGamesNode.GameLogics
                         string strResponse = convertKeyValuesToString(dicParams);
                         responseMessage.Append(strResponse);
 
-                        //히스토리보관 및 초기화
+                        //历史保管及初始化
                         if (_dicUserHistory.ContainsKey(strGlobalUserID) && _dicUserHistory[strGlobalUserID].log.Count > 0)
                             addActionHistory(strGlobalUserID, "doBonus", strResponse, index, counter);
 

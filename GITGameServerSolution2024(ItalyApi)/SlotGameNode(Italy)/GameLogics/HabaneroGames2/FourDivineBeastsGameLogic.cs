@@ -11,7 +11,7 @@ namespace SlotGamesNode.GameLogics
 {
     public class FourDivineBeastsGameLogic : BaseHabanero1SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -67,27 +67,27 @@ namespace SlotGamesNode.GameLogics
             {
                 return new Dictionary<int, HabaneroLogSymbolIDName>()
                 {
-                    {1,   new HabaneroLogSymbolIDName{id = "idWild",                name = "Wild"               } },    //와일드
-                    {2,   new HabaneroLogSymbolIDName{id = "idYinYan",              name = "YinYan"             } },    //스캐터
+                    {1,   new HabaneroLogSymbolIDName{id = "idWild",                name = "Wild"               } },    //通配符
+                    {2,   new HabaneroLogSymbolIDName{id = "idYinYan",              name = "YinYan"             } },    //分散符
 
-                    {3,   new HabaneroLogSymbolIDName{id = "idAzureDragon_1",       name = "AzureDragon_1"      } },    //청룡1
-                    {4,   new HabaneroLogSymbolIDName{id = "idAzureDragon_2",       name = "AzureDragon_2"      } },    //청룡2
-                    {5,   new HabaneroLogSymbolIDName{id = "idVermillionBird_1",    name = "VermillionBird_1"   } },    //주작1
-                    {6,   new HabaneroLogSymbolIDName{id = "idVermillionBird_2",    name = "VermillionBird_2"   } },    //주작2
-                    {7,   new HabaneroLogSymbolIDName{id = "idWhiteTiger_1",        name = "WhiteTiger_1"       } },    //백호1
-                    {8,   new HabaneroLogSymbolIDName{id = "idWhiteTiger_2",        name = "WhiteTiger_2"       } },    //백호2
-                    {9,   new HabaneroLogSymbolIDName{id = "idBlackTortoise_1",     name = "BlackTortoise_1"    } },    //현무1
-                    {10,  new HabaneroLogSymbolIDName{id = "idBlackTortoise_2",     name = "BlackTortoise_2"    } },    //현무2
+                    {3,   new HabaneroLogSymbolIDName{id = "idAzureDragon_1",       name = "AzureDragon_1"      } },    //青龙1
+                    {4,   new HabaneroLogSymbolIDName{id = "idAzureDragon_2",       name = "AzureDragon_2"      } },    //青龙2
+                    {5,   new HabaneroLogSymbolIDName{id = "idVermillionBird_1",    name = "VermillionBird_1"   } },    //朱雀1
+                    {6,   new HabaneroLogSymbolIDName{id = "idVermillionBird_2",    name = "VermillionBird_2"   } },    //朱雀2
+                    {7,   new HabaneroLogSymbolIDName{id = "idWhiteTiger_1",        name = "WhiteTiger_1"       } },    //白虎1
+                    {8,   new HabaneroLogSymbolIDName{id = "idWhiteTiger_2",        name = "WhiteTiger_2"       } },    //白虎2
+                    {9,   new HabaneroLogSymbolIDName{id = "idBlackTortoise_1",     name = "BlackTortoise_1"    } },    //玄武1
+                    {10,  new HabaneroLogSymbolIDName{id = "idBlackTortoise_2",     name = "BlackTortoise_2"    } },    //玄武2
                     
                     {11,  new HabaneroLogSymbolIDName{id = "idAce",                 name = "Ace"                } },    //A
                     {12,  new HabaneroLogSymbolIDName{id = "idKing",                name = "King"               } },    //K
                     {13,  new HabaneroLogSymbolIDName{id = "idQueen",               name = "Queen"              } },    //Q
                     {14,  new HabaneroLogSymbolIDName{id = "idJack",                name = "Jack"               } },    //J
 
-                    {15,  new HabaneroLogSymbolIDName{id = "idTree",                name = "Tree"               } },    //나무 와일드
-                    {16,  new HabaneroLogSymbolIDName{id = "idRovingWild",          name = "RovingWild"         } },    //러빙 와일드
-                    {17,  new HabaneroLogSymbolIDName{id = "idWaterWild",           name = "WaterWild"          } },    //물 와일드
-                    {18,  new HabaneroLogSymbolIDName{id = "idFireWild",            name = "FireWild"           } },    //불 와일드
+                    {15,  new HabaneroLogSymbolIDName{id = "idTree",                name = "Tree"               } },    //树 wild
+                    {16,  new HabaneroLogSymbolIDName{id = "idRovingWild",          name = "RovingWild"         } },    //漫游 wild
+                    {17,  new HabaneroLogSymbolIDName{id = "idWaterWild",           name = "WaterWild"          } },    //水 wild
+                    {18,  new HabaneroLogSymbolIDName{id = "idFireWild",            name = "FireWild"           } },    //火野
                 };
             }
         }
@@ -136,7 +136,7 @@ namespace SlotGamesNode.GameLogics
 
             JArray reels = buildHabaneroLogReels(strGlobalUserId, currentIndex, response);
             
-            //러빙,파이어,워터 일때
+            //爱、火、水的时候
             if (wildSymbol == 16 || wildSymbol == 18 || wildSymbol == 17)
             {
                 JArray  reelsList       = new JArray();
@@ -149,7 +149,7 @@ namespace SlotGamesNode.GameLogics
 
                 addWildToReels(reels,wildSymbol ,response["videoslotstate"]["animatesymbollist"] as JArray);
             }
-            //나무
+            //树
             else if(wildSymbol == 15)
             {
                 JArray  reelsList       = new JArray();
@@ -269,7 +269,7 @@ namespace SlotGamesNode.GameLogics
 
             if(wildSymbol != 0)
                 getVirtualReelList(lastResult,wildSymbol,changeLists,virtulaReelList);
-            if(wildSymbol == 16)//러빙(현무)일때
+            if(wildSymbol == 16)//爱（玄武）的时候
                 resumeGameState["gamedata"] = getRovingData(changeLists);
 
             resumeGameState["virtualreels"]         = lastResult["videoslotstate"]["virtualreellist"];

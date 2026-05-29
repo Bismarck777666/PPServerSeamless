@@ -21,7 +21,7 @@ namespace CommNode.Database
         {
             _strConnString = strConnString;
 
-            //유저로그인 요청을 처리한다.
+            //处理用户登录请求。
             ReceiveAsync<UserLoginRequest>                  (doLoginRequest);
             ReceiveAsync<GetUserBonusItems>                 (getUserBonusItems);
             ReceiveAsync<ClaimedUserRangeEventMessage>      (fetchNewUserRangeEvent);
@@ -201,7 +201,7 @@ namespace CommNode.Database
                     if (response == null)
                         response = new UserLoginResponse(resultCode);
 
-                    //응답을 보낸다.
+                    //发送响应。
                     Sender.Tell(response);
                 }
             }

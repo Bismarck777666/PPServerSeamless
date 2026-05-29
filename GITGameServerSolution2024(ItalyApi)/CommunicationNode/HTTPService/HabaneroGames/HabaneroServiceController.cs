@@ -90,7 +90,7 @@ namespace CommNode.HTTPService
                     return new HttpResponseMessage() { Content = new StringContent(buildErrorResponse("init", request.grid), Encoding.UTF8, "application/json") };
 
 
-                //인이트 메세지인경우 먼저 게임에 입장한다.
+                //如果是初始化消息，则先进入游戏。
                 if (request.game.action == "init")
                 {
                     HabaneroRequest initRequest = JsonConvert.DeserializeObject<HabaneroRequest>(strContent);

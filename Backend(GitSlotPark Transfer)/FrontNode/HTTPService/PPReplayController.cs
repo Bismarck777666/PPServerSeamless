@@ -33,7 +33,7 @@ namespace FrontNode.HTTPService
             if (strUserID == null)
                 return new HttpResponseMessage() { Content = new StringContent("{\"error\":10,\"description\":\"Request is not authorized\"}") };
 
-            //게임아이디유효성검사
+            //游戏ID有效性检查
             int gameID = DBMonitorSnapshot.Instance.getGameIDFromString(GameProviders.PP,strSymbol);
             if (gameID == 0)
                 return new HttpResponseMessage() { Content = new StringContent("{\"error\":10,\"description\":\"Request is not authorized\"}")};

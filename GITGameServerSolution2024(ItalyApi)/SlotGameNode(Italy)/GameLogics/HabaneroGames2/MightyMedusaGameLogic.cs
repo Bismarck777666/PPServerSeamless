@@ -11,7 +11,7 @@ namespace SlotGamesNode.GameLogics
 {
     public class MightyMedusaGameLogic : BaseHabaneroSlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -67,14 +67,14 @@ namespace SlotGamesNode.GameLogics
             {
                 return new Dictionary<int, HabaneroLogSymbolIDName>()
                 {
-                    {1,   new HabaneroLogSymbolIDName{id = "idWildMedusa",      name = "WildMedusa"         } },    //메두사와일드
-                    {2,   new HabaneroLogSymbolIDName{id = "idWildSnakeHead",   name = "WildSnakeHead"      } },    //뱀대가리와일드
-                    {3,   new HabaneroLogSymbolIDName{id = "idWildStonePerseus",name = "WildStonePerseus"   } },    //돌상페르세우스와일드
-                    {4,   new HabaneroLogSymbolIDName{id = "idScatter",         name = "Scatter"            } },    //스캐터
-                    {5,   new HabaneroLogSymbolIDName{id = "idPegasus",         name = "Pegasus"            } },    //페가수스(말)
-                    {6,   new HabaneroLogSymbolIDName{id = "idPerseus",         name = "Perseus"            } },    //페르세우스(무사)
-                    {7,   new HabaneroLogSymbolIDName{id = "idWingedSandals",   name = "WingedSandals"      } },    //신발
-                    {8,   new HabaneroLogSymbolIDName{id = "idHelmet",          name = "Helmet"             } },    //파도
+                    {1,   new HabaneroLogSymbolIDName{id = "idWildMedusa",      name = "WildMedusa"         } },    //美杜莎野牌
+                    {2,   new HabaneroLogSymbolIDName{id = "idWildSnakeHead",   name = "WildSnakeHead"      } },    //蛇头野牌
+                    {3,   new HabaneroLogSymbolIDName{id = "idWildStonePerseus",name = "WildStonePerseus"   } },    //石像珀尔修斯野牌
+                    {4,   new HabaneroLogSymbolIDName{id = "idScatter",         name = "Scatter"            } },    //分散
+                    {5,   new HabaneroLogSymbolIDName{id = "idPegasus",         name = "Pegasus"            } },    //珀伽索斯(马)
+                    {6,   new HabaneroLogSymbolIDName{id = "idPerseus",         name = "Perseus"            } },    //珀尔修斯(武士)
+                    {7,   new HabaneroLogSymbolIDName{id = "idWingedSandals",   name = "WingedSandals"      } },    //鞋子
+                    {8,   new HabaneroLogSymbolIDName{id = "idHelmet",          name = "Helmet"             } },    //波浪
                     {9,   new HabaneroLogSymbolIDName{id = "idA",               name = "A"                  } },    //A
                     {10,  new HabaneroLogSymbolIDName{id = "idK",               name = "K"                  } },    //K
                     {11,  new HabaneroLogSymbolIDName{id = "idQ",               name = "Q"                  } },    //Q

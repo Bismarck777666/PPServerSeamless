@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class AcrobaticsGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Acrobatics\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"곡예\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"杂技\"}," +
                     "{\"lang\":\"th\",\"name\":\"นักกายกรรม\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"百戏\"}]";
             }

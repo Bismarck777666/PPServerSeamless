@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
    
     class ChameleonGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             {
                 return "[{\"lang\":\"en\",\"name\":\"Chameleon\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"Camaleão\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"카멜레온\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"变色龙\"}," +
                     "{\"lang\":\"th\",\"name\":\"กิ้งก่า\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"变色龙\"}]";
             }

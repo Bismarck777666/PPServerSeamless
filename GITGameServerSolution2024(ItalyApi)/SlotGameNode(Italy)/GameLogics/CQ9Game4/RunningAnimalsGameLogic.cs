@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class RunningAnimalsGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Running Animals\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"러닝 애니몰\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"奔跑动物\"}," +
                     "{\"lang\":\"es\",\"name\":\"Animales corriendo\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"Animais em execução\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"奔跑吧猛兽\"}]";

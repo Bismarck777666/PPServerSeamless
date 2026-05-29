@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class SoSweetGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -72,7 +72,7 @@ namespace SlotGamesNode.GameLogics
             {
                 return "[{\"lang\":\"zh-cn\",\"name\":\"甜蜜蜜\"}," +
                     "{\"lang\":\"en\",\"name\":\"So Sweet\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"소 스위트\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"小甜心\"}," +
                     "{\"lang\":\"th\",\"name\":\"เถี่ยนมี่มี่\"}," +
                     "{\"lang\":\"vn\",\"name\":\"Thật ngọt ngào\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"Tão Doce\"}," +

@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class AllWildGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"All Wilds\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"올 와일드\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"全狂野\"}," +
                     "{\"lang\":\"th\",\"name\":\"ป่าทั้งหมด\"}," +
                     "{\"lang\":\"id\",\"name\":\"Semua Binatang Liar\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"Todos os loucos\"}," +

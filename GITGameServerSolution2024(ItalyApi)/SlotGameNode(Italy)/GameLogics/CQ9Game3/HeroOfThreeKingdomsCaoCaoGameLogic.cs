@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
    
     class HeroOfThreeKingdomsCaoCaoGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -69,7 +69,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Hero of the 3 Kingdoms Cao Cao\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"삼국지 영웅 - 조조\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"三国英雄 - 曹操\"}," +
                     "{\"lang\":\"th\",\"name\":\"วีรบุรุษแห่ง 3 ก๊ก - โจโฉ\"}," +
                     "{\"lang\":\"vn\",\"name\":\"Anh Hùng Tam Quốc - Tào Tháo\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"三国英雄-曹操\"}]";

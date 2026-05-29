@@ -66,13 +66,13 @@ namespace SlotGamesNode.GameLogics
 
     public class BaseAmaticSlotBetInfo
     {
-        public int                              PlayLine            { get; set; }   //베팅라인수
-        public int                              PlayBet             { get; set; }   //베팅스텝
-        public int                              PurchaseStep        { get; set; }   //구매스텝
-        public int                              MoreBet             { get; set; }   //앤티스텝
-        public CurrencyEnum                     CurrencyInfo        { get; set; }   //화페
-        public int                              GambleType          { get; set; }   //갬블인덱스
-        public bool                             GambleHalf          { get; set; }   //갬블하프
+        public int                              PlayLine            { get; set; }   //投注行数
+        public int                              PlayBet             { get; set; }   //投注步骤
+        public int                              PurchaseStep        { get; set; }   //购买步骤
+        public int                              MoreBet             { get; set; }   //附加步骤
+        public CurrencyEnum                     CurrencyInfo        { get; set; }   //货币
+        public int                              GambleType          { get; set; }   //赌博索引
+        public bool                             GambleHalf          { get; set; }   //赌博一半
         public BasePPSlotSpinData               SpinData            { get; set; }   
         public List<BaseAmaticActionToResponse> RemainReponses      { get; set; }
 

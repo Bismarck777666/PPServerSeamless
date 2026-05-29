@@ -17,14 +17,14 @@ namespace SlotGamesNode.GameLogics
    
     class Eight88CaiShenGameLogic : BaseCQ9SlotGame
     {
-        //프리스핀구매기능이 있을떄만 필요하다. 디비안의 모든(구매가능한) 프리스핀들의 오드별 아이디어레이
+        //只有在存在免费旋转购买功能时才需要。数据库中所有（可购买的）免费旋转按赔率排列的ID数组
         protected SortedDictionary<double, int[]>   _totalFreeSpin2OddIds   = new SortedDictionary<double, int[]>();
         protected int                               _freeSpin2TotalCount    = 0;
         protected int                               _minFreeSpin2TotalCount = 0;
-        protected double                            _totalFreeSpin2WinRate  = 0.0; //스핀디비안의 모든 스틱키 프리스핀들의 배당평균값
-        protected double                            _minFreeSpin2WinRate    = 0.0; //구매금액의 20% - 50%사이에 들어가는 모든 스틱키 프리스핀들의 평균배당값
+        protected double                            _totalFreeSpin2WinRate  = 0.0; //斯宾迪比安的所有粘性免费旋转的赔率平均值
+        protected double                            _minFreeSpin2WinRate    = 0.0; //购买金额的20% - 50%之间进入的所有粘性免费旋转的平均赔率值
 
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -78,7 +78,7 @@ namespace SlotGamesNode.GameLogics
         {
             get
             {
-                return "[{\"lang\": \"ko\", \"name\": \"대박 재물신\"}," +
+                return "[{\"lang\": \"ko\", \"name\": \"大福 财神\"}," +
                         "{ \"lang\": \"zh-cn\", \"name\": \"发发发财神\"}," +
                         "{ \"lang\": \"en\", \"name\": \"888 Cai Shen\"}," +
                         "{ \"lang\": \"th\", \"name\": \"ฟาชัยเซ็น แจกไม่อั้น\"}]";

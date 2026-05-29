@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
    
     class TheBeastWarGameLogic : BaseSelFreeCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -81,7 +81,7 @@ namespace SlotGamesNode.GameLogics
                     "{\"lang\":\"zh-cn\",\"name\":\"神兽争霸\"}," +
                     "{\"lang\":\"en\",\"name\":\"The Beast War\"}," +
                     "{\"lang\":\"id\",\"name\":\"Mythical Beings Melee\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"더 비스트 워\"}]";
+                    "{\"lang\":\"ko\",\"name\":\"野兽战争\"}]";
             }
         }
 

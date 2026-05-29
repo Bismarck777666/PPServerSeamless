@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
     class GuGuGu3GameLogic : BaseCQ9RespinSlotGame
     {
 
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -72,7 +72,7 @@ namespace SlotGamesNode.GameLogics
                     "{\"lang\":\"es\",\"name\":\"GuGuGu3\"}," +
                     "{\"lang\":\"id\",\"name\":\"GuGuGu3\"}," +
                     "{\"lang\":\"ja\",\"name\":\"グググ3\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"구구구3\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"九九九3\"}," +
                     "{\"lang\":\"th\",\"name\":\"กูกูกู3\"}," +
                     "{\"lang\":\"vn\",\"name\":\"GuGuGu3\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"咕咕咕3\"}]";
@@ -232,7 +232,7 @@ namespace SlotGamesNode.GameLogics
         
         protected override int AddScatterAvalableMoney(int reelNo,BaseCQ9SlotBetInfo betInfo)
         {
-            int[] scatterAvMaxMoneys = new int[] { 41963, 36073, 91385, 108219, 73434 };   //15000(최대)베팅때 스캐터가능 리스핀 모니
+            int[] scatterAvMaxMoneys = new int[] { 41963, 36073, 91385, 108219, 73434 };   //15000(最大)下注时散落可能的重新旋转金额
             return scatterAvMaxMoneys[reelNo] * (betInfo.MiniBet * betInfo.PlayBet * betInfo.PlayLine)/ 15000;
         }
         
@@ -289,7 +289,7 @@ namespace SlotGamesNode.GameLogics
         
         protected override int CalcRespinOfSymbol(string symbol,int multiple,int length,int colNo,BaseCQ9SlotBetInfo betInfo)
         {
-            int[] maxSymbolMaxBetAvMoney    = new int[]     { 63809,    146458, 34741,   235869, 111666 };   //15000(최대)베팅때 최대당첨심벌 값
+            int[] maxSymbolMaxBetAvMoney    = new int[]     { 63809,    146458, 34741,   235869, 111666 };   //15000(最大)下注时最大中奖符号值
             double[] additionalwildSymMul   = new double[]  {     0,  10.0/3.0,     0, 28.0/5.0,     0  };
 
             double maxSymbolCnt = findSymbolCntInReelSet("1", colNo);

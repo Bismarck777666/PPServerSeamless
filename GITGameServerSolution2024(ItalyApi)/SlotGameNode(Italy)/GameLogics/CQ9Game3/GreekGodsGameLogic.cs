@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
    
     class GreekGodsGameLogic : BaseSelFreeCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -77,7 +77,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Greek Gods\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"그리스 신들\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"希腊众神\"}," +
                     "{\"lang\":\"th\",\"name\":\"เทพเจ้ากรีก\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"希腊众神\"}]";
             }

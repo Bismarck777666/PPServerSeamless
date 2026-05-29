@@ -342,8 +342,8 @@ namespace FrontNode.HTTPService
                 }
                 else
                 {
-                    string dataString = (response as dynamic).Data; // 혹은 적절히 캐스팅
-                    // 2) JSON 객체로 파싱
+                    string dataString = (response as dynamic).Data; // 或者适当进行类型转换
+                    // 2) 解析为JSON对象
                     JObject jsonData = JObject.Parse(dataString);
                     return Request.CreateResponse(HttpStatusCode.OK, jsonData, Configuration.Formatters.JsonFormatter);
 
@@ -987,7 +987,7 @@ namespace FrontNode.HTTPService
         public int swfbsi   { get; set; }
         public int swfbli   { get; set; }
         public int swf      { get; set; }
-        public int sp       { get; set; }       //로딩시 배댕테이블 보이기
+        public int sp       { get; set; }       //加载时显示赔率表
         public int rcf      { get; set; }
         public int sbb      { get; set; }
         public int hwl      { get; set; }
@@ -1078,7 +1078,7 @@ namespace FrontNode.HTTPService
             this.ts     = 1;
             this.smpo   = 0;
             this.swf    = 0;
-            this.sp     = 1; //1: 로딩시 배당표 보이기, 0: hide
+            this.sp     = 1; //1: 加载时显示赔率表, 0: hide
             this.rcf    = 0;
             this.sbb    = 0;
             this.hwl    = 0;

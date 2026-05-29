@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GITProtocol
 {
-    #region 메시지코드
+    #region 消息代码
     public enum CQ9MessageCode
     {
         InitGame1Request            = 11,

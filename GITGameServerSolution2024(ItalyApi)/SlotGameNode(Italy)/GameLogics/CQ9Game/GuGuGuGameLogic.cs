@@ -13,7 +13,7 @@ namespace SlotGamesNode.GameLogics
 {
     class GuGuGuGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -72,7 +72,7 @@ namespace SlotGamesNode.GameLogics
                     "{\"lang\":\"es\",\"name\":\"GuGuGu\"}," +
                     "{\"lang\":\"id\",\"name\":\"GuGuGu\"}," +
                     "{\"lang\":\"ja\",\"name\":\"グググ\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"구구구\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"九九九\"}," +
                     "{\"lang\":\"th\",\"name\":\"กูกูกู\"}," +
                     "{\"lang\":\"vn\",\"name\":\"GuGuGu\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"咕咕咕\"}]";

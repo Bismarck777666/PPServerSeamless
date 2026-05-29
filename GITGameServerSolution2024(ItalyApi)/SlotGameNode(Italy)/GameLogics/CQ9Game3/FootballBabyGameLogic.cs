@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
    
     class FootballBabyGameLogic : BaseCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             {
                 return "[{\"lang\":\"en\",\"name\":\"Football Baby\"}," +
                     "{\"lang\":\"pt-br\",\"name\":\"Bebê de Futebol\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"풋볼 베이비\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"足球宝贝\"}," +
                     "{\"lang\":\"th\",\"name\":\"ฟุตบอล ทารก\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"足球宝贝\"}]";
             }

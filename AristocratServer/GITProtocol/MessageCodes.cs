@@ -59,7 +59,7 @@ namespace GITProtocol
         CS_HEARTBEAT        = 0,
         CS_LOGIN            = 1,
         CS_ENTERGAME        = 18,
-        CS_FORCEOUTUSER     = 26,   //유저강퇴
+        CS_FORCEOUTUSER     = 26,   //用户强制踢出
 
         CS_SLOTGAMESTART        = 2000,        
         CS_PP_DOINIT            = 2000,

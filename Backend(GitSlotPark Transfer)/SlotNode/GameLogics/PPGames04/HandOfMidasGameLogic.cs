@@ -33,7 +33,7 @@ namespace SlotGamesNode.GameLogics
     {
         protected double[] _totalFreeSpinWinRates = new double[3];
         protected double[] _minFreeSpinWinRates   = new double[3];
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -147,7 +147,7 @@ namespace SlotGamesNode.GameLogics
                 BasePPSlotBetInfo oldBetInfo = null;
                 if (_dicUserBetInfos.TryGetValue(strGlobalUserID, out oldBetInfo))
                 {
-                    //만일 유저에게 남은 응답이 존재하는 경우
+                    //如果用户存在剩余响应的情况
                     if (oldBetInfo.HasRemainResponse)
                         return;
 
@@ -197,7 +197,7 @@ namespace SlotGamesNode.GameLogics
             _dicUserHistory[strGlobalUserID].baseBet = betInfo.TotalBet;
             _dicUserHistory[strGlobalUserID].win = spinResult.TotalWin;
 
-            //빈스핀인 경우이다.
+            //如果是免费旋转的情况。
             if (spinResult.NextAction == ActionTypes.DOSPIN)
                 return true;
 

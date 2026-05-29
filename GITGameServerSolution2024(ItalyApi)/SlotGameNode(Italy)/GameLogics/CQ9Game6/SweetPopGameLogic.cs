@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class SweetPopGameLogic : BaseCQ9TembleGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -70,7 +70,7 @@ namespace SlotGamesNode.GameLogics
             get
             {
                 return "[{\"lang\":\"en\",\"name\":\"Sweet POP\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"스위트 팝\"}," +
+                    "{\"lang\":\"ko\",\"name\":\"甜爆米花\"}," +
                     "{\"lang\":\"th\",\"name\":\"ป๊อป หวาน\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"甜蜜暴击\"}]";
             }

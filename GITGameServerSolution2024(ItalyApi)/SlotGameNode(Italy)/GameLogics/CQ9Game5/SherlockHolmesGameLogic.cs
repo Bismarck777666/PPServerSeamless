@@ -15,7 +15,7 @@ namespace SlotGamesNode.GameLogics
    
     class SherlockHolmesGameLogic : BaseSelFreeCQ9SlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -83,7 +83,7 @@ namespace SlotGamesNode.GameLogics
                     "{\"lang\":\"th\",\"name\":\"เชอร์ล็อค โฮล์มส์\"}," +
                     "{\"lang\":\"vn\",\"name\":\"Sherlock Holmes\"}," +
                     "{\"lang\":\"zh-cn\",\"name\":\"福尔摩斯\"}," +
-                    "{\"lang\":\"ko\",\"name\":\"셜록 홈즈\"}]";
+                    "{\"lang\":\"ko\",\"name\":\"夏洛克 福尔摩斯\"}]";
             }
         }
         #endregion

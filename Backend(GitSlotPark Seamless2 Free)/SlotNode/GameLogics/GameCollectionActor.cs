@@ -41,7 +41,7 @@ namespace SlotGamesNode.GameLogics
 
         protected void createGameLogicActors()
         {
-            //슬롯게임들
+            //老虎机游戏
             _dicGameLogicActors.Add(GAMEID.AfricanElephant,         Context.ActorOf(Props.Create(() => new AfricanElephantGameLogic()), "AfricanElephant"));
             _dicGameLogicActors.Add(GAMEID.GodsOfGiza,              Context.ActorOf(Props.Create(() => new GodsOfGizaGameLogic()), "GodsOfGiza"));
             _dicGameLogicActors.Add(GAMEID.JaneHunter,              Context.ActorOf(Props.Create(() => new JaneHunterGameLogic()), "JaneHunter"));
@@ -706,7 +706,7 @@ namespace SlotGamesNode.GameLogics
             GAMEID gameID = (GAMEID) enterGameMessage.GameID;
             if (!_dicGameLogicActors.ContainsKey(gameID))
             {
-                Sender.Tell(new EnterGameResponse((int) gameID, Self, 1));  //해당 게임이 존재하지 않음
+                Sender.Tell(new EnterGameResponse((int) gameID, Self, 1));  //该游戏不存在
                 return;
             }
 

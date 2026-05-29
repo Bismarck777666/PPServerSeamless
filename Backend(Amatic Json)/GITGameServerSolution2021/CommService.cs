@@ -22,7 +22,7 @@ namespace CommNode
             var logger = NLog.LogManager.GetCurrentClassLogger();
             logger.Info("Starting Connect Service...");
 
-            //먼저 설정정보를 검사한다.
+            //首先检查配置信息。
             Config clusterConfig = null;
             try
             {
@@ -41,7 +41,7 @@ namespace CommNode
                 return false;
             }
 
-            //Redis 자료기지정보를 설정한다.
+            //设置Redis数据库信息。
             var redisConfig = connectorConfig.GetConfig("redis");
             if (redisConfig == null)
             {
@@ -50,10 +50,10 @@ namespace CommNode
             }
             setRedisInfo(redisConfig);
 
-            //액터시스템을 창조한다.
+            //创建参与者系统。
             _connectSystem = CommHostFactory.LauchCommNode(clusterConfig);
 
-            //부트스트랩액터를 창조한다.
+            //创建引导参与者。
             _bootstrapActor = _connectSystem.ActorOf(BootstrapActor.Props(connectorConfig), "bootstrapper");
             _bootstrapActor.Tell("startService");
             return true;

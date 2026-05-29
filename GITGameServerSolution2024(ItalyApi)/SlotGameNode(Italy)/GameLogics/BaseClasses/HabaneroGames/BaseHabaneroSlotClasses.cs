@@ -24,7 +24,7 @@ namespace SlotGamesNode.GameLogics
         public float    CoinValue           { get; set; }
         public int      BetLevel            { get; set; }
         public int      LineCount           { get; set; }
-        public float    MiniBet             { get; set; }//읽기로부터 얻지않는 고유속성값
+        public float    MiniBet             { get; set; }//不从读取中获取的固有属性值
         public int      PurchaseFree        { get; set; }
         public int      MoreBet             { get; set; }
         public BasePPSlotSpinData SpinData  { get; set; }

@@ -18,7 +18,7 @@ namespace SlotGamesNode.Database
         private readonly ILoggingAdapter _logger        = Logging.GetLogger(Context);
         private string                   _dbName        = "ppspindb";
        
-        //private string                   _dbConnString  = "mongodb://205.209.110.86";   //PP Server 2 을 위한 디비
+        //private string                   _dbConnString  = "mongodb://205.209.110.86";   //用于PP Server 2的数据库
         private string                   _dbConnString  = "mongodb://localhost";
 
         public SpinDBReader() 

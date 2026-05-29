@@ -14,7 +14,7 @@ namespace SlotGamesNode.GameLogics
         {
             BaseBNGSlotSpinResult spinResult = base.calculateResult(strGlobalUserID,currency, betInfo, strSpinResponse, isFirst, action);
 
-            //결과생성후 hill값 변환
+            //生成结果后转换hill值
             spinResult.ResultString = changeAchievment(spinResult.ResultString, strGlobalUserID, currency, action);
             return spinResult;
         }

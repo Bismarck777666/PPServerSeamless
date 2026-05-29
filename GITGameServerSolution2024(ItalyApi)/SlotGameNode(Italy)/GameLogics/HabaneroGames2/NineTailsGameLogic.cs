@@ -11,7 +11,7 @@ namespace SlotGamesNode.GameLogics
 {
     public class NineTailsGameLogic : BaseHabaneroSlotGame
     {
-        #region 게임고유속성값
+        #region 游戏固有属性值
         protected override string SymbolName
         {
             get
@@ -67,16 +67,16 @@ namespace SlotGamesNode.GameLogics
             {
                 return new Dictionary<int, HabaneroLogSymbolIDName>()
                 {
-                    {1,   new HabaneroLogSymbolIDName{id = "idWild",    name = "Wild"       } },    //흰여우(와일드)
-                    {2,   new HabaneroLogSymbolIDName{id = "idScatter", name = "Scatter"    } },    //스캐터
-                    {3,   new HabaneroLogSymbolIDName{id = "idMask",    name = "Mask"       } },    //가면
-                    {4,   new HabaneroLogSymbolIDName{id = "idFan",     name = "Fan"        } },    //부채
-                    {5,   new HabaneroLogSymbolIDName{id = "idBells",   name = "Bells"      } },    //방울
-                    {6,   new HabaneroLogSymbolIDName{id = "idLantern", name = "Lantern"    } },    //야경등
-                    {7,   new HabaneroLogSymbolIDName{id = "idRed",     name = "Red"        } },    //빨강불
-                    {8,   new HabaneroLogSymbolIDName{id = "idBlue",    name = "Blue"       } },    //파란불
-                    {9,   new HabaneroLogSymbolIDName{id = "idGreen",   name = "Green"      } },    //풀색불
-                    {10,  new HabaneroLogSymbolIDName{id = "idPurple",  name = "Purple"     } },    //보라색불
+                    {1,   new HabaneroLogSymbolIDName{id = "idWild",    name = "Wild"       } },    //白狐(野性)
+                    {2,   new HabaneroLogSymbolIDName{id = "idScatter", name = "Scatter"    } },    //分散
+                    {3,   new HabaneroLogSymbolIDName{id = "idMask",    name = "Mask"       } },    //面具
+                    {4,   new HabaneroLogSymbolIDName{id = "idFan",     name = "Fan"        } },    //扇子
+                    {5,   new HabaneroLogSymbolIDName{id = "idBells",   name = "Bells"      } },    //铃铛
+                    {6,   new HabaneroLogSymbolIDName{id = "idLantern", name = "Lantern"    } },    //夜景灯
+                    {7,   new HabaneroLogSymbolIDName{id = "idRed",     name = "Red"        } },    //红灯
+                    {8,   new HabaneroLogSymbolIDName{id = "idBlue",    name = "Blue"       } },    //蓝灯
+                    {9,   new HabaneroLogSymbolIDName{id = "idGreen",   name = "Green"      } },    //绿灯
+                    {10,  new HabaneroLogSymbolIDName{id = "idPurple",  name = "Purple"     } },    //紫色灯
                 };
             }
         }
