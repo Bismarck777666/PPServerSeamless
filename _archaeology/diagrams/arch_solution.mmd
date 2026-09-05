@@ -1,0 +1,40 @@
+graph TB
+    subgraph SOLN["Backend(GitSlotPark Seamless2).sln — Akka.NET 集群内部架构"]
+        LH["Lighthouse<br/>━━━<br/>Petabridge 种子节点服务<br/>集群成员发现<br/>seednodes: akka.tcp://godgaming@:4055"]
+
+        subgraph ROLES["集群节点角色（Topshelf Windows 服务托管）"]
+            FN["FrontNode (role: front)<br/>━━━<br/>OWIN 自托管 WebAPI<br/>PPServiceController<br/>PPHistoryController<br/>PPReplayController<br/>PPPromoController<br/>HTTPWorkActor 池"]
+            AN["ApiNode (role: api)<br/>━━━<br/>GITApiController<br/>AgentActor/AgentManager<br/>ChipsetManager<br/>运营商开户/充提 API"]
+            UN["UserNode (role: user)<br/>━━━<br/>UserActor per 在线用户<br/>UserManager<br/>会话/余额/投注状态"]
+            SN["SlotNode (role: slot)<br/>━━━<br/>GameCollectionActor<br/>411 个 GameLogic Actor<br/>PayoutPoolActor 奖池<br/>BasePPSlotGame 基类体系"]
+            AI["ApiIntegration (role: apintegration)<br/>━━━<br/>CallbackApiController<br/>Seamless 钱包回调<br/>上游 PP 官方 API 对接"]
+        end
+
+        GP[("GITProtocol 类库<br/>━━━<br/>GITMessage 消息基类<br/>GAMEID 枚举 (464 个游戏 ID)<br/>BetweenServersMessage<br/>PcgRandom 随机数")]
+
+        subgraph DBP["数据库代理层（每节点内置）"]
+            DBPW["DBProxyWriter<br/>DBWriteWorker 池"]
+            DBPR["DBProxyReader<br/>consistent-hashing-pool"]
+            DBMON["DBProxyMonitor<br/>MonitorSnapshot 监控"]
+            RDS["RedisDatabase<br/>RedisWriter"]
+        end
+    end
+
+    MSSQL[("MS SQL Server 1433<br/>gitslotpark_seamless<br/>EntityFramework 6")]
+    REDIS[("Redis 6379")]
+    MONGO[("MongoDB + mongocrypt<br/>字段级加密")]
+
+    FN & AN & UN & SN & AI -->|"项目引用 (ProjectReference)"| GP
+    LH -.->|"Akka.Cluster 成员发现"| FN
+    FN -->|"Ask/Tell GITMessage"| UN
+    UN -->|"游戏请求路由"| SN
+    AI -->|"钱包操作"| UN
+    AN -->|"代理操作"| UN
+
+    DBPW --> MSSQL
+    DBPR --> MSSQL
+    RDS --> REDIS
+    SN --> MONGO
+
+    style GP fill:#ffd700,stroke:#b8860b
+    style LH fill:#e6e6fa,stroke:#6a5acd
