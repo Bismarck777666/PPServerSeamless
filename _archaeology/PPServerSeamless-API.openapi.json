@@ -1,0 +1,1273 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "PPServerSeamless — 全解决方案 HTTP API 面",
+    "version": "1.0.0",
+    "description": "从 C# ASP.NET WebAPI 控制器 [RoutePrefix]/[Route]/[Http*] 特性自动还原。涵盖 9 套解决方案共 298 个端点：玩家协议网关(PP/BNG/CQ9/Habanero/Playson)、Seamless 钱包回调(GetBalance/Withdraw/Deposit/Rollback/BetWin)、运营商 GIT API、历史/回放/促销接口。"
+  },
+  "tags": [
+    { "name": "AristocratServer · CommNode" },
+    { "name": "AristocratServer · QueenApiNode" },
+    { "name": "AristocratServer · SeamlessApiNode" },
+    { "name": "Backend(GitSlotPark AmaticSeamless) · ApiIntegration" },
+    { "name": "Backend(GitSlotPark AmaticSeamless) · ApiNode" },
+    { "name": "Backend(GitSlotPark Seamless2 Free) · ApiIntegration" },
+    { "name": "Backend(GitSlotPark Seamless2 Free) · ApiNode" },
+    { "name": "Backend(GitSlotPark Seamless2 Free) · FrontNode" },
+    { "name": "Backend(GitSlotPark Seamless2) · ApiIntegration" },
+    { "name": "Backend(GitSlotPark Seamless2) · ApiNode" },
+    { "name": "Backend(GitSlotPark Seamless2) · FrontNode" },
+    { "name": "Backend(GitSlotPark Transfer) · ApiNode" },
+    { "name": "Backend(GitSlotPark Transfer) · FrontNode" },
+    { "name": "Backend(PGSoft) · ApiIntegration" },
+    { "name": "Backend(PGSoft) · ApiNode" },
+    { "name": "Backend(PGSoft) · BackendServer" },
+    { "name": "Backend(PGSoft) · FrontNode" },
+    { "name": "EGTSlotBackend · EGTSlotBackend" },
+    { "name": "GITGameServerSolution2024(ItalyApi) · ApiNode" },
+    { "name": "GITGameServerSolution2024(ItalyApi) · CommunicationNode" },
+    { "name": "GreentubeSlotBackend · GreentubeSlotBackend" }
+  ],
+  "paths": {
+    "/AuthenticationVerify/GetBetHistoryVerifyHtml": {
+      "post": {
+        "summary": "PGVerifyApiController.GetVerifyHtml",
+        "operationId": "PGVerifyApiController_GetVerifyHtml",
+        "tags": ["Backend(PGSoft) · FrontNode", "PGVerifyApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/BetWin": {
+      "post": {
+        "summary": "CallbackApiController.doBetWin [GreentubeSlotBackend]",
+        "operationId": "CallbackApiController_doBetWin",
+        "tags": ["GreentubeSlotBackend · GreentubeSlotBackend", "CallbackApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/Deposit": {
+      "post": {
+        "summary": "CallbackApiController.doDeposit [AristocratServer]",
+        "operationId": "CallbackApiController_doDeposit",
+        "tags": ["AristocratServer · CommNode", "CallbackApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/GetBalance": {
+      "post": {
+        "summary": "CallbackApiController.doGetBalance [AristocratServer]",
+        "operationId": "CallbackApiController_doGetBalance",
+        "tags": ["AristocratServer · CommNode", "CallbackApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/RollbackTransaction": {
+      "post": {
+        "summary": "CallbackApiController.doRollback [AristocratServer]",
+        "operationId": "CallbackApiController_doRollback",
+        "tags": ["AristocratServer · CommNode", "CallbackApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/Withdraw": {
+      "post": {
+        "summary": "CallbackApiController.doWithdraw [AristocratServer]",
+        "operationId": "CallbackApiController_doWithdraw",
+        "tags": ["AristocratServer · CommNode", "CallbackApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/adminapi/agent/deposit": {
+      "post": {
+        "summary": "QueenApiController.doAgentDeposit [AristocratServer]",
+        "operationId": "QueenApiController_doAgentDeposit",
+        "tags": ["AristocratServer · QueenApiNode", "QueenApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/adminapi/agent/withdraw": {
+      "post": {
+        "summary": "QueenApiController.doAgentWithdraw [AristocratServer]",
+        "operationId": "QueenApiController_doAgentWithdraw",
+        "tags": ["AristocratServer · QueenApiNode", "QueenApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/api/game/list": {
+      "post": {
+        "summary": "QueenApiController.doGetGameList",
+        "operationId": "QueenApiController_doGetGameList",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · ApiNode", "QueenApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/api/game/log": {
+      "post": {
+        "summary": "QueenApiController.doGetBetHistory",
+        "operationId": "QueenApiController_doGetBetHistory",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · ApiNode", "QueenApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/api/game/provider": {
+      "post": {
+        "summary": "QueenApiController.doGetGameProvider",
+        "operationId": "QueenApiController_doGetGameProvider",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · ApiNode", "QueenApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/api/game/start": {
+      "post": {
+        "summary": "QueenApiController.doGetGameURL",
+        "operationId": "QueenApiController_doGetGameURL",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · ApiNode", "QueenApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/api/getAgentBalance": {
+      "post": {
+        "summary": "QueenApiController.doGetAgentBalance",
+        "operationId": "QueenApiController_doGetAgentBalance",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · ApiNode", "QueenApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/api/user/balance": {
+      "post": {
+        "summary": "QueenApiController.doUserGetBalance",
+        "operationId": "QueenApiController_doUserGetBalance",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · ApiNode", "QueenApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/api/user/cashflow": {
+      "post": {
+        "summary": "QueenApiController.doGetUserCashFlow",
+        "operationId": "QueenApiController_doGetUserCashFlow",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · ApiNode", "QueenApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/api/user/create": {
+      "post": {
+        "summary": "QueenApiController.doUserCreate",
+        "operationId": "QueenApiController_doUserCreate",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · ApiNode", "QueenApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/api/user/deposit": {
+      "post": {
+        "summary": "QueenApiController.doUserDeposit",
+        "operationId": "QueenApiController_doUserDeposit",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · ApiNode", "QueenApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/api/user/usersbalance": {
+      "post": {
+        "summary": "QueenApiController.doGetAllUserBalance",
+        "operationId": "QueenApiController_doGetAllUserBalance",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · ApiNode", "QueenApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/api/user/withdraw": {
+      "post": {
+        "summary": "QueenApiController.doUserWithdraw",
+        "operationId": "QueenApiController_doUserWithdraw",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · ApiNode", "QueenApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/cancelfreegame": {
+      "post": {
+        "summary": "GITApiController.doCancelFreeGame",
+        "operationId": "GITApiController_doCancelFreeGame",
+        "tags": ["Backend(GitSlotPark Seamless2 Free) · ApiNode", "GITApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/createfreegame": {
+      "post": {
+        "summary": "GITApiController.doCreateFreeGame",
+        "operationId": "GITApiController_doCreateFreeGame",
+        "tags": ["Backend(GitSlotPark Seamless2 Free) · ApiNode", "GITApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/game-api/lobby/Rating/Add": {
+      "post": {
+        "summary": "PGGameApiController.doLobbyRatingAdd",
+        "operationId": "PGGameApiController_doLobbyRatingAdd",
+        "tags": ["Backend(PGSoft) · BackendServer", "PGGameApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/game-api/lobby/Rating/Remove": {
+      "post": {
+        "summary": "PGGameApiController.doLobbyRatingRemove",
+        "operationId": "PGGameApiController_doLobbyRatingRemove",
+        "tags": ["Backend(PGSoft) · BackendServer", "PGGameApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/game-api/lobby/Resource/GetAllGamesResources": {
+      "post": {
+        "summary": "PGGameApiController.doWebLobbyGetGameResources",
+        "operationId": "PGGameApiController_doWebLobbyGetGameResources",
+        "tags": ["Backend(PGSoft) · BackendServer", "PGGameApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/game-api/lobby/WebLobby/Get": {
+      "post": {
+        "summary": "PGGameApiController.doWebLobbyGet",
+        "operationId": "PGGameApiController_doWebLobbyGet",
+        "tags": ["Backend(PGSoft) · BackendServer", "PGGameApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/game-api/lobby/gameInfo/v1/getGameDetails": {
+      "post": {
+        "summary": "PGGameApiController.doWebLobbyGetGameDetails",
+        "operationId": "PGGameApiController_doWebLobbyGetGameDetails",
+        "tags": ["Backend(PGSoft) · BackendServer", "PGGameApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/game-api/lobby/tournament/v1/GetInitTournaments": {
+      "post": {
+        "summary": "PGGameApiController.doGetInitTournaments",
+        "operationId": "PGGameApiController_doGetInitTournaments",
+        "tags": ["Backend(PGSoft) · BackendServer", "PGGameApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/game-api/{gameSymbol}/v2/GameInfo/Get": {
+      "post": {
+        "summary": "PGGameApiController.doGetGameInfo [Backend(PGSoft)]",
+        "operationId": "PGGameApiController_doGetGameInfo",
+        "tags": ["Backend(PGSoft) · BackendServer", "PGGameApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "parameters": [
+          { "name": "gameSymbol", "in": "query", "required": false, "schema": { "type": "string" } },
+          { "name": "traceId", "in": "query", "required": false, "schema": { "type": "string" } }
+        ]
+      }
+    },
+    "/game-api/{gameSymbol}/v2/GameInfo/Update": {
+      "post": {
+        "summary": "PGGameApiController.doUpdateGameInfo [Backend(PGSoft)]",
+        "operationId": "PGGameApiController_doUpdateGameInfo",
+        "tags": ["Backend(PGSoft) · BackendServer", "PGGameApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "parameters": [
+          { "name": "gameSymbol", "in": "query", "required": false, "schema": { "type": "string" } },
+          { "name": "traceId", "in": "query", "required": false, "schema": { "type": "string" } }
+        ]
+      }
+    },
+    "/game-api/{gameSymbol}/v2/Spin": {
+      "post": {
+        "summary": "PGGameApiController.doSpin [Backend(PGSoft)]",
+        "operationId": "PGGameApiController_doSpin",
+        "tags": ["Backend(PGSoft) · BackendServer", "PGGameApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "parameters": [
+          { "name": "gameSymbol", "in": "query", "required": false, "schema": { "type": "string" } },
+          { "name": "traceId", "in": "query", "required": false, "schema": { "type": "string" } }
+        ]
+      }
+    },
+    "/game-api/{gameSymbol}/v2/Spin/Bonus": {
+      "post": {
+        "summary": "PGGameApiController.doBonus [Backend(PGSoft)]",
+        "operationId": "PGGameApiController_doBonus",
+        "tags": ["Backend(PGSoft) · BackendServer", "PGGameApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "parameters": [
+          { "name": "gameSymbol", "in": "query", "required": false, "schema": { "type": "string" } },
+          { "name": "traceId", "in": "query", "required": false, "schema": { "type": "string" } }
+        ]
+      }
+    },
+    "/game-api/{gameSymbol}/v2/Spin/Free/PlayerSelection": {
+      "post": {
+        "summary": "PGGameApiController.doFreeSelection [Backend(PGSoft)]",
+        "operationId": "PGGameApiController_doFreeSelection",
+        "tags": ["Backend(PGSoft) · BackendServer", "PGGameApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "parameters": [
+          { "name": "gameSymbol", "in": "query", "required": false, "schema": { "type": "string" } },
+          { "name": "traceId", "in": "query", "required": false, "schema": { "type": "string" } }
+        ]
+      }
+    },
+    "/game-api/{gameSymbol}/v2/Spin/SelectPot": {
+      "post": {
+        "summary": "PGGameApiController.doSelectPot [Backend(PGSoft)]",
+        "operationId": "PGGameApiController_doSelectPot",
+        "tags": ["Backend(PGSoft) · BackendServer", "PGGameApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "parameters": [
+          { "name": "gameSymbol", "in": "query", "required": false, "schema": { "type": "string" } },
+          { "name": "traceId", "in": "query", "required": false, "schema": { "type": "string" } }
+        ]
+      }
+    },
+    "/game-api/{gameSymbol}/v2/selectcharacter": {
+      "post": {
+        "summary": "PGGameApiController.doSelectCharacter [Backend(PGSoft)]",
+        "operationId": "PGGameApiController_doSelectCharacter",
+        "tags": ["Backend(PGSoft) · BackendServer", "PGGameApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "parameters": [
+          { "name": "gameSymbol", "in": "query", "required": false, "schema": { "type": "string" } },
+          { "name": "traceId", "in": "query", "required": false, "schema": { "type": "string" } }
+        ]
+      }
+    },
+    "/game/list": {
+      "post": {
+        "summary": "QueenApiController.doGetGameList [AristocratServer]",
+        "operationId": "QueenApiController_doGetGameList",
+        "tags": ["AristocratServer · QueenApiNode", "QueenApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/game/log": {
+      "post": {
+        "summary": "GITApiController.doGetBetHistory [AristocratServer]",
+        "operationId": "GITApiController_doGetBetHistory",
+        "tags": ["AristocratServer · SeamlessApiNode", "GITApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/game/start": {
+      "post": {
+        "summary": "QueenApiController.doGetGameURL [AristocratServer]",
+        "operationId": "QueenApiController_doGetGameURL",
+        "tags": ["AristocratServer · QueenApiNode", "QueenApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gamelist": {
+      "post": {
+        "summary": "GITApiController.doGetGameList [AristocratServer]",
+        "operationId": "GITApiController_doGetGameList",
+        "tags": ["AristocratServer · SeamlessApiNode", "GITApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/getAgentBalance": {
+      "post": {
+        "summary": "QueenApiController.doGetAgentBalance [AristocratServer]",
+        "operationId": "QueenApiController_doGetAgentBalance",
+        "tags": ["AristocratServer · QueenApiNode", "QueenApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/amatic/service/auth.do": {
+      "post": {
+        "summary": "AmaticServiceController.doAuth",
+        "operationId": "AmaticServiceController_doAuth",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · CommunicationNode", "AmaticServiceController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/aristo/service/auth.do": {
+      "post": {
+        "summary": "PPServiceController.doAuth",
+        "operationId": "PPServiceController_doAuth",
+        "tags": ["AristocratServer · CommNode", "PPServiceController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/aristo/service/gameService": {
+      "post": {
+        "summary": "PPServiceController.gameService",
+        "operationId": "PPServiceController_gameService",
+        "tags": ["AristocratServer · CommNode", "PPServiceController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/aristo/service/logout.do": {
+      "post": {
+        "summary": "PPServiceController.doLogout",
+        "operationId": "PPServiceController_doLogout",
+        "tags": ["AristocratServer · CommNode", "PPServiceController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/aristo/service/reloadBalance.do": {
+      "post": {
+        "summary": "PPServiceController.reloadBalance",
+        "operationId": "PPServiceController_reloadBalance",
+        "tags": ["AristocratServer · CommNode", "PPServiceController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/aristo/service/stats.do": {
+      "post": {
+        "summary": "PPServiceController.doStats",
+        "operationId": "PPServiceController_doStats",
+        "tags": ["AristocratServer · CommNode", "PPServiceController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/aristo/service/withdraw.do.begin": {
+      "post": {
+        "summary": "PPServiceController.doWithdrawBegin",
+        "operationId": "PPServiceController_doWithdrawBegin",
+        "tags": ["AristocratServer · CommNode", "PPServiceController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/aristo/service/withdraw.do.end": {
+      "post": {
+        "summary": "PPServiceController.doWithdrawEnd",
+        "operationId": "PPServiceController_doWithdrawEnd",
+        "tags": ["AristocratServer · CommNode", "PPServiceController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/bng/history/v1/game/list": {
+      "post": {
+        "summary": "BNGHistoryController.doGameList",
+        "operationId": "BNGHistoryController_doGameList",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · CommunicationNode", "BNGHistoryController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/bng/history/v1/playergame/aggregate": {
+      "post": {
+        "summary": "BNGHistoryController.doAggregate",
+        "operationId": "BNGHistoryController_doAggregate",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · CommunicationNode", "BNGHistoryController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/bng/history/v1/transaction/getdetail": {
+      "post": {
+        "summary": "BNGHistoryController.doGetDetail",
+        "operationId": "BNGHistoryController_doGetDetail",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · CommunicationNode", "BNGHistoryController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "parameters": [
+          { "name": "transactionid", "in": "query", "required": false, "schema": { "type": "string" } }
+        ]
+      }
+    },
+    "/gitapi/bng/history/v1/transaction/list": {
+      "post": {
+        "summary": "BNGHistoryController.doTransactionList",
+        "operationId": "BNGHistoryController_doTransactionList",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · CommunicationNode", "BNGHistoryController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/bng/service/auth.do": {
+      "post": {
+        "summary": "BNGServiceController.doAuth",
+        "operationId": "BNGServiceController_doAuth",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · CommunicationNode", "BNGServiceController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/bng/service/{gameSymbol}/prod": {
+      "post": {
+        "summary": "BNGServiceController.doService",
+        "operationId": "BNGServiceController_doService",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · CommunicationNode", "BNGServiceController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "parameters": [
+          { "name": "gameSymbol", "in": "query", "required": false, "schema": { "type": "string" } }
+        ]
+      }
+    },
+    "/gitapi/cq9/history/inquire/db/wager": {
+      "post": {
+        "summary": "CQ9HistoryController.doRoundDetail",
+        "operationId": "CQ9HistoryController_doRoundDetail",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · CommunicationNode", "CQ9HistoryController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "parameters": [
+          { "name": "token", "in": "query", "required": false, "schema": { "type": "string" } },
+          { "name": "id", "in": "query", "required": false, "schema": { "type": "string" } }
+        ]
+      }
+    },
+    "/gitapi/cq9/history/player_betting/search_id": {
+      "post": {
+        "summary": "CQ9HistoryController.doSearchRound",
+        "operationId": "CQ9HistoryController_doSearchRound",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · CommunicationNode", "CQ9HistoryController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "parameters": [
+          { "name": "token", "in": "query", "required": false, "schema": { "type": "string" } },
+          { "name": "id", "in": "query", "required": false, "schema": { "type": "string" } }
+        ]
+      }
+    },
+    "/gitapi/cq9/history/player_betting/search_time": {
+      "post": {
+        "summary": "CQ9HistoryController.doRoundList",
+        "operationId": "CQ9HistoryController_doRoundList",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · CommunicationNode", "CQ9HistoryController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "parameters": [
+          { "name": "token", "in": "query", "required": false, "schema": { "type": "string" } },
+          { "name": "begin", "in": "query", "required": false, "schema": { "type": "string" } },
+          { "name": "end", "in": "query", "required": false, "schema": { "type": "string" } },
+          { "name": "offset", "in": "query", "required": false, "schema": { "type": "integer" } },
+          { "name": "count", "in": "query", "required": false, "schema": { "type": "integer" } }
+        ]
+      }
+    },
+    "/gitapi/cq9/service/auth.do": {
+      "post": {
+        "summary": "CQ9ServiceController.doAuth",
+        "operationId": "CQ9ServiceController_doAuth",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · CommunicationNode", "CQ9ServiceController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/cq9/service/clientinfo": {
+      "post": {
+        "summary": "CQ9ServiceController.clientinfo",
+        "operationId": "CQ9ServiceController_clientinfo",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · CommunicationNode", "CQ9ServiceController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/cq9/service/ws": {
+      "post": {
+        "summary": "CQ9ServiceController.WS",
+        "operationId": "CQ9ServiceController_WS",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · CommunicationNode", "CQ9ServiceController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/habanero/history/GetGameDetails": {
+      "post": {
+        "summary": "HabaneroHistoryController.doGetGameDetail",
+        "operationId": "HabaneroHistoryController_doGetGameDetail",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · CommunicationNode", "HabaneroHistoryController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/habanero/history/GetHistory": {
+      "post": {
+        "summary": "HabaneroHistoryController.doGetHistory",
+        "operationId": "HabaneroHistoryController_doGetHistory",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · CommunicationNode", "HabaneroHistoryController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/habanero/service/auth.do": {
+      "post": {
+        "summary": "HabaneroServiceController.doAuth",
+        "operationId": "HabaneroServiceController_doAuth",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · CommunicationNode", "HabaneroServiceController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/habanero/service/ps": {
+      "post": {
+        "summary": "HabaneroServiceController.doService",
+        "operationId": "HabaneroServiceController_doService",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · CommunicationNode", "HabaneroServiceController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/habanero/service1/ps": {
+      "post": {
+        "summary": "HabaneroService1Controller.doService",
+        "operationId": "HabaneroService1Controller_doService",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · CommunicationNode", "HabaneroService1Controller"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/playson/history/build": {
+      "post": {
+        "summary": "PlaysonHistoryController.doBuild",
+        "operationId": "PlaysonHistoryController_doBuild",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · CommunicationNode", "PlaysonHistoryController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/playson/history/game/list": {
+      "post": {
+        "summary": "PlaysonHistoryController.doGameList",
+        "operationId": "PlaysonHistoryController_doGameList",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · CommunicationNode", "PlaysonHistoryController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/playson/history/playergame/aggregate": {
+      "post": {
+        "summary": "PlaysonHistoryController.doAggregate",
+        "operationId": "PlaysonHistoryController_doAggregate",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · CommunicationNode", "PlaysonHistoryController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/playson/history/session-wlmsgid": {
+      "post": {
+        "summary": "PlaysonHistoryController.doGetDetail",
+        "operationId": "PlaysonHistoryController_doGetDetail",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · CommunicationNode", "PlaysonHistoryController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "parameters": [
+          { "name": "site_message_id", "in": "query", "required": false, "schema": { "type": "string" } }
+        ]
+      }
+    },
+    "/gitapi/playson/history/transaction/getroundid": {
+      "post": {
+        "summary": "PlaysonHistoryController.doGetRoundId",
+        "operationId": "PlaysonHistoryController_doGetRoundId",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · CommunicationNode", "PlaysonHistoryController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "parameters": [
+          { "name": "transactionid", "in": "query", "required": false, "schema": { "type": "string" } }
+        ]
+      }
+    },
+    "/gitapi/playson/history/transaction/list": {
+      "post": {
+        "summary": "PlaysonHistoryController.doTransactionList",
+        "operationId": "PlaysonHistoryController_doTransactionList",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · CommunicationNode", "PlaysonHistoryController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/playson/service/auth.do": {
+      "post": {
+        "summary": "PlaysonServiceController.doAuth",
+        "operationId": "PlaysonServiceController_doAuth",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · CommunicationNode", "PlaysonServiceController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/playson/service/bet/server.cgi": {
+      "post": {
+        "summary": "PlaysonServiceController.doBetService",
+        "operationId": "PlaysonServiceController_doBetService",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · CommunicationNode", "PlaysonServiceController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/playson/service/bonus/server.cgi": {
+      "post": {
+        "summary": "PlaysonServiceController.doBonusService",
+        "operationId": "PlaysonServiceController_doBonusService",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · CommunicationNode", "PlaysonServiceController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/playson/service/connect/server.cgi": {
+      "post": {
+        "summary": "PlaysonServiceController.doConnectService",
+        "operationId": "PlaysonServiceController_doConnectService",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · CommunicationNode", "PlaysonServiceController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/playson/service/next/server.cgi": {
+      "post": {
+        "summary": "PlaysonServiceController.doNextService",
+        "operationId": "PlaysonServiceController_doNextService",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · CommunicationNode", "PlaysonServiceController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/playson/service/reconnect/server.cgi": {
+      "post": {
+        "summary": "PlaysonServiceController.doReconnectService",
+        "operationId": "PlaysonServiceController_doReconnectService",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · CommunicationNode", "PlaysonServiceController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/playson/service/server.cgi": {
+      "post": {
+        "summary": "PlaysonServiceController.doService",
+        "operationId": "PlaysonServiceController_doService",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · CommunicationNode", "PlaysonServiceController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/playson/service/start/server.cgi": {
+      "post": {
+        "summary": "PlaysonServiceController.doStartService",
+        "operationId": "PlaysonServiceController_doStartService",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · CommunicationNode", "PlaysonServiceController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/playson/service/sync/server.cgi": {
+      "post": {
+        "summary": "PlaysonServiceController.doSyncService",
+        "operationId": "PlaysonServiceController_doSyncService",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · CommunicationNode", "PlaysonServiceController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/pp/history/v2/action/children": {
+      "post": {
+        "summary": "PPHistoryController.getItemDetail [AristocratServer]",
+        "operationId": "PPHistoryController_getItemDetail",
+        "tags": ["AristocratServer · CommNode", "PPHistoryController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/pp/history/v2/play-session/by-round": {
+      "post": {
+        "summary": "PPHistoryController.getByRound",
+        "operationId": "PPHistoryController_getByRound",
+        "tags": ["AristocratServer · CommNode", "PPHistoryController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/pp/history/v2/play-session/last-items": {
+      "post": {
+        "summary": "PPHistoryController.getLastItems [AristocratServer]",
+        "operationId": "PPHistoryController_getLastItems",
+        "tags": ["AristocratServer · CommNode", "PPHistoryController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/pp/history/v2/settings/general": {
+      "post": {
+        "summary": "PPHistoryController.getGeneralSettings [AristocratServer]",
+        "operationId": "PPHistoryController_getGeneralSettings",
+        "tags": ["AristocratServer · CommNode", "PPHistoryController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/pp/history/v3/action/children": {
+      "post": {
+        "summary": "PPHistoryController.getItemDetailV3",
+        "operationId": "PPHistoryController_getItemDetailV3",
+        "tags": ["Backend(GitSlotPark Seamless2 Free) · FrontNode", "PPHistoryController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/pp/promo/active": {
+      "post": {
+        "summary": "PPPromoController.getActivePromotions [AristocratServer]",
+        "operationId": "PPPromoController_getActivePromotions",
+        "tags": ["AristocratServer · CommNode", "PPPromoController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/pp/promo/announcements/unread": {
+      "post": {
+        "summary": "PPPromoController.getAnnountcmentsUnread",
+        "operationId": "PPPromoController_getAnnountcmentsUnread",
+        "tags": ["AristocratServer · CommNode", "PPPromoController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/pp/promo/frb/available": {
+      "post": {
+        "summary": "PPPromoController.getFrbAvailable [AristocratServer]",
+        "operationId": "PPPromoController_getFrbAvailable",
+        "tags": ["AristocratServer · CommNode", "PPPromoController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/pp/promo/gs2c/announcements/unread": {
+      "post": {
+        "summary": "PPPromoController.unRead",
+        "operationId": "PPPromoController_unRead",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · CommunicationNode", "PPPromoController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/pp/promo/race/details": {
+      "post": {
+        "summary": "PPPromoController.getRaceDetails [AristocratServer]",
+        "operationId": "PPPromoController_getRaceDetails",
+        "tags": ["AristocratServer · CommNode", "PPPromoController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/pp/promo/race/player/choice/OPTIN": {
+      "post": {
+        "summary": "PPPromoController.postRaceOptIn [AristocratServer]",
+        "operationId": "PPPromoController_postRaceOptIn",
+        "tags": ["AristocratServer · CommNode", "PPPromoController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/pp/promo/race/prizes": {
+      "post": {
+        "summary": "PPPromoController.getRacePrizes [AristocratServer]",
+        "operationId": "PPPromoController_getRacePrizes",
+        "tags": ["AristocratServer · CommNode", "PPPromoController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/pp/promo/race/v2/winners": {
+      "post": {
+        "summary": "PPPromoController.getRaceWinnersV2 [AristocratServer]",
+        "operationId": "PPPromoController_getRaceWinnersV2",
+        "tags": ["AristocratServer · CommNode", "PPPromoController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/pp/promo/race/v3/winners": {
+      "post": {
+        "summary": "PPPromoController.getRaceWinnersV3",
+        "operationId": "PPPromoController_getRaceWinnersV3",
+        "tags": ["Backend(GitSlotPark Seamless2 Free) · FrontNode", "PPPromoController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/pp/promo/race/winners": {
+      "post": {
+        "summary": "PPPromoController.getRaceWinners [AristocratServer]",
+        "operationId": "PPPromoController_getRaceWinners",
+        "tags": ["AristocratServer · CommNode", "PPPromoController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/pp/promo/tournament/details": {
+      "post": {
+        "summary": "PPPromoController.getTournamentDetails [AristocratServer]",
+        "operationId": "PPPromoController_getTournamentDetails",
+        "tags": ["AristocratServer · CommNode", "PPPromoController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/pp/promo/tournament/leaderboard": {
+      "post": {
+        "summary": "PPPromoController.getTournamentLeaderBoard [AristocratServer]",
+        "operationId": "PPPromoController_getTournamentLeaderBoard",
+        "tags": ["AristocratServer · CommNode", "PPPromoController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/pp/promo/tournament/player/choice/OPTIN": {
+      "post": {
+        "summary": "PPPromoController.postTournamentOptIn [AristocratServer]",
+        "operationId": "PPPromoController_postTournamentOptIn",
+        "tags": ["AristocratServer · CommNode", "PPPromoController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/pp/promo/tournament/scores": {
+      "post": {
+        "summary": "PPPromoController.getTournamentScores [AristocratServer]",
+        "operationId": "PPPromoController_getTournamentScores",
+        "tags": ["AristocratServer · CommNode", "PPPromoController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/pp/promo/tournament/v3/leaderboard": {
+      "post": {
+        "summary": "PPPromoController.getTournamentV3LeaderBoard [AristocratServer]",
+        "operationId": "PPPromoController_getTournamentV3LeaderBoard",
+        "tags": ["AristocratServer · CommNode", "PPPromoController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/pp/promo/v3/tournament/leaderboard": {
+      "post": {
+        "summary": "PPPromoController.getTournamentV3LeaderBoard2 [Backend(GitSlotPark Transfer)]",
+        "operationId": "PPPromoController_getTournamentV3LeaderBoard2",
+        "tags": ["Backend(GitSlotPark Transfer) · FrontNode", "PPPromoController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/pp/replay/data": {
+      "post": {
+        "summary": "PPReplayController.getReplayData [AristocratServer]",
+        "operationId": "PPReplayController_getReplayData",
+        "tags": ["AristocratServer · CommNode", "PPReplayController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/pp/replay/link": {
+      "post": {
+        "summary": "PPReplayController.makeReplayLink [AristocratServer]",
+        "operationId": "PPReplayController_makeReplayLink",
+        "tags": ["AristocratServer · CommNode", "PPReplayController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/pp/replay/list": {
+      "post": {
+        "summary": "PPReplayController.getReplayList [AristocratServer]",
+        "operationId": "PPReplayController_getReplayList",
+        "tags": ["AristocratServer · CommNode", "PPReplayController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/pp/service/auth.do": {
+      "post": {
+        "summary": "PPServiceController.doAuth [Backend(GitSlotPark Transfer)]",
+        "operationId": "PPServiceController_doAuth",
+        "tags": ["Backend(GitSlotPark Transfer) · FrontNode", "PPServiceController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/pp/service/gameService": {
+      "post": {
+        "summary": "PPServiceController.gameService [Backend(GitSlotPark Transfer)]",
+        "operationId": "PPServiceController_gameService",
+        "tags": ["Backend(GitSlotPark Transfer) · FrontNode", "PPServiceController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/pp/service/logout.do": {
+      "post": {
+        "summary": "PPServiceController.doLogout [Backend(GitSlotPark Transfer)]",
+        "operationId": "PPServiceController_doLogout",
+        "tags": ["Backend(GitSlotPark Transfer) · FrontNode", "PPServiceController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/pp/service/minilobbyGames": {
+      "post": {
+        "summary": "PPServiceController.getMiniLobbyGames [Backend(GitSlotPark Transfer)]",
+        "operationId": "PPServiceController_getMiniLobbyGames",
+        "tags": ["Backend(GitSlotPark Transfer) · FrontNode", "PPServiceController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/pp/service/reloadBalance.do": {
+      "post": {
+        "summary": "PPServiceController.reloadBalance [Backend(GitSlotPark Transfer)]",
+        "operationId": "PPServiceController_reloadBalance",
+        "tags": ["Backend(GitSlotPark Transfer) · FrontNode", "PPServiceController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/pp/service/saveSettings.do": {
+      "post": {
+        "summary": "PPServiceController.saveSettings [Backend(GitSlotPark Transfer)]",
+        "operationId": "PPServiceController_saveSettings",
+        "tags": ["Backend(GitSlotPark Transfer) · FrontNode", "PPServiceController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gitapi/pp/service/stats.do": {
+      "post": {
+        "summary": "PPServiceController.doStats [Backend(GitSlotPark Transfer)]",
+        "operationId": "PPServiceController_doStats",
+        "tags": ["Backend(GitSlotPark Transfer) · FrontNode", "PPServiceController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/gs2c/announcements/unread": {
+      "post": {
+        "summary": "PPPromoController.unRead [Backend(GitSlotPark Transfer)]",
+        "operationId": "PPPromoController_unRead",
+        "tags": ["Backend(GitSlotPark Transfer) · FrontNode", "PPPromoController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/jackpot-api/getGameJackpotInfo": {
+      "post": {
+        "summary": "PGJackpotApiController.getGameJackpotInfo",
+        "operationId": "PGJackpotApiController_getGameJackpotInfo",
+        "tags": ["Backend(PGSoft) · BackendServer", "PGJackpotApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "parameters": [
+          { "name": "gameId", "in": "query", "required": false, "schema": { "type": "integer" } }
+        ]
+      }
+    },
+    "/jackpot-api/getGameJackpotTheme": {
+      "post": {
+        "summary": "PGJackpotApiController.getGameJackpotTheme",
+        "operationId": "PGJackpotApiController_getGameJackpotTheme",
+        "tags": ["Backend(PGSoft) · BackendServer", "PGJackpotApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "parameters": [
+          { "name": "gameId", "in": "query", "required": false, "schema": { "type": "integer" } }
+        ]
+      }
+    },
+    "/user/balance": {
+      "post": {
+        "summary": "QueenApiController.doUserGetBalance [AristocratServer]",
+        "operationId": "QueenApiController_doUserGetBalance",
+        "tags": ["AristocratServer · QueenApiNode", "QueenApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/user/cashflow": {
+      "post": {
+        "summary": "GITApiController.doGetUserCashFlow",
+        "operationId": "GITApiController_doGetUserCashFlow",
+        "tags": ["Backend(GitSlotPark Transfer) · ApiNode", "GITApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/user/create": {
+      "post": {
+        "summary": "QueenApiController.doUserCreate [AristocratServer]",
+        "operationId": "QueenApiController_doUserCreate",
+        "tags": ["AristocratServer · QueenApiNode", "QueenApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/user/deposit": {
+      "post": {
+        "summary": "QueenApiController.doUserDeposit [AristocratServer]",
+        "operationId": "QueenApiController_doUserDeposit",
+        "tags": ["AristocratServer · QueenApiNode", "QueenApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/user/usersbalance": {
+      "post": {
+        "summary": "GITApiController.doGetAllUserBalance",
+        "operationId": "GITApiController_doGetAllUserBalance",
+        "tags": ["Backend(GitSlotPark Transfer) · ApiNode", "GITApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/user/withdraw": {
+      "post": {
+        "summary": "QueenApiController.doUserWithdraw [AristocratServer]",
+        "operationId": "QueenApiController_doUserWithdraw",
+        "tags": ["AristocratServer · QueenApiNode", "QueenApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/userAuth": {
+      "post": {
+        "summary": "GITApiController.doUserAuth [AristocratServer]",
+        "operationId": "GITApiController_doUserAuth",
+        "tags": ["AristocratServer · SeamlessApiNode", "GITApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/verify/api/session": {
+      "post": {
+        "summary": "PPVerifyController.getLastItems",
+        "operationId": "PPVerifyController_getLastItems",
+        "tags": ["GITGameServerSolution2024(ItalyApi) · CommunicationNode", "PPVerifyController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/web-api/auth/session/v1/verifyOperatorPlayerSession": {
+      "post": {
+        "summary": "PGWebApiController.verifyOperatorSessionV1",
+        "operationId": "PGWebApiController_verifyOperatorSessionV1",
+        "tags": ["Backend(PGSoft) · BackendServer", "PGWebApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/web-api/auth/session/v2/verifyOperatorPlayerSession": {
+      "post": {
+        "summary": "PGWebApiController.verifyOperatorSession [Backend(PGSoft)]",
+        "operationId": "PGWebApiController_verifyOperatorSession",
+        "tags": ["Backend(PGSoft) · BackendServer", "PGWebApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "parameters": [
+          { "name": "traceId", "in": "query", "required": false, "schema": { "type": "string" } }
+        ]
+      }
+    },
+    "/web-api/auth/session/v2/verifySession": {
+      "post": {
+        "summary": "PGWebApiController.verifySession [Backend(PGSoft)]",
+        "operationId": "PGWebApiController_verifySession",
+        "tags": ["Backend(PGSoft) · BackendServer", "PGWebApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "parameters": [
+          { "name": "traceId", "in": "query", "required": false, "schema": { "type": "string" } }
+        ]
+      }
+    },
+    "/web-api/game-proxy/v1v1/BetDetails/Get": {
+      "post": {
+        "summary": "PGWebApiController.doGetBetDetails",
+        "operationId": "PGWebApiController_doGetBetDetails",
+        "tags": ["Backend(PGSoft) · FrontNode", "PGWebApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "requestBody": { "content": { "application/x-www-form-urlencoded": { "schema": { "type": "object" } } } }
+      }
+    },
+    "/web-api/game-proxy/v2/BetHistory/Get": {
+      "post": {
+        "summary": "PGWebApiController.doGetBetHistory [Backend(PGSoft)]",
+        "operationId": "PGWebApiController_doGetBetHistory",
+        "tags": ["Backend(PGSoft) · BackendServer", "PGWebApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "parameters": [
+          { "name": "traceId", "in": "query", "required": false, "schema": { "type": "string" } }
+        ]
+      }
+    },
+    "/web-api/game-proxy/v2/BetSummary/Get": {
+      "post": {
+        "summary": "PGWebApiController.doGetBetSummary [Backend(PGSoft)]",
+        "operationId": "PGWebApiController_doGetBetSummary",
+        "tags": ["Backend(PGSoft) · BackendServer", "PGWebApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "parameters": [
+          { "name": "traceId", "in": "query", "required": false, "schema": { "type": "string" } }
+        ]
+      }
+    },
+    "/web-api/game-proxy/v2/GameName/Get": {
+      "post": {
+        "summary": "PGWebApiController.doGetGameNames [Backend(PGSoft)]",
+        "operationId": "PGWebApiController_doGetGameNames",
+        "tags": ["Backend(PGSoft) · BackendServer", "PGWebApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "parameters": [
+          { "name": "traceId", "in": "query", "required": false, "schema": { "type": "string" } }
+        ]
+      }
+    },
+    "/web-api/game-proxy/v2/GameRule/Get": {
+      "post": {
+        "summary": "PGWebApiController.doGetGameRule [Backend(PGSoft)]",
+        "operationId": "PGWebApiController_doGetGameRule",
+        "tags": ["Backend(PGSoft) · BackendServer", "PGWebApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "parameters": [
+          { "name": "traceId", "in": "query", "required": false, "schema": { "type": "string" } }
+        ]
+      }
+    },
+    "/web-api/game-proxy/v2/GameWallet/Get": {
+      "post": {
+        "summary": "PGWebApiController.doGetGameWallet [Backend(PGSoft)]",
+        "operationId": "PGWebApiController_doGetGameWallet",
+        "tags": ["Backend(PGSoft) · BackendServer", "PGWebApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "parameters": [
+          { "name": "traceId", "in": "query", "required": false, "schema": { "type": "string" } }
+        ]
+      }
+    },
+    "/web-api/game-proxy/v2/Resources/GetByResourcesTypeIds": {
+      "post": {
+        "summary": "PGWebApiController.doGetyResourcesTypeIds [Backend(PGSoft)]",
+        "operationId": "PGWebApiController_doGetyResourcesTypeIds",
+        "tags": ["Backend(PGSoft) · BackendServer", "PGWebApiController"],
+        "responses": { "200": { "description": "成功响应（详见实现）" } },
+        "parameters": [
+          { "name": "traceId", "in": "query", "required": false, "schema": { "type": "string" } }
+        ]
+      }
+    }
+  }
+}
