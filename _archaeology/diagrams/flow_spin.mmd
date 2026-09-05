@@ -1,0 +1,31 @@
+flowchart TD
+    START(["玩家点击旋转"]) --> CLIENT["PP 游戏客户端<br/>POST /gitapi/pp/service/gameService<br/>action=doSpin&mgckey=TOKEN&symbol=vs20xxx"]
+
+    CLIENT --> CTRL["FrontNode<br/>PPServiceController.gameService()<br/>━━━━━━━━━━<br/>1. 校验 mgckey/action/index/counter/symbol<br/>2. findUserIDFromToken()"]
+
+    CTRL -->|action == doInit| ENTER["procEnterGame()<br/>Ask → HTTPWorkActor<br/>HTTPEnterGameRequest"]
+    CTRL --> BUILD["buildSpinMessage()<br/>构造 GITMessage"]
+    ENTER --> BUILD
+
+    BUILD --> ASK["procMessage()<br/>Akka Ask → UserActor 会话<br/>超时 10s"]
+
+    subgraph CLUSTER["Akka.NET 集群 (actor system: godgaming)"]
+        ASK --> UA["UserNode<br/>UserActor<br/>━━━━━━━━━━<br/>会话状态机<br/>钱包余额校验<br/>防重放 index/counter"]
+        UA -->|PPSpinRequest| ROUTER["SlotNode<br/>GameCollectionActor<br/>round-robin / consistent-hashing 路由"]
+        ROUTER --> LOGIC["具体游戏逻辑 Actor<br/>xxxGameLogic.cs<br/>━━━━━━━━━━<br/>PCG 随机数 (PcgRandom)<br/>转轮/赔付计算<br/>PayoutPoolActor 奖池调节"]
+        LOGIC --> DBW["DBProxyWriter<br/>DBWriteWorker 池<br/>━━━━━━━━━━<br/>写注单/余额变动"]
+        LOGIC --> DBR["SpinDBReader<br/>consistent-hashing-pool<br/>读历史/配置"]
+        DBW --> SQL[("MS SQL Server<br/>gitslotpark_seamless")]
+        DBR --> SQL
+        UA --> REDIS[("Redis<br/>会话/余额缓存")]
+    end
+
+    LOGIC --> RESP["GITMessage 响应<br/>转轮结果+赢分"]
+    RESP --> UA2["UserActor<br/>结算: 扣注+派彩"]
+    UA2 --> HTTP["ToHTTPSessionMessage<br/>序列化为 PP 协议文本"]
+    HTTP --> CLIENTRESP(["HTTP 200<br/>返回转轮结果给客户端"])
+
+    style LOGIC fill:#90ee90,stroke:#2e8b57
+    style UA fill:#ffe4b5,stroke:#d2691e
+    style SQL fill:#add8e6,stroke:#4682b4
+    style REDIS fill:#ffb6c1,stroke:#c71585

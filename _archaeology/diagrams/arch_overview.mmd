@@ -1,0 +1,63 @@
+graph TB
+    subgraph EXT["外部世界"]
+        PLAYER["🎰 玩家游戏客户端<br/>(PP/Amatic/PGSoft 等 HTML5 客户端)"]
+        OPERATOR["🏢 运营商/代理后台<br/>(Agent / Cashier)"]
+        AGGREGATOR["🔌 聚合平台 API<br/>(Seamless Wallet 对接方)"]
+        PROVIDER["🎲 上游游戏提供商<br/>(官方 PP Seamless API 等)"]
+    end
+
+    subgraph REPO["PPServerSeamless 仓库 · 10 套独立部署的解决方案 · 共 72 个项目 / 67.6 万行 C#"]
+        direction TB
+
+        subgraph MAIN["主力方案 · Backend(GitSlotPark Seamless2) · 94.5K LOC"]
+            FN2["FrontNode<br/>PP 客户端协议网关<br/>auth/gameService/history"]
+            AN2["ApiNode<br/>运营商 GIT API"]
+            UN2["UserNode<br/>用户会话/钱包"]
+            SN2["SlotNode<br/>411 个游戏逻辑<br/>+ PayoutPool"]
+            AI2["ApiIntegration<br/>Seamless 回调集成"]
+            GP2[("GITProtocol<br/>共享消息协议库")]
+            LH2["Lighthouse<br/>集群种子节点"]
+        end
+
+        subgraph VARIANTS["同构变体（相同 7 节点架构，不同游戏供应商/地区）"]
+            FREE["Seamless2 Free<br/>582 个游戏逻辑<br/>138.5K LOC"]
+            TRANS["Transfer<br/>转账钱包模式<br/>574 个游戏逻辑"]
+            AMAT["AmaticSeamless<br/>206 个游戏逻辑"]
+            PGS["PGSoft<br/>+BackendServer<br/>+2 个 Fetcher"]
+            EGT["EGTSlotBackend<br/>100 个游戏逻辑"]
+            GTS["GreentubeSlotBackend<br/>129 个游戏逻辑"]
+        end
+
+        subgraph OTHER["异构方案"]
+            AMJ["Amatic Json<br/>CommunicationNode 架构<br/>167 个游戏逻辑"]
+            ITA["ItalyApi 2024<br/>意大利合规版<br/>482 个游戏逻辑"]
+            ARI["AristocratServer<br/>SlotCityCasino<br/>CommNode/PromoNode/<br/>QueenApi/SeamlessApi"]
+        end
+    end
+
+    subgraph DATA["数据层（每套方案独立部署）"]
+        MSSQL[("MS SQL Server<br/>主库")]
+        REDIS[("Redis<br/>会话/缓存/队列")]
+        MONGO[("MongoDB<br/>游戏记录")]
+    end
+
+    PLAYER -->|"HTTP: /gitapi/pp/service/*<br/>auth.do · gameService"| FN2
+    AGGREGATOR -->|"Seamless Wallet 回调<br/>balance/bet/result"| AI2
+    OPERATOR -->|"HTTP GIT API"| AN2
+    PROVIDER <-->|"上游游戏 API"| AI2
+    FN2 --> UN2
+    FN2 --> SN2
+    AN2 --> UN2
+    AI2 --> UN2
+    UN2 --> SN2
+    FN2 & AN2 & UN2 & SN2 & AI2 -.->|"引用"| GP2
+    LH2 -.->|"Akka.Cluster 种子发现"| FN2
+
+    FN2 & UN2 & SN2 & AI2 --> MSSQL
+    FN2 & UN2 & AI2 --> REDIS
+    SN2 --> MONGO
+
+    style GP2 fill:#ffd700,stroke:#b8860b
+    style LH2 fill:#e6e6fa,stroke:#6a5acd
+    style SN2 fill:#90ee90,stroke:#2e8b57
+    style FN2 fill:#87ceeb,stroke:#4682b4
